@@ -192,3 +192,63 @@
 [2023-05-05 00:10:58] INFO root fetch - main [MainThread]: End processing [nanomock]: success
 [2023-05-05 00:11:01] INFO root fetch - main [MainThread]: End processing [ycm-cmake-modules]: success
 [2023-05-05 00:11:01] INFO root fetch - main [MainThread]: Store serial: [17978540]
+[2023-05-05 00:16:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17978540]
+[2023-05-05 00:16:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-05 00:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hrin-msb
+[2023-05-05 00:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fedml-databricks
+[2023-05-05 00:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systematica
+[2023-05-05 00:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hoppr-security-commons
+[2023-05-05 00:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: momento
+[2023-05-05 00:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aij-webcam
+[2023-05-05 00:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dream-helpers
+[2023-05-05 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: webullsdk
+[2023-05-05 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vwo-python-sdk
+[2023-05-05 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloudify-utilities-plugins-sdk
+[2023-05-05 00:16:11] INFO root fetch - processPackages [fedml-databricks]: New version: [1.0.2.dev0] Old Version: [1.0.1.dev0]
+[2023-05-05 00:16:11] INFO root fetch - processPackages [hoppr-security-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 00:16:11] INFO root fetch - processPackages [momento]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-05 00:16:11] INFO root fetch - processPackages [systematica]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 00:16:11] INFO root fetch - processPackages [dream-helpers]: New version: [0.0.268] Old Version: [0.0.267]
+[2023-05-05 00:16:11] INFO root fetch - processPackages [aij-webcam]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 00:16:11] WARNING root fetch - processPackages [webullsdk]: Skipping, unable to determine old version
+[2023-05-05 00:16:11] INFO root fetch - main [MainThread]: End processing [webullsdk] error
+[2023-05-05 00:16:11] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 00:16:11] INFO root fetch - processPackages [vwo-python-sdk]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-05-05 00:16:11] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 00:16:11] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-05-05 00:16:11] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230505/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 00:16:11] INFO root fetch - processPackages [vwo-python-sdk]: executing diffoscope
+[2023-05-05 00:16:11] INFO root fetch - processPackages [vwo-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vwo-python-sdk-1.8.2.tar.gz tmp/vwo-python-sdk-1.9.0.tar.gz --markdown 20230505/v/vwo-python-sdk/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-05-05 00:16:11] INFO root fetch - processPackages [aij-webcam]: executing diffoscope
+[2023-05-05 00:16:11] INFO root fetch - processPackages [aij-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-webcam-1.0.8.tar.gz tmp/aij-webcam-1.0.9.tar.gz --markdown 20230505/a/aij-webcam/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 00:16:11] INFO root fetch - processPackages [systematica]: Downloading https://files.pythonhosted.org/packages/33/29/fb41e82be132232fee2a4f58283fa7d55cf81dbccf1bd84b68d36c7c3e1a/systematica-0.0.1.tar.gz
+[2023-05-05 00:16:11] INFO root fetch - processPackages [fedml-databricks]: Downloading https://files.pythonhosted.org/packages/09/f1/9a825ec7e984473f9ea8b3b51b4df6eb2de8b7446923d6de6e33b3c69c21/fedml_databricks-1.0.1.dev0.tar.gz
+[2023-05-05 00:16:11] INFO root fetch - processPackages [momento]: Downloading https://files.pythonhosted.org/packages/da/59/587c3794614c2cd619a1d09f3ddab48a5dfc0a7648b33fbbdf85587d2c63/momento-1.1.1.tar.gz
+[2023-05-05 00:16:11] INFO root fetch - processPackages [dream-helpers]: Downloading https://files.pythonhosted.org/packages/34/4b/79e59d95ac1ca06c9074d5a3b74d85a093ecece7e00871522af623f8dd15/dream_helpers-0.0.268.tar.gz
+[2023-05-05 00:16:11] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: Downloading https://files.pythonhosted.org/packages/fe/30/641f4a4a34af45b8e28564056cefa55e3cf9849be728f1d2b48800b95716/cloudify-utilities-plugins-sdk-0.0.98.tar.gz
+[2023-05-05 00:16:11] INFO root fetch - processPackages [dream-helpers]: executing diffoscope
+[2023-05-05 00:16:11] INFO root fetch - processPackages [dream-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dream_helpers-0.0.267.tar.gz tmp/dream_helpers-0.0.268.tar.gz --markdown 20230505/d/dream-helpers/0.0.267-0.0.268/diff.md --exclude *.pyd
+[2023-05-05 00:16:11] INFO root fetch - processPackages [systematica]: Downloading https://files.pythonhosted.org/packages/ba/a1/11e67e03a4382bfc8738a17a031bb29e0e825b623c80d32a6ed6fe8c5a06/systematica-0.0.2.tar.gz
+[2023-05-05 00:16:11] INFO root fetch - processPackages [momento]: Downloading https://files.pythonhosted.org/packages/5d/46/6d2f992cac8fd29cc24487b708e4ad3a01593d1cb28bc34432c0e50b0147/momento-1.2.0.tar.gz
+[2023-05-05 00:16:11] INFO root fetch - processPackages [hoppr-security-commons]: executing diffoscope
+[2023-05-05 00:16:11] INFO root fetch - processPackages [hoppr-security-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_security_commons-0.0.8.tar.gz tmp/hoppr_security_commons-0.0.9.tar.gz --markdown 20230505/h/hoppr-security-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 00:16:11] INFO root fetch - processPackages [systematica]: executing diffoscope
+[2023-05-05 00:16:11] INFO root fetch - processPackages [systematica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systematica-0.0.1.tar.gz tmp/systematica-0.0.2.tar.gz --markdown 20230505/s/systematica/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 00:16:11] INFO root fetch - processPackages [momento]: executing diffoscope
+[2023-05-05 00:16:11] INFO root fetch - processPackages [fedml-databricks]: Downloading https://files.pythonhosted.org/packages/5f/bf/2812abb011da618e8e364f69988f41abacc60b3af120f21fa626a6ae1e64/fedml_databricks-1.0.2.dev0.tar.gz
+[2023-05-05 00:16:11] INFO root fetch - processPackages [momento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento-1.1.1.tar.gz tmp/momento-1.2.0.tar.gz --markdown 20230505/m/momento/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-05 00:16:11] INFO root fetch - processPackages [fedml-databricks]: executing diffoscope
+[2023-05-05 00:16:11] INFO root fetch - processPackages [fedml-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml_databricks-1.0.1.dev0.tar.gz tmp/fedml_databricks-1.0.2.dev0.tar.gz --markdown 20230505/f/fedml-databricks/1.0.1.dev0-1.0.2.dev0/diff.md --exclude *.pyd
+[2023-05-05 00:16:11] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: Downloading https://files.pythonhosted.org/packages/40/f3/5ca7e752f0446054284eee4360d3c184b3a3a1734f5f942600df1c522618/cloudify-utilities-plugins-sdk-0.0.99.tar.gz
+[2023-05-05 00:16:11] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: executing diffoscope
+[2023-05-05 00:16:11] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudify-utilities-plugins-sdk-0.0.98.tar.gz tmp/cloudify-utilities-plugins-sdk-0.0.99.tar.gz --markdown 20230505/c/cloudify-utilities-plugins-sdk/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 00:16:12] INFO root fetch - main [MainThread]: End processing [aij-webcam]: success
+[2023-05-05 00:16:12] INFO root fetch - main [MainThread]: End processing [dream-helpers]: success
+[2023-05-05 00:16:13] INFO root fetch - main [MainThread]: End processing [hoppr-security-commons]: success
+[2023-05-05 00:16:13] INFO root fetch - main [MainThread]: End processing [cloudify-utilities-plugins-sdk]: success
+[2023-05-05 00:16:13] INFO root fetch - main [MainThread]: End processing [fedml-databricks]: success
+[2023-05-05 00:16:13] INFO root fetch - main [MainThread]: End processing [vwo-python-sdk]: success
+[2023-05-05 00:16:14] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-05-05 00:16:14] INFO root fetch - main [MainThread]: End processing [momento]: success
+[2023-05-05 00:16:38] INFO root fetch - main [MainThread]: End processing [systematica]: success
+[2023-05-05 00:16:38] INFO root fetch - main [MainThread]: Store serial: [17978576]
