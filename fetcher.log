@@ -1183,3 +1183,56 @@
 [2023-05-05 01:32:07] INFO root fetch - main [MainThread]: End processing [verify-access-autoconf]: success
 [2023-05-05 01:32:08] INFO root fetch - main [MainThread]: End processing [aind-metadata-service]: success
 [2023-05-05 01:32:08] INFO root fetch - main [MainThread]: Store serial: [17979196]
+[2023-05-05 01:37:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17979196]
+[2023-05-05 01:37:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-05 01:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abacusai
+[2023-05-05 01:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih
+[2023-05-05 01:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yaecs
+[2023-05-05 01:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dart-tools
+[2023-05-05 01:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telegram-urls-validator
+[2023-05-05 01:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: picoolfx
+[2023-05-05 01:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cvxsimulator
+[2023-05-05 01:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discord-menu
+[2023-05-05 01:37:17] INFO root fetch - processPackages [discord-menu]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-05 01:37:17] INFO root fetch - processPackages [cvxsimulator]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-05-05 01:37:17] INFO root fetch - processPackages [yaecs]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-05-05 01:37:17] INFO root fetch - processPackages [dart-tools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-05 01:37:17] INFO root fetch - processPackages [pih]: New version: [1.43] Old Version: [1.421]
+[2023-05-05 01:37:17] WARNING root fetch - processPackages [telegram-urls-validator]: Skipping, unable to determine old version
+[2023-05-05 01:37:17] INFO root fetch - main [MainThread]: End processing [telegram-urls-validator] error
+[2023-05-05 01:37:17] INFO root fetch - processPackages [picoolfx]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 01:37:17] INFO root fetch - processPackages [abacusai]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-05 01:37:18] INFO root fetch - processPackages [discord-menu]: Downloading https://files.pythonhosted.org/packages/bf/e9/a6da9349bf9b7ae6f4db97066c02308c8a03d273d4a1c809572ab5ed095b/discord-menu-0.8.1.tar.gz
+[2023-05-05 01:37:18] INFO root fetch - processPackages [picoolfx]: Downloading https://files.pythonhosted.org/packages/fc/19/17d882ce607d0eef19a7997bf5dba75721874c280d5873de94d3f3342621/picoolfx-0.1.0.tar.gz
+[2023-05-05 01:37:18] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/20/05/12e6e66d0f2b20efe2d4562023d068bd5ea84aba0ae3272ff7660d944e48/abacusai-0.9.1.tar.gz
+[2023-05-05 01:37:18] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/70/cc/fe4a261afee908e4a3a48274b06092a0a2539ce718f0afd17a7e99292afb/pih-1.421.tar.gz
+[2023-05-05 01:37:18] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/8e/fc/86907e546101303de9dd8a078ec0635bab985de0bc21da6e7dc2729c69f5/cvxsimulator-0.1.0.tar.gz
+[2023-05-05 01:37:18] INFO root fetch - processPackages [dart-tools]: Downloading https://files.pythonhosted.org/packages/c9/1c/ec7702de5fd75157d4e955939a9a9ead98e10c7824384dcbd893812832b9/dart-tools-0.1.2.tar.gz
+[2023-05-05 01:37:18] INFO root fetch - processPackages [yaecs]: Downloading https://files.pythonhosted.org/packages/96/be/5c5c9d36f46cdc37155e155248d0367ee351e9eb5deb2d3b616118c998c7/yaecs-3.2.5.tar.gz
+[2023-05-05 01:37:18] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-05-05 01:37:18] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.0.7.tar.gz tmp/cvxsimulator-0.1.0.tar.gz --markdown 20230505/c/cvxsimulator/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-05-05 01:37:18] INFO root fetch - processPackages [yaecs]: executing diffoscope
+[2023-05-05 01:37:18] INFO root fetch - processPackages [yaecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaecs-3.2.4.tar.gz tmp/yaecs-3.2.5.tar.gz --markdown 20230505/y/yaecs/3.2.4-3.2.5/diff.md --exclude *.pyd
+[2023-05-05 01:37:18] INFO root fetch - processPackages [picoolfx]: Downloading https://files.pythonhosted.org/packages/b9/7d/1f451ea8c5200621b914cc0499cecbea326e63e2bef9fb36ac400921ac04/picoolfx-0.1.1.tar.gz
+[2023-05-05 01:37:18] INFO root fetch - processPackages [picoolfx]: executing diffoscope
+[2023-05-05 01:37:18] INFO root fetch - processPackages [picoolfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picoolfx-0.1.0.tar.gz tmp/picoolfx-0.1.1.tar.gz --markdown 20230505/p/picoolfx/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 01:37:18] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/0c/7a/2afe44a6619ee98baa2e91684ab421e977aed38e8cd393f7b8f92a5835f2/pih-1.43.tar.gz
+[2023-05-05 01:37:18] INFO root fetch - processPackages [dart-tools]: Downloading https://files.pythonhosted.org/packages/26/38/dffba416cbb13e9cbb69aa642e61d13f733fa612412636cc9c7fcced75c4/dart-tools-0.1.3.tar.gz
+[2023-05-05 01:37:18] INFO root fetch - processPackages [discord-menu]: Downloading https://files.pythonhosted.org/packages/5c/e7/0faa8c78bb5b5cff2829d6577b0df9ae5c609ebce486e03a79e1a49b7aed/discord-menu-0.9.0.tar.gz
+[2023-05-05 01:37:18] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/2f/8d/d78246b87fef32ca67a6fb9bdb4bfda9bdd690736e1f658aac9fd292cf85/abacusai-0.9.2.tar.gz
+[2023-05-05 01:37:18] INFO root fetch - processPackages [dart-tools]: executing diffoscope
+[2023-05-05 01:37:18] INFO root fetch - processPackages [dart-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dart-tools-0.1.2.tar.gz tmp/dart-tools-0.1.3.tar.gz --markdown 20230505/d/dart-tools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-05 01:37:18] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2023-05-05 01:37:18] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-0.9.1.tar.gz tmp/abacusai-0.9.2.tar.gz --markdown 20230505/a/abacusai/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-05 01:37:18] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-05-05 01:37:18] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.421.tar.gz tmp/pih-1.43.tar.gz --markdown 20230505/p/pih/1.421-1.43/diff.md --exclude *.pyd
+[2023-05-05 01:37:18] INFO root fetch - processPackages [discord-menu]: executing diffoscope
+[2023-05-05 01:37:18] INFO root fetch - processPackages [discord-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-menu-0.8.1.tar.gz tmp/discord-menu-0.9.0.tar.gz --markdown 20230505/d/discord-menu/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 01:37:19] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-05-05 01:37:19] INFO root fetch - main [MainThread]: End processing [picoolfx]: success
+[2023-05-05 01:37:19] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2023-05-05 01:37:19] INFO root fetch - main [MainThread]: End processing [discord-menu]: success
+[2023-05-05 01:37:19] INFO root fetch - main [MainThread]: End processing [yaecs]: success
+[2023-05-05 01:37:19] INFO root fetch - main [MainThread]: End processing [dart-tools]: success
+[2023-05-05 01:37:19] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-05-05 01:37:19] INFO root fetch - main [MainThread]: Store serial: [17979219]
