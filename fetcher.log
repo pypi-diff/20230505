@@ -534,3 +534,43 @@
 [2023-05-05 00:37:55] INFO root fetch - main [MainThread]: End processing [semgrep]: success
 [2023-05-05 00:38:00] INFO root fetch - main [MainThread]: End processing [UAVReaders]: success
 [2023-05-05 00:38:00] INFO root fetch - main [MainThread]: Store serial: [17978767]
+[2023-05-05 00:43:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17978767]
+[2023-05-05 00:43:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-05 00:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unblob-native
+[2023-05-05 00:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frazzle
+[2023-05-05 00:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelbit
+[2023-05-05 00:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvxsimulator
+[2023-05-05 00:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: model-saver
+[2023-05-05 00:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: benchling-api-client
+[2023-05-05 00:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hrin-msb
+[2023-05-05 00:43:10] WARNING root fetch - processPackages [unblob-native]: Skipping, unable to determine old version
+[2023-05-05 00:43:10] INFO root fetch - main [MainThread]: End processing [unblob-native] error
+[2023-05-05 00:43:10] INFO root fetch - processPackages [frazzle]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-05 00:43:10] INFO root fetch - processPackages [model-saver]: New version: [2.7.0] Old Version: [2.4.0]
+[2023-05-05 00:43:10] INFO root fetch - processPackages [cvxsimulator]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 00:43:10] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 00:43:10] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-05 00:43:10] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-05 00:43:10] INFO root fetch - processPackages [model-saver]: Downloading https://files.pythonhosted.org/packages/cd/8b/6a0791dbe3041d1896046f73daad79203a496fe65e879c76a92b3eb7bff3/model_saver-2.4.0.tar.gz
+[2023-05-05 00:43:10] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-05-05 00:43:10] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230505/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-05 00:43:10] INFO root fetch - processPackages [frazzle]: Downloading https://files.pythonhosted.org/packages/cc/6f/972aa8da357ef8443585f775cacdaed4293c5b8f1773b9df6dc70df7bb44/frazzle-0.2.2.tar.gz
+[2023-05-05 00:43:10] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-05-05 00:43:10] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230505/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 00:43:10] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/e1/75/a45e77cbc55a4001c0089a5813b458dcb05c66ed2f31ffe5b6c7df904142/cvxsimulator-0.0.5.tar.gz
+[2023-05-05 00:43:10] INFO root fetch - processPackages [frazzle]: executing diffoscope
+[2023-05-05 00:43:10] INFO root fetch - processPackages [frazzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frazzle-0.2.1.tar.gz tmp/frazzle-0.2.2.tar.gz --markdown 20230505/f/frazzle/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-05 00:43:10] INFO root fetch - processPackages [model-saver]: Downloading https://files.pythonhosted.org/packages/79/be/4275411d62c8ff17c9879e2a3f0aa897a9e527085f8c22f03920464f8826/model_saver-2.7.0.tar.gz
+[2023-05-05 00:43:10] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-05-05 00:43:10] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230505/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-05 00:43:10] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-05-05 00:43:10] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.0.4.tar.gz tmp/cvxsimulator-0.0.5.tar.gz --markdown 20230505/c/cvxsimulator/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 00:43:10] INFO root fetch - processPackages [model-saver]: executing diffoscope
+[2023-05-05 00:43:10] INFO root fetch - processPackages [model-saver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_saver-2.4.0.tar.gz tmp/model_saver-2.7.0.tar.gz --markdown 20230505/m/model-saver/2.4.0-2.7.0/diff.md --exclude *.pyd
+[2023-05-05 00:43:11] INFO root fetch - main [MainThread]: End processing [frazzle]: success
+[2023-05-05 00:43:11] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-05-05 00:43:12] INFO root fetch - main [MainThread]: End processing [model-saver]: success
+[2023-05-05 00:43:12] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-05-05 00:43:12] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-05-05 00:45:01] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-05-05 00:45:01] INFO root fetch - main [MainThread]: Store serial: [17978801]
