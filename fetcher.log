@@ -905,3 +905,60 @@
 [2023-05-05 01:08:40] INFO root fetch - main [MainThread]: End processing [tensorboard]: success
 [2023-05-05 01:08:40] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
 [2023-05-05 01:08:40] INFO root fetch - main [MainThread]: Store serial: [17978977]
+[2023-05-05 01:13:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17978977]
+[2023-05-05 01:13:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-05 01:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bmt
+[2023-05-05 01:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alacorder
+[2023-05-05 01:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydumpck
+[2023-05-05 01:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyTermTk
+[2023-05-05 01:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ttkDesigner
+[2023-05-05 01:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: table_builder_io
+[2023-05-05 01:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: remlateam12
+[2023-05-05 01:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitbetter
+[2023-05-05 01:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: model-saver
+[2023-05-05 01:13:49] INFO root fetch - processPackages [table_builder_io]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-05 01:13:49] INFO root fetch - processPackages [model-saver]: New version: [2.7.0] Old Version: [2.4.0]
+[2023-05-05 01:13:49] INFO root fetch - processPackages [bmt]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 01:13:49] INFO root fetch - processPackages [pydumpck]: New version: [1.7.62] Old Version: [1.6.168]
+[2023-05-05 01:13:49] INFO root fetch - processPackages [gitbetter]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-05 01:13:49] INFO root fetch - processPackages [ttkDesigner]: New version: [0.30.0a9] Old Version: [0.30.0a8]
+[2023-05-05 01:13:49] WARNING root fetch - processPackages [remlateam12]: Skipping, unable to determine old version
+[2023-05-05 01:13:49] INFO root fetch - main [MainThread]: End processing [remlateam12] error
+[2023-05-05 01:13:49] INFO root fetch - processPackages [pyTermTk]: New version: [0.9.0a62] Old Version: [0.9.0a56]
+[2023-05-05 01:13:49] INFO root fetch - processPackages [alacorder]: New version: [80.2.3] Old Version: [80.2.2]
+[2023-05-05 01:13:49] INFO root fetch - processPackages [model-saver]: executing diffoscope
+[2023-05-05 01:13:49] INFO root fetch - processPackages [model-saver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_saver-2.4.0.tar.gz tmp/model_saver-2.7.0.tar.gz --markdown 20230505/m/model-saver/2.4.0-2.7.0/diff.md --exclude *.pyd
+[2023-05-05 01:13:49] INFO root fetch - processPackages [pydumpck]: executing diffoscope
+[2023-05-05 01:13:49] INFO root fetch - processPackages [pydumpck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydumpck-1.6.168.tar.gz tmp/pydumpck-1.7.62.tar.gz --markdown 20230505/p/pydumpck/1.6.168-1.7.62/diff.md --exclude *.pyd
+[2023-05-05 01:13:49] INFO root fetch - processPackages [gitbetter]: Downloading https://files.pythonhosted.org/packages/80/73/af2a988b204cc832fa08f18b4d6838c1e451e30c97161790b10c5ea08bd1/gitbetter-0.3.0.tar.gz
+[2023-05-05 01:13:49] INFO root fetch - processPackages [table_builder_io]: Downloading https://files.pythonhosted.org/packages/f5/58/1ad2f46d3c4f559c1630136235f38981c795abe226a60eb2b6459e34c582/table_builder_io-0.1.tar.gz
+[2023-05-05 01:13:49] INFO root fetch - processPackages [bmt]: Downloading https://files.pythonhosted.org/packages/f5/39/a3ace91da91477b767057eb4e8f4aa5df159d95d592afd684baa185286a9/bmt-1.0.8.tar.gz
+[2023-05-05 01:13:49] INFO root fetch - processPackages [ttkDesigner]: Downloading https://files.pythonhosted.org/packages/d8/88/27c75b7b0f84d8dc43937299a3161d0a1bc100bd8df5cdede2fbf0aa266c/ttkDesigner-0.30.0a8.tar.gz
+[2023-05-05 01:13:49] INFO root fetch - processPackages [pyTermTk]: Downloading https://files.pythonhosted.org/packages/75/5c/de0a01268aca4e293afd0f3034da418a422a4063208fe6a2d89fa1efc89e/pyTermTk-0.9.0a56.tar.gz
+[2023-05-05 01:13:49] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/3e/14/2be1da9a9f80c00d63403f057f62fd674285eb832de34c3359e6d20959a3/alacorder-80.2.3.tar.gz
+[2023-05-05 01:13:49] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-05 01:13:49] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.2.2.tar.gz tmp/alacorder-80.2.3.tar.gz --markdown 20230505/a/alacorder/80.2.2-80.2.3/diff.md --exclude *.pyd
+[2023-05-05 01:13:49] INFO root fetch - processPackages [gitbetter]: Downloading https://files.pythonhosted.org/packages/89/56/98ce654e09b631a84c44d46e022eab6f05707d4455160adbdb64518cf6e3/gitbetter-0.4.0.tar.gz
+[2023-05-05 01:13:49] INFO root fetch - processPackages [gitbetter]: executing diffoscope
+[2023-05-05 01:13:49] INFO root fetch - processPackages [gitbetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitbetter-0.3.0.tar.gz tmp/gitbetter-0.4.0.tar.gz --markdown 20230505/g/gitbetter/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-05 01:13:49] INFO root fetch - processPackages [table_builder_io]: Downloading https://files.pythonhosted.org/packages/51/99/8dcd0971a96a745c419cddf2f9ad150a36e0ff4947c0e9ed5b451c47b50f/table_builder_io-0.1.1.tar.gz
+[2023-05-05 01:13:49] INFO root fetch - processPackages [table_builder_io]: executing diffoscope
+[2023-05-05 01:13:49] INFO root fetch - processPackages [table_builder_io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/table_builder_io-0.1.tar.gz tmp/table_builder_io-0.1.1.tar.gz --markdown 20230505/t/table_builder_io/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 01:13:49] INFO root fetch - processPackages [ttkDesigner]: Downloading https://files.pythonhosted.org/packages/20/bf/decece217929435b3fb030643261fdbb9926eab002727530b14fec645a11/ttkDesigner-0.30.0a9.tar.gz
+[2023-05-05 01:13:49] INFO root fetch - processPackages [pyTermTk]: Downloading https://files.pythonhosted.org/packages/05/bd/fe036dd7372cea97065d98f1d5d8c3f6453fa7fcb653d07550c359f9a113/pyTermTk-0.9.0a62.tar.gz
+[2023-05-05 01:13:49] INFO root fetch - processPackages [ttkDesigner]: executing diffoscope
+[2023-05-05 01:13:49] INFO root fetch - processPackages [ttkDesigner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttkDesigner-0.30.0a8.tar.gz tmp/ttkDesigner-0.30.0a9.tar.gz --markdown 20230505/t/ttkDesigner/0.30.0a8-0.30.0a9/diff.md --exclude *.pyd
+[2023-05-05 01:13:49] INFO root fetch - processPackages [pyTermTk]: executing diffoscope
+[2023-05-05 01:13:49] INFO root fetch - processPackages [pyTermTk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTermTk-0.9.0a56.tar.gz tmp/pyTermTk-0.9.0a62.tar.gz --markdown 20230505/p/pyTermTk/0.9.0a56-0.9.0a62/diff.md --exclude *.pyd
+[2023-05-05 01:13:49] INFO root fetch - processPackages [bmt]: Downloading https://files.pythonhosted.org/packages/5b/fc/7f3c93eccba238f8a2a650442102bf7501a02080b7b37b8264343c384cef/bmt-1.0.9.tar.gz
+[2023-05-05 01:13:50] INFO root fetch - processPackages [bmt]: executing diffoscope
+[2023-05-05 01:13:50] INFO root fetch - processPackages [bmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmt-1.0.8.tar.gz tmp/bmt-1.0.9.tar.gz --markdown 20230505/b/bmt/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 01:13:50] INFO root fetch - main [MainThread]: End processing [model-saver]: success
+[2023-05-05 01:13:51] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-05 01:13:51] INFO root fetch - main [MainThread]: End processing [pydumpck]: success
+[2023-05-05 01:13:51] INFO root fetch - main [MainThread]: End processing [table_builder_io]: success
+[2023-05-05 01:13:51] INFO root fetch - main [MainThread]: End processing [bmt]: success
+[2023-05-05 01:13:51] INFO root fetch - main [MainThread]: End processing [ttkDesigner]: success
+[2023-05-05 01:13:53] INFO root fetch - main [MainThread]: End processing [gitbetter]: success
+[2023-05-05 01:13:53] INFO root fetch - main [MainThread]: End processing [pyTermTk]: success
+[2023-05-05 01:13:53] INFO root fetch - main [MainThread]: Store serial: [17979007]
