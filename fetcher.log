@@ -1,0 +1,106 @@
+[2023-05-05 00:05:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17978436]
+[2023-05-05 00:05:23] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-05 00:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vsdehalo
+[2023-05-05 00:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vsdeband
+[2023-05-05 00:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vsdeinterlace
+[2023-05-05 00:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vskernels
+[2023-05-05 00:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vsexprtools
+[2023-05-05 00:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hiddifypanel
+[2023-05-05 00:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vsmasktools
+[2023-05-05 00:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vsiew
+[2023-05-05 00:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: UW-RestClients-HRP
+[2023-05-05 00:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: idelucs
+[2023-05-05 00:05:23] INFO root fetch - processPackages [vsiew]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-05-05 00:05:23] INFO root fetch - processPackages [vsdeband]: New version: [1.0.0] Old Version: [0.9.2]
+[2023-05-05 00:05:23] INFO root fetch - processPackages [vsdehalo]: New version: [1.7.0] Old Version: [1.6.2]
+[2023-05-05 00:05:23] INFO root fetch - processPackages [vsdeinterlace]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-05 00:05:23] INFO root fetch - processPackages [idelucs]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-05 00:05:23] INFO root fetch - processPackages [UW-RestClients-HRP]: New version: [1.3.2] Old Version: [1.3.1.1]
+[2023-05-05 00:05:23] INFO root fetch - processPackages [vsexprtools]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-05 00:05:23] INFO root fetch - processPackages [vsmasktools]: New version: [1.0.0] Old Version: [0.9.3]
+[2023-05-05 00:05:23] INFO root fetch - processPackages [vskernels]: New version: [2.4.0] Old Version: [2.3.2]
+[2023-05-05 00:05:23] INFO root fetch - processPackages [hiddifypanel]: New version: [6.4.1] Old Version: [6.4.0]
+[2023-05-05 00:05:24] INFO root fetch - processPackages [UW-RestClients-HRP]: Downloading https://files.pythonhosted.org/packages/50/87/4dd56d53f94d4be3896dc7481cd0008c59d9c9517f7e4dd6ad7c442680ee/UW-RestClients-HRP-1.3.1.1.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsiew]: Downloading https://files.pythonhosted.org/packages/74/80/026c1d9a41aebd5726efda16786d0659c1360434fb68c948437fc8336fff/vsiew-2.0.1.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [idelucs]: Downloading https://files.pythonhosted.org/packages/98/3a/6ab8654da1fcc7a19fc84fb5d7b997b55591974bcf08275f89a699209e5b/idelucs-0.1.6.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsmasktools]: Downloading https://files.pythonhosted.org/packages/fd/38/4b4023e894b6cee62b253282d1424a629699486c2729f322a20749085879/vsmasktools-0.9.3.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsdehalo]: Downloading https://files.pythonhosted.org/packages/f5/1a/396fa00ec94c2678aae668b1be0142d461a16e6d0be2ee30c0d1784b81b2/vsdehalo-1.6.2.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsexprtools]: Downloading https://files.pythonhosted.org/packages/fe/03/033ba17646ae3f32a9e831238a725f57d48e7485fe4a233ceba0fb4ed6ea/vsexprtools-1.4.3.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsdeinterlace]: Downloading https://files.pythonhosted.org/packages/db/d3/705a85df13061b30b6861e5c692d707d6706e22f8fa38caad4baad7d87b5/vsdeinterlace-0.4.1.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsdeband]: Downloading https://files.pythonhosted.org/packages/fd/98/395e4319feabe64ce2385909ed7b5ab2e43543aa4a6f5ba8d64f09a78f65/vsdeband-0.9.2.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vskernels]: Downloading https://files.pythonhosted.org/packages/f3/3d/5b878d31d772c47fa9c2368fc033269ab6ae666b93e97ce6987e8d5339fc/vskernels-2.3.2.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/8d/d6/2a7a9d76074582409d8fe733e5adfb221ef90e6762efc6d255211b633892/hiddifypanel-6.4.1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsiew]: Downloading https://files.pythonhosted.org/packages/da/7b/ff4c59eec625f8af6a777d48b8321433105b6eed2a6fcd94fc1228c3f2b3/vsiew-2.1.0.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsdehalo]: Downloading https://files.pythonhosted.org/packages/57/0d/3a168352f9afeb4b74e9acb0b0680122fe95085c418dc98e771ca499b8a7/vsdehalo-1.7.0.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [idelucs]: Downloading https://files.pythonhosted.org/packages/78/bc/4b311bc695153448251e87cb0b8159feb6c069284961358894726a6dcd3e/idelucs-0.1.7.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsmasktools]: Downloading https://files.pythonhosted.org/packages/c7/d9/8d28db15a82df0bc5b892e706f4f5bdf58e7597eb1fe9768fd360ece5d2e/vsmasktools-1.0.0.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsdeband]: Downloading https://files.pythonhosted.org/packages/d6/46/c64ac463220caefd9314cd5c770f56444f65d3ab61e1592de0642844fc29/vsdeband-1.0.0.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vskernels]: Downloading https://files.pythonhosted.org/packages/b7/cc/fad5b2253d70d5d404ed8d6087ffd81f1d01bff2a2dbe37b6f5aebccf766/vskernels-2.4.0.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsiew]: executing diffoscope
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsiew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsiew-2.0.1.tar.gz tmp/vsiew-2.1.0.tar.gz --markdown 20230505/v/vsiew/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsdehalo]: executing diffoscope
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsdehalo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsdehalo-1.6.2.tar.gz tmp/vsdehalo-1.7.0.tar.gz --markdown 20230505/v/vsdehalo/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2023-05-05 00:05:24] INFO root fetch - processPackages [idelucs]: executing diffoscope
+[2023-05-05 00:05:24] INFO root fetch - processPackages [idelucs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idelucs-0.1.6.tar.gz tmp/idelucs-0.1.7.tar.gz --markdown 20230505/i/idelucs/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsdeinterlace]: Downloading https://files.pythonhosted.org/packages/7e/1d/abb4700f11c9c457fc5612ec2a6ac5436cf60bef94f42d86d0cf620dfc1e/vsdeinterlace-0.5.0.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsmasktools]: executing diffoscope
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsmasktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsmasktools-0.9.3.tar.gz tmp/vsmasktools-1.0.0.tar.gz --markdown 20230505/v/vsmasktools/0.9.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vskernels]: executing diffoscope
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vskernels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vskernels-2.3.2.tar.gz tmp/vskernels-2.4.0.tar.gz --markdown 20230505/v/vskernels/2.3.2-2.4.0/diff.md --exclude *.pyd
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsdeband]: executing diffoscope
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsdeband]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsdeband-0.9.2.tar.gz tmp/vsdeband-1.0.0.tar.gz --markdown 20230505/v/vsdeband/0.9.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsdeinterlace]: executing diffoscope
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsdeinterlace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsdeinterlace-0.4.1.tar.gz tmp/vsdeinterlace-0.5.0.tar.gz --markdown 20230505/v/vsdeinterlace/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-05 00:05:24] INFO root fetch - processPackages [UW-RestClients-HRP]: Downloading https://files.pythonhosted.org/packages/39/c6/227d9838d329eb3ea9027bf4f65f179ec3d2854a637b67df302b050b43d8/UW-RestClients-HRP-1.3.2.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsexprtools]: Downloading https://files.pythonhosted.org/packages/db/30/15d3da10f13ed189b3e4a7af087714d40f531d900d9af435279105c62420/vsexprtools-1.4.4.tar.gz
+[2023-05-05 00:05:24] INFO root fetch - processPackages [UW-RestClients-HRP]: executing diffoscope
+[2023-05-05 00:05:24] INFO root fetch - processPackages [UW-RestClients-HRP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UW-RestClients-HRP-1.3.1.1.tar.gz tmp/UW-RestClients-HRP-1.3.2.tar.gz --markdown 20230505/U/UW-RestClients-HRP/1.3.1.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsexprtools]: executing diffoscope
+[2023-05-05 00:05:24] INFO root fetch - processPackages [vsexprtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsexprtools-1.4.3.tar.gz tmp/vsexprtools-1.4.4.tar.gz --markdown 20230505/v/vsexprtools/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-05 00:05:25] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-05 00:05:25] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-6.4.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-6.4.1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230505/h/hiddifypanel/6.4.0-6.4.1/diff.md --exclude *.pyd
+[2023-05-05 00:05:26] INFO root fetch - processPackages [vsiew]: Start processing: divfusion
+[2023-05-05 00:05:26] INFO root fetch - main [MainThread]: End processing [vsiew]: success
+[2023-05-05 00:05:26] INFO root fetch - processPackages [divfusion]: New version: [0.3.4] Old Version: [0.1.0a0]
+[2023-05-05 00:05:26] INFO root fetch - processPackages [vsdeinterlace]: Start processing: cfgpie
+[2023-05-05 00:05:26] INFO root fetch - main [MainThread]: End processing [vsdeinterlace]: success
+[2023-05-05 00:05:26] INFO root fetch - processPackages [divfusion]: Downloading https://files.pythonhosted.org/packages/67/91/c22f8495120083c3c9f89bf1c28a02ca83161372a613bad5ccf508845939/divfusion-0.1.0a0.tar.gz
+[2023-05-05 00:05:26] INFO root fetch - processPackages [cfgpie]: New version: [2.3.9] Old Version: [2.3.7]
+[2023-05-05 00:05:26] INFO root fetch - processPackages [vsdeband]: Start processing: fastpathplanning
+[2023-05-05 00:05:26] INFO root fetch - main [MainThread]: End processing [vsdeband]: success
+[2023-05-05 00:05:26] INFO root fetch - processPackages [UW-RestClients-HRP]: Start processing: elkm1-lib
+[2023-05-05 00:05:26] INFO root fetch - main [MainThread]: End processing [UW-RestClients-HRP]: success
+[2023-05-05 00:05:26] INFO root fetch - processPackages [elkm1-lib]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-05 00:05:26] INFO root fetch - processPackages [fastpathplanning]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 00:05:26] INFO root fetch - processPackages [idelucs]: Start processing: lazylearn
+[2023-05-05 00:05:26] INFO root fetch - processPackages [vsexprtools]: Start processing: webullsdk
+[2023-05-05 00:05:26] INFO root fetch - main [MainThread]: End processing [idelucs]: success
+[2023-05-05 00:05:26] INFO root fetch - main [MainThread]: End processing [vsexprtools]: success
+[2023-05-05 00:05:26] INFO root fetch - processPackages [cfgpie]: Downloading https://files.pythonhosted.org/packages/1a/e1/ac8f794730e8a562b70a08051c43de4fa9637e1ec5ad1274643210748eba/cfgpie-2.3.7.tar.gz
+[2023-05-05 00:05:26] INFO root fetch - main [MainThread]: End processing [vsmasktools]: success
+[2023-05-05 00:05:26] WARNING root fetch - processPackages [lazylearn]: Skipping, unable to determine old version
+[2023-05-05 00:05:26] WARNING root fetch - processPackages [webullsdk]: Skipping, unable to determine old version
+[2023-05-05 00:05:26] INFO root fetch - main [MainThread]: End processing [lazylearn] error
+[2023-05-05 00:05:26] INFO root fetch - main [MainThread]: End processing [webullsdk] error
+[2023-05-05 00:05:26] INFO root fetch - main [MainThread]: End processing [vskernels]: success
+[2023-05-05 00:05:26] INFO root fetch - processPackages [elkm1-lib]: Downloading https://files.pythonhosted.org/packages/24/8f/1b7bb75672d6ea914c1b175b80ccc052acd77e2fb727ceb59bf3732bffd1/elkm1_lib-2.2.1.tar.gz
+[2023-05-05 00:05:26] INFO root fetch - processPackages [fastpathplanning]: Downloading https://files.pythonhosted.org/packages/a7/92/169877fe1206bbaebc57e8b358c4212c64a54ae2375de773570ec1e3f147/fastpathplanning-0.1.1.tar.gz
+[2023-05-05 00:05:26] INFO root fetch - main [MainThread]: End processing [vsdehalo]: success
+[2023-05-05 00:05:26] INFO root fetch - processPackages [divfusion]: Downloading https://files.pythonhosted.org/packages/6a/01/76668cb4ce05dd9a198b64615176a3ff17d413ef43609ec439f63943b8d3/divfusion-0.3.4.tar.gz
+[2023-05-05 00:05:26] INFO root fetch - processPackages [divfusion]: executing diffoscope
+[2023-05-05 00:05:26] INFO root fetch - processPackages [divfusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/divfusion-0.1.0a0.tar.gz tmp/divfusion-0.3.4.tar.gz --markdown 20230505/d/divfusion/0.1.0a0-0.3.4/diff.md --exclude *.pyd
+[2023-05-05 00:05:26] INFO root fetch - processPackages [fastpathplanning]: Downloading https://files.pythonhosted.org/packages/ce/3a/dc6d996f389f04f64fa05267c74454ee18c13800b2a7469d17577607349f/fastpathplanning-0.1.2.tar.gz
+[2023-05-05 00:05:26] INFO root fetch - processPackages [cfgpie]: Downloading https://files.pythonhosted.org/packages/70/1d/2b05a95ff48088a502f930a937eef343b0d35005edb5796884a8228481cd/cfgpie-2.3.9.tar.gz
+[2023-05-05 00:05:26] INFO root fetch - processPackages [elkm1-lib]: Downloading https://files.pythonhosted.org/packages/a9/38/7742fe806c0bd5dc1d314556f264bd48f29328194a1149ba7db55c41c943/elkm1_lib-2.2.2.tar.gz
+[2023-05-05 00:05:26] INFO root fetch - processPackages [fastpathplanning]: executing diffoscope
+[2023-05-05 00:05:26] INFO root fetch - processPackages [fastpathplanning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastpathplanning-0.1.1.tar.gz tmp/fastpathplanning-0.1.2.tar.gz --markdown 20230505/f/fastpathplanning/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 00:05:27] INFO root fetch - processPackages [elkm1-lib]: executing diffoscope
+[2023-05-05 00:05:27] INFO root fetch - processPackages [elkm1-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elkm1_lib-2.2.1.tar.gz tmp/elkm1_lib-2.2.2.tar.gz --markdown 20230505/e/elkm1-lib/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-05 00:05:27] INFO root fetch - processPackages [cfgpie]: executing diffoscope
+[2023-05-05 00:05:27] INFO root fetch - processPackages [cfgpie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfgpie-2.3.7.tar.gz tmp/cfgpie-2.3.9.tar.gz --markdown 20230505/c/cfgpie/2.3.7-2.3.9/diff.md --exclude *.pyd
+[2023-05-05 00:05:28] INFO root fetch - main [MainThread]: End processing [fastpathplanning]: success
+[2023-05-05 00:05:28] INFO root fetch - main [MainThread]: End processing [cfgpie]: success
+[2023-05-05 00:05:28] INFO root fetch - main [MainThread]: End processing [divfusion]: success
+[2023-05-05 00:05:28] INFO root fetch - main [MainThread]: End processing [elkm1-lib]: success
+[2023-05-05 00:05:45] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-05 00:05:45] INFO root fetch - main [MainThread]: Store serial: [17978494]
