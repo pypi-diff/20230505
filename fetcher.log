@@ -1110,3 +1110,76 @@
 [2023-05-05 01:26:51] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
 [2023-05-05 01:26:55] INFO root fetch - main [MainThread]: End processing [great-expectations]: success
 [2023-05-05 01:26:55] INFO root fetch - main [MainThread]: Store serial: [17979153]
+[2023-05-05 01:31:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17979153]
+[2023-05-05 01:32:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DOTSAddressValidation3
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metathing
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinx-api-sidebar
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hgchat
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ALifeStdDev
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ALifeStdDev
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eprints2bags
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hypothesis
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aind-metadata-service
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airflow-kdb-provider
+[2023-05-05 01:32:04] INFO root fetch - processPackages [metathing]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-05 01:32:04] WARNING root fetch - processPackages [DOTSAddressValidation3]: Skipping, unable to determine old version
+[2023-05-05 01:32:04] INFO root fetch - processPackages [DOTSAddressValidation3]: Start processing: verify-access-autoconf
+[2023-05-05 01:32:04] INFO root fetch - main [MainThread]: End processing [DOTSAddressValidation3] error
+[2023-05-05 01:32:04] INFO root fetch - processPackages [eprints2bags]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-05 01:32:04] INFO root fetch - processPackages [sphinx-api-sidebar]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ALifeStdDev]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-05-05 01:32:04] INFO root fetch - processPackages [airflow-kdb-provider]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-05 01:32:04] INFO root fetch - processPackages [hgchat]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ALifeStdDev]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-05-05 01:32:04] INFO root fetch - processPackages [aind-metadata-service]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-05 01:32:04] INFO root fetch - processPackages [verify-access-autoconf]: New version: [0.3.0] Old Version: [0.1.0]
+[2023-05-05 01:32:04] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ALifeStdDev]: Downloading https://files.pythonhosted.org/packages/23/d8/e55f98effbca126b4b5351403a660905621a2a3cbf2e040ce8a4d91b521b/ALifeStdDev-0.2.5.tar.gz
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ALifeStdDev]: Downloading https://files.pythonhosted.org/packages/23/d8/e55f98effbca126b4b5351403a660905621a2a3cbf2e040ce8a4d91b521b/ALifeStdDev-0.2.5.tar.gz
+[2023-05-05 01:32:04] INFO root fetch - processPackages [sphinx-api-sidebar]: Downloading https://files.pythonhosted.org/packages/4c/68/5477637808cc5f48a20f16c240d947efabedde3ebd5ebd0c83a5c89086c0/sphinx-api-sidebar-0.0.1.tar.gz
+[2023-05-05 01:32:04] INFO root fetch - processPackages [eprints2bags]: Downloading https://files.pythonhosted.org/packages/8d/11/caecebce80e63b7b919e4f213d5f48df5a865bd6c8a5815fba282f1ec985/eprints2bags-1.9.1.tar.gz
+[2023-05-05 01:32:04] INFO root fetch - processPackages [metathing]: Downloading https://files.pythonhosted.org/packages/15/03/17c542cdd6acb28d1dc462d5299a1f202f0edcc64265c594012102cc8f23/metathing-0.2.2.tar.gz
+[2023-05-05 01:32:04] INFO root fetch - processPackages [aind-metadata-service]: Downloading https://files.pythonhosted.org/packages/a8/49/0d17b592dc270a3f03fca1637561d535f5af23d31b39b8478e66bc100c5b/aind_metadata_service-0.4.1.tar.gz
+[2023-05-05 01:32:04] INFO root fetch - processPackages [hgchat]: Downloading https://files.pythonhosted.org/packages/27/bf/07ea7a4ea52bc8243c699c035c7775f81edab95ab04a8be8fb27fa389b2c/hgchat-0.1.0.tar.gz
+[2023-05-05 01:32:04] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/21/51/090644a56a1ccd0bd639535632ae004a14748414c625a4ee110764a147f5/hypothesis-6.9.1.tar.gz
+[2023-05-05 01:32:04] INFO root fetch - processPackages [verify-access-autoconf]: Downloading https://files.pythonhosted.org/packages/eb/32/b52f7e66d1d0c347345de78d5b96e9589666664be2c4cb1d43f4d78943c5/verify_access_autoconf-0.3.0.tar.gz
+[2023-05-05 01:32:04] INFO root fetch - processPackages [metathing]: executing diffoscope
+[2023-05-05 01:32:04] INFO root fetch - processPackages [metathing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metathing-0.2.1.tar.gz tmp/metathing-0.2.2.tar.gz --markdown 20230505/m/metathing/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-05 01:32:04] INFO root fetch - processPackages [airflow-kdb-provider]: Downloading https://files.pythonhosted.org/packages/c7/c5/fdbf5dfb000e0e2f00f0b4ee55c6140b39f8dfd305792c6faeabd0427f98/airflow-kdb-provider-0.1.3.tar.gz
+[2023-05-05 01:32:04] INFO root fetch - processPackages [sphinx-api-sidebar]: Downloading https://files.pythonhosted.org/packages/a6/c2/b664b786621a0f82de7fc95de5925a8d8d3956aeedd18b3ada07caa78d92/sphinx_api_sidebar-0.1.0.tar.gz
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ALifeStdDev]: Downloading https://files.pythonhosted.org/packages/ea/58/57c0a23a1a692549466015c3ee60a47ea48d506fa61f71c0fe1355b6f9e1/ALifeStdDev-0.3.0.tar.gz
+[2023-05-05 01:32:04] INFO root fetch - processPackages [verify-access-autoconf]: executing diffoscope
+[2023-05-05 01:32:04] INFO root fetch - processPackages [verify-access-autoconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verify_access_autoconf-0.1.0.tar.gz tmp/verify_access_autoconf-0.3.0.tar.gz --markdown 20230505/v/verify-access-autoconf/0.1.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 01:32:04] INFO root fetch - processPackages [ALifeStdDev]: Downloading https://files.pythonhosted.org/packages/ea/58/57c0a23a1a692549466015c3ee60a47ea48d506fa61f71c0fe1355b6f9e1/ALifeStdDev-0.3.0.tar.gz
+[2023-05-05 01:32:04] INFO root fetch - processPackages [airflow-kdb-provider]: executing diffoscope
+[2023-05-05 01:32:04] INFO root fetch - processPackages [airflow-kdb-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-kdb-provider-0.1.2.tar.gz tmp/airflow-kdb-provider-0.1.3.tar.gz --markdown 20230505/a/airflow-kdb-provider/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-05 01:32:05] INFO root fetch - processPackages [aind-metadata-service]: Downloading https://files.pythonhosted.org/packages/78/2a/df332e1b85e17eb4c5f3baf6c4360da4a0d327a7278e03edb67a98a9220e/aind_metadata_service-0.4.2.tar.gz
+[2023-05-05 01:32:05] INFO root fetch - processPackages [sphinx-api-sidebar]: executing diffoscope
+[2023-05-05 01:32:05] INFO root fetch - processPackages [sphinx-api-sidebar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-api-sidebar-0.0.1.tar.gz tmp/sphinx_api_sidebar-0.1.0.tar.gz --markdown 20230505/s/sphinx-api-sidebar/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-05 01:32:05] INFO root fetch - processPackages [ALifeStdDev]: executing diffoscope
+[2023-05-05 01:32:05] INFO root fetch - processPackages [ALifeStdDev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALifeStdDev-0.2.5.tar.gz tmp/ALifeStdDev-0.3.0.tar.gz --markdown 20230505/A/ALifeStdDev/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 01:32:05] INFO root fetch - processPackages [ALifeStdDev]: executing diffoscope
+[2023-05-05 01:32:05] INFO root fetch - processPackages [ALifeStdDev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALifeStdDev-0.2.5.tar.gz tmp/ALifeStdDev-0.3.0.tar.gz --markdown 20230505/A/ALifeStdDev/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 01:32:05] INFO root fetch - processPackages [hgchat]: Downloading https://files.pythonhosted.org/packages/75/3a/c97139d55202e757ccd4ca2198848fde01ed7bcaa71f2a9f5023c5e7ad88/hgchat-0.1.1.tar.gz
+[2023-05-05 01:32:05] INFO root fetch - processPackages [eprints2bags]: Downloading https://files.pythonhosted.org/packages/6f/bf/f2ff2910839c2356306e7045c1ba8ad522f8a0416721567ec89a0d7c9a76/eprints2bags-1.9.2.tar.gz
+[2023-05-05 01:32:05] INFO root fetch - processPackages [aind-metadata-service]: executing diffoscope
+[2023-05-05 01:32:05] INFO root fetch - processPackages [aind-metadata-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_metadata_service-0.4.1.tar.gz tmp/aind_metadata_service-0.4.2.tar.gz --markdown 20230505/a/aind-metadata-service/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-05 01:32:05] INFO root fetch - processPackages [hgchat]: executing diffoscope
+[2023-05-05 01:32:05] INFO root fetch - processPackages [hgchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgchat-0.1.0.tar.gz tmp/hgchat-0.1.1.tar.gz --markdown 20230505/h/hgchat/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 01:32:05] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/9f/55/ca134a35ade2848ccb6a38038cbdc144c8d975ba9f8535f980233784f3a5/hypothesis-6.9.2.tar.gz
+[2023-05-05 01:32:05] INFO root fetch - processPackages [eprints2bags]: executing diffoscope
+[2023-05-05 01:32:05] INFO root fetch - processPackages [eprints2bags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eprints2bags-1.9.1.tar.gz tmp/eprints2bags-1.9.2.tar.gz --markdown 20230505/e/eprints2bags/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-05 01:32:05] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-05-05 01:32:05] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230505/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-05-05 01:32:06] INFO root fetch - main [MainThread]: End processing [metathing]: success
+[2023-05-05 01:32:06] INFO root fetch - main [MainThread]: End processing [sphinx-api-sidebar]: success
+[2023-05-05 01:32:06] INFO root fetch - main [MainThread]: End processing [airflow-kdb-provider]: success
+[2023-05-05 01:32:06] INFO root fetch - main [MainThread]: End processing [ALifeStdDev]: success
+[2023-05-05 01:32:06] INFO root fetch - main [MainThread]: End processing [hgchat]: success
+[2023-05-05 01:32:06] INFO root fetch - main [MainThread]: End processing [ALifeStdDev]: success
+[2023-05-05 01:32:06] INFO root fetch - main [MainThread]: End processing [eprints2bags]: success
+[2023-05-05 01:32:07] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-05-05 01:32:07] INFO root fetch - main [MainThread]: End processing [verify-access-autoconf]: success
+[2023-05-05 01:32:08] INFO root fetch - main [MainThread]: End processing [aind-metadata-service]: success
+[2023-05-05 01:32:08] INFO root fetch - main [MainThread]: Store serial: [17979196]
