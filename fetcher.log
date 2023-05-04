@@ -646,3 +646,119 @@
 [2023-05-05 00:50:14] INFO root fetch - main [MainThread]: End processing [iga]: success
 [2023-05-05 00:52:16] INFO root fetch - main [MainThread]: End processing [berlin]: success
 [2023-05-05 00:52:16] INFO root fetch - main [MainThread]: Store serial: [17978843]
+[2023-05-05 00:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17978843]
+[2023-05-05 00:57:58] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-05 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blitzgsea
+[2023-05-05 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hrin-msb
+[2023-05-05 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tomato-engine
+[2023-05-05 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-databricks
+[2023-05-05 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phamclust
+[2023-05-05 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: np-session
+[2023-05-05 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vodesfunc
+[2023-05-05 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rocm-docs-core
+[2023-05-05 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cvxsimulator
+[2023-05-05 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kiwigrad
+[2023-05-05 00:57:58] INFO root fetch - processPackages [dbt-databricks]: New version: [1.5.0rc1] Old Version: [1.5.0]
+[2023-05-05 00:57:58] INFO root fetch - processPackages [phamclust]: New version: [1.0.0] Old Version: [0.1.3]
+[2023-05-05 00:57:58] INFO root fetch - processPackages [tomato-engine]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-05-05 00:57:58] INFO root fetch - processPackages [kiwigrad]: New version: [0.27] Old Version: [0.26]
+[2023-05-05 00:57:58] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 00:57:58] INFO root fetch - processPackages [rocm-docs-core]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-05 00:57:58] INFO root fetch - processPackages [cvxsimulator]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-05 00:57:58] INFO root fetch - processPackages [vodesfunc]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-05-05 00:57:58] INFO root fetch - processPackages [np-session]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-05 00:57:58] INFO root fetch - processPackages [blitzgsea]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-05 00:57:58] INFO root fetch - processPackages [dbt-databricks]: Downloading https://files.pythonhosted.org/packages/38/93/f48efe512e9ff1bc5768557abba6e40298e4ad40d8af4c21f65c242cdc48/dbt-databricks-1.5.0.tar.gz
+[2023-05-05 00:57:58] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/b8/f6/0233d33ba2b8c60ca004d1d7a6686c4c3ff4ac14c24368a90a013f0b2729/rocm-docs-core-0.9.0.tar.gz
+[2023-05-05 00:57:58] INFO root fetch - processPackages [kiwigrad]: Downloading https://files.pythonhosted.org/packages/f6/4d/5dcdb63779f0f7176e58caf6159c1cf3599abab6de372cbd8a03f983523f/kiwigrad-0.26.tar.gz
+[2023-05-05 00:57:59] INFO root fetch - processPackages [vodesfunc]: Downloading https://files.pythonhosted.org/packages/c1/35/5beba81c133523cf518f4add00f2b0475c5891b7cb06d88ac20e79c9a3cd/vodesfunc-1.3.4.tar.gz
+[2023-05-05 00:57:59] INFO root fetch - processPackages [tomato-engine]: Downloading https://files.pythonhosted.org/packages/ef/d1/75fe7e04abaf96ef0171353b0445e2fbd8753580704a823528e02e47ed94/tomato-engine-1.8.2.tar.gz
+[2023-05-05 00:57:59] INFO root fetch - processPackages [phamclust]: Downloading https://files.pythonhosted.org/packages/23/23/2a46d157f4e7076609fdef268d74e5652ab4318096f8a2b3e3bcfbf19b2a/phamclust-0.1.3.tar.gz
+[2023-05-05 00:57:59] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/aa/75/8f700390954110345d398362716383915450ea953e9689781b4b70eecbc6/np-session-0.6.4.tar.gz
+[2023-05-05 00:57:59] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/0c/39/768550b897d35fbfa5a6252cc451b9d3f02a922bdb524f6eb4a1792badfd/cvxsimulator-0.0.7.tar.gz
+[2023-05-05 00:57:59] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-05-05 00:57:59] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.6.3.tar.gz tmp/np-session-0.6.4.tar.gz --markdown 20230505/n/np-session/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-05 00:57:59] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-05-05 00:57:59] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.0.6.tar.gz tmp/cvxsimulator-0.0.7.tar.gz --markdown 20230505/c/cvxsimulator/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-05 00:57:59] INFO root fetch - processPackages [dbt-databricks]: executing diffoscope
+[2023-05-05 00:57:59] INFO root fetch - processPackages [dbt-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-databricks-1.5.0.tar.gz tmp/dbt-databricks-1.5.0rc1.tar.gz --markdown 20230505/d/dbt-databricks/1.5.0-1.5.0rc1/diff.md --exclude *.pyd
+[2023-05-05 00:57:59] INFO root fetch - processPackages [kiwigrad]: Downloading https://files.pythonhosted.org/packages/b6/0a/a49c915295f4a1e0fd4f1190212d120b453187e31d7972cd7fcf8cc8d74f/kiwigrad-0.27.tar.gz
+[2023-05-05 00:57:59] INFO root fetch - processPackages [kiwigrad]: executing diffoscope
+[2023-05-05 00:57:59] INFO root fetch - processPackages [kiwigrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwigrad-0.26.tar.gz tmp/kiwigrad-0.27.tar.gz --markdown 20230505/k/kiwigrad/0.26-0.27/diff.md --exclude *.pyd
+[2023-05-05 00:57:59] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-05-05 00:57:59] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230505/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 00:57:59] INFO root fetch - processPackages [vodesfunc]: Downloading https://files.pythonhosted.org/packages/ab/81/e8feb1252ee888030227e500f4d234b128749323ea021c8c79cf827095e7/vodesfunc-1.3.5.tar.gz
+[2023-05-05 00:57:59] INFO root fetch - processPackages [blitzgsea]: executing diffoscope
+[2023-05-05 00:57:59] INFO root fetch - processPackages [blitzgsea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blitzgsea-1.3.8.tar.gz tmp/blitzgsea-1.3.9.tar.gz --markdown 20230505/b/blitzgsea/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-05 00:57:59] INFO root fetch - processPackages [phamclust]: Downloading https://files.pythonhosted.org/packages/56/bc/684437169c9d3744da1c34b3819be425dc6a1b22a0bda42994990746ddc0/phamclust-1.0.0.tar.gz
+[2023-05-05 00:57:59] INFO root fetch - processPackages [tomato-engine]: Downloading https://files.pythonhosted.org/packages/dd/f5/b8f7e4539a24f7a03f4a56fa2b15deb07792ffb5eec49fb177426e8c6179/tomato-engine-1.8.3.tar.gz
+[2023-05-05 00:57:59] INFO root fetch - processPackages [vodesfunc]: executing diffoscope
+[2023-05-05 00:57:59] INFO root fetch - processPackages [vodesfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vodesfunc-1.3.4.tar.gz tmp/vodesfunc-1.3.5.tar.gz --markdown 20230505/v/vodesfunc/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-05-05 00:57:59] INFO root fetch - processPackages [tomato-engine]: executing diffoscope
+[2023-05-05 00:57:59] INFO root fetch - processPackages [tomato-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomato-engine-1.8.2.tar.gz tmp/tomato-engine-1.8.3.tar.gz --markdown 20230505/t/tomato-engine/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-05-05 00:57:59] INFO root fetch - processPackages [phamclust]: executing diffoscope
+[2023-05-05 00:57:59] INFO root fetch - processPackages [phamclust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phamclust-0.1.3.tar.gz tmp/phamclust-1.0.0.tar.gz --markdown 20230505/p/phamclust/0.1.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-05 00:57:59] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/f9/19/0159088f20edfe3151203150b7200a110b31f38e54a6970440c78832b50b/rocm-docs-core-0.9.1.tar.gz
+[2023-05-05 00:57:59] INFO root fetch - processPackages [rocm-docs-core]: executing diffoscope
+[2023-05-05 00:57:59] INFO root fetch - processPackages [rocm-docs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocm-docs-core-0.9.0.tar.gz tmp/rocm-docs-core-0.9.1.tar.gz --markdown 20230505/r/rocm-docs-core/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-05 00:58:00] INFO root fetch - processPackages [cvxsimulator]: Start processing: remla12-libr
+[2023-05-05 00:58:00] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-05-05 00:58:00] WARNING root fetch - processPackages [remla12-libr]: Skipping, unable to determine old version
+[2023-05-05 00:58:00] INFO root fetch - processPackages [remla12-libr]: Start processing: axonius-api-client
+[2023-05-05 00:58:00] INFO root fetch - main [MainThread]: End processing [remla12-libr] error
+[2023-05-05 00:58:00] INFO root fetch - processPackages [axonius-api-client]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-05-05 00:58:00] INFO root fetch - processPackages [kiwigrad]: Start processing: caikit
+[2023-05-05 00:58:00] INFO root fetch - main [MainThread]: End processing [kiwigrad]: success
+[2023-05-05 00:58:00] INFO root fetch - processPackages [caikit]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-05 00:58:00] INFO root fetch - processPackages [blitzgsea]: Start processing: telegram-urls-validator
+[2023-05-05 00:58:00] INFO root fetch - main [MainThread]: End processing [blitzgsea]: success
+[2023-05-05 00:58:01] WARNING root fetch - processPackages [telegram-urls-validator]: Skipping, unable to determine old version
+[2023-05-05 00:58:01] INFO root fetch - processPackages [telegram-urls-validator]: Start processing: haruka-bot
+[2023-05-05 00:58:01] INFO root fetch - main [MainThread]: End processing [telegram-urls-validator] error
+[2023-05-05 00:58:01] INFO root fetch - processPackages [np-session]: Start processing: dbt-coves
+[2023-05-05 00:58:01] INFO root fetch - main [MainThread]: End processing [np-session]: success
+[2023-05-05 00:58:01] INFO root fetch - processPackages [phamclust]: Start processing: airbyte-cdk
+[2023-05-05 00:58:01] INFO root fetch - main [MainThread]: End processing [phamclust]: success
+[2023-05-05 00:58:01] INFO root fetch - processPackages [axonius-api-client]: Downloading https://files.pythonhosted.org/packages/4f/69/601efa7a70497a8dff9353f020411ab7ddf0cd98888b927767793d4e5b7f/axonius_api_client-5.0.2-py2.py3-none-any.whl
+[2023-05-05 00:58:01] INFO root fetch - processPackages [haruka-bot]: New version: [1.5.4] Old Version: [1.5.3a3]
+[2023-05-05 00:58:01] INFO root fetch - processPackages [dbt-coves]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-05 00:58:01] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/68/08/d4654298662c178fdb5854006bbbefbdc504d722674157ca0ad812f8c36b/caikit-0.3.1.tar.gz
+[2023-05-05 00:58:01] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-05 00:58:01] INFO root fetch - processPackages [axonius-api-client]: executing diffoscope
+[2023-05-05 00:58:01] INFO root fetch - processPackages [axonius-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axonius_api_client-5.0.1-py2.py3-none-any.whl.zip tmp/axonius_api_client-5.0.2-py2.py3-none-any.whl.zip --markdown 20230505/a/axonius-api-client/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-05-05 00:58:01] INFO root fetch - processPackages [caikit]: executing diffoscope
+[2023-05-05 00:58:01] INFO root fetch - processPackages [caikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-0.3.0.tar.gz tmp/caikit-0.3.1.tar.gz --markdown 20230505/c/caikit/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-05 00:58:01] INFO root fetch - processPackages [tomato-engine]: Start processing: chalkpy
+[2023-05-05 00:58:01] INFO root fetch - main [MainThread]: End processing [tomato-engine]: success
+[2023-05-05 00:58:01] INFO root fetch - processPackages [chalkpy]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-05-05 00:58:01] INFO root fetch - processPackages [vodesfunc]: Start processing: pymatgen-analysis-defects
+[2023-05-05 00:58:01] INFO root fetch - main [MainThread]: End processing [vodesfunc]: success
+[2023-05-05 00:58:01] INFO root fetch - processPackages [haruka-bot]: Downloading https://files.pythonhosted.org/packages/45/79/0c093580ea48e5f6b268327eef2d493fb16808cb004ce7e3891d4b588d15/haruka-bot-1.5.3a3.tar.gz
+[2023-05-05 00:58:01] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2023-05-05 00:58:01] INFO root fetch - processPackages [dbt-coves]: executing diffoscope
+[2023-05-05 00:58:01] INFO root fetch - processPackages [dbt-coves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_coves-1.4.8.tar.gz tmp/dbt_coves-1.4.9.tar.gz --markdown 20230505/d/dbt-coves/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-05 00:58:01] INFO root fetch - processPackages [pymatgen-analysis-defects]: New version: [2023.5.4] Old Version: [2023.4.5]
+[2023-05-05 00:58:01] INFO root fetch - main [MainThread]: End processing [dbt-databricks]: success
+[2023-05-05 00:58:01] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/a6/80/986d0a00d3037c02863b4fa8c8a257c746414f77b9a69997c86aa92e67b6/chalkpy-2.1.4.tar.gz
+[2023-05-05 00:58:01] INFO root fetch - processPackages [haruka-bot]: Downloading https://files.pythonhosted.org/packages/4d/a0/15852c300e4c1fe5e74fa367e2388cd02f903d35607237109519fc46108a/haruka-bot-1.5.4.tar.gz
+[2023-05-05 00:58:01] INFO root fetch - processPackages [pymatgen-analysis-defects]: Downloading https://files.pythonhosted.org/packages/0a/c8/9a0352497d5c6b4c9b7f26e11dc3c2abbbfde5e94ffd8298951fc33bc74b/pymatgen-analysis-defects-2023.4.5.tar.gz
+[2023-05-05 00:58:01] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-05 00:58:01] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.1.3.tar.gz tmp/chalkpy-2.1.4.tar.gz --markdown 20230505/c/chalkpy/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-05-05 00:58:01] INFO root fetch - processPackages [haruka-bot]: executing diffoscope
+[2023-05-05 00:58:01] INFO root fetch - processPackages [haruka-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haruka-bot-1.5.3a3.tar.gz tmp/haruka-bot-1.5.4.tar.gz --markdown 20230505/h/haruka-bot/1.5.3a3-1.5.4/diff.md --exclude *.pyd
+[2023-05-05 00:58:01] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2023-05-05 00:58:01] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-05-05 00:58:01] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230505/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-05 00:58:01] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-05-05 00:58:01] INFO root fetch - processPackages [pymatgen-analysis-defects]: Downloading https://files.pythonhosted.org/packages/4a/c3/e321952b03ac233899b2ccb3fbb2345e1e5aa4c0238d31608d13076d7d03/pymatgen-analysis-defects-2023.5.4.tar.gz
+[2023-05-05 00:58:02] INFO root fetch - processPackages [pymatgen-analysis-defects]: executing diffoscope
+[2023-05-05 00:58:02] INFO root fetch - processPackages [pymatgen-analysis-defects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymatgen-analysis-defects-2023.4.5.tar.gz tmp/pymatgen-analysis-defects-2023.5.4.tar.gz --markdown 20230505/p/pymatgen-analysis-defects/2023.4.5-2023.5.4/diff.md --exclude *.pyd
+[2023-05-05 00:58:03] INFO root fetch - main [MainThread]: End processing [pymatgen-analysis-defects]: success
+[2023-05-05 00:58:03] INFO root fetch - main [MainThread]: End processing [haruka-bot]: success
+[2023-05-05 00:58:04] INFO root fetch - main [MainThread]: End processing [rocm-docs-core]: success
+[2023-05-05 00:58:04] INFO root fetch - main [MainThread]: End processing [dbt-coves]: success
+[2023-05-05 00:58:04] INFO root fetch - main [MainThread]: End processing [caikit]: success
+[2023-05-05 00:58:04] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-05-05 00:58:06] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-05 00:58:07] INFO root fetch - main [MainThread]: End processing [axonius-api-client]: success
+[2023-05-05 00:58:07] INFO root fetch - main [MainThread]: Store serial: [17978904]
