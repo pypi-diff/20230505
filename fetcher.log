@@ -962,3 +962,99 @@
 [2023-05-05 01:13:53] INFO root fetch - main [MainThread]: End processing [gitbetter]: success
 [2023-05-05 01:13:53] INFO root fetch - main [MainThread]: End processing [pyTermTk]: success
 [2023-05-05 01:13:53] INFO root fetch - main [MainThread]: Store serial: [17979007]
+[2023-05-05 01:18:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17979007]
+[2023-05-05 01:19:01] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-05 01:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx
+[2023-05-05 01:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: verify-access-autoconf
+[2023-05-05 01:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-eric-kotlin1.8
+[2023-05-05 01:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gen3-util
+[2023-05-05 01:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apollo-sdk
+[2023-05-05 01:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-05 01:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nyckel
+[2023-05-05 01:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aviatrix-discovery
+[2023-05-05 01:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nvidia-nccl-cu12
+[2023-05-05 01:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aviatrix-migration
+[2023-05-05 01:19:02] INFO root fetch - processPackages [verify-access-autoconf]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-05 01:19:02] WARNING root fetch - processPackages [gen3-util]: Skipping, unable to determine old version
+[2023-05-05 01:19:02] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: New version: [20230504.23.14.996571] Old Version: [20230504.22.35.554014]
+[2023-05-05 01:19:02] INFO root fetch - processPackages [apollo-sdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 01:19:02] INFO root fetch - processPackages [gen3-util]: Start processing: tapdance
+[2023-05-05 01:19:02] INFO root fetch - main [MainThread]: End processing [gen3-util] error
+[2023-05-05 01:19:02] WARNING root fetch - processPackages [nyckel]: Skipping, unable to determine old version
+[2023-05-05 01:19:02] INFO root fetch - processPackages [nyckel]: Start processing: coastsat-package
+[2023-05-05 01:19:02] INFO root fetch - main [MainThread]: End processing [nyckel] error
+[2023-05-05 01:19:02] INFO root fetch - processPackages [onnx]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-05 01:19:02] INFO root fetch - processPackages [nvidia-nccl-cu12]: New version: [2.18.1] Old Version: [2.17.1]
+[2023-05-05 01:19:02] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.304] Old Version: [0.3.303]
+[2023-05-05 01:19:02] INFO root fetch - processPackages [aviatrix-discovery]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 01:19:02] INFO root fetch - processPackages [aviatrix-migration]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 01:19:02] INFO root fetch - processPackages [tapdance]: New version: [0.9.9.dev301] Old Version: [0.9.9.dev299]
+[2023-05-05 01:19:02] INFO root fetch - processPackages [aviatrix-discovery]: executing diffoscope
+[2023-05-05 01:19:02] INFO root fetch - processPackages [aviatrix-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230505/a/aviatrix-discovery/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 01:19:02] INFO root fetch - processPackages [coastsat-package]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-05 01:19:02] INFO root fetch - processPackages [apollo-sdk]: Downloading https://files.pythonhosted.org/packages/0a/71/b3fe8bbdd14e7fe715e7858537e53e56754cc77127e000984d4b5cbd42f5/apollo_sdk-0.1.3-py3-none-any.whl
+[2023-05-05 01:19:02] INFO root fetch - processPackages [verify-access-autoconf]: Downloading https://files.pythonhosted.org/packages/14/2a/ef9ebb0468df011b9add7667b29bab0e1237617bfadb7bf2b465eaa1bd04/verify_access_autoconf-0.1.0.tar.gz
+[2023-05-05 01:19:02] INFO root fetch - processPackages [onnx]: Downloading https://files.pythonhosted.org/packages/2b/8d/c924f54e19ec71543c18658d86e8337579d5a784bd524b7f18e2e2cd6f17/onnx-1.8.1.tar.gz
+[2023-05-05 01:19:02] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/5b/f7/5dd918331b95ec721860253bf6c5b4db9b7bc88420e54b56826ca6b8a95d/pepperize.cdk-ses-smtp-credentials-0.3.304.tar.gz
+[2023-05-05 01:19:02] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Downloading https://files.pythonhosted.org/packages/23/75/b73ab999b8c551fbd922f488db6fbb59809cfd5d1f2852815205ecbc7466/certora-cli-alpha-eric-kotlin1.8-20230504.22.35.554014.tar.gz
+[2023-05-05 01:19:02] INFO root fetch - processPackages [nvidia-nccl-cu12]: Downloading https://files.pythonhosted.org/packages/74/8a/f17a736a2ae6de3f29e3c9ce001d2c30eb826fff4a097b9aa073493fa771/nvidia_nccl_cu12-2.17.1-py3-none-manylinux1_x86_64.whl
+[2023-05-05 01:19:02] WARNING root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Skipping package: exceeds size limit 39203134>=10485760
+[2023-05-05 01:19:02] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Start processing: sagemaker
+[2023-05-05 01:19:02] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-kotlin1.8] error
+[2023-05-05 01:19:02] INFO root fetch - processPackages [tapdance]: executing diffoscope
+[2023-05-05 01:19:02] INFO root fetch - processPackages [tapdance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapdance-0.9.9.dev299.tar.gz tmp/tapdance-0.9.9.dev301.tar.gz --markdown 20230505/t/tapdance/0.9.9.dev299-0.9.9.dev301/diff.md --exclude *.pyd
+[2023-05-05 01:19:02] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-05 01:19:02] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.303.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.304.tar.gz --markdown 20230505/p/pepperize.cdk-ses-smtp-credentials/0.3.303-0.3.304/diff.md --exclude *.pyd
+[2023-05-05 01:19:02] INFO root fetch - processPackages [apollo-sdk]: Downloading https://files.pythonhosted.org/packages/f6/fc/d91fcbc2c5460d156489b8dd217e78b9fa33b73ad86764b9e6c1478b42ce/apollo-sdk-0.1.4.tar.gz
+[2023-05-05 01:19:02] INFO root fetch - processPackages [coastsat-package]: Downloading https://files.pythonhosted.org/packages/e5/8a/756a74a7f42edf5923bc216e45955c4f3943eaf77a18de90b09f055ac52c/coastsat_package-0.1.6.tar.gz
+[2023-05-05 01:19:02] WARNING root fetch - processPackages [nvidia-nccl-cu12]: Skipping package: exceeds size limit 207865839>=10485760
+[2023-05-05 01:19:02] INFO root fetch - processPackages [nvidia-nccl-cu12]: Start processing: netrics-measurements
+[2023-05-05 01:19:02] INFO root fetch - main [MainThread]: End processing [nvidia-nccl-cu12] error
+[2023-05-05 01:19:02] INFO root fetch - processPackages [apollo-sdk]: executing diffoscope
+[2023-05-05 01:19:02] INFO root fetch - processPackages [apollo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo_sdk-0.1.3-py3-none-any.whl.zip tmp/apollo-sdk-0.1.4.tar.gz --markdown 20230505/a/apollo-sdk/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 01:19:02] INFO root fetch - processPackages [netrics-measurements]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-05-05 01:19:02] INFO root fetch - processPackages [sagemaker]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-05-05 01:19:02] WARNING root fetch - processPackages [coastsat-package]: Skipping package: exceeds size limit 32858346>=10485760
+[2023-05-05 01:19:02] INFO root fetch - processPackages [coastsat-package]: Start processing: model-saver
+[2023-05-05 01:19:02] INFO root fetch - main [MainThread]: End processing [coastsat-package] error
+[2023-05-05 01:19:02] INFO root fetch - processPackages [verify-access-autoconf]: Downloading https://files.pythonhosted.org/packages/5c/ed/18f56e1740072583bfac9d94b01927eb73833a1e5e3dc5343fa54341adde/verify_access_autoconf-0.2.0.tar.gz
+[2023-05-05 01:19:02] INFO root fetch - processPackages [netrics-measurements]: executing diffoscope
+[2023-05-05 01:19:02] INFO root fetch - processPackages [netrics-measurements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netrics_measurements-0.0.1rc8.tar.gz tmp/netrics_measurements-0.0.1rc9.tar.gz --markdown 20230505/n/netrics-measurements/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-05-05 01:19:02] INFO root fetch - processPackages [model-saver]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-05-05 01:19:02] INFO root fetch - processPackages [aviatrix-migration]: executing diffoscope
+[2023-05-05 01:19:02] INFO root fetch - processPackages [aviatrix-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230505/a/aviatrix-migration/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 01:19:02] INFO root fetch - processPackages [verify-access-autoconf]: executing diffoscope
+[2023-05-05 01:19:02] INFO root fetch - processPackages [verify-access-autoconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verify_access_autoconf-0.1.0.tar.gz tmp/verify_access_autoconf-0.2.0.tar.gz --markdown 20230505/v/verify-access-autoconf/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 01:19:02] INFO root fetch - processPackages [onnx]: Downloading https://files.pythonhosted.org/packages/73/e9/5b953497c0e36df589fc60cc6c6b35a65eb67d9ad1e45a9163663e43426e/onnx-1.9.0.tar.gz
+[2023-05-05 01:19:02] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/22/dd/adc439c8040ceb2a14d8d72110638d79775925a88e7e3925ee7a87333551/sagemaker-2.98.0.tar.gz
+[2023-05-05 01:19:02] INFO root fetch - processPackages [onnx]: executing diffoscope
+[2023-05-05 01:19:02] INFO root fetch - processPackages [onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx-1.8.1.tar.gz tmp/onnx-1.9.0.tar.gz --markdown 20230505/o/onnx/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-05 01:19:02] ERROR root fetch - processPackages [model-saver]: Unable to fetch info: No such project/version 'model-saver' 2.8.0
+[2023-05-05 01:19:02] INFO root fetch - processPackages [model-saver]: Start processing: pybet
+[2023-05-05 01:19:02] INFO root fetch - main [MainThread]: End processing [model-saver] error
+[2023-05-05 01:19:02] INFO root fetch - processPackages [pybet]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-05 01:19:03] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/a1/4b/c6dcd8ae0e0f163c7938e1fee17da72be71aac4347c044a5a52f21a850a6/sagemaker-2.99.0.tar.gz
+[2023-05-05 01:19:03] INFO root fetch - processPackages [sagemaker]: executing diffoscope
+[2023-05-05 01:19:03] INFO root fetch - processPackages [sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-2.98.0.tar.gz tmp/sagemaker-2.99.0.tar.gz --markdown 20230505/s/sagemaker/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-05-05 01:19:03] INFO root fetch - processPackages [pybet]: Downloading https://files.pythonhosted.org/packages/76/e4/8a056c0d233d8efc96378436daacb98c9ef45b7d198fc5867a5966a61b7c/pybet-0.6.0.tar.gz
+[2023-05-05 01:19:03] INFO root fetch - processPackages [pybet]: Downloading https://files.pythonhosted.org/packages/2e/8f/7f6c74456e3425cd8b5a8cae7eba8f157172e29e2bf6a373872675d9296a/pybet-0.6.1-py3-none-any.whl
+[2023-05-05 01:19:03] INFO root fetch - processPackages [pybet]: executing diffoscope
+[2023-05-05 01:19:03] INFO root fetch - processPackages [pybet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybet-0.6.0.tar.gz tmp/pybet-0.6.1-py3-none-any.whl.zip --markdown 20230505/p/pybet/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-05 01:19:03] INFO root fetch - processPackages [aviatrix-discovery]: Start processing: oresat-olaf
+[2023-05-05 01:19:03] INFO root fetch - main [MainThread]: End processing [aviatrix-discovery]: success
+[2023-05-05 01:19:03] INFO root fetch - processPackages [oresat-olaf]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-05 01:19:03] INFO root fetch - main [MainThread]: End processing [apollo-sdk]: success
+[2023-05-05 01:19:03] INFO root fetch - processPackages [oresat-olaf]: Downloading https://files.pythonhosted.org/packages/f9/48/23fb8134cb25bdefdcc63125d10a6419f7872b5e35768affd3636955861f/oresat-olaf-2.0.0.tar.gz
+[2023-05-05 01:19:03] INFO root fetch - main [MainThread]: End processing [tapdance]: success
+[2023-05-05 01:19:04] INFO root fetch - processPackages [oresat-olaf]: Downloading https://files.pythonhosted.org/packages/3f/ee/d115356a7909222a35eed0df1fde6c430e7f15609f85d92dee71c190ba4a/oresat-olaf-2.0.1.tar.gz
+[2023-05-05 01:19:04] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-05 01:19:04] INFO root fetch - main [MainThread]: End processing [netrics-measurements]: success
+[2023-05-05 01:19:04] INFO root fetch - processPackages [oresat-olaf]: executing diffoscope
+[2023-05-05 01:19:04] INFO root fetch - processPackages [oresat-olaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat-olaf-2.0.0.tar.gz tmp/oresat-olaf-2.0.1.tar.gz --markdown 20230505/o/oresat-olaf/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-05 01:19:04] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
+[2023-05-05 01:19:04] INFO root fetch - main [MainThread]: End processing [pybet]: success
+[2023-05-05 01:19:05] INFO root fetch - main [MainThread]: End processing [verify-access-autoconf]: success
+[2023-05-05 01:19:05] INFO root fetch - main [MainThread]: End processing [oresat-olaf]: success
+[2023-05-05 01:19:06] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
+[2023-05-05 01:21:39] INFO root fetch - main [MainThread]: End processing [onnx]: success
+[2023-05-05 01:21:39] INFO root fetch - main [MainThread]: Store serial: [17979121]
