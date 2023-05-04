@@ -463,3 +463,74 @@
 [2023-05-05 00:32:43] INFO root fetch - main [MainThread]: End processing [mitosheet3]: success
 [2023-05-05 00:32:43] INFO root fetch - main [MainThread]: End processing [dataquality]: success
 [2023-05-05 00:32:43] INFO root fetch - main [MainThread]: Store serial: [17978704]
+[2023-05-05 00:37:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17978704]
+[2023-05-05 00:37:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-05 00:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentient-switchblade
+[2023-05-05 00:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UAVReaders
+[2023-05-05 00:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keycloak-django
+[2023-05-05 00:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dream-helpers
+[2023-05-05 00:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-review
+[2023-05-05 00:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dream-helpers
+[2023-05-05 00:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-eric-kotlin1.8
+[2023-05-05 00:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: noisepy-seis
+[2023-05-05 00:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: converterpro
+[2023-05-05 00:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: semgrep
+[2023-05-05 00:37:52] INFO root fetch - processPackages [sentient-switchblade]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-05 00:37:52] INFO root fetch - processPackages [gpt-review]: New version: [0.5.0rc398.post1] Old Version: [0.4.0rc389.post1]
+[2023-05-05 00:37:52] INFO root fetch - processPackages [dream-helpers]: New version: [0.0.271] Old Version: [0.0.270]
+[2023-05-05 00:37:52] INFO root fetch - processPackages [noisepy-seis]: New version: [0.7.0] Old Version: [0.5.9]
+[2023-05-05 00:37:52] WARNING root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Skipping, unable to determine old version
+[2023-05-05 00:37:52] INFO root fetch - processPackages [converterpro]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 00:37:52] INFO root fetch - processPackages [dream-helpers]: New version: [0.0.271] Old Version: [0.0.270]
+[2023-05-05 00:37:52] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Start processing: neopolitan
+[2023-05-05 00:37:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-kotlin1.8] error
+[2023-05-05 00:37:52] INFO root fetch - processPackages [UAVReaders]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-05 00:37:52] INFO root fetch - processPackages [keycloak-django]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 00:37:52] INFO root fetch - processPackages [neopolitan]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-05 00:37:52] INFO root fetch - processPackages [semgrep]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-05 00:37:52] INFO root fetch - processPackages [dream-helpers]: Downloading https://files.pythonhosted.org/packages/32/29/27cf35731fb319c8f477477a9be10dcca74b89fb23b652de5b5a62dcd829/dream_helpers-0.0.270-py3-none-any.whl
+[2023-05-05 00:37:52] INFO root fetch - processPackages [dream-helpers]: Downloading https://files.pythonhosted.org/packages/32/29/27cf35731fb319c8f477477a9be10dcca74b89fb23b652de5b5a62dcd829/dream_helpers-0.0.270-py3-none-any.whl
+[2023-05-05 00:37:52] INFO root fetch - processPackages [neopolitan]: executing diffoscope
+[2023-05-05 00:37:52] INFO root fetch - processPackages [neopolitan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neopolitan-0.1.7.tar.gz tmp/neopolitan-0.1.8.tar.gz --markdown 20230505/n/neopolitan/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-05 00:37:52] INFO root fetch - processPackages [noisepy-seis]: Downloading https://files.pythonhosted.org/packages/e5/64/cb3534a28a4c4522e2c457124d36c54cfe7108dce59e6ba4db78a661982c/noisepy_seis-0.5.9.tar.gz
+[2023-05-05 00:37:52] INFO root fetch - processPackages [converterpro]: Downloading https://files.pythonhosted.org/packages/28/6b/c95d4113f2cba51b2691f38858269e73c45ba6262da276452227a291a2f3/converterpro-0.1.1.tar.gz
+[2023-05-05 00:37:52] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/04/e6/22557b194f74a768db006ba82f5b851b989d604f13b3815ab712c964872c/gpt-review-0.5.0rc398.post1.tar.gz
+[2023-05-05 00:37:52] INFO root fetch - processPackages [sentient-switchblade]: Downloading https://files.pythonhosted.org/packages/90/4b/e91b5e2b5e50abd7f5855a4e247a5f28ad74eebe42afa4811a6ac80a438d/sentient_switchblade-0.3.1.tar.gz
+[2023-05-05 00:37:52] INFO root fetch - processPackages [keycloak-django]: Downloading https://files.pythonhosted.org/packages/55/63/e7bbbcd886bec3418acbb607e9aad150dbb481d634bf962084edc740b25f/keycloak_django-1.0.1.tar.gz
+[2023-05-05 00:37:52] INFO root fetch - processPackages [UAVReaders]: Downloading https://files.pythonhosted.org/packages/7c/7f/5e91d9adcdd78ed53990d4f09a733e2930c3aa4c0a2c0a30ee88a839cb24/UAVReaders-0.5.5.tar.gz
+[2023-05-05 00:37:52] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-05 00:37:52] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.4.0rc389.post1.tar.gz tmp/gpt-review-0.5.0rc398.post1.tar.gz --markdown 20230505/g/gpt-review/0.4.0rc389.post1-0.5.0rc398.post1/diff.md --exclude *.pyd
+[2023-05-05 00:37:52] INFO root fetch - processPackages [sentient-switchblade]: executing diffoscope
+[2023-05-05 00:37:52] INFO root fetch - processPackages [sentient-switchblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentient_switchblade-0.3.0.tar.gz tmp/sentient_switchblade-0.3.1.tar.gz --markdown 20230505/s/sentient-switchblade/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-05 00:37:52] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/e8/01/19545ddda759ac5490b06824be79cc94ba77a16ead929171b99d0a246bad/semgrep-1.8.0.tar.gz
+[2023-05-05 00:37:52] INFO root fetch - processPackages [keycloak-django]: executing diffoscope
+[2023-05-05 00:37:52] INFO root fetch - processPackages [keycloak-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycloak_django-1.0.0.tar.gz tmp/keycloak_django-1.0.1.tar.gz --markdown 20230505/k/keycloak-django/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 00:37:52] INFO root fetch - processPackages [dream-helpers]: Downloading https://files.pythonhosted.org/packages/22/43/b125af9405dbff5f25a65a22e1399671c7e6dcce50a1af21098b6c0ca069/dream_helpers-0.0.271.tar.gz
+[2023-05-05 00:37:52] INFO root fetch - processPackages [dream-helpers]: Downloading https://files.pythonhosted.org/packages/22/43/b125af9405dbff5f25a65a22e1399671c7e6dcce50a1af21098b6c0ca069/dream_helpers-0.0.271.tar.gz
+[2023-05-05 00:37:52] INFO root fetch - processPackages [converterpro]: Downloading https://files.pythonhosted.org/packages/a4/17/0ea537f868d99f4ea9d80450db2d6bb96954ae4ef99a995e02f238c04042/converterpro-0.1.2.tar.gz
+[2023-05-05 00:37:52] INFO root fetch - processPackages [noisepy-seis]: Downloading https://files.pythonhosted.org/packages/37/c0/c051f81278ee588ff7efcd5a13e95cf977dd49df0a6a9cf0e1fbca769fc3/noisepy_seis-0.7.0.tar.gz
+[2023-05-05 00:37:52] INFO root fetch - processPackages [UAVReaders]: Downloading https://files.pythonhosted.org/packages/fb/97/4947332c96cd5466d03dc2909a9849c184da1a9ff9e22196cfd1b310e062/UAVReaders-0.5.6.tar.gz
+[2023-05-05 00:37:52] INFO root fetch - processPackages [dream-helpers]: executing diffoscope
+[2023-05-05 00:37:52] INFO root fetch - processPackages [dream-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dream_helpers-0.0.270-py3-none-any.whl.zip tmp/dream_helpers-0.0.271.tar.gz --markdown 20230505/d/dream-helpers/0.0.270-0.0.271/diff.md --exclude *.pyd
+[2023-05-05 00:37:53] INFO root fetch - processPackages [dream-helpers]: executing diffoscope
+[2023-05-05 00:37:53] INFO root fetch - processPackages [dream-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dream_helpers-0.0.270-py3-none-any.whl.zip tmp/dream_helpers-0.0.271.tar.gz --markdown 20230505/d/dream-helpers/0.0.270-0.0.271/diff.md --exclude *.pyd
+[2023-05-05 00:37:53] INFO root fetch - processPackages [converterpro]: executing diffoscope
+[2023-05-05 00:37:53] INFO root fetch - processPackages [converterpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/converterpro-0.1.1.tar.gz tmp/converterpro-0.1.2.tar.gz --markdown 20230505/c/converterpro/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 00:37:53] INFO root fetch - processPackages [noisepy-seis]: executing diffoscope
+[2023-05-05 00:37:53] INFO root fetch - processPackages [noisepy-seis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noisepy_seis-0.5.9.tar.gz tmp/noisepy_seis-0.7.0.tar.gz --markdown 20230505/n/noisepy-seis/0.5.9-0.7.0/diff.md --exclude *.pyd
+[2023-05-05 00:37:53] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/36/c5/83e730de608ee46ac2e59871a9d5b8ab500f02215a25a3ed6300916d796f/semgrep-1.9.0.tar.gz
+[2023-05-05 00:37:53] INFO root fetch - processPackages [UAVReaders]: executing diffoscope
+[2023-05-05 00:37:53] INFO root fetch - processPackages [UAVReaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UAVReaders-0.5.5.tar.gz tmp/UAVReaders-0.5.6.tar.gz --markdown 20230505/U/UAVReaders/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-05 00:37:53] INFO root fetch - processPackages [semgrep]: executing diffoscope
+[2023-05-05 00:37:53] INFO root fetch - processPackages [semgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semgrep-1.8.0.tar.gz tmp/semgrep-1.9.0.tar.gz --markdown 20230505/s/semgrep/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-05 00:37:54] INFO root fetch - main [MainThread]: End processing [dream-helpers]: success
+[2023-05-05 00:37:54] INFO root fetch - main [MainThread]: End processing [dream-helpers]: success
+[2023-05-05 00:37:54] INFO root fetch - main [MainThread]: End processing [neopolitan]: success
+[2023-05-05 00:37:54] INFO root fetch - main [MainThread]: End processing [keycloak-django]: success
+[2023-05-05 00:37:54] INFO root fetch - main [MainThread]: End processing [sentient-switchblade]: success
+[2023-05-05 00:37:54] INFO root fetch - main [MainThread]: End processing [converterpro]: success
+[2023-05-05 00:37:54] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-05 00:37:55] INFO root fetch - main [MainThread]: End processing [noisepy-seis]: success
+[2023-05-05 00:37:55] INFO root fetch - main [MainThread]: End processing [semgrep]: success
+[2023-05-05 00:38:00] INFO root fetch - main [MainThread]: End processing [UAVReaders]: success
+[2023-05-05 00:38:00] INFO root fetch - main [MainThread]: Store serial: [17978767]
