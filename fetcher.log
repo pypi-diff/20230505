@@ -1471,3 +1471,56 @@
 [2023-05-05 01:54:08] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2023-05-05 01:54:08] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
 [2023-05-05 01:54:08] INFO root fetch - main [MainThread]: Store serial: [17979336]
+[2023-05-05 01:59:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17979336]
+[2023-05-05 01:59:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-05 01:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cwsearch-utils
+[2023-05-05 01:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domolibrary
+[2023-05-05 01:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalk-harness
+[2023-05-05 01:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DOTSAddressValidation3
+[2023-05-05 01:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlalchemy-orm
+[2023-05-05 01:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spPersist
+[2023-05-05 01:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zoterotex
+[2023-05-05 01:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pimgu
+[2023-05-05 01:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jiggybase
+[2023-05-05 01:59:17] INFO root fetch - processPackages [sqlalchemy-orm]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-05 01:59:17] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-05 01:59:17] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 01:59:17] INFO root fetch - processPackages [zoterotex]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-05-05 01:59:17] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 01:59:17] INFO root fetch - processPackages [jiggybase]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-05-05 01:59:17] WARNING root fetch - processPackages [DOTSAddressValidation3]: Skipping, unable to determine old version
+[2023-05-05 01:59:17] INFO root fetch - main [MainThread]: End processing [DOTSAddressValidation3] error
+[2023-05-05 01:59:17] INFO root fetch - processPackages [pimgu]: New version: [5.4.2023.7] Old Version: [5.4.2023.6]
+[2023-05-05 01:59:17] INFO root fetch - processPackages [spPersist]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-05 01:59:17] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-05-05 01:59:17] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230505/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 01:59:17] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-05 01:59:17] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230505/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 01:59:17] INFO root fetch - processPackages [jiggybase]: Downloading https://files.pythonhosted.org/packages/40/97/27c52f126afaaa12d6651962cd63ee2747ecf6230dfae5262956c04f8660/jiggybase-0.0.19.tar.gz
+[2023-05-05 01:59:17] INFO root fetch - processPackages [zoterotex]: Downloading https://files.pythonhosted.org/packages/08/62/7c734161cb34c9263ee99aac276c10441e7677c05d96959bad467a75a30c/zoterotex-0.0.1a4.tar.gz
+[2023-05-05 01:59:17] INFO root fetch - processPackages [sqlalchemy-orm]: Downloading https://files.pythonhosted.org/packages/a4/3e/4b759693790147992a39df48ad84127a05883d048b0d682fe20bd5a8dc9e/sqlalchemy-orm-1.2.8.tar.gz
+[2023-05-05 01:59:17] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/da/de/33626b51d56d440c0bf17ebb2ef68656b396d14fe47c772ad5c636bf7428/sppersist-0.1.7.tar.gz
+[2023-05-05 01:59:17] INFO root fetch - processPackages [sqlalchemy-orm]: executing diffoscope
+[2023-05-05 01:59:17] INFO root fetch - processPackages [sqlalchemy-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-orm-1.2.7.tar.gz tmp/sqlalchemy-orm-1.2.8.tar.gz --markdown 20230505/s/sqlalchemy-orm/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-05 01:59:17] INFO root fetch - processPackages [zoterotex]: executing diffoscope
+[2023-05-05 01:59:17] INFO root fetch - processPackages [zoterotex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoterotex-0.0.1a3.tar.gz tmp/zoterotex-0.0.1a4.tar.gz --markdown 20230505/z/zoterotex/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-05-05 01:59:17] INFO root fetch - processPackages [jiggybase]: Downloading https://files.pythonhosted.org/packages/c6/09/3b3bf69d2601f05e5608e67ac0a854315f6b0f3460cfad5f5a3280245ad2/jiggybase-0.0.20.tar.gz
+[2023-05-05 01:59:17] INFO root fetch - processPackages [pimgu]: Downloading https://files.pythonhosted.org/packages/b8/c2/1365964b08fd90c0271277a6ac3b955e0e20f7965c77aa31b883921d1af8/pimgu-5.4.2023.7.tar.gz
+[2023-05-05 01:59:17] INFO root fetch - processPackages [jiggybase]: executing diffoscope
+[2023-05-05 01:59:17] INFO root fetch - processPackages [jiggybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiggybase-0.0.19.tar.gz tmp/jiggybase-0.0.20.tar.gz --markdown 20230505/j/jiggybase/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-05-05 01:59:17] INFO root fetch - processPackages [pimgu]: executing diffoscope
+[2023-05-05 01:59:17] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-05-05 01:59:17] INFO root fetch - processPackages [pimgu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pimgu-5.4.2023.6.tar.gz tmp/pimgu-5.4.2023.7.tar.gz --markdown 20230505/p/pimgu/5.4.2023.6-5.4.2023.7/diff.md --exclude *.pyd
+[2023-05-05 01:59:17] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230505/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 01:59:17] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/cc/ac/bfd85c5260a614f33589b6fd6d52c86547f0195c5c9a52a033e687abc1e4/sppersist-0.1.8.tar.gz
+[2023-05-05 01:59:17] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-05-05 01:59:17] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.1.7.tar.gz tmp/sppersist-0.1.8.tar.gz --markdown 20230505/s/spPersist/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-05 01:59:18] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-05-05 01:59:18] INFO root fetch - main [MainThread]: End processing [zoterotex]: success
+[2023-05-05 01:59:18] INFO root fetch - main [MainThread]: End processing [sqlalchemy-orm]: success
+[2023-05-05 01:59:19] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-05-05 01:59:19] INFO root fetch - main [MainThread]: End processing [jiggybase]: success
+[2023-05-05 01:59:20] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-05 01:59:47] INFO root fetch - main [MainThread]: End processing [pimgu]: success
+[2023-05-05 01:59:47] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-05-05 01:59:47] INFO root fetch - main [MainThread]: Store serial: [17979366]
