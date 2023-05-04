@@ -845,3 +845,63 @@
 [2023-05-05 01:03:22] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-05 01:03:26] INFO root fetch - main [MainThread]: End processing [openram]: success
 [2023-05-05 01:03:26] INFO root fetch - main [MainThread]: Store serial: [17978943]
+[2023-05-05 01:08:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17978943]
+[2023-05-05 01:08:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-05 01:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt
+[2023-05-05 01:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DynamicAnnotationDB
+[2023-05-05 01:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorboard
+[2023-05-05 01:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mappertrac
+[2023-05-05 01:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kegstandcli
+[2023-05-05 01:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbsite
+[2023-05-05 01:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: domolibrary
+[2023-05-05 01:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xraylarch
+[2023-05-05 01:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-05 01:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airflow-metrics-gbq
+[2023-05-05 01:08:36] INFO root fetch - processPackages [kegstandcli]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-05 01:08:36] INFO root fetch - processPackages [DynamicAnnotationDB]: New version: [5.7.3] Old Version: [5.7.2]
+[2023-05-05 01:08:36] INFO root fetch - processPackages [tensorboard]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-05 01:08:36] INFO root fetch - processPackages [mappertrac]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-05-05 01:08:36] INFO root fetch - processPackages [airflow-metrics-gbq]: New version: [0.0.5a3] Old Version: [0.0.5a2]
+[2023-05-05 01:08:36] INFO root fetch - processPackages [nbsite]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-05-05 01:08:36] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 01:08:36] INFO root fetch - processPackages [xraylarch]: New version: [0.9.68] Old Version: [0.9.67]
+[2023-05-05 01:08:36] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230504] Old Version: [0.7.0b20230503]
+[2023-05-05 01:08:36] INFO root fetch - processPackages [airflow-metrics-gbq]: executing diffoscope
+[2023-05-05 01:08:36] INFO root fetch - processPackages [airflow-metrics-gbq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_metrics_gbq-0.0.5a2.tar.gz tmp/airflow_metrics_gbq-0.0.5a3.tar.gz --markdown 20230505/a/airflow-metrics-gbq/0.0.5a2-0.0.5a3/diff.md --exclude *.pyd
+[2023-05-05 01:08:36] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.303] Old Version: [0.3.302]
+[2023-05-05 01:08:36] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-05-05 01:08:36] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.0rc8.tar.gz tmp/nbsite-0.8.0rc9.tar.gz --markdown 20230505/n/nbsite/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-05-05 01:08:36] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-05 01:08:36] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230505/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 01:08:36] INFO root fetch - processPackages [DynamicAnnotationDB]: Downloading https://files.pythonhosted.org/packages/74/7b/e37830eeb996228c4fdd022c43609ee5caf618748b692bb7a1144a5ff9c5/DynamicAnnotationDB-5.7.2.tar.gz
+[2023-05-05 01:08:36] INFO root fetch - processPackages [mappertrac]: Downloading https://files.pythonhosted.org/packages/cf/c2/241dd8e712cf347901c529758d021d85155ce3ceaed82bb50974ed8e0e0b/mappertrac-1.2.1.tar.gz
+[2023-05-05 01:08:36] INFO root fetch - processPackages [kegstandcli]: Downloading https://files.pythonhosted.org/packages/f0/48/11060c16cebb03c44830bbc5c0dfd16ac49b0562dbbae62b94aba4770e29/kegstandcli-0.3.4.tar.gz
+[2023-05-05 01:08:36] INFO root fetch - processPackages [xraylarch]: Downloading https://files.pythonhosted.org/packages/0c/90/ae6d35ef9a3f92252644d25b12a7eeca3787c59ca56c069890c1b92b6916/xraylarch-0.9.67.tar.gz
+[2023-05-05 01:08:36] WARNING root fetch - processPackages [mappertrac]: Skipping package: exceeds size limit 39589838>=10485760
+[2023-05-05 01:08:36] INFO root fetch - main [MainThread]: End processing [mappertrac] error
+[2023-05-05 01:08:36] INFO root fetch - processPackages [tensorboard]: executing diffoscope
+[2023-05-05 01:08:36] INFO root fetch - processPackages [tensorboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorboard-2.9.0-py3-none-any.whl.zip tmp/tensorboard-2.9.1-py3-none-any.whl.zip --markdown 20230505/t/tensorboard/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-05 01:08:36] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/4d/68/b40f6907554a23e82b576c9260e00e0bfa0662788b998dfceb78a677da74/pepperize.cdk-ses-smtp-credentials-0.3.302.tar.gz
+[2023-05-05 01:08:36] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/cc/bf/da978ea7d97d66dba68adcb4e83e09147e98d7b2e02dd6ba4b5c82442058/tmnt-0.7.0b20230504.tar.gz
+[2023-05-05 01:08:36] WARNING root fetch - processPackages [xraylarch]: Skipping package: exceeds size limit 75719108>=10485760
+[2023-05-05 01:08:36] INFO root fetch - main [MainThread]: End processing [xraylarch] error
+[2023-05-05 01:08:36] INFO root fetch - processPackages [DynamicAnnotationDB]: Downloading https://files.pythonhosted.org/packages/bd/1e/f198e62adb697a1ad7b4eeb704bcfbd7c122d147a3e4a205f8ff512cde01/DynamicAnnotationDB-5.7.3.tar.gz
+[2023-05-05 01:08:36] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-05 01:08:36] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230503.tar.gz tmp/tmnt-0.7.0b20230504.tar.gz --markdown 20230505/t/tmnt/0.7.0b20230503-0.7.0b20230504/diff.md --exclude *.pyd
+[2023-05-05 01:08:36] INFO root fetch - processPackages [kegstandcli]: Downloading https://files.pythonhosted.org/packages/fb/d0/f3df39f9b03005390ce0a00fdf5d52e75c64b4b87eea66c7030c14132413/kegstandcli-0.3.5.tar.gz
+[2023-05-05 01:08:36] INFO root fetch - processPackages [DynamicAnnotationDB]: executing diffoscope
+[2023-05-05 01:08:36] INFO root fetch - processPackages [DynamicAnnotationDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicAnnotationDB-5.7.2.tar.gz tmp/DynamicAnnotationDB-5.7.3.tar.gz --markdown 20230505/D/DynamicAnnotationDB/5.7.2-5.7.3/diff.md --exclude *.pyd
+[2023-05-05 01:08:36] INFO root fetch - processPackages [kegstandcli]: executing diffoscope
+[2023-05-05 01:08:36] INFO root fetch - processPackages [kegstandcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kegstandcli-0.3.4.tar.gz tmp/kegstandcli-0.3.5.tar.gz --markdown 20230505/k/kegstandcli/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-05 01:08:36] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/af/b7/575e47cd669becd4eea2b3c85df7ae27f65cd37ac1bc386a227f5e0df07d/pepperize.cdk-ses-smtp-credentials-0.3.303.tar.gz
+[2023-05-05 01:08:37] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-05 01:08:37] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.302.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.303.tar.gz --markdown 20230505/p/pepperize.cdk-ses-smtp-credentials/0.3.302-0.3.303/diff.md --exclude *.pyd
+[2023-05-05 01:08:37] INFO root fetch - main [MainThread]: End processing [airflow-metrics-gbq]: success
+[2023-05-05 01:08:38] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-05-05 01:08:38] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-05 01:08:38] INFO root fetch - main [MainThread]: End processing [kegstandcli]: success
+[2023-05-05 01:08:38] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-05 01:08:39] INFO root fetch - main [MainThread]: End processing [DynamicAnnotationDB]: success
+[2023-05-05 01:08:40] INFO root fetch - main [MainThread]: End processing [tensorboard]: success
+[2023-05-05 01:08:40] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-05 01:08:40] INFO root fetch - main [MainThread]: Store serial: [17978977]
