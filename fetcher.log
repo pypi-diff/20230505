@@ -252,3 +252,67 @@
 [2023-05-05 00:16:14] INFO root fetch - main [MainThread]: End processing [momento]: success
 [2023-05-05 00:16:38] INFO root fetch - main [MainThread]: End processing [systematica]: success
 [2023-05-05 00:16:38] INFO root fetch - main [MainThread]: Store serial: [17978576]
+[2023-05-05 00:21:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17978576]
+[2023-05-05 00:21:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-05 00:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentient-switchblade
+[2023-05-05 00:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keycloak-django
+[2023-05-05 00:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zoterotex
+[2023-05-05 00:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webullsdk
+[2023-05-05 00:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataquality
+[2023-05-05 00:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FiberFusing
+[2023-05-05 00:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dream-helpers
+[2023-05-05 00:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SuPyMode
+[2023-05-05 00:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cvxsimulator
+[2023-05-05 00:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shipyard-coalesce
+[2023-05-05 00:21:47] INFO root fetch - processPackages [keycloak-django]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-05-05 00:21:47] INFO root fetch - processPackages [dream-helpers]: New version: [0.0.269] Old Version: [0.0.268]
+[2023-05-05 00:21:47] INFO root fetch - processPackages [sentient-switchblade]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-05 00:21:47] INFO root fetch - processPackages [SuPyMode]: New version: [4.2.0] Old Version: [4.1.8]
+[2023-05-05 00:21:47] INFO root fetch - processPackages [zoterotex]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-05-05 00:21:47] WARNING root fetch - processPackages [shipyard-coalesce]: Skipping, unable to determine old version
+[2023-05-05 00:21:47] INFO root fetch - processPackages [shipyard-coalesce]: Start processing: systematica
+[2023-05-05 00:21:47] INFO root fetch - processPackages [FiberFusing]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-05 00:21:47] INFO root fetch - main [MainThread]: End processing [shipyard-coalesce] error
+[2023-05-05 00:21:47] WARNING root fetch - processPackages [cvxsimulator]: Skipping, unable to determine old version
+[2023-05-05 00:21:47] INFO root fetch - main [MainThread]: End processing [cvxsimulator] error
+[2023-05-05 00:21:47] INFO root fetch - processPackages [dataquality]: New version: [0.9.1a1] Old Version: [0.8.9]
+[2023-05-05 00:21:47] INFO root fetch - processPackages [systematica]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 00:21:47] WARNING root fetch - processPackages [webullsdk]: Skipping, unable to determine old version
+[2023-05-05 00:21:47] INFO root fetch - main [MainThread]: End processing [webullsdk] error
+[2023-05-05 00:21:47] INFO root fetch - processPackages [keycloak-django]: Downloading https://files.pythonhosted.org/packages/2a/77/f090d35e95e6e7b4facb86d2a2302847e01a0f5213e1f6fc951309d01536/keycloak_django-0.1.0.tar.gz
+[2023-05-05 00:21:47] INFO root fetch - processPackages [zoterotex]: Downloading https://files.pythonhosted.org/packages/34/83/f624ae43b591b0c0f324dd2696065c4c43d8004f5da7b641ca272d21e325/zoterotex-0.0.1a1.tar.gz
+[2023-05-05 00:21:47] INFO root fetch - processPackages [sentient-switchblade]: Downloading https://files.pythonhosted.org/packages/03/26/e56e39063b3bddbb1afacf077adfc29c3ae4b8a8edbb573561fee42a7d79/sentient_switchblade-0.2.2.tar.gz
+[2023-05-05 00:21:47] INFO root fetch - processPackages [SuPyMode]: Downloading https://files.pythonhosted.org/packages/97/3a/415eb9122011478a3854bc3ce10e4f0c289902bcc6432a9a667ec3fa2341/SuPyMode-4.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-05 00:21:47] INFO root fetch - processPackages [dream-helpers]: Downloading https://files.pythonhosted.org/packages/51/74/8889821cd35f4f7fdaab30ec8e8668b600767b7ac92eb8ce384ded2175dc/dream_helpers-0.0.269.tar.gz
+[2023-05-05 00:21:47] INFO root fetch - processPackages [systematica]: Downloading https://files.pythonhosted.org/packages/1d/a3/959e1b513d7c46c650947f9118db63dde03de72f28222313b2c1892c3d64/systematica-0.0.3.tar.gz
+[2023-05-05 00:21:47] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/91/1e/b93106f778087ce05e7c356ffd9a6a6062c6e62a84bf3f9d4eb655b16850/dataquality-0.8.9.tar.gz
+[2023-05-05 00:21:47] INFO root fetch - processPackages [dream-helpers]: executing diffoscope
+[2023-05-05 00:21:47] INFO root fetch - processPackages [dream-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dream_helpers-0.0.268.tar.gz tmp/dream_helpers-0.0.269.tar.gz --markdown 20230505/d/dream-helpers/0.0.268-0.0.269/diff.md --exclude *.pyd
+[2023-05-05 00:21:47] INFO root fetch - processPackages [systematica]: executing diffoscope
+[2023-05-05 00:21:47] INFO root fetch - processPackages [systematica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systematica-0.0.2.tar.gz tmp/systematica-0.0.3.tar.gz --markdown 20230505/s/systematica/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 00:21:47] INFO root fetch - processPackages [FiberFusing]: Downloading https://files.pythonhosted.org/packages/86/f5/9dc5bd02fdc0aaf6c4ce7f2eb93bb39ce5d6ddfee8bf17c808afb382e75a/FiberFusing-0.4.1-py3-none-any.whl
+[2023-05-05 00:21:47] INFO root fetch - processPackages [SuPyMode]: executing diffoscope
+[2023-05-05 00:21:47] INFO root fetch - processPackages [SuPyMode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SuPyMode-4.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/SuPyMode-4.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230505/S/SuPyMode/4.1.8-4.2.0/diff.md --exclude *.pyd
+[2023-05-05 00:21:47] INFO root fetch - processPackages [keycloak-django]: Downloading https://files.pythonhosted.org/packages/55/8d/888fa017047840dd81dc33403cdf07cbd13d8b6e9c13bbe18b92f437d978/keycloak_django-1.0.0.tar.gz
+[2023-05-05 00:21:47] INFO root fetch - processPackages [zoterotex]: Downloading https://files.pythonhosted.org/packages/40/aa/4090af31891a6ae62969fe2cbb462f6f650a2b412e82756019af32b017b7/zoterotex-0.0.1a2.tar.gz
+[2023-05-05 00:21:47] INFO root fetch - processPackages [FiberFusing]: executing diffoscope
+[2023-05-05 00:21:47] INFO root fetch - processPackages [FiberFusing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiberFusing-0.4.0-py3-none-any.whl.zip tmp/FiberFusing-0.4.1-py3-none-any.whl.zip --markdown 20230505/F/FiberFusing/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-05 00:21:47] INFO root fetch - processPackages [sentient-switchblade]: Downloading https://files.pythonhosted.org/packages/c0/66/cc65ced806eef742070f8de3bf6a98b61303697a3c3465ebfd55fa298902/sentient_switchblade-0.3.0.tar.gz
+[2023-05-05 00:21:47] INFO root fetch - processPackages [keycloak-django]: executing diffoscope
+[2023-05-05 00:21:47] INFO root fetch - processPackages [keycloak-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycloak_django-0.1.0.tar.gz tmp/keycloak_django-1.0.0.tar.gz --markdown 20230505/k/keycloak-django/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-05 00:21:47] INFO root fetch - processPackages [zoterotex]: executing diffoscope
+[2023-05-05 00:21:47] INFO root fetch - processPackages [zoterotex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoterotex-0.0.1a1.tar.gz tmp/zoterotex-0.0.1a2.tar.gz --markdown 20230505/z/zoterotex/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-05-05 00:21:47] INFO root fetch - processPackages [sentient-switchblade]: executing diffoscope
+[2023-05-05 00:21:47] INFO root fetch - processPackages [sentient-switchblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentient_switchblade-0.2.2.tar.gz tmp/sentient_switchblade-0.3.0.tar.gz --markdown 20230505/s/sentient-switchblade/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 00:21:47] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/4f/03/280f15774d0cea341e287e7a9e500b657f73f3ee6e477f9a464fcf963d2d/dataquality-0.9.1a1.tar.gz
+[2023-05-05 00:21:48] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-05-05 00:21:48] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.8.9.tar.gz tmp/dataquality-0.9.1a1.tar.gz --markdown 20230505/d/dataquality/0.8.9-0.9.1a1/diff.md --exclude *.pyd
+[2023-05-05 00:21:48] INFO root fetch - main [MainThread]: End processing [dream-helpers]: success
+[2023-05-05 00:21:48] INFO root fetch - main [MainThread]: End processing [systematica]: success
+[2023-05-05 00:21:49] INFO root fetch - main [MainThread]: End processing [zoterotex]: success
+[2023-05-05 00:21:49] INFO root fetch - main [MainThread]: End processing [sentient-switchblade]: success
+[2023-05-05 00:21:49] INFO root fetch - main [MainThread]: End processing [keycloak-django]: success
+[2023-05-05 00:21:49] INFO root fetch - main [MainThread]: End processing [FiberFusing]: success
+[2023-05-05 00:21:50] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-05-05 00:21:53] INFO root fetch - main [MainThread]: End processing [SuPyMode]: success
+[2023-05-05 00:21:53] INFO root fetch - main [MainThread]: Store serial: [17978611]
