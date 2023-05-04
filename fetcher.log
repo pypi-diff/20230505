@@ -316,3 +316,73 @@
 [2023-05-05 00:21:50] INFO root fetch - main [MainThread]: End processing [dataquality]: success
 [2023-05-05 00:21:53] INFO root fetch - main [MainThread]: End processing [SuPyMode]: success
 [2023-05-05 00:21:53] INFO root fetch - main [MainThread]: Store serial: [17978611]
+[2023-05-05 00:26:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17978611]
+[2023-05-05 00:27:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 00:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quart-wtforms
+[2023-05-05 00:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cvxsimulator
+[2023-05-05 00:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2023-05-05 00:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hiddifypanel
+[2023-05-05 00:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mbta-gtfs-sqlite
+[2023-05-05 00:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataquality
+[2023-05-05 00:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: didiAI
+[2023-05-05 00:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-orca
+[2023-05-05 00:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: voxelmap
+[2023-05-05 00:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tapdance
+[2023-05-05 00:27:03] INFO root fetch - processPackages [cvxsimulator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-05 00:27:03] WARNING root fetch - processPackages [didiAI]: Skipping, unable to determine old version
+[2023-05-05 00:27:03] INFO root fetch - processPackages [didiAI]: Start processing: ccxt
+[2023-05-05 00:27:03] INFO root fetch - main [MainThread]: End processing [didiAI] error
+[2023-05-05 00:27:03] INFO root fetch - processPackages [dataquality]: New version: [0.9.1a2] Old Version: [0.9.1a1]
+[2023-05-05 00:27:03] INFO root fetch - processPackages [mbta-gtfs-sqlite]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-05 00:27:03] WARNING root fetch - processPackages [quart-wtforms]: Skipping, unable to determine old version
+[2023-05-05 00:27:03] INFO root fetch - processPackages [quart-wtforms]: Start processing: mitoinstaller
+[2023-05-05 00:27:03] INFO root fetch - main [MainThread]: End processing [quart-wtforms] error
+[2023-05-05 00:27:03] INFO root fetch - processPackages [py-orca]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-05 00:27:03] INFO root fetch - processPackages [voxelmap]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-05-05 00:27:03] INFO root fetch - processPackages [hiddifypanel]: New version: [6.4.2] Old Version: [6.4.1]
+[2023-05-05 00:27:03] INFO root fetch - processPackages [tapdance]: New version: [0.9.9.dev301] Old Version: [0.9.9.dev299]
+[2023-05-05 00:27:03] INFO root fetch - processPackages [ccxt]: New version: [3.0.91] Old Version: [3.0.90]
+[2023-05-05 00:27:03] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230504.9.57.726431] Old Version: [20230504.22.22.270689]
+[2023-05-05 00:27:03] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/56/aa/064ef83201b62479e8ed99c3ea43dada5c838f7e6156dd8510c4b603b28b/cvxsimulator-0.0.3.tar.gz
+[2023-05-05 00:27:03] INFO root fetch - processPackages [voxelmap]: Downloading https://files.pythonhosted.org/packages/89/b3/0dbe51f125c2d6d8da500e7f1ee2c484080828dc8cd9ecaaa3a1d08a1136/voxelmap-4.2.0.tar.gz
+[2023-05-05 00:27:03] INFO root fetch - processPackages [py-orca]: Downloading https://files.pythonhosted.org/packages/91/64/3bc2ec708d3673352919e72c6b1b3f765d973e4947e409ad8005a02a78e7/py-orca-1.1.0.tar.gz
+[2023-05-05 00:27:03] INFO root fetch - processPackages [mitoinstaller]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 00:27:03] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/ad/b4/d2c530199f37701365937fc02ae854c2c72383738acc69836a7436ad92e7/dataquality-0.9.1a2.tar.gz
+[2023-05-05 00:27:03] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/8a/f9/f98efe5f2748ed55c5216ee312c587c1fbcd5dfbd4e51fbdd3a9b0a02de5/certora-cli-alpha-master-20230504.22.22.270689.tar.gz
+[2023-05-05 00:27:03] INFO root fetch - processPackages [mbta-gtfs-sqlite]: Downloading https://files.pythonhosted.org/packages/97/3a/e5e3156d383c19bec05362cb7d88b303640f0d8eafc5c0d0ddaf66722642/mbta-gtfs-sqlite-0.9.8.tar.gz
+[2023-05-05 00:27:03] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/ea/45/9bae8a415d88bc27f0b2758732309104e4a820fc32f5f18f9dbfede5f2f3/hiddifypanel-6.4.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-05 00:27:03] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-05 00:27:03] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.90.tar.gz tmp/ccxt-3.0.91.tar.gz --markdown 20230505/c/ccxt/3.0.90-3.0.91/diff.md --exclude *.pyd
+[2023-05-05 00:27:03] INFO root fetch - processPackages [tapdance]: executing diffoscope
+[2023-05-05 00:27:03] INFO root fetch - processPackages [tapdance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapdance-0.9.9.dev299.tar.gz tmp/tapdance-0.9.9.dev301.tar.gz --markdown 20230505/t/tapdance/0.9.9.dev299-0.9.9.dev301/diff.md --exclude *.pyd
+[2023-05-05 00:27:03] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38472715>=10485760
+[2023-05-05 00:27:03] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-05 00:27:03] INFO root fetch - processPackages [mbta-gtfs-sqlite]: executing diffoscope
+[2023-05-05 00:27:03] INFO root fetch - processPackages [mbta-gtfs-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbta-gtfs-sqlite-0.9.7.tar.gz tmp/mbta-gtfs-sqlite-0.9.8.tar.gz --markdown 20230505/m/mbta-gtfs-sqlite/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-05 00:27:04] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/23/3d/8c9d3de35e3f7cb597653c7dea3415b629f33467b546f44805dcc049c11d/cvxsimulator-0.0.4.tar.gz
+[2023-05-05 00:27:04] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-05 00:27:04] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-6.4.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-6.4.2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230505/h/hiddifypanel/6.4.1-6.4.2/diff.md --exclude *.pyd
+[2023-05-05 00:27:04] INFO root fetch - processPackages [voxelmap]: Downloading https://files.pythonhosted.org/packages/92/d9/5b63ed4ee54dadc122e33b3751bd48cccad490b78705cf26ffd4108a42d8/voxelmap-4.3.0.tar.gz
+[2023-05-05 00:27:04] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/a9/cc/efea247a930bcdd3371e2847677b40c385cbf35a56d638639d1e8b121847/mitoinstaller-0.0.98.tar.gz
+[2023-05-05 00:27:04] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-05-05 00:27:04] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.9.1a1.tar.gz tmp/dataquality-0.9.1a2.tar.gz --markdown 20230505/d/dataquality/0.9.1a1-0.9.1a2/diff.md --exclude *.pyd
+[2023-05-05 00:27:04] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-05-05 00:27:04] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.0.3.tar.gz tmp/cvxsimulator-0.0.4.tar.gz --markdown 20230505/c/cvxsimulator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-05 00:27:04] INFO root fetch - processPackages [voxelmap]: executing diffoscope
+[2023-05-05 00:27:04] INFO root fetch - processPackages [voxelmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxelmap-4.2.0.tar.gz tmp/voxelmap-4.3.0.tar.gz --markdown 20230505/v/voxelmap/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2023-05-05 00:27:04] INFO root fetch - processPackages [py-orca]: Downloading https://files.pythonhosted.org/packages/bc/ae/d1078956ba231d9709fbc263ec78b67b1c48fa9a50552e2ba611fb5e3fbc/py-orca-1.2.0.tar.gz
+[2023-05-05 00:27:04] INFO root fetch - processPackages [py-orca]: executing diffoscope
+[2023-05-05 00:27:04] INFO root fetch - processPackages [py-orca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-orca-1.1.0.tar.gz tmp/py-orca-1.2.0.tar.gz --markdown 20230505/p/py-orca/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-05 00:27:04] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/90/7c/46b1dcf5bb93cdb5baf1650e82750b20b76439dbb6550a8596d1d373443a/mitoinstaller-0.0.99.tar.gz
+[2023-05-05 00:27:04] INFO root fetch - processPackages [mitoinstaller]: executing diffoscope
+[2023-05-05 00:27:04] INFO root fetch - processPackages [mitoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitoinstaller-0.0.98.tar.gz tmp/mitoinstaller-0.0.99.tar.gz --markdown 20230505/m/mitoinstaller/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 00:27:05] INFO root fetch - main [MainThread]: End processing [tapdance]: success
+[2023-05-05 00:27:05] INFO root fetch - main [MainThread]: End processing [mbta-gtfs-sqlite]: success
+[2023-05-05 00:27:05] INFO root fetch - main [MainThread]: End processing [voxelmap]: success
+[2023-05-05 00:27:05] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-05-05 00:27:05] INFO root fetch - main [MainThread]: End processing [mitoinstaller]: success
+[2023-05-05 00:27:06] INFO root fetch - main [MainThread]: End processing [py-orca]: success
+[2023-05-05 00:27:06] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-05 00:27:06] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-05-05 00:27:26] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-05 00:27:26] INFO root fetch - main [MainThread]: Store serial: [17978656]
