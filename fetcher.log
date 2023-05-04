@@ -1375,3 +1375,99 @@
 [2023-05-05 01:48:53] INFO root fetch - main [MainThread]: End processing [blitzgsea]: success
 [2023-05-05 01:48:53] INFO root fetch - main [MainThread]: End processing [aqtinstall]: success
 [2023-05-05 01:48:53] INFO root fetch - main [MainThread]: Store serial: [17979286]
+[2023-05-05 01:53:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17979286]
+[2023-05-05 01:54:02] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-05 01:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DOTSAddressValidation3
+[2023-05-05 01:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cenao
+[2023-05-05 01:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-universal
+[2023-05-05 01:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-snowflake
+[2023-05-05 01:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ronbun
+[2023-05-05 01:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apollo-sdk
+[2023-05-05 01:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blitzgsea
+[2023-05-05 01:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mkchain
+[2023-05-05 01:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datarobotx
+[2023-05-05 01:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: model-hub
+[2023-05-05 01:54:02] WARNING root fetch - processPackages [DOTSAddressValidation3]: Skipping, unable to determine old version
+[2023-05-05 01:54:02] INFO root fetch - processPackages [core-universal]: New version: [2.5.8] Old Version: [2.5.7]
+[2023-05-05 01:54:02] INFO root fetch - processPackages [DOTSAddressValidation3]: Start processing: determined-common
+[2023-05-05 01:54:02] INFO root fetch - main [MainThread]: End processing [DOTSAddressValidation3] error
+[2023-05-05 01:54:02] INFO root fetch - processPackages [cenao]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-05 01:54:02] INFO root fetch - processPackages [mkchain]: New version: [6.9.1] Old Version: [6.9.0]
+[2023-05-05 01:54:02] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-05-05 01:54:02] INFO root fetch - processPackages [datarobotx]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 01:54:02] INFO root fetch - processPackages [apollo-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 01:54:02] INFO root fetch - processPackages [ronbun]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-05 01:54:02] INFO root fetch - processPackages [blitzgsea]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-05 01:54:02] INFO root fetch - processPackages [model-hub]: New version: [0.22.0rc2] Old Version: [0.22.0rc1]
+[2023-05-05 01:54:02] INFO root fetch - processPackages [determined-common]: New version: [0.22.0rc2] Old Version: [0.22.0rc1]
+[2023-05-05 01:54:02] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-05-05 01:54:02] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230505/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-05-05 01:54:03] INFO root fetch - processPackages [core-universal]: Downloading https://files.pythonhosted.org/packages/e8/0a/aaed749b6dc77f7166c2ebc5fcf147364518704e10329c70bdf948129694/core_universal-2.5.7-py2.py3-none-win_amd64.whl
+[2023-05-05 01:54:03] INFO root fetch - processPackages [blitzgsea]: executing diffoscope
+[2023-05-05 01:54:03] INFO root fetch - processPackages [blitzgsea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blitzgsea-1.3.8.tar.gz tmp/blitzgsea-1.3.9.tar.gz --markdown 20230505/b/blitzgsea/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-05 01:54:03] INFO root fetch - processPackages [cenao]: Downloading https://files.pythonhosted.org/packages/95/e9/72b1a664edb2930bd951e0cea59d5781db6210573a74c71d1b8129ed4483/cenao-0.9.1.tar.gz
+[2023-05-05 01:54:03] INFO root fetch - processPackages [ronbun]: Downloading https://files.pythonhosted.org/packages/c3/1c/6cbbea467d83f98a99bf2cdc359cbf45e36f5ef592feae21447594081980/ronbun-0.7.2.tar.gz
+[2023-05-05 01:54:03] INFO root fetch - processPackages [mkchain]: Downloading https://files.pythonhosted.org/packages/22/03/7cb727c670b1e57a7cc7c46e4552245a57ae6688eaa957b8166fa23ce551/mkchain-6.9.0-py3-none-any.whl
+[2023-05-05 01:54:03] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/95/d4/1e9145f4b822123d54faa2de3cab3598ce20099db9dc57d288ea02976662/model_hub-0.22.0rc2-py3-none-any.whl
+[2023-05-05 01:54:03] INFO root fetch - processPackages [datarobotx]: Downloading https://files.pythonhosted.org/packages/f4/fc/be4280dae81c5f2163bd189b6883242c003387cb78cef51dbf557801fab9/datarobotx-0.1.4-py3-none-any.whl
+[2023-05-05 01:54:03] INFO root fetch - processPackages [apollo-sdk]: Downloading https://files.pythonhosted.org/packages/74/10/1e5ad827a2522402db692523e3d6fa5b01e7da21d1dba28796306fb81a50/apollo-sdk-0.1.5.tar.gz
+[2023-05-05 01:54:03] WARNING root fetch - processPackages [core-universal]: Skipping package: exceeds size limit 25882400>=10485760
+[2023-05-05 01:54:03] INFO root fetch - processPackages [core-universal]: Start processing: determined-cli
+[2023-05-05 01:54:03] INFO root fetch - main [MainThread]: End processing [core-universal] error
+[2023-05-05 01:54:03] INFO root fetch - processPackages [apollo-sdk]: executing diffoscope
+[2023-05-05 01:54:03] INFO root fetch - processPackages [apollo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo-sdk-0.1.4.tar.gz tmp/apollo-sdk-0.1.5.tar.gz --markdown 20230505/a/apollo-sdk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 01:54:03] INFO root fetch - processPackages [determined-cli]: New version: [0.22.0rc2] Old Version: [0.22.0rc1]
+[2023-05-05 01:54:03] INFO root fetch - processPackages [determined-common]: Downloading https://files.pythonhosted.org/packages/71/08/fd1ed292d19d26572ef435eb66466167dbf38f524a24ce8712ea50c3bf02/determined_common-0.22.0rc2-py3-none-any.whl
+[2023-05-05 01:54:03] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-05-05 01:54:03] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.22.0rc1-py3-none-any.whl.zip tmp/model_hub-0.22.0rc2-py3-none-any.whl.zip --markdown 20230505/m/model-hub/0.22.0rc1-0.22.0rc2/diff.md --exclude *.pyd
+[2023-05-05 01:54:03] INFO root fetch - processPackages [cenao]: Downloading https://files.pythonhosted.org/packages/b2/4f/e479b5df46dcfea6e7703e37978947a27114e66a1d7dbb3f4feb874b14e6/cenao-0.9.2.tar.gz
+[2023-05-05 01:54:03] INFO root fetch - processPackages [determined-common]: executing diffoscope
+[2023-05-05 01:54:03] INFO root fetch - processPackages [determined-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_common-0.22.0rc1-py3-none-any.whl.zip tmp/determined_common-0.22.0rc2-py3-none-any.whl.zip --markdown 20230505/d/determined-common/0.22.0rc1-0.22.0rc2/diff.md --exclude *.pyd
+[2023-05-05 01:54:03] INFO root fetch - processPackages [ronbun]: Downloading https://files.pythonhosted.org/packages/01/bb/fdf97c721b459bae8d126289bfb4fc6a9ee53772a6604075f0bef1f3b98c/ronbun-0.7.3.tar.gz
+[2023-05-05 01:54:03] INFO root fetch - processPackages [cenao]: executing diffoscope
+[2023-05-05 01:54:03] INFO root fetch - processPackages [cenao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenao-0.9.1.tar.gz tmp/cenao-0.9.2.tar.gz --markdown 20230505/c/cenao/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-05 01:54:03] INFO root fetch - processPackages [determined-cli]: Downloading https://files.pythonhosted.org/packages/1b/2f/c49720817dc5bfb9d4c016969c85d68af6dd4236102c926fe3a7270fa7ca/determined_cli-0.22.0rc2-py3-none-any.whl
+[2023-05-05 01:54:03] INFO root fetch - processPackages [datarobotx]: Downloading https://files.pythonhosted.org/packages/c5/1c/982917b2cc2c5f4513e61aa4e16dbba45196023b4158d552c5daf9193218/datarobotx-0.1.5-py3-none-any.whl
+[2023-05-05 01:54:03] INFO root fetch - processPackages [ronbun]: executing diffoscope
+[2023-05-05 01:54:03] INFO root fetch - processPackages [ronbun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ronbun-0.7.2.tar.gz tmp/ronbun-0.7.3.tar.gz --markdown 20230505/r/ronbun/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-05 01:54:03] INFO root fetch - processPackages [mkchain]: Downloading https://files.pythonhosted.org/packages/01/46/8e6718c02ffe176b4aa933331c6a69a2c5f3efae0fb42603d27cd3cfa5d0/mkchain-6.9.1-py3-none-any.whl
+[2023-05-05 01:54:03] INFO root fetch - processPackages [datarobotx]: executing diffoscope
+[2023-05-05 01:54:03] INFO root fetch - processPackages [datarobotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobotx-0.1.4-py3-none-any.whl.zip tmp/datarobotx-0.1.5-py3-none-any.whl.zip --markdown 20230505/d/datarobotx/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 01:54:03] INFO root fetch - processPackages [determined-cli]: executing diffoscope
+[2023-05-05 01:54:03] INFO root fetch - processPackages [determined-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_cli-0.22.0rc1-py3-none-any.whl.zip tmp/determined_cli-0.22.0rc2-py3-none-any.whl.zip --markdown 20230505/d/determined-cli/0.22.0rc1-0.22.0rc2/diff.md --exclude *.pyd
+[2023-05-05 01:54:03] INFO root fetch - processPackages [mkchain]: executing diffoscope
+[2023-05-05 01:54:03] INFO root fetch - processPackages [mkchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkchain-6.9.0-py3-none-any.whl.zip tmp/mkchain-6.9.1-py3-none-any.whl.zip --markdown 20230505/m/mkchain/6.9.0-6.9.1/diff.md --exclude *.pyd
+[2023-05-05 01:54:04] INFO root fetch - processPackages [model-hub]: Start processing: Pulse3D
+[2023-05-05 01:54:04] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-05-05 01:54:04] INFO root fetch - processPackages [determined-common]: Start processing: determined-deploy
+[2023-05-05 01:54:04] INFO root fetch - main [MainThread]: End processing [determined-common]: success
+[2023-05-05 01:54:04] INFO root fetch - processPackages [apollo-sdk]: Start processing: determined
+[2023-05-05 01:54:04] INFO root fetch - main [MainThread]: End processing [apollo-sdk]: success
+[2023-05-05 01:54:04] INFO root fetch - processPackages [Pulse3D]: New version: [0.33.1] Old Version: [0.33.0]
+[2023-05-05 01:54:04] INFO root fetch - processPackages [determined]: New version: [0.22.0rc2] Old Version: [0.22.0rc1]
+[2023-05-05 01:54:04] INFO root fetch - processPackages [determined-deploy]: New version: [0.22.0rc2] Old Version: [0.22.0rc1]
+[2023-05-05 01:54:05] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/6a/71/5ba2e6418c44e11dab75fb0417a34946849bb249be75fc27e3e09da4b979/determined-0.22.0rc2-py3-none-any.whl
+[2023-05-05 01:54:05] INFO root fetch - processPackages [determined-deploy]: Downloading https://files.pythonhosted.org/packages/ed/27/7e8b81c461fd8345f22dd3d4e8822f1a85bec73ccc55c0e95e531537c63d/determined_deploy-0.22.0rc2-py3-none-any.whl
+[2023-05-05 01:54:05] INFO root fetch - processPackages [cenao]: Start processing: spPersist
+[2023-05-05 01:54:05] INFO root fetch - main [MainThread]: End processing [cenao]: success
+[2023-05-05 01:54:05] INFO root fetch - main [MainThread]: End processing [determined-cli]: success
+[2023-05-05 01:54:05] INFO root fetch - processPackages [spPersist]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-05 01:54:05] INFO root fetch - main [MainThread]: End processing [mkchain]: success
+[2023-05-05 01:54:05] INFO root fetch - main [MainThread]: End processing [ronbun]: success
+[2023-05-05 01:54:05] INFO root fetch - main [MainThread]: End processing [blitzgsea]: success
+[2023-05-05 01:54:05] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-05-05 01:54:05] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.22.0rc1-py3-none-any.whl.zip tmp/determined-0.22.0rc2-py3-none-any.whl.zip --markdown 20230505/d/determined/0.22.0rc1-0.22.0rc2/diff.md --exclude *.pyd
+[2023-05-05 01:54:05] INFO root fetch - processPackages [determined-deploy]: executing diffoscope
+[2023-05-05 01:54:05] INFO root fetch - processPackages [determined-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_deploy-0.22.0rc1-py3-none-any.whl.zip tmp/determined_deploy-0.22.0rc2-py3-none-any.whl.zip --markdown 20230505/d/determined-deploy/0.22.0rc1-0.22.0rc2/diff.md --exclude *.pyd
+[2023-05-05 01:54:05] INFO root fetch - processPackages [Pulse3D]: Downloading https://files.pythonhosted.org/packages/27/4c/1fd1091e98243f2d3e18b6f3a8ef9ca36a99cb538688b494541420bb1a0a/Pulse3D-0.33.1.tar.gz
+[2023-05-05 01:54:05] INFO root fetch - processPackages [Pulse3D]: executing diffoscope
+[2023-05-05 01:54:05] INFO root fetch - processPackages [Pulse3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pulse3D-0.33.0.tar.gz tmp/Pulse3D-0.33.1.tar.gz --markdown 20230505/P/Pulse3D/0.33.0-0.33.1/diff.md --exclude *.pyd
+[2023-05-05 01:54:05] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-05-05 01:54:05] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.1.5.tar.gz tmp/sppersist-0.1.6.tar.gz --markdown 20230505/s/spPersist/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-05 01:54:05] INFO root fetch - main [MainThread]: End processing [datarobotx]: success
+[2023-05-05 01:54:06] INFO root fetch - main [MainThread]: End processing [Pulse3D]: success
+[2023-05-05 01:54:06] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-05-05 01:54:06] INFO root fetch - main [MainThread]: End processing [determined-deploy]: success
+[2023-05-05 01:54:08] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-05-05 01:54:08] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-05-05 01:54:08] INFO root fetch - main [MainThread]: Store serial: [17979336]
