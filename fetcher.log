@@ -1236,3 +1236,73 @@
 [2023-05-05 01:37:19] INFO root fetch - main [MainThread]: End processing [dart-tools]: success
 [2023-05-05 01:37:19] INFO root fetch - main [MainThread]: End processing [pih]: success
 [2023-05-05 01:37:19] INFO root fetch - main [MainThread]: Store serial: [17979219]
+[2023-05-05 01:42:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17979219]
+[2023-05-05 01:42:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faker-file
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shipyard-coalesce
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VenusSim
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remlateam12
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aeiou
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blitzgsea
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-ai-ml
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: noisepy-seis
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aij-webcam
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ecopipeline
+[2023-05-05 01:42:29] INFO root fetch - processPackages [blitzgsea]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-05 01:42:29] INFO root fetch - processPackages [aeiou]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 01:42:29] WARNING root fetch - processPackages [VenusSim]: Skipping, unable to determine old version
+[2023-05-05 01:42:29] INFO root fetch - processPackages [VenusSim]: Start processing: sphinx-api-sidebar
+[2023-05-05 01:42:29] INFO root fetch - processPackages [aij-webcam]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 01:42:29] INFO root fetch - main [MainThread]: End processing [VenusSim] error
+[2023-05-05 01:42:29] INFO root fetch - processPackages [shipyard-coalesce]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 01:42:29] INFO root fetch - processPackages [remlateam12]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 01:42:29] INFO root fetch - processPackages [faker-file]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-05 01:42:29] INFO root fetch - processPackages [noisepy-seis]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-05 01:42:29] INFO root fetch - processPackages [azure-ai-ml]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-05 01:42:29] INFO root fetch - processPackages [sphinx-api-sidebar]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 01:42:29] INFO root fetch - processPackages [aij-webcam]: executing diffoscope
+[2023-05-05 01:42:29] INFO root fetch - processPackages [aij-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-webcam-1.0.8.tar.gz tmp/aij-webcam-1.0.9.tar.gz --markdown 20230505/a/aij-webcam/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 01:42:29] INFO root fetch - processPackages [blitzgsea]: executing diffoscope
+[2023-05-05 01:42:29] INFO root fetch - processPackages [blitzgsea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blitzgsea-1.3.8.tar.gz tmp/blitzgsea-1.3.9.tar.gz --markdown 20230505/b/blitzgsea/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-05 01:42:29] INFO root fetch - processPackages [aeiou]: Downloading https://files.pythonhosted.org/packages/19/14/51768e91d04da7711ad964187d68e8e9edd3523e4350a158bfb1a8485180/aeiou-0.0.7.tar.gz
+[2023-05-05 01:42:29] INFO root fetch - processPackages [shipyard-coalesce]: Downloading https://files.pythonhosted.org/packages/92/41/43f8d98d8866522c96444b18fbdd6c799a81bc7dd18dd3ebcd5f99410ce3/shipyard_coalesce-0.1.0.tar.gz
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/cb/75/4560f5e82f0f4207498d2d541602a9919ddc6ae8fabf6f5226fdc7cd498d/ecopipeline-0.0.8.tar.gz
+[2023-05-05 01:42:29] INFO root fetch - processPackages [remlateam12]: Downloading https://files.pythonhosted.org/packages/c9/0f/a58931e171e81e3bf4e10edd9d0813dfd7621e2d112e062cf88bd1b9a522/remlateam12-0.0.1.tar.gz
+[2023-05-05 01:42:29] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/3b/a1/ad4ac7b368163a317102172cd45891028d6b068dc096e110814cc517deed/faker-file-0.9.2.tar.gz
+[2023-05-05 01:42:29] INFO root fetch - processPackages [noisepy-seis]: Downloading https://files.pythonhosted.org/packages/19/bf/5e67a7edd06c92b6a3393cf05db46a685d79fd0c65920c838b5987d032d2/noisepy_seis-0.7.1.tar.gz
+[2023-05-05 01:42:29] INFO root fetch - processPackages [azure-ai-ml]: Downloading https://files.pythonhosted.org/packages/9a/50/bd7d1a1f7d2d06794dcbf102f362029e92e74e93bada788a961717fdbf41/azure-ai-ml-1.5.0.zip
+[2023-05-05 01:42:29] INFO root fetch - processPackages [sphinx-api-sidebar]: Downloading https://files.pythonhosted.org/packages/ca/ee/a50aae79f3a74d6277169a55b00bcb1a11196249abc01e57c416001366bc/sphinx_api_sidebar-0.1.1.tar.gz
+[2023-05-05 01:42:29] INFO root fetch - processPackages [noisepy-seis]: executing diffoscope
+[2023-05-05 01:42:29] INFO root fetch - processPackages [noisepy-seis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noisepy_seis-0.7.0.tar.gz tmp/noisepy_seis-0.7.1.tar.gz --markdown 20230505/n/noisepy-seis/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-05 01:42:29] INFO root fetch - processPackages [sphinx-api-sidebar]: executing diffoscope
+[2023-05-05 01:42:29] INFO root fetch - processPackages [sphinx-api-sidebar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_api_sidebar-0.1.0.tar.gz tmp/sphinx_api_sidebar-0.1.1.tar.gz --markdown 20230505/s/sphinx-api-sidebar/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 01:42:29] INFO root fetch - processPackages [shipyard-coalesce]: Downloading https://files.pythonhosted.org/packages/e2/af/8ef8b111fb0a88db6735cd6ac08563f883159f868bdd9e87cbff2b005a04/shipyard_coalesce-0.1.1.tar.gz
+[2023-05-05 01:42:29] INFO root fetch - processPackages [remlateam12]: Downloading https://files.pythonhosted.org/packages/11/d6/3bd0e7b00dcca593b805f67324eb664c681d8a3fb6c4ae855be648080ff9/remlateam12-0.0.2.tar.gz
+[2023-05-05 01:42:29] INFO root fetch - processPackages [shipyard-coalesce]: executing diffoscope
+[2023-05-05 01:42:29] INFO root fetch - processPackages [shipyard-coalesce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_coalesce-0.1.0.tar.gz tmp/shipyard_coalesce-0.1.1.tar.gz --markdown 20230505/s/shipyard-coalesce/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 01:42:29] INFO root fetch - processPackages [remlateam12]: executing diffoscope
+[2023-05-05 01:42:29] INFO root fetch - processPackages [remlateam12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remlateam12-0.0.1.tar.gz tmp/remlateam12-0.0.2.tar.gz --markdown 20230505/r/remlateam12/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 01:42:29] INFO root fetch - processPackages [aeiou]: Downloading https://files.pythonhosted.org/packages/b2/7b/c4dd6b625b2b72b5d692f8bf1d0fdd6fada67dab716385d2faae82f5ff9e/aeiou-0.0.8.tar.gz
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/3a/ba/d8a45feb20c25eba0a4e627b0d5ebc86967c08d62663693c523c091a8486/ecopipeline-0.0.9.tar.gz
+[2023-05-05 01:42:29] INFO root fetch - processPackages [aeiou]: executing diffoscope
+[2023-05-05 01:42:29] INFO root fetch - processPackages [aeiou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeiou-0.0.7.tar.gz tmp/aeiou-0.0.8.tar.gz --markdown 20230505/a/aeiou/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-05-05 01:42:29] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230505/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 01:42:30] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/91/2c/08a72a0cb6b8f0b657b334700bce122299a7f1c0d94c1e201959121ee226/faker-file-0.9.3.tar.gz
+[2023-05-05 01:42:30] INFO root fetch - processPackages [faker-file]: executing diffoscope
+[2023-05-05 01:42:30] INFO root fetch - processPackages [faker-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-0.9.2.tar.gz tmp/faker-file-0.9.3.tar.gz --markdown 20230505/f/faker-file/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-05 01:42:30] INFO root fetch - main [MainThread]: End processing [blitzgsea]: success
+[2023-05-05 01:42:30] INFO root fetch - main [MainThread]: End processing [aij-webcam]: success
+[2023-05-05 01:42:30] INFO root fetch - main [MainThread]: End processing [remlateam12]: success
+[2023-05-05 01:42:30] INFO root fetch - main [MainThread]: End processing [sphinx-api-sidebar]: success
+[2023-05-05 01:42:30] INFO root fetch - main [MainThread]: End processing [shipyard-coalesce]: success
+[2023-05-05 01:42:31] INFO root fetch - processPackages [azure-ai-ml]: Downloading https://files.pythonhosted.org/packages/ab/37/3d22f4d74b21c1626bb2ea3e2f6cb802fde774fd5abeec4308cc6371330d/azure-ai-ml-1.6.0.zip
+[2023-05-05 01:42:31] INFO root fetch - processPackages [azure-ai-ml]: executing diffoscope
+[2023-05-05 01:42:31] INFO root fetch - processPackages [azure-ai-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-ai-ml-1.5.0.zip tmp/azure-ai-ml-1.6.0.zip --markdown 20230505/a/azure-ai-ml/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-05 01:42:31] INFO root fetch - main [MainThread]: End processing [aeiou]: success
+[2023-05-05 01:42:31] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-05-05 01:42:32] INFO root fetch - main [MainThread]: End processing [noisepy-seis]: success
+[2023-05-05 01:42:32] INFO root fetch - main [MainThread]: End processing [faker-file]: success
+[2023-05-05 01:43:36] INFO root fetch - main [MainThread]: End processing [azure-ai-ml]: success
+[2023-05-05 01:43:36] INFO root fetch - main [MainThread]: Store serial: [17979254]
