@@ -21103,3 +21103,89 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-05 20:42:10] INFO root fetch - main [MainThread]: End processing [gt4sd]: success
 [2023-05-05 20:42:13] INFO root fetch - main [MainThread]: End processing [idem-aws]: success
 [2023-05-05 20:42:13] INFO root fetch - main [MainThread]: Store serial: [17991450]
+[2023-05-05 20:47:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17991450]
+[2023-05-05 20:47:22] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 20:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vents
+[2023-05-05 20:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: encoded-client
+[2023-05-05 20:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: microgue
+[2023-05-05 20:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentry-kafka-schemas
+[2023-05-05 20:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfqmr
+[2023-05-05 20:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-sdk
+[2023-05-05 20:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: numalogic
+[2023-05-05 20:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-sdk-preview
+[2023-05-05 20:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coherence-client
+[2023-05-05 20:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupyter-references
+[2023-05-05 20:47:22] INFO root fetch - processPackages [vents]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-05-05 20:47:22] INFO root fetch - processPackages [jupyter-references]: New version: [0.5] Old Version: [0.4]
+[2023-05-05 20:47:22] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-05 20:47:22] INFO root fetch - processPackages [sentry-kafka-schemas]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 20:47:22] INFO root fetch - processPackages [encoded-client]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-05 20:47:22] INFO root fetch - processPackages [numalogic]: New version: [0.4.dev3] Old Version: [0.3.8]
+[2023-05-05 20:47:22] INFO root fetch - processPackages [vents]: executing diffoscope
+[2023-05-05 20:47:22] INFO root fetch - processPackages [vents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vents-0.0.7.tar.gz tmp/vents-0.1.0.tar.gz --markdown 20230505/v/vents/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-05-05 20:47:22] WARNING root fetch - processPackages [coherence-client]: Skipping, unable to determine old version
+[2023-05-05 20:47:22] INFO root fetch - processPackages [coherence-client]: Start processing: micropython-samd-seeed-wio-terminal-stubs
+[2023-05-05 20:47:22] INFO root fetch - main [MainThread]: End processing [coherence-client] error
+[2023-05-05 20:47:22] INFO root fetch - processPackages [pyfqmr]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-05 20:47:22] INFO root fetch - processPackages [microgue]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-05 20:47:22] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-05 20:47:22] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/cd/f9/9511b90bd59c9392383eed0f8d48f9e1a6f487f91bf5ddcb232013fad81c/sentry-kafka-schemas-0.1.4.tar.gz
+[2023-05-05 20:47:22] INFO root fetch - processPackages [jupyter-references]: Downloading https://files.pythonhosted.org/packages/d3/a3/58c8bb8fd009c47ca41055995d04a52936346b71473cbd82097845746d69/jupyter-references-0.4.tar.gz
+[2023-05-05 20:47:22] WARNING root fetch - processPackages [micropython-samd-seeed-wio-terminal-stubs]: Skipping, unable to determine old version
+[2023-05-05 20:47:22] INFO root fetch - processPackages [micropython-samd-seeed-wio-terminal-stubs]: Start processing: matlabengine
+[2023-05-05 20:47:22] INFO root fetch - main [MainThread]: End processing [micropython-samd-seeed-wio-terminal-stubs] error
+[2023-05-05 20:47:22] INFO root fetch - processPackages [matlabengine]: New version: [9.9.1] Old Version: [9.14.2]
+[2023-05-05 20:47:22] INFO root fetch - processPackages [microgue]: Downloading https://files.pythonhosted.org/packages/f7/ae/d958207f918385b47f82457a86a1fdd66d6b7d83d7b690352045ea1bf2a7/microgue-2.0.3.tar.gz
+[2023-05-05 20:47:22] INFO root fetch - processPackages [encoded-client]: Downloading https://files.pythonhosted.org/packages/37/b7/457955c672b4f398cc9858b533889bbcfdc070b4f68794459c8e680445cd/encoded_client-0.2.0.tar.gz
+[2023-05-05 20:47:22] INFO root fetch - processPackages [pyfqmr]: Downloading https://files.pythonhosted.org/packages/09/61/5431a2a01231289dec6ccff6b7f2326cfeca3c3354d9be84acb796c68d19/pyfqmr-0.1.2-cp39-cp39-win_amd64.whl
+[2023-05-05 20:47:22] INFO root fetch - processPackages [numalogic]: Downloading https://files.pythonhosted.org/packages/34/a7/6f71f35d8c7eb56093e726ef7e49e5a079e29195b7ca84bfd19bb067dc99/numalogic-0.3.8.tar.gz
+[2023-05-05 20:47:22] INFO root fetch - processPackages [matlabengine]: executing diffoscope
+[2023-05-05 20:47:22] INFO root fetch - processPackages [matlabengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matlabengine-9.14.2.tar.gz tmp/matlabengine-9.9.1.tar.gz --markdown 20230505/m/matlabengine/9.14.2-9.9.1/diff.md --exclude *.pyd
+[2023-05-05 20:47:22] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-05-05 20:47:22] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230505/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-05 20:47:22] INFO root fetch - processPackages [jupyter-references]: Downloading https://files.pythonhosted.org/packages/c4/0d/c45c9c886463613c838cbb3f012ed85dde7fb8aceb74d09cf156fac15485/jupyter-references-0.5.tar.gz
+[2023-05-05 20:47:22] INFO root fetch - processPackages [microgue]: Downloading https://files.pythonhosted.org/packages/0d/c2/c807b8beb717307bc8e6e25fd68de3165a019a4faa3717e2b4870a48f9ee/microgue-2.0.4.tar.gz
+[2023-05-05 20:47:22] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/44/a8/33c844b43a06503cd81cf85de6f4aedad4d5f98a6cd34d94acd0b79c1d93/sentry-kafka-schemas-0.1.5.tar.gz
+[2023-05-05 20:47:22] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-05-05 20:47:22] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230505/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-05 20:47:22] INFO root fetch - processPackages [jupyter-references]: executing diffoscope
+[2023-05-05 20:47:22] INFO root fetch - processPackages [jupyter-references]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-references-0.4.tar.gz tmp/jupyter-references-0.5.tar.gz --markdown 20230505/j/jupyter-references/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-05 20:47:22] INFO root fetch - processPackages [microgue]: executing diffoscope
+[2023-05-05 20:47:22] INFO root fetch - processPackages [microgue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microgue-2.0.3.tar.gz tmp/microgue-2.0.4.tar.gz --markdown 20230505/m/microgue/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-05 20:47:22] INFO root fetch - processPackages [pyfqmr]: Downloading https://files.pythonhosted.org/packages/71/b4/b9f7021d01cb25e6c5ddee704063bd1dd42224c06bb15a1be46c7d3b3e3f/pyfqmr-0.2.0-cp39-cp39-win_amd64.whl
+[2023-05-05 20:47:22] INFO root fetch - processPackages [numalogic]: Downloading https://files.pythonhosted.org/packages/d3/fa/5dc1791dc8d2bd6423b41773515dbc1604a2d851c33333c123e82f0ec65c/numalogic-0.4.dev3.tar.gz
+[2023-05-05 20:47:22] INFO root fetch - processPackages [sentry-kafka-schemas]: executing diffoscope
+[2023-05-05 20:47:22] INFO root fetch - processPackages [sentry-kafka-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-kafka-schemas-0.1.4.tar.gz tmp/sentry-kafka-schemas-0.1.5.tar.gz --markdown 20230505/s/sentry-kafka-schemas/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 20:47:23] INFO root fetch - processPackages [encoded-client]: Downloading https://files.pythonhosted.org/packages/c6/f4/81a8205ed49d9606296be42d209a706e37e963d8c28917fe02b14b0ead77/encoded_client-0.3.0.tar.gz
+[2023-05-05 20:47:23] INFO root fetch - processPackages [numalogic]: executing diffoscope
+[2023-05-05 20:47:23] INFO root fetch - processPackages [numalogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numalogic-0.3.8.tar.gz tmp/numalogic-0.4.dev3.tar.gz --markdown 20230505/n/numalogic/0.3.8-0.4.dev3/diff.md --exclude *.pyd
+[2023-05-05 20:47:23] INFO root fetch - processPackages [encoded-client]: executing diffoscope
+[2023-05-05 20:47:23] INFO root fetch - processPackages [encoded-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encoded_client-0.2.0.tar.gz tmp/encoded_client-0.3.0.tar.gz --markdown 20230505/e/encoded-client/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 20:47:23] INFO root fetch - processPackages [pyfqmr]: executing diffoscope
+[2023-05-05 20:47:23] INFO root fetch - processPackages [pyfqmr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfqmr-0.1.2-cp39-cp39-win_amd64.whl.zip tmp/pyfqmr-0.2.0-cp39-cp39-win_amd64.whl.zip --markdown 20230505/p/pyfqmr/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 20:47:24] INFO root fetch - processPackages [jupyter-references]: Start processing: curifactory
+[2023-05-05 20:47:24] INFO root fetch - main [MainThread]: End processing [jupyter-references]: success
+[2023-05-05 20:47:24] INFO root fetch - processPackages [curifactory]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-05 20:47:24] INFO root fetch - processPackages [curifactory]: Downloading https://files.pythonhosted.org/packages/43/cd/1482f6b77e0ebe7dbb03526553d599b74216ed800a2bc828c960af07aa0c/curifactory-0.9.2.tar.gz
+[2023-05-05 20:47:24] INFO root fetch - processPackages [pyfqmr]: Start processing: coreftools
+[2023-05-05 20:47:24] INFO root fetch - main [MainThread]: End processing [pyfqmr]: success
+[2023-05-05 20:47:24] WARNING root fetch - processPackages [coreftools]: Skipping, unable to determine old version
+[2023-05-05 20:47:24] INFO root fetch - processPackages [coreftools]: Start processing: govtech-data
+[2023-05-05 20:47:24] INFO root fetch - main [MainThread]: End processing [coreftools] error
+[2023-05-05 20:47:24] INFO root fetch - processPackages [govtech-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 20:47:24] INFO root fetch - main [MainThread]: End processing [vents]: success
+[2023-05-05 20:47:24] INFO root fetch - processPackages [govtech-data]: executing diffoscope
+[2023-05-05 20:47:24] INFO root fetch - processPackages [govtech-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govtech_data-0.1.8.tar.gz tmp/govtech_data-0.1.9.tar.gz --markdown 20230505/g/govtech-data/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 20:47:24] INFO root fetch - main [MainThread]: End processing [matlabengine]: success
+[2023-05-05 20:47:24] INFO root fetch - main [MainThread]: End processing [microgue]: success
+[2023-05-05 20:47:24] INFO root fetch - main [MainThread]: End processing [encoded-client]: success
+[2023-05-05 20:47:24] INFO root fetch - main [MainThread]: End processing [numalogic]: success
+[2023-05-05 20:47:24] INFO root fetch - processPackages [curifactory]: Downloading https://files.pythonhosted.org/packages/e8/a1/edd6b10e0dfa428e84dd7fa01e1d4ea7712a972a1b598782111f228d346d/curifactory-0.9.3.tar.gz
+[2023-05-05 20:47:24] INFO root fetch - main [MainThread]: End processing [sentry-kafka-schemas]: success
+[2023-05-05 20:47:25] INFO root fetch - processPackages [curifactory]: executing diffoscope
+[2023-05-05 20:47:25] INFO root fetch - processPackages [curifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curifactory-0.9.2.tar.gz tmp/curifactory-0.9.3.tar.gz --markdown 20230505/c/curifactory/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-05 20:47:25] INFO root fetch - main [MainThread]: End processing [govtech-data]: success
+[2023-05-05 20:47:26] INFO root fetch - main [MainThread]: End processing [curifactory]: success
+[2023-05-05 20:47:46] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-05-05 20:47:58] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-05-05 20:47:58] INFO root fetch - main [MainThread]: Store serial: [17991520]
