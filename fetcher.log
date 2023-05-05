@@ -7541,3 +7541,87 @@
 [2023-05-05 08:40:00] INFO root fetch - main [MainThread]: End processing [rayvision-houdini]: success
 [2023-05-05 08:40:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
 [2023-05-05 08:40:00] INFO root fetch - main [MainThread]: Store serial: [17982963]
+[2023-05-05 08:45:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982963]
+[2023-05-05 08:45:09] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-05 08:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-openstack
+[2023-05-05 08:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-pagerduty
+[2023-05-05 08:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Cerebro-Viewer
+[2023-05-05 08:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ffmpeg-normalize
+[2023-05-05 08:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-equinix-metal
+[2023-05-05 08:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uptrain
+[2023-05-05 08:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: INGInious
+[2023-05-05 08:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lasintaxisxd
+[2023-05-05 08:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fyers-apiv2
+[2023-05-05 08:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: urgxy-env
+[2023-05-05 08:45:09] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2023-05-05 08:45:09] INFO root fetch - processPackages [uptrain]: New version: [0.1.dev0] Old Version: [0.1.0]
+[2023-05-05 08:45:09] INFO root fetch - processPackages [pulumi-equinix-metal]: New version: [3.3.0a1683265012] Old Version: [3.3.0a1681928580]
+[2023-05-05 08:45:09] INFO root fetch - processPackages [INGInious]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-05-05 08:45:09] WARNING root fetch - processPackages [lasintaxisxd]: Skipping, unable to determine old version
+[2023-05-05 08:45:09] INFO root fetch - processPackages [fyers-apiv2]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-05 08:45:09] INFO root fetch - processPackages [lasintaxisxd]: Start processing: pydflow
+[2023-05-05 08:45:09] INFO root fetch - main [MainThread]: End processing [lasintaxisxd] error
+[2023-05-05 08:45:09] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [3.9.0a1678824312] Old Version: [3.9.0a1678231019]
+[2023-05-05 08:45:09] INFO root fetch - processPackages [Cerebro-Viewer]: New version: [0.0.9.6] Old Version: [0.0.9.5]
+[2023-05-05 08:45:09] INFO root fetch - processPackages [urgxy-env]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-05 08:45:09] INFO root fetch - processPackages [ffmpeg-normalize]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-05-05 08:45:09] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-05-05 08:45:10] INFO root fetch - processPackages [Cerebro-Viewer]: Downloading https://files.pythonhosted.org/packages/31/21/00905e344d4278d2d6d70a9f0d459b9ab7afb83d1fb669beeff19e45a03d/Cerebro_Viewer-0.0.9.5.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz --markdown 20230505/p/pulumi-pagerduty/3.9.0a1678231019-3.9.0a1678824312/diff.md --exclude *.pyd
+[2023-05-05 08:45:10] INFO root fetch - processPackages [uptrain]: Downloading https://files.pythonhosted.org/packages/df/ca/a143dbabaaef089d6ed2e17750ef17f9d80864f7630b4cf6a2d2a648d18f/uptrain-0.1.0.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230505/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/bb/93/e4acd0fd6ccecb8338145c7929b4f11bbbcda13bd5c5523254ce8f946bd2/pulumi_openstack-3.9.0a1654086724.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pulumi-equinix-metal]: Downloading https://files.pythonhosted.org/packages/84/eb/8d3a51be2b7f6d5185567732814f619de6484bdd0a9446689ff31fd04f54/pulumi_equinix_metal-3.3.0a1681928580.tar.gz
+[2023-05-05 08:45:10] WARNING root fetch - processPackages [Cerebro-Viewer]: Skipping package: exceeds size limit 13701566>=10485760
+[2023-05-05 08:45:10] INFO root fetch - processPackages [Cerebro-Viewer]: Start processing: tqsdk2
+[2023-05-05 08:45:10] INFO root fetch - main [MainThread]: End processing [Cerebro-Viewer] error
+[2023-05-05 08:45:10] INFO root fetch - processPackages [INGInious]: Downloading https://files.pythonhosted.org/packages/f6/dc/00514c1f4148e0c1c9fd9cb753d9dc571c3b8737c5b7130c4b942587589b/INGInious-0.8.6.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [fyers-apiv2]: Downloading https://files.pythonhosted.org/packages/81/ba/5f88ef3b26fc4c32bc1da1f6df1640d588f90710fc73d4884361d51cc95d/fyers_apiv2-2.0.5.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [urgxy-env]: Downloading https://files.pythonhosted.org/packages/a8/82/8cba6fc31628dbe4d1eba5587475e243de4bd74382a8e5702754c1e8f907/urgxy_env-0.1.8.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [ffmpeg-normalize]: Downloading https://files.pythonhosted.org/packages/bb/71/48b153037de3b8679bcbd621aff3af9f5f612b99fb9a8481515bbc2eba59/ffmpeg-normalize-1.3.7.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [tqsdk2]: New version: [2.2.7] Old Version: [2.2.6]
+[2023-05-05 08:45:10] INFO root fetch - processPackages [urgxy-env]: executing diffoscope
+[2023-05-05 08:45:10] INFO root fetch - processPackages [uptrain]: Downloading https://files.pythonhosted.org/packages/56/c2/a55899b259e613c052fa033b325bbae8dfdfa511c356023cad30cc0bfa44/uptrain-0.1.dev0.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [urgxy-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urgxy_env-0.1.7.tar.gz tmp/urgxy_env-0.1.8.tar.gz --markdown 20230505/u/urgxy-env/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-05 08:45:10] INFO root fetch - processPackages [tqsdk2]: Downloading https://files.pythonhosted.org/packages/7a/d3/5845c835260b3f742a4ad15df3a6eacdd90c9a726496f13ebe7dcfe701a4/tqsdk2-2.2.6-cp39-cp39-win_amd64.whl
+[2023-05-05 08:45:10] WARNING root fetch - processPackages [tqsdk2]: Skipping package: exceeds size limit 32726524>=10485760
+[2023-05-05 08:45:10] INFO root fetch - processPackages [tqsdk2]: Start processing: pulumi-rabbitmq
+[2023-05-05 08:45:10] INFO root fetch - main [MainThread]: End processing [tqsdk2] error
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1683267355] Old Version: [3.4.0a1681936357]
+[2023-05-05 08:45:10] INFO root fetch - processPackages [fyers-apiv2]: Downloading https://files.pythonhosted.org/packages/bd/a5/4068bc55a03c1de4b709d4956b66bfff0fc7a58dfc6679ce202079074ba7/fyers_apiv2-2.0.6.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pulumi-equinix-metal]: Downloading https://files.pythonhosted.org/packages/ec/e2/0d1e4a8fdd967f8ab1d8d24bbaf6b90606dc65df4776eec0d690a4dda496/pulumi_equinix_metal-3.3.0a1683265012.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [uptrain]: executing diffoscope
+[2023-05-05 08:45:10] INFO root fetch - processPackages [uptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uptrain-0.1.0.tar.gz tmp/uptrain-0.1.dev0.tar.gz --markdown 20230505/u/uptrain/0.1.0-0.1.dev0/diff.md --exclude *.pyd
+[2023-05-05 08:45:10] INFO root fetch - processPackages [fyers-apiv2]: executing diffoscope
+[2023-05-05 08:45:10] INFO root fetch - processPackages [fyers-apiv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_apiv2-2.0.5.tar.gz tmp/fyers_apiv2-2.0.6.tar.gz --markdown 20230505/f/fyers-apiv2/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pulumi-equinix-metal]: executing diffoscope
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pulumi-equinix-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_equinix_metal-3.3.0a1681928580.tar.gz tmp/pulumi_equinix_metal-3.3.0a1683265012.tar.gz --markdown 20230505/p/pulumi-equinix-metal/3.3.0a1681928580-3.3.0a1683265012/diff.md --exclude *.pyd
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/78/ca/54078a1aeaafeaed2889337f1447eb1cba8b3568349a8cbceb9010c92484/pulumi_rabbitmq-3.4.0a1681936357.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [INGInious]: Downloading https://files.pythonhosted.org/packages/48/76/13b413675f44fe8de52c6ee445c497fc278c0c466177c088239731b5f382/INGInious-0.8.7.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20230505/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/diff.md --exclude *.pyd
+[2023-05-05 08:45:10] INFO root fetch - processPackages [ffmpeg-normalize]: Downloading https://files.pythonhosted.org/packages/0f/5d/62e02c888cbe0b4671665346020f8acc68313e0c0c87002593547fcee1d7/ffmpeg-normalize-1.3.8.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [INGInious]: executing diffoscope
+[2023-05-05 08:45:10] INFO root fetch - processPackages [INGInious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/INGInious-0.8.6.tar.gz tmp/INGInious-0.8.7.tar.gz --markdown 20230505/I/INGInious/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-05-05 08:45:10] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/f8/a8/164abec3f4dbcf42de363bfaf4e82f0c26f41e2e20aa1a6265f306064a9e/pulumi_rabbitmq-3.4.0a1683267355.tar.gz
+[2023-05-05 08:45:10] INFO root fetch - processPackages [ffmpeg-normalize]: executing diffoscope
+[2023-05-05 08:45:10] INFO root fetch - processPackages [ffmpeg-normalize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg-normalize-1.3.7.tar.gz tmp/ffmpeg-normalize-1.3.8.tar.gz --markdown 20230505/f/ffmpeg-normalize/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-05-05 08:45:11] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2023-05-05 08:45:11] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1681936357.tar.gz tmp/pulumi_rabbitmq-3.4.0a1683267355.tar.gz --markdown 20230505/p/pulumi-rabbitmq/3.4.0a1681936357-3.4.0a1683267355/diff.md --exclude *.pyd
+[2023-05-05 08:45:11] INFO root fetch - processPackages [urgxy-env]: Start processing: pyfanity
+[2023-05-05 08:45:11] INFO root fetch - main [MainThread]: End processing [urgxy-env]: success
+[2023-05-05 08:45:11] WARNING root fetch - processPackages [pyfanity]: Skipping, unable to determine old version
+[2023-05-05 08:45:11] INFO root fetch - main [MainThread]: End processing [pyfanity] error
+[2023-05-05 08:45:11] INFO root fetch - main [MainThread]: End processing [fyers-apiv2]: success
+[2023-05-05 08:45:11] INFO root fetch - main [MainThread]: End processing [uptrain]: success
+[2023-05-05 08:45:12] INFO root fetch - main [MainThread]: End processing [pulumi-equinix-metal]: success
+[2023-05-05 08:45:12] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2023-05-05 08:45:13] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-05-05 08:45:14] INFO root fetch - main [MainThread]: End processing [ffmpeg-normalize]: success
+[2023-05-05 08:45:15] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2023-05-05 08:45:19] INFO root fetch - main [MainThread]: End processing [INGInious]: success
+[2023-05-05 08:45:19] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2023-05-05 08:45:19] INFO root fetch - main [MainThread]: Store serial: [17983005]
