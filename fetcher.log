@@ -16019,3 +16019,114 @@
 [2023-05-05 16:08:22] INFO root fetch - main [MainThread]: End processing [ds-caselaw-marklogic-api-client]: success
 [2023-05-05 16:08:23] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
 [2023-05-05 16:08:23] INFO root fetch - main [MainThread]: Store serial: [17988035]
+[2023-05-05 16:13:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17988035]
+[2023-05-05 16:13:32] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-05 16:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spPersist
+[2023-05-05 16:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BDXConverter
+[2023-05-05 16:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webscrapbook
+[2023-05-05 16:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lib-pod5
+[2023-05-05 16:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webscrapbook
+[2023-05-05 16:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testapilib
+[2023-05-05 16:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exabel-data-sdk
+[2023-05-05 16:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: experimenthq
+[2023-05-05 16:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-05-05 16:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pod5
+[2023-05-05 16:13:32] INFO root fetch - processPackages [BDXConverter]: New version: [1.0.15] Old Version: [1.0.14]
+[2023-05-05 16:13:32] INFO root fetch - processPackages [webscrapbook]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-05 16:13:32] INFO root fetch - processPackages [spPersist]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 16:13:32] INFO root fetch - processPackages [lib-pod5]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 16:13:32] INFO root fetch - processPackages [exabel-data-sdk]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-05-05 16:13:32] WARNING root fetch - processPackages [experimenthq]: Skipping, unable to determine old version
+[2023-05-05 16:13:32] INFO root fetch - processPackages [experimenthq]: Start processing: coiled
+[2023-05-05 16:13:32] INFO root fetch - main [MainThread]: End processing [experimenthq] error
+[2023-05-05 16:13:32] WARNING root fetch - processPackages [testapilib]: Skipping, unable to determine old version
+[2023-05-05 16:13:32] INFO root fetch - processPackages [testapilib]: Start processing: vectorGPTBot
+[2023-05-05 16:13:32] INFO root fetch - main [MainThread]: End processing [testapilib] error
+[2023-05-05 16:13:32] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 16:13:32] INFO root fetch - processPackages [pod5]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 16:13:32] INFO root fetch - processPackages [webscrapbook]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-05 16:13:32] INFO root fetch - processPackages [coiled]: New version: [0.6.2.dev9] Old Version: [0.6.2.dev6]
+[2023-05-05 16:13:32] INFO root fetch - processPackages [vectorGPTBot]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-05 16:13:32] INFO root fetch - processPackages [webscrapbook]: Downloading https://files.pythonhosted.org/packages/6d/b8/c6bece5fb59a25e4d30eb65b74d6505d3cd315452e1a818b75591961d3ae/webscrapbook-1.8.3.tar.gz
+[2023-05-05 16:13:32] INFO root fetch - processPackages [webscrapbook]: Downloading https://files.pythonhosted.org/packages/6d/b8/c6bece5fb59a25e4d30eb65b74d6505d3cd315452e1a818b75591961d3ae/webscrapbook-1.8.3.tar.gz
+[2023-05-05 16:13:32] INFO root fetch - processPackages [exabel-data-sdk]: Downloading https://files.pythonhosted.org/packages/34/fb/527988bf1f2e3e60e133d636d7a3d253fbd08e4446d45a39b71101aa1895/exabel-data-sdk-4.1.0.tar.gz
+[2023-05-05 16:13:32] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a8/8f/121e43578c9dd2a0e4bb37849963e3045c6646c089f89ee684bda2f627ac/coiled-0.6.2.dev9.tar.gz
+[2023-05-05 16:13:32] INFO root fetch - processPackages [lib-pod5]: Downloading https://files.pythonhosted.org/packages/f3/53/00f9fcb5890449aa6f79627a0b2de2e4843fe5d4d114abd0edaa3ea14212/lib_pod5-0.1.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-05 16:13:32] INFO root fetch - processPackages [BDXConverter]: Downloading https://files.pythonhosted.org/packages/36/60/80e03cf2f499af197250f4c2e69f51eec36782e2fbfdd6ea1bcbc3f08dfc/BDXConverter-1.0.15.tar.gz
+[2023-05-05 16:13:32] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/32/bc/ac3dab87c351984ae6522bf91695811f7df3607fcbcf2e87e12ccdcae4e5/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz
+[2023-05-05 16:13:32] INFO root fetch - processPackages [pod5]: Downloading https://files.pythonhosted.org/packages/06/66/f47d9c849743d0a74627da58b0e9305475537e177d5d01da8121e87899e9/pod5-0.1.4-py3-none-any.whl
+[2023-05-05 16:13:32] INFO root fetch - processPackages [vectorGPTBot]: Downloading https://files.pythonhosted.org/packages/df/65/362cd02a5665b99b3c8a8bafbf2fa052622545499b3fa10a9fc6f1fff19c/vectorGPTBot-0.1.5.tar.gz
+[2023-05-05 16:13:32] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/c6/98/1105c24b7481231e47854207049857a414f0f451d9f96a29f9e155184d87/sppersist-0.1.9.tar.gz
+[2023-05-05 16:13:32] INFO root fetch - processPackages [BDXConverter]: executing diffoscope
+[2023-05-05 16:13:32] INFO root fetch - processPackages [BDXConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BDXConverter-1.0.14.tar.gz tmp/BDXConverter-1.0.15.tar.gz --markdown 20230505/B/BDXConverter/1.0.14-1.0.15/diff.md --exclude *.pyd
+[2023-05-05 16:13:33] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-05-05 16:13:33] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.1.8.tar.gz tmp/sppersist-0.1.9.tar.gz --markdown 20230505/s/spPersist/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 16:13:33] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-05 16:13:33] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.2.dev6.tar.gz tmp/coiled-0.6.2.dev9.tar.gz --markdown 20230505/c/coiled/0.6.2.dev6-0.6.2.dev9/diff.md --exclude *.pyd
+[2023-05-05 16:13:33] INFO root fetch - processPackages [vectorGPTBot]: Downloading https://files.pythonhosted.org/packages/16/5f/574dc3d6fa8bd083a4c89764200ee6bd05f652ecbdb14150de89c45d527e/vectorGPTBot-0.1.6.tar.gz
+[2023-05-05 16:13:33] INFO root fetch - processPackages [webscrapbook]: Downloading https://files.pythonhosted.org/packages/2a/d1/521c8d93b8efe2c485da1fe9428113bf92df0b9a3683f5c0b6ae0c24d099/webscrapbook-1.9.0.tar.gz
+[2023-05-05 16:13:33] INFO root fetch - processPackages [webscrapbook]: Downloading https://files.pythonhosted.org/packages/2a/d1/521c8d93b8efe2c485da1fe9428113bf92df0b9a3683f5c0b6ae0c24d099/webscrapbook-1.9.0.tar.gz
+[2023-05-05 16:13:33] INFO root fetch - processPackages [exabel-data-sdk]: Downloading https://files.pythonhosted.org/packages/08/d9/0fdf55bf2a9f2244053184a87d68b85d9d35589b2e80797b9c7da259d9e5/exabel-data-sdk-4.2.0.tar.gz
+[2023-05-05 16:13:33] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/87/60/cd337f65781a604c1d436fcd62f8ffdaff0bc80e00546a9c715fa9561007/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz
+[2023-05-05 16:13:33] INFO root fetch - processPackages [vectorGPTBot]: executing diffoscope
+[2023-05-05 16:13:33] INFO root fetch - processPackages [vectorGPTBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectorGPTBot-0.1.5.tar.gz tmp/vectorGPTBot-0.1.6.tar.gz --markdown 20230505/v/vectorGPTBot/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-05 16:13:33] INFO root fetch - processPackages [pod5]: Downloading https://files.pythonhosted.org/packages/59/4b/7806c3f696a4a13e9b101d748615f3602b47e20fe6f9cecf47f97e644244/pod5-0.1.5-py3-none-any.whl
+[2023-05-05 16:13:33] INFO root fetch - processPackages [exabel-data-sdk]: executing diffoscope
+[2023-05-05 16:13:33] INFO root fetch - processPackages [exabel-data-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exabel-data-sdk-4.1.0.tar.gz tmp/exabel-data-sdk-4.2.0.tar.gz --markdown 20230505/e/exabel-data-sdk/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-05-05 16:13:33] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-05-05 16:13:33] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230505/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 16:13:33] INFO root fetch - processPackages [webscrapbook]: executing diffoscope
+[2023-05-05 16:13:33] INFO root fetch - processPackages [webscrapbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscrapbook-1.8.3.tar.gz tmp/webscrapbook-1.9.0.tar.gz --markdown 20230505/w/webscrapbook/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-05 16:13:33] INFO root fetch - processPackages [webscrapbook]: executing diffoscope
+[2023-05-05 16:13:33] INFO root fetch - processPackages [webscrapbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscrapbook-1.8.3.tar.gz tmp/webscrapbook-1.9.0.tar.gz --markdown 20230505/w/webscrapbook/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-05 16:13:33] INFO root fetch - processPackages [pod5]: executing diffoscope
+[2023-05-05 16:13:33] INFO root fetch - processPackages [pod5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pod5-0.1.4-py3-none-any.whl.zip tmp/pod5-0.1.5-py3-none-any.whl.zip --markdown 20230505/p/pod5/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 16:13:34] INFO root fetch - processPackages [lib-pod5]: Downloading https://files.pythonhosted.org/packages/dd/2a/e993f74a6b40560274fd11bf5ab442e7addb8d070af8fdc7e7db4860ff16/lib_pod5-0.1.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-05 16:13:34] INFO root fetch - processPackages [spPersist]: Start processing: pyc3dtools
+[2023-05-05 16:13:34] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-05-05 16:13:34] WARNING root fetch - processPackages [pyc3dtools]: Skipping, unable to determine old version
+[2023-05-05 16:13:34] INFO root fetch - processPackages [pyc3dtools]: Start processing: fastapi-nextauth-jwt
+[2023-05-05 16:13:34] INFO root fetch - main [MainThread]: End processing [pyc3dtools] error
+[2023-05-05 16:13:34] INFO root fetch - processPackages [fastapi-nextauth-jwt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 16:13:34] INFO root fetch - processPackages [vectorGPTBot]: Start processing: coreftools
+[2023-05-05 16:13:34] INFO root fetch - main [MainThread]: End processing [vectorGPTBot]: success
+[2023-05-05 16:13:34] WARNING root fetch - processPackages [coreftools]: Skipping, unable to determine old version
+[2023-05-05 16:13:34] INFO root fetch - processPackages [coreftools]: Start processing: griffon
+[2023-05-05 16:13:34] INFO root fetch - main [MainThread]: End processing [coreftools] error
+[2023-05-05 16:13:34] INFO root fetch - processPackages [griffon]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 16:13:34] INFO root fetch - processPackages [fastapi-nextauth-jwt]: Downloading https://files.pythonhosted.org/packages/8e/94/85722955cf27153bc618c288165c7b99596502ef6eab3ed8386c8260faea/fastapi_nextauth_jwt-0.0.1.tar.gz
+[2023-05-05 16:13:34] INFO root fetch - processPackages [coiled]: Start processing: apitestlib
+[2023-05-05 16:13:34] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-05 16:13:34] WARNING root fetch - processPackages [apitestlib]: Skipping, unable to determine old version
+[2023-05-05 16:13:34] INFO root fetch - processPackages [apitestlib]: Start processing: driveup
+[2023-05-05 16:13:34] INFO root fetch - main [MainThread]: End processing [apitestlib] error
+[2023-05-05 16:13:34] INFO root fetch - processPackages [lib-pod5]: executing diffoscope
+[2023-05-05 16:13:34] INFO root fetch - processPackages [lib-pod5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_pod5-0.1.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/lib_pod5-0.1.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230505/l/lib-pod5/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 16:13:34] INFO root fetch - processPackages [driveup]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-05 16:13:34] INFO root fetch - processPackages [BDXConverter]: Start processing: cdascorer
+[2023-05-05 16:13:34] INFO root fetch - main [MainThread]: End processing [BDXConverter]: success
+[2023-05-05 16:13:34] INFO root fetch - processPackages [cdascorer]: New version: [0.0.0.dev9] Old Version: [0.0.0.dev8]
+[2023-05-05 16:13:34] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-05-05 16:13:34] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/c8/c4/c6f94dfcb710178b29d7c7e4ef3c728359e0c45e66c75298a5e17ec63ba8/griffon-0.1.8.tar.gz
+[2023-05-05 16:13:34] INFO root fetch - processPackages [fastapi-nextauth-jwt]: Downloading https://files.pythonhosted.org/packages/bd/13/ef490c636377f29add4ae432355e7260eeab335e1d09c85dec95c2fa0b60/fastapi_nextauth_jwt-0.0.2.tar.gz
+[2023-05-05 16:13:34] INFO root fetch - processPackages [cdascorer]: executing diffoscope
+[2023-05-05 16:13:34] INFO root fetch - processPackages [cdascorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdascorer-0.0.0.dev8.tar.gz tmp/cdascorer-0.0.0.dev9.tar.gz --markdown 20230505/c/cdascorer/0.0.0.dev8-0.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-05 16:13:35] INFO root fetch - processPackages [driveup]: Downloading https://files.pythonhosted.org/packages/71/cb/f6d25cc5c3e28ad3bbf9c0f36709dc0b235aa67546a1018c972150143efd/driveup-0.2.4.tar.gz
+[2023-05-05 16:13:35] INFO root fetch - main [MainThread]: End processing [pod5]: success
+[2023-05-05 16:13:35] INFO root fetch - processPackages [fastapi-nextauth-jwt]: executing diffoscope
+[2023-05-05 16:13:35] INFO root fetch - processPackages [fastapi-nextauth-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_nextauth_jwt-0.0.1.tar.gz tmp/fastapi_nextauth_jwt-0.0.2.tar.gz --markdown 20230505/f/fastapi-nextauth-jwt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 16:13:35] INFO root fetch - processPackages [driveup]: Downloading https://files.pythonhosted.org/packages/07/f7/6480f9d42a8ac2bd8de9bd05175e013076d3d65eda373702353407b64090/driveup-0.3.0.tar.gz
+[2023-05-05 16:13:35] INFO root fetch - processPackages [driveup]: executing diffoscope
+[2023-05-05 16:13:35] INFO root fetch - processPackages [driveup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/driveup-0.2.4.tar.gz tmp/driveup-0.3.0.tar.gz --markdown 20230505/d/driveup/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 16:13:35] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/23/dd/c076acb3cff7bd03ce910d70419c262f1825bfa0ce32c3d4b7d44996ecc2/griffon-0.1.9.tar.gz
+[2023-05-05 16:13:35] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-05-05 16:13:35] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.1.8.tar.gz tmp/griffon-0.1.9.tar.gz --markdown 20230505/g/griffon/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 16:13:35] INFO root fetch - main [MainThread]: End processing [webscrapbook]: success
+[2023-05-05 16:13:36] INFO root fetch - main [MainThread]: End processing [fastapi-nextauth-jwt]: success
+[2023-05-05 16:13:36] INFO root fetch - main [MainThread]: End processing [cdascorer]: success
+[2023-05-05 16:13:36] INFO root fetch - main [MainThread]: End processing [driveup]: success
+[2023-05-05 16:13:37] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-05-05 16:13:37] INFO root fetch - main [MainThread]: End processing [exabel-data-sdk]: success
+[2023-05-05 16:13:37] INFO root fetch - main [MainThread]: End processing [webscrapbook]: success
+[2023-05-05 16:14:08] INFO root fetch - main [MainThread]: End processing [lib-pod5]: success
+[2023-05-05 16:14:08] INFO root fetch - main [MainThread]: Store serial: [17988124]
