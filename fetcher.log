@@ -8980,3 +8980,88 @@
 [2023-05-05 10:10:29] INFO root fetch - main [MainThread]: End processing [fastapi-profiler]: success
 [2023-05-05 10:10:29] INFO root fetch - main [MainThread]: End processing [slack-watchman]: success
 [2023-05-05 10:10:29] INFO root fetch - main [MainThread]: Store serial: [17983829]
+[2023-05-05 10:15:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17983829]
+[2023-05-05 10:15:38] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 10:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cornflow-client
+[2023-05-05 10:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docs-ranking-metrics
+[2023-05-05 10:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyfi-template
+[2023-05-05 10:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atom
+[2023-05-05 10:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: schoolware-api
+[2023-05-05 10:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vvvvid_downloader
+[2023-05-05 10:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: orange-canvas-core
+[2023-05-05 10:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyfi-template
+[2023-05-05 10:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cornflow
+[2023-05-05 10:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apify-client
+[2023-05-05 10:15:38] INFO root fetch - processPackages [vvvvid_downloader]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-05 10:15:38] INFO root fetch - processPackages [docs-ranking-metrics]: New version: [0.0.2.dev0] Old Version: [0.0.1]
+[2023-05-05 10:15:38] INFO root fetch - processPackages [hyfi-template]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-05 10:15:38] INFO root fetch - processPackages [hyfi-template]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-05 10:15:38] INFO root fetch - processPackages [cornflow]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-05 10:15:38] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-05-05 10:15:38] INFO root fetch - processPackages [orange-canvas-core]: New version: [0.1.9] Old Version: [0.1.8rc3]
+[2023-05-05 10:15:38] INFO root fetch - processPackages [cornflow-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 10:15:38] INFO root fetch - processPackages [apify-client]: New version: [1.1.0b2] Old Version: [1.1.0b1]
+[2023-05-05 10:15:38] INFO root fetch - processPackages [atom]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-05 10:15:39] INFO root fetch - processPackages [docs-ranking-metrics]: Downloading https://files.pythonhosted.org/packages/30/5e/246fded933e8ce1b62ee7d0038b04f3a3a066b08637d001c184c5b12f5c5/docs-ranking-metrics-0.0.1.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/92/b0/aff464c827054f80596e35191b56ad4fd5c61bc48ba5ecc8b5dff79e67e7/hyfi_template-0.2.3.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/92/b0/aff464c827054f80596e35191b56ad4fd5c61bc48ba5ecc8b5dff79e67e7/hyfi_template-0.2.3.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/9b/38/775f4b74ee37281d39fea5abe30644a700643d24efc1f965b2b3c288b2bc/schoolware_api-1.1.0.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/46/04/5c4a868c0cf1bb32f0bb2404518e568b40ad65827748d72fa837933068ec/apify_client-1.1.0b2.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [vvvvid_downloader]: Downloading https://files.pythonhosted.org/packages/45/20/086fc6e51fdd250eb5eca891a0243dc760a96ac6fa0dfed16d54b994e8b4/vvvvid_downloader-1.3.2.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [cornflow]: Downloading https://files.pythonhosted.org/packages/7b/15/31f3d3026743ece6dc00e1a9ba8b30ac6cb54d87b9699465f91445f6c935/cornflow-1.0.4.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [cornflow-client]: Downloading https://files.pythonhosted.org/packages/6a/8e/229dc353c755685067eef8fd768c0dd70cf5543994eba623074f44927080/cornflow-client-1.0.8.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [orange-canvas-core]: Downloading https://files.pythonhosted.org/packages/3e/fa/75b790e1478ebcc990b495ad818ae6fb3ebf97b4e550cf0bcb0124eed7af/orange-canvas-core-0.1.8rc3.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [atom]: Downloading https://files.pythonhosted.org/packages/93/45/87e3a1a14cbb4dc97ecbd34599816ef448a0b419cddcf5b66ecb8776c05d/atom-0.9.0.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [docs-ranking-metrics]: Downloading https://files.pythonhosted.org/packages/84/58/c31578d85258ccd72e7d597636eb6815ccf19ca87b8836702cbd696affaa/docs-ranking-metrics-0.0.2.dev0.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 10:15:39] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.0.8.tar.gz tmp/schoolware_api-1.1.0.tar.gz --markdown 20230505/s/schoolware-api/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 10:15:39] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/1e/46/b2f8a9f4dcf4a54abd88a1a4d906498b63f2a25a17d338cfd52ed8709b2a/hyfi_template-0.2.4.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/1e/46/b2f8a9f4dcf4a54abd88a1a4d906498b63f2a25a17d338cfd52ed8709b2a/hyfi_template-0.2.4.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2023-05-05 10:15:39] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.1.0b1.tar.gz tmp/apify_client-1.1.0b2.tar.gz --markdown 20230505/a/apify-client/1.1.0b1-1.1.0b2/diff.md --exclude *.pyd
+[2023-05-05 10:15:39] INFO root fetch - processPackages [vvvvid_downloader]: Downloading https://files.pythonhosted.org/packages/92/98/4b4e71f7e7940e8bf8b222c67859b8f84902204ace7ab6d1d6b586f2c440/vvvvid_downloader-1.3.3.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [docs-ranking-metrics]: executing diffoscope
+[2023-05-05 10:15:39] INFO root fetch - processPackages [docs-ranking-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs-ranking-metrics-0.0.1.tar.gz tmp/docs-ranking-metrics-0.0.2.dev0.tar.gz --markdown 20230505/d/docs-ranking-metrics/0.0.1-0.0.2.dev0/diff.md --exclude *.pyd
+[2023-05-05 10:15:39] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-05-05 10:15:39] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.2.3.tar.gz tmp/hyfi_template-0.2.4.tar.gz --markdown 20230505/h/hyfi-template/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-05 10:15:39] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-05-05 10:15:39] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.2.3.tar.gz tmp/hyfi_template-0.2.4.tar.gz --markdown 20230505/h/hyfi-template/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-05 10:15:39] INFO root fetch - processPackages [vvvvid_downloader]: executing diffoscope
+[2023-05-05 10:15:39] INFO root fetch - processPackages [vvvvid_downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vvvvid_downloader-1.3.2.tar.gz tmp/vvvvid_downloader-1.3.3.tar.gz --markdown 20230505/v/vvvvid_downloader/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-05 10:15:39] INFO root fetch - processPackages [cornflow]: Downloading https://files.pythonhosted.org/packages/4b/81/e58f38058a9ecac0c5b3373f7edb98c01bb72ac46883d5bb3015b1d6b7ed/cornflow-1.0.5.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [cornflow-client]: Downloading https://files.pythonhosted.org/packages/d1/69/9b9eec8c082d83b19968302c2f073e765a75d2179f8932eb5e9b05b484d8/cornflow-client-1.0.9.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [orange-canvas-core]: Downloading https://files.pythonhosted.org/packages/09/af/868339bd938c2792b62d53682310540e6fbb3b936722fa356b597307e271/orange-canvas-core-0.1.9.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [atom]: Downloading https://files.pythonhosted.org/packages/88/5b/55fa9af6229735dfadb021c24e4a35c03c9b95fc581bca60cddb7bbec95b/atom-0.9.1.tar.gz
+[2023-05-05 10:15:39] INFO root fetch - processPackages [cornflow]: executing diffoscope
+[2023-05-05 10:15:39] INFO root fetch - processPackages [cornflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornflow-1.0.4.tar.gz tmp/cornflow-1.0.5.tar.gz --markdown 20230505/c/cornflow/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-05 10:15:39] INFO root fetch - processPackages [atom]: executing diffoscope
+[2023-05-05 10:15:39] INFO root fetch - processPackages [atom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atom-0.9.0.tar.gz tmp/atom-0.9.1.tar.gz --markdown 20230505/a/atom/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-05 10:15:39] INFO root fetch - processPackages [cornflow-client]: executing diffoscope
+[2023-05-05 10:15:39] INFO root fetch - processPackages [cornflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornflow-client-1.0.8.tar.gz tmp/cornflow-client-1.0.9.tar.gz --markdown 20230505/c/cornflow-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 10:15:39] INFO root fetch - processPackages [orange-canvas-core]: executing diffoscope
+[2023-05-05 10:15:39] INFO root fetch - processPackages [orange-canvas-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orange-canvas-core-0.1.8rc3.tar.gz tmp/orange-canvas-core-0.1.9.tar.gz --markdown 20230505/o/orange-canvas-core/0.1.8rc3-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 10:15:40] INFO root fetch - processPackages [schoolware-api]: Start processing: orchestrator-core
+[2023-05-05 10:15:40] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 10:15:40] INFO root fetch - processPackages [orchestrator-core]: New version: [1.0.2rc3] Old Version: [1.0.2rc2]
+[2023-05-05 10:15:40] INFO root fetch - processPackages [apify-client]: Start processing: tonic
+[2023-05-05 10:15:40] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2023-05-05 10:15:41] INFO root fetch - main [MainThread]: End processing [docs-ranking-metrics]: success
+[2023-05-05 10:15:41] INFO root fetch - processPackages [tonic]: New version: [1.2.7.dev9] Old Version: [1.2.7.dev6]
+[2023-05-05 10:15:41] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/d2/d4/fb542492f2d1eb8a783a4823ae8d1ebc967fb9884cded35ac176a16e8360/orchestrator-core-1.0.2rc2.tar.gz
+[2023-05-05 10:15:41] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-05-05 10:15:41] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-05-05 10:15:41] INFO root fetch - main [MainThread]: End processing [vvvvid_downloader]: success
+[2023-05-05 10:15:41] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/46/55/69bbbe70faf01783eb3a34e65a3b723f7c340ef3f6797785b8b4ccec3c65/tonic-1.2.7.dev6.tar.gz
+[2023-05-05 10:15:41] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/5c/67/e2537e436130d6743d467728749b7993d5100db0d06aa2edbd6cc0eab899/orchestrator-core-1.0.2rc3.tar.gz
+[2023-05-05 10:15:41] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2023-05-05 10:15:41] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator-core-1.0.2rc2.tar.gz tmp/orchestrator-core-1.0.2rc3.tar.gz --markdown 20230505/o/orchestrator-core/1.0.2rc2-1.0.2rc3/diff.md --exclude *.pyd
+[2023-05-05 10:15:42] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/ef/4b/f94eb132f8218f36549a18c89379fe503293c66b81ccc87b01bdeea74206/tonic-1.2.7.dev9.tar.gz
+[2023-05-05 10:15:42] INFO root fetch - processPackages [tonic]: executing diffoscope
+[2023-05-05 10:15:42] INFO root fetch - processPackages [tonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonic-1.2.7.dev6.tar.gz tmp/tonic-1.2.7.dev9.tar.gz --markdown 20230505/t/tonic/1.2.7.dev6-1.2.7.dev9/diff.md --exclude *.pyd
+[2023-05-05 10:15:43] INFO root fetch - main [MainThread]: End processing [cornflow-client]: success
+[2023-05-05 10:15:43] INFO root fetch - main [MainThread]: End processing [cornflow]: success
+[2023-05-05 10:15:44] INFO root fetch - main [MainThread]: End processing [atom]: success
+[2023-05-05 10:15:44] INFO root fetch - main [MainThread]: End processing [orange-canvas-core]: success
+[2023-05-05 10:15:44] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2023-05-05 10:15:46] INFO root fetch - main [MainThread]: End processing [tonic]: success
+[2023-05-05 10:15:46] INFO root fetch - main [MainThread]: Store serial: [17983903]
