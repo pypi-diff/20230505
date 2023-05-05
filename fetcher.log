@@ -4536,3 +4536,45 @@
 [2023-05-05 03:41:05] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
 [2023-05-05 03:41:50] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-05-05 03:41:50] INFO root fetch - main [MainThread]: Store serial: [17981165]
+[2023-05-05 03:46:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981165]
+[2023-05-05 03:46:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-05 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-apl
+[2023-05-05 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multimetricprog
+[2023-05-05 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carchive
+[2023-05-05 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proactive
+[2023-05-05 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: memento-ml
+[2023-05-05 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proactive-jupyter-kernel
+[2023-05-05 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sdmbc
+[2023-05-05 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multimetricprog
+[2023-05-05 03:46:59] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-05-05 03:46:59] INFO root fetch - processPackages [carchive]: New version: [0.0.40] Old Version: [0.0.39]
+[2023-05-05 03:46:59] ERROR root fetch - processPackages [multimetricprog]: Unable to get metadata: No such project 'multimetricprog'
+[2023-05-05 03:46:59] WARNING root fetch - processPackages [sdmbc]: Skipping, unable to determine old version
+[2023-05-05 03:46:59] INFO root fetch - main [MainThread]: End processing [multimetricprog] error
+[2023-05-05 03:46:59] INFO root fetch - main [MainThread]: End processing [sdmbc] error
+[2023-05-05 03:46:59] ERROR root fetch - processPackages [multimetricprog]: Unable to get metadata: No such project 'multimetricprog'
+[2023-05-05 03:46:59] INFO root fetch - processPackages [memento-ml]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-05 03:46:59] INFO root fetch - main [MainThread]: End processing [multimetricprog] error
+[2023-05-05 03:46:59] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-05 03:46:59] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.754] Old Version: [0.0.753]
+[2023-05-05 03:46:59] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-05-05 03:46:59] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-05-05 03:46:59] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-05-05 03:46:59] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-05 03:46:59] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230505/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-05 03:46:59] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/03/ed/f9acbf8d3947f028d2ed7dea00dbf0863cdf8680c9d244a2af28eb253670/carchive-0.0.40.tar.gz
+[2023-05-05 03:46:59] INFO root fetch - processPackages [memento-ml]: Downloading https://files.pythonhosted.org/packages/eb/07/663cac7bc2030a188eaf263cd0e88182a9d4a36dd8825fff6aca20538de1/memento-ml-1.0.2.tar.gz
+[2023-05-05 03:46:59] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/4a/87/c558b2e599c838e2867864c134ef0b710c180f7add24e5992eadc8cf7aba/nbdev-apl-0.0.753.tar.gz
+[2023-05-05 03:46:59] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-05 03:46:59] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.39.tar.gz tmp/carchive-0.0.40.tar.gz --markdown 20230505/c/carchive/0.0.39-0.0.40/diff.md --exclude *.pyd
+[2023-05-05 03:46:59] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/57/39/f9df0bcaa768eb1c30eb62f6ff31c3fcc08009f7eb230708ce1183b980d4/nbdev-apl-0.0.754.tar.gz
+[2023-05-05 03:46:59] INFO root fetch - processPackages [memento-ml]: Downloading https://files.pythonhosted.org/packages/7a/c5/c48ec79413de700e037681893ddb6b8d4aacdefe9266f69b715bb80b0215/memento-ml-1.1.0.tar.gz
+[2023-05-05 03:46:59] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-05 03:46:59] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.753.tar.gz tmp/nbdev-apl-0.0.754.tar.gz --markdown 20230505/n/nbdev-apl/0.0.753-0.0.754/diff.md --exclude *.pyd
+[2023-05-05 03:46:59] INFO root fetch - processPackages [memento-ml]: executing diffoscope
+[2023-05-05 03:46:59] INFO root fetch - processPackages [memento-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memento-ml-1.0.2.tar.gz tmp/memento-ml-1.1.0.tar.gz --markdown 20230505/m/memento-ml/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 03:47:00] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-05 03:47:00] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-05 03:47:00] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-05 03:47:00] INFO root fetch - main [MainThread]: End processing [memento-ml]: success
+[2023-05-05 03:47:00] INFO root fetch - main [MainThread]: Store serial: [17981194]
