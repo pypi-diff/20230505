@@ -5008,3 +5008,60 @@
 [2023-05-05 04:50:55] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-spread-cost-revenue]: success
 [2023-05-05 04:50:58] INFO root fetch - main [MainThread]: End processing [textworld]: success
 [2023-05-05 04:50:58] INFO root fetch - main [MainThread]: Store serial: [17981464]
+[2023-05-05 04:56:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981464]
+[2023-05-05 04:56:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-05 04:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transtab
+[2023-05-05 04:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-serve
+[2023-05-05 04:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pibble
+[2023-05-05 04:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carchive
+[2023-05-05 04:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pelicun
+[2023-05-05 04:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfacer
+[2023-05-05 04:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TSMasterAPI
+[2023-05-05 04:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dora-rs
+[2023-05-05 04:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: policyengine-us
+[2023-05-05 04:56:07] INFO root fetch - processPackages [carchive]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-05-05 04:56:07] INFO root fetch - processPackages [transtab]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 04:56:07] INFO root fetch - processPackages [TSMasterAPI]: New version: [2.0.0] Old Version: [1.2.3]
+[2023-05-05 04:56:07] WARNING root fetch - processPackages [pyfacer]: Skipping, unable to determine old version
+[2023-05-05 04:56:07] INFO root fetch - main [MainThread]: End processing [pyfacer] error
+[2023-05-05 04:56:07] INFO root fetch - processPackages [pelicun]: New version: [3.2b3] Old Version: [3.2b2]
+[2023-05-05 04:56:07] INFO root fetch - processPackages [pibble]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-05 04:56:07] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-05 04:56:07] INFO root fetch - processPackages [dora-rs]: New version: [0.2.3rc6] Old Version: [0.2.3rc5]
+[2023-05-05 04:56:07] INFO root fetch - processPackages [policyengine-us]: New version: [0.314.1] Old Version: [0.314.0]
+[2023-05-05 04:56:07] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-05 04:56:07] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230505/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-05 04:56:07] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/05/6b/22fdd3c9bd50211f9232a593376b32cbc65708f287ad026113674cd77897/pibble-0.5.2.tar.gz
+[2023-05-05 04:56:07] INFO root fetch - processPackages [pelicun]: Downloading https://files.pythonhosted.org/packages/b0/80/637c0a295b375a165fe1bc168ee2cf5b2d751d33c5201814eaa7659cc7a9/pelicun-3.2b2.tar.gz
+[2023-05-05 04:56:07] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/3d/d3/681eb3348c12af5d09b48a1e01c15255dee4f78a88f15b9fc0eb81537b67/policyengine-us-0.314.1.tar.gz
+[2023-05-05 04:56:07] INFO root fetch - processPackages [transtab]: Downloading https://files.pythonhosted.org/packages/09/ef/d33bf85f71cc9c5843ae291a01755e10081b7191af167a07f95d6f0f9eec/transtab-0.0.4.tar.gz
+[2023-05-05 04:56:07] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/dc/8f/decfa09c475c849100b8eb6e832e5ec79e1103f56f6a3da1c63b902734e8/carchive-0.0.44.tar.gz
+[2023-05-05 04:56:07] INFO root fetch - processPackages [TSMasterAPI]: Downloading https://files.pythonhosted.org/packages/5d/71/1aa181032ceb414478238989226fd7f0360ea9d2cc5c9ff6b76261de1b55/TSMasterAPI-1.2.3.tar.gz
+[2023-05-05 04:56:07] INFO root fetch - processPackages [dora-rs]: Downloading https://files.pythonhosted.org/packages/5c/e6/0cc3cbab27fe2e17507f48ce9e04bf4afff6d3d1604b6781fdf40b98ae66/dora_rs-0.2.3rc6.tar.gz
+[2023-05-05 04:56:07] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-05 04:56:07] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.43.tar.gz tmp/carchive-0.0.44.tar.gz --markdown 20230505/c/carchive/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-05-05 04:56:07] INFO root fetch - processPackages [dora-rs]: executing diffoscope
+[2023-05-05 04:56:07] INFO root fetch - processPackages [dora-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dora_rs-0.2.3rc5.tar.gz tmp/dora_rs-0.2.3rc6.tar.gz --markdown 20230505/d/dora-rs/0.2.3rc5-0.2.3rc6/diff.md --exclude *.pyd
+[2023-05-05 04:56:07] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/4c/ed/ee8afa68340aac98b4be2cf5a035104faeab1739cb9d8176b8302f473224/pibble-0.5.3.tar.gz
+[2023-05-05 04:56:07] INFO root fetch - processPackages [TSMasterAPI]: Downloading https://files.pythonhosted.org/packages/6d/8d/3c0a8690de7f25af44f932f3008134e2b99294ea2d5efa1fe75626f767ce/TSMasterAPI-2.0.0.tar.gz
+[2023-05-05 04:56:07] INFO root fetch - processPackages [pelicun]: Downloading https://files.pythonhosted.org/packages/e7/61/d1d9bc43e1d95845db5ed12f0e9fd5a090a42c9c79d02cba202785d94789/pelicun-3.2b3.tar.gz
+[2023-05-05 04:56:07] INFO root fetch - processPackages [transtab]: Downloading https://files.pythonhosted.org/packages/75/52/eafe158c56a2caadaad72088e68a21e9e39f3716c06c6396c62fb6fd918f/transtab-0.0.5.tar.gz
+[2023-05-05 04:56:07] INFO root fetch - processPackages [pibble]: executing diffoscope
+[2023-05-05 04:56:07] INFO root fetch - processPackages [pibble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibble-0.5.2.tar.gz tmp/pibble-0.5.3.tar.gz --markdown 20230505/p/pibble/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-05 04:56:07] INFO root fetch - processPackages [TSMasterAPI]: executing diffoscope
+[2023-05-05 04:56:07] INFO root fetch - processPackages [TSMasterAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSMasterAPI-1.2.3.tar.gz tmp/TSMasterAPI-2.0.0.tar.gz --markdown 20230505/T/TSMasterAPI/1.2.3-2.0.0/diff.md --exclude *.pyd
+[2023-05-05 04:56:07] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-05-05 04:56:07] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.314.0.tar.gz tmp/policyengine-us-0.314.1.tar.gz --markdown 20230505/p/policyengine-us/0.314.0-0.314.1/diff.md --exclude *.pyd
+[2023-05-05 04:56:07] INFO root fetch - processPackages [pelicun]: executing diffoscope
+[2023-05-05 04:56:07] INFO root fetch - processPackages [pelicun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelicun-3.2b2.tar.gz tmp/pelicun-3.2b3.tar.gz --markdown 20230505/p/pelicun/3.2b2-3.2b3/diff.md --exclude *.pyd
+[2023-05-05 04:56:07] INFO root fetch - processPackages [transtab]: executing diffoscope
+[2023-05-05 04:56:07] INFO root fetch - processPackages [transtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transtab-0.0.4.tar.gz tmp/transtab-0.0.5.tar.gz --markdown 20230505/t/transtab/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 04:56:08] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-05 04:56:09] INFO root fetch - main [MainThread]: End processing [TSMasterAPI]: success
+[2023-05-05 04:56:09] INFO root fetch - main [MainThread]: End processing [transtab]: success
+[2023-05-05 04:56:09] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-05 04:56:09] INFO root fetch - main [MainThread]: End processing [pibble]: success
+[2023-05-05 04:56:10] INFO root fetch - main [MainThread]: End processing [dora-rs]: success
+[2023-05-05 04:56:12] INFO root fetch - main [MainThread]: End processing [pelicun]: success
+[2023-05-05 04:57:22] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-05-05 04:57:22] INFO root fetch - main [MainThread]: Store serial: [17981494]
