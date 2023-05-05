@@ -16435,3 +16435,90 @@
 [2023-05-05 16:30:37] INFO root fetch - main [MainThread]: End processing [pika]: success
 [2023-05-05 16:30:51] INFO root fetch - main [MainThread]: End processing [bsl]: success
 [2023-05-05 16:30:51] INFO root fetch - main [MainThread]: Store serial: [17988332]
+[2023-05-05 16:35:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17988332]
+[2023-05-05 16:36:02] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-05 16:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpt.cpp
+[2023-05-05 16:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maoc-support-functions
+[2023-05-05 16:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chaostoolkit-reliably
+[2023-05-05 16:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmem-cmemc
+[2023-05-05 16:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parsgod
+[2023-05-05 16:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bia-rembi-models
+[2023-05-05 16:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zospy
+[2023-05-05 16:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prodia-python
+[2023-05-05 16:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-scheduler-sdk-preview
+[2023-05-05 16:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pympt
+[2023-05-05 16:36:03] INFO root fetch - processPackages [prodia-python]: New version: [2.2] Old Version: [2.1]
+[2023-05-05 16:36:03] WARNING root fetch - processPackages [maoc-support-functions]: Skipping, unable to determine old version
+[2023-05-05 16:36:03] INFO root fetch - processPackages [maoc-support-functions]: Start processing: webcam
+[2023-05-05 16:36:03] INFO root fetch - main [MainThread]: End processing [maoc-support-functions] error
+[2023-05-05 16:36:03] WARNING root fetch - processPackages [bia-rembi-models]: Skipping, unable to determine old version
+[2023-05-05 16:36:03] INFO root fetch - processPackages [bia-rembi-models]: Start processing: distkv
+[2023-05-05 16:36:03] INFO root fetch - main [MainThread]: End processing [bia-rembi-models] error
+[2023-05-05 16:36:03] WARNING root fetch - processPackages [mpt.cpp]: Skipping, unable to determine old version
+[2023-05-05 16:36:03] INFO root fetch - processPackages [mpt.cpp]: Start processing: DrissionPage
+[2023-05-05 16:36:03] INFO root fetch - processPackages [cmem-cmemc]: New version: [23.1.2rc1] Old Version: [23.1.1rc1]
+[2023-05-05 16:36:03] INFO root fetch - main [MainThread]: End processing [mpt.cpp] error
+[2023-05-05 16:36:03] INFO root fetch - processPackages [zospy]: New version: [1.0.0] Old Version: [0.6.2]
+[2023-05-05 16:36:03] WARNING root fetch - processPackages [parsgod]: Skipping, unable to determine old version
+[2023-05-05 16:36:03] INFO root fetch - processPackages [parsgod]: Start processing: docarray
+[2023-05-05 16:36:03] INFO root fetch - main [MainThread]: End processing [parsgod] error
+[2023-05-05 16:36:03] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: New version: [0.0.789] Old Version: [0.0.788]
+[2023-05-05 16:36:03] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-05 16:36:03] INFO root fetch - processPackages [webcam]: New version: [0.7] Old Version: [0.6]
+[2023-05-05 16:36:03] WARNING root fetch - processPackages [pympt]: Skipping, unable to determine old version
+[2023-05-05 16:36:03] INFO root fetch - processPackages [pympt]: Start processing: jmspack
+[2023-05-05 16:36:03] INFO root fetch - main [MainThread]: End processing [pympt] error
+[2023-05-05 16:36:03] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-05 16:36:03] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-05-05 16:36:03] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230505/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-05 16:36:03] INFO root fetch - processPackages [distkv]: New version: [0.9.2] Old Version: [0.8.4]
+[2023-05-05 16:36:03] INFO root fetch - processPackages [jmspack]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 16:36:03] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-05 16:36:03] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230505/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-05 16:36:03] INFO root fetch - processPackages [DrissionPage]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-05-05 16:36:03] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/95/d7/beb9942a3546e47ed574b0168b6ad2ce1b725333462c87c9ab78fa2e0c08/lusid-scheduler-sdk-preview-0.0.788.tar.gz
+[2023-05-05 16:36:03] INFO root fetch - processPackages [zospy]: Downloading https://files.pythonhosted.org/packages/61/19/e7493a98652f929253946dfaed1476075823481fb72a02218e5d5567c259/zospy-0.6.2.tar.gz
+[2023-05-05 16:36:03] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/b0/1d/cca4eccf4e81aed39b0be061252e18e04a8d72966f729887efaed15ef164/webcam-0.7.tar.gz
+[2023-05-05 16:36:03] INFO root fetch - processPackages [webcam]: executing diffoscope
+[2023-05-05 16:36:03] INFO root fetch - processPackages [webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webcam-0.6.tar.gz tmp/webcam-0.7.tar.gz --markdown 20230505/w/webcam/0.6-0.7/diff.md --exclude *.pyd
+[2023-05-05 16:36:03] INFO root fetch - processPackages [prodia-python]: Downloading https://files.pythonhosted.org/packages/e8/e5/1cb72a713ed0ba8fbb885ed7fbde17686bb72bacb0340ef2d4cbb44d128d/prodia-python-2.2.tar.gz
+[2023-05-05 16:36:03] INFO root fetch - processPackages [jmspack]: Downloading https://files.pythonhosted.org/packages/31/e6/73b0034f934749e3357288e1df1ca427858ff2820e744af770c174ae1af0/jmspack-0.1.1.tar.gz
+[2023-05-05 16:36:03] INFO root fetch - processPackages [distkv]: Downloading https://files.pythonhosted.org/packages/f3/11/b59e264f846cce22def8715916a2e8f429152f15ce91df2056a5cfd33728/distkv-0.8.4.tar.gz
+[2023-05-05 16:36:03] INFO root fetch - processPackages [cmem-cmemc]: Downloading https://files.pythonhosted.org/packages/88/b4/29249a280d48fb0f50e92cbd3049bea6b1d7ca7afc0cae937af87523ffa0/cmem_cmemc-23.1.2rc1.tar.gz
+[2023-05-05 16:36:03] INFO root fetch - processPackages [DrissionPage]: Downloading https://files.pythonhosted.org/packages/1d/fd/ecd8e95c7b258eeafe187477e316177d1cd4003620f8ef64ecf5831a674b/DrissionPage-3.2.8.tar.gz
+[2023-05-05 16:36:03] INFO root fetch - processPackages [prodia-python]: executing diffoscope
+[2023-05-05 16:36:03] INFO root fetch - processPackages [prodia-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodia-python-2.1.tar.gz tmp/prodia-python-2.2.tar.gz --markdown 20230505/p/prodia-python/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-05 16:36:03] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/a0/38/bd5b00fb4d2b229871b96132b7b80c682101200f6a15e940978d11863d47/lusid-scheduler-sdk-preview-0.0.789.tar.gz
+[2023-05-05 16:36:03] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: executing diffoscope
+[2023-05-05 16:36:03] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-scheduler-sdk-preview-0.0.788.tar.gz tmp/lusid-scheduler-sdk-preview-0.0.789.tar.gz --markdown 20230505/l/lusid-scheduler-sdk-preview/0.0.788-0.0.789/diff.md --exclude *.pyd
+[2023-05-05 16:36:03] INFO root fetch - processPackages [cmem-cmemc]: executing diffoscope
+[2023-05-05 16:36:03] INFO root fetch - processPackages [cmem-cmemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_cmemc-23.1.1rc1.tar.gz tmp/cmem_cmemc-23.1.2rc1.tar.gz --markdown 20230505/c/cmem-cmemc/23.1.1rc1-23.1.2rc1/diff.md --exclude *.pyd
+[2023-05-05 16:36:03] INFO root fetch - processPackages [zospy]: Downloading https://files.pythonhosted.org/packages/bb/d6/4df4ef98c2fa6b6156a806b1ec121600ee740fe6bec92c41e425083adc3c/zospy-1.0.0.tar.gz
+[2023-05-05 16:36:03] INFO root fetch - processPackages [zospy]: executing diffoscope
+[2023-05-05 16:36:03] INFO root fetch - processPackages [zospy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zospy-0.6.2.tar.gz tmp/zospy-1.0.0.tar.gz --markdown 20230505/z/zospy/0.6.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-05 16:36:03] INFO root fetch - processPackages [jmspack]: Downloading https://files.pythonhosted.org/packages/9e/d7/a5a5aa1cc558bc20a4f63dc5fba6fcd4c713cf17e4a3c3a786fd77a5fb90/jmspack-0.1.2.tar.gz
+[2023-05-05 16:36:03] INFO root fetch - processPackages [DrissionPage]: Downloading https://files.pythonhosted.org/packages/a8/41/ddc04bbf94233f4901f83336be49fb0dc5eb3317f20eef0e2ec1d3a26447/DrissionPage-3.2.9.tar.gz
+[2023-05-05 16:36:03] INFO root fetch - processPackages [DrissionPage]: executing diffoscope
+[2023-05-05 16:36:03] INFO root fetch - processPackages [DrissionPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DrissionPage-3.2.8.tar.gz tmp/DrissionPage-3.2.9.tar.gz --markdown 20230505/D/DrissionPage/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-05-05 16:36:03] INFO root fetch - processPackages [distkv]: Downloading https://files.pythonhosted.org/packages/ad/4b/4baf1cf43729ccf4254d44510a56ab6db2596df2689067b3fdeb57633e89/distkv-0.9.2.tar.gz
+[2023-05-05 16:36:03] INFO root fetch - processPackages [jmspack]: executing diffoscope
+[2023-05-05 16:36:03] INFO root fetch - processPackages [jmspack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmspack-0.1.1.tar.gz tmp/jmspack-0.1.2.tar.gz --markdown 20230505/j/jmspack/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 16:36:03] INFO root fetch - processPackages [distkv]: executing diffoscope
+[2023-05-05 16:36:03] INFO root fetch - processPackages [distkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distkv-0.8.4.tar.gz tmp/distkv-0.9.2.tar.gz --markdown 20230505/d/distkv/0.8.4-0.9.2/diff.md --exclude *.pyd
+[2023-05-05 16:36:04] INFO root fetch - processPackages [webcam]: Start processing: goxlrutilityapi
+[2023-05-05 16:36:04] INFO root fetch - main [MainThread]: End processing [webcam]: success
+[2023-05-05 16:36:04] INFO root fetch - processPackages [goxlrutilityapi]: New version: [1.1.3.dev0] Old Version: [1.1.2.dev0]
+[2023-05-05 16:36:04] INFO root fetch - processPackages [goxlrutilityapi]: Downloading https://files.pythonhosted.org/packages/53/29/a0f4b78a032adfc768817ac768f52d094202657fa710bab5723245a6e9ed/goxlrutilityapi-1.1.3.dev0.tar.gz
+[2023-05-05 16:36:05] INFO root fetch - main [MainThread]: End processing [prodia-python]: success
+[2023-05-05 16:36:05] INFO root fetch - processPackages [goxlrutilityapi]: executing diffoscope
+[2023-05-05 16:36:05] INFO root fetch - processPackages [goxlrutilityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlrutilityapi-1.1.2.dev0.tar.gz tmp/goxlrutilityapi-1.1.3.dev0.tar.gz --markdown 20230505/g/goxlrutilityapi/1.1.2.dev0-1.1.3.dev0/diff.md --exclude *.pyd
+[2023-05-05 16:36:05] INFO root fetch - main [MainThread]: End processing [cmem-cmemc]: success
+[2023-05-05 16:36:05] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-05-05 16:36:05] INFO root fetch - main [MainThread]: End processing [zospy]: success
+[2023-05-05 16:36:05] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-05 16:36:05] INFO root fetch - main [MainThread]: End processing [jmspack]: success
+[2023-05-05 16:36:05] INFO root fetch - main [MainThread]: End processing [DrissionPage]: success
+[2023-05-05 16:36:05] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk-preview]: success
+[2023-05-05 16:36:06] INFO root fetch - main [MainThread]: End processing [goxlrutilityapi]: success
+[2023-05-05 16:36:08] INFO root fetch - main [MainThread]: End processing [distkv]: success
+[2023-05-05 16:36:08] INFO root fetch - main [MainThread]: Store serial: [17988406]
