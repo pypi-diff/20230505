@@ -5454,3 +5454,52 @@
 [2023-05-05 05:35:26] INFO root fetch - main [MainThread]: End processing [bdfrx]: success
 [2023-05-05 05:35:27] INFO root fetch - main [MainThread]: End processing [tikit]: success
 [2023-05-05 05:35:27] INFO root fetch - main [MainThread]: Store serial: [17981702]
+[2023-05-05 05:40:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981702]
+[2023-05-05 05:40:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-05 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cosmic-variance
+[2023-05-05 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alirpa-pack
+[2023-05-05 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-05 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-05 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xt-st-common
+[2023-05-05 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poequora
+[2023-05-05 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simauth
+[2023-05-05 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: transcribe-anything
+[2023-05-05 05:40:36] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1683257879] Old Version: [0.1.1683257870]
+[2023-05-05 05:40:36] INFO root fetch - processPackages [cosmic-variance]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 05:40:36] INFO root fetch - processPackages [xt-st-common]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-05 05:40:36] INFO root fetch - processPackages [poequora]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 05:40:36] WARNING root fetch - processPackages [alirpa-pack]: Skipping, unable to determine old version
+[2023-05-05 05:40:36] INFO root fetch - main [MainThread]: End processing [alirpa-pack] error
+[2023-05-05 05:40:36] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1683257879] Old Version: [0.1.1683257870]
+[2023-05-05 05:40:36] INFO root fetch - processPackages [simauth]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 05:40:36] INFO root fetch - processPackages [transcribe-anything]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-05-05 05:40:36] ERROR root fetch - processPackages [poequora]: Unable to fetch info: No such project/version 'poequora' 1.0.0
+[2023-05-05 05:40:36] INFO root fetch - main [MainThread]: End processing [poequora] error
+[2023-05-05 05:40:36] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/b0/b1/beab99a9c844ea3d0815aac3e15a584701458ccae4e2844cf05e197ed87e/eia-odin-pkg-rioatmadja2018-0.1.1683257870.tar.gz
+[2023-05-05 05:40:36] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/b0/b1/beab99a9c844ea3d0815aac3e15a584701458ccae4e2844cf05e197ed87e/eia-odin-pkg-rioatmadja2018-0.1.1683257870.tar.gz
+[2023-05-05 05:40:36] INFO root fetch - processPackages [cosmic-variance]: executing diffoscope
+[2023-05-05 05:40:36] INFO root fetch - processPackages [cosmic-variance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmic_variance-0.1.3.tar.gz tmp/cosmic_variance-0.1.4.tar.gz --markdown 20230505/c/cosmic-variance/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 05:40:36] INFO root fetch - processPackages [simauth]: Downloading https://files.pythonhosted.org/packages/4f/48/7657d9ab1cdca6cb93c122732c3c086590b3fbfc2ffbdda94300dac421c8/simauth-0.0.8.tar.gz
+[2023-05-05 05:40:36] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/36/8c/c430bbe254533346819d7ed5cfbdd7f43e749c364a94c95b3fc47e9acdd9/xt_st_common-0.4.0.tar.gz
+[2023-05-05 05:40:36] INFO root fetch - processPackages [transcribe-anything]: Downloading https://files.pythonhosted.org/packages/bc/8e/cb573aba840b47344901d498fef8f2764cbfa6a83e27ff9b747d884613b5/transcribe-anything-2.1.2.tar.gz
+[2023-05-05 05:40:36] INFO root fetch - processPackages [xt-st-common]: executing diffoscope
+[2023-05-05 05:40:36] INFO root fetch - processPackages [xt-st-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xt_st_common-0.3.0.tar.gz tmp/xt_st_common-0.4.0.tar.gz --markdown 20230505/x/xt-st-common/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-05 05:40:37] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/17/db/7b894b4dd55215de19b1f9ccaf2491851b7fdce3d04e581187719da56b6d/eia_odin_pkg_rioatmadja2018-0.1.1683257879-py3-none-any.whl
+[2023-05-05 05:40:37] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/17/db/7b894b4dd55215de19b1f9ccaf2491851b7fdce3d04e581187719da56b6d/eia_odin_pkg_rioatmadja2018-0.1.1683257879-py3-none-any.whl
+[2023-05-05 05:40:37] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-05 05:40:37] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1683257870.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1683257879-py3-none-any.whl.zip --markdown 20230505/e/eia-odin-pkg-rioatmadja2018/0.1.1683257870-0.1.1683257879/diff.md --exclude *.pyd
+[2023-05-05 05:40:37] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-05 05:40:37] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1683257870.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1683257879-py3-none-any.whl.zip --markdown 20230505/e/eia-odin-pkg-rioatmadja2018/0.1.1683257870-0.1.1683257879/diff.md --exclude *.pyd
+[2023-05-05 05:40:37] INFO root fetch - processPackages [simauth]: Downloading https://files.pythonhosted.org/packages/fd/18/18ee01ad7bfd4aab48af9c7e8f6870b99ae9a526f6f05480fea72a401c7e/simauth-0.0.9.tar.gz
+[2023-05-05 05:40:37] INFO root fetch - processPackages [transcribe-anything]: Downloading https://files.pythonhosted.org/packages/36/fd/6909cfb73324f86722da0fc8a2b4e41f15ee299c332ce91e76f51c4402c3/transcribe_anything-2.2.0-py2.py3-none-any.whl
+[2023-05-05 05:40:37] INFO root fetch - processPackages [simauth]: executing diffoscope
+[2023-05-05 05:40:37] INFO root fetch - processPackages [simauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simauth-0.0.8.tar.gz tmp/simauth-0.0.9.tar.gz --markdown 20230505/s/simauth/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 05:40:37] INFO root fetch - processPackages [transcribe-anything]: executing diffoscope
+[2023-05-05 05:40:37] INFO root fetch - processPackages [transcribe-anything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcribe-anything-2.1.2.tar.gz tmp/transcribe_anything-2.2.0-py2.py3-none-any.whl.zip --markdown 20230505/t/transcribe-anything/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-05-05 05:40:38] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
+[2023-05-05 05:40:38] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-05 05:40:38] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-05 05:40:38] INFO root fetch - main [MainThread]: End processing [cosmic-variance]: success
+[2023-05-05 05:40:38] INFO root fetch - main [MainThread]: End processing [simauth]: success
+[2023-05-05 05:40:38] INFO root fetch - main [MainThread]: End processing [transcribe-anything]: success
+[2023-05-05 05:40:38] INFO root fetch - main [MainThread]: Store serial: [17981725]
