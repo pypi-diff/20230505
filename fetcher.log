@@ -21189,3 +21189,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-05 20:47:46] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2023-05-05 20:47:58] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-05-05 20:47:58] INFO root fetch - main [MainThread]: Store serial: [17991520]
+[2023-05-05 20:53:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17991520]
+[2023-05-05 20:53:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-05 20:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: findmyorder
+[2023-05-05 20:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-website-sale-payment-term-acquirer
+[2023-05-05 20:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-website-sale-stock-list-preview
+[2023-05-05 20:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sym-recognizer
+[2023-05-05 20:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gbd-tools
+[2023-05-05 20:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: noteable-origami
+[2023-05-05 20:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pilot-platform-common
+[2023-05-05 20:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dxsp
+[2023-05-05 20:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Digikam-DB
+[2023-05-05 20:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: superpowered-sdk
+[2023-05-05 20:53:08] INFO root fetch - processPackages [dxsp]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-05 20:53:08] INFO root fetch - processPackages [findmyorder]: New version: [1.3.0] Old Version: [1.2.4]
+[2023-05-05 20:53:08] WARNING root fetch - processPackages [odoo14-addon-website-sale-stock-list-preview]: Skipping, unable to determine old version
+[2023-05-05 20:53:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-sale-stock-list-preview] error
+[2023-05-05 20:53:08] WARNING root fetch - processPackages [sym-recognizer]: Skipping, unable to determine old version
+[2023-05-05 20:53:08] INFO root fetch - main [MainThread]: End processing [sym-recognizer] error
+[2023-05-05 20:53:08] INFO root fetch - processPackages [pilot-platform-common]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-05 20:53:08] INFO root fetch - processPackages [Digikam-DB]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-05 20:53:08] INFO root fetch - processPackages [odoo14-addon-website-sale-payment-term-acquirer]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-05-05 20:53:08] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-05 20:53:08] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-1.8.0.tar.gz tmp/dxsp-1.9.0.tar.gz --markdown 20230505/d/dxsp/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-05 20:53:08] INFO root fetch - processPackages [gbd-tools]: New version: [4.5.3] Old Version: [4.5.2]
+[2023-05-05 20:53:08] INFO root fetch - processPackages [superpowered-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 20:53:08] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/c2/62/083652023d4ea5d3e19daa2ad8bffe54ea41c814f95fb09ca98d785df739/gbd_tools-4.5.2.tar.gz
+[2023-05-05 20:53:08] INFO root fetch - processPackages [noteable-origami]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 20:53:08] INFO root fetch - processPackages [Digikam-DB]: Downloading https://files.pythonhosted.org/packages/12/53/73dccb8e159821d9fb5449774c35ef02d301735aaf2eeb0921cefd1077f3/Digikam-DB-0.2.1.tar.gz
+[2023-05-05 20:53:08] INFO root fetch - processPackages [pilot-platform-common]: Downloading https://files.pythonhosted.org/packages/ef/6c/99dfcac45e1f0d851b453355d79506451668000f20a05cfa5c008f0e0e4e/pilot-platform-common-0.3.1.tar.gz
+[2023-05-05 20:53:08] INFO root fetch - processPackages [odoo14-addon-website-sale-payment-term-acquirer]: Downloading https://files.pythonhosted.org/packages/00/21/92528a68a8e8e61c34a689bcf175aa4f6ab4fca5d39903dc3e3a1addfaeb/odoo14_addon_website_sale_payment_term_acquirer-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-05 20:53:09] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/c6/e1/73f4b87d38f2fc74cd7b174dc87b5963ebb7c7592fb4885eabb5198cded1/findmyorder-1.3.0.tar.gz
+[2023-05-05 20:53:09] INFO root fetch - processPackages [noteable-origami]: Downloading https://files.pythonhosted.org/packages/0c/92/f5b5a17bb583fdce32e401cc77337788271177c1388d60111670ac4b92fc/noteable_origami-0.0.8.tar.gz
+[2023-05-05 20:53:09] INFO root fetch - processPackages [superpowered-sdk]: executing diffoscope
+[2023-05-05 20:53:09] INFO root fetch - processPackages [superpowered-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpowered-sdk-0.0.8.tar.gz tmp/superpowered-sdk-0.0.9.tar.gz --markdown 20230505/s/superpowered-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 20:53:09] INFO root fetch - processPackages [pilot-platform-common]: Downloading https://files.pythonhosted.org/packages/ec/95/95a804aaff45942b9ebae0d459be2d358050b7f03eca4f5988153c249107/pilot-platform-common-0.3.2.tar.gz
+[2023-05-05 20:53:09] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-05-05 20:53:09] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.2.4.tar.gz tmp/findmyorder-1.3.0.tar.gz --markdown 20230505/f/findmyorder/1.2.4-1.3.0/diff.md --exclude *.pyd
+[2023-05-05 20:53:09] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/32/03/0bd4b6cee1db66b9002c989b362544bc1297333f863e3a923e5173d85c1f/gbd_tools-4.5.3.tar.gz
+[2023-05-05 20:53:09] INFO root fetch - processPackages [Digikam-DB]: Downloading https://files.pythonhosted.org/packages/bf/8a/29cbc4de1afb98e86dd6f6ffec2452400f11dff1982f46627eb5094ceffd/Digikam-DB-0.2.2.tar.gz
+[2023-05-05 20:53:09] INFO root fetch - processPackages [pilot-platform-common]: executing diffoscope
+[2023-05-05 20:53:09] INFO root fetch - processPackages [pilot-platform-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pilot-platform-common-0.3.1.tar.gz tmp/pilot-platform-common-0.3.2.tar.gz --markdown 20230505/p/pilot-platform-common/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-05 20:53:09] INFO root fetch - processPackages [odoo14-addon-website-sale-payment-term-acquirer]: Downloading https://files.pythonhosted.org/packages/51/b3/3e859bf5347933e46019aacaeb272df926496334316206d306253911eaac/odoo14_addon_website_sale_payment_term_acquirer-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-05-05 20:53:09] INFO root fetch - processPackages [Digikam-DB]: executing diffoscope
+[2023-05-05 20:53:09] INFO root fetch - processPackages [Digikam-DB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Digikam-DB-0.2.1.tar.gz tmp/Digikam-DB-0.2.2.tar.gz --markdown 20230505/D/Digikam-DB/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-05 20:53:09] INFO root fetch - processPackages [gbd-tools]: executing diffoscope
+[2023-05-05 20:53:09] INFO root fetch - processPackages [gbd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbd_tools-4.5.2.tar.gz tmp/gbd_tools-4.5.3.tar.gz --markdown 20230505/g/gbd-tools/4.5.2-4.5.3/diff.md --exclude *.pyd
+[2023-05-05 20:53:09] INFO root fetch - processPackages [odoo14-addon-website-sale-payment-term-acquirer]: executing diffoscope
+[2023-05-05 20:53:09] INFO root fetch - processPackages [odoo14-addon-website-sale-payment-term-acquirer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_website_sale_payment_term_acquirer-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_website_sale_payment_term_acquirer-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230505/o/odoo14-addon-website-sale-payment-term-acquirer/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-05-05 20:53:09] INFO root fetch - processPackages [noteable-origami]: Downloading https://files.pythonhosted.org/packages/bc/8a/148c28e6da363c15abeb9e8e2b1c939b91abbcfa800f6a680eedc8237896/noteable_origami-0.0.9.tar.gz
+[2023-05-05 20:53:09] INFO root fetch - processPackages [noteable-origami]: executing diffoscope
+[2023-05-05 20:53:09] INFO root fetch - processPackages [noteable-origami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noteable_origami-0.0.8.tar.gz tmp/noteable_origami-0.0.9.tar.gz --markdown 20230505/n/noteable-origami/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 20:53:10] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-05 20:53:10] INFO root fetch - main [MainThread]: End processing [superpowered-sdk]: success
+[2023-05-05 20:53:10] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-05-05 20:53:10] INFO root fetch - main [MainThread]: End processing [pilot-platform-common]: success
+[2023-05-05 20:53:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-sale-payment-term-acquirer]: success
+[2023-05-05 20:53:10] INFO root fetch - main [MainThread]: End processing [gbd-tools]: success
+[2023-05-05 20:53:11] INFO root fetch - main [MainThread]: End processing [noteable-origami]: success
+[2023-05-05 20:53:12] INFO root fetch - main [MainThread]: End processing [Digikam-DB]: success
+[2023-05-05 20:53:12] INFO root fetch - main [MainThread]: Store serial: [17991565]
