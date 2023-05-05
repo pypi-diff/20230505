@@ -4612,3 +4612,49 @@
 [2023-05-05 03:52:13] INFO root fetch - main [MainThread]: End processing [hmmcnv]: success
 [2023-05-05 03:52:13] INFO root fetch - main [MainThread]: End processing [realnet]: success
 [2023-05-05 03:52:13] INFO root fetch - main [MainThread]: Store serial: [17981210]
+[2023-05-05 03:57:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981210]
+[2023-05-05 03:57:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-05 03:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valaw
+[2023-05-05 03:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: valaw
+[2023-05-05 03:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybuildtools
+[2023-05-05 03:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oregpt
+[2023-05-05 03:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zen-dash
+[2023-05-05 03:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AIPrompts
+[2023-05-05 03:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-adata
+[2023-05-05 03:57:22] INFO root fetch - processPackages [valaw]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 03:57:22] INFO root fetch - processPackages [valaw]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 03:57:22] WARNING root fetch - processPackages [oregpt]: Skipping, unable to determine old version
+[2023-05-05 03:57:22] INFO root fetch - main [MainThread]: End processing [oregpt] error
+[2023-05-05 03:57:22] INFO root fetch - processPackages [zen-dash]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-05-05 03:57:22] INFO root fetch - processPackages [pybuildtools]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-05 03:57:22] INFO root fetch - processPackages [AIPrompts]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-05 03:57:22] INFO root fetch - processPackages [torch-adata]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-05-05 03:57:22] INFO root fetch - processPackages [pybuildtools]: executing diffoscope
+[2023-05-05 03:57:22] INFO root fetch - processPackages [pybuildtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuildtools-0.5.8.tar.gz tmp/pybuildtools-0.5.9.tar.gz --markdown 20230505/p/pybuildtools/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-05 03:57:22] INFO root fetch - processPackages [valaw]: Downloading https://files.pythonhosted.org/packages/a9/64/8eafccdf4c1e6617475af6a82677bd844c42af4893bfc18f5265617a7005/valaw-0.0.5.tar.gz
+[2023-05-05 03:57:22] INFO root fetch - processPackages [valaw]: Downloading https://files.pythonhosted.org/packages/a9/64/8eafccdf4c1e6617475af6a82677bd844c42af4893bfc18f5265617a7005/valaw-0.0.5.tar.gz
+[2023-05-05 03:57:22] INFO root fetch - processPackages [zen-dash]: Downloading https://files.pythonhosted.org/packages/d4/3d/3c0491ac38556702fe044e7847c9191f63605884e30d53621307c6f53f88/zen_dash-0.5.4.tar.gz
+[2023-05-05 03:57:22] INFO root fetch - processPackages [AIPrompts]: Downloading https://files.pythonhosted.org/packages/b0/83/ae102a3c5b921d8728ed2a5c9bb83b3d394ed3b59ba8fa3ca6bdf53d6e70/AIPrompts-0.3.0.tar.gz
+[2023-05-05 03:57:22] INFO root fetch - processPackages [torch-adata]: Downloading https://files.pythonhosted.org/packages/8f/e9/ec440a4e39d787779fe5a1fad50778c94bee1c2ed0d745ebcbe44be8de44/torch-adata-0.0.20.tar.gz
+[2023-05-05 03:57:23] INFO root fetch - processPackages [AIPrompts]: Downloading https://files.pythonhosted.org/packages/ee/7f/11eca331f44de6a41d55052149a60d423026e27dee953ce569cf93884a81/AIPrompts-0.4.0.tar.gz
+[2023-05-05 03:57:23] INFO root fetch - processPackages [valaw]: Downloading https://files.pythonhosted.org/packages/c6/28/2ada76bf17063c8de85c1f33d938187d61df1c0901dc04a6b0aa591c17f6/valaw-0.0.6.tar.gz
+[2023-05-05 03:57:23] INFO root fetch - processPackages [valaw]: Downloading https://files.pythonhosted.org/packages/c6/28/2ada76bf17063c8de85c1f33d938187d61df1c0901dc04a6b0aa591c17f6/valaw-0.0.6.tar.gz
+[2023-05-05 03:57:23] INFO root fetch - processPackages [AIPrompts]: executing diffoscope
+[2023-05-05 03:57:23] INFO root fetch - processPackages [AIPrompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIPrompts-0.3.0.tar.gz tmp/AIPrompts-0.4.0.tar.gz --markdown 20230505/A/AIPrompts/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-05 03:57:23] INFO root fetch - processPackages [torch-adata]: Downloading https://files.pythonhosted.org/packages/1c/53/128cb9600425a21355702bfd44d3ee0eec05f3337d6f1bdf99e8c635042f/torch_adata-0.0.21-py3-none-any.whl
+[2023-05-05 03:57:23] INFO root fetch - processPackages [valaw]: executing diffoscope
+[2023-05-05 03:57:23] INFO root fetch - processPackages [valaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valaw-0.0.5.tar.gz tmp/valaw-0.0.6.tar.gz --markdown 20230505/v/valaw/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 03:57:23] INFO root fetch - processPackages [zen-dash]: Downloading https://files.pythonhosted.org/packages/e9/35/3b6a2272de029dbe42b42d3b0dc737d369da3ab1bfebbd8df8df4f442b23/zen_dash-0.5.5.tar.gz
+[2023-05-05 03:57:23] INFO root fetch - processPackages [valaw]: executing diffoscope
+[2023-05-05 03:57:23] INFO root fetch - processPackages [valaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valaw-0.0.5.tar.gz tmp/valaw-0.0.6.tar.gz --markdown 20230505/v/valaw/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 03:57:23] INFO root fetch - processPackages [zen-dash]: executing diffoscope
+[2023-05-05 03:57:23] INFO root fetch - processPackages [zen-dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zen_dash-0.5.4.tar.gz tmp/zen_dash-0.5.5.tar.gz --markdown 20230505/z/zen-dash/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-05-05 03:57:23] INFO root fetch - processPackages [torch-adata]: executing diffoscope
+[2023-05-05 03:57:23] INFO root fetch - processPackages [torch-adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-adata-0.0.20.tar.gz tmp/torch_adata-0.0.21-py3-none-any.whl.zip --markdown 20230505/t/torch-adata/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-05-05 03:57:24] INFO root fetch - main [MainThread]: End processing [AIPrompts]: success
+[2023-05-05 03:57:24] INFO root fetch - main [MainThread]: End processing [valaw]: success
+[2023-05-05 03:57:24] INFO root fetch - main [MainThread]: End processing [valaw]: success
+[2023-05-05 03:57:24] INFO root fetch - main [MainThread]: End processing [torch-adata]: success
+[2023-05-05 03:57:26] INFO root fetch - main [MainThread]: End processing [pybuildtools]: success
+[2023-05-05 03:57:27] INFO root fetch - main [MainThread]: End processing [zen-dash]: success
+[2023-05-05 03:57:27] INFO root fetch - main [MainThread]: Store serial: [17981233]
