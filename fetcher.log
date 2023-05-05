@@ -5982,3 +5982,34 @@
 [2023-05-05 06:38:24] INFO root fetch - main [MainThread]: End processing [notion-api]: success
 [2023-05-05 06:38:24] INFO root fetch - main [MainThread]: End processing [petrolib]: success
 [2023-05-05 06:38:24] INFO root fetch - main [MainThread]: Store serial: [17981983]
+[2023-05-05 06:43:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981983]
+[2023-05-05 06:43:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-05 06:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nyckel
+[2023-05-05 06:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyfi
+[2023-05-05 06:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: insta-captions
+[2023-05-05 06:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: authanor
+[2023-05-05 06:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-chat-cli
+[2023-05-05 06:43:37] INFO root fetch - processPackages [authanor]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-05 06:43:37] INFO root fetch - processPackages [nyckel]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-05 06:43:37] INFO root fetch - processPackages [insta-captions]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-05 06:43:37] WARNING root fetch - processPackages [gpt-chat-cli]: Skipping, unable to determine old version
+[2023-05-05 06:43:37] INFO root fetch - main [MainThread]: End processing [gpt-chat-cli] error
+[2023-05-05 06:43:37] INFO root fetch - processPackages [hyfi]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-05 06:43:37] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/b4/4f/1e8ec27c79006ec6721a6090898f89d86a2c54ec8889e2541d9d4b62d18d/nyckel-0.0.4.tar.gz
+[2023-05-05 06:43:37] INFO root fetch - processPackages [authanor]: Downloading https://files.pythonhosted.org/packages/84/d1/2fcb484116dc0fbf267888c04f31b66a6ac83e701e14f25c28dbf59557d8/authanor-0.2.2.tar.gz
+[2023-05-05 06:43:37] INFO root fetch - processPackages [insta-captions]: Downloading https://files.pythonhosted.org/packages/e3/57/d28c543c605b03b50e1ee257243bdc5e3d037581bddd15da7839fe9a734d/insta-captions-0.1.1.tar.gz
+[2023-05-05 06:43:37] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/5f/dc/ea1c09625fa190b8b34266f050d3fb3dd25045de8823480d95337a4041ef/hyfi-0.3.1.tar.gz
+[2023-05-05 06:43:37] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-05-05 06:43:37] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.3.tar.gz tmp/nyckel-0.0.4.tar.gz --markdown 20230505/n/nyckel/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-05 06:43:37] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-05-05 06:43:37] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.3.0.tar.gz tmp/hyfi-0.3.1.tar.gz --markdown 20230505/h/hyfi/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-05 06:43:37] INFO root fetch - processPackages [authanor]: executing diffoscope
+[2023-05-05 06:43:37] INFO root fetch - processPackages [authanor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authanor-0.2.1.tar.gz tmp/authanor-0.2.2.tar.gz --markdown 20230505/a/authanor/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-05 06:43:37] INFO root fetch - processPackages [insta-captions]: Downloading https://files.pythonhosted.org/packages/d7/ad/19fcefbadf9be18d3d88a866535017a70db405a05c13ba5b9f8a1499f3b2/insta-captions-0.2.0.tar.gz
+[2023-05-05 06:43:37] INFO root fetch - processPackages [insta-captions]: executing diffoscope
+[2023-05-05 06:43:37] INFO root fetch - processPackages [insta-captions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insta-captions-0.1.1.tar.gz tmp/insta-captions-0.2.0.tar.gz --markdown 20230505/i/insta-captions/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 06:43:38] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-05-05 06:43:38] INFO root fetch - main [MainThread]: End processing [authanor]: success
+[2023-05-05 06:43:38] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-05-05 06:43:38] INFO root fetch - main [MainThread]: End processing [insta-captions]: success
+[2023-05-05 06:43:38] INFO root fetch - main [MainThread]: Store serial: [17982003]
