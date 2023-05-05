@@ -5607,3 +5607,15 @@
 [2023-05-05 05:56:11] INFO root fetch - main [MainThread]: End processing [kmlb]: success
 [2023-05-05 05:56:11] INFO root fetch - main [MainThread]: End processing [asc2mb]: success
 [2023-05-05 05:56:11] INFO root fetch - main [MainThread]: Store serial: [17981776]
+[2023-05-05 06:01:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981776]
+[2023-05-05 06:01:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-05 06:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custodes
+[2023-05-05 06:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Spire.XLS-for-Python
+[2023-05-05 06:01:19] INFO root fetch - processPackages [custodes]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-05 06:01:19] WARNING root fetch - processPackages [Spire.XLS-for-Python]: Skipping, unable to determine old version
+[2023-05-05 06:01:19] INFO root fetch - main [MainThread]: End processing [Spire.XLS-for-Python] error
+[2023-05-05 06:01:20] INFO root fetch - processPackages [custodes]: Downloading https://files.pythonhosted.org/packages/0b/20/6a39cd39e194c391de639c210d3d254e9c3164bef11451a2d36606466912/custodes-0.0.4.tar.gz
+[2023-05-05 06:01:20] INFO root fetch - processPackages [custodes]: executing diffoscope
+[2023-05-05 06:01:20] INFO root fetch - processPackages [custodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custodes-0.0.3.tar.gz tmp/custodes-0.0.4.tar.gz --markdown 20230505/c/custodes/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-05 06:01:21] INFO root fetch - main [MainThread]: End processing [custodes]: success
+[2023-05-05 06:01:21] INFO root fetch - main [MainThread]: Store serial: [17981783]
