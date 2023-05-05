@@ -4658,3 +4658,43 @@
 [2023-05-05 03:57:26] INFO root fetch - main [MainThread]: End processing [pybuildtools]: success
 [2023-05-05 03:57:27] INFO root fetch - main [MainThread]: End processing [zen-dash]: success
 [2023-05-05 03:57:27] INFO root fetch - main [MainThread]: Store serial: [17981233]
+[2023-05-05 04:02:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981233]
+[2023-05-05 04:02:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-05 04:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpg-workflows
+[2023-05-05 04:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unstructured-inference
+[2023-05-05 04:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mystring
+[2023-05-05 04:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ndpoint
+[2023-05-05 04:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorflowjs
+[2023-05-05 04:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyFCST
+[2023-05-05 04:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llama-cpp-python
+[2023-05-05 04:02:37] INFO root fetch - processPackages [unstructured-inference]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-05 04:02:37] INFO root fetch - processPackages [pyFCST]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-05 04:02:37] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-05 04:02:37] WARNING root fetch - processPackages [ndpoint]: Skipping, unable to determine old version
+[2023-05-05 04:02:37] INFO root fetch - main [MainThread]: End processing [ndpoint] error
+[2023-05-05 04:02:37] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 04:02:37] INFO root fetch - processPackages [tensorflowjs]: New version: [4.5.0] Old Version: [4.4.0]
+[2023-05-05 04:02:37] INFO root fetch - processPackages [mystring]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 04:02:37] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-05-05 04:02:37] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230505/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 04:02:37] ERROR root fetch - processPackages [pyFCST]: Unable to fetch info: No such project/version 'pyFCST' 0.0.6
+[2023-05-05 04:02:37] INFO root fetch - main [MainThread]: End processing [pyFCST] error
+[2023-05-05 04:02:37] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/be/60/1ec6ac3b5457741ff78750d46ecc64e012c9d7fd89865d2f263825ddd7c2/unstructured_inference-0.4.4.tar.gz
+[2023-05-05 04:02:37] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2023-05-05 04:02:37] INFO root fetch - processPackages [tensorflowjs]: Downloading https://files.pythonhosted.org/packages/ae/2a/122b2f8fa504c1f0692f5568fb2326fb2e65a8b96c28a0dde72441673a98/tensorflowjs-4.4.0-py3-none-any.whl
+[2023-05-05 04:02:37] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-05-05 04:02:37] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.8.tar.gz tmp/mystring-0.0.9.tar.gz --markdown 20230505/m/mystring/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 04:02:37] INFO root fetch - processPackages [unstructured-inference]: executing diffoscope
+[2023-05-05 04:02:37] INFO root fetch - processPackages [unstructured-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured_inference-0.4.3.tar.gz tmp/unstructured_inference-0.4.4.tar.gz --markdown 20230505/u/unstructured-inference/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-05 04:02:37] INFO root fetch - processPackages [tensorflowjs]: Downloading https://files.pythonhosted.org/packages/99/83/683dfa7d5ecdbda5c35655e9df31ee16b5b655d040b6934228f09d35ae47/tensorflowjs-4.5.0-py3-none-any.whl
+[2023-05-05 04:02:37] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2023-05-05 04:02:37] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2023-05-05 04:02:37] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20230505/c/cpg-workflows/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-05 04:02:37] INFO root fetch - processPackages [tensorflowjs]: executing diffoscope
+[2023-05-05 04:02:37] INFO root fetch - processPackages [tensorflowjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflowjs-4.4.0-py3-none-any.whl.zip tmp/tensorflowjs-4.5.0-py3-none-any.whl.zip --markdown 20230505/t/tensorflowjs/4.4.0-4.5.0/diff.md --exclude *.pyd
+[2023-05-05 04:02:38] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-05-05 04:02:38] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-05-05 04:02:38] INFO root fetch - main [MainThread]: End processing [unstructured-inference]: success
+[2023-05-05 04:02:39] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2023-05-05 04:02:39] INFO root fetch - main [MainThread]: End processing [tensorflowjs]: success
+[2023-05-05 04:02:39] INFO root fetch - main [MainThread]: Store serial: [17981255]
