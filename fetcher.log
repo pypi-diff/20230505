@@ -4431,3 +4431,43 @@
 [2023-05-05 03:30:39] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
 [2023-05-05 03:30:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
 [2023-05-05 03:30:39] INFO root fetch - main [MainThread]: Store serial: [17981087]
+[2023-05-05 03:35:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981087]
+[2023-05-05 03:35:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-05 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-stdlib
+[2023-05-05 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Palos
+[2023-05-05 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jstopen-document
+[2023-05-05 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-numpy
+[2023-05-05 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycompliance
+[2023-05-05 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyutplugins
+[2023-05-05 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pandas
+[2023-05-05 03:35:48] INFO root fetch - processPackages [Palos]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 03:35:48] INFO root fetch - processPackages [pyutplugins]: New version: [0.8.60] Old Version: [0.8.55]
+[2023-05-05 03:35:48] INFO root fetch - processPackages [jstopen-document]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 03:35:48] WARNING root fetch - processPackages [pycompliance]: Skipping, unable to determine old version
+[2023-05-05 03:35:48] INFO root fetch - main [MainThread]: End processing [pycompliance] error
+[2023-05-05 03:35:48] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 03:35:48] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 03:35:48] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 03:35:48] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-05 03:35:48] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230505/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 03:35:48] INFO root fetch - processPackages [Palos]: executing diffoscope
+[2023-05-05 03:35:48] INFO root fetch - processPackages [Palos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Palos-0.1.8-py3-none-any.whl.zip tmp/Palos-0.1.9-py3-none-any.whl.zip --markdown 20230505/P/Palos/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 03:35:48] INFO root fetch - processPackages [jstopen-document]: Downloading https://files.pythonhosted.org/packages/8d/2e/e4f163ad59dacf8dfb1e73c73a20b5333e534b521d444918f99010fd2545/jstopen-document-1.0.0.tar.gz
+[2023-05-05 03:35:48] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-05 03:35:48] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230505/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 03:35:48] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-05 03:35:48] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230505/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 03:35:48] INFO root fetch - processPackages [pyutplugins]: Downloading https://files.pythonhosted.org/packages/9f/66/b7fa83783f64cabd3fa263495cbd5538b0a48b5036c9e0e2c719f1e04613/pyutplugins-0.8.55.tar.gz
+[2023-05-05 03:35:48] INFO root fetch - processPackages [jstopen-document]: Downloading https://files.pythonhosted.org/packages/14/fa/f25f405dcbecf5ce556c50d7c5a010f61bd1310d41cdb5a4af2f26188d2c/jstopen-document-1.0.1.tar.gz
+[2023-05-05 03:35:48] INFO root fetch - processPackages [pyutplugins]: Downloading https://files.pythonhosted.org/packages/1e/50/cbd950f0132f3f62a2ef0d8bc6878e38292acf2a1148bc850e097f2eccbf/pyutplugins-0.8.60.tar.gz
+[2023-05-05 03:35:48] INFO root fetch - processPackages [pyutplugins]: executing diffoscope
+[2023-05-05 03:35:48] INFO root fetch - processPackages [pyutplugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutplugins-0.8.55.tar.gz tmp/pyutplugins-0.8.60.tar.gz --markdown 20230505/p/pyutplugins/0.8.55-0.8.60/diff.md --exclude *.pyd
+[2023-05-05 03:35:48] INFO root fetch - processPackages [jstopen-document]: executing diffoscope
+[2023-05-05 03:35:48] INFO root fetch - processPackages [jstopen-document]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jstopen-document-1.0.0.tar.gz tmp/jstopen-document-1.0.1.tar.gz --markdown 20230505/j/jstopen-document/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 03:35:49] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-05 03:35:49] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-05 03:35:49] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-05 03:35:49] INFO root fetch - main [MainThread]: End processing [jstopen-document]: success
+[2023-05-05 03:35:50] INFO root fetch - main [MainThread]: End processing [pyutplugins]: success
+[2023-05-05 03:35:52] INFO root fetch - main [MainThread]: End processing [Palos]: success
+[2023-05-05 03:35:52] INFO root fetch - main [MainThread]: Store serial: [17981123]
