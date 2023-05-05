@@ -11118,3 +11118,114 @@
 [2023-05-05 11:52:58] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
 [2023-05-05 11:53:04] INFO root fetch - main [MainThread]: End processing [kogito]: success
 [2023-05-05 11:53:04] INFO root fetch - main [MainThread]: Store serial: [17985038]
+[2023-05-05 11:58:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17985038]
+[2023-05-05 11:58:23] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-05 11:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sicli-cli
+[2023-05-05 11:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-eval
+[2023-05-05 11:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linkedinpdfextractor
+[2023-05-05 11:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudnetpy
+[2023-05-05 11:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Bigsansar
+[2023-05-05 11:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: constellate
+[2023-05-05 11:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yunchi
+[2023-05-05 11:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: compose-chart-export
+[2023-05-05 11:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chalkpy
+[2023-05-05 11:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chellow
+[2023-05-05 11:58:23] INFO root fetch - processPackages [auto-eval]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 11:58:23] INFO root fetch - processPackages [linkedinpdfextractor]: New version: [1.1.7] Old Version: [1.1.1]
+[2023-05-05 11:58:23] WARNING root fetch - processPackages [sicli-cli]: Skipping, unable to determine old version
+[2023-05-05 11:58:23] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-05 11:58:23] INFO root fetch - processPackages [sicli-cli]: Start processing: packagebinbin
+[2023-05-05 11:58:23] INFO root fetch - processPackages [compose-chart-export]: New version: [0.0.15rc3] Old Version: [0.0.15rc2]
+[2023-05-05 11:58:23] INFO root fetch - main [MainThread]: End processing [sicli-cli] error
+[2023-05-05 11:58:23] INFO root fetch - processPackages [yunchi]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-05 11:58:23] INFO root fetch - processPackages [constellate]: New version: [0.6.98] Old Version: [0.6.97]
+[2023-05-05 11:58:23] INFO root fetch - processPackages [Bigsansar]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-05-05 11:58:23] INFO root fetch - processPackages [chalkpy]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-05-05 11:58:23] INFO root fetch - processPackages [packagebinbin]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 11:58:23] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-05-05 11:58:23] INFO root fetch - processPackages [linkedinpdfextractor]: Downloading https://files.pythonhosted.org/packages/a2/42/ddab3a2d73846de9045326a1c0ec27c90ddea7313d8a1a9e1b92118027da/linkedinpdfextractor-1.1.1.tar.gz
+[2023-05-05 11:58:23] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2023-05-05 11:58:23] INFO root fetch - processPackages [yunchi]: Downloading https://files.pythonhosted.org/packages/be/7c/679d59c10153dfac1bcc66f07420011d6f4c43d58b8423c763d06941eea9/yunchi-1.0.5-cp38-cp38-win_amd64.whl
+[2023-05-05 11:58:23] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/c6/ce/0000e397cf8729895f6ba4c17f06490940f14223da76c4f96bf43d57a69a/Bigsansar-1.3.5.tar.gz
+[2023-05-05 11:58:23] INFO root fetch - processPackages [compose-chart-export]: Downloading https://files.pythonhosted.org/packages/0e/eb/616e65fa2180054f267ef7206c989be3faed694dba3ea86d69722cb2da65/compose_chart_export-0.0.15rc3-py3-none-any.whl
+[2023-05-05 11:58:23] INFO root fetch - processPackages [packagebinbin]: Downloading https://files.pythonhosted.org/packages/51/23/f0c003d472c704ac11761b65b6f7d7745d1c784c456233f80cdfbec0ee32/packagebinbin-1.0.1.tar.gz
+[2023-05-05 11:58:23] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/a6/7a/0f926d42ec120a23656709afe8a38d80a2dde6886c1c09a0253e9033d15b/chalkpy-2.1.7.tar.gz
+[2023-05-05 11:58:23] INFO root fetch - processPackages [constellate]: Downloading https://files.pythonhosted.org/packages/59/af/7dc1942bf018d623410034eaa485032f02a833f7efb11fc86fdda5c404e5/constellate-0.6.98-py2.py3-none-any.whl
+[2023-05-05 11:58:23] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/56/fc/bb49d6c1be042d714ef17b8ff124d363d5221a65aeb59a88a9c1ccb6dc93/auto-eval-0.1.5.tar.gz
+[2023-05-05 11:58:23] INFO root fetch - processPackages [packagebinbin]: executing diffoscope
+[2023-05-05 11:58:23] INFO root fetch - processPackages [packagebinbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packagebinbin-1.0.0.tar.gz tmp/packagebinbin-1.0.1.tar.gz --markdown 20230505/p/packagebinbin/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 11:58:23] INFO root fetch - processPackages [compose-chart-export]: executing diffoscope
+[2023-05-05 11:58:23] INFO root fetch - processPackages [compose-chart-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compose_chart_export-0.0.15rc2-py3-none-any.whl.zip tmp/compose_chart_export-0.0.15rc3-py3-none-any.whl.zip --markdown 20230505/c/compose-chart-export/0.0.15rc2-0.0.15rc3/diff.md --exclude *.pyd
+[2023-05-05 11:58:23] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/2d/a6/c26fe32490006afb578008cab36290ea1a782f2f7ebe5c6fbd6dec3d0c14/chalkpy-2.1.8.tar.gz
+[2023-05-05 11:58:23] INFO root fetch - processPackages [constellate]: executing diffoscope
+[2023-05-05 11:58:23] INFO root fetch - processPackages [constellate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constellate-0.6.97-py2.py3-none-any.whl.zip tmp/constellate-0.6.98-py2.py3-none-any.whl.zip --markdown 20230505/c/constellate/0.6.97-0.6.98/diff.md --exclude *.pyd
+[2023-05-05 11:58:23] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-05-05 11:58:23] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230505/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-05-05 11:58:23] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-05-05 11:58:23] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.3.4.tar.gz tmp/Bigsansar-1.3.5.tar.gz --markdown 20230505/B/Bigsansar/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-05-05 11:58:23] INFO root fetch - processPackages [auto-eval]: executing diffoscope
+[2023-05-05 11:58:23] INFO root fetch - processPackages [auto-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-eval-0.1.4.tar.gz tmp/auto-eval-0.1.5.tar.gz --markdown 20230505/a/auto-eval/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 11:58:23] INFO root fetch - processPackages [linkedinpdfextractor]: Downloading https://files.pythonhosted.org/packages/46/79/a93a3f45cbd53845d6d43ab6cc00e44c8c96fdc83779f4d0a2dbf43aadaa/linkedinpdfextractor-1.1.7.tar.gz
+[2023-05-05 11:58:24] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2023-05-05 11:58:24] INFO root fetch - processPackages [cloudnetpy]: Start processing: qfitswidget
+[2023-05-05 11:58:24] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2023-05-05 11:58:24] INFO root fetch - processPackages [qfitswidget]: New version: [0.9.3] Old Version: [0.9.1]
+[2023-05-05 11:58:24] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-05 11:58:24] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.1.7.tar.gz tmp/chalkpy-2.1.8.tar.gz --markdown 20230505/c/chalkpy/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-05-05 11:58:24] INFO root fetch - processPackages [yunchi]: Downloading https://files.pythonhosted.org/packages/f3/8f/676ca9dfb361433d6fe00915a684eb8022801242c6f5244703c88f45cc8c/yunchi-1.0.6-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2023-05-05 11:58:24] INFO root fetch - processPackages [qfitswidget]: Downloading https://files.pythonhosted.org/packages/02/50/2140ad8240a1bf868b6bc6f8685679c51893e66c5f21a3491c9180c3bd07/qfitswidget-0.9.1.tar.gz
+[2023-05-05 11:58:24] INFO root fetch - processPackages [linkedinpdfextractor]: executing diffoscope
+[2023-05-05 11:58:24] INFO root fetch - processPackages [linkedinpdfextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedinpdfextractor-1.1.1.tar.gz tmp/linkedinpdfextractor-1.1.7.tar.gz --markdown 20230505/l/linkedinpdfextractor/1.1.1-1.1.7/diff.md --exclude *.pyd
+[2023-05-05 11:58:24] INFO root fetch - processPackages [qfitswidget]: Downloading https://files.pythonhosted.org/packages/0b/a0/fc83c163cbe9b6d3d4f07a6ab20a2351f217f7efcc4e443ba370226c540e/qfitswidget-0.9.3.tar.gz
+[2023-05-05 11:58:24] INFO root fetch - processPackages [qfitswidget]: executing diffoscope
+[2023-05-05 11:58:24] INFO root fetch - processPackages [qfitswidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qfitswidget-0.9.1.tar.gz tmp/qfitswidget-0.9.3.tar.gz --markdown 20230505/q/qfitswidget/0.9.1-0.9.3/diff.md --exclude *.pyd
+[2023-05-05 11:58:24] INFO root fetch - processPackages [yunchi]: executing diffoscope
+[2023-05-05 11:58:24] INFO root fetch - processPackages [yunchi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunchi-1.0.5-cp38-cp38-win_amd64.whl.zip tmp/yunchi-1.0.6-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip --markdown 20230505/y/yunchi/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-05 11:58:25] INFO root fetch - processPackages [packagebinbin]: Start processing: pyroporn
+[2023-05-05 11:58:25] INFO root fetch - main [MainThread]: End processing [packagebinbin]: success
+[2023-05-05 11:58:25] INFO root fetch - processPackages [pyroporn]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-05 11:58:25] INFO root fetch - processPackages [compose-chart-export]: Start processing: twity
+[2023-05-05 11:58:25] INFO root fetch - main [MainThread]: End processing [compose-chart-export]: success
+[2023-05-05 11:58:25] WARNING root fetch - processPackages [twity]: Skipping, unable to determine old version
+[2023-05-05 11:58:25] INFO root fetch - processPackages [twity]: Start processing: python-rdma-qe
+[2023-05-05 11:58:25] INFO root fetch - main [MainThread]: End processing [twity] error
+[2023-05-05 11:58:25] INFO root fetch - processPackages [python-rdma-qe]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 11:58:25] INFO root fetch - processPackages [pyroporn]: Downloading https://files.pythonhosted.org/packages/28/d7/2d60969636dfbf6bdba63f38e44ea994f732261a1ec3c7f949621bea30f8/pyroporn-0.0.7.tar.gz
+[2023-05-05 11:58:25] INFO root fetch - processPackages [python-rdma-qe]: Downloading https://files.pythonhosted.org/packages/17/f0/097cb8c4d3278466f5d7adca53b6c22246dba9a88c6996b40d70b1594c4b/python_rdma_qe-0.0.8.tar.gz
+[2023-05-05 11:58:25] INFO root fetch - processPackages [pyroporn]: executing diffoscope
+[2023-05-05 11:58:25] INFO root fetch - processPackages [pyroporn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroporn-0.0.6.tar.gz tmp/pyroporn-0.0.7.tar.gz --markdown 20230505/p/pyroporn/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-05 11:58:25] INFO root fetch - processPackages [auto-eval]: Start processing: qrisp
+[2023-05-05 11:58:25] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
+[2023-05-05 11:58:25] INFO root fetch - processPackages [qrisp]: New version: [0.1.0] Old Version: [0.0.16]
+[2023-05-05 11:58:25] INFO root fetch - processPackages [python-rdma-qe]: executing diffoscope
+[2023-05-05 11:58:25] INFO root fetch - processPackages [python-rdma-qe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_rdma_qe-0.0.7.tar.gz tmp/python_rdma_qe-0.0.8.tar.gz --markdown 20230505/p/python-rdma-qe/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 11:58:25] INFO root fetch - processPackages [qrisp]: Downloading https://files.pythonhosted.org/packages/2d/90/fb232a9e1acf76921b8a3683e6cac26c4372e82875e2174ddd4058444b5f/qrisp-0.1.0.tar.gz
+[2023-05-05 11:58:25] INFO root fetch - processPackages [qrisp]: executing diffoscope
+[2023-05-05 11:58:25] INFO root fetch - processPackages [qrisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrisp-0.0.16.tar.gz tmp/qrisp-0.1.0.tar.gz --markdown 20230505/q/qrisp/0.0.16-0.1.0/diff.md --exclude *.pyd
+[2023-05-05 11:58:26] INFO root fetch - processPackages [qfitswidget]: Start processing: sec-web-scraper
+[2023-05-05 11:58:26] INFO root fetch - main [MainThread]: End processing [qfitswidget]: success
+[2023-05-05 11:58:26] INFO root fetch - processPackages [sec-web-scraper]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 11:58:26] INFO root fetch - processPackages [linkedinpdfextractor]: Start processing: monopay
+[2023-05-05 11:58:26] INFO root fetch - main [MainThread]: End processing [linkedinpdfextractor]: success
+[2023-05-05 11:58:26] WARNING root fetch - processPackages [monopay]: Skipping, unable to determine old version
+[2023-05-05 11:58:26] INFO root fetch - processPackages [monopay]: Start processing: schoolware-api
+[2023-05-05 11:58:26] INFO root fetch - main [MainThread]: End processing [monopay] error
+[2023-05-05 11:58:26] INFO root fetch - processPackages [sec-web-scraper]: Downloading https://files.pythonhosted.org/packages/7a/8c/49e71d0994add402718197f9a5157d8e4863c5595eaf8a491b7105ffdc9e/sec-web-scraper-0.1.0.tar.gz
+[2023-05-05 11:58:26] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-05 11:58:26] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-05-05 11:58:26] INFO root fetch - main [MainThread]: End processing [constellate]: success
+[2023-05-05 11:58:26] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/ef/1b/3abec891070c065897fc8001890accea30d776e4f83b6214b407537cebe7/schoolware_api-1.1.2.tar.gz
+[2023-05-05 11:58:26] INFO root fetch - processPackages [sec-web-scraper]: Downloading https://files.pythonhosted.org/packages/c6/7d/139c839c99f5b9c3f92632a8b0727e2b18b80a82cd7084144363eaa28f58/sec-web-scraper-0.1.1.tar.gz
+[2023-05-05 11:58:26] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 11:58:26] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.1.tar.gz tmp/schoolware_api-1.1.2.tar.gz --markdown 20230505/s/schoolware-api/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-05 11:58:26] INFO root fetch - processPackages [sec-web-scraper]: executing diffoscope
+[2023-05-05 11:58:26] INFO root fetch - processPackages [sec-web-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sec-web-scraper-0.1.0.tar.gz tmp/sec-web-scraper-0.1.1.tar.gz --markdown 20230505/s/sec-web-scraper/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 11:58:26] INFO root fetch - main [MainThread]: End processing [pyroporn]: success
+[2023-05-05 11:58:27] INFO root fetch - main [MainThread]: End processing [python-rdma-qe]: success
+[2023-05-05 11:58:27] INFO root fetch - main [MainThread]: End processing [qrisp]: success
+[2023-05-05 11:58:27] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 11:58:27] INFO root fetch - main [MainThread]: End processing [sec-web-scraper]: success
+[2023-05-05 11:58:29] INFO root fetch - main [MainThread]: End processing [yunchi]: success
+[2023-05-05 11:58:32] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-05-05 11:58:33] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-05 11:58:33] INFO root fetch - main [MainThread]: Store serial: [17985104]
