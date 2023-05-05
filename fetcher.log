@@ -13618,3 +13618,125 @@
 [2023-05-05 14:09:46] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
 [2023-05-05 14:10:55] INFO root fetch - main [MainThread]: End processing [openxes-cli-py]: success
 [2023-05-05 14:10:56] INFO root fetch - main [MainThread]: Store serial: [17986566]
+[2023-05-05 14:16:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17986566]
+[2023-05-05 14:16:05] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymedquery
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cron-descriptor
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ieeh-powerfactory-tools
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-users-resources
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moveFile
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: querynator
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiofauna
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbdemos
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fedora-messaging-the-new-hotness-schema
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ieeh-powerfactory-tools]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-05-05 14:16:05] INFO root fetch - processPackages [cron-descriptor]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-05-05 14:16:05] INFO root fetch - processPackages [invenio-users-resources]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-05-05 14:16:05] INFO root fetch - processPackages [moveFile]: New version: [0.3.0] Old Version: [0.1.5]
+[2023-05-05 14:16:05] INFO root fetch - processPackages [fedora-messaging-the-new-hotness-schema]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-05-05 14:16:05] INFO root fetch - processPackages [dbdemos]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-05 14:16:05] INFO root fetch - processPackages [pymedquery]: New version: [2.9.1b0] Old Version: [2.9.0b0]
+[2023-05-05 14:16:05] INFO root fetch - processPackages [querynator]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-05 14:16:05] INFO root fetch - processPackages [aiofauna]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-05 14:16:05] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 14:16:05] INFO root fetch - processPackages [dbdemos]: Downloading https://files.pythonhosted.org/packages/6c/c5/9454bae82e5fb5c1b0134e7c26d6cc743c4c92ae262fcd50a4f297cc5054/dbdemos-0.3.8-py3-none-any.whl
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ieeh-powerfactory-tools]: Downloading https://files.pythonhosted.org/packages/10/a5/0ba7cac45fdc4028d8c634acb686688a089cae3137812a0fdc4c853d590b/ieeh-powerfactory-tools-1.4.2.tar.gz
+[2023-05-05 14:16:05] INFO root fetch - processPackages [moveFile]: Downloading https://files.pythonhosted.org/packages/d1/7e/b27ad8824939970c48007eba4cfcc4166fde08e19fed98cb772cd83e3205/MoveFile-0.1.5.tar.gz
+[2023-05-05 14:16:05] INFO root fetch - processPackages [cron-descriptor]: Downloading https://files.pythonhosted.org/packages/ad/0a/cd6850ebda45946e1c20acdb9b1432694bef81407d0c92f7e2d16b6de355/cron_descriptor-1.2.9.tar.gz
+[2023-05-05 14:16:05] INFO root fetch - processPackages [invenio-users-resources]: Downloading https://files.pythonhosted.org/packages/58/8d/d9ba18061b11f04fabfc0148edf16d3ec70c4ffc07fea79209f7a9155760/invenio-users-resources-1.5.1.tar.gz
+[2023-05-05 14:16:05] INFO root fetch - processPackages [fedora-messaging-the-new-hotness-schema]: Downloading https://files.pythonhosted.org/packages/d6/0c/a247bcadaca7da358d4fe50b7ec0f50f3936c1b51d9c1e8b786e9e3fa4fd/fedora_messaging_the_new_hotness_schema-1.1.2.tar.gz
+[2023-05-05 14:16:05] WARNING root fetch - processPackages [dbdemos]: Skipping package: exceeds size limit 29692537>=10485760
+[2023-05-05 14:16:05] INFO root fetch - processPackages [dbdemos]: Start processing: seppmail-converter
+[2023-05-05 14:16:05] INFO root fetch - main [MainThread]: End processing [dbdemos] error
+[2023-05-05 14:16:05] INFO root fetch - processPackages [querynator]: Downloading https://files.pythonhosted.org/packages/7d/93/6b53260e09a1fa4e5ac812091caccbf373a439093207535111ec73fafd54/querynator-0.3.3.tar.gz
+[2023-05-05 14:16:05] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-05-05 14:16:05] INFO root fetch - processPackages [pymedquery]: Downloading https://files.pythonhosted.org/packages/d9/4d/4cb23e92f0c44c696fd4bb1df88f1fcc7e9b0d1b412c5c3ef92ebaefe343/pymedquery-2.9.0b0.tar.gz
+[2023-05-05 14:16:05] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/69/14/730322d8d46afd19bf0948a35ba9fb3947464ec13df9f7d0cdd5f24fcd93/aiofauna-0.0.9.tar.gz
+[2023-05-05 14:16:05] INFO root fetch - processPackages [seppmail-converter]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-05 14:16:05] INFO root fetch - processPackages [seppmail-converter]: executing diffoscope
+[2023-05-05 14:16:05] INFO root fetch - processPackages [seppmail-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seppmail_converter-0.1.7.tar.gz tmp/seppmail_converter-0.1.8.tar.gz --markdown 20230505/s/seppmail-converter/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-05 14:16:05] INFO root fetch - processPackages [moveFile]: Downloading https://files.pythonhosted.org/packages/4e/ca/5fcea65401b07b5793fe4e7aa42fc0d289b1ec4f3e3a2ff41d6468310614/moveFile-0.3.0.tar.gz
+[2023-05-05 14:16:05] INFO root fetch - processPackages [querynator]: executing diffoscope
+[2023-05-05 14:16:05] INFO root fetch - processPackages [querynator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querynator-0.3.2.tar.gz tmp/querynator-0.3.3.tar.gz --markdown 20230505/q/querynator/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-05 14:16:05] INFO root fetch - processPackages [invenio-users-resources]: Downloading https://files.pythonhosted.org/packages/2b/bc/0d377bebf0a41a3233db3bb7252ef367c8e8bfa310d115d5c29854634840/invenio-users-resources-1.6.0.tar.gz
+[2023-05-05 14:16:05] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/a9/9e/fda72dbf8d9b5d124c8217ff15ca50e63701e41be486421d1309d3e6d79b/aiofauna-0.1.0.tar.gz
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ieeh-powerfactory-tools]: Downloading https://files.pythonhosted.org/packages/30/7c/0639bf4ab13a49a387b4a04b2a4ddca23842f26506e7f2c76d732c4a7cf1/ieeh-powerfactory-tools-1.5.0.tar.gz
+[2023-05-05 14:16:05] INFO root fetch - processPackages [cron-descriptor]: Downloading https://files.pythonhosted.org/packages/c8/f3/23c073a2589701db965a6b3d83114b943f2de2420808f44e88795a086c73/cron_descriptor-1.3.0.tar.gz
+[2023-05-05 14:16:05] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-05-05 14:16:05] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.0.9.tar.gz tmp/aiofauna-0.1.0.tar.gz --markdown 20230505/a/aiofauna/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-05 14:16:05] INFO root fetch - processPackages [moveFile]: executing diffoscope
+[2023-05-05 14:16:05] INFO root fetch - processPackages [moveFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MoveFile-0.1.5.tar.gz tmp/moveFile-0.3.0.tar.gz --markdown 20230505/m/moveFile/0.1.5-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 14:16:05] INFO root fetch - processPackages [fedora-messaging-the-new-hotness-schema]: Downloading https://files.pythonhosted.org/packages/b3/be/594ef539d42fce66ae9dd3f597cfc3a315c876fbdb24d8967187e73d1fda/fedora_messaging_the_new_hotness_schema-1.2.0.tar.gz
+[2023-05-05 14:16:05] INFO root fetch - processPackages [invenio-users-resources]: executing diffoscope
+[2023-05-05 14:16:05] INFO root fetch - processPackages [invenio-users-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-users-resources-1.5.1.tar.gz tmp/invenio-users-resources-1.6.0.tar.gz --markdown 20230505/i/invenio-users-resources/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ieeh-powerfactory-tools]: executing diffoscope
+[2023-05-05 14:16:05] INFO root fetch - processPackages [ieeh-powerfactory-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ieeh-powerfactory-tools-1.4.2.tar.gz tmp/ieeh-powerfactory-tools-1.5.0.tar.gz --markdown 20230505/i/ieeh-powerfactory-tools/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-05-05 14:16:06] INFO root fetch - processPackages [cron-descriptor]: executing diffoscope
+[2023-05-05 14:16:06] INFO root fetch - processPackages [cron-descriptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cron_descriptor-1.2.9.tar.gz tmp/cron_descriptor-1.3.0.tar.gz --markdown 20230505/c/cron-descriptor/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-05-05 14:16:06] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-05-05 14:16:06] INFO root fetch - processPackages [pymedquery]: Downloading https://files.pythonhosted.org/packages/8a/48/1987fad0bf2c967034b393966e5c0cc3f94e08481597d8df58b5326757e7/pymedquery-2.9.1b0.tar.gz
+[2023-05-05 14:16:06] INFO root fetch - processPackages [fedora-messaging-the-new-hotness-schema]: executing diffoscope
+[2023-05-05 14:16:06] INFO root fetch - processPackages [fedora-messaging-the-new-hotness-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedora_messaging_the_new_hotness_schema-1.1.2.tar.gz tmp/fedora_messaging_the_new_hotness_schema-1.2.0.tar.gz --markdown 20230505/f/fedora-messaging-the-new-hotness-schema/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-05 14:16:06] INFO root fetch - processPackages [pymedquery]: executing diffoscope
+[2023-05-05 14:16:06] INFO root fetch - processPackages [pymedquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymedquery-2.9.0b0.tar.gz tmp/pymedquery-2.9.1b0.tar.gz --markdown 20230505/p/pymedquery/2.9.0b0-2.9.1b0/diff.md --exclude *.pyd
+[2023-05-05 14:16:06] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-05 14:16:06] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230505/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 14:16:07] INFO root fetch - processPackages [seppmail-converter]: Start processing: kcli
+[2023-05-05 14:16:07] INFO root fetch - main [MainThread]: End processing [seppmail-converter]: success
+[2023-05-05 14:16:07] INFO root fetch - processPackages [kcli]: New version: [99.0.202305051213] Old Version: [99.0.202305051154]
+[2023-05-05 14:16:07] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e8/64/fb951549c468c6648b487e6cd66d4376ae0d2385e9cd7d7a5751b649be44/kcli-99.0.202305051213-py3-none-any.whl
+[2023-05-05 14:16:07] INFO root fetch - processPackages [cron-descriptor]: Start processing: nautiluszim
+[2023-05-05 14:16:07] INFO root fetch - main [MainThread]: End processing [cron-descriptor]: success
+[2023-05-05 14:16:07] INFO root fetch - processPackages [nautiluszim]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-05-05 14:16:07] INFO root fetch - processPackages [ieeh-powerfactory-tools]: Start processing: ftdz-from-fyh
+[2023-05-05 14:16:07] INFO root fetch - main [MainThread]: End processing [ieeh-powerfactory-tools]: success
+[2023-05-05 14:16:07] INFO root fetch - processPackages [fedora-messaging-the-new-hotness-schema]: Start processing: ethyca-fides
+[2023-05-05 14:16:07] INFO root fetch - main [MainThread]: End processing [fedora-messaging-the-new-hotness-schema]: success
+[2023-05-05 14:16:07] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-05 14:16:07] INFO root fetch - processPackages [ftdz-from-fyh]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-05-05 14:16:07] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-05-05 14:16:07] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230505/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-05 14:16:07] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: timezone-handler
+[2023-05-05 14:16:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-05 14:16:07] INFO root fetch - processPackages [aiofauna]: Start processing: torchility
+[2023-05-05 14:16:07] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-05-05 14:16:08] INFO root fetch - processPackages [nautiluszim]: Downloading https://files.pythonhosted.org/packages/8b/30/77d1f405da4ddb4e5298f89723d437bc07d597b6f7ef67b6578628fb8dbd/nautiluszim-1.0.8.tar.gz
+[2023-05-05 14:16:08] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-05 14:16:08] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305051154-py3-none-any.whl.zip tmp/kcli-99.0.202305051213-py3-none-any.whl.zip --markdown 20230505/k/kcli/99.0.202305051154-99.0.202305051213/diff.md --exclude *.pyd
+[2023-05-05 14:16:08] INFO root fetch - processPackages [pymedquery]: Start processing: releyCrypt
+[2023-05-05 14:16:08] INFO root fetch - main [MainThread]: End processing [pymedquery]: success
+[2023-05-05 14:16:08] INFO root fetch - processPackages [querynator]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-05 14:16:08] INFO root fetch - main [MainThread]: End processing [querynator]: success
+[2023-05-05 14:16:08] WARNING root fetch - processPackages [timezone-handler]: Skipping, unable to determine old version
+[2023-05-05 14:16:08] INFO root fetch - processPackages [timezone-handler]: Start processing: cloudstorageio
+[2023-05-05 14:16:08] INFO root fetch - main [MainThread]: End processing [timezone-handler] error
+[2023-05-05 14:16:08] INFO root fetch - processPackages [torchility]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-05 14:16:08] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230505.6.35.992484] Old Version: [20230505.11.57.878314]
+[2023-05-05 14:16:08] INFO root fetch - processPackages [cloudstorageio]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-05 14:16:08] WARNING root fetch - processPackages [releyCrypt]: Skipping, unable to determine old version
+[2023-05-05 14:16:08] INFO root fetch - main [MainThread]: End processing [releyCrypt] error
+[2023-05-05 14:16:08] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/48/b1/1e104af36bcc3cd7dbf6da9553f43ae3831937d7acc000fc7b322f39b854/certora-cli-alpha-rahav-cert-1987_update_regTest-20230505.11.57.878314.tar.gz
+[2023-05-05 14:16:08] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38472959>=10485760
+[2023-05-05 14:16:08] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-05 14:16:08] INFO root fetch - processPackages [cloudstorageio]: executing diffoscope
+[2023-05-05 14:16:08] INFO root fetch - processPackages [cloudstorageio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudstorageio-1.2.7.tar.gz tmp/cloudstorageio-1.2.8.tar.gz --markdown 20230505/c/cloudstorageio/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-05 14:16:08] INFO root fetch - processPackages [ftdz-from-fyh]: Downloading https://files.pythonhosted.org/packages/78/33/c9ac475cab4f91c770a29c46e839dd790eec947338c22807202efcab941e/ftdz_from_fyh-1.0.3.tar.gz
+[2023-05-05 14:16:08] INFO root fetch - main [MainThread]: End processing [invenio-users-resources]: success
+[2023-05-05 14:16:08] INFO root fetch - processPackages [torchility]: Downloading https://files.pythonhosted.org/packages/6c/27/8fe749156dddd818497c12a824bf04a5463a8598e8d08ff5c79b26a727ed/torchility-0.6.4.tar.gz
+[2023-05-05 14:16:08] INFO root fetch - processPackages [ftdz-from-fyh]: executing diffoscope
+[2023-05-05 14:16:08] INFO root fetch - processPackages [ftdz-from-fyh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftdz_from_fyh-1.0.1.tar.gz tmp/ftdz_from_fyh-1.0.3.tar.gz --markdown 20230505/f/ftdz-from-fyh/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-05-05 14:16:08] INFO root fetch - main [MainThread]: End processing [moveFile]: success
+[2023-05-05 14:16:08] INFO root fetch - processPackages [torchility]: Downloading https://files.pythonhosted.org/packages/93/0f/09adaded6ad55677509ef051e53c90a699ea38216e27480a42258dc3e5f0/torchility-0.6.5.tar.gz
+[2023-05-05 14:16:08] INFO root fetch - processPackages [torchility]: executing diffoscope
+[2023-05-05 14:16:08] INFO root fetch - processPackages [torchility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchility-0.6.4.tar.gz tmp/torchility-0.6.5.tar.gz --markdown 20230505/t/torchility/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-05 14:16:09] INFO root fetch - processPackages [nautiluszim]: Downloading https://files.pythonhosted.org/packages/35/2e/af44fcebe127389223bca2c2040b341bfbad57549edf9cacc7965eebe529/nautiluszim-1.1.0.tar.gz
+[2023-05-05 14:16:09] INFO root fetch - processPackages [nautiluszim]: executing diffoscope
+[2023-05-05 14:16:09] INFO root fetch - processPackages [nautiluszim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautiluszim-1.0.8.tar.gz tmp/nautiluszim-1.1.0.tar.gz --markdown 20230505/n/nautiluszim/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 14:16:09] INFO root fetch - main [MainThread]: End processing [cloudstorageio]: success
+[2023-05-05 14:16:09] INFO root fetch - main [MainThread]: End processing [ftdz-from-fyh]: success
+[2023-05-05 14:16:09] INFO root fetch - main [MainThread]: End processing [torchility]: success
+[2023-05-05 14:16:15] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-05 14:16:16] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-05-05 14:16:16] INFO root fetch - main [MainThread]: End processing [nautiluszim]: success
+[2023-05-05 14:16:16] INFO root fetch - main [MainThread]: Store serial: [17986628]
