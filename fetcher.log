@@ -22843,3 +22843,91 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-05 22:18:59] INFO root fetch - main [MainThread]: End processing [jarvis-ironman]: success
 [2023-05-05 22:20:41] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-05-05 22:20:41] INFO root fetch - main [MainThread]: Store serial: [17992568]
+[2023-05-05 22:25:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17992568]
+[2023-05-05 22:25:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 22:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelbit
+[2023-05-05 22:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansible-anonymizer
+[2023-05-05 22:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FlashGBX
+[2023-05-05 22:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yolopandas
+[2023-05-05 22:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-review
+[2023-05-05 22:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-05-05 22:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phdi
+[2023-05-05 22:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-05-05 22:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sapiopylib
+[2023-05-05 22:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pip-compile-multi
+[2023-05-05 22:25:50] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-05 22:25:50] INFO root fetch - processPackages [gpt-review]: New version: [0.7.0rc477.post1] Old Version: [0.7.0rc476.post1]
+[2023-05-05 22:25:50] INFO root fetch - processPackages [FlashGBX]: New version: [3.9] Old Version: [3.8]
+[2023-05-05 22:25:50] INFO root fetch - processPackages [phdi]: New version: [0.1.0.dev5] Old Version: [0.1.0.dev4]
+[2023-05-05 22:25:50] INFO root fetch - processPackages [ansible-anonymizer]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-05 22:25:50] INFO root fetch - processPackages [yolopandas]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 22:25:50] INFO root fetch - processPackages [sapiopylib]: New version: [2023.5.5.135] Old Version: [2023.5.5.134]
+[2023-05-05 22:25:50] INFO root fetch - processPackages [pip-compile-multi]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-05-05 22:25:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-05 22:25:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-05 22:25:50] INFO root fetch - processPackages [yolopandas]: Downloading https://files.pythonhosted.org/packages/7e/05/caa8abc0677e74464d08447abf952f5596ac2239a96855e30404aa9816a5/yolopandas-0.0.5.tar.gz
+[2023-05-05 22:25:50] INFO root fetch - processPackages [pip-compile-multi]: Downloading https://files.pythonhosted.org/packages/fc/a3/4b3af1f724c8d851959520a4cda5bf4afc1710cca9238883bc8dc54a1f00/pip-compile-multi-2.6.2.tar.gz
+[2023-05-05 22:25:50] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/21/fd/a87fd2b2a81f21aa635ad41ed1796b354170d0ec981747fd0401a62cec2a/gpt-review-0.7.0rc476.post1.tar.gz
+[2023-05-05 22:25:50] INFO root fetch - processPackages [FlashGBX]: Downloading https://files.pythonhosted.org/packages/ee/5a/a2eb33ad2508c9cb01b5b61a4b0a7a9188fcf55009ccaa61a5fca3fc46e8/FlashGBX-3.8.tar.gz
+[2023-05-05 22:25:50] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/95/f6/c916641b355b3a9cfb789c0cbe463cddd9e5bf7f2fa3a0b688ea05d26c95/sapiopylib-2023.5.5.135.tar.gz
+[2023-05-05 22:25:50] INFO root fetch - processPackages [phdi]: Downloading https://files.pythonhosted.org/packages/02/5f/8817020db6343f3098462775a2ae9f9e16909f91ad3271356933dae4345a/phdi-0.1.0.dev4.tar.gz
+[2023-05-05 22:25:50] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-05 22:25:50] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230505/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-05 22:25:50] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-05 22:25:50] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230505/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-05 22:25:50] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-05-05 22:25:50] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230505/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-05 22:25:50] INFO root fetch - processPackages [ansible-anonymizer]: Downloading https://files.pythonhosted.org/packages/2b/70/b8044e24c3175bebaa02813c37bfb787258860b5f1d8bf35e0fec2eaeb10/ansible-anonymizer-1.2.2.tar.gz
+[2023-05-05 22:25:51] INFO root fetch - processPackages [sapiopylib]: executing diffoscope
+[2023-05-05 22:25:51] INFO root fetch - processPackages [sapiopylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapiopylib-2023.5.5.134.tar.gz tmp/sapiopylib-2023.5.5.135.tar.gz --markdown 20230505/s/sapiopylib/2023.5.5.134-2023.5.5.135/diff.md --exclude *.pyd
+[2023-05-05 22:25:51] INFO root fetch - processPackages [pip-compile-multi]: Downloading https://files.pythonhosted.org/packages/93/58/dd31c447d8fd7d31e098cbce713923f237eb6a3b751634507b6494b894fa/pip-compile-multi-2.6.3.tar.gz
+[2023-05-05 22:25:51] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/31/4c/998c68ed150af284389025956ac4d306c1d253bf588e602bd9af758f228e/gpt-review-0.7.0rc477.post1.tar.gz
+[2023-05-05 22:25:51] INFO root fetch - processPackages [ansible-anonymizer]: executing diffoscope
+[2023-05-05 22:25:51] INFO root fetch - processPackages [ansible-anonymizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-anonymizer-1.2.1.tar.gz tmp/ansible-anonymizer-1.2.2.tar.gz --markdown 20230505/a/ansible-anonymizer/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-05 22:25:51] INFO root fetch - processPackages [phdi]: Downloading https://files.pythonhosted.org/packages/56/cd/e0ef28cf620655e5420e83e1016b64988cb14eab7eccee5f3e8117c0d1a2/phdi-0.1.0.dev5.tar.gz
+[2023-05-05 22:25:51] INFO root fetch - processPackages [yolopandas]: Downloading https://files.pythonhosted.org/packages/32/57/f734fae39bf63e77918cffe9808d51f032b6cfa3539af1b5bdfcf87a682f/yolopandas-0.0.6.tar.gz
+[2023-05-05 22:25:51] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-05 22:25:51] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.7.0rc476.post1.tar.gz tmp/gpt-review-0.7.0rc477.post1.tar.gz --markdown 20230505/g/gpt-review/0.7.0rc476.post1-0.7.0rc477.post1/diff.md --exclude *.pyd
+[2023-05-05 22:25:51] INFO root fetch - processPackages [pip-compile-multi]: executing diffoscope
+[2023-05-05 22:25:51] INFO root fetch - processPackages [pip-compile-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-compile-multi-2.6.2.tar.gz tmp/pip-compile-multi-2.6.3.tar.gz --markdown 20230505/p/pip-compile-multi/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-05-05 22:25:51] INFO root fetch - processPackages [phdi]: executing diffoscope
+[2023-05-05 22:25:51] INFO root fetch - processPackages [phdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdi-0.1.0.dev4.tar.gz tmp/phdi-0.1.0.dev5.tar.gz --markdown 20230505/p/phdi/0.1.0.dev4-0.1.0.dev5/diff.md --exclude *.pyd
+[2023-05-05 22:25:51] INFO root fetch - processPackages [FlashGBX]: Downloading https://files.pythonhosted.org/packages/c8/72/acefb62dbeece66c9b1dd593f90453843a08169b426de937d96a24dd1242/FlashGBX-3.9.tar.gz
+[2023-05-05 22:25:51] INFO root fetch - processPackages [yolopandas]: executing diffoscope
+[2023-05-05 22:25:51] INFO root fetch - processPackages [yolopandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolopandas-0.0.5.tar.gz tmp/yolopandas-0.0.6.tar.gz --markdown 20230505/y/yolopandas/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 22:25:51] INFO root fetch - processPackages [FlashGBX]: executing diffoscope
+[2023-05-05 22:25:51] INFO root fetch - processPackages [FlashGBX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlashGBX-3.8.tar.gz tmp/FlashGBX-3.9.tar.gz --markdown 20230505/F/FlashGBX/3.8-3.9/diff.md --exclude *.pyd
+[2023-05-05 22:25:52] INFO root fetch - processPackages [yolopandas]: Start processing: keycloak-django
+[2023-05-05 22:25:52] INFO root fetch - main [MainThread]: End processing [yolopandas]: success
+[2023-05-05 22:25:52] INFO root fetch - processPackages [keycloak-django]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-05 22:25:52] INFO root fetch - processPackages [gpt-review]: Start processing: ovos-bus-client
+[2023-05-05 22:25:52] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-05 22:25:52] INFO root fetch - processPackages [ovos-bus-client]: New version: [0.0.4a8] Old Version: [0.0.4a7]
+[2023-05-05 22:25:52] INFO root fetch - processPackages [keycloak-django]: Downloading https://files.pythonhosted.org/packages/d2/8a/2369e0dc8502741cfc232cc10d769914aba56899e225f86e19af29c5e243/keycloak_django-1.0.5.tar.gz
+[2023-05-05 22:25:52] INFO root fetch - processPackages [pip-compile-multi]: Start processing: google-cloud-aiplatform-1.25.dev20230413-language.models-py2.py3-none-any.whl
+[2023-05-05 22:25:52] INFO root fetch - main [MainThread]: End processing [pip-compile-multi]: success
+[2023-05-05 22:25:52] INFO root fetch - processPackages [spanishconjugator]: Start processing: MaMMUT-pytorch
+[2023-05-05 22:25:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-05 22:25:52] INFO root fetch - processPackages [keycloak-django]: executing diffoscope
+[2023-05-05 22:25:52] INFO root fetch - processPackages [keycloak-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycloak_django-1.0.4.tar.gz tmp/keycloak_django-1.0.5.tar.gz --markdown 20230505/k/keycloak-django/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-05 22:25:52] WARNING root fetch - processPackages [google-cloud-aiplatform-1.25.dev20230413-language.models-py2.py3-none-any.whl]: Skipping, unable to determine old version
+[2023-05-05 22:25:52] INFO root fetch - processPackages [google-cloud-aiplatform-1.25.dev20230413-language.models-py2.py3-none-any.whl]: Start processing: gpt-review
+[2023-05-05 22:25:52] INFO root fetch - main [MainThread]: End processing [google-cloud-aiplatform-1.25.dev20230413-language.models-py2.py3-none-any.whl] error
+[2023-05-05 22:25:53] INFO root fetch - processPackages [ovos-bus-client]: Downloading https://files.pythonhosted.org/packages/26/bd/a242ad146cd80ba404bb54755c51dddf68d8365a0898e0cd8859cf78830e/ovos-bus-client-0.0.4a8.tar.gz
+[2023-05-05 22:25:53] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-05 22:25:53] INFO root fetch - processPackages [gpt-review]: New version: [0.7.0rc477.post1] Old Version: [0.7.0rc476.post1]
+[2023-05-05 22:25:53] WARNING root fetch - processPackages [MaMMUT-pytorch]: Skipping, unable to determine old version
+[2023-05-05 22:25:53] INFO root fetch - main [MainThread]: End processing [MaMMUT-pytorch] error
+[2023-05-05 22:25:53] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-05 22:25:53] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.7.0rc476.post1.tar.gz tmp/gpt-review-0.7.0rc477.post1.tar.gz --markdown 20230505/g/gpt-review/0.7.0rc476.post1-0.7.0rc477.post1/diff.md --exclude *.pyd
+[2023-05-05 22:25:53] INFO root fetch - processPackages [ovos-bus-client]: executing diffoscope
+[2023-05-05 22:25:53] INFO root fetch - processPackages [ovos-bus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-bus-client-0.0.4a7.tar.gz tmp/ovos-bus-client-0.0.4a8.tar.gz --markdown 20230505/o/ovos-bus-client/0.0.4a7-0.0.4a8/diff.md --exclude *.pyd
+[2023-05-05 22:25:53] INFO root fetch - main [MainThread]: End processing [ansible-anonymizer]: success
+[2023-05-05 22:25:53] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-05-05 22:25:53] INFO root fetch - main [MainThread]: End processing [phdi]: success
+[2023-05-05 22:25:53] INFO root fetch - main [MainThread]: End processing [FlashGBX]: success
+[2023-05-05 22:25:54] INFO root fetch - main [MainThread]: End processing [keycloak-django]: success
+[2023-05-05 22:25:54] INFO root fetch - main [MainThread]: End processing [sapiopylib]: success
+[2023-05-05 22:25:55] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-05 22:25:55] INFO root fetch - main [MainThread]: End processing [ovos-bus-client]: success
+[2023-05-05 22:25:55] INFO root fetch - main [MainThread]: Store serial: [17992621]
