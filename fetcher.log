@@ -14628,3 +14628,118 @@
 [2023-05-05 14:59:21] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
 [2023-05-05 14:59:25] INFO root fetch - main [MainThread]: End processing [anylabeling-gpu]: success
 [2023-05-05 14:59:25] INFO root fetch - main [MainThread]: Store serial: [17987214]
+[2023-05-05 15:04:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17987214]
+[2023-05-05 15:04:35] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-05 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autora-theorist-bms
+[2023-05-05 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydra-fsl
+[2023-05-05 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akerbp.mlops
+[2023-05-05 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastspell
+[2023-05-05 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xarray-safe-rcm
+[2023-05-05 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: managedtenants-cli
+[2023-05-05 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: volworld-aws-api-common
+[2023-05-05 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: newhacklib
+[2023-05-05 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geomulticorr
+[2023-05-05 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eng-spacysentiment
+[2023-05-05 15:04:35] WARNING root fetch - processPackages [newhacklib]: Skipping, unable to determine old version
+[2023-05-05 15:04:35] INFO root fetch - processPackages [newhacklib]: Start processing: python-client-generator
+[2023-05-05 15:04:35] INFO root fetch - main [MainThread]: End processing [newhacklib] error
+[2023-05-05 15:04:35] INFO root fetch - processPackages [eng-spacysentiment]: New version: [2.0] Old Version: [1.0]
+[2023-05-05 15:04:35] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.98] Old Version: [0.1.97]
+[2023-05-05 15:04:35] WARNING root fetch - processPackages [xarray-safe-rcm]: Skipping, unable to determine old version
+[2023-05-05 15:04:35] INFO root fetch - processPackages [xarray-safe-rcm]: Start processing: bofire
+[2023-05-05 15:04:35] INFO root fetch - main [MainThread]: End processing [xarray-safe-rcm] error
+[2023-05-05 15:04:35] WARNING root fetch - processPackages [autora-theorist-bms]: Skipping, unable to determine old version
+[2023-05-05 15:04:35] INFO root fetch - processPackages [autora-theorist-bms]: Start processing: pyparlaclarin
+[2023-05-05 15:04:35] INFO root fetch - main [MainThread]: End processing [autora-theorist-bms] error
+[2023-05-05 15:04:35] INFO root fetch - processPackages [fastspell]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-05 15:04:35] INFO root fetch - processPackages [managedtenants-cli]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-05 15:04:35] INFO root fetch - processPackages [pydra-fsl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 15:04:35] INFO root fetch - processPackages [python-client-generator]: New version: [1.1.3] Old Version: [1.1.1]
+[2023-05-05 15:04:35] INFO root fetch - processPackages [bofire]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-05 15:04:35] INFO root fetch - processPackages [geomulticorr]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 15:04:35] INFO root fetch - processPackages [pyparlaclarin]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-05 15:04:35] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.1.1a3] Old Version: [3.1.1a2]
+[2023-05-05 15:04:35] INFO root fetch - processPackages [eng-spacysentiment]: Downloading https://files.pythonhosted.org/packages/7d/8c/039a1cdb1728d973e23facd771c5e362b82dd0adc02364da866898c27d97/eng_spacysentiment-1.0.tar.gz
+[2023-05-05 15:04:35] INFO root fetch - processPackages [bofire]: Downloading https://files.pythonhosted.org/packages/2a/5b/459a1a8b3730b471b7ca5f25ebb5702158e6bd0dc52729ca51c735c2316f/bofire-0.0.3.tar.gz
+[2023-05-05 15:04:35] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/c7/82/7aefcc55e9d34309e43a1c4f62f535a10cbf84c23f14b0b54efb88505de6/volworld_aws_api_common-0.1.98.tar.gz
+[2023-05-05 15:04:35] INFO root fetch - processPackages [pyparlaclarin]: Downloading https://files.pythonhosted.org/packages/02/0c/aa687c9b6afa5c2d8884977754af5ef35f72b478d251ef097a2e1a34553f/pyparlaclarin-0.7.2.tar.gz
+[2023-05-05 15:04:35] INFO root fetch - processPackages [fastspell]: Downloading https://files.pythonhosted.org/packages/b9/16/982040fea1e3de767b6b9d6b16dafe69ba9fd0c0e7317a794e31276db80d/fastspell-0.9.0.tar.gz
+[2023-05-05 15:04:35] INFO root fetch - processPackages [geomulticorr]: Downloading https://files.pythonhosted.org/packages/77/22/d232feb8dc29b98c07e0f358298f82921190b988a6eea9e74666cbbb637f/geomulticorr-0.0.6.tar.gz
+[2023-05-05 15:04:35] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/bb/6e/e96b25a3ce10bc59045e5e5bfd35ee4ad48cbf26279b8d26a8d61eff3644/akerbp.mlops-3.1.1a3.tar.gz
+[2023-05-05 15:04:35] INFO root fetch - processPackages [python-client-generator]: Downloading https://files.pythonhosted.org/packages/88/5e/b75ae981f22e899168227a745e2751a82ddb954467f4218fce53d31672c7/python-client-generator-1.1.1.tar.gz
+[2023-05-05 15:04:35] INFO root fetch - processPackages [pydra-fsl]: executing diffoscope
+[2023-05-05 15:04:35] INFO root fetch - processPackages [pydra-fsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydra_fsl-0.0.8.tar.gz tmp/pydra_fsl-0.0.9.tar.gz --markdown 20230505/p/pydra-fsl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 15:04:35] INFO root fetch - processPackages [pyparlaclarin]: executing diffoscope
+[2023-05-05 15:04:35] INFO root fetch - processPackages [pyparlaclarin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyparlaclarin-0.7.1.tar.gz tmp/pyparlaclarin-0.7.2.tar.gz --markdown 20230505/p/pyparlaclarin/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-05 15:04:35] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-05 15:04:35] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.97.tar.gz tmp/volworld_aws_api_common-0.1.98.tar.gz --markdown 20230505/v/volworld-aws-api-common/0.1.97-0.1.98/diff.md --exclude *.pyd
+[2023-05-05 15:04:35] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-05-05 15:04:35] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.1.1a2.tar.gz tmp/akerbp.mlops-3.1.1a3.tar.gz --markdown 20230505/a/akerbp.mlops/3.1.1a2-3.1.1a3/diff.md --exclude *.pyd
+[2023-05-05 15:04:35] INFO root fetch - processPackages [managedtenants-cli]: executing diffoscope
+[2023-05-05 15:04:35] INFO root fetch - processPackages [managedtenants-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/managedtenants_cli-1.8.3-py3-none-any.whl.zip tmp/managedtenants_cli-1.9.0-py3-none-any.whl.zip --markdown 20230505/m/managedtenants-cli/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-05 15:04:35] INFO root fetch - processPackages [bofire]: Downloading https://files.pythonhosted.org/packages/9c/6d/4d1c5293840587962e9e3eb32e3ebe24a61a5c82c551c476977009f7693f/bofire-0.0.4.tar.gz
+[2023-05-05 15:04:35] INFO root fetch - processPackages [eng-spacysentiment]: Downloading https://files.pythonhosted.org/packages/52/48/f28685b5dd529fc2f2da62615b8d8335610a89f8b05ec4ef190e2ce57d4e/eng_spacysentiment-2.0.tar.gz
+[2023-05-05 15:04:35] INFO root fetch - processPackages [fastspell]: Downloading https://files.pythonhosted.org/packages/9a/85/3008455449ea6f91e373049f44df22025a8c76a2eaac35819c98c925c7d7/fastspell-0.9.1.tar.gz
+[2023-05-05 15:04:35] INFO root fetch - processPackages [python-client-generator]: Downloading https://files.pythonhosted.org/packages/09/db/d4d54c9ec5154b787867427aa61093226d4c5fa6849c29b79f5be2e02b7e/python_client_generator-1.1.3.tar.gz
+[2023-05-05 15:04:35] INFO root fetch - processPackages [eng-spacysentiment]: executing diffoscope
+[2023-05-05 15:04:35] INFO root fetch - processPackages [eng-spacysentiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eng_spacysentiment-1.0.tar.gz tmp/eng_spacysentiment-2.0.tar.gz --markdown 20230505/e/eng-spacysentiment/1.0-2.0/diff.md --exclude *.pyd
+[2023-05-05 15:04:35] INFO root fetch - processPackages [fastspell]: executing diffoscope
+[2023-05-05 15:04:35] INFO root fetch - processPackages [bofire]: executing diffoscope
+[2023-05-05 15:04:35] INFO root fetch - processPackages [fastspell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastspell-0.9.0.tar.gz tmp/fastspell-0.9.1.tar.gz --markdown 20230505/f/fastspell/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-05 15:04:35] INFO root fetch - processPackages [bofire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bofire-0.0.3.tar.gz tmp/bofire-0.0.4.tar.gz --markdown 20230505/b/bofire/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-05 15:04:36] INFO root fetch - processPackages [python-client-generator]: executing diffoscope
+[2023-05-05 15:04:36] INFO root fetch - processPackages [python-client-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-client-generator-1.1.1.tar.gz tmp/python_client_generator-1.1.3.tar.gz --markdown 20230505/p/python-client-generator/1.1.1-1.1.3/diff.md --exclude *.pyd
+[2023-05-05 15:04:36] INFO root fetch - processPackages [geomulticorr]: executing diffoscope
+[2023-05-05 15:04:36] INFO root fetch - processPackages [geomulticorr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomulticorr-0.0.5.tar.gz tmp/geomulticorr-0.0.6.tar.gz --markdown 20230505/g/geomulticorr/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 15:04:37] INFO root fetch - processPackages [pyparlaclarin]: Start processing: pyalgotrading
+[2023-05-05 15:04:37] INFO root fetch - main [MainThread]: End processing [pyparlaclarin]: success
+[2023-05-05 15:04:37] INFO root fetch - processPackages [pydra-fsl]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-05-05 15:04:37] INFO root fetch - main [MainThread]: End processing [pydra-fsl]: success
+[2023-05-05 15:04:37] INFO root fetch - processPackages [pyalgotrading]: New version: [2023.5.2] Old Version: [2022.9.3]
+[2023-05-05 15:04:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-05-05 15:04:37] INFO root fetch - processPackages [pyalgotrading]: Downloading https://files.pythonhosted.org/packages/36/cb/60a2da686c56432f7a0e15152a478918d351c404122993dd8d239107298c/pyalgotrading-2022.9.3-py3-none-any.whl
+[2023-05-05 15:04:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c9/ea/bc8be6f4d3b0cf50179609de05d40cd0f33c68d77c50d717f878e12ddc45/fbgemm_gpu_nightly_cpu-2023.5.4-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-05 15:04:37] INFO root fetch - processPackages [volworld-aws-api-common]: Start processing: gene-ranking-shootout
+[2023-05-05 15:04:37] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-05 15:04:37] INFO root fetch - processPackages [akerbp.mlops]: Start processing: pycomex
+[2023-05-05 15:04:37] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-05-05 15:04:37] INFO root fetch - processPackages [gene-ranking-shootout]: New version: [0.1.1] Old Version: [0.0.0]
+[2023-05-05 15:04:37] INFO root fetch - processPackages [managedtenants-cli]: Start processing: mosaik.Core-SemVer
+[2023-05-05 15:04:37] INFO root fetch - main [MainThread]: End processing [managedtenants-cli]: success
+[2023-05-05 15:04:37] INFO root fetch - processPackages [pycomex]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-05 15:04:37] INFO root fetch - processPackages [mosaik.Core-SemVer]: New version: [2.5.3rc20230505130344] Old Version: [2.5.3rc20230405130330]
+[2023-05-05 15:04:37] INFO root fetch - processPackages [pyalgotrading]: Downloading https://files.pythonhosted.org/packages/59/7b/e62da58213fbe92a031267d8b3d6df84a074899afc8ff1fc638e254f5672/pyalgotrading-2023.5.2-py3-none-any.whl
+[2023-05-05 15:04:37] INFO root fetch - processPackages [gene-ranking-shootout]: Downloading https://files.pythonhosted.org/packages/b1/8a/7399bb341c59e9dd69f9186d6a48c008fac33c4b1c0b43beb4fdd30d1083/gene-ranking-shootout-0.0.0.tar.gz
+[2023-05-05 15:04:37] INFO root fetch - processPackages [pyalgotrading]: executing diffoscope
+[2023-05-05 15:04:37] INFO root fetch - processPackages [pyalgotrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalgotrading-2022.9.3-py3-none-any.whl.zip tmp/pyalgotrading-2023.5.2-py3-none-any.whl.zip --markdown 20230505/p/pyalgotrading/2022.9.3-2023.5.2/diff.md --exclude *.pyd
+[2023-05-05 15:04:37] INFO root fetch - processPackages [pycomex]: Downloading https://files.pythonhosted.org/packages/f1/1e/c1b16d6f503acee4ef8de725e0d9a45a96687f109f755cd60dc0a8d66a52/pycomex-0.9.2.tar.gz
+[2023-05-05 15:04:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/e3/5f/334d28a67e26402f3dd97e76802f152996d0389d904f3faf70427a6ad035/fbgemm_gpu_nightly_cpu-2023.5.5-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-05 15:04:37] INFO root fetch - processPackages [mosaik.Core-SemVer]: Downloading https://files.pythonhosted.org/packages/0b/fb/9c11448607bfc2d2b35ad2676d0effd6b1bcd37e19605828997718d05a70/mosaik.Core_SemVer-2.5.3rc20230405130330-py2.py3-none-any.whl
+[2023-05-05 15:04:37] INFO root fetch - processPackages [python-client-generator]: Start processing: schoolware-api
+[2023-05-05 15:04:37] INFO root fetch - main [MainThread]: End processing [python-client-generator]: success
+[2023-05-05 15:04:37] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-05 15:04:37] INFO root fetch - main [MainThread]: End processing [fastspell]: success
+[2023-05-05 15:04:37] INFO root fetch - processPackages [gene-ranking-shootout]: Downloading https://files.pythonhosted.org/packages/2d/f5/e8734246987d1c48d004faabba2f6e4e1a7d226466c6e4d7e494b3354d29/gene-ranking-shootout-0.1.1.tar.gz
+[2023-05-05 15:04:37] INFO root fetch - processPackages [pycomex]: Downloading https://files.pythonhosted.org/packages/4b/a7/00a2b70a7eaeff965345511bfc7d07720b8cd95a58467dc093ee552242fe/pycomex-0.9.3.tar.gz
+[2023-05-05 15:04:37] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/ff/17/186d413ddd8192570b2844490771fee398c318d269b9d052b100344dd85c/schoolware_api-1.1.8.tar.gz
+[2023-05-05 15:04:38] INFO root fetch - processPackages [gene-ranking-shootout]: executing diffoscope
+[2023-05-05 15:04:38] INFO root fetch - processPackages [gene-ranking-shootout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gene-ranking-shootout-0.0.0.tar.gz tmp/gene-ranking-shootout-0.1.1.tar.gz --markdown 20230505/g/gene-ranking-shootout/0.0.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 15:04:38] INFO root fetch - processPackages [pycomex]: executing diffoscope
+[2023-05-05 15:04:38] INFO root fetch - processPackages [pycomex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycomex-0.9.2.tar.gz tmp/pycomex-0.9.3.tar.gz --markdown 20230505/p/pycomex/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-05 15:04:38] INFO root fetch - processPackages [mosaik.Core-SemVer]: Downloading https://files.pythonhosted.org/packages/98/25/cc531c0ad450e7466055dbef1ac565c673f0729577866cc1f5db03079765/mosaik.Core_SemVer-2.5.3rc20230505130344-py2.py3-none-any.whl
+[2023-05-05 15:04:38] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 15:04:38] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.7.tar.gz tmp/schoolware_api-1.1.8.tar.gz --markdown 20230505/s/schoolware-api/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-05 15:04:38] INFO root fetch - processPackages [mosaik.Core-SemVer]: executing diffoscope
+[2023-05-05 15:04:38] INFO root fetch - processPackages [mosaik.Core-SemVer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaik.Core_SemVer-2.5.3rc20230405130330-py2.py3-none-any.whl.zip tmp/mosaik.Core_SemVer-2.5.3rc20230505130344-py2.py3-none-any.whl.zip --markdown 20230505/m/mosaik.Core-SemVer/2.5.3rc20230405130330-2.5.3rc20230505130344/diff.md --exclude *.pyd
+[2023-05-05 15:04:38] INFO root fetch - main [MainThread]: End processing [geomulticorr]: success
+[2023-05-05 15:04:38] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-05-05 15:04:38] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.5.4-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.5.5-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230505/f/fbgemm-gpu-nightly-cpu/2023.5.4-2023.5.5/diff.md --exclude *.pyd
+[2023-05-05 15:04:38] INFO root fetch - main [MainThread]: End processing [pyalgotrading]: success
+[2023-05-05 15:04:39] INFO root fetch - main [MainThread]: End processing [gene-ranking-shootout]: success
+[2023-05-05 15:04:39] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 15:04:39] INFO root fetch - main [MainThread]: End processing [mosaik.Core-SemVer]: success
+[2023-05-05 15:04:39] INFO root fetch - main [MainThread]: End processing [pycomex]: success
+[2023-05-05 15:04:39] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-05-05 15:04:40] INFO root fetch - main [MainThread]: End processing [eng-spacysentiment]: success
+[2023-05-05 15:04:41] INFO root fetch - main [MainThread]: End processing [bofire]: success
+[2023-05-05 15:04:41] INFO root fetch - main [MainThread]: Store serial: [17987274]
