@@ -17902,3 +17902,110 @@
 [2023-05-05 17:51:53] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
 [2023-05-05 17:51:55] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
 [2023-05-05 17:51:55] INFO root fetch - main [MainThread]: Store serial: [17989469]
+[2023-05-05 17:56:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17989469]
+[2023-05-05 17:57:04] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-05 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdeclient
+[2023-05-05 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cagen
+[2023-05-05 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ifd-python
+[2023-05-05 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rad-tools
+[2023-05-05 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: satlink
+[2023-05-05 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: micromechanics-indentationGUI
+[2023-05-05 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pandas-chat
+[2023-05-05 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyBerries
+[2023-05-05 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modelbit
+[2023-05-05 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nhssynth
+[2023-05-05 17:57:04] INFO root fetch - processPackages [ifd-python]: New version: [7.6.9] Old Version: [7.6.8]
+[2023-05-05 17:57:04] INFO root fetch - processPackages [PyBerries]: New version: [0.2.7] Old Version: [0.2.6.post1]
+[2023-05-05 17:57:04] INFO root fetch - processPackages [cagen]: New version: [0.2.0b3] Old Version: [0.2.0b2]
+[2023-05-05 17:57:04] INFO root fetch - processPackages [micromechanics-indentationGUI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 17:57:04] INFO root fetch - processPackages [sdeclient]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 17:57:04] WARNING root fetch - processPackages [pandas-chat]: Skipping, unable to determine old version
+[2023-05-05 17:57:04] INFO root fetch - processPackages [rad-tools]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-05 17:57:04] INFO root fetch - processPackages [pandas-chat]: Start processing: flipt
+[2023-05-05 17:57:04] INFO root fetch - main [MainThread]: End processing [pandas-chat] error
+[2023-05-05 17:57:04] INFO root fetch - processPackages [satlink]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 17:57:04] INFO root fetch - processPackages [nhssynth]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-05 17:57:04] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-05 17:57:04] INFO root fetch - processPackages [flipt]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-05 17:57:04] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-05-05 17:57:04] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-7.6.8.tar.gz tmp/ifd_python-7.6.9.tar.gz --markdown 20230505/i/ifd-python/7.6.8-7.6.9/diff.md --exclude *.pyd
+[2023-05-05 17:57:04] INFO root fetch - processPackages [rad-tools]: executing diffoscope
+[2023-05-05 17:57:04] INFO root fetch - processPackages [rad-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rad-tools-0.5.8.tar.gz tmp/rad-tools-0.5.9.tar.gz --markdown 20230505/r/rad-tools/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-05 17:57:04] INFO root fetch - processPackages [sdeclient]: executing diffoscope
+[2023-05-05 17:57:04] INFO root fetch - processPackages [sdeclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdeclient-0.0.8.tar.gz tmp/sdeclient-0.0.9.tar.gz --markdown 20230505/s/sdeclient/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 17:57:04] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/84/8a/33b5228a89bafb547257948a6f9d562e4de955b32240b5749b55585032b5/cagen-0.2.0b3.tar.gz
+[2023-05-05 17:57:04] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-05-05 17:57:04] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230505/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-05 17:57:04] INFO root fetch - processPackages [micromechanics-indentationGUI]: Downloading https://files.pythonhosted.org/packages/ab/4f/40d9256a1076ff26959f1405e06679d7dd82d6decc0bc1b83c187b33907d/micromechanics_indentationGUI-0.0.8-py3-none-any.whl
+[2023-05-05 17:57:04] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/b3/6f/a2ba3bc8d59fa1bd5baf203a9f18221152d6e88ac1eeae40234abc009fc8/PyBerries-0.2.7.tar.gz
+[2023-05-05 17:57:04] INFO root fetch - processPackages [satlink]: Downloading https://files.pythonhosted.org/packages/9c/1e/ed2923096d3e50dca247f3df48d89c8f0d8c8f4a9a01ef409cb38710ed12/satlink-0.0.4.tar.gz
+[2023-05-05 17:57:04] INFO root fetch - processPackages [flipt]: Downloading https://files.pythonhosted.org/packages/55/40/d40a9e9e609c5061086dbedc660e2b36ce111deb100a47e7d015e0518900/flipt-0.2.3.tar.gz
+[2023-05-05 17:57:04] INFO root fetch - processPackages [nhssynth]: Downloading https://files.pythonhosted.org/packages/dc/d1/fd6d4d9995cb5d9e2abc0098e1adcb981b65fb5266ed0dbd6e46267807d7/nhssynth-0.3.0.tar.gz
+[2023-05-05 17:57:04] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-05-05 17:57:04] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0b2.tar.gz tmp/cagen-0.2.0b3.tar.gz --markdown 20230505/c/cagen/0.2.0b2-0.2.0b3/diff.md --exclude *.pyd
+[2023-05-05 17:57:04] INFO root fetch - processPackages [PyBerries]: executing diffoscope
+[2023-05-05 17:57:04] INFO root fetch - processPackages [PyBerries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBerries-0.2.6.post1.tar.gz tmp/PyBerries-0.2.7.tar.gz --markdown 20230505/P/PyBerries/0.2.6.post1-0.2.7/diff.md --exclude *.pyd
+[2023-05-05 17:57:05] INFO root fetch - processPackages [nhssynth]: Downloading https://files.pythonhosted.org/packages/ed/e9/e0eb90a4ca411fc1123b44d561ecb62d42bf21bc02d032c5b694eb59939b/nhssynth-0.3.1.tar.gz
+[2023-05-05 17:57:05] INFO root fetch - processPackages [flipt]: Downloading https://files.pythonhosted.org/packages/76/1e/a1ac62d1b5adc4647144f584e387488ccf6a12692029c0807de739ab798e/flipt-0.2.4-py3-none-any.whl
+[2023-05-05 17:57:05] INFO root fetch - processPackages [micromechanics-indentationGUI]: Downloading https://files.pythonhosted.org/packages/9a/91/9adf7c989a57f5f9818868a1f78f3046e4d716799c02e699c74d31c7eca7/micromechanics_indentationGUI-0.0.9-py3-none-any.whl
+[2023-05-05 17:57:05] INFO root fetch - processPackages [nhssynth]: executing diffoscope
+[2023-05-05 17:57:05] INFO root fetch - processPackages [nhssynth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhssynth-0.3.0.tar.gz tmp/nhssynth-0.3.1.tar.gz --markdown 20230505/n/nhssynth/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-05 17:57:05] INFO root fetch - processPackages [flipt]: executing diffoscope
+[2023-05-05 17:57:05] INFO root fetch - processPackages [flipt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flipt-0.2.3.tar.gz tmp/flipt-0.2.4-py3-none-any.whl.zip --markdown 20230505/f/flipt/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-05 17:57:05] INFO root fetch - processPackages [satlink]: Downloading https://files.pythonhosted.org/packages/cc/51/1dfb8f09eb43768e88e52913f77df7d88b6b034cd7127c1e700e160aec8e/satlink-0.0.5.tar.gz
+[2023-05-05 17:57:05] INFO root fetch - processPackages [micromechanics-indentationGUI]: executing diffoscope
+[2023-05-05 17:57:05] INFO root fetch - processPackages [micromechanics-indentationGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micromechanics_indentationGUI-0.0.8-py3-none-any.whl.zip tmp/micromechanics_indentationGUI-0.0.9-py3-none-any.whl.zip --markdown 20230505/m/micromechanics-indentationGUI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 17:57:05] INFO root fetch - processPackages [satlink]: executing diffoscope
+[2023-05-05 17:57:05] INFO root fetch - processPackages [satlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satlink-0.0.4.tar.gz tmp/satlink-0.0.5.tar.gz --markdown 20230505/s/satlink/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 17:57:05] INFO root fetch - processPackages [ifd-python]: Start processing: nautobot-golden-config
+[2023-05-05 17:57:05] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-05-05 17:57:05] INFO root fetch - processPackages [nautobot-golden-config]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-05 17:57:06] INFO root fetch - processPackages [sdeclient]: Start processing: hyperspyUI
+[2023-05-05 17:57:06] INFO root fetch - main [MainThread]: End processing [sdeclient]: success
+[2023-05-05 17:57:06] INFO root fetch - processPackages [hyperspyUI]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-05 17:57:06] INFO root fetch - processPackages [nautobot-golden-config]: Downloading https://files.pythonhosted.org/packages/1a/a6/15c451b443cead5822dbce7de8c890bad368345feb1c6cd11b4c94415c0d/nautobot_golden_config-1.3.1.tar.gz
+[2023-05-05 17:57:06] INFO root fetch - processPackages [modelbit]: Start processing: gpt-review
+[2023-05-05 17:57:06] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-05-05 17:57:06] INFO root fetch - processPackages [hyperspyUI]: Downloading https://files.pythonhosted.org/packages/5f/33/a04c0d31841f21f897d7b44cdb04be6713cce36f4d49ceff78da26c519f3/hyperspyUI-1.3.1.tar.gz
+[2023-05-05 17:57:06] INFO root fetch - processPackages [gpt-review]: New version: [0.5.3rc449.post1] Old Version: [0.5.2rc439.post1]
+[2023-05-05 17:57:06] INFO root fetch - processPackages [hyperspyUI]: executing diffoscope
+[2023-05-05 17:57:06] INFO root fetch - processPackages [hyperspyUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperspyUI-1.3.0.tar.gz tmp/hyperspyUI-1.3.1.tar.gz --markdown 20230505/h/hyperspyUI/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-05 17:57:06] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/c8/7b/8af9fcae5e005fcebc292ef4a5197f458b997534f9c8944d8b8eeb174475/gpt-review-0.5.3rc449.post1.tar.gz
+[2023-05-05 17:57:06] INFO root fetch - processPackages [nautobot-golden-config]: Downloading https://files.pythonhosted.org/packages/87/4a/87f34c389582dcec179d7d465ec36312bdc762be274de234a8e7c9a67dfa/nautobot_golden_config-1.4.0.tar.gz
+[2023-05-05 17:57:06] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-05 17:57:06] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.5.2rc439.post1.tar.gz tmp/gpt-review-0.5.3rc449.post1.tar.gz --markdown 20230505/g/gpt-review/0.5.2rc439.post1-0.5.3rc449.post1/diff.md --exclude *.pyd
+[2023-05-05 17:57:06] INFO root fetch - processPackages [nautobot-golden-config]: executing diffoscope
+[2023-05-05 17:57:06] INFO root fetch - processPackages [nautobot-golden-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautobot_golden_config-1.3.1.tar.gz tmp/nautobot_golden_config-1.4.0.tar.gz --markdown 20230505/n/nautobot-golden-config/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-05 17:57:06] INFO root fetch - processPackages [cagen]: Start processing: cdk-ec2-spot-simple
+[2023-05-05 17:57:06] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-05-05 17:57:06] INFO root fetch - processPackages [cdk-ec2-spot-simple]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-05 17:57:06] INFO root fetch - processPackages [rad-tools]: Start processing: docker
+[2023-05-05 17:57:06] INFO root fetch - main [MainThread]: End processing [rad-tools]: success
+[2023-05-05 17:57:06] INFO root fetch - processPackages [docker]: New version: [6.0.1] Old Version: [6.0.0b2]
+[2023-05-05 17:57:06] INFO root fetch - processPackages [PyBerries]: Start processing: coreftools
+[2023-05-05 17:57:06] INFO root fetch - main [MainThread]: End processing [PyBerries]: success
+[2023-05-05 17:57:06] WARNING root fetch - processPackages [coreftools]: Skipping, unable to determine old version
+[2023-05-05 17:57:06] INFO root fetch - processPackages [coreftools]: Start processing: sdeclient
+[2023-05-05 17:57:06] INFO root fetch - main [MainThread]: End processing [coreftools] error
+[2023-05-05 17:57:06] INFO root fetch - processPackages [sdeclient]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 17:57:06] INFO root fetch - processPackages [cdk-ec2-spot-simple]: Downloading https://files.pythonhosted.org/packages/33/f2/9043095e09d09de379f0421f781a2c568295485c9c0fee62654c7e2ba1f5/cdk-ec2-spot-simple-2.0.3.tar.gz
+[2023-05-05 17:57:06] INFO root fetch - main [MainThread]: End processing [micromechanics-indentationGUI]: success
+[2023-05-05 17:57:06] INFO root fetch - main [MainThread]: End processing [nhssynth]: success
+[2023-05-05 17:57:06] INFO root fetch - processPackages [docker]: Downloading https://files.pythonhosted.org/packages/eb/02/9a7994126528ad9235a046e0df748b12bd4b8614f7c58b08a00cab4494ab/docker-6.0.0b2.tar.gz
+[2023-05-05 17:57:06] INFO root fetch - processPackages [sdeclient]: executing diffoscope
+[2023-05-05 17:57:06] INFO root fetch - processPackages [sdeclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdeclient-0.0.8.tar.gz tmp/sdeclient-0.0.9.tar.gz --markdown 20230505/s/sdeclient/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 17:57:07] INFO root fetch - main [MainThread]: End processing [satlink]: success
+[2023-05-05 17:57:07] INFO root fetch - processPackages [docker]: Downloading https://files.pythonhosted.org/packages/79/26/6609b51ecb418e12d1534d00b888ce7e108f38b47dc6cd589598d5c6aaa2/docker-6.0.1.tar.gz
+[2023-05-05 17:57:07] INFO root fetch - processPackages [cdk-ec2-spot-simple]: Downloading https://files.pythonhosted.org/packages/49/a0/1a1c3298b333136d7c8f2d476e3ae0ae59b21b6f95c91c2ccdab6021676f/cdk-ec2-spot-simple-2.0.4.tar.gz
+[2023-05-05 17:57:07] INFO root fetch - main [MainThread]: End processing [flipt]: success
+[2023-05-05 17:57:07] INFO root fetch - processPackages [docker]: executing diffoscope
+[2023-05-05 17:57:07] INFO root fetch - processPackages [docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-6.0.0b2.tar.gz tmp/docker-6.0.1.tar.gz --markdown 20230505/d/docker/6.0.0b2-6.0.1/diff.md --exclude *.pyd
+[2023-05-05 17:57:07] INFO root fetch - processPackages [cdk-ec2-spot-simple]: executing diffoscope
+[2023-05-05 17:57:07] INFO root fetch - processPackages [cdk-ec2-spot-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ec2-spot-simple-2.0.3.tar.gz tmp/cdk-ec2-spot-simple-2.0.4.tar.gz --markdown 20230505/c/cdk-ec2-spot-simple/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-05 17:57:08] INFO root fetch - main [MainThread]: End processing [sdeclient]: success
+[2023-05-05 17:57:08] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-05 17:57:08] INFO root fetch - main [MainThread]: End processing [cdk-ec2-spot-simple]: success
+[2023-05-05 17:57:08] INFO root fetch - main [MainThread]: End processing [nautobot-golden-config]: success
+[2023-05-05 17:57:09] INFO root fetch - main [MainThread]: End processing [docker]: success
+[2023-05-05 17:57:10] INFO root fetch - main [MainThread]: End processing [hyperspyUI]: success
+[2023-05-05 17:57:10] INFO root fetch - main [MainThread]: Store serial: [17989524]
