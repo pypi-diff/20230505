@@ -2452,3 +2452,38 @@
 [2023-05-05 02:55:05] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2023-05-05 02:55:17] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-05-05 02:55:17] INFO root fetch - main [MainThread]: Store serial: [17979938]
+[2023-05-05 03:00:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17979938]
+[2023-05-05 03:00:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-05 03:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: structure-py
+[2023-05-05 03:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2023-05-05 03:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DXR
+[2023-05-05 03:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: action-react
+[2023-05-05 03:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyhtcc
+[2023-05-05 03:00:26] INFO root fetch - processPackages [DXR]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-05 03:00:26] INFO root fetch - processPackages [action-react]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 03:00:26] INFO root fetch - processPackages [pyhtcc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 03:00:26] INFO root fetch - processPackages [structure-py]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-05 03:00:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-05 03:00:26] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/7c/07/d43dfac03b2d063f12a163a10edc16c8c7f6524859695a9309ad6051c48e/structure_py-0.7.0.tar.gz
+[2023-05-05 03:00:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-05 03:00:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230505/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-05 03:00:26] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/0c/a2/802a2d04ad95fae880fce9b15e244c902df3865a3fbea8aeb86e2ab12fb4/DXR-1.8.1.tar.gz
+[2023-05-05 03:00:26] INFO root fetch - processPackages [action-react]: Downloading https://files.pythonhosted.org/packages/39/a3/764738a03d1c5b21af5e756f44e04c43be240965583902ffc290d7381e06/action-react-0.0.2.tar.gz
+[2023-05-05 03:00:26] INFO root fetch - processPackages [pyhtcc]: Downloading https://files.pythonhosted.org/packages/01/9a/0b87e54aa1f5eb813d82cce4fde48725806ec26bd68fa7524030cfe197ff/pyhtcc-0.1.8.tar.gz
+[2023-05-05 03:00:26] INFO root fetch - processPackages [DXR]: executing diffoscope
+[2023-05-05 03:00:26] INFO root fetch - processPackages [DXR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR-1.8.0.tar.gz tmp/DXR-1.8.1.tar.gz --markdown 20230505/D/DXR/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-05 03:00:26] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/ec/6a/4ed7ecf4abdbe83e8e5a280f5bd40614871b3c8c0e4d84ae34d20e4e9c54/structure_py-0.8.0.tar.gz
+[2023-05-05 03:00:26] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-05-05 03:00:26] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.7.0.tar.gz tmp/structure_py-0.8.0.tar.gz --markdown 20230505/s/structure-py/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-05 03:00:26] INFO root fetch - processPackages [action-react]: Downloading https://files.pythonhosted.org/packages/90/b8/395de7a83e76653ce6999d64055d4234dac7b6e539afd0bac893897d5141/action-react-0.0.3.tar.gz
+[2023-05-05 03:00:26] INFO root fetch - processPackages [action-react]: executing diffoscope
+[2023-05-05 03:00:26] INFO root fetch - processPackages [action-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/action-react-0.0.2.tar.gz tmp/action-react-0.0.3.tar.gz --markdown 20230505/a/action-react/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 03:00:26] INFO root fetch - processPackages [pyhtcc]: Downloading https://files.pythonhosted.org/packages/4b/9e/6c52acb4fb6e4b4e98709d2d48e2d9ba6421de0a6a77d943685ad49b49dd/pyhtcc-0.1.9.tar.gz
+[2023-05-05 03:00:27] INFO root fetch - processPackages [pyhtcc]: executing diffoscope
+[2023-05-05 03:00:27] INFO root fetch - processPackages [pyhtcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtcc-0.1.8.tar.gz tmp/pyhtcc-0.1.9.tar.gz --markdown 20230505/p/pyhtcc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 03:00:27] INFO root fetch - main [MainThread]: End processing [DXR]: success
+[2023-05-05 03:00:28] INFO root fetch - main [MainThread]: End processing [pyhtcc]: success
+[2023-05-05 03:00:28] INFO root fetch - main [MainThread]: End processing [action-react]: success
+[2023-05-05 03:00:28] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-05 03:00:28] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-05-05 03:00:28] INFO root fetch - main [MainThread]: Store serial: [17979951]
