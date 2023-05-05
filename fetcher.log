@@ -6827,3 +6827,63 @@
 [2023-05-05 07:57:30] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
 [2023-05-05 07:57:34] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-05-05 07:57:34] INFO root fetch - main [MainThread]: Store serial: [17982573]
+[2023-05-05 08:02:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982573]
+[2023-05-05 08:02:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aiven
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zol
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-dnsimple
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ZConfig
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-searchconsole
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zqmtool
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-github
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-datadog
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CDSupdate
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bcsfe-bot
+[2023-05-05 08:02:43] WARNING root fetch - processPackages [py-searchconsole]: Skipping, unable to determine old version
+[2023-05-05 08:02:43] INFO root fetch - main [MainThread]: End processing [py-searchconsole] error
+[2023-05-05 08:02:43] WARNING root fetch - processPackages [zol]: Skipping, unable to determine old version
+[2023-05-05 08:02:43] INFO root fetch - main [MainThread]: End processing [zol] error
+[2023-05-05 08:02:43] INFO root fetch - processPackages [CDSupdate]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-05-05 08:02:43] INFO root fetch - processPackages [zqmtool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ZConfig]: New version: [4.0] Old Version: [3.6.1]
+[2023-05-05 08:02:43] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1683264845] Old Version: [3.5.0a1682377996]
+[2023-05-05 08:02:43] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.0a1683265053] Old Version: [5.9.0a1683051638]
+[2023-05-05 08:02:43] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.2.0a1683264247] Old Version: [6.2.0a1682634031]
+[2023-05-05 08:02:43] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2023-05-05 08:02:43] INFO root fetch - processPackages [bcsfe-bot]: New version: [2.7.31] Old Version: [2.7.30]
+[2023-05-05 08:02:43] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2023-05-05 08:02:43] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20230505/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/diff.md --exclude *.pyd
+[2023-05-05 08:02:43] INFO root fetch - processPackages [CDSupdate]: Downloading https://files.pythonhosted.org/packages/b3/de/ff44da3986e1d4719125220cab63d722f31fdc610b0a9b39527d7fe1c0d5/CDSupdate-1.0.4.tar.gz
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ZConfig]: Downloading https://files.pythonhosted.org/packages/d7/24/b5d02ca5641fde2ac38731441eff82901f5b58fe20393af01626685af0d4/ZConfig-3.6.1.tar.gz
+[2023-05-05 08:02:43] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/17/4e/3d36e602ff52acefb4e18e42beeeb52696beed8e9e15164cfd8926b53770/pulumi_aiven-6.2.0a1682634031.tar.gz
+[2023-05-05 08:02:43] INFO root fetch - processPackages [bcsfe-bot]: Downloading https://files.pythonhosted.org/packages/2a/dc/79a761a1b9d79888d6b1c1c7562890671e7d73b36a439358984d2475b366/bcsfe-bot-2.7.30.tar.gz
+[2023-05-05 08:02:43] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/af/01/8372b1a1be5efbf8709323dd15ac88a0b6b1e9daaad4f263350fb4d6bcda/pulumi_dnsimple-3.5.0a1682377996.tar.gz
+[2023-05-05 08:02:43] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/55/7f/aaa8df9d5c016277c3f82d827a7d0ab11d44d7085e41b7d9c9b06541d86b/pulumi_github-5.9.0a1683265053.tar.gz
+[2023-05-05 08:02:43] INFO root fetch - processPackages [zqmtool]: executing diffoscope
+[2023-05-05 08:02:43] INFO root fetch - processPackages [zqmtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zqmtool-0.0.8.tar.gz tmp/zqmtool-0.0.9.tar.gz --markdown 20230505/z/zqmtool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ZConfig]: Downloading https://files.pythonhosted.org/packages/05/1b/24f8eba7b5a51beed8eb256f08610afeddde3190475fa4f342902e4f7a0e/ZConfig-4.0.tar.gz
+[2023-05-05 08:02:43] INFO root fetch - processPackages [bcsfe-bot]: Downloading https://files.pythonhosted.org/packages/01/f7/c262b06c2f9a3ef50d6a66d7ae68557e6435e35ee83fdfbb4b210161cc71/bcsfe_bot-2.7.31-py3-none-any.whl
+[2023-05-05 08:02:43] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-05-05 08:02:43] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683051638.tar.gz tmp/pulumi_github-5.9.0a1683265053.tar.gz --markdown 20230505/p/pulumi-github/5.9.0a1683051638-5.9.0a1683265053/diff.md --exclude *.pyd
+[2023-05-05 08:02:43] INFO root fetch - processPackages [CDSupdate]: Downloading https://files.pythonhosted.org/packages/f4/d6/4480e529ac1c410121c610a61ad9517de7e05746d4ed024eea5c3f65fccc/CDSupdate-1.1.0.tar.gz
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ZConfig]: executing diffoscope
+[2023-05-05 08:02:43] INFO root fetch - processPackages [ZConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ZConfig-3.6.1.tar.gz tmp/ZConfig-4.0.tar.gz --markdown 20230505/Z/ZConfig/3.6.1-4.0/diff.md --exclude *.pyd
+[2023-05-05 08:02:44] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/e9/5e/627752de0d25583c590ac69f215c2d0a805bd36f69ef71c11ba61c475c2e/pulumi_aiven-6.2.0a1683264247.tar.gz
+[2023-05-05 08:02:44] INFO root fetch - processPackages [CDSupdate]: executing diffoscope
+[2023-05-05 08:02:44] INFO root fetch - processPackages [CDSupdate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CDSupdate-1.0.4.tar.gz tmp/CDSupdate-1.1.0.tar.gz --markdown 20230505/C/CDSupdate/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 08:02:44] INFO root fetch - processPackages [bcsfe-bot]: executing diffoscope
+[2023-05-05 08:02:44] INFO root fetch - processPackages [bcsfe-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcsfe-bot-2.7.30.tar.gz tmp/bcsfe_bot-2.7.31-py3-none-any.whl.zip --markdown 20230505/b/bcsfe-bot/2.7.30-2.7.31/diff.md --exclude *.pyd
+[2023-05-05 08:02:44] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/0b/90/97695bfdf7a79c24dbf7cd05b37d88df6567a9f4123bb325128f1c484ed9/pulumi_dnsimple-3.5.0a1683264845.tar.gz
+[2023-05-05 08:02:44] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2023-05-05 08:02:44] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.2.0a1682634031.tar.gz tmp/pulumi_aiven-6.2.0a1683264247.tar.gz --markdown 20230505/p/pulumi-aiven/6.2.0a1682634031-6.2.0a1683264247/diff.md --exclude *.pyd
+[2023-05-05 08:02:44] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2023-05-05 08:02:44] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1682377996.tar.gz tmp/pulumi_dnsimple-3.5.0a1683264845.tar.gz --markdown 20230505/p/pulumi-dnsimple/3.5.0a1682377996-3.5.0a1683264845/diff.md --exclude *.pyd
+[2023-05-05 08:02:45] INFO root fetch - main [MainThread]: End processing [zqmtool]: success
+[2023-05-05 08:02:45] INFO root fetch - main [MainThread]: End processing [bcsfe-bot]: success
+[2023-05-05 08:02:45] INFO root fetch - main [MainThread]: End processing [CDSupdate]: success
+[2023-05-05 08:02:45] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-05-05 08:02:46] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2023-05-05 08:02:46] INFO root fetch - main [MainThread]: End processing [ZConfig]: success
+[2023-05-05 08:02:46] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2023-05-05 08:02:50] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2023-05-05 08:02:50] INFO root fetch - main [MainThread]: Store serial: [17982605]
