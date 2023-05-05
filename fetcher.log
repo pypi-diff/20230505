@@ -13015,3 +13015,70 @@
 [2023-05-05 13:37:18] INFO root fetch - main [MainThread]: End processing [pyroute2]: success
 [2023-05-05 13:37:46] INFO root fetch - main [MainThread]: End processing [pdm]: success
 [2023-05-05 13:37:46] INFO root fetch - main [MainThread]: Store serial: [17986205]
+[2023-05-05 13:42:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17986205]
+[2023-05-05 13:42:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-05 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyre-check-nightly
+[2023-05-05 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: empaia-app-test-suite
+[2023-05-05 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymagewell
+[2023-05-05 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BaSiCPy
+[2023-05-05 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prancer-basic
+[2023-05-05 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xchembku
+[2023-05-05 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nlp-pipeline
+[2023-05-05 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-cards
+[2023-05-05 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqtdiat
+[2023-05-05 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rockingester
+[2023-05-05 13:42:55] INFO root fetch - processPackages [BaSiCPy]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-05 13:42:55] INFO root fetch - processPackages [nlp-pipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 13:42:55] INFO root fetch - processPackages [pymagewell]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 13:42:55] INFO root fetch - processPackages [rockingester]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-05 13:42:55] INFO root fetch - processPackages [empaia-app-test-suite]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-05-05 13:42:55] INFO root fetch - processPackages [xchembku]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-05-05 13:42:55] INFO root fetch - processPackages [sqtdiat]: New version: [0.0.0.3.6] Old Version: [0.0.0.3.5]
+[2023-05-05 13:42:55] INFO root fetch - processPackages [django-cards]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-05 13:42:55] INFO root fetch - processPackages [prancer-basic]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-05-05 13:42:56] INFO root fetch - processPackages [nlp-pipeline]: executing diffoscope
+[2023-05-05 13:42:56] INFO root fetch - processPackages [nlp-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_pipeline-0.0.8.tar.gz tmp/nlp_pipeline-0.0.9.tar.gz --markdown 20230505/n/nlp-pipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 13:42:56] INFO root fetch - processPackages [django-cards]: executing diffoscope
+[2023-05-05 13:42:56] INFO root fetch - processPackages [django-cards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cards-0.8.8.tar.gz tmp/django-cards-0.8.9.tar.gz --markdown 20230505/d/django-cards/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-05 13:42:56] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101683285229] Old Version: [0.0.101683198722]
+[2023-05-05 13:42:56] INFO root fetch - processPackages [BaSiCPy]: Downloading https://files.pythonhosted.org/packages/52/d3/38e0b4cc95b59151f25646f645355c7bbac2e230c1973b47ef6dac31d70a/BaSiCPy-1.0.1.tar.gz
+[2023-05-05 13:42:56] INFO root fetch - processPackages [pymagewell]: Downloading https://files.pythonhosted.org/packages/7b/d9/899d4b440a4f91da1535a04f8384f9ea4c1a1493e7cb8ea404779b779935/pymagewell-0.1.4.tar.gz
+[2023-05-05 13:42:56] INFO root fetch - processPackages [sqtdiat]: Downloading https://files.pythonhosted.org/packages/92/73/3e5ab896738fd4b7e98a381bdb5546bb963a1eb31fadf646f0a8bcec2e2c/sqtdiat-0.0.0.3.5.tar.gz
+[2023-05-05 13:42:56] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/9e/de/f59435e5699578c9c69601a061af5b979e4573bd81b9dc08b716b6ea8b21/prancer-basic-3.0.4.tar.gz
+[2023-05-05 13:42:56] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/bf/12/f5e66e15ace8089c9b96499168d09c96c19264a0f58033b7e50eb6a00af5/pyre-check-nightly-0.0.101683198722.tar.gz
+[2023-05-05 13:42:56] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23273457>=10485760
+[2023-05-05 13:42:56] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: cdascorer
+[2023-05-05 13:42:56] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-05-05 13:42:56] INFO root fetch - processPackages [xchembku]: Downloading https://files.pythonhosted.org/packages/85/9b/6dbf91025305ca56beb8bc182136ecc507d272dacdfcf353846107512cf7/xchembku-1.6.0.tar.gz
+[2023-05-05 13:42:56] INFO root fetch - processPackages [cdascorer]: New version: [0.0.0.dev9] Old Version: [0.0.0.dev8]
+[2023-05-05 13:42:56] INFO root fetch - processPackages [empaia-app-test-suite]: executing diffoscope
+[2023-05-05 13:42:56] INFO root fetch - processPackages [empaia-app-test-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empaia_app_test_suite-3.2.0.tar.gz tmp/empaia_app_test_suite-3.2.1.tar.gz --markdown 20230505/e/empaia-app-test-suite/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-05-05 13:42:56] INFO root fetch - processPackages [rockingester]: Downloading https://files.pythonhosted.org/packages/5e/cf/bb13c8a83b22949721e317457b4e21fee2382f3e3ea00675fa57f513fadf/rockingester-2.2.2.tar.gz
+[2023-05-05 13:42:56] INFO root fetch - processPackages [pymagewell]: Downloading https://files.pythonhosted.org/packages/eb/25/1c4eeb1fba5381b6c9dd87ea2194fdfa3c569f901af6a7d14ede9deb96b7/pymagewell-0.1.5.tar.gz
+[2023-05-05 13:42:56] INFO root fetch - processPackages [xchembku]: executing diffoscope
+[2023-05-05 13:42:56] INFO root fetch - processPackages [xchembku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchembku-1.5.1.tar.gz tmp/xchembku-1.6.0.tar.gz --markdown 20230505/x/xchembku/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-05-05 13:42:56] WARNING root fetch - processPackages [pymagewell]: Skipping package: exceeds size limit 28027377>=10485760
+[2023-05-05 13:42:56] INFO root fetch - main [MainThread]: End processing [pymagewell] error
+[2023-05-05 13:42:56] INFO root fetch - processPackages [BaSiCPy]: Downloading https://files.pythonhosted.org/packages/d5/09/6ff2097c5d09dd74afc54e717c5362b3477af64102f35b56b0f038377fe7/BaSiCPy-1.1.0.tar.gz
+[2023-05-05 13:42:56] INFO root fetch - processPackages [rockingester]: executing diffoscope
+[2023-05-05 13:42:56] INFO root fetch - processPackages [rockingester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockingester-2.2.1.tar.gz tmp/rockingester-2.2.2.tar.gz --markdown 20230505/r/rockingester/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-05 13:42:56] INFO root fetch - processPackages [sqtdiat]: Downloading https://files.pythonhosted.org/packages/e4/31/11567f10526c8b7db28654de07af23353a6a0fbddbd024bd8a8846ef0e3a/sqtdiat-0.0.0.3.6.tar.gz
+[2023-05-05 13:42:56] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/57/02/67be1b2db46c06481db1f8bcab9003bb4cf75838837d3dc7b92bde0a262b/prancer-basic-3.0.5.tar.gz
+[2023-05-05 13:42:56] INFO root fetch - processPackages [BaSiCPy]: executing diffoscope
+[2023-05-05 13:42:56] INFO root fetch - processPackages [BaSiCPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BaSiCPy-1.0.1.tar.gz tmp/BaSiCPy-1.1.0.tar.gz --markdown 20230505/B/BaSiCPy/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 13:42:56] INFO root fetch - processPackages [prancer-basic]: executing diffoscope
+[2023-05-05 13:42:56] INFO root fetch - processPackages [prancer-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prancer-basic-3.0.4.tar.gz tmp/prancer-basic-3.0.5.tar.gz --markdown 20230505/p/prancer-basic/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-05-05 13:42:56] INFO root fetch - processPackages [sqtdiat]: executing diffoscope
+[2023-05-05 13:42:56] INFO root fetch - processPackages [sqtdiat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqtdiat-0.0.0.3.5.tar.gz tmp/sqtdiat-0.0.0.3.6.tar.gz --markdown 20230505/s/sqtdiat/0.0.0.3.5-0.0.0.3.6/diff.md --exclude *.pyd
+[2023-05-05 13:42:56] INFO root fetch - processPackages [cdascorer]: executing diffoscope
+[2023-05-05 13:42:56] INFO root fetch - processPackages [cdascorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdascorer-0.0.0.dev8.tar.gz tmp/cdascorer-0.0.0.dev9.tar.gz --markdown 20230505/c/cdascorer/0.0.0.dev8-0.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-05 13:42:57] INFO root fetch - main [MainThread]: End processing [nlp-pipeline]: success
+[2023-05-05 13:42:57] INFO root fetch - main [MainThread]: End processing [BaSiCPy]: success
+[2023-05-05 13:42:58] INFO root fetch - main [MainThread]: End processing [sqtdiat]: success
+[2023-05-05 13:42:58] INFO root fetch - main [MainThread]: End processing [rockingester]: success
+[2023-05-05 13:42:58] INFO root fetch - main [MainThread]: End processing [xchembku]: success
+[2023-05-05 13:42:58] INFO root fetch - main [MainThread]: End processing [prancer-basic]: success
+[2023-05-05 13:42:58] INFO root fetch - main [MainThread]: End processing [cdascorer]: success
+[2023-05-05 13:42:59] INFO root fetch - main [MainThread]: End processing [django-cards]: success
+[2023-05-05 13:42:59] INFO root fetch - main [MainThread]: End processing [empaia-app-test-suite]: success
+[2023-05-05 13:42:59] INFO root fetch - main [MainThread]: Store serial: [17986244]
