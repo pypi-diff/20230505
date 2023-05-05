@@ -19752,3 +19752,68 @@
 [2023-05-05 19:25:48] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
 [2023-05-05 19:25:51] INFO root fetch - main [MainThread]: End processing [yangsuite-grpc-telemetry]: success
 [2023-05-05 19:25:51] INFO root fetch - main [MainThread]: Store serial: [17990567]
+[2023-05-05 19:30:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17990567]
+[2023-05-05 19:31:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-05 19:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: innvestigate
+[2023-05-05 19:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dkist-processing-pac
+[2023-05-05 19:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jeeves-shell
+[2023-05-05 19:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meter-gear
+[2023-05-05 19:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: barril
+[2023-05-05 19:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crazy-thursday
+[2023-05-05 19:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfcst
+[2023-05-05 19:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloud-data-connector
+[2023-05-05 19:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: heaserver-trash-aws-s3
+[2023-05-05 19:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: protobuf
+[2023-05-05 19:31:03] INFO root fetch - processPackages [dkist-processing-pac]: New version: [2.1.1rc1] Old Version: [2.1.1]
+[2023-05-05 19:31:03] INFO root fetch - processPackages [innvestigate]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-05-05 19:31:03] INFO root fetch - processPackages [jeeves-shell]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-05-05 19:31:03] INFO root fetch - processPackages [barril]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-05 19:31:03] WARNING root fetch - processPackages [pyfcst]: Skipping, unable to determine old version
+[2023-05-05 19:31:03] WARNING root fetch - processPackages [cloud-data-connector]: Skipping, unable to determine old version
+[2023-05-05 19:31:03] INFO root fetch - processPackages [pyfcst]: Start processing: ansible-anonymizer
+[2023-05-05 19:31:03] INFO root fetch - main [MainThread]: End processing [pyfcst] error
+[2023-05-05 19:31:03] INFO root fetch - processPackages [heaserver-trash-aws-s3]: New version: [1.0.0a4] Old Version: [1.0.0a3]
+[2023-05-05 19:31:03] INFO root fetch - main [MainThread]: End processing [cloud-data-connector] error
+[2023-05-05 19:31:03] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.6.0] Old Version: [2023.5.5.1]
+[2023-05-05 19:31:03] INFO root fetch - processPackages [meter-gear]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-05 19:31:03] INFO root fetch - processPackages [protobuf]: New version: [4.23.0rc2] Old Version: [4.22.4]
+[2023-05-05 19:31:03] INFO root fetch - processPackages [dkist-processing-pac]: Downloading https://files.pythonhosted.org/packages/7d/d3/fc1717b718de11e50a6ca42ab6e184aee2fc0d5a118872955dc8c8bbbb6d/dkist-processing-pac-2.1.1.tar.gz
+[2023-05-05 19:31:03] INFO root fetch - processPackages [ansible-anonymizer]: New version: [1.2.0] Old Version: [1.1.5]
+[2023-05-05 19:31:03] INFO root fetch - processPackages [protobuf]: executing diffoscope
+[2023-05-05 19:31:03] INFO root fetch - processPackages [protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protobuf-4.22.4.tar.gz tmp/protobuf-4.23.0rc2.tar.gz --markdown 20230505/p/protobuf/4.22.4-4.23.0rc2/diff.md --exclude *.pyd
+[2023-05-05 19:31:03] INFO root fetch - processPackages [jeeves-shell]: Downloading https://files.pythonhosted.org/packages/4e/3a/147d63704083ac45d87b65272ab4088409916a2a7a1ac41518181ed439a8/jeeves_shell-2.1.5.tar.gz
+[2023-05-05 19:31:03] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/05/ed/e351b69e59e267fb0297a73f5d38be926d2b2b2cca4db01d2d17ebfcd839/crazy-thursday-2023.5.6.0.tar.gz
+[2023-05-05 19:31:03] INFO root fetch - processPackages [innvestigate]: Downloading https://files.pythonhosted.org/packages/68/86/b69577f5912910fd1d05f2fc1ee7ae4e4f0ddf60585a0f68d0e884d783d4/innvestigate-2.0.2.tar.gz
+[2023-05-05 19:31:03] INFO root fetch - processPackages [barril]: Downloading https://files.pythonhosted.org/packages/cf/10/47f9d15eb9e13a0100e7b276db69e06c4c19e406902265c68033c6a6d0cd/barril-1.8.0.tar.gz
+[2023-05-05 19:31:03] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-05 19:31:03] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.5.1.tar.gz tmp/crazy-thursday-2023.5.6.0.tar.gz --markdown 20230505/c/crazy-thursday/2023.5.5.1-2023.5.6.0/diff.md --exclude *.pyd
+[2023-05-05 19:31:03] INFO root fetch - processPackages [dkist-processing-pac]: executing diffoscope
+[2023-05-05 19:31:03] INFO root fetch - processPackages [dkist-processing-pac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-pac-2.1.1.tar.gz tmp/dkist-processing-pac-2.1.1rc1.tar.gz --markdown 20230505/d/dkist-processing-pac/2.1.1-2.1.1rc1/diff.md --exclude *.pyd
+[2023-05-05 19:31:03] INFO root fetch - processPackages [heaserver-trash-aws-s3]: Downloading https://files.pythonhosted.org/packages/73/6e/293791f7436eb1232416b59d4f0aa3fa2d1ffaf68f629ee29548239395d5/heaserver-trash-aws-s3-1.0.0a4.tar.gz
+[2023-05-05 19:31:03] INFO root fetch - processPackages [ansible-anonymizer]: Downloading https://files.pythonhosted.org/packages/d7/0d/14201e2a2c06fe7741ac52b67644e49da3873529be5c25c10916e848c942/ansible-anonymizer-1.1.5.tar.gz
+[2023-05-05 19:31:03] INFO root fetch - processPackages [heaserver-trash-aws-s3]: executing diffoscope
+[2023-05-05 19:31:03] INFO root fetch - processPackages [heaserver-trash-aws-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-trash-aws-s3-1.0.0a3.tar.gz tmp/heaserver-trash-aws-s3-1.0.0a4.tar.gz --markdown 20230505/h/heaserver-trash-aws-s3/1.0.0a3-1.0.0a4/diff.md --exclude *.pyd
+[2023-05-05 19:31:03] INFO root fetch - processPackages [jeeves-shell]: Downloading https://files.pythonhosted.org/packages/de/ea/47fbd5cbb78c49b25dd0322edc328dac136d7f15ac7c92f4d75bc3e1d1c9/jeeves_shell-2.1.6.tar.gz
+[2023-05-05 19:31:03] INFO root fetch - processPackages [meter-gear]: executing diffoscope
+[2023-05-05 19:31:03] INFO root fetch - processPackages [meter-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-gear-1.2.8.tar.gz tmp/meter-gear-1.2.9.tar.gz --markdown 20230505/m/meter-gear/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-05 19:31:03] INFO root fetch - processPackages [jeeves-shell]: executing diffoscope
+[2023-05-05 19:31:03] INFO root fetch - processPackages [jeeves-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeeves_shell-2.1.5.tar.gz tmp/jeeves_shell-2.1.6.tar.gz --markdown 20230505/j/jeeves-shell/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-05-05 19:31:03] INFO root fetch - processPackages [innvestigate]: Downloading https://files.pythonhosted.org/packages/02/ee/fef716d1c1ac13ea2b18ca06f807f5433ebf40fa0b90209b71e7d8fb533a/innvestigate-2.1.0.tar.gz
+[2023-05-05 19:31:03] INFO root fetch - processPackages [innvestigate]: executing diffoscope
+[2023-05-05 19:31:03] INFO root fetch - processPackages [innvestigate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innvestigate-2.0.2.tar.gz tmp/innvestigate-2.1.0.tar.gz --markdown 20230505/i/innvestigate/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-05-05 19:31:04] INFO root fetch - processPackages [barril]: Downloading https://files.pythonhosted.org/packages/b1/d0/2e66bb515761b97ee2d4755ca0862575ffb4272e90c58000b295505b7959/barril-1.9.0.tar.gz
+[2023-05-05 19:31:04] INFO root fetch - processPackages [ansible-anonymizer]: Downloading https://files.pythonhosted.org/packages/9c/3a/e230e389af1fc49758d6a029fac152d80d34cd9a4f3c49adc2f449d0b3ef/ansible-anonymizer-1.2.0.tar.gz
+[2023-05-05 19:31:04] INFO root fetch - processPackages [ansible-anonymizer]: executing diffoscope
+[2023-05-05 19:31:04] INFO root fetch - processPackages [ansible-anonymizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-anonymizer-1.1.5.tar.gz tmp/ansible-anonymizer-1.2.0.tar.gz --markdown 20230505/a/ansible-anonymizer/1.1.5-1.2.0/diff.md --exclude *.pyd
+[2023-05-05 19:31:04] INFO root fetch - processPackages [barril]: executing diffoscope
+[2023-05-05 19:31:04] INFO root fetch - processPackages [barril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barril-1.8.0.tar.gz tmp/barril-1.9.0.tar.gz --markdown 20230505/b/barril/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-05 19:31:04] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-05 19:31:05] INFO root fetch - main [MainThread]: End processing [jeeves-shell]: success
+[2023-05-05 19:31:05] INFO root fetch - main [MainThread]: End processing [meter-gear]: success
+[2023-05-05 19:31:05] INFO root fetch - main [MainThread]: End processing [innvestigate]: success
+[2023-05-05 19:31:05] INFO root fetch - main [MainThread]: End processing [heaserver-trash-aws-s3]: success
+[2023-05-05 19:31:05] INFO root fetch - main [MainThread]: End processing [ansible-anonymizer]: success
+[2023-05-05 19:31:06] INFO root fetch - main [MainThread]: End processing [barril]: success
+[2023-05-05 19:31:07] INFO root fetch - main [MainThread]: End processing [protobuf]: success
+[2023-05-05 19:31:07] INFO root fetch - main [MainThread]: End processing [dkist-processing-pac]: success
+[2023-05-05 19:31:07] INFO root fetch - main [MainThread]: Store serial: [17990615]
