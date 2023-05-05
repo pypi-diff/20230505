@@ -4828,3 +4828,82 @@
 [2023-05-05 04:23:59] INFO root fetch - main [MainThread]: End processing [ai-transform]: success
 [2023-05-05 04:24:25] INFO root fetch - main [MainThread]: End processing [uintel]: success
 [2023-05-05 04:24:25] INFO root fetch - main [MainThread]: Store serial: [17981355]
+[2023-05-05 04:29:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981355]
+[2023-05-05 04:29:34] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-05 04:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-24
+[2023-05-05 04:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spire.xls.python
+[2023-05-05 04:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rayvision-sync
+[2023-05-05 04:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iam-actions
+[2023-05-05 04:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aspeak
+[2023-05-05 04:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multimetricprog
+[2023-05-05 04:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-26
+[2023-05-05 04:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mpc-obscodes
+[2023-05-05 04:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-plus-25
+[2023-05-05 04:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-documentautoml20221229-py2
+[2023-05-05 04:29:34] WARNING root fetch - processPackages [spire.xls.python]: Skipping, unable to determine old version
+[2023-05-05 04:29:34] INFO root fetch - processPackages [spire.xls.python]: Start processing: awsimple
+[2023-05-05 04:29:34] INFO root fetch - main [MainThread]: End processing [spire.xls.python] error
+[2023-05-05 04:29:34] INFO root fetch - processPackages [aspeak]: New version: [5.2.0] Old Version: [5.1.0]
+[2023-05-05 04:29:34] INFO root fetch - processPackages [alibabacloud-documentautoml20221229-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 04:29:34] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-05 04:29:34] INFO root fetch - processPackages [multimetricprog]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-05 04:29:34] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-05 04:29:34] INFO root fetch - processPackages [rayvision-sync]: New version: [2.8.8.1] Old Version: [2.8.8]
+[2023-05-05 04:29:34] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230505] Old Version: [1.2.20230504]
+[2023-05-05 04:29:34] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-05 04:29:34] INFO root fetch - processPackages [mpc-obscodes]: New version: [2023.5.5] Old Version: [2023.4.30]
+[2023-05-05 04:29:34] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-05 04:29:34] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.8.tar.gz tmp/cdk8s-plus-25-2.7.9.tar.gz --markdown 20230505/c/cdk8s-plus-25/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-05 04:29:34] INFO root fetch - processPackages [awsimple]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-05-05 04:29:34] INFO root fetch - processPackages [alibabacloud-documentautoml20221229-py2]: Downloading https://files.pythonhosted.org/packages/23/6f/16e0617620544d78d9e9e1c95a200e7cc31371e039d68f71ffdd9c9b3e4c/alibabacloud_documentautoml20221229_py2-1.0.8.tar.gz
+[2023-05-05 04:29:34] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/72/74/2d3bb957a6525515296599e3b7d5ae521e63691ee84e0dbf044469018e35/iam_actions-1.2.20230505.tar.gz
+[2023-05-05 04:29:34] INFO root fetch - processPackages [rayvision-sync]: Downloading https://files.pythonhosted.org/packages/8d/14/a71ff7de50ed803e24b5bf289dce9db0c46a82cad75b00669113335eb5ef/rayvision_sync-2.8.8.tar.gz
+[2023-05-05 04:29:34] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/89/ec/b7d1b840b40800269afb55bd5b6f2537721013ae7887cefb11b91d087ccb/mpc_obscodes-2023.4.30.tar.gz
+[2023-05-05 04:29:34] INFO root fetch - processPackages [aspeak]: Downloading https://files.pythonhosted.org/packages/be/b1/c118a6144e130f82851a43e9785be78e709ca6798b19cf352b2514538a5d/aspeak-5.1.0-cp39-none-win_amd64.whl
+[2023-05-05 04:29:34] INFO root fetch - processPackages [multimetricprog]: Downloading https://files.pythonhosted.org/packages/30/19/67e089a7af0b7cd2fac7419382d907999d1dfd48a7cf5cbaed9bf45ef63c/multimetricprog.tar.gz
+[2023-05-05 04:29:35] INFO root fetch - processPackages [awsimple]: Downloading https://files.pythonhosted.org/packages/34/f2/f758efb63955391b2f864e9392b1b85aacbe88b4717738648bb153b74ef1/awsimple-2.4.0-py3-none-any.whl
+[2023-05-05 04:29:35] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-05-05 04:29:35] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230504.tar.gz tmp/iam_actions-1.2.20230505.tar.gz --markdown 20230505/i/iam-actions/1.2.20230504-1.2.20230505/diff.md --exclude *.pyd
+[2023-05-05 04:29:35] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-05 04:29:35] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230505/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-05 04:29:35] WARNING root fetch - processPackages [rayvision-sync]: Skipping package: exceeds size limit 43681093>=10485760
+[2023-05-05 04:29:35] INFO root fetch - processPackages [rayvision-sync]: Start processing: alibabacloud-documentautoml20221229
+[2023-05-05 04:29:35] INFO root fetch - main [MainThread]: End processing [rayvision-sync] error
+[2023-05-05 04:29:35] INFO root fetch - processPackages [alibabacloud-documentautoml20221229-py2]: Downloading https://files.pythonhosted.org/packages/57/14/6459166487388675c0dfe517ffdd867a06a50d4e33a69dec969f21d9d0c4/alibabacloud_documentautoml20221229_py2-1.0.9.tar.gz
+[2023-05-05 04:29:35] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-05 04:29:35] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230505/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-05 04:29:35] INFO root fetch - processPackages [alibabacloud-documentautoml20221229-py2]: executing diffoscope
+[2023-05-05 04:29:35] INFO root fetch - processPackages [alibabacloud-documentautoml20221229-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_documentautoml20221229_py2-1.0.8.tar.gz tmp/alibabacloud_documentautoml20221229_py2-1.0.9.tar.gz --markdown 20230505/a/alibabacloud-documentautoml20221229-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 04:29:35] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/da/c4/8b81f28ad9451675ebc85587236ad8c5a89d61ce67fe99d3aab673f1894a/mpc_obscodes-2023.5.5.tar.gz
+[2023-05-05 04:29:35] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 04:29:35] INFO root fetch - processPackages [multimetricprog]: Downloading https://files.pythonhosted.org/packages/dd/44/da74684b78399aeec75e252f693c9ab9555f7ae5b0890b501a40bf29bb8d/multimetricprog-0.0.4.tar.gz
+[2023-05-05 04:29:35] INFO root fetch - processPackages [awsimple]: Downloading https://files.pythonhosted.org/packages/33/17/12b938895aa3d4437c599f7406f17536b30abcd52f0cfbca87a8f4359560/awsimple-2.4.1-py3-none-any.whl
+[2023-05-05 04:29:35] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2023-05-05 04:29:35] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2023.4.30.tar.gz tmp/mpc_obscodes-2023.5.5.tar.gz --markdown 20230505/m/mpc-obscodes/2023.4.30-2023.5.5/diff.md --exclude *.pyd
+[2023-05-05 04:29:35] INFO root fetch - processPackages [multimetricprog]: executing diffoscope
+[2023-05-05 04:29:35] INFO root fetch - processPackages [multimetricprog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multimetricprog.tar.gz tmp/multimetricprog-0.0.4.tar.gz --markdown 20230505/m/multimetricprog/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-05 04:29:35] INFO root fetch - processPackages [awsimple]: executing diffoscope
+[2023-05-05 04:29:35] INFO root fetch - processPackages [awsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsimple-2.4.0-py3-none-any.whl.zip tmp/awsimple-2.4.1-py3-none-any.whl.zip --markdown 20230505/a/awsimple/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-05-05 04:29:35] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: Downloading https://files.pythonhosted.org/packages/c3/21/2742f6b9196a183f8cd7a93389a6cdce17d4697fa4767350231fc5f184a1/alibabacloud_documentautoml20221229-1.0.8.tar.gz
+[2023-05-05 04:29:35] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: Downloading https://files.pythonhosted.org/packages/d4/93/c52a0496bc830bcf4e5de052753309ae90746619de5383622f2422179022/alibabacloud_documentautoml20221229-1.0.9.tar.gz
+[2023-05-05 04:29:35] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: executing diffoscope
+[2023-05-05 04:29:35] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_documentautoml20221229-1.0.8.tar.gz tmp/alibabacloud_documentautoml20221229-1.0.9.tar.gz --markdown 20230505/a/alibabacloud-documentautoml20221229/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 04:29:35] INFO root fetch - processPackages [aspeak]: Downloading https://files.pythonhosted.org/packages/89/92/45879519e9ec59444a59e00979bda9fcccc6b35e8f6a04de6f50ae33916a/aspeak-5.2.0-cp39-none-win_amd64.whl
+[2023-05-05 04:29:36] INFO root fetch - processPackages [alibabacloud-documentautoml20221229-py2]: Start processing: tsutils
+[2023-05-05 04:29:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-documentautoml20221229-py2]: success
+[2023-05-05 04:29:36] INFO root fetch - processPackages [tsutils]: New version: [8.0.4] Old Version: [8.0.3]
+[2023-05-05 04:29:36] INFO root fetch - processPackages [tsutils]: executing diffoscope
+[2023-05-05 04:29:36] INFO root fetch - processPackages [tsutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsutils-8.0.3.tar.gz tmp/tsutils-8.0.4.tar.gz --markdown 20230505/t/tsutils/8.0.3-8.0.4/diff.md --exclude *.pyd
+[2023-05-05 04:29:36] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2023-05-05 04:29:36] INFO root fetch - main [MainThread]: End processing [awsimple]: success
+[2023-05-05 04:29:36] INFO root fetch - processPackages [aspeak]: executing diffoscope
+[2023-05-05 04:29:36] INFO root fetch - processPackages [aspeak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspeak-5.1.0-cp39-none-win_amd64.whl.zip tmp/aspeak-5.2.0-cp39-none-win_amd64.whl.zip --markdown 20230505/a/aspeak/5.1.0-5.2.0/diff.md --exclude *.pyd
+[2023-05-05 04:29:37] INFO root fetch - main [MainThread]: End processing [multimetricprog]: success
+[2023-05-05 04:29:37] INFO root fetch - main [MainThread]: End processing [alibabacloud-documentautoml20221229]: success
+[2023-05-05 04:29:37] INFO root fetch - main [MainThread]: End processing [tsutils]: success
+[2023-05-05 04:29:38] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-05 04:29:38] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-05 04:29:39] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-05 04:29:42] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-05-05 04:30:01] INFO root fetch - main [MainThread]: End processing [aspeak]: success
+[2023-05-05 04:30:01] INFO root fetch - main [MainThread]: Store serial: [17981401]
