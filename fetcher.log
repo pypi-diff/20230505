@@ -8451,3 +8451,93 @@
 [2023-05-05 09:34:31] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-05 09:35:04] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-05-05 09:35:04] INFO root fetch - main [MainThread]: Store serial: [17983476]
+[2023-05-05 09:40:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17983476]
+[2023-05-05 09:40:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 09:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-forward
+[2023-05-05 09:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GridCal
+[2023-05-05 09:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proactive-jupyter-kernel
+[2023-05-05 09:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sarus-data-spec-public
+[2023-05-05 09:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omniplot
+[2023-05-05 09:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chalkpy
+[2023-05-05 09:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proteus-cli
+[2023-05-05 09:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: instld
+[2023-05-05 09:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lalsuite
+[2023-05-05 09:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: venv-modulefile
+[2023-05-05 09:40:14] INFO root fetch - processPackages [GridCal]: New version: [4.7.1] Old Version: [4.7.0]
+[2023-05-05 09:40:14] INFO root fetch - processPackages [proteus-cli]: New version: [0.2.23] Old Version: [0.2.22]
+[2023-05-05 09:40:14] INFO root fetch - processPackages [omniplot]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-05 09:40:14] INFO root fetch - processPackages [instld]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 09:40:14] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.8] Old Version: [0.0.2]
+[2023-05-05 09:40:14] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.2.1.dev0] Old Version: [3.1.1]
+[2023-05-05 09:40:14] INFO root fetch - processPackages [openai-forward]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-05 09:40:14] INFO root fetch - processPackages [chalkpy]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-05-05 09:40:14] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-05 09:40:14] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-05-05 09:40:14] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-05 09:40:14] INFO root fetch - processPackages [instld]: executing diffoscope
+[2023-05-05 09:40:14] INFO root fetch - processPackages [instld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instld-0.0.8.tar.gz tmp/instld-0.0.9.tar.gz --markdown 20230505/i/instld/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 09:40:14] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2023-05-05 09:40:14] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.1.1.tar.gz tmp/sarus_data_spec_public-3.2.1.dev0.tar.gz --markdown 20230505/s/sarus-data-spec-public/3.1.1-3.2.1.dev0/diff.md --exclude *.pyd
+[2023-05-05 09:40:14] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-05-05 09:40:14] INFO root fetch - processPackages [lalsuite]: Start processing: nowcasting-datamodel
+[2023-05-05 09:40:14] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-05-05 09:40:14] INFO root fetch - processPackages [omniplot]: Downloading https://files.pythonhosted.org/packages/20/a7/38f2b0c4bb0360c328adebc2405a83e4f2129481260a1cdb65b822a70a05/omniplot-0.4.5.tar.gz
+[2023-05-05 09:40:14] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-05 09:40:14] INFO root fetch - processPackages [GridCal]: Downloading https://files.pythonhosted.org/packages/54/2b/6d4285333f5771873d2e7ff4790384e9c7481763b31818dd50e2c62889b2/GridCal-4.7.0.tar.gz
+[2023-05-05 09:40:14] INFO root fetch - processPackages [proteus-cli]: Downloading https://files.pythonhosted.org/packages/2c/01/a4911ec6f6b86cb03714621d9d97fd247b8e54bd9ca312abc8c744334ff6/proteus_cli-0.2.22.tar.gz
+[2023-05-05 09:40:14] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/19/50/1157efcd5697ff2337f479a45017af9995e9f734ed263dca1ca82132f3ce/chalkpy-2.1.6.tar.gz
+[2023-05-05 09:40:14] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/4a/ed/a17d83af05c21895ffb19f8c7b947b1c3b5d109ca268fa2c7f6ec340647e/venv-modulefile-0.0.2.tar.gz
+[2023-05-05 09:40:14] WARNING root fetch - processPackages [GridCal]: Skipping package: exceeds size limit 28286816>=10485760
+[2023-05-05 09:40:14] INFO root fetch - processPackages [GridCal]: Start processing: spatialdata
+[2023-05-05 09:40:14] INFO root fetch - main [MainThread]: End processing [GridCal] error
+[2023-05-05 09:40:14] INFO root fetch - processPackages [spatialdata]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-05-05 09:40:14] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-05 09:40:14] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.1.5.tar.gz tmp/chalkpy-2.1.6.tar.gz --markdown 20230505/c/chalkpy/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-05-05 09:40:14] INFO root fetch - processPackages [openai-forward]: Downloading https://files.pythonhosted.org/packages/de/3f/1a490c6e2e44bccbfc0bc7873cfec521820d8d952aff1c99a818ff659af8/openai_forward-0.1.6.tar.gz
+[2023-05-05 09:40:14] INFO root fetch - processPackages [spatialdata]: executing diffoscope
+[2023-05-05 09:40:14] INFO root fetch - processPackages [spatialdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialdata-0.0.1.tar.gz tmp/spatialdata-0.0.4.tar.gz --markdown 20230505/s/spatialdata/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-05-05 09:40:14] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-05 09:40:14] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230505/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-05 09:40:14] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-05-05 09:40:14] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.3.8.tar.gz tmp/nowcasting_datamodel-1.3.9.tar.gz --markdown 20230505/n/nowcasting-datamodel/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-05 09:40:14] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/e3/ef/b8cf8b01bc081db1b77f1c37b3a4dab5f0c7b4a970c895e9885da7ce4f81/venv-modulefile-0.0.8.tar.gz
+[2023-05-05 09:40:14] INFO root fetch - processPackages [openai-forward]: executing diffoscope
+[2023-05-05 09:40:14] INFO root fetch - processPackages [openai-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_forward-0.1.5.tar.gz tmp/openai_forward-0.1.6.tar.gz --markdown 20230505/o/openai-forward/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-05 09:40:14] INFO root fetch - processPackages [omniplot]: Downloading https://files.pythonhosted.org/packages/19/5d/a717e3feecf16bbc8c7c99e578d7c039f1a06f176d219c1c7cb9412a5a80/omniplot-0.4.6.tar.gz
+[2023-05-05 09:40:14] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-05 09:40:14] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.2.tar.gz tmp/venv-modulefile-0.0.8.tar.gz --markdown 20230505/v/venv-modulefile/0.0.2-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 09:40:14] INFO root fetch - processPackages [proteus-cli]: Downloading https://files.pythonhosted.org/packages/3a/c3/46df9fc8b74137724b6afdce610228f0fb47fb56fb609576cea288e2797b/proteus_cli-0.2.23.tar.gz
+[2023-05-05 09:40:14] INFO root fetch - processPackages [omniplot]: executing diffoscope
+[2023-05-05 09:40:14] INFO root fetch - processPackages [omniplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniplot-0.4.5.tar.gz tmp/omniplot-0.4.6.tar.gz --markdown 20230505/o/omniplot/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-05 09:40:14] INFO root fetch - processPackages [proteus-cli]: executing diffoscope
+[2023-05-05 09:40:14] INFO root fetch - processPackages [proteus-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_cli-0.2.22.tar.gz tmp/proteus_cli-0.2.23.tar.gz --markdown 20230505/p/proteus-cli/0.2.22-0.2.23/diff.md --exclude *.pyd
+[2023-05-05 09:40:16] INFO root fetch - processPackages [instld]: Start processing: prda
+[2023-05-05 09:40:16] INFO root fetch - main [MainThread]: End processing [instld]: success
+[2023-05-05 09:40:16] INFO root fetch - processPackages [spatialdata]: Start processing: p-template-generator
+[2023-05-05 09:40:16] INFO root fetch - main [MainThread]: End processing [spatialdata]: success
+[2023-05-05 09:40:16] INFO root fetch - processPackages [prda]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 09:40:16] INFO root fetch - processPackages [openai-forward]: Start processing: deepclient
+[2023-05-05 09:40:16] INFO root fetch - main [MainThread]: End processing [openai-forward]: success
+[2023-05-05 09:40:16] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 09:40:16] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-05 09:40:16] INFO root fetch - processPackages [deepclient]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-05-05 09:40:16] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-05-05 09:40:16] INFO root fetch - processPackages [prda]: Downloading https://files.pythonhosted.org/packages/7a/6c/f7d88024b21644c1c174a767e832f98bb6e451c88e41f666250371208a3a/prda-1.0.0.tar.gz
+[2023-05-05 09:40:16] INFO root fetch - processPackages [deepclient]: executing diffoscope
+[2023-05-05 09:40:16] INFO root fetch - processPackages [deepclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepclient-0.0.2.tar.gz tmp/deepclient-1.0.0.tar.gz --markdown 20230505/d/deepclient/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-05 09:40:16] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-05 09:40:16] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/1c/df/a08a0d4221d9beca0d5fd6dda646c3a07951f26d77714cafa8a7c4b9c5cc/p-template-generator-0.1.8.tar.gz
+[2023-05-05 09:40:16] INFO root fetch - processPackages [prda]: Downloading https://files.pythonhosted.org/packages/4b/e5/3d1afa75dd476566ecb3853f0eb89abab6763d8085c94f4405d9d6ae33f4/prda-1.0.1.tar.gz
+[2023-05-05 09:40:16] INFO root fetch - processPackages [prda]: executing diffoscope
+[2023-05-05 09:40:16] INFO root fetch - processPackages [prda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prda-1.0.0.tar.gz tmp/prda-1.0.1.tar.gz --markdown 20230505/p/prda/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 09:40:16] INFO root fetch - main [MainThread]: End processing [proteus-cli]: success
+[2023-05-05 09:40:17] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/4d/c6/b1ba9d57550b94b120e03283c8ce61d054c3f089aed5ef88f169c30f97d8/p-template-generator-0.1.9.tar.gz
+[2023-05-05 09:40:17] INFO root fetch - main [MainThread]: End processing [deepclient]: success
+[2023-05-05 09:40:17] INFO root fetch - main [MainThread]: End processing [prda]: success
+[2023-05-05 09:40:18] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2023-05-05 09:40:18] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.8.tar.gz tmp/p-template-generator-0.1.9.tar.gz --markdown 20230505/p/p-template-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 09:40:18] INFO root fetch - main [MainThread]: End processing [omniplot]: success
+[2023-05-05 09:40:19] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2023-05-05 09:40:20] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2023-05-05 09:40:23] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-05 09:40:23] INFO root fetch - main [MainThread]: Store serial: [17983536]
