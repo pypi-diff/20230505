@@ -2344,3 +2344,46 @@
 [2023-05-05 02:44:17] INFO root fetch - main [MainThread]: End processing [linkml]: success
 [2023-05-05 02:44:21] INFO root fetch - main [MainThread]: End processing [ml-infer]: success
 [2023-05-05 02:44:21] INFO root fetch - main [MainThread]: Store serial: [17979873]
+[2023-05-05 02:49:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17979873]
+[2023-05-05 02:49:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-05 02:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi
+[2023-05-05 02:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bitmapist
+[2023-05-05 02:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2023-05-05 02:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: projen
+[2023-05-05 02:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kubric-nightly
+[2023-05-05 02:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-databrew-cicd
+[2023-05-05 02:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bioversions
+[2023-05-05 02:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: canvas-pilot
+[2023-05-05 02:49:31] INFO root fetch - processPackages [bitmapist]: New version: [3.99] Old Version: [3.98]
+[2023-05-05 02:49:31] INFO root fetch - processPackages [hyfi]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-05 02:49:31] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.5.4] Old Version: [2023.5.3]
+[2023-05-05 02:49:31] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-05 02:49:31] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202305040045] Old Version: [4.9.2.dev202305030044]
+[2023-05-05 02:49:31] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-05-05 02:49:31] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-05 02:49:31] WARNING root fetch - processPackages [canvas-pilot]: Skipping, unable to determine old version
+[2023-05-05 02:49:31] INFO root fetch - main [MainThread]: End processing [canvas-pilot] error
+[2023-05-05 02:49:31] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-05-05 02:49:31] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.2.9.tar.gz tmp/hyfi-0.3.0.tar.gz --markdown 20230505/h/hyfi/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 02:49:31] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-05-05 02:49:31] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230505/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-05 02:49:31] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-05 02:49:31] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230505/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-05 02:49:31] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-05-05 02:49:31] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230505/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-05-05 02:49:31] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/73/4c/8eb176114624f9d391fe7299d3046c9462cb0d436ff066f1815a082187f1/kubric-nightly-2023.5.4.tar.gz
+[2023-05-05 02:49:31] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/55/b5/a262acca2c49da6c91de5bc67f8f499482f0dfcbb021b5680d03b9aa1bb0/tfds-nightly-4.9.2.dev202305040045.tar.gz
+[2023-05-05 02:49:31] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-05-05 02:49:31] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.5.3.tar.gz tmp/kubric-nightly-2023.5.4.tar.gz --markdown 20230505/k/kubric-nightly/2023.5.3-2023.5.4/diff.md --exclude *.pyd
+[2023-05-05 02:49:31] INFO root fetch - processPackages [bitmapist]: executing diffoscope
+[2023-05-05 02:49:31] INFO root fetch - processPackages [bitmapist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmapist-3.98.tar.gz tmp/bitmapist-3.99.tar.gz --markdown 20230505/b/bitmapist/3.98-3.99/diff.md --exclude *.pyd
+[2023-05-05 02:49:31] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-05-05 02:49:31] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202305030044.tar.gz tmp/tfds-nightly-4.9.2.dev202305040045.tar.gz --markdown 20230505/t/tfds-nightly/4.9.2.dev202305030044-4.9.2.dev202305040045/diff.md --exclude *.pyd
+[2023-05-05 02:49:32] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-05-05 02:49:33] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-05-05 02:49:33] INFO root fetch - main [MainThread]: End processing [bitmapist]: success
+[2023-05-05 02:49:33] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-05 02:49:34] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-05-05 02:49:43] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-05-05 02:49:51] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-05-05 02:49:51] INFO root fetch - main [MainThread]: Store serial: [17979904]
