@@ -20438,3 +20438,94 @@
 [2023-05-05 19:58:18] INFO root fetch - main [MainThread]: End processing [ruff]: success
 [2023-05-05 19:58:27] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-05-05 19:58:27] INFO root fetch - main [MainThread]: Store serial: [17991026]
+[2023-05-05 20:03:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17991026]
+[2023-05-05 20:03:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fpyo2ipa
+[2023-05-05 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-jfq-project
+[2023-05-05 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cnki-html2json
+[2023-05-05 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-iot-core-certificates
+[2023-05-05 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynrm
+[2023-05-05 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tgpy
+[2023-05-05 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-repo-client
+[2023-05-05 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simplepyble
+[2023-05-05 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wipac-file-catalog-indexer
+[2023-05-05 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tetun-tokenizer
+[2023-05-05 20:03:38] WARNING root fetch - processPackages [test-jfq-project]: Skipping, unable to determine old version
+[2023-05-05 20:03:38] INFO root fetch - processPackages [fpyo2ipa]: New version: [1.0.3] Old Version: [1.0]
+[2023-05-05 20:03:38] INFO root fetch - processPackages [test-jfq-project]: Start processing: wildboottest
+[2023-05-05 20:03:38] INFO root fetch - main [MainThread]: End processing [test-jfq-project] error
+[2023-05-05 20:03:38] INFO root fetch - processPackages [cnki-html2json]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 20:03:38] WARNING root fetch - processPackages [cdk-iot-core-certificates]: Skipping, unable to determine old version
+[2023-05-05 20:03:38] INFO root fetch - processPackages [cdk-iot-core-certificates]: Start processing: instld
+[2023-05-05 20:03:38] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates] error
+[2023-05-05 20:03:38] INFO root fetch - processPackages [pynrm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 20:03:38] INFO root fetch - processPackages [tgpy]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-05 20:03:38] INFO root fetch - processPackages [tetun-tokenizer]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-05 20:03:39] INFO root fetch - processPackages [instld]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 20:03:39] INFO root fetch - processPackages [wipac-file-catalog-indexer]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-05 20:03:39] INFO root fetch - processPackages [data-repo-client]: New version: [1.64.0] Old Version: [1.479.0]
+[2023-05-05 20:03:39] INFO root fetch - processPackages [wildboottest]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-05 20:03:39] INFO root fetch - processPackages [simplepyble]: New version: [0.6.2.dev2] Old Version: [0.6.2.dev1]
+[2023-05-05 20:03:39] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/49/8e/ab4fe1962440d9bbf1fe931cfa395178fe586cbab98e2e9b0ff7074d55e0/data-repo-client-1.479.0.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [tetun-tokenizer]: Downloading https://files.pythonhosted.org/packages/3a/91/2008531874972abce23d70157772fce3a67849ad2c5ebc38b965d1d91cfb/tetun_tokenizer-1.1.1.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [cnki-html2json]: Downloading https://files.pythonhosted.org/packages/69/27/ea92b88f8e2f3a80b80e9c7e141b61c49204e2bd5eb71ee907a64d2e9afc/cnki_html2json-0.1.4.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [pynrm]: Downloading https://files.pythonhosted.org/packages/ee/05/082d62c501e27e961292c38e8060ccac2e2d6d84ac32f6a2587591646c89/pynrm-0.1.0.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [wildboottest]: Downloading https://files.pythonhosted.org/packages/f3/16/ca57c1e0c863c3d0da97788f7debb4dd93efefd1f425cad76c0977a26875/wildboottest-0.1.5.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [tgpy]: Downloading https://files.pythonhosted.org/packages/b5/a1/a65bf313a35bcc0fb5229bdcfb358a1d6e84acabc58441e2a2a088dfe625/tgpy-0.9.3.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [simplepyble]: Downloading https://files.pythonhosted.org/packages/7f/79/ee2c3e16083e395bbf9c927b2a226c2d8511bda8f5bc7e47539275bd566a/simplepyble-0.6.2.dev1.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [wipac-file-catalog-indexer]: Downloading https://files.pythonhosted.org/packages/82/00/c92c0dd3e58fb88abe93685114d466df3d591a687d5202341fa27404028d/wipac-file-catalog-indexer-2.0.0.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [fpyo2ipa]: Downloading https://files.pythonhosted.org/packages/ca/c3/cb232bb26a8eac07bc3fda929027a1a8b26298feafcdc65b81bce031dfe3/fpyo2ipa-1.0.3.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [instld]: executing diffoscope
+[2023-05-05 20:03:39] INFO root fetch - processPackages [tetun-tokenizer]: executing diffoscope
+[2023-05-05 20:03:39] INFO root fetch - processPackages [instld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instld-0.0.8.tar.gz tmp/instld-0.0.9.tar.gz --markdown 20230505/i/instld/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 20:03:39] INFO root fetch - processPackages [tetun-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tetun_tokenizer-1.1.0.tar.gz tmp/tetun_tokenizer-1.1.1.tar.gz --markdown 20230505/t/tetun-tokenizer/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-05 20:03:39] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2023-05-05 20:03:39] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-1.479.0.tar.gz tmp/data-repo-client-1.64.0.tar.gz --markdown 20230505/d/data-repo-client/1.479.0-1.64.0/diff.md --exclude *.pyd
+[2023-05-05 20:03:39] INFO root fetch - processPackages [fpyo2ipa]: executing diffoscope
+[2023-05-05 20:03:39] INFO root fetch - processPackages [fpyo2ipa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpyo2ipa-1.0.tar.gz tmp/fpyo2ipa-1.0.3.tar.gz --markdown 20230505/f/fpyo2ipa/1.0-1.0.3/diff.md --exclude *.pyd
+[2023-05-05 20:03:39] INFO root fetch - processPackages [pynrm]: Downloading https://files.pythonhosted.org/packages/19/b1/c6499b4a338e1f117e690fa93d22045154b819193992b01bb9b8df0e9d14/pynrm-0.1.1.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [tgpy]: Downloading https://files.pythonhosted.org/packages/56/54/7020816abb8ab66cfdf313f264bf78c556e96004e44b6e428126e395c276/tgpy-0.9.4.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [cnki-html2json]: Downloading https://files.pythonhosted.org/packages/2d/ce/f9c8a3bdbed45fe8f22e294e64cffd00939448ef2576b7cec11e84f9703b/cnki_html2json-0.1.5.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [wipac-file-catalog-indexer]: Downloading https://files.pythonhosted.org/packages/ea/22/9701550828a67eabb88774c9b708e9d1751291f37a7cf9889abb5c65ba2b/wipac-file-catalog-indexer-2.0.1.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [wildboottest]: Downloading https://files.pythonhosted.org/packages/15/9a/f43351d3c251910498b3150f01ef0fe6ae0338d809f12b15e7bfaba98af2/wildboottest-0.1.6.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [simplepyble]: Downloading https://files.pythonhosted.org/packages/91/39/0a25bce518b0e38f3ee8896b2abf660a10265c22b37ef383dcb9d9fc0209/simplepyble-0.6.2.dev2.tar.gz
+[2023-05-05 20:03:39] INFO root fetch - processPackages [pynrm]: executing diffoscope
+[2023-05-05 20:03:39] INFO root fetch - processPackages [pynrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynrm-0.1.0.tar.gz tmp/pynrm-0.1.1.tar.gz --markdown 20230505/p/pynrm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 20:03:39] INFO root fetch - processPackages [cnki-html2json]: executing diffoscope
+[2023-05-05 20:03:39] INFO root fetch - processPackages [cnki-html2json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnki_html2json-0.1.4.tar.gz tmp/cnki_html2json-0.1.5.tar.gz --markdown 20230505/c/cnki-html2json/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 20:03:39] INFO root fetch - processPackages [tgpy]: executing diffoscope
+[2023-05-05 20:03:39] INFO root fetch - processPackages [tgpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgpy-0.9.3.tar.gz tmp/tgpy-0.9.4.tar.gz --markdown 20230505/t/tgpy/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-05 20:03:39] INFO root fetch - processPackages [wipac-file-catalog-indexer]: executing diffoscope
+[2023-05-05 20:03:39] INFO root fetch - processPackages [wipac-file-catalog-indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipac-file-catalog-indexer-2.0.0.tar.gz tmp/wipac-file-catalog-indexer-2.0.1.tar.gz --markdown 20230505/w/wipac-file-catalog-indexer/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-05 20:03:39] INFO root fetch - processPackages [simplepyble]: executing diffoscope
+[2023-05-05 20:03:39] INFO root fetch - processPackages [simplepyble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplepyble-0.6.2.dev1.tar.gz tmp/simplepyble-0.6.2.dev2.tar.gz --markdown 20230505/s/simplepyble/0.6.2.dev1-0.6.2.dev2/diff.md --exclude *.pyd
+[2023-05-05 20:03:39] INFO root fetch - processPackages [wildboottest]: executing diffoscope
+[2023-05-05 20:03:39] INFO root fetch - processPackages [wildboottest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wildboottest-0.1.5.tar.gz tmp/wildboottest-0.1.6.tar.gz --markdown 20230505/w/wildboottest/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-05 20:03:40] INFO root fetch - processPackages [tetun-tokenizer]: Start processing: axanexa-moncli
+[2023-05-05 20:03:40] INFO root fetch - main [MainThread]: End processing [tetun-tokenizer]: success
+[2023-05-05 20:03:41] ERROR root fetch - processPackages [axanexa-moncli]: Unable to get metadata: No such project 'axanexa-moncli'
+[2023-05-05 20:03:41] INFO root fetch - processPackages [axanexa-moncli]: Start processing: dkist-processing-test
+[2023-05-05 20:03:41] INFO root fetch - main [MainThread]: End processing [axanexa-moncli] error
+[2023-05-05 20:03:41] INFO root fetch - processPackages [fpyo2ipa]: Start processing: netapp-ontap
+[2023-05-05 20:03:41] INFO root fetch - main [MainThread]: End processing [fpyo2ipa]: success
+[2023-05-05 20:03:41] INFO root fetch - processPackages [dkist-processing-test]: New version: [1.1.0] Old Version: [1.0.9rc3]
+[2023-05-05 20:03:41] INFO root fetch - main [MainThread]: End processing [instld]: success
+[2023-05-05 20:03:41] INFO root fetch - processPackages [netapp-ontap]: New version: [9.9.1rc1] Old Version: [9.9.1.0]
+[2023-05-05 20:03:41] INFO root fetch - processPackages [dkist-processing-test]: Downloading https://files.pythonhosted.org/packages/5c/44/1d03fbbf9f52c19a167afa39adb28f22291b6d1cb81455239ea27437f71b/dkist-processing-test-1.0.9rc3.tar.gz
+[2023-05-05 20:03:41] INFO root fetch - main [MainThread]: End processing [wildboottest]: success
+[2023-05-05 20:03:41] INFO root fetch - main [MainThread]: End processing [tgpy]: success
+[2023-05-05 20:03:41] INFO root fetch - processPackages [netapp-ontap]: Downloading https://files.pythonhosted.org/packages/6d/a8/72ee4111a07b13e9610cae9d796883efef8583113d9400a618a7b6375d96/netapp-ontap-9.9.1.0.tar.gz
+[2023-05-05 20:03:41] INFO root fetch - main [MainThread]: End processing [pynrm]: success
+[2023-05-05 20:03:41] INFO root fetch - main [MainThread]: End processing [cnki-html2json]: success
+[2023-05-05 20:03:41] INFO root fetch - processPackages [dkist-processing-test]: Downloading https://files.pythonhosted.org/packages/b0/d5/f16567040b7a7399e8d277d8a6855ed00a34f260600b3844be775328696e/dkist-processing-test-1.1.0.tar.gz
+[2023-05-05 20:03:41] INFO root fetch - processPackages [dkist-processing-test]: executing diffoscope
+[2023-05-05 20:03:41] INFO root fetch - processPackages [dkist-processing-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-test-1.0.9rc3.tar.gz tmp/dkist-processing-test-1.1.0.tar.gz --markdown 20230505/d/dkist-processing-test/1.0.9rc3-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 20:03:42] INFO root fetch - main [MainThread]: End processing [wipac-file-catalog-indexer]: success
+[2023-05-05 20:03:43] INFO root fetch - main [MainThread]: End processing [dkist-processing-test]: success
+[2023-05-05 20:03:43] INFO root fetch - processPackages [netapp-ontap]: Downloading https://files.pythonhosted.org/packages/33/59/a755a8186c723a281ecd6f7188f8f4d0477ab5a28676434fbba86d61af64/netapp-ontap-9.9.1rc1.tar.gz
+[2023-05-05 20:03:44] INFO root fetch - main [MainThread]: End processing [simplepyble]: success
+[2023-05-05 20:03:44] INFO root fetch - processPackages [netapp-ontap]: executing diffoscope
+[2023-05-05 20:03:44] INFO root fetch - processPackages [netapp-ontap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netapp-ontap-9.9.1.0.tar.gz tmp/netapp-ontap-9.9.1rc1.tar.gz --markdown 20230505/n/netapp-ontap/9.9.1.0-9.9.1rc1/diff.md --exclude *.pyd
+[2023-05-05 20:03:45] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2023-05-05 20:04:40] INFO root fetch - main [MainThread]: End processing [netapp-ontap]: success
+[2023-05-05 20:04:40] INFO root fetch - main [MainThread]: Store serial: [17991095]
