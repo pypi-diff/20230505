@@ -8143,3 +8143,98 @@
 [2023-05-05 09:12:30] INFO root fetch - main [MainThread]: End processing [openram]: success
 [2023-05-05 09:12:35] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-05-05 09:12:35] INFO root fetch - main [MainThread]: Store serial: [17983290]
+[2023-05-05 09:17:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17983290]
+[2023-05-05 09:17:45] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-libvirt
+[2023-05-05 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-postgresql
+[2023-05-05 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-vsphere
+[2023-05-05 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-05 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plotguy
+[2023-05-05 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steam-pysigma
+[2023-05-05 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyVISA-py
+[2023-05-05 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-05 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tfq-nightly
+[2023-05-05 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qgate-perf
+[2023-05-05 09:17:45] INFO root fetch - processPackages [plotguy]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.4.1a1683267861] Old Version: [0.4.1a1681932948]
+[2023-05-05 09:17:45] INFO root fetch - processPackages [steam-pysigma]: New version: [2023.5.1] Old Version: [2023.4.8]
+[2023-05-05 09:17:45] INFO root fetch - processPackages [PyVISA-py]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-05-05 09:17:45] WARNING root fetch - processPackages [qgate-perf]: Skipping, unable to determine old version
+[2023-05-05 09:17:45] INFO root fetch - processPackages [qgate-perf]: Start processing: osm-fieldwork
+[2023-05-05 09:17:45] INFO root fetch - main [MainThread]: End processing [qgate-perf] error
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.5.0a1683269346] Old Version: [4.5.0a1681939540]
+[2023-05-05 09:17:45] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230504] Old Version: [0.7.3.dev20230503]
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-05 09:17:45] INFO root fetch - processPackages [osm-fieldwork]: New version: [0.3.1rc0] Old Version: [0.3.0]
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1683268759] Old Version: [3.9.0a1681940795]
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230505/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230505/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-05 09:17:45] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/87/3f/b75aa497c211ba29367de54d7da4b1c67cf6cc93dd333f4c07e43aaaf22d/plotguy-1.0.6.tar.gz
+[2023-05-05 09:17:45] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/82/d5/8d1920ab564a29277ef8ce1bef974624b3875a8c022c0956a9ee66db5eb3/steam-pysigma-2023.4.8.tar.gz
+[2023-05-05 09:17:45] INFO root fetch - processPackages [PyVISA-py]: Downloading https://files.pythonhosted.org/packages/97/73/2ca306bfca54edbec43a73c714dbdaf6672737727c5a4bd16621e0718138/PyVISA-py-0.6.3.tar.gz
+[2023-05-05 09:17:45] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/57/44/de7a92522e564f953d9184dc08e152f53b92fd04c32745a0dfdef8ed0058/tfq_nightly-0.7.3.dev20230503-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/96/5b/a965e273e8e53954d1ad49240a0f90da24b90d7a61d9cce76fe7d14beccf/pulumi_libvirt-0.4.1a1681932948.tar.gz
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/b3/c5/d1d16037021daa32a039a9680baf396de5db5f460a393c69be0b80963d3a/pulumi_vsphere-4.5.0a1681939540.tar.gz
+[2023-05-05 09:17:45] INFO root fetch - processPackages [osm-fieldwork]: Downloading https://files.pythonhosted.org/packages/f3/93/5c9faf52363035c0108092acf69a6bbf443624b5e2e7c5a79a3e77e232e8/osm-fieldwork-0.3.0.tar.gz
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/97/2a/33b9e24047a0ffe7b92657526bcebdc0de80711692fa19ec4aa7a955752f/pulumi_postgresql-3.9.0a1681940795.tar.gz
+[2023-05-05 09:17:45] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/8a/14/3df19d399b0dfb1b0bedd351425bacffc8d461532ca021de7398938c7637/steam-pysigma-2023.5.1.tar.gz
+[2023-05-05 09:17:45] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/da/9f/f2a3445cab857df38c30171b98173fcd25be89708a3ec452bb411fdaf9cd/plotguy-1.0.7.tar.gz
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/44/a2/9db43741e64d6d27c46c258b607f4af2d863f94e0f43110d4f9e49aee573/pulumi_libvirt-0.4.1a1683267861.tar.gz
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/a5/29/525c52adfcd4098f7000064ae8b1221e3aacaad7b2ad3566afb945d16954/pulumi_vsphere-4.5.0a1683269346.tar.gz
+[2023-05-05 09:17:45] INFO root fetch - processPackages [PyVISA-py]: Downloading https://files.pythonhosted.org/packages/b7/62/2ef8b003b913922d807f56303891b939861cb31c177debe9fa37fb3806b4/PyVISA-py-0.7.0.tar.gz
+[2023-05-05 09:17:45] INFO root fetch - processPackages [osm-fieldwork]: Downloading https://files.pythonhosted.org/packages/87/c0/dfe50f9475fce224595ff9da06de31ea68147ab5baf2bb97a98c95a09d7e/osm-fieldwork-0.3.1rc0.tar.gz
+[2023-05-05 09:17:45] INFO root fetch - processPackages [steam-pysigma]: executing diffoscope
+[2023-05-05 09:17:45] INFO root fetch - processPackages [steam-pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-pysigma-2023.4.8.tar.gz tmp/steam-pysigma-2023.5.1.tar.gz --markdown 20230505/s/steam-pysigma/2023.4.8-2023.5.1/diff.md --exclude *.pyd
+[2023-05-05 09:17:45] INFO root fetch - processPackages [plotguy]: executing diffoscope
+[2023-05-05 09:17:45] INFO root fetch - processPackages [plotguy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotguy-1.0.6.tar.gz tmp/plotguy-1.0.7.tar.gz --markdown 20230505/p/plotguy/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2023-05-05 09:17:45] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.1a1681932948.tar.gz tmp/pulumi_libvirt-0.4.1a1683267861.tar.gz --markdown 20230505/p/pulumi-libvirt/0.4.1a1681932948-0.4.1a1683267861/diff.md --exclude *.pyd
+[2023-05-05 09:17:45] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819847>=10485760
+[2023-05-05 09:17:45] INFO root fetch - processPackages [tfq-nightly]: Start processing: encapsia-api
+[2023-05-05 09:17:45] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-05-05 09:17:46] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2023-05-05 09:17:46] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.5.0a1681939540.tar.gz tmp/pulumi_vsphere-4.5.0a1683269346.tar.gz --markdown 20230505/p/pulumi-vsphere/4.5.0a1681939540-4.5.0a1683269346/diff.md --exclude *.pyd
+[2023-05-05 09:17:46] INFO root fetch - processPackages [PyVISA-py]: executing diffoscope
+[2023-05-05 09:17:46] INFO root fetch - processPackages [PyVISA-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyVISA-py-0.6.3.tar.gz tmp/PyVISA-py-0.7.0.tar.gz --markdown 20230505/P/PyVISA-py/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2023-05-05 09:17:46] INFO root fetch - processPackages [encapsia-api]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-05-05 09:17:46] INFO root fetch - processPackages [osm-fieldwork]: executing diffoscope
+[2023-05-05 09:17:46] INFO root fetch - processPackages [osm-fieldwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osm-fieldwork-0.3.0.tar.gz tmp/osm-fieldwork-0.3.1rc0.tar.gz --markdown 20230505/o/osm-fieldwork/0.3.0-0.3.1rc0/diff.md --exclude *.pyd
+[2023-05-05 09:17:46] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/1d/8d/ece851596c50784b0f99a1410fb6889001e703487754da0ac175c7cffc80/pulumi_postgresql-3.9.0a1683268759.tar.gz
+[2023-05-05 09:17:46] INFO root fetch - processPackages [encapsia-api]: Downloading https://files.pythonhosted.org/packages/5d/64/8c5022786c4b259ae44c2482d0aa93aceead917980a4832e82e3a226830a/encapsia-api-0.3.3.tar.gz
+[2023-05-05 09:17:46] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2023-05-05 09:17:46] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1681940795.tar.gz tmp/pulumi_postgresql-3.9.0a1683268759.tar.gz --markdown 20230505/p/pulumi-postgresql/3.9.0a1681940795-3.9.0a1683268759/diff.md --exclude *.pyd
+[2023-05-05 09:17:46] INFO root fetch - processPackages [encapsia-api]: Downloading https://files.pythonhosted.org/packages/3f/27/21ec686c1cf39184f4077976fdca18f8ba0a92e1507d17434939ebabb7ad/encapsia_api-0.4.0-py3-none-any.whl
+[2023-05-05 09:17:46] INFO root fetch - processPackages [encapsia-api]: executing diffoscope
+[2023-05-05 09:17:46] INFO root fetch - processPackages [encapsia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encapsia-api-0.3.3.tar.gz tmp/encapsia_api-0.4.0-py3-none-any.whl.zip --markdown 20230505/e/encapsia-api/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-05 09:17:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: apify-client
+[2023-05-05 09:17:47] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-05 09:17:47] INFO root fetch - processPackages [apify-client]: New version: [1.1.0b1] Old Version: [1.1.0a3]
+[2023-05-05 09:17:47] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/9a/b7/ad6a2320515f97800fa8774cc5c8892394b81b970d296b71904f7f9cc55e/apify_client-1.1.0b1.tar.gz
+[2023-05-05 09:17:47] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: dbterd
+[2023-05-05 09:17:47] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-05 09:17:47] INFO root fetch - processPackages [dbterd]: New version: [1.2.0b4] Old Version: [1.2.0b2]
+[2023-05-05 09:17:47] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2023-05-05 09:17:47] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.1.0a3.tar.gz tmp/apify_client-1.1.0b1.tar.gz --markdown 20230505/a/apify-client/1.1.0a3-1.1.0b1/diff.md --exclude *.pyd
+[2023-05-05 09:17:47] INFO root fetch - processPackages [steam-pysigma]: Start processing: algokit-utils
+[2023-05-05 09:17:47] INFO root fetch - main [MainThread]: End processing [steam-pysigma]: success
+[2023-05-05 09:17:47] INFO root fetch - processPackages [dbterd]: executing diffoscope
+[2023-05-05 09:17:47] INFO root fetch - processPackages [dbterd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbterd-1.2.0b2.tar.gz tmp/dbterd-1.2.0b4.tar.gz --markdown 20230505/d/dbterd/1.2.0b2-1.2.0b4/diff.md --exclude *.pyd
+[2023-05-05 09:17:47] INFO root fetch - processPackages [algokit-utils]: New version: [1.1.2b2] Old Version: [1.1.2b1]
+[2023-05-05 09:17:47] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2023-05-05 09:17:47] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/b5/90/fb7899a5b47f22730f68302343ebad2235300e87fb810ba476615c9f93d3/algokit_utils-1.1.2b1-py3-none-any.whl
+[2023-05-05 09:17:47] INFO root fetch - main [MainThread]: End processing [plotguy]: success
+[2023-05-05 09:17:47] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/0b/33/dc6b84684bd5d9609564e33c6243c12e746e35efd221226115f7b7288869/algokit_utils-1.1.2b2-py3-none-any.whl
+[2023-05-05 09:17:47] INFO root fetch - main [MainThread]: End processing [PyVISA-py]: success
+[2023-05-05 09:17:48] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-05-05 09:17:48] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.1.2b1-py3-none-any.whl.zip tmp/algokit_utils-1.1.2b2-py3-none-any.whl.zip --markdown 20230505/a/algokit-utils/1.1.2b1-1.1.2b2/diff.md --exclude *.pyd
+[2023-05-05 09:17:48] INFO root fetch - main [MainThread]: End processing [encapsia-api]: success
+[2023-05-05 09:17:48] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2023-05-05 09:17:48] INFO root fetch - main [MainThread]: End processing [dbterd]: success
+[2023-05-05 09:17:48] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2023-05-05 09:17:49] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2023-05-05 09:17:51] INFO root fetch - main [MainThread]: End processing [osm-fieldwork]: success
+[2023-05-05 09:18:16] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-05-05 09:18:16] INFO root fetch - main [MainThread]: Store serial: [17983332]
