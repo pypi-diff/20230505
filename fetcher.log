@@ -18564,3 +18564,94 @@
 [2023-05-05 18:23:30] INFO root fetch - main [MainThread]: End processing [pulp-rpm-client]: success
 [2023-05-05 18:23:31] INFO root fetch - main [MainThread]: End processing [alertlogic-sdk-definitions]: success
 [2023-05-05 18:23:31] INFO root fetch - main [MainThread]: Store serial: [17989813]
+[2023-05-05 18:28:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17989813]
+[2023-05-05 18:28:40] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-05 18:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-25
+[2023-05-05 18:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-mailing
+[2023-05-05 18:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bundlewrap
+[2023-05-05 18:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AutoGenerateMKD
+[2023-05-05 18:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulp-rpm
+[2023-05-05 18:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syncqb
+[2023-05-05 18:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulp-rpm-client
+[2023-05-05 18:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: loggerml
+[2023-05-05 18:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycheops
+[2023-05-05 18:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-master
+[2023-05-05 18:28:40] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-05 18:28:40] INFO root fetch - processPackages [pulp-rpm]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-05 18:28:40] INFO root fetch - processPackages [bundlewrap]: New version: [4.9.0] Old Version: [4.8.2]
+[2023-05-05 18:28:40] INFO root fetch - processPackages [AutoGenerateMKD]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 18:28:40] INFO root fetch - processPackages [django-mailing]: New version: [0.2] Old Version: [0.1beta9]
+[2023-05-05 18:28:40] INFO root fetch - processPackages [pycheops]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 18:28:40] INFO root fetch - processPackages [syncqb]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-05 18:28:40] INFO root fetch - processPackages [loggerml]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-05 18:28:40] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230505.7.7.966709] Old Version: [20230505.16.26.177492]
+[2023-05-05 18:28:40] INFO root fetch - processPackages [pulp-rpm-client]: New version: [3.9.1] Old Version: [3.9.0.dev1611548779]
+[2023-05-05 18:28:40] INFO root fetch - processPackages [pulp-rpm]: executing diffoscope
+[2023-05-05 18:28:40] INFO root fetch - processPackages [pulp-rpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-rpm-3.9.0.tar.gz tmp/pulp-rpm-3.9.1.tar.gz --markdown 20230505/p/pulp-rpm/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-05 18:28:40] INFO root fetch - processPackages [bundlewrap]: executing diffoscope
+[2023-05-05 18:28:40] INFO root fetch - processPackages [bundlewrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bundlewrap-4.8.2.tar.gz tmp/bundlewrap-4.9.0.tar.gz --markdown 20230505/b/bundlewrap/4.8.2-4.9.0/diff.md --exclude *.pyd
+[2023-05-05 18:28:40] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-05 18:28:40] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.8.tar.gz tmp/cdk8s-plus-25-2.7.9.tar.gz --markdown 20230505/c/cdk8s-plus-25/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-05 18:28:40] INFO root fetch - processPackages [django-mailing]: Downloading https://files.pythonhosted.org/packages/6c/fa/dd5f2d5a2fa0bcf525186a87ea6809a228f69a40d2308e0ea3a8e0309ac6/django-mailing-0.1beta9.tar.gz
+[2023-05-05 18:28:40] INFO root fetch - processPackages [pulp-rpm-client]: executing diffoscope
+[2023-05-05 18:28:40] INFO root fetch - processPackages [pulp-rpm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_rpm-client-3.9.0.dev1611548779.tar.gz tmp/pulp_rpm-client-3.9.1.tar.gz --markdown 20230505/p/pulp-rpm-client/3.9.0.dev1611548779-3.9.1/diff.md --exclude *.pyd
+[2023-05-05 18:28:40] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/cb/61/4c07ecc15365141233dc0c57c17653a15843236f77ad108688859d5ac4e4/loggerml-0.5.0.tar.gz
+[2023-05-05 18:28:40] INFO root fetch - processPackages [AutoGenerateMKD]: Downloading https://files.pythonhosted.org/packages/8b/57/a138045fb6bba21d8659cd3290464e7649a2e2c9c459459f863cdd6a5292/AutoGenerateMKD-0.0.5.tar.gz
+[2023-05-05 18:28:40] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/72/ae/2dcba63f398767e705e16d561c24dda7900a6f88f9eca7accf12894f149a/certora-cli-alpha-master-20230505.16.26.177492.tar.gz
+[2023-05-05 18:28:40] INFO root fetch - processPackages [pycheops]: Downloading https://files.pythonhosted.org/packages/96/ca/33f19d4efdc491232a5803c8a38aa38c0e29f02866e6599132293c7a9774/pycheops-1.0.8.tar.gz
+[2023-05-05 18:28:40] INFO root fetch - processPackages [syncqb]: Downloading https://files.pythonhosted.org/packages/20/5e/198e27a07da60fe81d08990b81bd870bd6fca60c9794dbd09360746534a5/syncqb-1.0.8.tar.gz
+[2023-05-05 18:28:40] WARNING root fetch - processPackages [loggerml]: Skipping package: exceeds size limit 28475484>=10485760
+[2023-05-05 18:28:40] INFO root fetch - processPackages [loggerml]: Start processing: wds-client
+[2023-05-05 18:28:40] INFO root fetch - main [MainThread]: End processing [loggerml] error
+[2023-05-05 18:28:40] INFO root fetch - processPackages [wds-client]: New version: [0.2.8] Old Version: [0.2.78]
+[2023-05-05 18:28:40] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38472839>=10485760
+[2023-05-05 18:28:40] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: edx-enterprise
+[2023-05-05 18:28:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-05 18:28:40] INFO root fetch - processPackages [AutoGenerateMKD]: executing diffoscope
+[2023-05-05 18:28:40] INFO root fetch - processPackages [AutoGenerateMKD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoGenerateMKD-0.0.4.tar.gz tmp/AutoGenerateMKD-0.0.5.tar.gz --markdown 20230505/A/AutoGenerateMKD/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 18:28:40] INFO root fetch - processPackages [syncqb]: executing diffoscope
+[2023-05-05 18:28:40] INFO root fetch - processPackages [syncqb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncqb-1.0.7.tar.gz tmp/syncqb-1.0.8.tar.gz --markdown 20230505/s/syncqb/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-05 18:28:40] INFO root fetch - processPackages [edx-enterprise]: New version: [3.9.9] Old Version: [3.9.7]
+[2023-05-05 18:28:40] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/be/a0/bd056e56cdc55415cebcc38aaf2ace34678ba07dc88ba5a5d3d5c1ac40c1/wds-client-0.2.78.tar.gz
+[2023-05-05 18:28:40] INFO root fetch - processPackages [django-mailing]: Downloading https://files.pythonhosted.org/packages/da/e4/96a6fd5f8120ba5726355379b663f40613d1f78958c35d3617dee41cd49f/django-mailing-0.2.tar.gz
+[2023-05-05 18:28:40] INFO root fetch - processPackages [django-mailing]: executing diffoscope
+[2023-05-05 18:28:40] INFO root fetch - processPackages [django-mailing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mailing-0.1beta9.tar.gz tmp/django-mailing-0.2.tar.gz --markdown 20230505/d/django-mailing/0.1beta9-0.2/diff.md --exclude *.pyd
+[2023-05-05 18:28:40] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-05-05 18:28:40] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.78.tar.gz tmp/wds-client-0.2.8.tar.gz --markdown 20230505/w/wds-client/0.2.78-0.2.8/diff.md --exclude *.pyd
+[2023-05-05 18:28:40] WARNING root fetch - processPackages [pycheops]: Skipping package: exceeds size limit 16858087>=10485760
+[2023-05-05 18:28:40] INFO root fetch - processPackages [pycheops]: Start processing: pulumi-datadog
+[2023-05-05 18:28:40] INFO root fetch - main [MainThread]: End processing [pycheops] error
+[2023-05-05 18:28:40] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2023-05-05 18:28:40] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2023-05-05 18:28:40] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-3.9.7.tar.gz tmp/edx-enterprise-3.9.9.tar.gz --markdown 20230505/e/edx-enterprise/3.9.7-3.9.9/diff.md --exclude *.pyd
+[2023-05-05 18:28:41] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2023-05-05 18:28:41] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20230505/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/diff.md --exclude *.pyd
+[2023-05-05 18:28:41] INFO root fetch - processPackages [syncqb]: Start processing: geomulticorr
+[2023-05-05 18:28:41] INFO root fetch - main [MainThread]: End processing [syncqb]: success
+[2023-05-05 18:28:41] INFO root fetch - processPackages [geomulticorr]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-05 18:28:41] INFO root fetch - processPackages [geomulticorr]: executing diffoscope
+[2023-05-05 18:28:41] INFO root fetch - processPackages [geomulticorr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomulticorr-0.0.6.tar.gz tmp/geomulticorr-0.0.7.tar.gz --markdown 20230505/g/geomulticorr/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-05 18:28:42] INFO root fetch - processPackages [django-mailing]: Start processing: pdbx2df
+[2023-05-05 18:28:42] INFO root fetch - main [MainThread]: End processing [django-mailing]: success
+[2023-05-05 18:28:42] INFO root fetch - processPackages [pdbx2df]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-05 18:28:42] INFO root fetch - processPackages [AutoGenerateMKD]: Start processing: python-travelmanager
+[2023-05-05 18:28:42] INFO root fetch - main [MainThread]: End processing [AutoGenerateMKD]: success
+[2023-05-05 18:28:42] INFO root fetch - processPackages [python-travelmanager]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-05 18:28:42] INFO root fetch - processPackages [pdbx2df]: executing diffoscope
+[2023-05-05 18:28:42] INFO root fetch - processPackages [pdbx2df]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdbx2df-0.2.1.tar.gz tmp/pdbx2df-0.2.2.tar.gz --markdown 20230505/p/pdbx2df/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-05 18:28:42] INFO root fetch - processPackages [python-travelmanager]: executing diffoscope
+[2023-05-05 18:28:42] INFO root fetch - processPackages [python-travelmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_travelmanager-0.1.0.tar.gz tmp/python_travelmanager-0.2.0.tar.gz --markdown 20230505/p/python-travelmanager/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 18:28:42] INFO root fetch - processPackages [wds-client]: Start processing: pyFCST
+[2023-05-05 18:28:42] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-05-05 18:28:42] WARNING root fetch - processPackages [pyFCST]: Skipping, unable to determine old version
+[2023-05-05 18:28:42] INFO root fetch - main [MainThread]: End processing [pyFCST] error
+[2023-05-05 18:28:43] INFO root fetch - main [MainThread]: End processing [python-travelmanager]: success
+[2023-05-05 18:28:43] INFO root fetch - main [MainThread]: End processing [pdbx2df]: success
+[2023-05-05 18:28:43] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-05 18:28:43] INFO root fetch - main [MainThread]: End processing [pulp-rpm]: success
+[2023-05-05 18:28:44] INFO root fetch - main [MainThread]: End processing [bundlewrap]: success
+[2023-05-05 18:28:44] INFO root fetch - main [MainThread]: End processing [geomulticorr]: success
+[2023-05-05 18:28:44] INFO root fetch - main [MainThread]: End processing [pulp-rpm-client]: success
+[2023-05-05 18:28:45] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2023-05-05 18:28:45] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2023-05-05 18:28:45] INFO root fetch - main [MainThread]: Store serial: [17989864]
