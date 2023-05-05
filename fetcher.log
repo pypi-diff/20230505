@@ -11292,3 +11292,107 @@
 [2023-05-05 12:03:44] INFO root fetch - main [MainThread]: End processing [pyracf]: success
 [2023-05-05 12:03:45] INFO root fetch - main [MainThread]: End processing [openapipy]: success
 [2023-05-05 12:03:45] INFO root fetch - main [MainThread]: Store serial: [17985142]
+[2023-05-05 12:08:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17985142]
+[2023-05-05 12:08:54] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qfitswidget
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freeGPT
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imaginAIry
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: luminesce-sdk-preview
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: binbinpy
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docarray
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: semisup-segmentation
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opensesame-extension-osweb
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: icloudtogcal
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Pandora-ChatGPT
+[2023-05-05 12:08:54] WARNING root fetch - processPackages [freeGPT]: Skipping, unable to determine old version
+[2023-05-05 12:08:54] INFO root fetch - processPackages [freeGPT]: Start processing: ou-container-content
+[2023-05-05 12:08:54] INFO root fetch - main [MainThread]: End processing [freeGPT] error
+[2023-05-05 12:08:54] INFO root fetch - processPackages [qfitswidget]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-05 12:08:54] WARNING root fetch - processPackages [binbinpy]: Skipping, unable to determine old version
+[2023-05-05 12:08:54] INFO root fetch - processPackages [binbinpy]: Start processing: geomulticorr
+[2023-05-05 12:08:54] INFO root fetch - main [MainThread]: End processing [binbinpy] error
+[2023-05-05 12:08:54] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 12:08:54] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-05 12:08:54] INFO root fetch - processPackages [icloudtogcal]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-05 12:08:54] INFO root fetch - processPackages [imaginAIry]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-05-05 12:08:54] INFO root fetch - processPackages [opensesame-extension-osweb]: New version: [2.0.0.0a8] Old Version: [2.0.0.0a7]
+[2023-05-05 12:08:54] INFO root fetch - processPackages [geomulticorr]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 12:08:54] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ou-container-content]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-05 12:08:54] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-05 12:08:54] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-05 12:08:54] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230505/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-05 12:08:54] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-05 12:08:54] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230505/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 12:08:54] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-05 12:08:54] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230505/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-05 12:08:54] INFO root fetch - processPackages [geomulticorr]: Downloading https://files.pythonhosted.org/packages/93/ea/2baee749cb8ea10ccb7eaee9a9dbf3c3717d5dcee917fd5afcd2a66c4b3f/geomulticorr-0.0.5.tar.gz
+[2023-05-05 12:08:54] INFO root fetch - processPackages [imaginAIry]: Downloading https://files.pythonhosted.org/packages/9d/a1/ab3022cd84ebb1e643f069eb4e924453bf3c5b73555b73cc2d9003a2f48e/imaginAIry-9.0.1-py3-none-win_amd64.whl
+[2023-05-05 12:08:54] INFO root fetch - processPackages [qfitswidget]: Downloading https://files.pythonhosted.org/packages/07/c5/6a9adac0cbd5ff1f76f1ea96a2c1ab1d6ed27fb630c712697bbec95a5792/qfitswidget-0.9.4-py3-none-any.whl
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ou-container-content]: Downloading https://files.pythonhosted.org/packages/3f/cc/283509cbbcb9370aba6d98db89eb8e947e4a59558d0fd4e30b6dcb34b805/ou-container-content-1.1.2.tar.gz
+[2023-05-05 12:08:54] INFO root fetch - processPackages [icloudtogcal]: Downloading https://files.pythonhosted.org/packages/bf/c7/ae316e5575df8c6c8319f07bb4f6a648111f219ba1f452c6733b34b48bd4/icloudtogcal-1.0.1-py3-none-any.whl
+[2023-05-05 12:08:54] INFO root fetch - processPackages [geomulticorr]: executing diffoscope
+[2023-05-05 12:08:54] INFO root fetch - processPackages [geomulticorr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomulticorr-0.0.4.tar.gz tmp/geomulticorr-0.0.5.tar.gz --markdown 20230505/g/geomulticorr/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 12:08:54] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/2c/ab/aa15ddb5c5f2d8de63578570bbe2554adc1df58ce6d85dcb194f32bc4e45/opensesame_extension_osweb-2.0.0.0a7.tar.gz
+[2023-05-05 12:08:54] INFO root fetch - processPackages [qfitswidget]: executing diffoscope
+[2023-05-05 12:08:54] INFO root fetch - processPackages [qfitswidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qfitswidget-0.9.3.tar.gz tmp/qfitswidget-0.9.4-py3-none-any.whl.zip --markdown 20230505/q/qfitswidget/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-05 12:08:54] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-05-05 12:08:54] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.0.6.tar.gz tmp/Pandora-ChatGPT-1.0.7.tar.gz --markdown 20230505/P/Pandora-ChatGPT/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ou-container-content]: Downloading https://files.pythonhosted.org/packages/0e/3e/7e65a10add208f0d4f6177ac9974456750153b7f6d168344c7c883a78e6c/ou_container_content-1.1.3.tar.gz
+[2023-05-05 12:08:54] INFO root fetch - processPackages [icloudtogcal]: Downloading https://files.pythonhosted.org/packages/5d/a5/bd7265fe084007c31c6659fea2f7e3ace4bbe797bbfbf31ef382e72e0049/icloudtogcal-1.0.2-py3-none-any.whl
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ou-container-content]: executing diffoscope
+[2023-05-05 12:08:54] INFO root fetch - processPackages [ou-container-content]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ou-container-content-1.1.2.tar.gz tmp/ou_container_content-1.1.3.tar.gz --markdown 20230505/o/ou-container-content/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-05 12:08:54] INFO root fetch - processPackages [icloudtogcal]: executing diffoscope
+[2023-05-05 12:08:54] INFO root fetch - processPackages [icloudtogcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icloudtogcal-1.0.1-py3-none-any.whl.zip tmp/icloudtogcal-1.0.2-py3-none-any.whl.zip --markdown 20230505/i/icloudtogcal/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-05 12:08:55] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/e2/46/ee470f21782300a5123157400f6bdbca9c0563d6d55aa391586b704a810e/opensesame_extension_osweb-2.0.0.0a8.tar.gz
+[2023-05-05 12:08:55] INFO root fetch - processPackages [semisup-segmentation]: Start processing: pyroporn
+[2023-05-05 12:08:55] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-05 12:08:55] INFO root fetch - processPackages [pyroporn]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 12:08:55] INFO root fetch - processPackages [opensesame-extension-osweb]: executing diffoscope
+[2023-05-05 12:08:55] INFO root fetch - processPackages [opensesame-extension-osweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz --markdown 20230505/o/opensesame-extension-osweb/2.0.0.0a7-2.0.0.0a8/diff.md --exclude *.pyd
+[2023-05-05 12:08:55] INFO root fetch - processPackages [geomulticorr]: Start processing: extr-ds
+[2023-05-05 12:08:55] INFO root fetch - main [MainThread]: End processing [geomulticorr]: success
+[2023-05-05 12:08:55] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 12:08:55] INFO root fetch - processPackages [qfitswidget]: Start processing: openapipy
+[2023-05-05 12:08:55] INFO root fetch - main [MainThread]: End processing [qfitswidget]: success
+[2023-05-05 12:08:55] INFO root fetch - processPackages [openapipy]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-05 12:08:55] INFO root fetch - processPackages [pyroporn]: Downloading https://files.pythonhosted.org/packages/95/a6/dbbd5ca3284290c2c13ee1cd0e190a5d4f541fcf6b8244d07d41cbc6581c/pyroporn-0.0.8.tar.gz
+[2023-05-05 12:08:56] INFO root fetch - processPackages [pyroporn]: executing diffoscope
+[2023-05-05 12:08:56] INFO root fetch - processPackages [pyroporn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroporn-0.0.7.tar.gz tmp/pyroporn-0.0.8.tar.gz --markdown 20230505/p/pyroporn/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 12:08:56] INFO root fetch - processPackages [openapipy]: Downloading https://files.pythonhosted.org/packages/61/d3/0b6d51b53c5230436d55109bad4125c207e2c79219f4fdbab7e87afa0fff/openapipy-0.7.4.tar.gz
+[2023-05-05 12:08:56] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-05 12:08:56] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230505/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 12:08:56] INFO root fetch - processPackages [openapipy]: executing diffoscope
+[2023-05-05 12:08:56] INFO root fetch - processPackages [openapipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapipy-0.7.3.tar.gz tmp/openapipy-0.7.4.tar.gz --markdown 20230505/o/openapipy/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-05 12:08:56] INFO root fetch - processPackages [luminesce-sdk-preview]: Start processing: reliably-cli
+[2023-05-05 12:08:56] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-05 12:08:56] INFO root fetch - processPackages [reliably-cli]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-05 12:08:56] INFO root fetch - processPackages [Pandora-ChatGPT]: Start processing: twyn
+[2023-05-05 12:08:56] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-05-05 12:08:56] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/f5/0f/5496dade485c9631496a70d5f79a28def35d1f2a2c99ae4247d49a684850/reliably-cli-0.5.8.tar.gz
+[2023-05-05 12:08:56] INFO root fetch - processPackages [twyn]: New version: [1.0.0] Old Version: [0.20.3]
+[2023-05-05 12:08:56] INFO root fetch - processPackages [ou-container-content]: Start processing: fusionsc
+[2023-05-05 12:08:56] INFO root fetch - main [MainThread]: End processing [ou-container-content]: success
+[2023-05-05 12:08:56] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/fc/84/2dbce7769234c975f4aa3c4adcf1df9bcf3a484899f1c5271035fc568918/twyn-1.0.0.tar.gz
+[2023-05-05 12:08:56] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-05 12:08:56] INFO root fetch - processPackages [imaginAIry]: Downloading https://files.pythonhosted.org/packages/6e/20/bda9ce57edb66d0957c09818edabe0068a93d42e6aba1ac1313ee29b3e48/imaginAIry-9.0.2-py3-none-win_amd64.whl
+[2023-05-05 12:08:56] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-05-05 12:08:56] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-05-05 12:08:56] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-05-05 12:08:56] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/77/7e/4d0e9b960d2604366649d4f6e29e8ca2bc9f4f41e732fdb6a11d55fbf5ee/reliably-cli-0.5.9.tar.gz
+[2023-05-05 12:08:57] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-05-05 12:08:57] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-0.20.3.tar.gz tmp/twyn-1.0.0.tar.gz --markdown 20230505/t/twyn/0.20.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-05 12:08:57] INFO root fetch - processPackages [reliably-cli]: executing diffoscope
+[2023-05-05 12:08:57] INFO root fetch - processPackages [reliably-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliably-cli-0.5.8.tar.gz tmp/reliably-cli-0.5.9.tar.gz --markdown 20230505/r/reliably-cli/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-05 12:08:57] INFO root fetch - main [MainThread]: End processing [pyroporn]: success
+[2023-05-05 12:08:57] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-05 12:08:57] INFO root fetch - main [MainThread]: End processing [openapipy]: success
+[2023-05-05 12:08:58] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-05-05 12:08:58] INFO root fetch - main [MainThread]: End processing [reliably-cli]: success
+[2023-05-05 12:08:58] INFO root fetch - processPackages [imaginAIry]: executing diffoscope
+[2023-05-05 12:08:58] INFO root fetch - processPackages [imaginAIry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imaginAIry-9.0.1-py3-none-win_amd64.whl.zip tmp/imaginAIry-9.0.2-py3-none-win_amd64.whl.zip --markdown 20230505/i/imaginAIry/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2023-05-05 12:08:59] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-05 12:08:59] INFO root fetch - main [MainThread]: End processing [icloudtogcal]: success
+[2023-05-05 12:08:59] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
+[2023-05-05 12:09:01] INFO root fetch - main [MainThread]: End processing [imaginAIry]: success
+[2023-05-05 12:09:01] INFO root fetch - main [MainThread]: Store serial: [17985197]
