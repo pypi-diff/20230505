@@ -8303,3 +8303,64 @@
 [2023-05-05 09:23:31] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-05 09:23:34] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-05-05 09:23:34] INFO root fetch - main [MainThread]: Store serial: [17983388]
+[2023-05-05 09:28:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17983388]
+[2023-05-05 09:28:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-05 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-stock-picking-filter-lot
+[2023-05-05 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garpix-company
+[2023-05-05 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiomodelz
+[2023-05-05 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-05 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vialink-utils-mongo-background-task
+[2023-05-05 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-alicloud
+[2023-05-05 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lfi2rcehack
+[2023-05-05 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: appeal
+[2023-05-05 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: instld
+[2023-05-05 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: plotnineseqsuite
+[2023-05-05 09:28:43] INFO root fetch - processPackages [odoo14-addon-stock-picking-filter-lot]: New version: [14.0.2.0.2.dev4] Old Version: [14.0.2.0.1.dev2]
+[2023-05-05 09:28:43] INFO root fetch - processPackages [aiomodelz]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-05 09:28:43] INFO root fetch - processPackages [garpix-company]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-05-05 09:28:43] WARNING root fetch - processPackages [lfi2rcehack]: Skipping, unable to determine old version
+[2023-05-05 09:28:43] INFO root fetch - processPackages [lfi2rcehack]: Start processing: cg
+[2023-05-05 09:28:43] INFO root fetch - main [MainThread]: End processing [lfi2rcehack] error
+[2023-05-05 09:28:43] INFO root fetch - processPackages [instld]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 09:28:43] WARNING root fetch - processPackages [vialink-utils-mongo-background-task]: Skipping, unable to determine old version
+[2023-05-05 09:28:43] INFO root fetch - main [MainThread]: End processing [vialink-utils-mongo-background-task] error
+[2023-05-05 09:28:43] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2023-05-05 09:28:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-05 09:28:43] INFO root fetch - processPackages [cg]: New version: [29.6.0] Old Version: [29.5.7]
+[2023-05-05 09:28:43] INFO root fetch - processPackages [appeal]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-05 09:28:43] WARNING root fetch - processPackages [plotnineseqsuite]: Skipping, unable to determine old version
+[2023-05-05 09:28:43] INFO root fetch - main [MainThread]: End processing [plotnineseqsuite] error
+[2023-05-05 09:28:43] INFO root fetch - processPackages [aiomodelz]: Downloading https://files.pythonhosted.org/packages/b5/b3/f7b88d99af2e00c147bcc8dd3086fb22fc8da105183126173d6d1b8a88dc/aiomodelz-0.4.8.tar.gz
+[2023-05-05 09:28:43] INFO root fetch - processPackages [instld]: executing diffoscope
+[2023-05-05 09:28:43] INFO root fetch - processPackages [instld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instld-0.0.8.tar.gz tmp/instld-0.0.9.tar.gz --markdown 20230505/i/instld/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 09:28:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-05 09:28:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230505/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 09:28:43] INFO root fetch - processPackages [odoo14-addon-stock-picking-filter-lot]: Downloading https://files.pythonhosted.org/packages/39/23/bba3759c31acd61d6aa89c479eb39db0b1b1f6bdc08a0d51c18240b74d8a/odoo14_addon_stock_picking_filter_lot-14.0.2.0.1.dev2-py3-none-any.whl
+[2023-05-05 09:28:43] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2023-05-05 09:28:43] INFO root fetch - processPackages [garpix-company]: Downloading https://files.pythonhosted.org/packages/ca/68/2aba30a4f809a2daf08f36b62868d594aa1c5957ba6e3158adbe69e464bb/garpix_company-2.7.1.tar.gz
+[2023-05-05 09:28:43] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6c/e0/76dd98c80bdbd3bec20e4f5202124e6b2203a1bffccc612e6b9e598a75c4/cg-29.6.0.tar.gz
+[2023-05-05 09:28:43] INFO root fetch - processPackages [aiomodelz]: Downloading https://files.pythonhosted.org/packages/01/14/42d8b79374ae727e93fef954da1f36510189ea0147f7bca9827b36b22c31/aiomodelz-0.4.9.tar.gz
+[2023-05-05 09:28:43] INFO root fetch - processPackages [garpix-company]: executing diffoscope
+[2023-05-05 09:28:43] INFO root fetch - processPackages [garpix-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_company-2.7.0.tar.gz tmp/garpix_company-2.7.1.tar.gz --markdown 20230505/g/garpix-company/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-05-05 09:28:43] INFO root fetch - processPackages [odoo14-addon-stock-picking-filter-lot]: Downloading https://files.pythonhosted.org/packages/33/3b/abdf50278b8e094976cdbda3e5ad616540f375fe86d667e9c4a762d94bc8/odoo14_addon_stock_picking_filter_lot-14.0.2.0.2.dev4-py3-none-any.whl
+[2023-05-05 09:28:43] INFO root fetch - processPackages [aiomodelz]: executing diffoscope
+[2023-05-05 09:28:43] INFO root fetch - processPackages [aiomodelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomodelz-0.4.8.tar.gz tmp/aiomodelz-0.4.9.tar.gz --markdown 20230505/a/aiomodelz/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-05 09:28:43] INFO root fetch - processPackages [appeal]: Downloading https://files.pythonhosted.org/packages/68/81/6559669a4fec204c80eb543179caaafb60416717187675d286a35c7975e5/appeal-0.5.9.tar.gz
+[2023-05-05 09:28:43] INFO root fetch - processPackages [odoo14-addon-stock-picking-filter-lot]: executing diffoscope
+[2023-05-05 09:28:43] INFO root fetch - processPackages [odoo14-addon-stock-picking-filter-lot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_picking_filter_lot-14.0.2.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_stock_picking_filter_lot-14.0.2.0.2.dev4-py3-none-any.whl.zip --markdown 20230505/o/odoo14-addon-stock-picking-filter-lot/14.0.2.0.1.dev2-14.0.2.0.2.dev4/diff.md --exclude *.pyd
+[2023-05-05 09:28:43] INFO root fetch - processPackages [appeal]: executing diffoscope
+[2023-05-05 09:28:43] INFO root fetch - processPackages [appeal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appeal-0.5.8.tar.gz tmp/appeal-0.5.9.tar.gz --markdown 20230505/a/appeal/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-05 09:28:43] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-05 09:28:43] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.5.7.tar.gz tmp/cg-29.6.0.tar.gz --markdown 20230505/c/cg/29.5.7-29.6.0/diff.md --exclude *.pyd
+[2023-05-05 09:28:44] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2023-05-05 09:28:44] INFO root fetch - main [MainThread]: End processing [aiomodelz]: success
+[2023-05-05 09:28:44] INFO root fetch - main [MainThread]: End processing [instld]: success
+[2023-05-05 09:28:44] INFO root fetch - main [MainThread]: End processing [garpix-company]: success
+[2023-05-05 09:28:44] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2023-05-05 09:28:44] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20230505/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/diff.md --exclude *.pyd
+[2023-05-05 09:28:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-filter-lot]: success
+[2023-05-05 09:28:45] INFO root fetch - main [MainThread]: End processing [appeal]: success
+[2023-05-05 09:28:46] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-05 09:28:54] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-05 09:29:10] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2023-05-05 09:29:10] INFO root fetch - main [MainThread]: Store serial: [17983432]
