@@ -13416,3 +13416,133 @@
 [2023-05-05 13:59:11] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-05 13:59:15] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-05-05 13:59:15] INFO root fetch - main [MainThread]: Store serial: [17986440]
+[2023-05-05 14:04:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17986440]
+[2023-05-05 14:04:25] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-05 14:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matplotlib-label-lines
+[2023-05-05 14:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inverse
+[2023-05-05 14:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: petprep-hmc
+[2023-05-05 14:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mainnet
+[2023-05-05 14:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: viggocore
+[2023-05-05 14:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-review
+[2023-05-05 14:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bloock
+[2023-05-05 14:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-dllib-spark3
+[2023-05-05 14:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-cards
+[2023-05-05 14:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bech32m
+[2023-05-05 14:04:25] INFO root fetch - processPackages [inverse]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 14:04:25] INFO root fetch - processPackages [matplotlib-label-lines]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-05-05 14:04:25] INFO root fetch - processPackages [viggocore]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 14:04:25] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230505] Old Version: [2.4.0b20230504]
+[2023-05-05 14:04:25] WARNING root fetch - processPackages [bech32m]: Skipping, unable to determine old version
+[2023-05-05 14:04:25] INFO root fetch - processPackages [bech32m]: Start processing: bigdl-orca-spark3
+[2023-05-05 14:04:25] INFO root fetch - main [MainThread]: End processing [bech32m] error
+[2023-05-05 14:04:25] INFO root fetch - processPackages [petprep-hmc]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 14:04:25] INFO root fetch - processPackages [mainnet]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-05 14:04:25] INFO root fetch - processPackages [gpt-review]: New version: [0.5.1rc433.post1] Old Version: [0.5.1rc430.post1]
+[2023-05-05 14:04:25] INFO root fetch - processPackages [django-cards]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-05 14:04:25] INFO root fetch - processPackages [bloock]: New version: [2.5.7b5] Old Version: [2.5.7b4]
+[2023-05-05 14:04:25] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230505] Old Version: [2.4.0b20230504]
+[2023-05-05 14:04:25] INFO root fetch - processPackages [django-cards]: executing diffoscope
+[2023-05-05 14:04:25] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-05-05 14:04:25] INFO root fetch - processPackages [django-cards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cards-0.8.8.tar.gz tmp/django-cards-0.8.9.tar.gz --markdown 20230505/d/django-cards/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-05 14:04:25] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.8.tar.gz tmp/mainnet-1.1.9.tar.gz --markdown 20230505/m/mainnet/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-05 14:04:25] INFO root fetch - processPackages [viggocore]: Downloading https://files.pythonhosted.org/packages/44/a4/b53890f9517cd552c125fa1ae85fff95c7ba53cd9ef625b0db39a9ae2e8a/viggocore-1.0.8.tar.gz
+[2023-05-05 14:04:25] INFO root fetch - processPackages [inverse]: Downloading https://files.pythonhosted.org/packages/8e/e4/9c2fd3a0bd8fc514b94d0e0b65b3c738552b6e2877fcb5f71eb10067b8aa/inverse-0.0.6-py3-none-any.whl
+[2023-05-05 14:04:25] INFO root fetch - processPackages [matplotlib-label-lines]: Downloading https://files.pythonhosted.org/packages/68/2d/bedc1d1c8998c57e938cfeae20437c3513237c3b814c6ff0ac618bb07b7c/matplotlib_label_lines-0.5.2.tar.gz
+[2023-05-05 14:04:25] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/a5/64/9e7574856f61a1c10d36b2aaa76925f3fc08dd9582a97c2f8e615116a7d8/bigdl_orca_spark3-2.4.0b20230504-py3-none-manylinux1_x86_64.whl
+[2023-05-05 14:04:25] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/69/e7/07635658fd8ef99a5adf3bd843ee9a14b4f4e5f632bb06827b74811ba69f/bigdl-dllib-spark3-2.4.0b20230504.tar.gz
+[2023-05-05 14:04:25] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/27/b9/5c3e5bb3be1ba331916efca9049ceaa28273200aad00a8e91f3cef918f23/gpt-review-0.5.1rc430.post1.tar.gz
+[2023-05-05 14:04:25] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207478>=10485760
+[2023-05-05 14:04:25] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: ib-insync
+[2023-05-05 14:04:25] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-05-05 14:04:25] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251876>=10485760
+[2023-05-05 14:04:25] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: bigdl-friesian-spark3
+[2023-05-05 14:04:25] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-05-05 14:04:25] INFO root fetch - processPackages [ib-insync]: New version: [0.9.9] Old Version: [0.9.84]
+[2023-05-05 14:04:25] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230505] Old Version: [2.4.0b20230504]
+[2023-05-05 14:04:25] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-05 14:04:25] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.5-py3-none-any.whl.zip tmp/inverse-0.0.6-py3-none-any.whl.zip --markdown 20230505/i/inverse/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 14:04:25] INFO root fetch - processPackages [petprep-hmc]: Downloading https://files.pythonhosted.org/packages/70/88/3e6630730984a4d57a47580ee968263dbe6c0f385ce749af92af6b191243/petprep_hmc-0.0.6.tar.gz
+[2023-05-05 14:04:25] INFO root fetch - processPackages [bloock]: Downloading https://files.pythonhosted.org/packages/e2/18/af5c8cd022bcc14af88ab285a5a2d52dfc14e92df6be3e170543bf188eb6/bloock-2.5.7b5-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-05 14:04:25] INFO root fetch - processPackages [petprep-hmc]: executing diffoscope
+[2023-05-05 14:04:25] INFO root fetch - processPackages [petprep-hmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petprep_hmc-0.0.5.tar.gz tmp/petprep_hmc-0.0.6.tar.gz --markdown 20230505/p/petprep-hmc/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 14:04:25] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/89/11/76dafa7a252abb22a901747c6310e3d1592ea6cd693cf790bfa44b648b45/bigdl_friesian_spark3-2.4.0b20230504-py3-none-manylinux1_x86_64.whl
+[2023-05-05 14:04:25] INFO root fetch - processPackages [ib-insync]: Downloading https://files.pythonhosted.org/packages/6e/de/cff08249a298e355aabb93df83d1066b71040800139622e3561ece19e7f2/ib_insync-0.9.84.tar.gz
+[2023-05-05 14:04:25] INFO root fetch - processPackages [matplotlib-label-lines]: Downloading https://files.pythonhosted.org/packages/9e/46/99b6d2f3477e58fc028a29178866d8d301edd2cea20b56023083a0bd621e/matplotlib_label_lines-0.6.0.tar.gz
+[2023-05-05 14:04:25] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/0f/7e/5a43143227d77929029690c179762034e72cafa365006ac09147e9a91857/gpt-review-0.5.1rc433.post1.tar.gz
+[2023-05-05 14:04:25] INFO root fetch - processPackages [matplotlib-label-lines]: executing diffoscope
+[2023-05-05 14:04:25] INFO root fetch - processPackages [matplotlib-label-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlib_label_lines-0.5.2.tar.gz tmp/matplotlib_label_lines-0.6.0.tar.gz --markdown 20230505/m/matplotlib-label-lines/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-05-05 14:04:25] INFO root fetch - processPackages [viggocore]: Downloading https://files.pythonhosted.org/packages/06/6a/a468bf724f6baed9060fab846c4756b87d663d2181073440bb9d2beef5ed/viggocore-1.0.9.tar.gz
+[2023-05-05 14:04:25] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-05 14:04:25] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.5.1rc430.post1.tar.gz tmp/gpt-review-0.5.1rc433.post1.tar.gz --markdown 20230505/g/gpt-review/0.5.1rc430.post1-0.5.1rc433.post1/diff.md --exclude *.pyd
+[2023-05-05 14:04:25] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/42/29/f5114c313dcadffd54e8df3d2499d1fbca485bd3c84d05893638c932eb2f/bigdl_friesian_spark3-2.4.0b20230505-py3-none-manylinux1_x86_64.whl
+[2023-05-05 14:04:25] INFO root fetch - processPackages [ib-insync]: executing diffoscope
+[2023-05-05 14:04:25] INFO root fetch - processPackages [ib-insync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ib_insync-0.9.84.tar.gz tmp/ib_insync-0.9.9-py3-none-any.whl.zip --markdown 20230505/i/ib-insync/0.9.84-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 14:04:25] INFO root fetch - processPackages [viggocore]: executing diffoscope
+[2023-05-05 14:04:25] INFO root fetch - processPackages [viggocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggocore-1.0.8.tar.gz tmp/viggocore-1.0.9.tar.gz --markdown 20230505/v/viggocore/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 14:04:26] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-05-05 14:04:26] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230504-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230505-py3-none-manylinux1_x86_64.whl.zip --markdown 20230505/b/bigdl-friesian-spark3/2.4.0b20230504-2.4.0b20230505/diff.md --exclude *.pyd
+[2023-05-05 14:04:26] INFO root fetch - processPackages [bloock]: executing diffoscope
+[2023-05-05 14:04:26] INFO root fetch - processPackages [bloock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bloock-2.5.7b4-pp39-pypy39_pp73-win_amd64.whl.zip tmp/bloock-2.5.7b5-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230505/b/bloock/2.5.7b4-2.5.7b5/diff.md --exclude *.pyd
+[2023-05-05 14:04:27] INFO root fetch - processPackages [petprep-hmc]: Start processing: bigdl-chronos-spark3
+[2023-05-05 14:04:27] INFO root fetch - main [MainThread]: End processing [petprep-hmc]: success
+[2023-05-05 14:04:27] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230504] Old Version: [2.4.0b20230503]
+[2023-05-05 14:04:27] INFO root fetch - processPackages [matplotlib-label-lines]: Start processing: bigdl-spark3
+[2023-05-05 14:04:27] INFO root fetch - main [MainThread]: End processing [matplotlib-label-lines]: success
+[2023-05-05 14:04:27] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230504] Old Version: [2.4.0b20230503]
+[2023-05-05 14:04:27] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/c4/eb/9fa3b50ca500ee346ac652a062a618e0e47c08c1a33a71662eae3b4f164b/bigdl_chronos_spark3-2.4.0b20230504-py3-none-manylinux1_x86_64.whl
+[2023-05-05 14:04:27] INFO root fetch - processPackages [gpt-review]: Start processing: gpt-review
+[2023-05-05 14:04:27] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-05 14:04:27] INFO root fetch - processPackages [gpt-review]: New version: [0.5.2rc437.post1] Old Version: [0.5.2rc436.post1]
+[2023-05-05 14:04:27] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-05-05 14:04:27] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230503-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230504-py3-none-manylinux1_x86_64.whl.zip --markdown 20230505/b/bigdl-chronos-spark3/2.4.0b20230503-2.4.0b20230504/diff.md --exclude *.pyd
+[2023-05-05 14:04:27] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/ac/3a/6d052f0169593a3b7cd1d78928579bdd89f43a0ee21881b544dd015e984d/bigdl_spark3-2.4.0b20230504-py3-none-manylinux1_x86_64.whl
+[2023-05-05 14:04:27] INFO root fetch - processPackages [django-cards]: Start processing: lofar-h5plot
+[2023-05-05 14:04:27] INFO root fetch - main [MainThread]: End processing [django-cards]: success
+[2023-05-05 14:04:27] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/73/53/40b23398e31f65e215b37101e0fa9ea7718c1316cb8851610e693917554e/gpt-review-0.5.2rc436.post1.tar.gz
+[2023-05-05 14:04:27] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-05-05 14:04:27] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230503-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230504-py3-none-manylinux1_x86_64.whl.zip --markdown 20230505/b/bigdl-spark3/2.4.0b20230503-2.4.0b20230504/diff.md --exclude *.pyd
+[2023-05-05 14:04:27] INFO root fetch - processPackages [inverse]: Start processing: outstaff
+[2023-05-05 14:04:27] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-05 14:04:27] INFO root fetch - processPackages [lofar-h5plot]: New version: [2.7.0] Old Version: [2.6.2]
+[2023-05-05 14:04:27] WARNING root fetch - processPackages [outstaff]: Skipping, unable to determine old version
+[2023-05-05 14:04:27] INFO root fetch - processPackages [outstaff]: Start processing: gpt-review
+[2023-05-05 14:04:27] INFO root fetch - main [MainThread]: End processing [outstaff] error
+[2023-05-05 14:04:27] INFO root fetch - processPackages [gpt-review]: New version: [0.5.2rc437.post1] Old Version: [0.5.2rc436.post1]
+[2023-05-05 14:04:27] INFO root fetch - processPackages [ib-insync]: Start processing: semisup-segmentation
+[2023-05-05 14:04:27] INFO root fetch - main [MainThread]: End processing [ib-insync]: success
+[2023-05-05 14:04:28] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 14:04:28] INFO root fetch - processPackages [lofar-h5plot]: Downloading https://files.pythonhosted.org/packages/43/83/ad3b326d1444fca72485b8a61bd5642455d16238493295050bac7fbdc367/lofar-h5plot-2.6.2.tar.gz
+[2023-05-05 14:04:28] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/6c/a1/909aff17e615377431349dcc34edb297843dcf9fe813240c5300e0264348/gpt-review-0.5.2rc437.post1.tar.gz
+[2023-05-05 14:04:28] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/6c/a1/909aff17e615377431349dcc34edb297843dcf9fe813240c5300e0264348/gpt-review-0.5.2rc437.post1.tar.gz
+[2023-05-05 14:04:28] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-05 14:04:28] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230505/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 14:04:28] INFO root fetch - processPackages [bigdl-friesian-spark3]: Start processing: sentry-sdk
+[2023-05-05 14:04:28] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-05-05 14:04:28] INFO root fetch - processPackages [sentry-sdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-05 14:04:28] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-05 14:04:28] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.5.2rc436.post1.tar.gz tmp/gpt-review-0.5.2rc437.post1.tar.gz --markdown 20230505/g/gpt-review/0.5.2rc436.post1-0.5.2rc437.post1/diff.md --exclude *.pyd
+[2023-05-05 14:04:28] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-05 14:04:28] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.5.2rc436.post1.tar.gz tmp/gpt-review-0.5.2rc437.post1.tar.gz --markdown 20230505/g/gpt-review/0.5.2rc436.post1-0.5.2rc437.post1/diff.md --exclude *.pyd
+[2023-05-05 14:04:28] INFO root fetch - processPackages [lofar-h5plot]: Downloading https://files.pythonhosted.org/packages/24/27/21c89e847417f3ae630c9115d907aa0124ab8140005616e36a6f20d7974b/lofar-h5plot-2.7.0.tar.gz
+[2023-05-05 14:04:28] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/61/00/dd7e41da95c59f4ccf86be60fcbb5889dc7b215ca5e71c8108cb7892c0b8/sentry-sdk-1.9.8.tar.gz
+[2023-05-05 14:04:28] INFO root fetch - processPackages [bloock]: Start processing: gpt-review
+[2023-05-05 14:04:28] INFO root fetch - main [MainThread]: End processing [bloock]: success
+[2023-05-05 14:04:28] INFO root fetch - processPackages [lofar-h5plot]: executing diffoscope
+[2023-05-05 14:04:28] INFO root fetch - processPackages [lofar-h5plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lofar-h5plot-2.6.2.tar.gz tmp/lofar-h5plot-2.7.0.tar.gz --markdown 20230505/l/lofar-h5plot/2.6.2-2.7.0/diff.md --exclude *.pyd
+[2023-05-05 14:04:28] INFO root fetch - processPackages [gpt-review]: New version: [0.5.2rc437.post1] Old Version: [0.5.2rc436.post1]
+[2023-05-05 14:04:28] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-05 14:04:28] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.5.2rc436.post1.tar.gz tmp/gpt-review-0.5.2rc437.post1.tar.gz --markdown 20230505/g/gpt-review/0.5.2rc436.post1-0.5.2rc437.post1/diff.md --exclude *.pyd
+[2023-05-05 14:04:28] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/b5/bf/680dccdef2576e85b3773de1acde3d263d2c3f105187562a6653cc550a8b/sentry-sdk-1.9.9.tar.gz
+[2023-05-05 14:04:29] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2023-05-05 14:04:29] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-sdk-1.9.8.tar.gz tmp/sentry-sdk-1.9.9.tar.gz --markdown 20230505/s/sentry-sdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-05 14:04:29] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-05-05 14:04:29] INFO root fetch - main [MainThread]: End processing [viggocore]: success
+[2023-05-05 14:04:29] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-05 14:04:29] INFO root fetch - main [MainThread]: End processing [lofar-h5plot]: success
+[2023-05-05 14:04:30] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-05-05 14:04:30] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-05 14:04:30] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-05 14:04:30] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-05 14:04:30] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2023-05-05 14:04:32] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-05-05 14:04:32] INFO root fetch - main [MainThread]: Store serial: [17986529]
