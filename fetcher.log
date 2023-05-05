@@ -14846,3 +14846,124 @@
 [2023-05-05 15:09:56] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
 [2023-05-05 15:10:27] INFO root fetch - main [MainThread]: End processing [mamba-gator]: success
 [2023-05-05 15:10:27] INFO root fetch - main [MainThread]: Store serial: [17987333]
+[2023-05-05 15:15:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17987333]
+[2023-05-05 15:15:43] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-05 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-markdown-deux
+[2023-05-05 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-05 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbioapputils
+[2023-05-05 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-scipy
+[2023-05-05 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dop-integration-libs
+[2023-05-05 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netdoc
+[2023-05-05 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Python-EasyGraph
+[2023-05-05 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yeref
+[2023-05-05 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-sphinx
+[2023-05-05 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: my-common-response
+[2023-05-05 15:15:43] INFO root fetch - processPackages [django-markdown-deux]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-05 15:15:43] INFO root fetch - processPackages [sbioapputils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 15:15:43] INFO root fetch - processPackages [netdoc]: New version: [0.9.62] Old Version: [0.9.61]
+[2023-05-05 15:15:43] WARNING root fetch - processPackages [my-common-response]: Skipping, unable to determine old version
+[2023-05-05 15:15:43] INFO root fetch - processPackages [my-common-response]: Start processing: myNeuropsydia
+[2023-05-05 15:15:43] INFO root fetch - main [MainThread]: End processing [my-common-response] error
+[2023-05-05 15:15:43] INFO root fetch - processPackages [yeref]: New version: [0.1.55] Old Version: [0.1.54]
+[2023-05-05 15:15:43] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 15:15:43] INFO root fetch - processPackages [Python-EasyGraph]: New version: [0.2a9] Old Version: [0.2a8]
+[2023-05-05 15:15:43] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 15:15:43] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 15:15:43] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 15:15:43] INFO root fetch - processPackages [myNeuropsydia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 15:15:43] INFO root fetch - processPackages [django-markdown-deux]: Downloading https://files.pythonhosted.org/packages/80/a5/d61ee6fc26cbb0d737986ed23e13309c88f2ae7f1fcdf2460a525323a3ed/django-markdown-deux-1.0.5.zip
+[2023-05-05 15:15:43] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-05 15:15:43] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230505/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 15:15:43] INFO root fetch - processPackages [myNeuropsydia]: Downloading https://files.pythonhosted.org/packages/90/c9/006030f2f4c10d5edf002afafc846f532233b53dda33ae618c186648d69b/myNeuropsydia-0.1.9.tar.gz
+[2023-05-05 15:15:43] WARNING root fetch - processPackages [myNeuropsydia]: Skipping package: exceeds size limit 15614089>=10485760
+[2023-05-05 15:15:43] INFO root fetch - processPackages [myNeuropsydia]: Start processing: eea.kitkat
+[2023-05-05 15:15:43] INFO root fetch - main [MainThread]: End processing [myNeuropsydia] error
+[2023-05-05 15:15:43] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-05 15:15:43] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230505/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 15:15:43] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-05-05 15:15:44] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/82/c8/2b639eade249b2e24f27b1695eb5f3c8f3a681501869cbc6b12a8147f9cc/yeref-0.1.55.tar.gz
+[2023-05-05 15:15:44] INFO root fetch - processPackages [eea.kitkat]: New version: [5.0] Old Version: [4.7]
+[2023-05-05 15:15:44] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/f5/e7/e5d8fdbb3f45de700e607584f4df7cf99df3ddfaedc2588775ed78bdcb53/netdoc-0.9.62.tar.gz
+[2023-05-05 15:15:44] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-05 15:15:44] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230505/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 15:15:44] INFO root fetch - processPackages [sbioapputils]: executing diffoscope
+[2023-05-05 15:15:44] INFO root fetch - processPackages [sbioapputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbioapputils-1.0.8.tar.gz tmp/sbioapputils-1.0.9.tar.gz --markdown 20230505/s/sbioapputils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 15:15:44] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-05-05 15:15:44] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.54.tar.gz tmp/yeref-0.1.55.tar.gz --markdown 20230505/y/yeref/0.1.54-0.1.55/diff.md --exclude *.pyd
+[2023-05-05 15:15:44] INFO root fetch - processPackages [django-markdown-deux]: Downloading https://files.pythonhosted.org/packages/26/af/3ed785b661e4545709ba1618926bb33bd585d1fd2faa42a548756743e874/django-markdown-deux-1.0.6.zip
+[2023-05-05 15:15:44] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-05-05 15:15:44] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.61.tar.gz tmp/netdoc-0.9.62.tar.gz --markdown 20230505/n/netdoc/0.9.61-0.9.62/diff.md --exclude *.pyd
+[2023-05-05 15:15:44] INFO root fetch - processPackages [eea.kitkat]: Downloading https://files.pythonhosted.org/packages/21/22/ffdc98ef77e2c80ede5f88b2abb80049f67af700fed54017e41876ff423a/eea.kitkat-4.7.zip
+[2023-05-05 15:15:44] INFO root fetch - processPackages [Python-EasyGraph]: Downloading https://files.pythonhosted.org/packages/e8/99/2ab3d981b34a651e873f8d16cb4d9151bf7fbd5d099e01eb142029c2cd86/Python-EasyGraph-0.2a8.tar.gz
+[2023-05-05 15:15:44] INFO root fetch - processPackages [django-markdown-deux]: executing diffoscope
+[2023-05-05 15:15:44] INFO root fetch - processPackages [django-markdown-deux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-markdown-deux-1.0.5.zip tmp/django-markdown-deux-1.0.6.zip --markdown 20230505/d/django-markdown-deux/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-05 15:15:44] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-05-05 15:15:44] INFO root fetch - processPackages [eea.kitkat]: Downloading https://files.pythonhosted.org/packages/b9/33/1398b3063ba1cffe41d64ee7bee24a24a5d4e40cf99b9d017a366a2f34f3/eea.kitkat-5.0.zip
+[2023-05-05 15:15:44] INFO root fetch - processPackages [eea.kitkat]: executing diffoscope
+[2023-05-05 15:15:44] INFO root fetch - processPackages [eea.kitkat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.kitkat-4.7.zip tmp/eea.kitkat-5.0.zip --markdown 20230505/e/eea.kitkat/4.7-5.0/diff.md --exclude *.pyd
+[2023-05-05 15:15:44] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-05 15:15:44] INFO root fetch - processPackages [Python-EasyGraph]: Downloading https://files.pythonhosted.org/packages/9e/08/3b47e9b93564a67026e893e2d58d9c246334a6138773a9672c52fb601748/Python-EasyGraph-0.2a9.tar.gz
+[2023-05-05 15:15:44] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230505/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 15:15:44] INFO root fetch - processPackages [Python-EasyGraph]: executing diffoscope
+[2023-05-05 15:15:44] INFO root fetch - processPackages [Python-EasyGraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python-EasyGraph-0.2a8.tar.gz tmp/Python-EasyGraph-0.2a9.tar.gz --markdown 20230505/P/Python-EasyGraph/0.2a8-0.2a9/diff.md --exclude *.pyd
+[2023-05-05 15:15:45] INFO root fetch - processPackages [dop-integration-libs]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-05 15:15:45] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-05 15:15:45] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 15:15:45] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-05 15:15:45] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230505/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 15:15:45] INFO root fetch - processPackages [django-markdown-deux]: Start processing: schoolware-api
+[2023-05-05 15:15:45] INFO root fetch - main [MainThread]: End processing [django-markdown-deux]: success
+[2023-05-05 15:15:45] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-05 15:15:45] INFO root fetch - processPackages [sbioapputils]: Start processing: nbdev-django
+[2023-05-05 15:15:45] INFO root fetch - main [MainThread]: End processing [sbioapputils]: success
+[2023-05-05 15:15:45] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 15:15:45] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-05 15:15:45] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230505/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 15:15:46] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/24/6e/bb949ea3aaa1c3424fa6ae559231013e250503cfce2270489867a0aafaed/schoolware_api-1.1.9.tar.gz
+[2023-05-05 15:15:46] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 15:15:46] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.8.tar.gz tmp/schoolware_api-1.1.9.tar.gz --markdown 20230505/s/schoolware-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-05 15:15:46] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: ankitpalbuffed
+[2023-05-05 15:15:46] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-05 15:15:46] INFO root fetch - processPackages [ankitpalbuffed]: New version: [0.3] Old Version: [0.2]
+[2023-05-05 15:15:46] INFO root fetch - processPackages [Python-EasyGraph]: Start processing: nbdev-apl
+[2023-05-05 15:15:46] INFO root fetch - main [MainThread]: End processing [Python-EasyGraph]: success
+[2023-05-05 15:15:46] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.755] Old Version: [0.0.754]
+[2023-05-05 15:15:46] INFO root fetch - processPackages [ankitpalbuffed]: Downloading https://files.pythonhosted.org/packages/19/cd/c21922e33ee726aebdcb84090d1831d77b70ac6237525d750210dd0517ef/ankitpalbuffed-0.2.tar.gz
+[2023-05-05 15:15:46] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/1b/f4/760ff1f526f6d9fead02787a094ffb39b10d7b08218fbe64f76a18d95b4a/nbdev-apl-0.0.755.tar.gz
+[2023-05-05 15:15:46] INFO root fetch - processPackages [ankitpalbuffed]: Downloading https://files.pythonhosted.org/packages/43/bd/00c12909b9d853c0fe4099ed4ff91525cd0b0e09a0aa0b45e853fc425ce6/ankitpalbuffed-0.3.tar.gz
+[2023-05-05 15:15:46] INFO root fetch - processPackages [nbdev-scipy]: Start processing: aij-webcam
+[2023-05-05 15:15:46] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-05 15:15:46] INFO root fetch - processPackages [aij-webcam]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-05 15:15:46] INFO root fetch - processPackages [eea.kitkat]: Start processing: cryptos
+[2023-05-05 15:15:46] INFO root fetch - main [MainThread]: End processing [eea.kitkat]: success
+[2023-05-05 15:15:46] INFO root fetch - processPackages [cryptos]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-05-05 15:15:46] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-05 15:15:46] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.754.tar.gz tmp/nbdev-apl-0.0.755.tar.gz --markdown 20230505/n/nbdev-apl/0.0.754-0.0.755/diff.md --exclude *.pyd
+[2023-05-05 15:15:46] INFO root fetch - processPackages [ankitpalbuffed]: executing diffoscope
+[2023-05-05 15:15:46] INFO root fetch - processPackages [ankitpalbuffed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ankitpalbuffed-0.2.tar.gz tmp/ankitpalbuffed-0.3.tar.gz --markdown 20230505/a/ankitpalbuffed/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-05 15:15:46] INFO root fetch - processPackages [netdoc]: Start processing: dh-potluck
+[2023-05-05 15:15:46] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-05-05 15:15:46] INFO root fetch - processPackages [dh-potluck]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-05 15:15:46] INFO root fetch - processPackages [aij-webcam]: Downloading https://files.pythonhosted.org/packages/e1/43/562f03f7819f54aa694aaaaf73701ffb1f919f31380e98b5261acae26572/aij-webcam-1.1.1.tar.gz
+[2023-05-05 15:15:47] INFO root fetch - processPackages [cryptos]: Downloading https://files.pythonhosted.org/packages/f7/1a/ff250ac6be438387f97d080c911525b48ecd3257415d091cfb5ae4029723/cryptos-2.0.6.tar.gz
+[2023-05-05 15:15:47] INFO root fetch - processPackages [dh-potluck]: Downloading https://files.pythonhosted.org/packages/6c/85/d5529ba47bcfff2278b73467b2003491ff930a8916ec90ab6d347fbd037b/dh-potluck-1.9.0.tar.gz
+[2023-05-05 15:15:47] INFO root fetch - processPackages [aij-webcam]: Downloading https://files.pythonhosted.org/packages/d0/26/dc168db217442e75d0c20edf96545299c88fca5f0e86d8bfaf82a77adf0e/aij-webcam-1.1.2.tar.gz
+[2023-05-05 15:15:47] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-05-05 15:15:47] INFO root fetch - processPackages [cryptos]: Downloading https://files.pythonhosted.org/packages/b8/b7/ea7125e2f36a81d8bd9baa7889911e2758dab9f29ccdd4dd6da30b3caba4/cryptos-2.0.7.tar.gz
+[2023-05-05 15:15:47] INFO root fetch - processPackages [aij-webcam]: executing diffoscope
+[2023-05-05 15:15:47] INFO root fetch - processPackages [aij-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-webcam-1.1.1.tar.gz tmp/aij-webcam-1.1.2.tar.gz --markdown 20230505/a/aij-webcam/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-05 15:15:47] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 15:15:47] INFO root fetch - processPackages [cryptos]: executing diffoscope
+[2023-05-05 15:15:47] INFO root fetch - processPackages [cryptos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptos-2.0.6.tar.gz tmp/cryptos-2.0.7.tar.gz --markdown 20230505/c/cryptos/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-05-05 15:15:47] INFO root fetch - processPackages [dh-potluck]: Downloading https://files.pythonhosted.org/packages/5d/ea/c5f6e8c82d824dad4198a98dfb092cefc1dfdd950baaf6168a964441a559/dh-potluck-1.9.1.tar.gz
+[2023-05-05 15:15:47] INFO root fetch - processPackages [dh-potluck]: executing diffoscope
+[2023-05-05 15:15:47] INFO root fetch - processPackages [dh-potluck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dh-potluck-1.9.0.tar.gz tmp/dh-potluck-1.9.1.tar.gz --markdown 20230505/d/dh-potluck/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-05 15:15:48] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-05 15:15:48] INFO root fetch - main [MainThread]: End processing [ankitpalbuffed]: success
+[2023-05-05 15:15:48] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-05 15:15:48] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-05 15:15:48] INFO root fetch - main [MainThread]: End processing [aij-webcam]: success
+[2023-05-05 15:15:49] INFO root fetch - main [MainThread]: End processing [dh-potluck]: success
+[2023-05-05 15:15:49] INFO root fetch - main [MainThread]: End processing [cryptos]: success
+[2023-05-05 15:15:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-05 15:15:49] INFO root fetch - main [MainThread]: Store serial: [17987422]
