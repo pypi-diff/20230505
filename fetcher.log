@@ -23374,3 +23374,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-05 22:47:47] INFO root fetch - main [MainThread]: End processing [unigui]: success
 [2023-05-05 22:47:49] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-05 22:47:49] INFO root fetch - main [MainThread]: Store serial: [17992834]
+[2023-05-05 22:52:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17992834]
+[2023-05-05 22:52:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-05 22:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: img2table
+[2023-05-05 22:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-05-05 22:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentient-switchblade
+[2023-05-05 22:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyBibX
+[2023-05-05 22:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-auth-oidc
+[2023-05-05 22:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: schoolware-api
+[2023-05-05 22:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: marpdown
+[2023-05-05 22:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deephaven-plugin-plotly-express
+[2023-05-05 22:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tyba-client
+[2023-05-05 22:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fusionsc
+[2023-05-05 22:52:58] INFO root fetch - processPackages [sentient-switchblade]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-05 22:52:58] INFO root fetch - processPackages [pyBibX]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-05-05 22:52:58] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-05 22:52:58] INFO root fetch - processPackages [img2table]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 22:52:58] INFO root fetch - processPackages [odoo-addon-auth-oidc]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-05-05 22:52:58] INFO root fetch - processPackages [marpdown]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-05 22:52:58] INFO root fetch - processPackages [deephaven-plugin-plotly-express]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 22:52:58] INFO root fetch - processPackages [tyba-client]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-05 22:52:58] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-05 22:52:58] INFO root fetch - processPackages [coiled]: New version: [0.6.2.dev9] Old Version: [0.6.2.dev6]
+[2023-05-05 22:52:58] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-05-05 22:52:58] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 22:52:58] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.8.tar.gz tmp/schoolware_api-1.1.9.tar.gz --markdown 20230505/s/schoolware-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-05 22:52:58] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-05 22:52:58] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.2.dev6.tar.gz tmp/coiled-0.6.2.dev9.tar.gz --markdown 20230505/c/coiled/0.6.2.dev6-0.6.2.dev9/diff.md --exclude *.pyd
+[2023-05-05 22:52:58] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-05-05 22:52:58] INFO root fetch - processPackages [fusionsc]: Start processing: cluedin
+[2023-05-05 22:52:58] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-05-05 22:52:58] INFO root fetch - processPackages [marpdown]: Downloading https://files.pythonhosted.org/packages/bd/8e/eba41f3a614283fa53da1744b0d8673a5eaba71441e65fc99c677e1f1fdd/marpdown-0.7.0.tar.gz
+[2023-05-05 22:52:58] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/87/61/c185e6a54d8de6f5278ae807038e57dc5080914aa129656c56e6f35fcf5b/pyBibX-2.9.3.tar.gz
+[2023-05-05 22:52:58] INFO root fetch - processPackages [tyba-client]: Downloading https://files.pythonhosted.org/packages/e0/b9/e6383e00d02c8a711fa24786916ff07b589c75177053ce4c45634fb66b22/tyba_client-0.2.1.tar.gz
+[2023-05-05 22:52:58] INFO root fetch - processPackages [img2table]: Downloading https://files.pythonhosted.org/packages/cb/3a/297fe2b4f167348d6e04f643ac334fed37e476acd9eae4bf348c6288b62b/img2table-0.1.1.tar.gz
+[2023-05-05 22:52:58] INFO root fetch - processPackages [odoo-addon-auth-oidc]: Downloading https://files.pythonhosted.org/packages/a2/6b/22d5bd584bf46203e4ab4b559a391b79601c425bb6122f94731cce76bead/odoo_addon_auth_oidc-15.0.1.0.1-py3-none-any.whl
+[2023-05-05 22:52:58] INFO root fetch - processPackages [cluedin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 22:52:58] INFO root fetch - processPackages [sentient-switchblade]: Downloading https://files.pythonhosted.org/packages/d6/6e/c1c552625c252f6089d0ebf15aa9ea2789fbdf9a539ecaeacba0f79dfcf8/sentient_switchblade-0.3.3.tar.gz
+[2023-05-05 22:52:58] INFO root fetch - processPackages [deephaven-plugin-plotly-express]: Downloading https://files.pythonhosted.org/packages/b2/9b/bdfbfe560db2cf5b68af453404bdefbd8d17c1727b4bfec1a3ae00fdf7dc/deephaven-plugin-plotly-express-0.0.3.tar.gz
+[2023-05-05 22:52:59] INFO root fetch - processPackages [marpdown]: executing diffoscope
+[2023-05-05 22:52:59] INFO root fetch - processPackages [marpdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marpdown-0.6.0.tar.gz tmp/marpdown-0.7.0.tar.gz --markdown 20230505/m/marpdown/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-05 22:52:59] INFO root fetch - processPackages [sentient-switchblade]: executing diffoscope
+[2023-05-05 22:52:59] INFO root fetch - processPackages [sentient-switchblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentient_switchblade-0.3.2.tar.gz tmp/sentient_switchblade-0.3.3.tar.gz --markdown 20230505/s/sentient-switchblade/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-05 22:52:59] INFO root fetch - processPackages [cluedin]: Downloading https://files.pythonhosted.org/packages/ac/f1/f033b525fa5a1da4d6ce5cf06baf6ddd39b3722e1e89111b2818cba76c22/cluedin-0.1.0.tar.gz
+[2023-05-05 22:52:59] INFO root fetch - processPackages [tyba-client]: Downloading https://files.pythonhosted.org/packages/40/50/494bb315aa13ecb426a7489d509abec56a4acf3d95f4a3c900d2f58eb8c9/tyba_client-0.2.2.tar.gz
+[2023-05-05 22:52:59] INFO root fetch - processPackages [deephaven-plugin-plotly-express]: executing diffoscope
+[2023-05-05 22:52:59] INFO root fetch - processPackages [deephaven-plugin-plotly-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deephaven-plugin-plotly-express-0.0.2.tar.gz tmp/deephaven-plugin-plotly-express-0.0.3.tar.gz --markdown 20230505/d/deephaven-plugin-plotly-express/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 22:52:59] INFO root fetch - processPackages [odoo-addon-auth-oidc]: Downloading https://files.pythonhosted.org/packages/f4/c0/b7b16e1cf2af40e8b8082eeb3809024010fc01e98f57efe0c1c50fb0965b/odoo_addon_auth_oidc-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-05 22:52:59] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/36/48/9c9558c2559579031163d17007e0606c14473db8d15b15abf51d112b01b0/pyBibX-2.9.4.tar.gz
+[2023-05-05 22:52:59] INFO root fetch - processPackages [tyba-client]: executing diffoscope
+[2023-05-05 22:52:59] INFO root fetch - processPackages [tyba-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tyba_client-0.2.1.tar.gz tmp/tyba_client-0.2.2.tar.gz --markdown 20230505/t/tyba-client/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-05 22:52:59] INFO root fetch - processPackages [odoo-addon-auth-oidc]: executing diffoscope
+[2023-05-05 22:52:59] INFO root fetch - processPackages [odoo-addon-auth-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_oidc-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_auth_oidc-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230505/o/odoo-addon-auth-oidc/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-05 22:52:59] INFO root fetch - processPackages [img2table]: Downloading https://files.pythonhosted.org/packages/2f/ce/df0a1c2009f8994e4556fdadfef2d08b85a9b290e331c075ea4bd15e6fad/img2table-0.1.2.tar.gz
+[2023-05-05 22:52:59] INFO root fetch - processPackages [pyBibX]: executing diffoscope
+[2023-05-05 22:52:59] INFO root fetch - processPackages [pyBibX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBibX-2.9.3.tar.gz tmp/pyBibX-2.9.4.tar.gz --markdown 20230505/p/pyBibX/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-05-05 22:52:59] INFO root fetch - processPackages [cluedin]: Downloading https://files.pythonhosted.org/packages/91/51/2c6e7a7d94c4f585a8f78796ab8fe7da56a997fafcb2de1283df5faf8c3c/cluedin-0.1.1.tar.gz
+[2023-05-05 22:52:59] INFO root fetch - processPackages [img2table]: executing diffoscope
+[2023-05-05 22:52:59] INFO root fetch - processPackages [img2table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img2table-0.1.1.tar.gz tmp/img2table-0.1.2.tar.gz --markdown 20230505/i/img2table/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 22:52:59] INFO root fetch - processPackages [cluedin]: executing diffoscope
+[2023-05-05 22:52:59] INFO root fetch - processPackages [cluedin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluedin-0.1.0.tar.gz tmp/cluedin-0.1.1.tar.gz --markdown 20230505/c/cluedin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 22:53:00] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 22:53:00] INFO root fetch - main [MainThread]: End processing [marpdown]: success
+[2023-05-05 22:53:00] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-05 22:53:00] INFO root fetch - main [MainThread]: End processing [tyba-client]: success
+[2023-05-05 22:53:00] INFO root fetch - main [MainThread]: End processing [sentient-switchblade]: success
+[2023-05-05 22:53:00] INFO root fetch - main [MainThread]: End processing [deephaven-plugin-plotly-express]: success
+[2023-05-05 22:53:00] INFO root fetch - main [MainThread]: End processing [cluedin]: success
+[2023-05-05 22:53:01] INFO root fetch - main [MainThread]: End processing [pyBibX]: success
+[2023-05-05 22:53:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-oidc]: success
+[2023-05-05 22:53:03] INFO root fetch - main [MainThread]: End processing [img2table]: success
+[2023-05-05 22:53:03] INFO root fetch - main [MainThread]: Store serial: [17992867]
