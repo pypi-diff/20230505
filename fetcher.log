@@ -14318,3 +14318,200 @@
 [2023-05-05 14:48:45] INFO root fetch - main [MainThread]: End processing [vigilant-kit]: success
 [2023-05-05 14:48:46] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-05-05 14:48:46] INFO root fetch - main [MainThread]: Store serial: [17987034]
+[2023-05-05 14:53:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17987034]
+[2023-05-05 14:53:55] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-05-05 14:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: longitudinal-trends
+[2023-05-05 14:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rebasin
+[2023-05-05 14:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th2-data-services-lwdp
+[2023-05-05 14:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idp-engine
+[2023-05-05 14:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gene-ranking-shootout
+[2023-05-05 14:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: z3c.insist
+[2023-05-05 14:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: curated-transformers
+[2023-05-05 14:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: f90wrap
+[2023-05-05 14:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oca-port
+[2023-05-05 14:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BindingGP
+[2023-05-05 14:53:55] INFO root fetch - processPackages [rebasin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 14:53:55] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.3.0.dev4893468846] Old Version: [2.0.2.0.dev4818891739]
+[2023-05-05 14:53:55] INFO root fetch - processPackages [longitudinal-trends]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 14:53:55] INFO root fetch - processPackages [idp-engine]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-05 14:53:55] WARNING root fetch - processPackages [gene-ranking-shootout]: Skipping, unable to determine old version
+[2023-05-05 14:53:55] INFO root fetch - processPackages [gene-ranking-shootout]: Start processing: jdAnimatedImageEditor
+[2023-05-05 14:53:55] INFO root fetch - main [MainThread]: End processing [gene-ranking-shootout] error
+[2023-05-05 14:53:55] INFO root fetch - processPackages [curated-transformers]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-05-05 14:53:55] INFO root fetch - processPackages [BindingGP]: New version: [0.0.9] Old Version: [0.0.36]
+[2023-05-05 14:53:55] INFO root fetch - processPackages [oca-port]: New version: [0.9] Old Version: [0.13]
+[2023-05-05 14:53:55] INFO root fetch - processPackages [z3c.insist]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-05 14:53:55] INFO root fetch - processPackages [f90wrap]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 14:53:55] INFO root fetch - processPackages [jdAnimatedImageEditor]: New version: [1.4] Old Version: [1.3]
+[2023-05-05 14:53:55] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/af/c8/74f8878a7bce2ca6b0847a9b1156c8d5e21dfd7646d9b00e6ed66e0a65d5/th2_data_services_lwdp-2.0.2.0.dev4818891739.tar.gz
+[2023-05-05 14:53:55] INFO root fetch - processPackages [BindingGP]: Downloading https://files.pythonhosted.org/packages/b5/c9/32c52ff5eb19c9e512b89eed3bf60e47b38413baca75162ddf72b2837209/BindingGP-0.0.36.tar.gz
+[2023-05-05 14:53:55] INFO root fetch - processPackages [oca-port]: Downloading https://files.pythonhosted.org/packages/f1/42/bfc1421299b453aeed2ac77560c77a77e2fa41e31026c5068a0e25633343/oca_port-0.13.tar.gz
+[2023-05-05 14:53:55] INFO root fetch - processPackages [z3c.insist]: Downloading https://files.pythonhosted.org/packages/9c/56/e2c272b267b3fc868d5e4106c5799f165b75463e340c2a9f2004181ac06d/z3c.insist-1.5.1.tar.gz
+[2023-05-05 14:53:55] INFO root fetch - processPackages [jdAnimatedImageEditor]: Downloading https://files.pythonhosted.org/packages/60/de/74946ac130f24cf92cb62d27a8e87be0468f664a1b25ccdb16da82dc5a5c/jdAnimatedImageEditor-1.3.tar.gz
+[2023-05-05 14:53:55] INFO root fetch - processPackages [f90wrap]: Downloading https://files.pythonhosted.org/packages/30/9c/f1307b8fa1c17fc5ee9a7538e9eb347036e9d619dfef9f88da2e80967d9a/f90wrap-0.2.8.tar.gz
+[2023-05-05 14:53:55] INFO root fetch - processPackages [longitudinal-trends]: Downloading https://files.pythonhosted.org/packages/1e/9c/392b1da9eec136f7625088b7b6876588077781f5404be833a909d60f5fdc/longitudinal_trends-0.1.5.tar.gz
+[2023-05-05 14:53:55] INFO root fetch - processPackages [longitudinal-trends]: executing diffoscope
+[2023-05-05 14:53:55] INFO root fetch - processPackages [curated-transformers]: Downloading https://files.pythonhosted.org/packages/ca/f7/06ae48ca276ec55bfa28e563aa743e035170cd58b1dbfa8d680b3be73489/curated-transformers-0.1.0.tar.gz
+[2023-05-05 14:53:55] INFO root fetch - processPackages [longitudinal-trends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longitudinal_trends-0.1.4.tar.gz tmp/longitudinal_trends-0.1.5.tar.gz --markdown 20230505/l/longitudinal-trends/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 14:53:55] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-05-05 14:53:55] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.2.0.dev4818891739.tar.gz tmp/th2_data_services_lwdp-2.0.3.0.dev4893468846.tar.gz --markdown 20230505/t/th2-data-services-lwdp/2.0.2.0.dev4818891739-2.0.3.0.dev4893468846/diff.md --exclude *.pyd
+[2023-05-05 14:53:55] INFO root fetch - processPackages [rebasin]: executing diffoscope
+[2023-05-05 14:53:55] INFO root fetch - processPackages [rebasin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebasin-0.0.8.tar.gz tmp/rebasin-0.0.9.tar.gz --markdown 20230505/r/rebasin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 14:53:55] INFO root fetch - processPackages [idp-engine]: executing diffoscope
+[2023-05-05 14:53:55] INFO root fetch - processPackages [idp-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idp-engine-0.9.1.tar.gz tmp/idp-engine-0.9.2.tar.gz --markdown 20230505/i/idp-engine/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-05 14:53:55] INFO root fetch - processPackages [BindingGP]: Downloading https://files.pythonhosted.org/packages/a1/25/d39b05b8257f69afd91693d906c5be4cb2faabe2e3cff3faeb0efbb1a1d4/BindingGP-0.0.9.tar.gz
+[2023-05-05 14:53:55] INFO root fetch - processPackages [curated-transformers]: executing diffoscope
+[2023-05-05 14:53:55] INFO root fetch - processPackages [curated-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curated-transformers-0.0.8.tar.gz tmp/curated-transformers-0.1.0.tar.gz --markdown 20230505/c/curated-transformers/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-05-05 14:53:55] INFO root fetch - processPackages [oca-port]: Downloading https://files.pythonhosted.org/packages/b3/a8/dc7bfd0ba37862f21356dadb597e039ebbcc0884126a687f34d8ec84f188/oca_port-0.9.tar.gz
+[2023-05-05 14:53:55] INFO root fetch - processPackages [jdAnimatedImageEditor]: Downloading https://files.pythonhosted.org/packages/03/04/0653f2b890d2df4dbe82fc19efe3b59c27cd4c307f5d83bb372a01009e0d/jdAnimatedImageEditor-1.4.tar.gz
+[2023-05-05 14:53:55] INFO root fetch - processPackages [z3c.insist]: Downloading https://files.pythonhosted.org/packages/3a/8c/7e9eff9fabf174a8c6405f88299414480f6a864ed97c42eed2115862b751/z3c.insist-1.5.2.tar.gz
+[2023-05-05 14:53:55] INFO root fetch - processPackages [jdAnimatedImageEditor]: executing diffoscope
+[2023-05-05 14:53:55] INFO root fetch - processPackages [jdAnimatedImageEditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdAnimatedImageEditor-1.3.tar.gz tmp/jdAnimatedImageEditor-1.4.tar.gz --markdown 20230505/j/jdAnimatedImageEditor/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-05 14:53:56] INFO root fetch - processPackages [z3c.insist]: executing diffoscope
+[2023-05-05 14:53:56] INFO root fetch - processPackages [z3c.insist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z3c.insist-1.5.1.tar.gz tmp/z3c.insist-1.5.2.tar.gz --markdown 20230505/z/z3c.insist/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-05 14:53:56] INFO root fetch - processPackages [BindingGP]: executing diffoscope
+[2023-05-05 14:53:56] INFO root fetch - processPackages [BindingGP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BindingGP-0.0.36.tar.gz tmp/BindingGP-0.0.9.tar.gz --markdown 20230505/B/BindingGP/0.0.36-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 14:53:56] INFO root fetch - processPackages [f90wrap]: Downloading https://files.pythonhosted.org/packages/d7/a9/45598b9a74a18cb0fc8493e5ee8a43270c3fa18d727d4740ecf16464ea05/f90wrap-0.2.9.tar.gz
+[2023-05-05 14:53:56] INFO root fetch - processPackages [oca-port]: executing diffoscope
+[2023-05-05 14:53:56] INFO root fetch - processPackages [oca-port]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oca_port-0.13.tar.gz tmp/oca_port-0.9.tar.gz --markdown 20230505/o/oca-port/0.13-0.9/diff.md --exclude *.pyd
+[2023-05-05 14:53:56] INFO root fetch - processPackages [f90wrap]: executing diffoscope
+[2023-05-05 14:53:56] INFO root fetch - processPackages [f90wrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f90wrap-0.2.8.tar.gz tmp/f90wrap-0.2.9.tar.gz --markdown 20230505/f/f90wrap/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 14:53:57] INFO root fetch - processPackages [longitudinal-trends]: Start processing: pyroporn
+[2023-05-05 14:53:57] INFO root fetch - main [MainThread]: End processing [longitudinal-trends]: success
+[2023-05-05 14:53:57] INFO root fetch - processPackages [pyroporn]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 14:53:57] INFO root fetch - processPackages [th2-data-services-lwdp]: Start processing: volworld-aws-api-common
+[2023-05-05 14:53:57] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-05-05 14:53:57] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.94] Old Version: [0.1.93]
+[2023-05-05 14:53:57] INFO root fetch - processPackages [pyroporn]: Downloading https://files.pythonhosted.org/packages/b6/f6/857c3cea99ead6eaa1c12d7cb6aed97c59e22bab9c8fb4cd7e72dbf825a0/pyroporn-0.1.4.tar.gz
+[2023-05-05 14:53:57] INFO root fetch - processPackages [pyroporn]: executing diffoscope
+[2023-05-05 14:53:57] INFO root fetch - processPackages [pyroporn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroporn-0.1.3.tar.gz tmp/pyroporn-0.1.4.tar.gz --markdown 20230505/p/pyroporn/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 14:53:57] INFO root fetch - processPackages [jdAnimatedImageEditor]: Start processing: pycirclize
+[2023-05-05 14:53:57] INFO root fetch - main [MainThread]: End processing [jdAnimatedImageEditor]: success
+[2023-05-05 14:53:57] INFO root fetch - processPackages [pycirclize]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-05 14:53:57] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/e9/c1/bd7fbd830dadac6f27f48e667af9152d4dd0f69432c7a088b266bab63438/volworld_aws_api_common-0.1.94.tar.gz
+[2023-05-05 14:53:57] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-05 14:53:57] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.93.tar.gz tmp/volworld_aws_api_common-0.1.94.tar.gz --markdown 20230505/v/volworld-aws-api-common/0.1.93-0.1.94/diff.md --exclude *.pyd
+[2023-05-05 14:53:57] INFO root fetch - processPackages [pycirclize]: Downloading https://files.pythonhosted.org/packages/b9/ff/24d38b248a84c7b89ca26cd5d5a96795a099ca91f5e63c256b2fd52d2b65/pycirclize-0.3.1.tar.gz
+[2023-05-05 14:53:57] INFO root fetch - processPackages [rebasin]: Start processing: Orange3
+[2023-05-05 14:53:57] INFO root fetch - main [MainThread]: End processing [rebasin]: success
+[2023-05-05 14:53:57] INFO root fetch - processPackages [Orange3]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-05 14:53:58] INFO root fetch - processPackages [Orange3]: Downloading https://files.pythonhosted.org/packages/82/99/0dcc89f3597e8bb2af960516ba50ad992cb01a37b1080fcdd9b9249c5822/Orange3-3.9.0.tar.gz
+[2023-05-05 14:53:58] INFO root fetch - processPackages [pycirclize]: Downloading https://files.pythonhosted.org/packages/4e/a1/612a368617ceb65d05d8549f64b746d80db4becb76f4a0712c4e68d8006c/pycirclize-0.4.0.tar.gz
+[2023-05-05 14:53:58] INFO root fetch - processPackages [pycirclize]: executing diffoscope
+[2023-05-05 14:53:58] INFO root fetch - processPackages [pycirclize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycirclize-0.3.1.tar.gz tmp/pycirclize-0.4.0.tar.gz --markdown 20230505/p/pycirclize/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-05 14:53:58] WARNING root fetch - processPackages [Orange3]: Skipping package: exceeds size limit 21996425>=10485760
+[2023-05-05 14:53:58] INFO root fetch - processPackages [Orange3]: Start processing: flox
+[2023-05-05 14:53:58] INFO root fetch - main [MainThread]: End processing [Orange3] error
+[2023-05-05 14:53:58] INFO root fetch - processPackages [oca-port]: Start processing: anylabeling-gpu
+[2023-05-05 14:53:58] INFO root fetch - main [MainThread]: End processing [oca-port]: success
+[2023-05-05 14:53:58] INFO root fetch - processPackages [z3c.insist]: Start processing: pysdot
+[2023-05-05 14:53:58] INFO root fetch - main [MainThread]: End processing [z3c.insist]: success
+[2023-05-05 14:53:58] INFO root fetch - processPackages [flox]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-05-05 14:53:58] INFO root fetch - processPackages [anylabeling-gpu]: New version: [0.2.20] Old Version: [0.2.19]
+[2023-05-05 14:53:58] INFO root fetch - processPackages [pysdot]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-05 14:53:58] INFO root fetch - processPackages [anylabeling-gpu]: Downloading https://files.pythonhosted.org/packages/76/f8/d2624fcc58b32562b57e5342b6db2c81d08a05ea3f67bf05554686737490/anylabeling_gpu-0.2.19-py3-none-any.whl
+[2023-05-05 14:53:58] INFO root fetch - processPackages [flox]: Downloading https://files.pythonhosted.org/packages/e5/fd/9f63a1168c8f668d49662a6487a4297247c9db05e01d33439d71b6fe50ca/flox-0.6.9.tar.gz
+[2023-05-05 14:53:58] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/58/c8/07a56a466b82e7f91faaaed1e412c855bbb21a4da376ec56718ee02e2df7/pysdot-0.2.7.tar.gz
+[2023-05-05 14:53:58] INFO root fetch - processPackages [pyroporn]: Start processing: aij-webcam
+[2023-05-05 14:53:58] INFO root fetch - main [MainThread]: End processing [pyroporn]: success
+[2023-05-05 14:53:58] INFO root fetch - processPackages [aij-webcam]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-05 14:53:58] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/13/97/8fcde2da6b06276a9ef7c3fea9e816e5e0cd9025cfe13a8053a4435c66ae/pysdot-0.2.8.tar.gz
+[2023-05-05 14:53:58] INFO root fetch - processPackages [aij-webcam]: executing diffoscope
+[2023-05-05 14:53:58] INFO root fetch - processPackages [aij-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-webcam-1.0.9.tar.gz tmp/aij-webcam-1.1.0.tar.gz --markdown 20230505/a/aij-webcam/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 14:53:59] INFO root fetch - processPackages [BindingGP]: Start processing: wcferry
+[2023-05-05 14:53:59] INFO root fetch - main [MainThread]: End processing [BindingGP]: success
+[2023-05-05 14:53:59] INFO root fetch - processPackages [pysdot]: executing diffoscope
+[2023-05-05 14:53:59] INFO root fetch - processPackages [pysdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysdot-0.2.7.tar.gz tmp/pysdot-0.2.8.tar.gz --markdown 20230505/p/pysdot/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-05 14:53:59] INFO root fetch - processPackages [volworld-aws-api-common]: Start processing: chaostoolkit-reliably
+[2023-05-05 14:53:59] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-05 14:53:59] INFO root fetch - processPackages [flox]: Downloading https://files.pythonhosted.org/packages/61/7a/2e7ba67dc60dd1653221ce8bf9c1737495a03a81793aee85184b6f6cdea5/flox-0.7.0.tar.gz
+[2023-05-05 14:53:59] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-05 14:53:59] INFO root fetch - processPackages [f90wrap]: Start processing: pyparlaclarin
+[2023-05-05 14:53:59] INFO root fetch - main [MainThread]: End processing [f90wrap]: success
+[2023-05-05 14:53:59] INFO root fetch - processPackages [wcferry]: New version: [3.7.0.30.25] Old Version: [3.7.0.30.24.1]
+[2023-05-05 14:53:59] INFO root fetch - processPackages [curated-transformers]: Start processing: atmoswing-vigicrues
+[2023-05-05 14:53:59] INFO root fetch - main [MainThread]: End processing [curated-transformers]: success
+[2023-05-05 14:53:59] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-05-05 14:53:59] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230505/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-05 14:53:59] INFO root fetch - processPackages [flox]: executing diffoscope
+[2023-05-05 14:53:59] INFO root fetch - processPackages [flox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flox-0.6.9.tar.gz tmp/flox-0.7.0.tar.gz --markdown 20230505/f/flox/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-05-05 14:53:59] INFO root fetch - processPackages [idp-engine]: Start processing: manticore
+[2023-05-05 14:53:59] INFO root fetch - main [MainThread]: End processing [idp-engine]: success
+[2023-05-05 14:53:59] INFO root fetch - processPackages [pyparlaclarin]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-05-05 14:53:59] INFO root fetch - processPackages [atmoswing-vigicrues]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-05 14:53:59] INFO root fetch - processPackages [anylabeling-gpu]: Downloading https://files.pythonhosted.org/packages/d2/c7/5e9a85c43e0a94f110d2150315ee721445ac93bf8352bafd59aebbe3e80f/anylabeling_gpu-0.2.20-py3-none-any.whl
+[2023-05-05 14:53:59] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230505] Old Version: [0.3.8.dev230504]
+[2023-05-05 14:53:59] INFO root fetch - processPackages [wcferry]: Downloading https://files.pythonhosted.org/packages/70/d1/c436ad0d0e60616be25ad22c8c7c0a7b677b32c41d84ddfb4a9371274e5d/wcferry-3.7.0.30.25.tar.gz
+[2023-05-05 14:53:59] INFO root fetch - processPackages [pyparlaclarin]: Downloading https://files.pythonhosted.org/packages/7b/8e/46442e76c03b3b3bda9b9be9d0213c9c99d85ccf9a074e976fa54727c86e/pyparlaclarin-0.6.2.tar.gz
+[2023-05-05 14:53:59] INFO root fetch - processPackages [atmoswing-vigicrues]: Downloading https://files.pythonhosted.org/packages/e2/f2/5cc58d5078d2c3b52fa06f515df941f28a25773fa5f359cb16955a6c3711/atmoswing-vigicrues-1.0.1.tar.gz
+[2023-05-05 14:53:59] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/50/7a/2b8a829abca9d3e868ad0ffd22a4c1d1225190a8fa1ccbafb2e38e18ed0a/manticore-0.3.8.dev230504.tar.gz
+[2023-05-05 14:53:59] INFO root fetch - processPackages [wcferry]: executing diffoscope
+[2023-05-05 14:53:59] INFO root fetch - processPackages [wcferry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcferry-3.7.0.30.24.1.tar.gz tmp/wcferry-3.7.0.30.25.tar.gz --markdown 20230505/w/wcferry/3.7.0.30.24.1-3.7.0.30.25/diff.md --exclude *.pyd
+[2023-05-05 14:53:59] INFO root fetch - processPackages [pyparlaclarin]: Downloading https://files.pythonhosted.org/packages/70/65/47b28e883156609cd811b458899f880a927b1ec93b2e77d079543792348a/pyparlaclarin-0.7.0.tar.gz
+[2023-05-05 14:53:59] INFO root fetch - processPackages [anylabeling-gpu]: executing diffoscope
+[2023-05-05 14:53:59] INFO root fetch - processPackages [anylabeling-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylabeling_gpu-0.2.19-py3-none-any.whl.zip tmp/anylabeling_gpu-0.2.20-py3-none-any.whl.zip --markdown 20230505/a/anylabeling-gpu/0.2.19-0.2.20/diff.md --exclude *.pyd
+[2023-05-05 14:53:59] INFO root fetch - processPackages [atmoswing-vigicrues]: Downloading https://files.pythonhosted.org/packages/1b/df/de5c29008863f960924609f3cba7957ec748f9ea3892855c73fc22e35428/atmoswing-vigicrues-1.0.2.tar.gz
+[2023-05-05 14:53:59] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/67/65/f08df3232c50e501a44413097767854c3cfafc8cdf34fd49afee65710c3c/manticore-0.3.8.dev230505.tar.gz
+[2023-05-05 14:53:59] INFO root fetch - processPackages [pyparlaclarin]: executing diffoscope
+[2023-05-05 14:53:59] INFO root fetch - processPackages [pyparlaclarin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyparlaclarin-0.6.2.tar.gz tmp/pyparlaclarin-0.7.0.tar.gz --markdown 20230505/p/pyparlaclarin/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-05-05 14:53:59] INFO root fetch - processPackages [atmoswing-vigicrues]: executing diffoscope
+[2023-05-05 14:53:59] INFO root fetch - processPackages [atmoswing-vigicrues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atmoswing-vigicrues-1.0.1.tar.gz tmp/atmoswing-vigicrues-1.0.2.tar.gz --markdown 20230505/a/atmoswing-vigicrues/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-05 14:54:00] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-05-05 14:54:00] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230504.tar.gz tmp/manticore-0.3.8.dev230505.tar.gz --markdown 20230505/m/manticore/0.3.8.dev230504-0.3.8.dev230505/diff.md --exclude *.pyd
+[2023-05-05 14:54:00] INFO root fetch - processPackages [aij-webcam]: Start processing: pyproject-generator
+[2023-05-05 14:54:00] INFO root fetch - main [MainThread]: End processing [aij-webcam]: success
+[2023-05-05 14:54:00] INFO root fetch - processPackages [pyproject-generator]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-05 14:54:00] INFO root fetch - processPackages [pysdot]: Start processing: anylabeling
+[2023-05-05 14:54:00] INFO root fetch - main [MainThread]: End processing [pysdot]: success
+[2023-05-05 14:54:00] INFO root fetch - processPackages [anylabeling]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 14:54:00] INFO root fetch - processPackages [pyproject-generator]: Downloading https://files.pythonhosted.org/packages/aa/74/0b62c3f76e3bc24dd3cab9da5cde1afb054bef4c21142ef9de3d96123bc7/pyproject-generator-0.2.1.tar.gz
+[2023-05-05 14:54:00] INFO root fetch - processPackages [anylabeling]: executing diffoscope
+[2023-05-05 14:54:00] INFO root fetch - processPackages [anylabeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylabeling-0.2.8.tar.gz tmp/anylabeling-0.2.9.tar.gz --markdown 20230505/a/anylabeling/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 14:54:00] INFO root fetch - processPackages [pyproject-generator]: executing diffoscope
+[2023-05-05 14:54:00] INFO root fetch - processPackages [pyproject-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-generator-0.2.0.tar.gz tmp/pyproject-generator-0.2.1.tar.gz --markdown 20230505/p/pyproject-generator/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-05 14:54:01] INFO root fetch - processPackages [wcferry]: Start processing: custodes
+[2023-05-05 14:54:01] INFO root fetch - main [MainThread]: End processing [wcferry]: success
+[2023-05-05 14:54:01] INFO root fetch - processPackages [pyparlaclarin]: Start processing: invenio-indexer
+[2023-05-05 14:54:01] INFO root fetch - main [MainThread]: End processing [pyparlaclarin]: success
+[2023-05-05 14:54:01] INFO root fetch - processPackages [custodes]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 14:54:01] INFO root fetch - processPackages [custodes]: executing diffoscope
+[2023-05-05 14:54:01] INFO root fetch - processPackages [custodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custodes-0.0.5.tar.gz tmp/custodes-0.0.6.tar.gz --markdown 20230505/c/custodes/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 14:54:01] INFO root fetch - processPackages [invenio-indexer]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-05 14:54:01] INFO root fetch - processPackages [atmoswing-vigicrues]: Start processing: finbourne-access-sdk
+[2023-05-05 14:54:01] INFO root fetch - main [MainThread]: End processing [atmoswing-vigicrues]: success
+[2023-05-05 14:54:01] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-05 14:54:01] INFO root fetch - processPackages [pycirclize]: Start processing: volworld-aws-api-common
+[2023-05-05 14:54:01] INFO root fetch - main [MainThread]: End processing [pycirclize]: success
+[2023-05-05 14:54:01] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-05 14:54:01] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230505/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-05 14:54:01] INFO root fetch - processPackages [invenio-indexer]: Downloading https://files.pythonhosted.org/packages/f7/b5/18b296bc71a88f877002f7e965af212b2ac65607eb42cb06f8c9811d3382/invenio-indexer-2.1.1.tar.gz
+[2023-05-05 14:54:01] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.95] Old Version: [0.1.94]
+[2023-05-05 14:54:02] INFO root fetch - processPackages [chaostoolkit-reliably]: Start processing: ifd-python
+[2023-05-05 14:54:02] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-05-05 14:54:02] INFO root fetch - processPackages [ifd-python]: New version: [7.6.9] Old Version: [7.6.8]
+[2023-05-05 14:54:02] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/3f/e4/572eeea641f289f9c919d0161d263a2a0fab2094af35f0e8be43d39f53fd/volworld_aws_api_common-0.1.95.tar.gz
+[2023-05-05 14:54:02] INFO root fetch - processPackages [flox]: Start processing: ErCore
+[2023-05-05 14:54:02] INFO root fetch - main [MainThread]: End processing [flox]: success
+[2023-05-05 14:54:02] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-05-05 14:54:02] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-7.6.8.tar.gz tmp/ifd_python-7.6.9.tar.gz --markdown 20230505/i/ifd-python/7.6.8-7.6.9/diff.md --exclude *.pyd
+[2023-05-05 14:54:02] INFO root fetch - processPackages [invenio-indexer]: Downloading https://files.pythonhosted.org/packages/6c/27/ba78cd19d3ee5cb222c65e8f757b5bcb7949205f4e246368d8c5ec61d783/invenio-indexer-2.1.2.tar.gz
+[2023-05-05 14:54:02] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-05 14:54:02] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.94.tar.gz tmp/volworld_aws_api_common-0.1.95.tar.gz --markdown 20230505/v/volworld-aws-api-common/0.1.94-0.1.95/diff.md --exclude *.pyd
+[2023-05-05 14:54:02] INFO root fetch - processPackages [ErCore]: New version: [1.5] Old Version: [1.4]
+[2023-05-05 14:54:02] INFO root fetch - main [MainThread]: End processing [pyproject-generator]: success
+[2023-05-05 14:54:02] INFO root fetch - processPackages [invenio-indexer]: executing diffoscope
+[2023-05-05 14:54:02] INFO root fetch - processPackages [invenio-indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-indexer-2.1.1.tar.gz tmp/invenio-indexer-2.1.2.tar.gz --markdown 20230505/i/invenio-indexer/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-05 14:54:02] INFO root fetch - processPackages [ErCore]: Downloading https://files.pythonhosted.org/packages/71/cf/ca3424fc24ab68d585ef33518f4aa8351464a57e89738adc0eee5330d2f9/ErCore-1.4.tar.gz
+[2023-05-05 14:54:02] INFO root fetch - processPackages [ErCore]: Downloading https://files.pythonhosted.org/packages/29/aa/d29b8a2eff4ff63d733c200112eedac59d5bb04186deec3c304794af170a/ErCore-1.5.tar.gz
+[2023-05-05 14:54:02] INFO root fetch - processPackages [ErCore]: executing diffoscope
+[2023-05-05 14:54:02] INFO root fetch - processPackages [ErCore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ErCore-1.4.tar.gz tmp/ErCore-1.5.tar.gz --markdown 20230505/E/ErCore/1.4-1.5/diff.md --exclude *.pyd
+[2023-05-05 14:54:02] INFO root fetch - main [MainThread]: End processing [custodes]: success
+[2023-05-05 14:54:03] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-05-05 14:54:03] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-05-05 14:54:03] INFO root fetch - main [MainThread]: End processing [invenio-indexer]: success
+[2023-05-05 14:54:03] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-05 14:54:04] INFO root fetch - main [MainThread]: End processing [ErCore]: success
+[2023-05-05 14:54:04] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-05 14:54:04] INFO root fetch - main [MainThread]: End processing [anylabeling-gpu]: success
+[2023-05-05 14:54:05] INFO root fetch - main [MainThread]: End processing [anylabeling]: success
+[2023-05-05 14:54:05] INFO root fetch - main [MainThread]: Store serial: [17987146]
