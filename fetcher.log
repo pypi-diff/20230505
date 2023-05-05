@@ -6364,3 +6364,65 @@
 [2023-05-05 07:25:41] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
 [2023-05-05 07:25:41] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
 [2023-05-05 07:25:41] INFO root fetch - main [MainThread]: Store serial: [17982190]
+[2023-05-05 07:30:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982190]
+[2023-05-05 07:30:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-05 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysfa
+[2023-05-05 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vectorbt
+[2023-05-05 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-mrp-multi-level
+[2023-05-05 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alienpy
+[2023-05-05 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-mrp-multi-level
+[2023-05-05 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crazy-thursday
+[2023-05-05 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-mrp-multi-level
+[2023-05-05 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-mrp-multi-level
+[2023-05-05 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: muffin-rest
+[2023-05-05 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: portable-python
+[2023-05-05 07:30:51] WARNING root fetch - processPackages [pysfa]: Skipping, unable to determine old version
+[2023-05-05 07:30:51] INFO root fetch - main [MainThread]: End processing [pysfa] error
+[2023-05-05 07:30:51] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1]
+[2023-05-05 07:30:51] INFO root fetch - processPackages [alienpy]: New version: [1.5.0] Old Version: [1.4.6]
+[2023-05-05 07:30:51] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: New version: [13.0.1.9.0] Old Version: [13.0.1.8.4.dev1]
+[2023-05-05 07:30:51] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2023-05-05 07:30:51] INFO root fetch - processPackages [vectorbt]: New version: [0.25.1] Old Version: [0.25.0]
+[2023-05-05 07:30:51] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2023-05-05 07:30:51] INFO root fetch - processPackages [muffin-rest]: New version: [4.8.6] Old Version: [4.8.5]
+[2023-05-05 07:30:51] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.5.1] Old Version: [2023.5.5.0]
+[2023-05-05 07:30:51] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: executing diffoscope
+[2023-05-05 07:30:51] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_multi_level-14.0.1.8.1-py3-none-any.whl.zip tmp/odoo14_addon_mrp_multi_level-14.0.1.9.0-py3-none-any.whl.zip --markdown 20230505/o/odoo14-addon-mrp-multi-level/14.0.1.8.1-14.0.1.9.0/diff.md --exclude *.pyd
+[2023-05-05 07:30:51] INFO root fetch - processPackages [portable-python]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-05-05 07:30:51] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: executing diffoscope
+[2023-05-05 07:30:51] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_mrp_multi_level-13.0.1.8.4.dev1-py3-none-any.whl.zip tmp/odoo13_addon_mrp_multi_level-13.0.1.9.0-py3-none-any.whl.zip --markdown 20230505/o/odoo13-addon-mrp-multi-level/13.0.1.8.4.dev1-13.0.1.9.0/diff.md --exclude *.pyd
+[2023-05-05 07:30:51] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/18/b8/133d51611ead3ad99b181f06239456c6c99b9cd92c49794248305db918df/odoo_addon_mrp_multi_level-16.0.1.2.0.1-py3-none-any.whl
+[2023-05-05 07:30:51] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/18/b8/133d51611ead3ad99b181f06239456c6c99b9cd92c49794248305db918df/odoo_addon_mrp_multi_level-16.0.1.2.0.1-py3-none-any.whl
+[2023-05-05 07:30:51] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/a4/d4/d81cea35d09a1d176a3f1a10f40fd4a95f9a5a945f2f3b44af07b749244a/muffin_rest-4.8.5.tar.gz
+[2023-05-05 07:30:51] INFO root fetch - processPackages [alienpy]: Downloading https://files.pythonhosted.org/packages/23/cb/572c11db8ad22111b96713a1fc2e26b4f8e80a709b1ac46abbeb428d9062/alienpy-1.4.6.tar.gz
+[2023-05-05 07:30:51] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/9d/db/82b1b95cfe3da5f958f18f3fca1fe48d3e9c822d809a135d4c45d713a172/crazy-thursday-2023.5.5.1.tar.gz
+[2023-05-05 07:30:51] INFO root fetch - processPackages [vectorbt]: Downloading https://files.pythonhosted.org/packages/85/44/caa22df0dddb443372276177d9e926dd958aa8e6e81d2162a07838534f58/vectorbt-0.25.0.tar.gz
+[2023-05-05 07:30:51] INFO root fetch - processPackages [portable-python]: Downloading https://files.pythonhosted.org/packages/c6/64/b9484fcc2ddd769e12999cd53401b044f706026da634468440bb8338f410/portable-python-1.6.3.tar.gz
+[2023-05-05 07:30:51] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-05 07:30:51] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.5.0.tar.gz tmp/crazy-thursday-2023.5.5.1.tar.gz --markdown 20230505/c/crazy-thursday/2023.5.5.0-2023.5.5.1/diff.md --exclude *.pyd
+[2023-05-05 07:30:51] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: executing diffoscope
+[2023-05-05 07:30:51] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230505/o/odoo-addon-mrp-multi-level/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-05-05 07:30:51] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: executing diffoscope
+[2023-05-05 07:30:51] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230505/o/odoo-addon-mrp-multi-level/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-05-05 07:30:51] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/5e/26/812b74f2efbd38a06c406c9a1745e8753bb616ae6ce76f5066f8dfc69a2c/muffin_rest-4.8.6.tar.gz
+[2023-05-05 07:30:52] INFO root fetch - processPackages [vectorbt]: Downloading https://files.pythonhosted.org/packages/2f/21/50e494335a5c39ce14578ec77ff00b7b732ab1d312655f67ec80f24b35e6/vectorbt-0.25.1.tar.gz
+[2023-05-05 07:30:52] INFO root fetch - processPackages [alienpy]: Downloading https://files.pythonhosted.org/packages/d5/65/6463a791fc1daf11eab4c28fbcca38abbf6fbf5c5944631545d046f453bd/alienpy-1.5.0.tar.gz
+[2023-05-05 07:30:52] INFO root fetch - processPackages [vectorbt]: executing diffoscope
+[2023-05-05 07:30:52] INFO root fetch - processPackages [vectorbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectorbt-0.25.0.tar.gz tmp/vectorbt-0.25.1.tar.gz --markdown 20230505/v/vectorbt/0.25.0-0.25.1/diff.md --exclude *.pyd
+[2023-05-05 07:30:52] INFO root fetch - processPackages [alienpy]: executing diffoscope
+[2023-05-05 07:30:52] INFO root fetch - processPackages [alienpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alienpy-1.4.6.tar.gz tmp/alienpy-1.5.0.tar.gz --markdown 20230505/a/alienpy/1.4.6-1.5.0/diff.md --exclude *.pyd
+[2023-05-05 07:30:52] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-05-05 07:30:52] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-4.8.5.tar.gz tmp/muffin_rest-4.8.6.tar.gz --markdown 20230505/m/muffin-rest/4.8.5-4.8.6/diff.md --exclude *.pyd
+[2023-05-05 07:30:52] INFO root fetch - processPackages [portable-python]: Downloading https://files.pythonhosted.org/packages/b3/eb/b9287f36ff419cdb43182aa6c359f4f7e58173ca7720de4f240773abd8aa/portable-python-1.6.4.tar.gz
+[2023-05-05 07:30:52] INFO root fetch - processPackages [portable-python]: executing diffoscope
+[2023-05-05 07:30:52] INFO root fetch - processPackages [portable-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portable-python-1.6.3.tar.gz tmp/portable-python-1.6.4.tar.gz --markdown 20230505/p/portable-python/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-05-05 07:30:53] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-05 07:30:53] INFO root fetch - main [MainThread]: End processing [odoo13-addon-mrp-multi-level]: success
+[2023-05-05 07:30:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-multi-level]: success
+[2023-05-05 07:30:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level]: success
+[2023-05-05 07:30:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level]: success
+[2023-05-05 07:30:54] INFO root fetch - main [MainThread]: End processing [portable-python]: success
+[2023-05-05 07:30:54] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-05-05 07:30:55] INFO root fetch - main [MainThread]: End processing [alienpy]: success
+[2023-05-05 07:30:56] INFO root fetch - main [MainThread]: End processing [vectorbt]: success
+[2023-05-05 07:30:56] INFO root fetch - main [MainThread]: Store serial: [17982227]
