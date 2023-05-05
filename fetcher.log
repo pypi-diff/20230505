@@ -10187,3 +10187,107 @@
 [2023-05-05 11:15:01] INFO root fetch - main [MainThread]: End processing [dustpylib]: success
 [2023-05-05 11:15:03] INFO root fetch - main [MainThread]: End processing [tensorcircuit]: success
 [2023-05-05 11:15:03] INFO root fetch - main [MainThread]: Store serial: [17984454]
+[2023-05-05 11:20:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17984454]
+[2023-05-05 11:20:12] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-05 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyroporn
+[2023-05-05 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lesscode-tool
+[2023-05-05 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nats-nsc
+[2023-05-05 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2023-05-05 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: schoolware-api
+[2023-05-05 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HATasmota
+[2023-05-05 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twyn
+[2023-05-05 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: durin
+[2023-05-05 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch4uie
+[2023-05-05 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: leadguru-jobs
+[2023-05-05 11:20:12] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 11:20:13] INFO root fetch - processPackages [torch4uie]: New version: [2023.5.5.17.9.31] Old Version: [2023.5.5.17.7.51]
+[2023-05-05 11:20:13] INFO root fetch - processPackages [pyroporn]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 11:20:13] INFO root fetch - processPackages [HATasmota]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-05 11:20:13] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-05 11:20:13] INFO root fetch - processPackages [nats-nsc]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 11:20:13] WARNING root fetch - processPackages [twyn]: Skipping, unable to determine old version
+[2023-05-05 11:20:13] INFO root fetch - processPackages [twyn]: Start processing: encode-utils-cli
+[2023-05-05 11:20:13] INFO root fetch - main [MainThread]: End processing [twyn] error
+[2023-05-05 11:20:13] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-05 11:20:13] INFO root fetch - processPackages [durin]: New version: [0.0.76] Old Version: [0.0.75]
+[2023-05-05 11:20:13] INFO root fetch - processPackages [encode-utils-cli]: New version: [0.0.4a1] Old Version: [0.0.3]
+[2023-05-05 11:20:13] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230505] Old Version: [2.14.0.dev20230504]
+[2023-05-05 11:20:13] INFO root fetch - processPackages [torch4uie]: executing diffoscope
+[2023-05-05 11:20:13] INFO root fetch - processPackages [torch4uie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch4uie-2023.5.5.17.7.51.tar.gz tmp/torch4uie-2023.5.5.17.9.31.tar.gz --markdown 20230505/t/torch4uie/2023.5.5.17.7.51-2023.5.5.17.9.31/diff.md --exclude *.pyd
+[2023-05-05 11:20:13] INFO root fetch - processPackages [HATasmota]: Downloading https://files.pythonhosted.org/packages/ce/3f/6c46a3e08bd062b54670d9436be0f4e63e17ada236a7e239d47e72d59f64/HATasmota-0.6.4.tar.gz
+[2023-05-05 11:20:13] INFO root fetch - processPackages [nats-nsc]: Downloading https://files.pythonhosted.org/packages/41/7a/d15c7b974e73adb034cc084bb351ce274dc77391599e48560f7bd3237e5d/nats_nsc-0.1.0.tar.gz
+[2023-05-05 11:20:13] INFO root fetch - processPackages [pyroporn]: Downloading https://files.pythonhosted.org/packages/42/ac/c2cfe2c27777aeaec8b099a44031cadf3021ce74f0145e81369c4df1ec10/pyroporn-0.0.2.tar.gz
+[2023-05-05 11:20:13] INFO root fetch - processPackages [durin]: Downloading https://files.pythonhosted.org/packages/c6/e8/c00c36c23bf3f0d5d9b191206fc0e5510ac2b148f82d9ed2018f1a4ed3b4/durin-0.0.75.tar.gz
+[2023-05-05 11:20:13] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-05-05 11:20:13] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/56/0e/aaffba046916ce5ebef8801a86f21eca2e822b6246b64aa9a7e6754f3ebc/schoolware_api-1.1.1.tar.gz
+[2023-05-05 11:20:13] INFO root fetch - processPackages [encode-utils-cli]: Downloading https://files.pythonhosted.org/packages/86/65/37ac194d853107ea23d7951c52e825b96ec3392210b4d9d10983d982cdc0/encode-utils-cli-0.0.3.tar.gz
+[2023-05-05 11:20:13] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/e2/01/98b393d973cf1af028805a28aa74ac3827084cd1c70e8d505cba353b85ec/tf_nightly-2.14.0.dev20230504-cp39-cp39-win_amd64.whl
+[2023-05-05 11:20:13] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 11:20:13] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.0.tar.gz tmp/schoolware_api-1.1.1.tar.gz --markdown 20230505/s/schoolware-api/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-05 11:20:13] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-05-05 11:20:13] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230505/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 11:20:13] INFO root fetch - processPackages [HATasmota]: Downloading https://files.pythonhosted.org/packages/77/97/1a76fdc5c4ab32f4effcf04fbd25dbaafd67bf930f9dd59be02e608feca7/HATasmota-0.6.5.tar.gz
+[2023-05-05 11:20:13] INFO root fetch - processPackages [pyroporn]: Downloading https://files.pythonhosted.org/packages/68/f8/99583fbf00a409184a01a486feac18f93dddb0d6924650df5fa0c20cabd9/pyroporn-0.0.3.tar.gz
+[2023-05-05 11:20:13] INFO root fetch - processPackages [HATasmota]: executing diffoscope
+[2023-05-05 11:20:13] INFO root fetch - processPackages [HATasmota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HATasmota-0.6.4.tar.gz tmp/HATasmota-0.6.5.tar.gz --markdown 20230505/H/HATasmota/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-05 11:20:13] INFO root fetch - processPackages [encode-utils-cli]: Downloading https://files.pythonhosted.org/packages/76/0e/db24b5f6995a0da541dcee41462545fde03206aa38b9e77101ae8ad4a4a5/encode_utils_cli-0.0.4a1.tar.gz
+[2023-05-05 11:20:13] INFO root fetch - processPackages [pyroporn]: executing diffoscope
+[2023-05-05 11:20:13] INFO root fetch - processPackages [pyroporn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroporn-0.0.2.tar.gz tmp/pyroporn-0.0.3.tar.gz --markdown 20230505/p/pyroporn/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 11:20:13] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/4f/f2/0ad39d9741f4b8b7e487c1d8ce4777f0686c321b53d62f0c464d6138ef75/tf_nightly-2.14.0.dev20230505-cp39-cp39-win_amd64.whl
+[2023-05-05 11:20:13] INFO root fetch - processPackages [nats-nsc]: Downloading https://files.pythonhosted.org/packages/03/78/d33c5372cc8b3298a68b2b2bd939908b59f4e2ffa582a06d9bae7cdb72af/nats_nsc-0.1.1.tar.gz
+[2023-05-05 11:20:13] INFO root fetch - processPackages [nats-nsc]: executing diffoscope
+[2023-05-05 11:20:13] INFO root fetch - processPackages [nats-nsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nats_nsc-0.1.0.tar.gz tmp/nats_nsc-0.1.1.tar.gz --markdown 20230505/n/nats-nsc/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 11:20:13] INFO root fetch - processPackages [durin]: Downloading https://files.pythonhosted.org/packages/cb/58/bca01d7b10d1fa573026b30b3236c10540bc75139ecf2022cf1709cc998b/durin-0.0.76.tar.gz
+[2023-05-05 11:20:13] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-05-05 11:20:13] INFO root fetch - processPackages [durin]: executing diffoscope
+[2023-05-05 11:20:13] INFO root fetch - processPackages [encode-utils-cli]: executing diffoscope
+[2023-05-05 11:20:13] INFO root fetch - processPackages [durin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/durin-0.0.75.tar.gz tmp/durin-0.0.76.tar.gz --markdown 20230505/d/durin/0.0.75-0.0.76/diff.md --exclude *.pyd
+[2023-05-05 11:20:13] INFO root fetch - processPackages [encode-utils-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encode-utils-cli-0.0.3.tar.gz tmp/encode_utils_cli-0.0.4a1.tar.gz --markdown 20230505/e/encode-utils-cli/0.0.3-0.0.4a1/diff.md --exclude *.pyd
+[2023-05-05 11:20:13] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-05-05 11:20:13] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.14.0.dev20230504-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.14.0.dev20230505-cp39-cp39-win_amd64.whl.zip --markdown 20230505/t/tf-nightly/2.14.0.dev20230504-2.14.0.dev20230505/diff.md --exclude *.pyd
+[2023-05-05 11:20:13] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-05 11:20:13] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230505/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-05 11:20:14] INFO root fetch - processPackages [schoolware-api]: Start processing: firebirdsql-run
+[2023-05-05 11:20:14] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 11:20:14] INFO root fetch - processPackages [lesscode-tool]: Start processing: venv-modulefile
+[2023-05-05 11:20:14] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-05-05 11:20:14] INFO root fetch - processPackages [firebirdsql-run]: New version: [1.0.2a1] Old Version: [1.0.1]
+[2023-05-05 11:20:14] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 11:20:14] INFO root fetch - processPackages [torch4uie]: Start processing: images-upload-cli
+[2023-05-05 11:20:14] INFO root fetch - main [MainThread]: End processing [torch4uie]: success
+[2023-05-05 11:20:14] INFO root fetch - processPackages [images-upload-cli]: New version: [1.1.0] Old Version: [1.0.9a0]
+[2023-05-05 11:20:14] INFO root fetch - processPackages [firebirdsql-run]: Downloading https://files.pythonhosted.org/packages/70/f7/a3c3ab462584b60c540648138184672e63214031945c49d8c26a4d73b26d/firebirdsql-run-1.0.1.tar.gz
+[2023-05-05 11:20:14] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/d5/60/80a53d7bc72f5ac6881d3dc4d7c923dc5d47b6594995001dfa76e8766f92/venv-modulefile-0.0.9.tar.gz
+[2023-05-05 11:20:15] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-05 11:20:15] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.8.tar.gz tmp/venv-modulefile-0.0.9.tar.gz --markdown 20230505/v/venv-modulefile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 11:20:15] INFO root fetch - processPackages [nats-nsc]: Start processing: monobank-monopay-python-api
+[2023-05-05 11:20:15] INFO root fetch - main [MainThread]: End processing [nats-nsc]: success
+[2023-05-05 11:20:15] INFO root fetch - processPackages [images-upload-cli]: Downloading https://files.pythonhosted.org/packages/0d/f0/deae2993613d101913f698f9b42701cd522ba1019b99d32e0682253a9883/images_upload_cli-1.0.9a0.tar.gz
+[2023-05-05 11:20:15] WARNING root fetch - processPackages [monobank-monopay-python-api]: Skipping, unable to determine old version
+[2023-05-05 11:20:15] INFO root fetch - processPackages [monobank-monopay-python-api]: Start processing: chalkpy
+[2023-05-05 11:20:15] INFO root fetch - main [MainThread]: End processing [monobank-monopay-python-api] error
+[2023-05-05 11:20:15] INFO root fetch - processPackages [firebirdsql-run]: Downloading https://files.pythonhosted.org/packages/08/90/14c46190fc665f45ae3109b1b7cf28766ea96d6ee716f2ded20e535f4c01/firebirdsql_run-1.0.2a1.tar.gz
+[2023-05-05 11:20:15] INFO root fetch - processPackages [chalkpy]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-05-05 11:20:15] INFO root fetch - processPackages [pyroporn]: Start processing: tbp-nightly
+[2023-05-05 11:20:15] INFO root fetch - main [MainThread]: End processing [pyroporn]: success
+[2023-05-05 11:20:15] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-05-05 11:20:15] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-05 11:20:15] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-05-05 11:20:15] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.1.5.tar.gz tmp/chalkpy-2.1.6.tar.gz --markdown 20230505/c/chalkpy/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-05-05 11:20:15] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-05-05 11:20:15] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230505/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-05-05 11:20:15] INFO root fetch - main [MainThread]: End processing [durin]: success
+[2023-05-05 11:20:15] INFO root fetch - processPackages [firebirdsql-run]: executing diffoscope
+[2023-05-05 11:20:15] INFO root fetch - processPackages [firebirdsql-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firebirdsql-run-1.0.1.tar.gz tmp/firebirdsql_run-1.0.2a1.tar.gz --markdown 20230505/f/firebirdsql-run/1.0.1-1.0.2a1/diff.md --exclude *.pyd
+[2023-05-05 11:20:15] INFO root fetch - main [MainThread]: End processing [encode-utils-cli]: success
+[2023-05-05 11:20:15] INFO root fetch - main [MainThread]: End processing [HATasmota]: success
+[2023-05-05 11:20:15] INFO root fetch - processPackages [images-upload-cli]: Downloading https://files.pythonhosted.org/packages/d2/98/e0c11913052c642885b3bc56dd6c1336bccd678b6fc2821cd4ead2a921a8/images_upload_cli-1.1.0.tar.gz
+[2023-05-05 11:20:15] INFO root fetch - processPackages [images-upload-cli]: executing diffoscope
+[2023-05-05 11:20:15] INFO root fetch - processPackages [images-upload-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/images_upload_cli-1.0.9a0.tar.gz tmp/images_upload_cli-1.1.0.tar.gz --markdown 20230505/i/images-upload-cli/1.0.9a0-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 11:20:15] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-05 11:20:16] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-05 11:20:16] INFO root fetch - main [MainThread]: End processing [firebirdsql-run]: success
+[2023-05-05 11:20:16] INFO root fetch - main [MainThread]: End processing [images-upload-cli]: success
+[2023-05-05 11:20:18] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-05-05 11:20:20] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-05 11:20:20] INFO root fetch - main [MainThread]: Store serial: [17984522]
