@@ -1524,3 +1524,75 @@
 [2023-05-05 01:59:47] INFO root fetch - main [MainThread]: End processing [pimgu]: success
 [2023-05-05 01:59:47] INFO root fetch - main [MainThread]: End processing [spPersist]: success
 [2023-05-05 01:59:47] INFO root fetch - main [MainThread]: Store serial: [17979366]
+[2023-05-05 02:04:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17979366]
+[2023-05-05 02:04:56] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 02:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usau-scraper
+[2023-05-05 02:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aij-webcam
+[2023-05-05 02:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvxsimulator
+[2023-05-05 02:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lumos-sat
+[2023-05-05 02:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cellmaps-utils
+[2023-05-05 02:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jiggybase
+[2023-05-05 02:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redbuild
+[2023-05-05 02:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchdatasets-nightly
+[2023-05-05 02:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quivr
+[2023-05-05 02:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mct-nightly
+[2023-05-05 02:04:56] INFO root fetch - processPackages [cvxsimulator]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 02:04:56] INFO root fetch - processPackages [cellmaps-utils]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-05-05 02:04:56] INFO root fetch - processPackages [lumos-sat]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-05 02:04:56] INFO root fetch - processPackages [aij-webcam]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 02:04:56] INFO root fetch - processPackages [redbuild]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-05-05 02:04:56] INFO root fetch - processPackages [jiggybase]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-05-05 02:04:56] INFO root fetch - processPackages [usau-scraper]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-05 02:04:56] INFO root fetch - processPackages [quivr]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-05 02:04:56] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1683158580] Old Version: [1683072179]
+[2023-05-05 02:04:56] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9042023.post411] Old Version: [1.8.0.9032023.post431]
+[2023-05-05 02:04:56] INFO root fetch - processPackages [cellmaps-utils]: Downloading https://files.pythonhosted.org/packages/a2/c1/cb2bb494f9391d0cc99a23fcee4bcc100e8e502a5d1f5bc302259a509960/cellmaps_utils-0.1.0a1.tar.gz
+[2023-05-05 02:04:56] INFO root fetch - processPackages [aij-webcam]: executing diffoscope
+[2023-05-05 02:04:56] INFO root fetch - processPackages [aij-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-webcam-1.0.8.tar.gz tmp/aij-webcam-1.0.9.tar.gz --markdown 20230505/a/aij-webcam/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 02:04:56] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-05-05 02:04:56] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9032023.post431.tar.gz tmp/mct-nightly-1.8.0.9042023.post411.tar.gz --markdown 20230505/m/mct-nightly/1.8.0.9032023.post431-1.8.0.9042023.post411/diff.md --exclude *.pyd
+[2023-05-05 02:04:56] INFO root fetch - processPackages [redbuild]: Downloading https://files.pythonhosted.org/packages/fc/9d/3c48b735744794eb565a88f331a46fac874015c5b000542ba0482a1fac46/redbuild-2.0.7.tar.gz
+[2023-05-05 02:04:56] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/45/50/bd93ee89aa058edd2852ef6ce478ead39324bb4346cc1686e9526a67d701/cvxsimulator-0.1.1.tar.gz
+[2023-05-05 02:04:56] INFO root fetch - processPackages [lumos-sat]: Downloading https://files.pythonhosted.org/packages/c8/f0/6ecd8b6611150c744a358ded5c5dcb773a34c14c4423c568e72b08bf2703/lumos-sat-1.0.6.tar.gz
+[2023-05-05 02:04:56] INFO root fetch - processPackages [jiggybase]: Downloading https://files.pythonhosted.org/packages/b5/c6/178575d972999658e5bc866a38fb550ff9347f7241bb1e69af8bf102c5b0/jiggybase-0.0.21.tar.gz
+[2023-05-05 02:04:56] INFO root fetch - processPackages [usau-scraper]: Downloading https://files.pythonhosted.org/packages/83/aa/415407c5ee925d203665d52cbe42c315807389cb66621a0615d60baf9435/usau-scraper-0.3.0.tar.gz
+[2023-05-05 02:04:56] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/53/df/c6055b996a9e8220afa5373cbb1693bfd90ca3f86b33787c9209f86acfb0/torchdatasets-nightly-1683158580.tar.gz
+[2023-05-05 02:04:56] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-05-05 02:04:56] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.1.0.tar.gz tmp/cvxsimulator-0.1.1.tar.gz --markdown 20230505/c/cvxsimulator/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 02:04:56] INFO root fetch - processPackages [lumos-sat]: executing diffoscope
+[2023-05-05 02:04:56] INFO root fetch - processPackages [lumos-sat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumos-sat-1.0.5.tar.gz tmp/lumos-sat-1.0.6.tar.gz --markdown 20230505/l/lumos-sat/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-05 02:04:56] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-05-05 02:04:56] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1683072179.tar.gz tmp/torchdatasets-nightly-1683158580.tar.gz --markdown 20230505/t/torchdatasets-nightly/1683072179-1683158580/diff.md --exclude *.pyd
+[2023-05-05 02:04:56] INFO root fetch - processPackages [quivr]: Downloading https://files.pythonhosted.org/packages/40/2e/02ecef8d2dcb6b93b255962964cff93202e821fdd2e546a0f60b2c64dec3/quivr-0.2.0.tar.gz
+[2023-05-05 02:04:56] INFO root fetch - processPackages [jiggybase]: executing diffoscope
+[2023-05-05 02:04:56] INFO root fetch - processPackages [jiggybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiggybase-0.0.20.tar.gz tmp/jiggybase-0.0.21.tar.gz --markdown 20230505/j/jiggybase/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-05-05 02:04:56] INFO root fetch - processPackages [quivr]: executing diffoscope
+[2023-05-05 02:04:56] INFO root fetch - processPackages [quivr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quivr-0.1.1.tar.gz tmp/quivr-0.2.0.tar.gz --markdown 20230505/q/quivr/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 02:04:56] INFO root fetch - processPackages [cellmaps-utils]: Downloading https://files.pythonhosted.org/packages/7f/1b/49ad30bfa9e6a9cfdc4f262d8a8a8ef3f1212a0b325155e08830471daab1/cellmaps_utils-0.1.0a2.tar.gz
+[2023-05-05 02:04:56] INFO root fetch - processPackages [usau-scraper]: Downloading https://files.pythonhosted.org/packages/fa/7b/eebb82c84d91114605016352c27806fd361a25372e412ec15d600967e619/usau-scraper-0.4.0.tar.gz
+[2023-05-05 02:04:56] INFO root fetch - processPackages [redbuild]: Downloading https://files.pythonhosted.org/packages/94/31/564fccc54d9f19bfe310f005762d4b913e8a38cd5a1cee492a99b11fdfe4/redbuild-2.0.8.tar.gz
+[2023-05-05 02:04:56] INFO root fetch - processPackages [cellmaps-utils]: executing diffoscope
+[2023-05-05 02:04:56] INFO root fetch - processPackages [cellmaps-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_utils-0.1.0a1.tar.gz tmp/cellmaps_utils-0.1.0a2.tar.gz --markdown 20230505/c/cellmaps-utils/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-05-05 02:04:56] INFO root fetch - processPackages [usau-scraper]: executing diffoscope
+[2023-05-05 02:04:56] INFO root fetch - processPackages [usau-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usau-scraper-0.3.0.tar.gz tmp/usau-scraper-0.4.0.tar.gz --markdown 20230505/u/usau-scraper/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-05 02:04:56] INFO root fetch - processPackages [redbuild]: executing diffoscope
+[2023-05-05 02:04:56] INFO root fetch - processPackages [redbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbuild-2.0.7.tar.gz tmp/redbuild-2.0.8.tar.gz --markdown 20230505/r/redbuild/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-05-05 02:04:57] INFO root fetch - processPackages [cvxsimulator]: Start processing: pgp-reconstruction
+[2023-05-05 02:04:57] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-05-05 02:04:58] INFO root fetch - processPackages [aij-webcam]: Start processing: rfrenchseti-cspyce
+[2023-05-05 02:04:58] INFO root fetch - main [MainThread]: End processing [aij-webcam]: success
+[2023-05-05 02:04:58] INFO root fetch - processPackages [rfrenchseti-cspyce]: New version: [2.0.14.dev0] Old Version: [2.0.14]
+[2023-05-05 02:04:58] ERROR root fetch - processPackages [pgp-reconstruction]: Unable to get metadata: No such project 'pgp-reconstruction'
+[2023-05-05 02:04:58] INFO root fetch - main [MainThread]: End processing [pgp-reconstruction] error
+[2023-05-05 02:04:58] INFO root fetch - processPackages [rfrenchseti-cspyce]: Downloading https://files.pythonhosted.org/packages/c4/87/cf7981e4b6785a0b7b4fc1d93b452dd01a1d51f9d000b239d2ce83ed9fb5/rfrenchseti_cspyce-2.0.14.tar.gz
+[2023-05-05 02:04:58] WARNING root fetch - processPackages [rfrenchseti-cspyce]: Skipping package: exceeds size limit 59268799>=10485760
+[2023-05-05 02:04:58] INFO root fetch - main [MainThread]: End processing [rfrenchseti-cspyce] error
+[2023-05-05 02:04:58] INFO root fetch - main [MainThread]: End processing [lumos-sat]: success
+[2023-05-05 02:04:58] INFO root fetch - main [MainThread]: End processing [cellmaps-utils]: success
+[2023-05-05 02:04:58] INFO root fetch - main [MainThread]: End processing [redbuild]: success
+[2023-05-05 02:04:58] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-05-05 02:04:58] INFO root fetch - main [MainThread]: End processing [quivr]: success
+[2023-05-05 02:04:58] INFO root fetch - main [MainThread]: End processing [jiggybase]: success
+[2023-05-05 02:04:59] INFO root fetch - main [MainThread]: End processing [usau-scraper]: success
+[2023-05-05 02:05:01] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-05-05 02:05:01] INFO root fetch - main [MainThread]: Store serial: [17979408]
