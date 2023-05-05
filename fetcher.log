@@ -4759,3 +4759,23 @@
 [2023-05-05 04:13:27] INFO root fetch - main [MainThread]: End processing [pyswarming]: success
 [2023-05-05 04:13:28] INFO root fetch - main [MainThread]: End processing [chitose]: success
 [2023-05-05 04:13:28] INFO root fetch - main [MainThread]: Store serial: [17981284]
+[2023-05-05 04:18:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981284]
+[2023-05-05 04:18:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-05 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-beam
+[2023-05-05 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trackplot
+[2023-05-05 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Pydule
+[2023-05-05 04:18:38] INFO root fetch - processPackages [Pydule]: New version: [3.3.0] Old Version: [3.2.9]
+[2023-05-05 04:18:38] INFO root fetch - processPackages [apache-beam]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-05 04:18:38] INFO root fetch - processPackages [trackplot]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-05 04:18:38] INFO root fetch - processPackages [Pydule]: executing diffoscope
+[2023-05-05 04:18:38] INFO root fetch - processPackages [Pydule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pydule-3.2.9.tar.gz tmp/Pydule-3.3.0.tar.gz --markdown 20230505/P/Pydule/3.2.9-3.3.0/diff.md --exclude *.pyd
+[2023-05-05 04:18:38] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/bc/2a/219b3441bb60e83768fc0548c7e35416fa143781c687b7e070c69c526992/trackplot-0.2.1.tar.gz
+[2023-05-05 04:18:38] INFO root fetch - processPackages [apache-beam]: executing diffoscope
+[2023-05-05 04:18:38] INFO root fetch - processPackages [apache-beam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-beam-2.8.0.zip tmp/apache-beam-2.9.0.zip --markdown 20230505/a/apache-beam/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-05 04:18:38] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/29/92/930df7f13c620a75161a424bf62c608e80e7e953abe23124ab51e669aa95/trackplot-0.2.2.tar.gz
+[2023-05-05 04:18:39] INFO root fetch - processPackages [trackplot]: executing diffoscope
+[2023-05-05 04:18:39] INFO root fetch - processPackages [trackplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trackplot-0.2.1.tar.gz tmp/trackplot-0.2.2.tar.gz --markdown 20230505/t/trackplot/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-05 04:18:39] INFO root fetch - main [MainThread]: End processing [Pydule]: success
+[2023-05-05 04:18:40] INFO root fetch - main [MainThread]: End processing [trackplot]: success
+[2023-05-05 04:18:47] INFO root fetch - main [MainThread]: End processing [apache-beam]: success
+[2023-05-05 04:18:47] INFO root fetch - main [MainThread]: Store serial: [17981329]
