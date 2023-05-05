@@ -4974,3 +4974,37 @@
 [2023-05-05 04:45:44] INFO root fetch - main [MainThread]: End processing [pdm]: success
 [2023-05-05 04:45:45] INFO root fetch - main [MainThread]: End processing [lagrange-open]: success
 [2023-05-05 04:45:45] INFO root fetch - main [MainThread]: Store serial: [17981443]
+[2023-05-05 04:50:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981443]
+[2023-05-05 04:50:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-05 04:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lariat-python-sdk
+[2023-05-05 04:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-account-spread-cost-revenue
+[2023-05-05 04:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-sdgpt
+[2023-05-05 04:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: textworld
+[2023-05-05 04:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqt-openai
+[2023-05-05 04:50:53] WARNING root fetch - processPackages [lariat-python-sdk]: Skipping, unable to determine old version
+[2023-05-05 04:50:53] INFO root fetch - main [MainThread]: End processing [lariat-python-sdk] error
+[2023-05-05 04:50:53] INFO root fetch - processPackages [odoo12-addon-account-spread-cost-revenue]: New version: [12.0.1.2.1.99.dev5] Old Version: [12.0.1.2.1.99.dev4]
+[2023-05-05 04:50:53] INFO root fetch - processPackages [nonebot-plugin-sdgpt]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-05 04:50:53] INFO root fetch - processPackages [pyqt-openai]: New version: [0.1.2] Old Version: [0.0.171]
+[2023-05-05 04:50:53] INFO root fetch - processPackages [textworld]: New version: [1.5.4rc2] Old Version: [1.5.3rc2]
+[2023-05-05 04:50:53] INFO root fetch - processPackages [nonebot-plugin-sdgpt]: Downloading https://files.pythonhosted.org/packages/97/37/adde4cf7452d2791c7741b14fa5164d653d2ad156977cf4289948b8e7d8d/nonebot_plugin_sdgpt-0.2.7.tar.gz
+[2023-05-05 04:50:53] INFO root fetch - processPackages [odoo12-addon-account-spread-cost-revenue]: Downloading https://files.pythonhosted.org/packages/03/a1/c7febc9650148d188905220e65cccfc0d0236be34b6692c3ce35d7e978fe/odoo12_addon_account_spread_cost_revenue-12.0.1.2.1.99.dev4-py3-none-any.whl
+[2023-05-05 04:50:53] INFO root fetch - processPackages [pyqt-openai]: Downloading https://files.pythonhosted.org/packages/9f/d6/c8e1b52fd67ddb05f3a0094054d3bb122c80ecadcf46a1ab2f979c678aba/pyqt-openai-0.0.171.tar.gz
+[2023-05-05 04:50:53] INFO root fetch - processPackages [textworld]: Downloading https://files.pythonhosted.org/packages/e0/ab/edb4ce786403c3eda554c6716e518f3df75d4dbd7641cbda9e14efe33f92/textworld-1.5.3rc2.tar.gz
+[2023-05-05 04:50:54] INFO root fetch - processPackages [nonebot-plugin-sdgpt]: Downloading https://files.pythonhosted.org/packages/68/ab/91368b41519de4288c62b84e2a2eea37098c859c52749c69c705705d3718/nonebot_plugin_sdgpt-0.2.8.tar.gz
+[2023-05-05 04:50:54] INFO root fetch - processPackages [pyqt-openai]: Downloading https://files.pythonhosted.org/packages/8a/98/9f80f1edfa4f33576d97466c10b59e8712bc40652779014999262c55ef05/pyqt-openai-0.1.2.tar.gz
+[2023-05-05 04:50:54] INFO root fetch - processPackages [odoo12-addon-account-spread-cost-revenue]: Downloading https://files.pythonhosted.org/packages/c7/84/2ba7a0bc7c84462b2d3372269360d65ae7f667edf48a22eeabbdeaa4ec81/odoo12_addon_account_spread_cost_revenue-12.0.1.2.1.99.dev5-py3-none-any.whl
+[2023-05-05 04:50:54] INFO root fetch - processPackages [textworld]: Downloading https://files.pythonhosted.org/packages/fb/e4/8faf33385aab751125dc999a83671ae185bd9498f90c0b075f432f4bb84d/textworld-1.5.4rc2.tar.gz
+[2023-05-05 04:50:54] INFO root fetch - processPackages [nonebot-plugin-sdgpt]: executing diffoscope
+[2023-05-05 04:50:54] INFO root fetch - processPackages [nonebot-plugin-sdgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sdgpt-0.2.7.tar.gz tmp/nonebot_plugin_sdgpt-0.2.8.tar.gz --markdown 20230505/n/nonebot-plugin-sdgpt/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-05 04:50:54] INFO root fetch - processPackages [pyqt-openai]: executing diffoscope
+[2023-05-05 04:50:54] INFO root fetch - processPackages [pyqt-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqt-openai-0.0.171.tar.gz tmp/pyqt-openai-0.1.2.tar.gz --markdown 20230505/p/pyqt-openai/0.0.171-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 04:50:54] INFO root fetch - processPackages [odoo12-addon-account-spread-cost-revenue]: executing diffoscope
+[2023-05-05 04:50:54] INFO root fetch - processPackages [odoo12-addon-account-spread-cost-revenue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_spread_cost_revenue-12.0.1.2.1.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_account_spread_cost_revenue-12.0.1.2.1.99.dev5-py3-none-any.whl.zip --markdown 20230505/o/odoo12-addon-account-spread-cost-revenue/12.0.1.2.1.99.dev4-12.0.1.2.1.99.dev5/diff.md --exclude *.pyd
+[2023-05-05 04:50:54] INFO root fetch - processPackages [textworld]: executing diffoscope
+[2023-05-05 04:50:54] INFO root fetch - processPackages [textworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textworld-1.5.3rc2.tar.gz tmp/textworld-1.5.4rc2.tar.gz --markdown 20230505/t/textworld/1.5.3rc2-1.5.4rc2/diff.md --exclude *.pyd
+[2023-05-05 04:50:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sdgpt]: success
+[2023-05-05 04:50:55] INFO root fetch - main [MainThread]: End processing [pyqt-openai]: success
+[2023-05-05 04:50:55] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-spread-cost-revenue]: success
+[2023-05-05 04:50:58] INFO root fetch - main [MainThread]: End processing [textworld]: success
+[2023-05-05 04:50:58] INFO root fetch - main [MainThread]: Store serial: [17981464]
