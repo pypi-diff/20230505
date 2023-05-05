@@ -18009,3 +18009,108 @@
 [2023-05-05 17:57:09] INFO root fetch - main [MainThread]: End processing [docker]: success
 [2023-05-05 17:57:10] INFO root fetch - main [MainThread]: End processing [hyperspyUI]: success
 [2023-05-05 17:57:10] INFO root fetch - main [MainThread]: Store serial: [17989524]
+[2023-05-05 18:02:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17989524]
+[2023-05-05 18:02:19] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-05 18:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: needle-shape-sensing
+[2023-05-05 18:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbdemos
+[2023-05-05 18:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kivy-widgets
+[2023-05-05 18:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ep-stats
+[2023-05-05 18:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emailnator
+[2023-05-05 18:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdeclient
+[2023-05-05 18:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dimredpy
+[2023-05-05 18:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finbourne-access-sdk
+[2023-05-05 18:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coreftools
+[2023-05-05 18:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netective
+[2023-05-05 18:02:19] INFO root fetch - processPackages [needle-shape-sensing]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-05-05 18:02:19] INFO root fetch - processPackages [dbdemos]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-05 18:02:19] INFO root fetch - processPackages [emailnator]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 18:02:19] WARNING root fetch - processPackages [netective]: Skipping, unable to determine old version
+[2023-05-05 18:02:19] INFO root fetch - processPackages [netective]: Start processing: moneykit
+[2023-05-05 18:02:19] INFO root fetch - main [MainThread]: End processing [netective] error
+[2023-05-05 18:02:19] INFO root fetch - processPackages [ep-stats]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-05-05 18:02:19] WARNING root fetch - processPackages [coreftools]: Skipping, unable to determine old version
+[2023-05-05 18:02:19] INFO root fetch - processPackages [dimredpy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 18:02:19] INFO root fetch - processPackages [coreftools]: Start processing: libdyson-neon
+[2023-05-05 18:02:19] INFO root fetch - main [MainThread]: End processing [coreftools] error
+[2023-05-05 18:02:19] INFO root fetch - processPackages [kivy-widgets]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 18:02:19] INFO root fetch - processPackages [sdeclient]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 18:02:19] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-05 18:02:19] INFO root fetch - processPackages [moneykit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 18:02:19] INFO root fetch - processPackages [libdyson-neon]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-05 18:02:19] INFO root fetch - processPackages [dbdemos]: Downloading https://files.pythonhosted.org/packages/6c/c5/9454bae82e5fb5c1b0134e7c26d6cc743c4c92ae262fcd50a4f297cc5054/dbdemos-0.3.8-py3-none-any.whl
+[2023-05-05 18:02:19] WARNING root fetch - processPackages [dbdemos]: Skipping package: exceeds size limit 29692537>=10485760
+[2023-05-05 18:02:19] INFO root fetch - processPackages [dbdemos]: Start processing: needle-shape-sensing
+[2023-05-05 18:02:19] INFO root fetch - main [MainThread]: End processing [dbdemos] error
+[2023-05-05 18:02:20] INFO root fetch - processPackages [needle-shape-sensing]: Downloading https://files.pythonhosted.org/packages/61/ee/4492e7ad4434dfea4eaa79f5f52cd5e02bcb3de4fdd8f2da09f672678412/needle-shape-sensing-0.8.4.tar.gz
+[2023-05-05 18:02:20] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-05 18:02:20] INFO root fetch - processPackages [needle-shape-sensing]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-05-05 18:02:20] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230505/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-05 18:02:20] INFO root fetch - processPackages [dimredpy]: Downloading https://files.pythonhosted.org/packages/dd/43/204e57b4ffbc4fa5960f462c4103e5ce57a8b00808ba8a668cf3158e4b85/dimredpy-1.0.0.tar.gz
+[2023-05-05 18:02:20] INFO root fetch - processPackages [emailnator]: Downloading https://files.pythonhosted.org/packages/66/ff/ae804a4822b447ce7911f473f245aabb65df29ee98e93533d143e8294006/emailnator-0.1.0.tar.gz
+[2023-05-05 18:02:20] INFO root fetch - processPackages [needle-shape-sensing]: Downloading https://files.pythonhosted.org/packages/61/ee/4492e7ad4434dfea4eaa79f5f52cd5e02bcb3de4fdd8f2da09f672678412/needle-shape-sensing-0.8.4.tar.gz
+[2023-05-05 18:02:20] INFO root fetch - processPackages [sdeclient]: executing diffoscope
+[2023-05-05 18:02:20] INFO root fetch - processPackages [sdeclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdeclient-0.0.8.tar.gz tmp/sdeclient-0.0.9.tar.gz --markdown 20230505/s/sdeclient/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 18:02:20] INFO root fetch - processPackages [ep-stats]: Downloading https://files.pythonhosted.org/packages/bb/60/baf5dabc18c3590192e3f6fec5098494a74d569c62262eda4af2cade9ecb/ep-stats-1.6.0.tar.gz
+[2023-05-05 18:02:20] INFO root fetch - processPackages [kivy-widgets]: executing diffoscope
+[2023-05-05 18:02:20] INFO root fetch - processPackages [kivy-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivy_widgets-0.1.8.tar.gz tmp/kivy_widgets-0.1.9.tar.gz --markdown 20230505/k/kivy-widgets/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 18:02:20] INFO root fetch - processPackages [libdyson-neon]: Downloading https://files.pythonhosted.org/packages/4c/0f/b36669a889fc9f573b3cbe1a507a805e0ecbc5ee645b1fec13880fb90e92/libdyson-neon-1.0.2.tar.gz
+[2023-05-05 18:02:20] INFO root fetch - processPackages [moneykit]: Downloading https://files.pythonhosted.org/packages/fb/64/f23f4585158f5e2b22aceaf45ba527ad2f73a984ad175e1c9d3115407f9f/moneykit-0.0.8.tar.gz
+[2023-05-05 18:02:20] INFO root fetch - processPackages [needle-shape-sensing]: Downloading https://files.pythonhosted.org/packages/c5/c1/9ff1d409c1223e249e18efb347ba3bec1c84d9c1efdf3efd9a7f7839f784/needle-shape-sensing-0.8.5.tar.gz
+[2023-05-05 18:02:20] INFO root fetch - processPackages [needle-shape-sensing]: Downloading https://files.pythonhosted.org/packages/c5/c1/9ff1d409c1223e249e18efb347ba3bec1c84d9c1efdf3efd9a7f7839f784/needle-shape-sensing-0.8.5.tar.gz
+[2023-05-05 18:02:20] INFO root fetch - processPackages [libdyson-neon]: executing diffoscope
+[2023-05-05 18:02:20] INFO root fetch - processPackages [libdyson-neon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdyson-neon-1.0.1.tar.gz tmp/libdyson-neon-1.0.2.tar.gz --markdown 20230505/l/libdyson-neon/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-05 18:02:20] INFO root fetch - processPackages [dimredpy]: Downloading https://files.pythonhosted.org/packages/7b/a2/fd7022a4d6910fb9d05bffb738757b6807b01b70d470680f6a1b80df6045/dimredpy-1.0.1.tar.gz
+[2023-05-05 18:02:20] INFO root fetch - processPackages [emailnator]: Downloading https://files.pythonhosted.org/packages/ac/f9/f23791ca6dc57185b997f1815bfafd01e1ee8a44164e5dfe8d5613c1401f/emailnator-0.1.1.tar.gz
+[2023-05-05 18:02:20] INFO root fetch - processPackages [dimredpy]: executing diffoscope
+[2023-05-05 18:02:20] INFO root fetch - processPackages [dimredpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimredpy-1.0.0.tar.gz tmp/dimredpy-1.0.1.tar.gz --markdown 20230505/d/dimredpy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 18:02:20] INFO root fetch - processPackages [emailnator]: executing diffoscope
+[2023-05-05 18:02:20] INFO root fetch - processPackages [emailnator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailnator-0.1.0.tar.gz tmp/emailnator-0.1.1.tar.gz --markdown 20230505/e/emailnator/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 18:02:20] INFO root fetch - processPackages [needle-shape-sensing]: executing diffoscope
+[2023-05-05 18:02:20] INFO root fetch - processPackages [needle-shape-sensing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/needle-shape-sensing-0.8.4.tar.gz tmp/needle-shape-sensing-0.8.5.tar.gz --markdown 20230505/n/needle-shape-sensing/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-05-05 18:02:20] INFO root fetch - processPackages [needle-shape-sensing]: executing diffoscope
+[2023-05-05 18:02:20] INFO root fetch - processPackages [needle-shape-sensing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/needle-shape-sensing-0.8.4.tar.gz tmp/needle-shape-sensing-0.8.5.tar.gz --markdown 20230505/n/needle-shape-sensing/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-05-05 18:02:20] INFO root fetch - processPackages [ep-stats]: Downloading https://files.pythonhosted.org/packages/60/b9/49185f5f5730573bd8dc2f127125d8c24b6d5e6de5fae240fe3ef236102e/ep-stats-1.7.0.tar.gz
+[2023-05-05 18:02:20] INFO root fetch - processPackages [moneykit]: Downloading https://files.pythonhosted.org/packages/a2/42/603fbc407989387a240c1da55e418d1335e8f42293da9f814353eede43b0/moneykit-0.0.9.tar.gz
+[2023-05-05 18:02:20] INFO root fetch - processPackages [ep-stats]: executing diffoscope
+[2023-05-05 18:02:20] INFO root fetch - processPackages [ep-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ep-stats-1.6.0.tar.gz tmp/ep-stats-1.7.0.tar.gz --markdown 20230505/e/ep-stats/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-05-05 18:02:20] INFO root fetch - processPackages [moneykit]: executing diffoscope
+[2023-05-05 18:02:20] INFO root fetch - processPackages [moneykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneykit-0.0.8.tar.gz tmp/moneykit-0.0.9.tar.gz --markdown 20230505/m/moneykit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 18:02:21] INFO root fetch - processPackages [sdeclient]: Start processing: sdeclient
+[2023-05-05 18:02:21] INFO root fetch - main [MainThread]: End processing [sdeclient]: success
+[2023-05-05 18:02:21] INFO root fetch - processPackages [sdeclient]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 18:02:21] INFO root fetch - processPackages [sdeclient]: executing diffoscope
+[2023-05-05 18:02:21] INFO root fetch - processPackages [sdeclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdeclient-0.0.8.tar.gz tmp/sdeclient-0.0.9.tar.gz --markdown 20230505/s/sdeclient/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 18:02:21] INFO root fetch - processPackages [dimredpy]: Start processing: mbnk
+[2023-05-05 18:02:21] INFO root fetch - main [MainThread]: End processing [dimredpy]: success
+[2023-05-05 18:02:21] INFO root fetch - processPackages [mbnk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 18:02:21] INFO root fetch - processPackages [emailnator]: Start processing: clustering-geodata-cubes
+[2023-05-05 18:02:21] INFO root fetch - main [MainThread]: End processing [emailnator]: success
+[2023-05-05 18:02:21] INFO root fetch - processPackages [clustering-geodata-cubes]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-05-05 18:02:22] INFO root fetch - processPackages [needle-shape-sensing]: Start processing: AddTwoNumSeventhSon
+[2023-05-05 18:02:22] INFO root fetch - main [MainThread]: End processing [needle-shape-sensing]: success
+[2023-05-05 18:02:22] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/7d/49/21866684e09fe720c093becc4cecc08e6eddfff7d2c446f5d68869488429/mbnk-0.0.3.tar.gz
+[2023-05-05 18:02:22] INFO root fetch - processPackages [needle-shape-sensing]: Start processing: guidance
+[2023-05-05 18:02:22] INFO root fetch - main [MainThread]: End processing [needle-shape-sensing]: success
+[2023-05-05 18:02:22] INFO root fetch - processPackages [clustering-geodata-cubes]: Downloading https://files.pythonhosted.org/packages/ca/f1/f791655ee4492efc283e624e551b16c8a9fcae93ca1a011253a3c8f78706/clustering_geodata_cubes-0.6.2-py3-none-any.whl
+[2023-05-05 18:02:22] WARNING root fetch - processPackages [AddTwoNumSeventhSon]: Skipping, unable to determine old version
+[2023-05-05 18:02:22] INFO root fetch - main [MainThread]: End processing [AddTwoNumSeventhSon] error
+[2023-05-05 18:02:22] INFO root fetch - processPackages [guidance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 18:02:22] INFO root fetch - processPackages [mbnk]: executing diffoscope
+[2023-05-05 18:02:22] INFO root fetch - processPackages [mbnk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbnk-0.0.2.tar.gz tmp/mbnk-0.0.3.tar.gz --markdown 20230505/m/mbnk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 18:02:22] INFO root fetch - processPackages [guidance]: Downloading https://files.pythonhosted.org/packages/57/38/84d7e451c538eb8487dc8d975a1e14ca8c54353e015a06e69d180e784951/guidance-0.0.8.tar.gz
+[2023-05-05 18:02:22] INFO root fetch - main [MainThread]: End processing [libdyson-neon]: success
+[2023-05-05 18:02:22] INFO root fetch - processPackages [clustering-geodata-cubes]: Downloading https://files.pythonhosted.org/packages/5d/6b/bc05f28f12e2f7e206a72bfb50d143e624fe0357bf9928c1e810213756dc/clustering-geodata-cubes-0.7.0.tar.gz
+[2023-05-05 18:02:22] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-05 18:02:22] INFO root fetch - processPackages [clustering-geodata-cubes]: executing diffoscope
+[2023-05-05 18:02:22] INFO root fetch - processPackages [clustering-geodata-cubes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustering_geodata_cubes-0.6.2-py3-none-any.whl.zip tmp/clustering-geodata-cubes-0.7.0.tar.gz --markdown 20230505/c/clustering-geodata-cubes/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-05-05 18:02:22] INFO root fetch - processPackages [guidance]: Downloading https://files.pythonhosted.org/packages/37/6d/551b7207c5b1b090ba708fc0df326b457767577b3dc88959552d36f25072/guidance-0.0.9.tar.gz
+[2023-05-05 18:02:22] INFO root fetch - main [MainThread]: End processing [ep-stats]: success
+[2023-05-05 18:02:22] INFO root fetch - processPackages [guidance]: executing diffoscope
+[2023-05-05 18:02:22] INFO root fetch - processPackages [guidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidance-0.0.8.tar.gz tmp/guidance-0.0.9.tar.gz --markdown 20230505/g/guidance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 18:02:23] INFO root fetch - main [MainThread]: End processing [sdeclient]: success
+[2023-05-05 18:02:23] INFO root fetch - main [MainThread]: End processing [mbnk]: success
+[2023-05-05 18:02:23] INFO root fetch - main [MainThread]: End processing [clustering-geodata-cubes]: success
+[2023-05-05 18:02:23] INFO root fetch - main [MainThread]: End processing [guidance]: success
+[2023-05-05 18:02:24] INFO root fetch - main [MainThread]: End processing [moneykit]: success
+[2023-05-05 18:02:25] INFO root fetch - main [MainThread]: End processing [kivy-widgets]: success
+[2023-05-05 18:02:25] INFO root fetch - main [MainThread]: Store serial: [17989579]
