@@ -8685,3 +8685,145 @@
 [2023-05-05 09:53:48] ERROR root fetch - processPackages [pyspark-extension]: Timeout during execution of pkgdiff
 [2023-05-05 09:53:48] INFO root fetch - main [MainThread]: End processing [pyspark-extension] error
 [2023-05-05 09:53:48] INFO root fetch - main [MainThread]: Store serial: [17983614]
+[2023-05-05 09:58:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17983614]
+[2023-05-05 09:58:58] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-05 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eotdl-cli
+[2023-05-05 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydra-fsl
+[2023-05-05 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-banking-mandate
+[2023-05-05 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiomodelz
+[2023-05-05 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mail-tracking
+[2023-05-05 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hypot
+[2023-05-05 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dgl
+[2023-05-05 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scrapere
+[2023-05-05 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-stock-move-location
+[2023-05-05 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: paddypy
+[2023-05-05 09:58:58] WARNING root fetch - processPackages [hypot]: Skipping, unable to determine old version
+[2023-05-05 09:58:58] INFO root fetch - processPackages [hypot]: Start processing: web3-ethereum-defi
+[2023-05-05 09:58:58] INFO root fetch - processPackages [scrapere]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 09:58:58] INFO root fetch - main [MainThread]: End processing [hypot] error
+[2023-05-05 09:58:58] INFO root fetch - processPackages [pydra-fsl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-mail-tracking]: New version: [15.0.2.0.3] Old Version: [15.0.2.0.2.4]
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1]
+[2023-05-05 09:58:58] INFO root fetch - processPackages [eotdl-cli]: New version: [2023.5.5] Old Version: [2023.4.26]
+[2023-05-05 09:58:58] INFO root fetch - processPackages [aiomodelz]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-05 09:58:58] INFO root fetch - processPackages [paddypy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-05 09:58:58] INFO root fetch - processPackages [dgl]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-stock-move-location]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2023-05-05 09:58:58] INFO root fetch - processPackages [web3-ethereum-defi]: New version: [0.9] Old Version: [0.8]
+[2023-05-05 09:58:58] INFO root fetch - processPackages [scrapere]: Downloading https://files.pythonhosted.org/packages/4c/57/b2580565ea4ae9d323dc0be61f8fee6f69c6f5c11f455f0859cb1003a13c/scrapere-0.1.3.tar.gz
+[2023-05-05 09:58:58] INFO root fetch - processPackages [pydra-fsl]: Downloading https://files.pythonhosted.org/packages/a3/0e/6763eeba5bb3375298fc7519ac1d8d63117462e51e9969ddf2a285b4d126/pydra_fsl-0.0.8.tar.gz
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/a6/30/78279ecb100f2e3a7830ef2789f34c4833163db5c0ff78dab59a666ecc94/odoo_addon_account_banking_mandate-16.0.1.0.1-py3-none-any.whl
+[2023-05-05 09:58:58] INFO root fetch - processPackages [dgl]: Downloading https://files.pythonhosted.org/packages/ef/6d/4452ced09e522511fb2d1313855c7809bd4becea62ac391aa4075c4b1fef/dgl-1.0.1-cp39-cp39-win_amd64.whl
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/8b/ec/454d058ac65b894f2fb970c649435f7f1bde0b0ed7c7d78fca8b0d6d31b1/odoo_addon_mail_tracking-15.0.2.0.2.4-py3-none-any.whl
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/22/69/ea0df6de153668d899cc8a677982812eb297c76ec4565dc3a4f544804e4c/odoo_addon_stock_move_location-16.0.1.1.0.1-py3-none-any.whl
+[2023-05-05 09:58:58] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/89/0d/2a7e17a25f1e3697f2e60f3d8946bfb0730181b19a3ca0bc608eccdf4521/eotdl_cli-2023.4.26.tar.gz
+[2023-05-05 09:58:58] INFO root fetch - processPackages [paddypy]: Downloading https://files.pythonhosted.org/packages/bf/8c/d0f9052a1c0d02883ebe311de6d42513db519632675340db7885689698e7/paddypy-0.1.2.tar.gz
+[2023-05-05 09:58:58] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/f7/34/bc567b2d884ed84729cca7ee7fa158347e0f72fc19d964b3721fd4ad740b/web3-ethereum-defi-0.8.tar.gz
+[2023-05-05 09:58:58] INFO root fetch - processPackages [scrapere]: Downloading https://files.pythonhosted.org/packages/61/9b/98b8097e967a08079f7291044521556e548063f952b090ee26edb2488e24/scrapere-0.1.4.tar.gz
+[2023-05-05 09:58:58] INFO root fetch - processPackages [aiomodelz]: executing diffoscope
+[2023-05-05 09:58:58] INFO root fetch - processPackages [aiomodelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomodelz-0.4.8.tar.gz tmp/aiomodelz-0.4.9.tar.gz --markdown 20230505/a/aiomodelz/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-05 09:58:58] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/fc/41/e7834480e2649883aedd0e3969cbcc2af6faeedb31940bc9be06aa6eb4eb/eotdl_cli-2023.5.5.tar.gz
+[2023-05-05 09:58:58] INFO root fetch - processPackages [scrapere]: executing diffoscope
+[2023-05-05 09:58:58] INFO root fetch - processPackages [scrapere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapere-0.1.3.tar.gz tmp/scrapere-0.1.4.tar.gz --markdown 20230505/s/scrapere/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 09:58:58] INFO root fetch - processPackages [eotdl-cli]: executing diffoscope
+[2023-05-05 09:58:58] INFO root fetch - processPackages [eotdl-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl_cli-2023.4.26.tar.gz tmp/eotdl_cli-2023.5.5.tar.gz --markdown 20230505/e/eotdl-cli/2023.4.26-2023.5.5/diff.md --exclude *.pyd
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/f8/1c/d186f607711c4cfaf9109fcbef7d80de36c15e2feb3860f12a604eb11a3b/odoo_addon_account_banking_mandate-16.0.1.0.2-py3-none-any.whl
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/87/8d/4f97f142188d10f84676541190014771e8c6a5331d5e5e91c4cdc7d4e160/odoo_addon_stock_move_location-16.0.1.1.0.2-py3-none-any.whl
+[2023-05-05 09:58:58] INFO root fetch - processPackages [paddypy]: Downloading https://files.pythonhosted.org/packages/92/b9/f92662acfce741c6d9b9b510c5392ed3608b481382a40db2d9cc4322accd/paddypy-0.1.3.tar.gz
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230505/o/odoo-addon-account-banking-mandate/16.0.1.0.1-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-stock-move-location]: executing diffoscope
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-stock-move-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_move_location-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_move_location-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230505/o/odoo-addon-stock-move-location/16.0.1.1.0.1-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-05-05 09:58:58] INFO root fetch - processPackages [paddypy]: executing diffoscope
+[2023-05-05 09:58:58] INFO root fetch - processPackages [paddypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddypy-0.1.2.tar.gz tmp/paddypy-0.1.3.tar.gz --markdown 20230505/p/paddypy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/6a/b5/702304061a56ad6793d3a847c668a9027c7cd4278090fd3fd04790ab6942/odoo_addon_mail_tracking-15.0.2.0.3-py3-none-any.whl
+[2023-05-05 09:58:58] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/02/9e/0b69309d6f37b54cc726ee3588483bd2d6bd07282539b30d2a04e48b82cd/web3-ethereum-defi-0.9.tar.gz
+[2023-05-05 09:58:58] INFO root fetch - processPackages [pydra-fsl]: Downloading https://files.pythonhosted.org/packages/01/95/5681f06f697e05dd675fd56473ea56f5b4a9a90862261bc27fe200af5c30/pydra_fsl-0.0.9.tar.gz
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-mail-tracking]: executing diffoscope
+[2023-05-05 09:58:58] INFO root fetch - processPackages [odoo-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking-15.0.2.0.2.4-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking-15.0.2.0.3-py3-none-any.whl.zip --markdown 20230505/o/odoo-addon-mail-tracking/15.0.2.0.2.4-15.0.2.0.3/diff.md --exclude *.pyd
+[2023-05-05 09:58:59] INFO root fetch - processPackages [pydra-fsl]: executing diffoscope
+[2023-05-05 09:58:59] INFO root fetch - processPackages [pydra-fsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydra_fsl-0.0.8.tar.gz tmp/pydra_fsl-0.0.9.tar.gz --markdown 20230505/p/pydra-fsl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 09:58:59] INFO root fetch - processPackages [dgl]: Downloading https://files.pythonhosted.org/packages/f2/97/0b7544d86a5085983fde74ecc4b7586783e5558e88cdb85318e074ee5a25/dgl-1.1.0-cp39-cp39-win_amd64.whl
+[2023-05-05 09:58:59] INFO root fetch - processPackages [dgl]: executing diffoscope
+[2023-05-05 09:58:59] INFO root fetch - processPackages [dgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgl-1.0.1-cp39-cp39-win_amd64.whl.zip tmp/dgl-1.1.0-cp39-cp39-win_amd64.whl.zip --markdown 20230505/d/dgl/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 09:58:59] INFO root fetch - processPackages [web3-ethereum-defi]: executing diffoscope
+[2023-05-05 09:58:59] INFO root fetch - processPackages [web3-ethereum-defi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3-ethereum-defi-0.8.tar.gz tmp/web3-ethereum-defi-0.9.tar.gz --markdown 20230505/w/web3-ethereum-defi/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-05 09:59:00] INFO root fetch - processPackages [eotdl-cli]: Start processing: idpyoidc
+[2023-05-05 09:59:00] INFO root fetch - main [MainThread]: End processing [eotdl-cli]: success
+[2023-05-05 09:59:00] INFO root fetch - processPackages [idpyoidc]: New version: [2.0.0] Old Version: [1.4.0]
+[2023-05-05 09:59:00] INFO root fetch - processPackages [aiomodelz]: Start processing: maxeqx-dc-webhook.py
+[2023-05-05 09:59:00] INFO root fetch - main [MainThread]: End processing [aiomodelz]: success
+[2023-05-05 09:59:00] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 09:59:00] INFO root fetch - processPackages [idpyoidc]: Downloading https://files.pythonhosted.org/packages/50/15/de3f24ddea254b7dd2d1042f26852e7e4ac2bc32fc795e4537f4289de459/idpyoidc-1.4.0.tar.gz
+[2023-05-05 09:59:00] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: Downloading https://files.pythonhosted.org/packages/e6/be/7b935f959b99d1cffb049c9b19caeb1f9982f34250c65bb144a543b9c93f/maxeqx-dc-webhook.py-1.0.9.tar.gz
+[2023-05-05 09:59:00] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Start processing: swedish-market-insights
+[2023-05-05 09:59:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-location]: success
+[2023-05-05 09:59:00] INFO root fetch - processPackages [paddypy]: Start processing: odoo-addon-stock-release-channel
+[2023-05-05 09:59:00] INFO root fetch - main [MainThread]: End processing [paddypy]: success
+[2023-05-05 09:59:00] INFO root fetch - processPackages [swedish-market-insights]: New version: [0.2.3] Old Version: [0.1.2]
+[2023-05-05 09:59:00] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: executing diffoscope
+[2023-05-05 09:59:00] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: New version: [16.0.2.0.1] Old Version: [16.0.2.0.0]
+[2023-05-05 09:59:00] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxeqx-dc-webhook.py-1.0.8.tar.gz tmp/maxeqx-dc-webhook.py-1.0.9.tar.gz --markdown 20230505/m/maxeqx-dc-webhook.py/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 09:59:00] INFO root fetch - processPackages [pydra-fsl]: Start processing: proteus-preprocessing
+[2023-05-05 09:59:00] INFO root fetch - main [MainThread]: End processing [pydra-fsl]: success
+[2023-05-05 09:59:00] INFO root fetch - processPackages [proteus-preprocessing]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 09:59:00] INFO root fetch - processPackages [idpyoidc]: Downloading https://files.pythonhosted.org/packages/2e/07/94ff647e026e6cacf3a242cfa7b1d80c853170739b6d54582f6fda454ccd/idpyoidc-2.0.0.tar.gz
+[2023-05-05 09:59:00] INFO root fetch - processPackages [idpyoidc]: executing diffoscope
+[2023-05-05 09:59:00] INFO root fetch - processPackages [idpyoidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idpyoidc-1.4.0.tar.gz tmp/idpyoidc-2.0.0.tar.gz --markdown 20230505/i/idpyoidc/1.4.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-05 09:59:00] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/e4/e3/5471b6c5741dd07726b717d064ddea0866a11a6d4a7d75eb812c8d070602/odoo_addon_stock_release_channel-16.0.2.0.0-py3-none-any.whl
+[2023-05-05 09:59:00] INFO root fetch - processPackages [swedish-market-insights]: Downloading https://files.pythonhosted.org/packages/1a/ab/50878afe6373f82bec9726c16cc70ac20fdd5d0f492a9aa584d0886be530/swedish_market_insights-0.1.2.tar.gz
+[2023-05-05 09:59:00] INFO root fetch - processPackages [proteus-preprocessing]: Downloading https://files.pythonhosted.org/packages/3d/44/a18e7000970bfc3315ccf59cf37b5371c79a44c3b5bf020759912cefbafc/proteus_preprocessing-0.2.8.tar.gz
+[2023-05-05 09:59:00] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Start processing: odoo-addon-stock-release-channel-batch-mode-commercial-partner
+[2023-05-05 09:59:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2023-05-05 09:59:00] WARNING root fetch - processPackages [odoo-addon-stock-release-channel-batch-mode-commercial-partner]: Skipping, unable to determine old version
+[2023-05-05 09:59:00] INFO root fetch - processPackages [odoo-addon-stock-release-channel-batch-mode-commercial-partner]: Start processing: kivy-widgets
+[2023-05-05 09:59:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel-batch-mode-commercial-partner] error
+[2023-05-05 09:59:00] INFO root fetch - processPackages [kivy-widgets]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 09:59:01] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/86/0c/70698866d0fd8b4277b3e6324e7cba24594a1d5784abad4f36eacafe74bb/odoo_addon_stock_release_channel-16.0.2.0.1-py3-none-any.whl
+[2023-05-05 09:59:01] INFO root fetch - processPackages [proteus-preprocessing]: Downloading https://files.pythonhosted.org/packages/a3/28/e3e5ad42ae97c9149ac0897d878ef171ce5791af87cbfeebc9af0f9b62e1/proteus_preprocessing-0.2.9.tar.gz
+[2023-05-05 09:59:01] INFO root fetch - processPackages [swedish-market-insights]: Downloading https://files.pythonhosted.org/packages/7a/25/5e5402dca69ee98ea208166be2592fe33b6ee968da44add5a3a6727887c3/swedish_market_insights-0.2.3-py3-none-any.whl
+[2023-05-05 09:59:01] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: executing diffoscope
+[2023-05-05 09:59:01] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel-16.0.2.0.0-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel-16.0.2.0.1-py3-none-any.whl.zip --markdown 20230505/o/odoo-addon-stock-release-channel/16.0.2.0.0-16.0.2.0.1/diff.md --exclude *.pyd
+[2023-05-05 09:59:01] INFO root fetch - processPackages [proteus-preprocessing]: executing diffoscope
+[2023-05-05 09:59:01] INFO root fetch - processPackages [proteus-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_preprocessing-0.2.8.tar.gz tmp/proteus_preprocessing-0.2.9.tar.gz --markdown 20230505/p/proteus-preprocessing/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 09:59:01] INFO root fetch - processPackages [kivy-widgets]: Downloading https://files.pythonhosted.org/packages/38/38/53a21b4b9d5cd65e2352d0cc2474d9d9338321bee81b2f0d37645f0519de/kivy_widgets-0.1.9.tar.gz
+[2023-05-05 09:59:01] INFO root fetch - processPackages [swedish-market-insights]: executing diffoscope
+[2023-05-05 09:59:01] INFO root fetch - processPackages [swedish-market-insights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swedish_market_insights-0.1.2.tar.gz tmp/swedish_market_insights-0.2.3-py3-none-any.whl.zip --markdown 20230505/s/swedish-market-insights/0.1.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-05 09:59:01] INFO root fetch - processPackages [kivy-widgets]: executing diffoscope
+[2023-05-05 09:59:01] INFO root fetch - processPackages [kivy-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivy_widgets-0.1.8.tar.gz tmp/kivy_widgets-0.1.9.tar.gz --markdown 20230505/k/kivy-widgets/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 09:59:01] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Start processing: odoo-addon-stock-release-channel-auto-release
+[2023-05-05 09:59:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
+[2023-05-05 09:59:01] WARNING root fetch - processPackages [odoo-addon-stock-release-channel-auto-release]: Skipping, unable to determine old version
+[2023-05-05 09:59:01] INFO root fetch - processPackages [odoo-addon-stock-release-channel-auto-release]: Start processing: enaml
+[2023-05-05 09:59:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel-auto-release] error
+[2023-05-05 09:59:01] INFO root fetch - processPackages [enaml]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-05 09:59:01] INFO root fetch - processPackages [enaml]: Downloading https://files.pythonhosted.org/packages/59/39/aa3d8891cf9fbc22d79d1d3af8bda37738329673db263d29d18d1c78b829/enaml-0.9.7.tar.gz
+[2023-05-05 09:59:01] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: Start processing: Slpapy
+[2023-05-05 09:59:01] INFO root fetch - main [MainThread]: End processing [maxeqx-dc-webhook.py]: success
+[2023-05-05 09:59:01] INFO root fetch - processPackages [Slpapy]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-05 09:59:01] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-05-05 09:59:01] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.2.5-py3-none-any.whl.zip tmp/Slpapy-0.2.6.tar.gz --markdown 20230505/S/Slpapy/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-05 09:59:02] INFO root fetch - processPackages [enaml]: Downloading https://files.pythonhosted.org/packages/d5/fa/77111b0d3bba9c4ee0ddd0876b37fb30ac604a40756cfef98015662aa6eb/enaml-0.9.8.tar.gz
+[2023-05-05 09:59:02] INFO root fetch - processPackages [scrapere]: Start processing: yang-vlp
+[2023-05-05 09:59:02] INFO root fetch - main [MainThread]: End processing [scrapere]: success
+[2023-05-05 09:59:02] INFO root fetch - processPackages [swedish-market-insights]: Start processing: odoo-addon-coupon-portal
+[2023-05-05 09:59:02] INFO root fetch - main [MainThread]: End processing [swedish-market-insights]: success
+[2023-05-05 09:59:02] INFO root fetch - processPackages [yang-vlp]: New version: [0.2.15] Old Version: [0.2.14]
+[2023-05-05 09:59:02] INFO root fetch - main [MainThread]: End processing [proteus-preprocessing]: success
+[2023-05-05 09:59:02] INFO root fetch - processPackages [enaml]: executing diffoscope
+[2023-05-05 09:59:02] INFO root fetch - processPackages [enaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enaml-0.9.7.tar.gz tmp/enaml-0.9.8.tar.gz --markdown 20230505/e/enaml/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-05 09:59:02] WARNING root fetch - processPackages [odoo-addon-coupon-portal]: Skipping, unable to determine old version
+[2023-05-05 09:59:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-coupon-portal] error
+[2023-05-05 09:59:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel]: success
+[2023-05-05 09:59:02] INFO root fetch - processPackages [yang-vlp]: Downloading https://files.pythonhosted.org/packages/0f/58/df199bfce831e676e2f3d3db72a0398f53323bd599be4040478156690486/yang-vlp-0.2.14.tar.gz
+[2023-05-05 09:59:02] INFO root fetch - processPackages [yang-vlp]: Downloading https://files.pythonhosted.org/packages/1a/6c/c49523b77bd5e3d053fc403b4312cd88655306724b334b0f99ba0e18044f/yang-vlp-0.2.15.tar.gz
+[2023-05-05 09:59:02] INFO root fetch - processPackages [yang-vlp]: executing diffoscope
+[2023-05-05 09:59:02] INFO root fetch - processPackages [yang-vlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yang-vlp-0.2.14.tar.gz tmp/yang-vlp-0.2.15.tar.gz --markdown 20230505/y/yang-vlp/0.2.14-0.2.15/diff.md --exclude *.pyd
+[2023-05-05 09:59:02] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-05-05 09:59:03] INFO root fetch - main [MainThread]: End processing [idpyoidc]: success
+[2023-05-05 09:59:04] INFO root fetch - main [MainThread]: End processing [yang-vlp]: success
+[2023-05-05 09:59:05] INFO root fetch - main [MainThread]: End processing [kivy-widgets]: success
+[2023-05-05 09:59:05] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
+[2023-05-05 09:59:08] INFO root fetch - main [MainThread]: End processing [enaml]: success
+[2023-05-05 09:59:45] INFO root fetch - main [MainThread]: End processing [dgl]: success
+[2023-05-05 09:59:45] INFO root fetch - main [MainThread]: Store serial: [17983715]
