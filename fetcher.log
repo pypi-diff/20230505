@@ -17168,3 +17168,76 @@
 [2023-05-05 17:12:51] INFO root fetch - main [MainThread]: End processing [xugrid]: success
 [2023-05-05 17:12:57] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
 [2023-05-05 17:12:57] INFO root fetch - main [MainThread]: Store serial: [17988901]
+[2023-05-05 17:18:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17988901]
+[2023-05-05 17:18:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boonamber
+[2023-05-05 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openstef
+[2023-05-05 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdeclient
+[2023-05-05 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudnetpy
+[2023-05-05 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyvium
+[2023-05-05 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ta-sites
+[2023-05-05 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thermal-conductivity-step
+[2023-05-05 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dspace-stats-collector
+[2023-05-05 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytamer
+[2023-05-05 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: srtranslator
+[2023-05-05 17:18:06] INFO root fetch - processPackages [pyvium]: New version: [0.1.9b0] Old Version: [0.1.8b0]
+[2023-05-05 17:18:06] INFO root fetch - processPackages [boonamber]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-05 17:18:06] INFO root fetch - processPackages [sdeclient]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 17:18:06] INFO root fetch - processPackages [ta-sites]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-05 17:18:06] INFO root fetch - processPackages [pytamer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 17:18:06] INFO root fetch - processPackages [thermal-conductivity-step]: New version: [2023.5.5] Old Version: [2023.4.24]
+[2023-05-05 17:18:06] INFO root fetch - processPackages [srtranslator]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-05 17:18:06] INFO root fetch - processPackages [openstef]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-05-05 17:18:06] INFO root fetch - processPackages [dspace-stats-collector]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-05 17:18:06] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-05 17:18:06] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2023-05-05 17:18:06] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2023-05-05 17:18:06] INFO root fetch - processPackages [cloudnetpy]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-05 17:18:06] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2023-05-05 17:18:06] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230505.6.35.992484] Old Version: [20230505.15.2.734923]
+[2023-05-05 17:18:06] INFO root fetch - processPackages [sdeclient]: Downloading https://files.pythonhosted.org/packages/3e/ae/1dd58dab7aa326c992cf8dc06db60a8aaba732d8186e6abc56b3fb8fd6fe/sdeclient-0.0.2.tar.gz
+[2023-05-05 17:18:06] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/75/c9/7c06c601c1d27f1195ac5f58283525a189a4366334fe3e1e6b1406dc56cb/certora-cli-alpha-rahav-cert-1987_update_regTest-20230505.15.2.734923.tar.gz
+[2023-05-05 17:18:06] INFO root fetch - processPackages [srtranslator]: Downloading https://files.pythonhosted.org/packages/06/6c/92afa75463cbdad02bba46084a045ebfb81071fd1dcd362dcfa1bf2b6903/srtranslator-0.2.6.tar.gz
+[2023-05-05 17:18:06] INFO root fetch - processPackages [ta-sites]: Downloading https://files.pythonhosted.org/packages/1c/60/c20c5d614d9207ca0d11b094762025887d0b6f02316c22cda310b66e06e2/ta_sites-0.4.5.tar.gz
+[2023-05-05 17:18:06] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/d8/5e/aae4f72c0d709588767ec68e766ff22787ba14fda62462c8224096805437/openstef-3.2.8.tar.gz
+[2023-05-05 17:18:06] INFO root fetch - processPackages [dspace-stats-collector]: Downloading https://files.pythonhosted.org/packages/37/b7/6a926a9a429a6fb4271034bc398be4aaa6953b686885ffb31ceb55b4b0f8/dspace_stats_collector-0.6.8.tar.gz
+[2023-05-05 17:18:06] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38472955>=10485760
+[2023-05-05 17:18:06] INFO root fetch - processPackages [thermal-conductivity-step]: Downloading https://files.pythonhosted.org/packages/7e/39/f7224a2ed8507431d00fdd599dd33825cf31e5c2448bd58c56c1a897f322/thermal_conductivity_step-2023.4.24.tar.gz
+[2023-05-05 17:18:06] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Start processing: TorchEase
+[2023-05-05 17:18:06] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-05 17:18:06] INFO root fetch - processPackages [srtranslator]: executing diffoscope
+[2023-05-05 17:18:06] INFO root fetch - processPackages [srtranslator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srtranslator-0.2.5.tar.gz tmp/srtranslator-0.2.6.tar.gz --markdown 20230505/s/srtranslator/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-05 17:18:07] INFO root fetch - processPackages [boonamber]: Downloading https://files.pythonhosted.org/packages/5b/64/401439c09816b9770dcfa05a8ab3ba1a58bed726afa6bcc229f2d06284fa/boonamber-2.0.1.tar.gz
+[2023-05-05 17:18:07] WARNING root fetch - processPackages [TorchEase]: Skipping, unable to determine old version
+[2023-05-05 17:18:07] INFO root fetch - main [MainThread]: End processing [TorchEase] error
+[2023-05-05 17:18:07] INFO root fetch - processPackages [boonamber]: executing diffoscope
+[2023-05-05 17:18:07] INFO root fetch - processPackages [boonamber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boonamber-2.0.0.tar.gz tmp/boonamber-2.0.1.tar.gz --markdown 20230505/b/boonamber/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-05 17:18:07] INFO root fetch - processPackages [sdeclient]: Downloading https://files.pythonhosted.org/packages/9a/32/d8f6c03756a8e8c4c52ba7ba71c8598904578ee8d76693dc5a9857a9b860/sdeclient-0.0.3.tar.gz
+[2023-05-05 17:18:07] INFO root fetch - processPackages [ta-sites]: Downloading https://files.pythonhosted.org/packages/a2/8f/afcbe021a74bb72c099aa02091c71cbd53f87608cfb53dc760f50aa3b190/ta_sites-0.4.6.tar.gz
+[2023-05-05 17:18:07] INFO root fetch - processPackages [pyvium]: executing diffoscope
+[2023-05-05 17:18:07] INFO root fetch - processPackages [pyvium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvium-0.1.8b0.tar.gz tmp/pyvium-0.1.9b0.tar.gz --markdown 20230505/p/pyvium/0.1.8b0-0.1.9b0/diff.md --exclude *.pyd
+[2023-05-05 17:18:07] INFO root fetch - processPackages [sdeclient]: executing diffoscope
+[2023-05-05 17:18:07] INFO root fetch - processPackages [sdeclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdeclient-0.0.2.tar.gz tmp/sdeclient-0.0.3.tar.gz --markdown 20230505/s/sdeclient/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 17:18:07] INFO root fetch - processPackages [pytamer]: executing diffoscope
+[2023-05-05 17:18:07] INFO root fetch - processPackages [pytamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytamer-0.1.8-cp39-cp39-win_amd64.whl.zip tmp/pytamer-0.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20230505/p/pytamer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 17:18:07] INFO root fetch - processPackages [dspace-stats-collector]: Downloading https://files.pythonhosted.org/packages/d6/31/7cae9f20cc5d28df3dafcc884bd2ed5e8d15579f2714cf0d5dc47b9c50b2/dspace_stats_collector-0.6.9.tar.gz
+[2023-05-05 17:18:07] INFO root fetch - processPackages [ta-sites]: executing diffoscope
+[2023-05-05 17:18:07] INFO root fetch - processPackages [ta-sites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ta_sites-0.4.5.tar.gz tmp/ta_sites-0.4.6.tar.gz --markdown 20230505/t/ta-sites/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-05 17:18:07] INFO root fetch - processPackages [dspace-stats-collector]: executing diffoscope
+[2023-05-05 17:18:07] INFO root fetch - processPackages [dspace-stats-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspace_stats_collector-0.6.8.tar.gz tmp/dspace_stats_collector-0.6.9.tar.gz --markdown 20230505/d/dspace-stats-collector/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-05 17:18:07] INFO root fetch - processPackages [thermal-conductivity-step]: Downloading https://files.pythonhosted.org/packages/16/57/7d5a072adbfc76b46d3f2eb685df1a2e84fb9943ad9d540949ef0aa3ddbf/thermal_conductivity_step-2023.5.5.tar.gz
+[2023-05-05 17:18:07] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/08/0a/df7db806501a61abf24779c5c0a1d1fc52e9e8822793a33bb64b0a4002cc/openstef-3.2.9.tar.gz
+[2023-05-05 17:18:07] INFO root fetch - processPackages [thermal-conductivity-step]: executing diffoscope
+[2023-05-05 17:18:07] INFO root fetch - processPackages [thermal-conductivity-step]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thermal_conductivity_step-2023.4.24.tar.gz tmp/thermal_conductivity_step-2023.5.5.tar.gz --markdown 20230505/t/thermal-conductivity-step/2023.4.24-2023.5.5/diff.md --exclude *.pyd
+[2023-05-05 17:18:07] INFO root fetch - processPackages [openstef]: executing diffoscope
+[2023-05-05 17:18:07] INFO root fetch - processPackages [openstef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef-3.2.8.tar.gz tmp/openstef-3.2.9.tar.gz --markdown 20230505/o/openstef/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-05-05 17:18:08] INFO root fetch - main [MainThread]: End processing [srtranslator]: success
+[2023-05-05 17:18:08] INFO root fetch - main [MainThread]: End processing [sdeclient]: success
+[2023-05-05 17:18:08] INFO root fetch - main [MainThread]: End processing [ta-sites]: success
+[2023-05-05 17:18:08] INFO root fetch - main [MainThread]: End processing [boonamber]: success
+[2023-05-05 17:18:08] INFO root fetch - main [MainThread]: End processing [pytamer]: success
+[2023-05-05 17:18:08] INFO root fetch - main [MainThread]: End processing [dspace-stats-collector]: success
+[2023-05-05 17:18:09] INFO root fetch - main [MainThread]: End processing [pyvium]: success
+[2023-05-05 17:18:09] INFO root fetch - main [MainThread]: End processing [openstef]: success
+[2023-05-05 17:18:10] INFO root fetch - main [MainThread]: End processing [thermal-conductivity-step]: success
+[2023-05-05 17:18:10] INFO root fetch - main [MainThread]: Store serial: [17988948]
