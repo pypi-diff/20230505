@@ -4779,3 +4779,52 @@
 [2023-05-05 04:18:40] INFO root fetch - main [MainThread]: End processing [trackplot]: success
 [2023-05-05 04:18:47] INFO root fetch - main [MainThread]: End processing [apache-beam]: success
 [2023-05-05 04:18:47] INFO root fetch - main [MainThread]: Store serial: [17981329]
+[2023-05-05 04:23:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981329]
+[2023-05-05 04:23:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-05 04:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custodes
+[2023-05-05 04:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lumaapi
+[2023-05-05 04:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shipyard-coalesce
+[2023-05-05 04:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carchive
+[2023-05-05 04:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uintel
+[2023-05-05 04:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: carchive
+[2023-05-05 04:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ai-transform
+[2023-05-05 04:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bioplotz
+[2023-05-05 04:23:56] WARNING root fetch - processPackages [lumaapi]: Skipping, unable to determine old version
+[2023-05-05 04:23:56] INFO root fetch - main [MainThread]: End processing [lumaapi] error
+[2023-05-05 04:23:56] INFO root fetch - processPackages [carchive]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-05-05 04:23:56] INFO root fetch - processPackages [custodes]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 04:23:56] INFO root fetch - processPackages [shipyard-coalesce]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 04:23:56] INFO root fetch - processPackages [ai-transform]: New version: [0.31.1] Old Version: [0.31.0]
+[2023-05-05 04:23:56] INFO root fetch - processPackages [carchive]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-05-05 04:23:56] WARNING root fetch - processPackages [bioplotz]: Skipping, unable to determine old version
+[2023-05-05 04:23:56] INFO root fetch - main [MainThread]: End processing [bioplotz] error
+[2023-05-05 04:23:56] INFO root fetch - processPackages [uintel]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-05 04:23:56] INFO root fetch - processPackages [custodes]: Downloading https://files.pythonhosted.org/packages/6d/83/7f69f37a72c2aa364ba539831f466d9a5095d91dd69c12d71626452ec387/custodes-0.0.1.tar.gz
+[2023-05-05 04:23:56] INFO root fetch - processPackages [shipyard-coalesce]: Downloading https://files.pythonhosted.org/packages/7a/58/99f08e3261c256862fe130fa72966ecdf7af3e74828571b4def3777c5c8c/shipyard_coalesce-0.1.2.tar.gz
+[2023-05-05 04:23:56] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/07/b3/2839c04b27fb84ddac4ba4b887b476beee7e77005fde0a796f45b8f67ddb/carchive-0.0.41.tar.gz
+[2023-05-05 04:23:56] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/07/b3/2839c04b27fb84ddac4ba4b887b476beee7e77005fde0a796f45b8f67ddb/carchive-0.0.41.tar.gz
+[2023-05-05 04:23:56] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/3d/10/e2c31a969551f8739f04d1caea1776e30a5d34d3cbb5f28a2f63f228a734/uintel-0.3.8.tar.gz
+[2023-05-05 04:23:57] INFO root fetch - processPackages [shipyard-coalesce]: executing diffoscope
+[2023-05-05 04:23:57] INFO root fetch - processPackages [shipyard-coalesce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_coalesce-0.1.1.tar.gz tmp/shipyard_coalesce-0.1.2.tar.gz --markdown 20230505/s/shipyard-coalesce/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 04:23:57] INFO root fetch - processPackages [ai-transform]: Downloading https://files.pythonhosted.org/packages/48/3b/0e3beaf5a1939393f975741d21d8dafc7e0470386f438f193679d0d0432e/ai_transform-0.31.1.tar.gz
+[2023-05-05 04:23:57] INFO root fetch - processPackages [custodes]: Downloading https://files.pythonhosted.org/packages/c9/b2/9b13deb2ac70ffa6d887183ba6d8c80d6bba4ffa19b067923e3498628efa/custodes-0.0.2.tar.gz
+[2023-05-05 04:23:57] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/76/62/2baf66be759edfa3b32352c70588719c8796e8d6c903cbdfebcd1089381a/carchive-0.0.42.tar.gz
+[2023-05-05 04:23:57] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/76/62/2baf66be759edfa3b32352c70588719c8796e8d6c903cbdfebcd1089381a/carchive-0.0.42.tar.gz
+[2023-05-05 04:23:57] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/a0/5c/0d54c13b14cbe4945d5e15a0e23afc8e445ed191c43759a6c09f89f3154c/uintel-0.3.9.tar.gz
+[2023-05-05 04:23:57] INFO root fetch - processPackages [ai-transform]: executing diffoscope
+[2023-05-05 04:23:57] INFO root fetch - processPackages [ai-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_transform-0.31.0.tar.gz tmp/ai_transform-0.31.1.tar.gz --markdown 20230505/a/ai-transform/0.31.0-0.31.1/diff.md --exclude *.pyd
+[2023-05-05 04:23:57] INFO root fetch - processPackages [custodes]: executing diffoscope
+[2023-05-05 04:23:57] INFO root fetch - processPackages [custodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custodes-0.0.1.tar.gz tmp/custodes-0.0.2.tar.gz --markdown 20230505/c/custodes/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 04:23:57] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-05 04:23:57] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.41.tar.gz tmp/carchive-0.0.42.tar.gz --markdown 20230505/c/carchive/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-05-05 04:23:57] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-05 04:23:57] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.41.tar.gz tmp/carchive-0.0.42.tar.gz --markdown 20230505/c/carchive/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-05-05 04:23:57] INFO root fetch - processPackages [uintel]: executing diffoscope
+[2023-05-05 04:23:57] INFO root fetch - processPackages [uintel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uintel-0.3.8.tar.gz tmp/uintel-0.3.9.tar.gz --markdown 20230505/u/uintel/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-05 04:23:58] INFO root fetch - main [MainThread]: End processing [shipyard-coalesce]: success
+[2023-05-05 04:23:58] INFO root fetch - main [MainThread]: End processing [custodes]: success
+[2023-05-05 04:23:58] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-05 04:23:58] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-05 04:23:59] INFO root fetch - main [MainThread]: End processing [ai-transform]: success
+[2023-05-05 04:24:25] INFO root fetch - main [MainThread]: End processing [uintel]: success
+[2023-05-05 04:24:25] INFO root fetch - main [MainThread]: Store serial: [17981355]
