@@ -5092,3 +5092,50 @@
 [2023-05-05 05:02:33] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
 [2023-05-05 05:02:33] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
 [2023-05-05 05:02:33] INFO root fetch - main [MainThread]: Store serial: [17981507]
+[2023-05-05 05:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981507]
+[2023-05-05 05:07:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-05 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: historical-timelines
+[2023-05-05 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webconsole
+[2023-05-05 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymrt-client
+[2023-05-05 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poequora
+[2023-05-05 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simple-spinner
+[2023-05-05 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ToUse
+[2023-05-05 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wow-ai-ml
+[2023-05-05 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-05-05 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hyperdb-python
+[2023-05-05 05:07:44] INFO root fetch - processPackages [simple-spinner]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-05 05:07:44] INFO root fetch - processPackages [historical-timelines]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-05 05:07:44] WARNING root fetch - processPackages [ToUse]: Skipping, unable to determine old version
+[2023-05-05 05:07:44] WARNING root fetch - processPackages [pymrt-client]: Skipping, unable to determine old version
+[2023-05-05 05:07:44] WARNING root fetch - processPackages [webconsole]: Skipping, unable to determine old version
+[2023-05-05 05:07:44] INFO root fetch - main [MainThread]: End processing [ToUse] error
+[2023-05-05 05:07:44] INFO root fetch - main [MainThread]: End processing [pymrt-client] error
+[2023-05-05 05:07:44] INFO root fetch - main [MainThread]: End processing [webconsole] error
+[2023-05-05 05:07:44] INFO root fetch - processPackages [wow-ai-ml]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-05 05:07:44] INFO root fetch - processPackages [wow-ai-ml]: executing diffoscope
+[2023-05-05 05:07:44] INFO root fetch - processPackages [wow-ai-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_ml-0.1.6.tar.gz tmp/wow_ai_ml-0.1.7.tar.gz --markdown 20230505/w/wow-ai-ml/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-05 05:07:44] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-05 05:07:44] WARNING root fetch - processPackages [poequora]: Skipping, unable to determine old version
+[2023-05-05 05:07:44] INFO root fetch - main [MainThread]: End processing [poequora] error
+[2023-05-05 05:07:44] INFO root fetch - processPackages [hyperdb-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-05 05:07:44] INFO root fetch - processPackages [simple-spinner]: Downloading https://files.pythonhosted.org/packages/07/e3/aad6c8c11a5f0cc4339bd6ddad68f653e5815cd277d6e13f1cdd1ddb1c19/simple_spinner-0.1.3-py3-none-any.whl
+[2023-05-05 05:07:44] INFO root fetch - processPackages [simple-spinner]: executing diffoscope
+[2023-05-05 05:07:44] INFO root fetch - processPackages [simple-spinner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_spinner-0.1.2-py3-none-any.whl.zip tmp/simple_spinner-0.1.3-py3-none-any.whl.zip --markdown 20230505/s/simple-spinner/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-05 05:07:44] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-05-05 05:07:44] INFO root fetch - processPackages [historical-timelines]: Downloading https://files.pythonhosted.org/packages/63/d3/384843f2e55b9d26342bbbe2461fe93073eb277caae21385e0052f2d5231/historical_timelines-0.2.2.tar.gz
+[2023-05-05 05:07:44] INFO root fetch - processPackages [hyperdb-python]: Downloading https://files.pythonhosted.org/packages/cb/2e/a49e1c3c1c5a59836213d8533c51981c44d4f18cc715a13c27dbb712ba3b/hyperdb-python-0.1.2.tar.gz
+[2023-05-05 05:07:44] INFO root fetch - processPackages [historical-timelines]: Downloading https://files.pythonhosted.org/packages/57/1d/297549012fa200bd14ecd271e39e3c3d45e94a69d574484eb352f26de45e/historical_timelines-0.2.3.tar.gz
+[2023-05-05 05:07:44] INFO root fetch - processPackages [hyperdb-python]: Downloading https://files.pythonhosted.org/packages/2c/8a/d147f9e470064e76796d6e97950377e098ee2377557b72acd6be962034a7/hyperdb-python-0.1.3.tar.gz
+[2023-05-05 05:07:44] INFO root fetch - processPackages [historical-timelines]: executing diffoscope
+[2023-05-05 05:07:44] INFO root fetch - processPackages [historical-timelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/historical_timelines-0.2.2.tar.gz tmp/historical_timelines-0.2.3.tar.gz --markdown 20230505/h/historical-timelines/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-05 05:07:44] INFO root fetch - processPackages [hyperdb-python]: executing diffoscope
+[2023-05-05 05:07:44] INFO root fetch - processPackages [hyperdb-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperdb-python-0.1.2.tar.gz tmp/hyperdb-python-0.1.3.tar.gz --markdown 20230505/h/hyperdb-python/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-05 05:07:44] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-05-05 05:07:45] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-05-05 05:07:45] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230505/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-05 05:07:45] INFO root fetch - main [MainThread]: End processing [wow-ai-ml]: success
+[2023-05-05 05:07:45] INFO root fetch - main [MainThread]: End processing [simple-spinner]: success
+[2023-05-05 05:07:45] INFO root fetch - main [MainThread]: End processing [hyperdb-python]: success
+[2023-05-05 05:07:45] INFO root fetch - main [MainThread]: End processing [historical-timelines]: success
+[2023-05-05 05:07:46] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-05-05 05:07:46] INFO root fetch - main [MainThread]: Store serial: [17981541]
