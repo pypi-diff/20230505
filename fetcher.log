@@ -22979,3 +22979,55 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-05 22:31:10] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-05-05 22:31:34] INFO root fetch - main [MainThread]: End processing [camply]: success
 [2023-05-05 22:31:34] INFO root fetch - main [MainThread]: Store serial: [17992654]
+[2023-05-05 22:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17992654]
+[2023-05-05 22:36:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-05 22:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dasosdemo
+[2023-05-05 22:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: echofish-aws-indexing-lambda
+[2023-05-05 22:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: micropython-esp32-stubs
+[2023-05-05 22:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micropython-esp32-ota-stubs
+[2023-05-05 22:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datasets-summarizer
+[2023-05-05 22:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: commandline-parsable
+[2023-05-05 22:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micropython-stubber
+[2023-05-05 22:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: entelecheia
+[2023-05-05 22:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cyberpay-utils-lib
+[2023-05-05 22:36:43] WARNING root fetch - processPackages [dasosdemo]: Skipping, unable to determine old version
+[2023-05-05 22:36:43] INFO root fetch - main [MainThread]: End processing [dasosdemo] error
+[2023-05-05 22:36:43] INFO root fetch - processPackages [cyberpay-utils-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 22:36:43] WARNING root fetch - processPackages [micropython-esp32-ota-stubs]: Skipping, unable to determine old version
+[2023-05-05 22:36:43] INFO root fetch - main [MainThread]: End processing [micropython-esp32-ota-stubs] error
+[2023-05-05 22:36:43] INFO root fetch - processPackages [micropython-esp32-stubs]: New version: [1.20.0.post1] Old Version: [1.19.1.post9]
+[2023-05-05 22:36:43] INFO root fetch - processPackages [commandline-parsable]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-05 22:36:43] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: New version: [1.0.0.dev20230505202825] Old Version: [1.0.0.dev20230505185413]
+[2023-05-05 22:36:43] WARNING root fetch - processPackages [datasets-summarizer]: Skipping, unable to determine old version
+[2023-05-05 22:36:43] INFO root fetch - main [MainThread]: End processing [datasets-summarizer] error
+[2023-05-05 22:36:43] INFO root fetch - processPackages [micropython-stubber]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-05 22:36:43] INFO root fetch - processPackages [entelecheia]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-05-05 22:36:43] INFO root fetch - processPackages [micropython-stubber]: executing diffoscope
+[2023-05-05 22:36:43] INFO root fetch - processPackages [micropython-stubber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-stubber-1.9.8.tar.gz tmp/micropython-stubber-1.9.9.tar.gz --markdown 20230505/m/micropython-stubber/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-05 22:36:43] INFO root fetch - processPackages [micropython-esp32-stubs]: Downloading https://files.pythonhosted.org/packages/41/8a/6b828c472249fef602c7ae1762814ca4f6a69a719c8b9cd7952a8f19aa56/micropython_esp32_stubs-1.19.1.post9.tar.gz
+[2023-05-05 22:36:43] INFO root fetch - processPackages [cyberpay-utils-lib]: Downloading https://files.pythonhosted.org/packages/d1/37/c7a6768099dde787cb2f08158c5d504678a728b1b4f6d7e92a14cb4c9463/cyberpay-utils-lib-0.0.8.tar.gz
+[2023-05-05 22:36:43] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Downloading https://files.pythonhosted.org/packages/3d/b5/7c181ba76fa1a0004b030b0a69f0d28edf1649b86b3c89bdf4a05ece2c8f/echofish-aws-indexing-lambda-1.0.0.dev20230505185413.tar.gz
+[2023-05-05 22:36:43] INFO root fetch - processPackages [commandline-parsable]: Downloading https://files.pythonhosted.org/packages/b3/f6/96a0efd77f3541b6564e8dd64a9c061f68e1574bfa86cf57839c36201e37/commandline_parsable-0.1.1.tar.gz
+[2023-05-05 22:36:43] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/39/bd/cbbf6a0262d43849e837ccb52aae1737cc585caff95170ab3b8823e50522/entelecheia-0.1.4.tar.gz
+[2023-05-05 22:36:43] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/26/ad/3ce80bea0cb7e25a085af4d41ed34eae831541cc5dae3c22518cd51a120d/entelecheia-0.2.0.tar.gz
+[2023-05-05 22:36:43] INFO root fetch - processPackages [entelecheia]: executing diffoscope
+[2023-05-05 22:36:43] INFO root fetch - processPackages [entelecheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entelecheia-0.1.4.tar.gz tmp/entelecheia-0.2.0.tar.gz --markdown 20230505/e/entelecheia/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 22:36:43] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Downloading https://files.pythonhosted.org/packages/03/fa/a272ecbe481c6520658180dd4e281bfa529ec72e220119bcbe866e06894d/echofish-aws-indexing-lambda-1.0.0.dev20230505202825.tar.gz
+[2023-05-05 22:36:43] INFO root fetch - processPackages [commandline-parsable]: Downloading https://files.pythonhosted.org/packages/04/d8/7e08fe80a7ceb2261a86cf983a51bbfd2f77ff8588c0c9fd71037d6de2f7/commandline_parsable-0.2.0.tar.gz
+[2023-05-05 22:36:43] INFO root fetch - processPackages [micropython-esp32-stubs]: Downloading https://files.pythonhosted.org/packages/c3/18/928573f71f6976ab87485632fa103c1adf4b530872f17875c61017876e97/micropython_esp32_stubs-1.20.0.post1.tar.gz
+[2023-05-05 22:36:43] INFO root fetch - processPackages [commandline-parsable]: executing diffoscope
+[2023-05-05 22:36:43] INFO root fetch - processPackages [commandline-parsable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commandline_parsable-0.1.1.tar.gz tmp/commandline_parsable-0.2.0.tar.gz --markdown 20230505/c/commandline-parsable/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 22:36:43] INFO root fetch - processPackages [micropython-esp32-stubs]: executing diffoscope
+[2023-05-05 22:36:43] INFO root fetch - processPackages [micropython-esp32-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_esp32_stubs-1.19.1.post9.tar.gz tmp/micropython_esp32_stubs-1.20.0.post1.tar.gz --markdown 20230505/m/micropython-esp32-stubs/1.19.1.post9-1.20.0.post1/diff.md --exclude *.pyd
+[2023-05-05 22:36:44] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: executing diffoscope
+[2023-05-05 22:36:44] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-indexing-lambda-1.0.0.dev20230505185413.tar.gz tmp/echofish-aws-indexing-lambda-1.0.0.dev20230505202825.tar.gz --markdown 20230505/e/echofish-aws-indexing-lambda/1.0.0.dev20230505185413-1.0.0.dev20230505202825/diff.md --exclude *.pyd
+[2023-05-05 22:36:44] INFO root fetch - processPackages [cyberpay-utils-lib]: Downloading https://files.pythonhosted.org/packages/3b/fc/c4ac385101b801421bfeda8cc9d67e2a5f8d18b38cac31400e3559963190/cyberpay-utils-lib-0.0.9.tar.gz
+[2023-05-05 22:36:44] INFO root fetch - processPackages [cyberpay-utils-lib]: executing diffoscope
+[2023-05-05 22:36:44] INFO root fetch - processPackages [cyberpay-utils-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberpay-utils-lib-0.0.8.tar.gz tmp/cyberpay-utils-lib-0.0.9.tar.gz --markdown 20230505/c/cyberpay-utils-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 22:36:45] INFO root fetch - main [MainThread]: End processing [commandline-parsable]: success
+[2023-05-05 22:36:45] INFO root fetch - main [MainThread]: End processing [entelecheia]: success
+[2023-05-05 22:36:45] INFO root fetch - main [MainThread]: End processing [cyberpay-utils-lib]: success
+[2023-05-05 22:36:45] INFO root fetch - main [MainThread]: End processing [echofish-aws-indexing-lambda]: success
+[2023-05-05 22:36:45] INFO root fetch - main [MainThread]: End processing [micropython-esp32-stubs]: success
+[2023-05-05 22:37:12] INFO root fetch - main [MainThread]: End processing [micropython-stubber]: success
+[2023-05-05 22:37:12] INFO root fetch - main [MainThread]: Store serial: [17992685]
