@@ -14003,3 +14003,137 @@
 [2023-05-05 14:32:00] INFO root fetch - main [MainThread]: End processing [geniac]: success
 [2023-05-05 14:32:00] INFO root fetch - main [MainThread]: End processing [invenio-requests]: success
 [2023-05-05 14:32:00] INFO root fetch - main [MainThread]: Store serial: [17986840]
+[2023-05-05 14:37:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17986840]
+[2023-05-05 14:37:10] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-05 14:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chaostoolkit-reliably
+[2023-05-05 14:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matflow-new
+[2023-05-05 14:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfaust
+[2023-05-05 14:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resilient
+[2023-05-05 14:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfaust-openblaso
+[2023-05-05 14:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gameyamlspiderandgenerator
+[2023-05-05 14:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfaust-torch
+[2023-05-05 14:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simplepytorch
+[2023-05-05 14:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resilient-lib
+[2023-05-05 14:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-listing
+[2023-05-05 14:37:10] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-05 14:37:10] INFO root fetch - processPackages [resilient-lib]: New version: [48.2.4321] Old Version: [48.1.4243]
+[2023-05-05 14:37:10] INFO root fetch - processPackages [resilient]: New version: [48.2.4321] Old Version: [48.1.4243]
+[2023-05-05 14:37:10] INFO root fetch - processPackages [pyfaust-torch]: New version: [3.38.8] Old Version: [3.38.7]
+[2023-05-05 14:37:10] INFO root fetch - processPackages [simplepytorch]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-05 14:37:10] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-05-05 14:37:10] INFO root fetch - processPackages [django-listing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 14:37:10] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-05 14:37:10] INFO root fetch - processPackages [pyfaust-openblaso]: New version: [3.38.8] Old Version: [3.38.7]
+[2023-05-05 14:37:10] INFO root fetch - processPackages [pyfaust]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-05 14:37:10] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/a4/27/cc58c7aeedbbd54fc516083b3aaa08386b658a6ece0cb01137629eab384f/gameyamlspiderandgenerator-1.4.1.tar.gz
+[2023-05-05 14:37:10] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-05-05 14:37:10] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a8.tar.gz tmp/matflow_new-0.3.0a9.tar.gz --markdown 20230505/m/matflow-new/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-05-05 14:37:10] INFO root fetch - processPackages [pyfaust-openblaso]: Downloading https://files.pythonhosted.org/packages/2d/b2/dcee8eba20639c2e18b92ecb4cec43cf1b28020e5a6275d5ccde2d6242be/pyfaust_openblaso-3.38.7-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-05 14:37:10] INFO root fetch - processPackages [resilient-lib]: Downloading https://files.pythonhosted.org/packages/22/5b/d9eeac276150f85bd8cd0158108c5df48e2e65598453dfe9d3a3a2f30b1f/resilient_lib-48.1.4243.tar.gz
+[2023-05-05 14:37:10] INFO root fetch - processPackages [simplepytorch]: Downloading https://files.pythonhosted.org/packages/bb/7e/a0b994d686fb8df9130ce00e52ef08463f3ee5a2be676d2508a509ddcebc/simplepytorch-1.4.0.tar.gz
+[2023-05-05 14:37:10] INFO root fetch - processPackages [resilient]: Downloading https://files.pythonhosted.org/packages/d9/bd/5af964569a2cb355f8af904724fd1620fee9eca2f86c9bc17e08d17eaab7/resilient-48.1.4243.tar.gz
+[2023-05-05 14:37:10] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/18/b5/0740195b9ccd0e43e427280344d5fb3706996ff6f66655fe6f79cd230aaa/pyfaust-3.9.0-cp39-cp39-win_amd64.whl
+[2023-05-05 14:37:10] INFO root fetch - processPackages [django-listing]: Downloading https://files.pythonhosted.org/packages/a3/59/905c67a72e8b857c31c798d6e0cc0030c1ee535d793a4ea094ecda645d18/django-listing-0.0.8.tar.gz
+[2023-05-05 14:37:10] WARNING root fetch - processPackages [pyfaust-openblaso]: Skipping package: exceeds size limit 22956958>=10485760
+[2023-05-05 14:37:10] INFO root fetch - processPackages [pyfaust-openblaso]: Start processing: sheetcloud
+[2023-05-05 14:37:10] INFO root fetch - main [MainThread]: End processing [pyfaust-openblaso] error
+[2023-05-05 14:37:10] INFO root fetch - processPackages [sheetcloud]: New version: [0.1.0.post4] Old Version: [0.1.0.post1]
+[2023-05-05 14:37:10] INFO root fetch - processPackages [simplepytorch]: executing diffoscope
+[2023-05-05 14:37:10] INFO root fetch - processPackages [simplepytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplepytorch-1.3.0.tar.gz tmp/simplepytorch-1.4.0.tar.gz --markdown 20230505/s/simplepytorch/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-05 14:37:10] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/26/77/6d6f6c74db3fb6eea549a03a2bd2fa5effb4fadb83aa038856b0abfce6e7/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-05-05 14:37:10] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/ba/57/4fe8e2abe9d163fa3623ddace8866814aefae73086d81f38c0a02b74148a/gameyamlspiderandgenerator-1.4.2.tar.gz
+[2023-05-05 14:37:10] INFO root fetch - processPackages [sheetcloud]: Downloading https://files.pythonhosted.org/packages/75/73/0aba42014d445f63bf90748c163f148dced25f28099658e6fd3a58b81caa/sheetcloud-0.1.0.post4.tar.gz
+[2023-05-05 14:37:10] INFO root fetch - processPackages [resilient]: Downloading https://files.pythonhosted.org/packages/e5/92/9b09728e81deec435df158fe885dfa40c218efe8db347569ee71963c14d1/resilient-48.2.4321.tar.gz
+[2023-05-05 14:37:10] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2023-05-05 14:37:10] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.4.1.tar.gz tmp/gameyamlspiderandgenerator-1.4.2.tar.gz --markdown 20230505/g/gameyamlspiderandgenerator/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-05 14:37:10] INFO root fetch - processPackages [pyfaust-torch]: executing diffoscope
+[2023-05-05 14:37:10] INFO root fetch - processPackages [pyfaust-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust_torch-3.38.7-cp39-cp39-macosx_10_9_x86_64.whl.zip tmp/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230505/p/pyfaust-torch/3.38.7-3.38.8/diff.md --exclude *.pyd
+[2023-05-05 14:37:10] INFO root fetch - processPackages [sheetcloud]: executing diffoscope
+[2023-05-05 14:37:10] INFO root fetch - processPackages [sheetcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sheetcloud-0.1.0.post1.tar.gz tmp/sheetcloud-0.1.0.post4.tar.gz --markdown 20230505/s/sheetcloud/0.1.0.post1-0.1.0.post4/diff.md --exclude *.pyd
+[2023-05-05 14:37:10] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-05-05 14:37:10] INFO root fetch - processPackages [resilient-lib]: Downloading https://files.pythonhosted.org/packages/00/17/08b6fe98b251482cabe6036cdc0b6b5bf38ed53c698dee7a0f27c9b6085d/resilient_lib-48.2.4321.tar.gz
+[2023-05-05 14:37:10] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230505/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-05 14:37:10] INFO root fetch - processPackages [resilient]: executing diffoscope
+[2023-05-05 14:37:10] INFO root fetch - processPackages [resilient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resilient-48.1.4243.tar.gz tmp/resilient-48.2.4321.tar.gz --markdown 20230505/r/resilient/48.1.4243-48.2.4321/diff.md --exclude *.pyd
+[2023-05-05 14:37:10] INFO root fetch - processPackages [django-listing]: Downloading https://files.pythonhosted.org/packages/36/b5/8586923d028b409a49b3a4b40b855f09eeba833cb2bacab0ecae6f8f4200/django-listing-0.0.9.tar.gz
+[2023-05-05 14:37:10] INFO root fetch - processPackages [resilient-lib]: executing diffoscope
+[2023-05-05 14:37:10] INFO root fetch - processPackages [resilient-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resilient_lib-48.1.4243.tar.gz tmp/resilient_lib-48.2.4321.tar.gz --markdown 20230505/r/resilient-lib/48.1.4243-48.2.4321/diff.md --exclude *.pyd
+[2023-05-05 14:37:11] INFO root fetch - processPackages [django-listing]: executing diffoscope
+[2023-05-05 14:37:11] INFO root fetch - processPackages [django-listing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-listing-0.0.8.tar.gz tmp/django-listing-0.0.9.tar.gz --markdown 20230505/d/django-listing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 14:37:11] INFO root fetch - processPackages [matflow-new]: Start processing: napari-nifti
+[2023-05-05 14:37:11] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-05-05 14:37:11] INFO root fetch - processPackages [napari-nifti]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-05-05 14:37:11] INFO root fetch - processPackages [napari-nifti]: executing diffoscope
+[2023-05-05 14:37:11] INFO root fetch - processPackages [napari-nifti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-nifti-0.0.3.tar.gz tmp/napari-nifti-0.0.5.tar.gz --markdown 20230505/n/napari-nifti/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 14:37:12] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Start processing: resilient-circuits
+[2023-05-05 14:37:12] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2023-05-05 14:37:12] INFO root fetch - processPackages [resilient-circuits]: New version: [48.2.4321] Old Version: [48.1.4243]
+[2023-05-05 14:37:12] INFO root fetch - processPackages [resilient-circuits]: Downloading https://files.pythonhosted.org/packages/34/25/4611fc8556a26a27e342f75a66539d30a7a55d173a0d299aff45d36e5369/resilient_circuits-48.1.4243.tar.gz
+[2023-05-05 14:37:12] INFO root fetch - processPackages [resilient]: Start processing: pytest-resilient-circuits
+[2023-05-05 14:37:12] INFO root fetch - main [MainThread]: End processing [resilient]: success
+[2023-05-05 14:37:12] INFO root fetch - processPackages [pytest-resilient-circuits]: New version: [48.2.4321] Old Version: [48.1.4243]
+[2023-05-05 14:37:12] INFO root fetch - processPackages [sheetcloud]: Start processing: dynamic-qrcode-image
+[2023-05-05 14:37:12] INFO root fetch - main [MainThread]: End processing [sheetcloud]: success
+[2023-05-05 14:37:12] INFO root fetch - processPackages [dynamic-qrcode-image]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 14:37:12] INFO root fetch - processPackages [pytest-resilient-circuits]: Downloading https://files.pythonhosted.org/packages/f6/b3/55a724b1f0294399aab8c8dad9b1ffc03049a5abc191827712964ef3cbc8/pytest_resilient_circuits-48.1.4243.tar.gz
+[2023-05-05 14:37:12] INFO root fetch - processPackages [resilient-circuits]: Downloading https://files.pythonhosted.org/packages/ba/c6/442731890c6c03e95c7d67d6777c8e7e2290a4bdc0b37e08019596948ccd/resilient_circuits-48.2.4321.tar.gz
+[2023-05-05 14:37:12] INFO root fetch - processPackages [pyfaust-torch]: Start processing: kcli
+[2023-05-05 14:37:12] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
+[2023-05-05 14:37:12] INFO root fetch - processPackages [kcli]: New version: [99.0.202305051235] Old Version: [99.0.202305051213]
+[2023-05-05 14:37:12] INFO root fetch - processPackages [dynamic-qrcode-image]: Downloading https://files.pythonhosted.org/packages/ba/70/94fad55a1f9a5ed446f154ea78593e9c06f196d6d7f6a9e1bc48315f9123/dynamic_qrcode_image-0.0.4.tar.gz
+[2023-05-05 14:37:12] INFO root fetch - processPackages [resilient-circuits]: executing diffoscope
+[2023-05-05 14:37:12] INFO root fetch - processPackages [resilient-circuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resilient_circuits-48.1.4243.tar.gz tmp/resilient_circuits-48.2.4321.tar.gz --markdown 20230505/r/resilient-circuits/48.1.4243-48.2.4321/diff.md --exclude *.pyd
+[2023-05-05 14:37:12] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/34/28/ab7cd91f9611bbe2d9ff5bfc6934eb6af283249b75ac68c9d0b6befcd0b5/pyfaust-3.9.1-cp39-cp39-win_amd64.whl
+[2023-05-05 14:37:12] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/9c/87/3b152611930ab22f599aca1ffa41bac04c85ed185b33d6d279ec6f5c1ae1/kcli-99.0.202305051235-py3-none-any.whl
+[2023-05-05 14:37:12] INFO root fetch - processPackages [napari-nifti]: Start processing: resilient-sdk
+[2023-05-05 14:37:12] INFO root fetch - main [MainThread]: End processing [napari-nifti]: success
+[2023-05-05 14:37:12] INFO root fetch - processPackages [pytest-resilient-circuits]: Downloading https://files.pythonhosted.org/packages/eb/1b/fc1f488b92d625c2fb31892cb69b73ed7196cec86168dd7b534365e06a1b/pytest_resilient_circuits-48.2.4321.tar.gz
+[2023-05-05 14:37:12] INFO root fetch - processPackages [resilient-sdk]: New version: [48.2.4321] Old Version: [48.1.4243]
+[2023-05-05 14:37:13] INFO root fetch - processPackages [dynamic-qrcode-image]: Downloading https://files.pythonhosted.org/packages/f7/35/3ec72aefe9fdfc215dc7f4eeef0985f062be28e5bd257cb04b4539d94eac/dynamic_qrcode_image-0.0.5.tar.gz
+[2023-05-05 14:37:13] INFO root fetch - processPackages [pytest-resilient-circuits]: executing diffoscope
+[2023-05-05 14:37:13] INFO root fetch - processPackages [pytest-resilient-circuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_resilient_circuits-48.1.4243.tar.gz tmp/pytest_resilient_circuits-48.2.4321.tar.gz --markdown 20230505/p/pytest-resilient-circuits/48.1.4243-48.2.4321/diff.md --exclude *.pyd
+[2023-05-05 14:37:13] INFO root fetch - processPackages [dynamic-qrcode-image]: executing diffoscope
+[2023-05-05 14:37:13] INFO root fetch - processPackages [dynamic-qrcode-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic_qrcode_image-0.0.4.tar.gz tmp/dynamic_qrcode_image-0.0.5.tar.gz --markdown 20230505/d/dynamic-qrcode-image/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 14:37:13] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-05 14:37:13] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305051213-py3-none-any.whl.zip tmp/kcli-99.0.202305051235-py3-none-any.whl.zip --markdown 20230505/k/kcli/99.0.202305051213-99.0.202305051235/diff.md --exclude *.pyd
+[2023-05-05 14:37:13] INFO root fetch - processPackages [resilient-sdk]: Downloading https://files.pythonhosted.org/packages/f1/bd/fcfe3fb04e90a28e54ed4a1f9526393b7ddf665bbf9e038f9894e304e3ce/resilient_sdk-48.1.4243.tar.gz
+[2023-05-05 14:37:13] INFO root fetch - processPackages [simplepytorch]: Start processing: akshatbuffednew
+[2023-05-05 14:37:13] INFO root fetch - main [MainThread]: End processing [simplepytorch]: success
+[2023-05-05 14:37:13] INFO root fetch - processPackages [chaostoolkit-reliably]: Start processing: napari-sam
+[2023-05-05 14:37:13] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-05-05 14:37:13] WARNING root fetch - processPackages [akshatbuffednew]: Skipping, unable to determine old version
+[2023-05-05 14:37:13] INFO root fetch - processPackages [akshatbuffednew]: Start processing: venv-modulefile
+[2023-05-05 14:37:13] INFO root fetch - main [MainThread]: End processing [akshatbuffednew] error
+[2023-05-05 14:37:13] INFO root fetch - processPackages [napari-sam]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-05 14:37:13] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 14:37:13] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-05 14:37:13] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.8.tar.gz tmp/venv-modulefile-0.0.9.tar.gz --markdown 20230505/v/venv-modulefile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 14:37:13] INFO root fetch - processPackages [resilient-lib]: Start processing: client-GPT
+[2023-05-05 14:37:13] INFO root fetch - main [MainThread]: End processing [resilient-lib]: success
+[2023-05-05 14:37:13] INFO root fetch - processPackages [client-GPT]: New version: [2.1.0] Old Version: [1.1.7]
+[2023-05-05 14:37:13] INFO root fetch - processPackages [napari-sam]: Downloading https://files.pythonhosted.org/packages/44/41/fe8445cfc9bf305ca2e0b5d9a3ff642dbd8b8aa33fdcc9ea5b330aaefdb7/napari-sam-0.4.6.tar.gz
+[2023-05-05 14:37:13] INFO root fetch - processPackages [napari-sam]: executing diffoscope
+[2023-05-05 14:37:13] INFO root fetch - processPackages [napari-sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-sam-0.4.5.tar.gz tmp/napari-sam-0.4.6.tar.gz --markdown 20230505/n/napari-sam/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-05 14:37:13] INFO root fetch - processPackages [client-GPT]: Downloading https://files.pythonhosted.org/packages/2d/2b/c7fc61cbdeeb82b060c00ed08b5e36b5304781c4541abf014657bf3b23f1/client_GPT-1.1.7.tar.gz
+[2023-05-05 14:37:14] INFO root fetch - processPackages [resilient-sdk]: Downloading https://files.pythonhosted.org/packages/96/7f/ded0b3b729e10fd318ebf985f4516dbaa433db9e38833db82a9f06ce4542/resilient_sdk-48.2.4321.tar.gz
+[2023-05-05 14:37:14] INFO root fetch - processPackages [resilient-sdk]: executing diffoscope
+[2023-05-05 14:37:14] INFO root fetch - processPackages [resilient-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resilient_sdk-48.1.4243.tar.gz tmp/resilient_sdk-48.2.4321.tar.gz --markdown 20230505/r/resilient-sdk/48.1.4243-48.2.4321/diff.md --exclude *.pyd
+[2023-05-05 14:37:14] INFO root fetch - processPackages [resilient-circuits]: Start processing: iparapheur-provisioning
+[2023-05-05 14:37:14] INFO root fetch - main [MainThread]: End processing [resilient-circuits]: success
+[2023-05-05 14:37:14] INFO root fetch - processPackages [client-GPT]: Downloading https://files.pythonhosted.org/packages/cd/7e/7f83b77c993b281242e23b0d06e90dee9bc5116e24757d6b009c12b3763a/client_GPT-2.1.0.tar.gz
+[2023-05-05 14:37:14] INFO root fetch - main [MainThread]: End processing [dynamic-qrcode-image]: success
+[2023-05-05 14:37:14] WARNING root fetch - processPackages [iparapheur-provisioning]: Skipping, unable to determine old version
+[2023-05-05 14:37:14] INFO root fetch - main [MainThread]: End processing [iparapheur-provisioning] error
+[2023-05-05 14:37:14] INFO root fetch - processPackages [client-GPT]: executing diffoscope
+[2023-05-05 14:37:14] INFO root fetch - processPackages [client-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_GPT-1.1.7.tar.gz tmp/client_GPT-2.1.0.tar.gz --markdown 20230505/c/client-GPT/1.1.7-2.1.0/diff.md --exclude *.pyd
+[2023-05-05 14:37:14] INFO root fetch - processPackages [pyfaust]: executing diffoscope
+[2023-05-05 14:37:14] INFO root fetch - processPackages [pyfaust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20230505/p/pyfaust/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-05 14:37:14] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-05 14:37:15] INFO root fetch - main [MainThread]: End processing [napari-sam]: success
+[2023-05-05 14:37:15] INFO root fetch - main [MainThread]: End processing [django-listing]: success
+[2023-05-05 14:37:15] INFO root fetch - main [MainThread]: End processing [client-GPT]: success
+[2023-05-05 14:37:16] INFO root fetch - main [MainThread]: End processing [resilient-sdk]: success
+[2023-05-05 14:37:20] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-05 14:37:40] INFO root fetch - main [MainThread]: End processing [pytest-resilient-circuits]: success
+[2023-05-05 14:37:51] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
+[2023-05-05 14:37:51] INFO root fetch - main [MainThread]: Store serial: [17986910]
