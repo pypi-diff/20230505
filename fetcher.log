@@ -1596,3 +1596,95 @@
 [2023-05-05 02:04:59] INFO root fetch - main [MainThread]: End processing [usau-scraper]: success
 [2023-05-05 02:05:01] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-05-05 02:05:01] INFO root fetch - main [MainThread]: Store serial: [17979408]
+[2023-05-05 02:10:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17979408]
+[2023-05-05 02:10:10] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-05 02:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cwsearch-utils
+[2023-05-05 02:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2023-05-05 02:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyopp
+[2023-05-05 02:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: warrenapp
+[2023-05-05 02:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trata
+[2023-05-05 02:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchlayers-nightly
+[2023-05-05 02:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxutils-nightly
+[2023-05-05 02:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chromedriver-py
+[2023-05-05 02:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RegScale-CLI
+[2023-05-05 02:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vesselapi
+[2023-05-05 02:10:10] INFO root fetch - processPackages [pyopp]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-05 02:10:10] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 02:10:10] INFO root fetch - processPackages [chromedriver-py]: New version: [99.0.4844.51] Old Version: [99.0.4844.35]
+[2023-05-05 02:10:10] WARNING root fetch - processPackages [warrenapp]: Skipping, unable to determine old version
+[2023-05-05 02:10:10] INFO root fetch - processPackages [warrenapp]: Start processing: bitmapist
+[2023-05-05 02:10:10] INFO root fetch - main [MainThread]: End processing [warrenapp] error
+[2023-05-05 02:10:10] INFO root fetch - processPackages [trata]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 02:10:10] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.2.2]
+[2023-05-05 02:10:10] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230504] Old Version: [0.0.8.dev20230503]
+[2023-05-05 02:10:10] INFO root fetch - processPackages [RegScale-CLI]: New version: [5.1.0] Old Version: [5.0.0]
+[2023-05-05 02:10:10] INFO root fetch - processPackages [bitmapist]: New version: [3.99] Old Version: [3.98]
+[2023-05-05 02:10:10] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1683158806] Old Version: [1683072405]
+[2023-05-05 02:10:10] INFO root fetch - processPackages [chromedriver-py]: Downloading https://files.pythonhosted.org/packages/39/03/f1ac791b3c69bd62af64eb3b4f2f0c942828a41ad7eb4840f42ff715c79a/chromedriver-py-99.0.4844.35.tar.gz
+[2023-05-05 02:10:10] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-05-05 02:10:10] WARNING root fetch - processPackages [chromedriver-py]: Skipping package: exceeds size limit 29238079>=10485760
+[2023-05-05 02:10:10] INFO root fetch - processPackages [chromedriver-py]: Start processing: cdk8s-redis
+[2023-05-05 02:10:10] INFO root fetch - main [MainThread]: End processing [chromedriver-py] error
+[2023-05-05 02:10:10] INFO root fetch - processPackages [bitmapist]: executing diffoscope
+[2023-05-05 02:10:10] INFO root fetch - processPackages [bitmapist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmapist-3.98.tar.gz tmp/bitmapist-3.99.tar.gz --markdown 20230505/b/bitmapist/3.98-3.99/diff.md --exclude *.pyd
+[2023-05-05 02:10:10] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-05 02:10:10] INFO root fetch - processPackages [trata]: Downloading https://files.pythonhosted.org/packages/3d/30/8ede77be45b314fdb762b0efba3a8d01e55223eeb072988d9b4feef63c57/trata-1.0.0.tar.gz
+[2023-05-05 02:10:10] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/a6/2f/3e38048f42e00e47f8535d2dede8fb35ec95abf9a10d8b7a3d153a3b8cc2/vesselapi-3.2.2.tar.gz
+[2023-05-05 02:10:10] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/88/3d/1bdbdfb830dae6929c673933f3e4ae69d2e3160bdaf03f15625f4bdfa724/torchlayers-nightly-1683158806.tar.gz
+[2023-05-05 02:10:10] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/e7/fc/e1f9d4a737e83cb1f6a584a0c5779e1596b7a87f33a90d9772a8b0ea48b3/RegScale_CLI-5.0.0-py3-none-any.whl
+[2023-05-05 02:10:10] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/5f/fe/3918fe5eef91a3e30db33f93db22f85c3f0c91a10d142cd3dc37df1d5333/jaxutils-nightly-0.0.8.dev20230504.tar.gz
+[2023-05-05 02:10:10] INFO root fetch - processPackages [pyopp]: executing diffoscope
+[2023-05-05 02:10:10] INFO root fetch - processPackages [pyopp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopp-0.0.7.tar.gz tmp/pyopp-0.0.9.tar.gz --markdown 20230505/p/pyopp/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 02:10:10] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-05-05 02:10:10] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230505/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-05 02:10:11] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-05-05 02:10:11] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-05-05 02:10:11] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1683072405.tar.gz tmp/torchlayers-nightly-1683158806.tar.gz --markdown 20230505/t/torchlayers-nightly/1683072405-1683158806/diff.md --exclude *.pyd
+[2023-05-05 02:10:11] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230503.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230504.tar.gz --markdown 20230505/j/jaxutils-nightly/0.0.8.dev20230503-0.0.8.dev20230504/diff.md --exclude *.pyd
+[2023-05-05 02:10:11] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-05-05 02:10:11] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230505/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 02:10:11] INFO root fetch - processPackages [trata]: Downloading https://files.pythonhosted.org/packages/6f/fb/7a530ad14accd712e2dbe9f53a931216c2131583bbf04ed6dad562ab26eb/trata-1.0.1.tar.gz
+[2023-05-05 02:10:11] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-05-05 02:10:11] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230505/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-05-05 02:10:11] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-05-05 02:10:11] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/13/b7/a0ff1fe73a569004d61df97fe786adec3ba271e7a0d5c219962fcb1a7083/RegScale_CLI-5.1.0-py3-none-any.whl
+[2023-05-05 02:10:11] INFO root fetch - processPackages [trata]: executing diffoscope
+[2023-05-05 02:10:11] INFO root fetch - processPackages [trata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trata-1.0.0.tar.gz tmp/trata-1.0.1.tar.gz --markdown 20230505/t/trata/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 02:10:11] INFO root fetch - processPackages [RegScale-CLI]: executing diffoscope
+[2023-05-05 02:10:11] INFO root fetch - processPackages [RegScale-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RegScale_CLI-5.0.0-py3-none-any.whl.zip tmp/RegScale_CLI-5.1.0-py3-none-any.whl.zip --markdown 20230505/R/RegScale-CLI/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2023-05-05 02:10:11] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-05-05 02:10:11] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.2.2.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230505/v/vesselapi/3.2.2-3.5.2/diff.md --exclude *.pyd
+[2023-05-05 02:10:12] INFO root fetch - processPackages [bitmapist]: Start processing: cdk-aws-discord-notifiers
+[2023-05-05 02:10:12] INFO root fetch - main [MainThread]: End processing [bitmapist]: success
+[2023-05-05 02:10:12] INFO root fetch - processPackages [pyopp]: Start processing: openbb-nightly
+[2023-05-05 02:10:12] INFO root fetch - main [MainThread]: End processing [pyopp]: success
+[2023-05-05 02:10:12] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 02:10:12] INFO root fetch - processPackages [openbb-nightly]: New version: [3.0.0rc2.dev20230426] Old Version: [3.0.0rc2.dev20230425]
+[2023-05-05 02:10:12] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-05-05 02:10:12] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.8.tar.gz tmp/cdk-aws-discord-notifiers-0.0.9.tar.gz --markdown 20230505/c/cdk-aws-discord-notifiers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 02:10:12] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2023-05-05 02:10:12] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-3.0.0rc2.dev20230425.tar.gz tmp/openbb_nightly-3.0.0rc2.dev20230426.tar.gz --markdown 20230505/o/openbb-nightly/3.0.0rc2.dev20230425-3.0.0rc2.dev20230426/diff.md --exclude *.pyd
+[2023-05-05 02:10:12] INFO root fetch - processPackages [cdk8s-redis]: Start processing: bitroom
+[2023-05-05 02:10:12] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-05-05 02:10:12] WARNING root fetch - processPackages [bitroom]: Skipping, unable to determine old version
+[2023-05-05 02:10:12] INFO root fetch - processPackages [bitroom]: Start processing: cdk-common
+[2023-05-05 02:10:12] INFO root fetch - main [MainThread]: End processing [bitroom] error
+[2023-05-05 02:10:12] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: zoterotex
+[2023-05-05 02:10:12] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-05-05 02:10:12] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-05 02:10:12] INFO root fetch - processPackages [zoterotex]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-05-05 02:10:12] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-05-05 02:10:12] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230505/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-05 02:10:12] INFO root fetch - processPackages [zoterotex]: executing diffoscope
+[2023-05-05 02:10:12] INFO root fetch - processPackages [zoterotex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoterotex-0.0.1a3.tar.gz tmp/zoterotex-0.0.1a4.tar.gz --markdown 20230505/z/zoterotex/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-05-05 02:10:13] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-05-05 02:10:13] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-05-05 02:10:13] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-05-05 02:10:13] INFO root fetch - main [MainThread]: End processing [trata]: success
+[2023-05-05 02:10:13] INFO root fetch - main [MainThread]: End processing [zoterotex]: success
+[2023-05-05 02:10:14] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
+[2023-05-05 02:10:14] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-05-05 02:10:14] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-05-05 02:10:16] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-05-05 02:10:28] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2023-05-05 02:10:28] INFO root fetch - main [MainThread]: Store serial: [17979474]
