@@ -17731,3 +17731,174 @@
 [2023-05-05 17:45:27] INFO root fetch - main [MainThread]: End processing [geocat.viz]: success
 [2023-05-05 17:46:31] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
 [2023-05-05 17:46:31] INFO root fetch - main [MainThread]: Store serial: [17989340]
+[2023-05-05 17:51:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17989340]
+[2023-05-05 17:51:41] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-05-05 17:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pushcart-deploy
+[2023-05-05 17:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-telemetry
+[2023-05-05 17:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: html-hyperframe
+[2023-05-05 17:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsonschema-gentypes
+[2023-05-05 17:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdeclient
+[2023-05-05 17:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parsgod
+[2023-05-05 17:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docassemble
+[2023-05-05 17:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docassemble.base
+[2023-05-05 17:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: docassemble.demo
+[2023-05-05 17:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: HumanCursor
+[2023-05-05 17:51:41] INFO root fetch - processPackages [sdeclient]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 17:51:41] WARNING root fetch - processPackages [parsgod]: Skipping, unable to determine old version
+[2023-05-05 17:51:41] INFO root fetch - processPackages [parsgod]: Start processing: docassemble.webapp
+[2023-05-05 17:51:41] INFO root fetch - main [MainThread]: End processing [parsgod] error
+[2023-05-05 17:51:41] INFO root fetch - processPackages [HumanCursor]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 17:51:41] INFO root fetch - processPackages [pushcart-deploy]: New version: [1.3.2] Old Version: [0.1.2]
+[2023-05-05 17:51:41] INFO root fetch - processPackages [jsonschema-gentypes]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-05 17:51:41] INFO root fetch - processPackages [docassemble.demo]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-05 17:51:41] INFO root fetch - processPackages [html-hyperframe]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-05 17:51:41] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-05 17:51:41] INFO root fetch - processPackages [docassemble]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-05 17:51:41] INFO root fetch - processPackages [docassemble.base]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-05 17:51:41] INFO root fetch - processPackages [docassemble.webapp]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-05 17:51:41] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/12/65/72be3778d6c8df2fc0725932b11671c295cbe40fccf8e32f5fad392c226b/docassemble.demo-1.4.8.tar.gz
+[2023-05-05 17:51:41] INFO root fetch - processPackages [HumanCursor]: Downloading https://files.pythonhosted.org/packages/a3/fd/f2b0ceb2630533e52a57e32843610b609559da657e3f28b3ad9877727eb7/HumanCursor-0.0.5.tar.gz
+[2023-05-05 17:51:41] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/bb/a2/c343a30437826e4c8301bf6953d00d3ca950668dee29f623e2002c0c7421/nucliadb_telemetry-1.9.1-py3-none-any.whl
+[2023-05-05 17:51:41] INFO root fetch - processPackages [docassemble.base]: Downloading https://files.pythonhosted.org/packages/49/6f/c82f5b1b26e0b12bdf1e565f9218b862142854979a0f01ea54c864ac7770/docassemble.base-1.4.8.tar.gz
+[2023-05-05 17:51:41] INFO root fetch - processPackages [sdeclient]: Downloading https://files.pythonhosted.org/packages/b6/ca/91d65e7738331e5ae5695493fa602780bfefffa2569b14259640a3cd57a1/sdeclient-0.0.9.tar.gz
+[2023-05-05 17:51:41] INFO root fetch - processPackages [html-hyperframe]: Downloading https://files.pythonhosted.org/packages/e3/a8/0f6a7c75c860251d5bbafcebbf1a6131780114d6fab110e1cb36852b2e27/html_hyperframe-0.1.5.tar.gz
+[2023-05-05 17:51:41] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/1b/b1/8cd8c51bc2b5aa0fa89d1528f73674a02f1202fc12d3696bb33172926993/docassemble-1.4.8.tar.gz
+[2023-05-05 17:51:41] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/fe/48/4d304022057f0e254fc8916a718a52b355f0ae2843c22d86139803ae0020/docassemble.webapp-1.4.8.tar.gz
+[2023-05-05 17:51:41] INFO root fetch - processPackages [pushcart-deploy]: Downloading https://files.pythonhosted.org/packages/77/1a/1a618952bef1572064f4c1c203665c173917c25d559607695bca6b8fa02b/pushcart_deploy-1.3.2.tar.gz
+[2023-05-05 17:51:41] INFO root fetch - processPackages [HumanCursor]: executing diffoscope
+[2023-05-05 17:51:41] INFO root fetch - processPackages [HumanCursor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HumanCursor-0.0.4.tar.gz tmp/HumanCursor-0.0.5.tar.gz --markdown 20230505/H/HumanCursor/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 17:51:41] INFO root fetch - processPackages [sdeclient]: executing diffoscope
+[2023-05-05 17:51:41] INFO root fetch - processPackages [sdeclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdeclient-0.0.8.tar.gz tmp/sdeclient-0.0.9.tar.gz --markdown 20230505/s/sdeclient/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 17:51:41] INFO root fetch - processPackages [jsonschema-gentypes]: Downloading https://files.pythonhosted.org/packages/7c/a5/93db9060a51306ca0bd9ab612ba2764fe2c128ad2affe5651c6edb033443/jsonschema_gentypes-2.2.0.tar.gz
+[2023-05-05 17:51:41] INFO root fetch - processPackages [pushcart-deploy]: executing diffoscope
+[2023-05-05 17:51:41] INFO root fetch - processPackages [pushcart-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pushcart_deploy-0.1.2.tar.gz tmp/pushcart_deploy-1.3.2.tar.gz --markdown 20230505/p/pushcart-deploy/0.1.2-1.3.2/diff.md --exclude *.pyd
+[2023-05-05 17:51:41] INFO root fetch - processPackages [jsonschema-gentypes]: executing diffoscope
+[2023-05-05 17:51:41] INFO root fetch - processPackages [jsonschema-gentypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema_gentypes-2.1.0.tar.gz tmp/jsonschema_gentypes-2.2.0.tar.gz --markdown 20230505/j/jsonschema-gentypes/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-05 17:51:42] INFO root fetch - processPackages [html-hyperframe]: Downloading https://files.pythonhosted.org/packages/7b/1b/af670ceb29073e6c012e858c04839a27555d6e7d427f0aad875ee3171411/html_hyperframe-0.1.6.tar.gz
+[2023-05-05 17:51:42] WARNING root fetch - processPackages [docassemble.base]: Skipping package: exceeds size limit 10987248>=10485760
+[2023-05-05 17:51:42] INFO root fetch - processPackages [docassemble.base]: Start processing: digitalguide-reader
+[2023-05-05 17:51:42] INFO root fetch - main [MainThread]: End processing [docassemble.base] error
+[2023-05-05 17:51:42] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/8b/4e/0fabe3ae223b84b73fa9a38526c3f22a21eab5f747f408034f5c0ba59e7d/docassemble-1.4.9.tar.gz
+[2023-05-05 17:51:42] INFO root fetch - processPackages [html-hyperframe]: executing diffoscope
+[2023-05-05 17:51:42] INFO root fetch - processPackages [html-hyperframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_hyperframe-0.1.5.tar.gz tmp/html_hyperframe-0.1.6.tar.gz --markdown 20230505/h/html-hyperframe/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-05 17:51:42] INFO root fetch - processPackages [digitalguide-reader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 17:51:42] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/3a/54/9200f09d9a6b81276206b432708a96f265f7df33ce31f30ab0b20cf14f9c/nucliadb_telemetry-1.9.2-py3-none-any.whl
+[2023-05-05 17:51:42] INFO root fetch - processPackages [digitalguide-reader]: executing diffoscope
+[2023-05-05 17:51:42] INFO root fetch - processPackages [digitalguide-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide_reader-0.0.8.tar.gz tmp/digitalguide_reader-0.0.9.tar.gz --markdown 20230505/d/digitalguide-reader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 17:51:42] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2023-05-05 17:51:42] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-1.9.1-py3-none-any.whl.zip tmp/nucliadb_telemetry-1.9.2-py3-none-any.whl.zip --markdown 20230505/n/nucliadb-telemetry/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-05 17:51:42] INFO root fetch - processPackages [docassemble]: executing diffoscope
+[2023-05-05 17:51:42] INFO root fetch - processPackages [docassemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble-1.4.8.tar.gz tmp/docassemble-1.4.9.tar.gz --markdown 20230505/d/docassemble/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-05 17:51:43] INFO root fetch - processPackages [pushcart-deploy]: Start processing: sdeclient
+[2023-05-05 17:51:43] INFO root fetch - main [MainThread]: End processing [pushcart-deploy]: success
+[2023-05-05 17:51:43] INFO root fetch - processPackages [sdeclient]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 17:51:43] INFO root fetch - processPackages [sdeclient]: executing diffoscope
+[2023-05-05 17:51:43] INFO root fetch - processPackages [sdeclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdeclient-0.0.8.tar.gz tmp/sdeclient-0.0.9.tar.gz --markdown 20230505/s/sdeclient/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 17:51:43] INFO root fetch - processPackages [jsonschema-gentypes]: Start processing: nti.property
+[2023-05-05 17:51:43] INFO root fetch - main [MainThread]: End processing [jsonschema-gentypes]: success
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nti.property]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-05 17:51:43] INFO root fetch - processPackages [html-hyperframe]: Start processing: pydbtools
+[2023-05-05 17:51:43] INFO root fetch - main [MainThread]: End processing [html-hyperframe]: success
+[2023-05-05 17:51:43] INFO root fetch - processPackages [pydbtools]: New version: [5.5.6] Old Version: [5.5.5]
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nti.property]: Downloading https://files.pythonhosted.org/packages/33/b8/10d07a958073160c87b96767e91cf12c880a7c9199982c47c4ff5f9d968a/nti.property-1.1.0.tar.gz
+[2023-05-05 17:51:43] INFO root fetch - processPackages [digitalguide-reader]: Start processing: dimredpy
+[2023-05-05 17:51:43] INFO root fetch - main [MainThread]: End processing [digitalguide-reader]: success
+[2023-05-05 17:51:43] INFO root fetch - processPackages [sdeclient]: Start processing: invenio-app-rdm
+[2023-05-05 17:51:43] INFO root fetch - main [MainThread]: End processing [sdeclient]: success
+[2023-05-05 17:51:43] INFO root fetch - processPackages [HumanCursor]: Start processing: odoo14-addon-pos-order-to-sale-order
+[2023-05-05 17:51:43] INFO root fetch - main [MainThread]: End processing [HumanCursor]: success
+[2023-05-05 17:51:43] WARNING root fetch - processPackages [dimredpy]: Skipping, unable to determine old version
+[2023-05-05 17:51:43] INFO root fetch - processPackages [dimredpy]: Start processing: nucliadb
+[2023-05-05 17:51:43] INFO root fetch - main [MainThread]: End processing [dimredpy] error
+[2023-05-05 17:51:43] WARNING root fetch - processPackages [odoo14-addon-pos-order-to-sale-order]: Skipping, unable to determine old version
+[2023-05-05 17:51:43] INFO root fetch - processPackages [odoo14-addon-pos-order-to-sale-order]: Start processing: nucliadb-client
+[2023-05-05 17:51:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-order-to-sale-order] error
+[2023-05-05 17:51:43] INFO root fetch - processPackages [invenio-app-rdm]: New version: [9.1.6] Old Version: [9.1.5]
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nucliadb-client]: New version: [2.8.5.post245] Old Version: [2.8.5.post244]
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nucliadb]: New version: [2.8.5.post245] Old Version: [2.8.5.post244]
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nucliadb-telemetry]: Start processing: nucliadb-dataset
+[2023-05-05 17:51:43] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.8.5.post245] Old Version: [2.8.5.post244]
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nti.property]: Downloading https://files.pythonhosted.org/packages/0e/d6/7f38453300a09f1c8a8d5ec319f8aa5aa48c15ae59a371a7953d2d78997a/nti.property-1.2.0.tar.gz
+[2023-05-05 17:51:43] INFO root fetch - processPackages [docassemble]: Start processing: nucliadb-models
+[2023-05-05 17:51:43] INFO root fetch - main [MainThread]: End processing [docassemble]: success
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nucliadb-models]: New version: [2.8.5.post245] Old Version: [2.8.5.post244]
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/42/8d/625376f60d4dca28811a1eb879263ab1beca0425ee394bc99747cff759f4/nucliadb_client-2.8.5.post245-py3-none-any.whl
+[2023-05-05 17:51:43] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/35/44/4cbbc79ecfcfeba25eaa588259dd78889d45f7ce5da9df51d90a886d7283/invenio-app-rdm-9.1.5.tar.gz
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nti.property]: executing diffoscope
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nti.property]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nti.property-1.1.0.tar.gz tmp/nti.property-1.2.0.tar.gz --markdown 20230505/n/nti.property/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/67/2c/03e4a88548645e058fbd0a407c0f57123a97e92d5a6f91aa16e28b05f5ad/nucliadb-2.8.5.post245-py3-none-any.whl
+[2023-05-05 17:51:43] INFO root fetch - processPackages [pydbtools]: Downloading https://files.pythonhosted.org/packages/81/72/0dfafd136d18669027c8943adaa791a72834cbdea5a337e3638ebd9f5e6d/pydbtools-5.5.6.tar.gz
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.8.5.post244-py3-none-any.whl.zip tmp/nucliadb_client-2.8.5.post245-py3-none-any.whl.zip --markdown 20230505/n/nucliadb-client/2.8.5.post244-2.8.5.post245/diff.md --exclude *.pyd
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/0f/58/3d3e2d196d8a5e18d0c3ad0230fe21697044a18b35c4089e669e91eb8bcc/nucliadb_dataset-2.8.5.post245-py3-none-any.whl
+[2023-05-05 17:51:43] INFO root fetch - processPackages [pydbtools]: executing diffoscope
+[2023-05-05 17:51:43] INFO root fetch - processPackages [pydbtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydbtools-5.5.5.tar.gz tmp/pydbtools-5.5.6.tar.gz --markdown 20230505/p/pydbtools/5.5.5-5.5.6/diff.md --exclude *.pyd
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/0f/15/54f75504418d0c60932fac4bf1d40015c96a29af43dd75ba57ef3b4a74d7/nucliadb_models-2.8.5.post245-py3-none-any.whl
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-05 17:51:43] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.8.5.post244-py3-none-any.whl.zip tmp/nucliadb-2.8.5.post245-py3-none-any.whl.zip --markdown 20230505/n/nucliadb/2.8.5.post244-2.8.5.post245/diff.md --exclude *.pyd
+[2023-05-05 17:51:44] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-05 17:51:44] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.8.5.post244-py3-none-any.whl.zip tmp/nucliadb_dataset-2.8.5.post245-py3-none-any.whl.zip --markdown 20230505/n/nucliadb-dataset/2.8.5.post244-2.8.5.post245/diff.md --exclude *.pyd
+[2023-05-05 17:51:44] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-05 17:51:44] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.8.5.post244-py3-none-any.whl.zip tmp/nucliadb_models-2.8.5.post245-py3-none-any.whl.zip --markdown 20230505/n/nucliadb-models/2.8.5.post244-2.8.5.post245/diff.md --exclude *.pyd
+[2023-05-05 17:51:44] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/ea/e2/301126e8ccea026042cf14b25646d8a8775d5bc90eaed08eb9da6c61421a/docassemble.demo-1.4.9.tar.gz
+[2023-05-05 17:51:44] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/6d/08/541356da553e52c32dfd88d87a98202db68711a201c4136b0acdd982572f/invenio-app-rdm-9.1.6.tar.gz
+[2023-05-05 17:51:44] INFO root fetch - processPackages [invenio-app-rdm]: executing diffoscope
+[2023-05-05 17:51:44] INFO root fetch - processPackages [invenio-app-rdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-rdm-9.1.5.tar.gz tmp/invenio-app-rdm-9.1.6.tar.gz --markdown 20230505/i/invenio-app-rdm/9.1.5-9.1.6/diff.md --exclude *.pyd
+[2023-05-05 17:51:44] INFO root fetch - processPackages [sdeclient]: Start processing: nucliadb-protos
+[2023-05-05 17:51:44] INFO root fetch - main [MainThread]: End processing [sdeclient]: success
+[2023-05-05 17:51:44] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.8.5.post245] Old Version: [2.8.5.post244]
+[2023-05-05 17:51:44] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/ee/bd/035c358ae80b3b4826a36a17e6a993251ad2bb4c42b826fd879f02355d0e/docassemble.webapp-1.4.9.tar.gz
+[2023-05-05 17:51:44] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/40/69/50ad447ec3507272f7911298d65a1df2c768a1a1df14b229bb0101deedc6/nucliadb_protos-2.8.5.post245-py3-none-any.whl
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.8.5.post244-py3-none-any.whl.zip tmp/nucliadb_protos-2.8.5.post245-py3-none-any.whl.zip --markdown 20230505/n/nucliadb-protos/2.8.5.post244-2.8.5.post245/diff.md --exclude *.pyd
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nti.property]: Start processing: parsgod
+[2023-05-05 17:51:45] INFO root fetch - main [MainThread]: End processing [nti.property]: success
+[2023-05-05 17:51:45] WARNING root fetch - processPackages [parsgod]: Skipping, unable to determine old version
+[2023-05-05 17:51:45] INFO root fetch - processPackages [parsgod]: Start processing: nucliadb-sdk
+[2023-05-05 17:51:45] INFO root fetch - main [MainThread]: End processing [parsgod] error
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.8.5.post245] Old Version: [2.8.5.post244]
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-utils
+[2023-05-05 17:51:45] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-05 17:51:45] INFO root fetch - processPackages [pydbtools]: Start processing: nautiluszim
+[2023-05-05 17:51:45] INFO root fetch - main [MainThread]: End processing [pydbtools]: success
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.8.5.post245] Old Version: [2.8.5.post244]
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nautiluszim]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: mongogettersetter
+[2023-05-05 17:51:45] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/f8/5a/e7b086aa2299f29b4d4ffadb4afbb9fab62c0f16688df4370f6f58b362f3/nucliadb_sdk-2.8.5.post245-py3-none-any.whl
+[2023-05-05 17:51:45] INFO root fetch - processPackages [mongogettersetter]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nucliadb-models]: Start processing: grimp
+[2023-05-05 17:51:45] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.8.5.post244-py3-none-any.whl.zip tmp/nucliadb_sdk-2.8.5.post245-py3-none-any.whl.zip --markdown 20230505/n/nucliadb-sdk/2.8.5.post244-2.8.5.post245/diff.md --exclude *.pyd
+[2023-05-05 17:51:45] INFO root fetch - processPackages [grimp]: New version: [2.4] Old Version: [2.3]
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nautiluszim]: Downloading https://files.pythonhosted.org/packages/5b/c7/fdd464df6dfb12306873f72273e2da034ce9763ca98b37b0ac76a35bda6f/nautiluszim-1.1.1.tar.gz
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/50/29/189beaafcb3ba7ac0d1316eb67e1bcde9e8c18842a2c53d6b815a5f3a5f4/nucliadb_utils-2.8.5.post245-py3-none-any.whl
+[2023-05-05 17:51:45] INFO root fetch - processPackages [mongogettersetter]: Downloading https://files.pythonhosted.org/packages/cb/40/829adbbf705aa8677f297cda658ae6fdca7fce65147ad2269bd69d822d67/mongogettersetter-1.3.3.tar.gz
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.8.5.post244-py3-none-any.whl.zip tmp/nucliadb_utils-2.8.5.post245-py3-none-any.whl.zip --markdown 20230505/n/nucliadb-utils/2.8.5.post244-2.8.5.post245/diff.md --exclude *.pyd
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nautiluszim]: executing diffoscope
+[2023-05-05 17:51:45] INFO root fetch - processPackages [nautiluszim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautiluszim-1.1.0.tar.gz tmp/nautiluszim-1.1.1.tar.gz --markdown 20230505/n/nautiluszim/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-05 17:51:45] INFO root fetch - processPackages [grimp]: Downloading https://files.pythonhosted.org/packages/ab/91/29716ee9f6cb61313c494f27d3ab1ba44792a7f95d4e251a23dcee0a0189/grimp-2.3.tar.gz
+[2023-05-05 17:51:45] INFO root fetch - processPackages [mongogettersetter]: Downloading https://files.pythonhosted.org/packages/69/16/ae961674dd4d16322828338d6471492f83a930d634af68dfc13ae138e1a8/mongogettersetter-1.3.4.tar.gz
+[2023-05-05 17:51:46] INFO root fetch - processPackages [mongogettersetter]: executing diffoscope
+[2023-05-05 17:51:46] INFO root fetch - processPackages [mongogettersetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongogettersetter-1.3.3.tar.gz tmp/mongogettersetter-1.3.4.tar.gz --markdown 20230505/m/mongogettersetter/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-05 17:51:46] INFO root fetch - processPackages [grimp]: Downloading https://files.pythonhosted.org/packages/3c/e7/72a887bc427c30817a40b4b79fb6869980e555981cdc2ad0d0817048d1ff/grimp-2.4-py3-none-any.whl
+[2023-05-05 17:51:46] INFO root fetch - processPackages [grimp]: executing diffoscope
+[2023-05-05 17:51:46] INFO root fetch - processPackages [grimp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimp-2.3.tar.gz tmp/grimp-2.4-py3-none-any.whl.zip --markdown 20230505/g/grimp/2.3-2.4/diff.md --exclude *.pyd
+[2023-05-05 17:51:46] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-05 17:51:46] INFO root fetch - processPackages [docassemble.demo]: executing diffoscope
+[2023-05-05 17:51:46] INFO root fetch - processPackages [docassemble.demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.demo-1.4.8.tar.gz tmp/docassemble.demo-1.4.9.tar.gz --markdown 20230505/d/docassemble.demo/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-05 17:51:46] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-05 17:51:47] INFO root fetch - processPackages [docassemble.webapp]: executing diffoscope
+[2023-05-05 17:51:47] INFO root fetch - processPackages [docassemble.webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.webapp-1.4.8.tar.gz tmp/docassemble.webapp-1.4.9.tar.gz --markdown 20230505/d/docassemble.webapp/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-05 17:51:47] INFO root fetch - main [MainThread]: End processing [grimp]: success
+[2023-05-05 17:51:47] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-05 17:51:47] INFO root fetch - main [MainThread]: End processing [mongogettersetter]: success
+[2023-05-05 17:51:47] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-05 17:51:50] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
+[2023-05-05 17:51:51] INFO root fetch - main [MainThread]: End processing [nautiluszim]: success
+[2023-05-05 17:51:53] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
+[2023-05-05 17:51:55] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
+[2023-05-05 17:51:55] INFO root fetch - main [MainThread]: Store serial: [17989469]
