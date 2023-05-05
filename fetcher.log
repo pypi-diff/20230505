@@ -2387,3 +2387,68 @@
 [2023-05-05 02:49:43] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-05-05 02:49:51] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-05-05 02:49:51] INFO root fetch - main [MainThread]: Store serial: [17979904]
+[2023-05-05 02:54:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17979904]
+[2023-05-05 02:55:00] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-05 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sns-notify
+[2023-05-05 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jiggybase
+[2023-05-05 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: padacioso
+[2023-05-05 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sp-mpsp-divadmin
+[2023-05-05 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-wget
+[2023-05-05 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-05-05 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: windmill-api
+[2023-05-05 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wmill
+[2023-05-05 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wmill-pg
+[2023-05-05 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aemcmc-nightly
+[2023-05-05 02:55:00] INFO root fetch - processPackages [jiggybase]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-05-05 02:55:00] INFO root fetch - processPackages [padacioso]: New version: [0.1.3a2] Old Version: [0.1.3a1]
+[2023-05-05 02:55:00] INFO root fetch - processPackages [sp-mpsp-divadmin]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 02:55:00] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 02:55:00] INFO root fetch - processPackages [wmill]: New version: [1.94.0] Old Version: [1.93.1]
+[2023-05-05 02:55:00] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-05 02:55:00] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230504] Old Version: [0.0.8.dev20230503]
+[2023-05-05 02:55:00] INFO root fetch - processPackages [windmill-api]: New version: [1.94.0] Old Version: [1.93.1]
+[2023-05-05 02:55:00] INFO root fetch - processPackages [wmill-pg]: New version: [1.94.0] Old Version: [1.93.1]
+[2023-05-05 02:55:00] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-05 02:55:00] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-05-05 02:55:00] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230505/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-05 02:55:00] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-05-05 02:55:00] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230505/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 02:55:00] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-05 02:55:00] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230503.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230504.tar.gz --markdown 20230505/a/aemcmc-nightly/0.0.8.dev20230503-0.0.8.dev20230504/diff.md --exclude *.pyd
+[2023-05-05 02:55:00] INFO root fetch - processPackages [padacioso]: Downloading https://files.pythonhosted.org/packages/66/69/84a1e47a2cdf5a2356b58a42f3f12c8b074030ac36bc0fad7798e3e04e6c/padacioso-0.1.3a1.tar.gz
+[2023-05-05 02:55:00] INFO root fetch - processPackages [sp-mpsp-divadmin]: Downloading https://files.pythonhosted.org/packages/1c/9a/e4f2343cf4f43e7f2b122cfacaff4435f03053f05f1c89f186f382355bf5/sp_mpsp_divadmin-0.0.2.tar.gz
+[2023-05-05 02:55:00] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/49/26/3bd6a3ab9237825545669930fd36d77aae04f3e355b8a07b2a5fe224c43d/wmill-1.93.1.tar.gz
+[2023-05-05 02:55:00] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-05 02:55:00] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230505/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-05 02:55:00] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/d9/47/77753b36fc36b5f4773a3425238eb8aff6954184aa4275dc7c0c3eb1a1db/windmill_api-1.93.1.tar.gz
+[2023-05-05 02:55:00] INFO root fetch - processPackages [jiggybase]: Downloading https://files.pythonhosted.org/packages/99/ed/f4aa85fbac949ab9dba3d84be40f278d22e24157ff3b8cdfc6713f9a255c/jiggybase-0.0.24.tar.gz
+[2023-05-05 02:55:00] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/c8/11/b5278abd2f8e39984f9cc3e7c2afdfc20c8600536a89b286dde1e3bc63d9/wmill_pg-1.94.0.tar.gz
+[2023-05-05 02:55:01] INFO root fetch - processPackages [padacioso]: Downloading https://files.pythonhosted.org/packages/ed/1d/d872fe6d7f622a8fa87ffb3800f74b203836db212d61776031ce325bb849/padacioso-0.1.3a2.tar.gz
+[2023-05-05 02:55:01] INFO root fetch - processPackages [jiggybase]: executing diffoscope
+[2023-05-05 02:55:01] INFO root fetch - processPackages [jiggybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiggybase-0.0.23.tar.gz tmp/jiggybase-0.0.24.tar.gz --markdown 20230505/j/jiggybase/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-05-05 02:55:01] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/ed/20/ab2cc98426a82df29a2b12c26e8d654b1b187d69d0e940235bdc8bf056b7/wmill-1.94.0.tar.gz
+[2023-05-05 02:55:01] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-05-05 02:55:01] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.93.1.tar.gz tmp/wmill_pg-1.94.0.tar.gz --markdown 20230505/w/wmill-pg/1.93.1-1.94.0/diff.md --exclude *.pyd
+[2023-05-05 02:55:01] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/43/3d/11bd4a62d914b72ce567d7b7f43fd90e950be9fde1621400748ee299d296/windmill_api-1.94.0.tar.gz
+[2023-05-05 02:55:01] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-05-05 02:55:01] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.93.1.tar.gz tmp/wmill-1.94.0.tar.gz --markdown 20230505/w/wmill/1.93.1-1.94.0/diff.md --exclude *.pyd
+[2023-05-05 02:55:01] INFO root fetch - processPackages [sp-mpsp-divadmin]: Downloading https://files.pythonhosted.org/packages/5a/39/e6fb6394c6b6dd84ef1f53b8af6b562c6c78e2af5cdfda04d731dd0c2ab7/sp_mpsp_divadmin-0.0.3.tar.gz
+[2023-05-05 02:55:01] WARNING root fetch - processPackages [sp-mpsp-divadmin]: Skipping package: exceeds size limit 23055701>=10485760
+[2023-05-05 02:55:01] INFO root fetch - processPackages [sp-mpsp-divadmin]: Start processing: matplotlib-table
+[2023-05-05 02:55:01] INFO root fetch - main [MainThread]: End processing [sp-mpsp-divadmin] error
+[2023-05-05 02:55:01] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-05-05 02:55:01] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.93.1.tar.gz tmp/windmill_api-1.94.0.tar.gz --markdown 20230505/w/windmill-api/1.93.1-1.94.0/diff.md --exclude *.pyd
+[2023-05-05 02:55:01] INFO root fetch - processPackages [padacioso]: executing diffoscope
+[2023-05-05 02:55:01] INFO root fetch - processPackages [padacioso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/padacioso-0.1.3a1.tar.gz tmp/padacioso-0.1.3a2.tar.gz --markdown 20230505/p/padacioso/0.1.3a1-0.1.3a2/diff.md --exclude *.pyd
+[2023-05-05 02:55:01] WARNING root fetch - processPackages [matplotlib-table]: Skipping, unable to determine old version
+[2023-05-05 02:55:01] INFO root fetch - main [MainThread]: End processing [matplotlib-table] error
+[2023-05-05 02:55:02] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-05-05 02:55:02] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-05-05 02:55:02] INFO root fetch - main [MainThread]: End processing [jiggybase]: success
+[2023-05-05 02:55:02] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-05-05 02:55:02] INFO root fetch - main [MainThread]: End processing [padacioso]: success
+[2023-05-05 02:55:02] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-05 02:55:04] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-05 02:55:05] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-05-05 02:55:17] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-05-05 02:55:17] INFO root fetch - main [MainThread]: Store serial: [17979938]
