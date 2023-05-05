@@ -6115,3 +6115,47 @@
 [2023-05-05 06:54:03] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
 [2023-05-05 06:54:05] INFO root fetch - main [MainThread]: End processing [pelicun]: success
 [2023-05-05 06:54:05] INFO root fetch - main [MainThread]: Store serial: [17982053]
+[2023-05-05 06:59:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982053]
+[2023-05-05 06:59:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-05 06:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custodes
+[2023-05-05 06:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getlino
+[2023-05-05 06:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipymock
+[2023-05-05 06:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TapisCL-ICICLE
+[2023-05-05 06:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lino-xl
+[2023-05-05 06:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lino
+[2023-05-05 06:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiomodelz
+[2023-05-05 06:59:14] INFO root fetch - processPackages [custodes]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 06:59:14] INFO root fetch - processPackages [TapisCL-ICICLE]: New version: [0.0.41] Old Version: [0.0.4]
+[2023-05-05 06:59:14] INFO root fetch - processPackages [getlino]: New version: [23.5.0] Old Version: [23.3.0]
+[2023-05-05 06:59:14] INFO root fetch - processPackages [ipymock]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-05 06:59:14] INFO root fetch - processPackages [lino-xl]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-05-05 06:59:14] INFO root fetch - processPackages [lino]: New version: [23.5.0] Old Version: [23.4.1]
+[2023-05-05 06:59:14] WARNING root fetch - processPackages [aiomodelz]: Skipping, unable to determine old version
+[2023-05-05 06:59:14] INFO root fetch - main [MainThread]: End processing [aiomodelz] error
+[2023-05-05 06:59:14] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/5e/64/54196adb900308dd555b76593135edaa8734c40b617f08c9a39a7ee11857/TapisCL-ICICLE-0.0.4.tar.gz
+[2023-05-05 06:59:14] INFO root fetch - processPackages [getlino]: Downloading https://files.pythonhosted.org/packages/21/b7/f04bd727e71096f452a08ba788311e25cf1f3b7e5c4d150716dcef3a0147/getlino-23.3.0.tar.gz
+[2023-05-05 06:59:14] INFO root fetch - processPackages [lino]: Downloading https://files.pythonhosted.org/packages/6d/a8/22b35154b322e3cc6ece53f7dfccf38fd0184465fa0a7b1b12aa847cd581/lino-23.4.1.tar.gz
+[2023-05-05 06:59:14] INFO root fetch - processPackages [custodes]: Downloading https://files.pythonhosted.org/packages/1e/c7/6e06acb514ce7b7de9f6b6a6c5be2aa9433174b32cb06339361bfc9e8cb1/custodes-0.0.5.tar.gz
+[2023-05-05 06:59:14] INFO root fetch - processPackages [ipymock]: Downloading https://files.pythonhosted.org/packages/eb/f1/005e6f3f2fc9a96b7517275ef92dcff1f0239c2a9187706f49b5e7fc9ba0/ipymock-1.1.1.tar.gz
+[2023-05-05 06:59:14] INFO root fetch - processPackages [custodes]: executing diffoscope
+[2023-05-05 06:59:14] INFO root fetch - processPackages [custodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custodes-0.0.4.tar.gz tmp/custodes-0.0.5.tar.gz --markdown 20230505/c/custodes/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 06:59:14] INFO root fetch - processPackages [ipymock]: executing diffoscope
+[2023-05-05 06:59:14] INFO root fetch - processPackages [ipymock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymock-1.1.0.tar.gz tmp/ipymock-1.1.1.tar.gz --markdown 20230505/i/ipymock/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-05 06:59:14] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/c7/16/a231f6a599124f72e8a426118d9a93fe568511fdd6f06a531b2f3f69373e/TapisCL-ICICLE-0.0.41.tar.gz
+[2023-05-05 06:59:14] INFO root fetch - processPackages [lino-xl]: Downloading https://files.pythonhosted.org/packages/3e/7f/0cf76781a284e1ee054b57cd121edd74f4d727a8a67ab74cb2574b38f44a/lino-xl-23.4.0.tar.gz
+[2023-05-05 06:59:14] INFO root fetch - processPackages [TapisCL-ICICLE]: executing diffoscope
+[2023-05-05 06:59:14] INFO root fetch - processPackages [TapisCL-ICICLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TapisCL-ICICLE-0.0.4.tar.gz tmp/TapisCL-ICICLE-0.0.41.tar.gz --markdown 20230505/T/TapisCL-ICICLE/0.0.4-0.0.41/diff.md --exclude *.pyd
+[2023-05-05 06:59:14] INFO root fetch - processPackages [getlino]: Downloading https://files.pythonhosted.org/packages/9d/97/b9b4c4d236a3689c9352c6b3a15744924fe47f5b831cf6b953b34843431c/getlino-23.5.0.tar.gz
+[2023-05-05 06:59:14] INFO root fetch - processPackages [getlino]: executing diffoscope
+[2023-05-05 06:59:14] INFO root fetch - processPackages [getlino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getlino-23.3.0.tar.gz tmp/getlino-23.5.0.tar.gz --markdown 20230505/g/getlino/23.3.0-23.5.0/diff.md --exclude *.pyd
+[2023-05-05 06:59:14] WARNING root fetch - processPackages [lino-xl]: Skipping package: exceeds size limit 42028084>=10485760
+[2023-05-05 06:59:14] INFO root fetch - main [MainThread]: End processing [lino-xl] error
+[2023-05-05 06:59:15] INFO root fetch - main [MainThread]: End processing [custodes]: success
+[2023-05-05 06:59:15] INFO root fetch - main [MainThread]: End processing [ipymock]: success
+[2023-05-05 06:59:15] INFO root fetch - processPackages [lino]: Downloading https://files.pythonhosted.org/packages/10/42/2ca26810d6193b5d9b0e0468af625780346da592f273c55cfa02274cce62/lino-23.5.0.tar.gz
+[2023-05-05 06:59:15] INFO root fetch - main [MainThread]: End processing [TapisCL-ICICLE]: success
+[2023-05-05 06:59:16] INFO root fetch - processPackages [lino]: executing diffoscope
+[2023-05-05 06:59:16] INFO root fetch - processPackages [lino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-23.4.1.tar.gz tmp/lino-23.5.0.tar.gz --markdown 20230505/l/lino/23.4.1-23.5.0/diff.md --exclude *.pyd
+[2023-05-05 06:59:16] INFO root fetch - main [MainThread]: End processing [getlino]: success
+[2023-05-05 07:01:59] INFO root fetch - main [MainThread]: End processing [lino]: success
+[2023-05-05 07:01:59] INFO root fetch - main [MainThread]: Store serial: [17982076]
