@@ -12151,3 +12151,37 @@
 [2023-05-05 12:46:48] INFO root fetch - main [MainThread]: End processing [kedro-snowflake]: success
 [2023-05-05 12:46:51] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
 [2023-05-05 12:46:51] INFO root fetch - main [MainThread]: Store serial: [17985702]
+[2023-05-05 12:51:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17985702]
+[2023-05-05 12:52:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-05 12:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kivy-widgets
+[2023-05-05 12:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: junifer
+[2023-05-05 12:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finflo
+[2023-05-05 12:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: merqube-client-lib
+[2023-05-05 12:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proxsuite
+[2023-05-05 12:52:01] INFO root fetch - processPackages [merqube-client-lib]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-05 12:52:01] INFO root fetch - processPackages [finflo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-05 12:52:01] INFO root fetch - processPackages [kivy-widgets]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 12:52:01] INFO root fetch - processPackages [junifer]: New version: [0.0.3.dev48] Old Version: [0.0.3.dev36]
+[2023-05-05 12:52:01] INFO root fetch - processPackages [proxsuite]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-05 12:52:01] INFO root fetch - processPackages [kivy-widgets]: executing diffoscope
+[2023-05-05 12:52:01] INFO root fetch - processPackages [kivy-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivy_widgets-0.1.8.tar.gz tmp/kivy_widgets-0.1.9.tar.gz --markdown 20230505/k/kivy-widgets/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 12:52:01] INFO root fetch - processPackages [merqube-client-lib]: Downloading https://files.pythonhosted.org/packages/b9/23/6baabd993e9d390a13a83ed742a8f6795f071093a2aa3641bf449f9502a5/merqube_client_lib-0.5.1.tar.gz
+[2023-05-05 12:52:01] INFO root fetch - processPackages [proxsuite]: Downloading https://files.pythonhosted.org/packages/59/d1/193104dd0ccfd70200183378853505ca88071ca6a5e9628f6f3171497bfa/proxsuite-0.3.6-0-pp39-pypy39_pp73-manylinux_2_17_x86_64.whl
+[2023-05-05 12:52:01] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/cc/e5/9200013d5fdb9d58e796c4748484e51997a114364e5fea45f180325456db/finflo-2.0.9.tar.gz
+[2023-05-05 12:52:01] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/28/3a/b17dfc577930c754a46104b9d3e1678aab7fd879eb6dffac2cffbfbf2ddc/junifer-0.0.3.dev36.tar.gz
+[2023-05-05 12:52:01] INFO root fetch - processPackages [merqube-client-lib]: executing diffoscope
+[2023-05-05 12:52:01] INFO root fetch - processPackages [merqube-client-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merqube_client_lib-0.5.0.tar.gz tmp/merqube_client_lib-0.5.1.tar.gz --markdown 20230505/m/merqube-client-lib/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-05 12:52:01] INFO root fetch - processPackages [finflo]: executing diffoscope
+[2023-05-05 12:52:01] INFO root fetch - processPackages [finflo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finflo-2.0.8.tar.gz tmp/finflo-2.0.9.tar.gz --markdown 20230505/f/finflo/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-05 12:52:01] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/1f/a8/2bd5cce056f98288bf9b2b126400f86a1e70bcc62e17d3ab174a36e18728/junifer-0.0.3.dev48.tar.gz
+[2023-05-05 12:52:02] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2023-05-05 12:52:02] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.3.dev36.tar.gz tmp/junifer-0.0.3.dev48.tar.gz --markdown 20230505/j/junifer/0.0.3.dev36-0.0.3.dev48/diff.md --exclude *.pyd
+[2023-05-05 12:52:02] INFO root fetch - processPackages [proxsuite]: Downloading https://files.pythonhosted.org/packages/2a/b8/f84ea95c7e54308ce6d6a1c692af3068be51bdee1779b3721dddf5e7bb1d/proxsuite-0.3.7-0-cp39-cp39-win_amd64.whl
+[2023-05-05 12:52:02] INFO root fetch - processPackages [proxsuite]: executing diffoscope
+[2023-05-05 12:52:02] INFO root fetch - processPackages [proxsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxsuite-0.3.6-0-pp39-pypy39_pp73-manylinux_2_17_x86_64.whl.zip tmp/proxsuite-0.3.7-0-cp39-cp39-win_amd64.whl.zip --markdown 20230505/p/proxsuite/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-05 12:52:02] INFO root fetch - main [MainThread]: End processing [merqube-client-lib]: success
+[2023-05-05 12:52:02] INFO root fetch - main [MainThread]: End processing [kivy-widgets]: success
+[2023-05-05 12:52:02] INFO root fetch - main [MainThread]: End processing [finflo]: success
+[2023-05-05 12:52:04] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2023-05-05 12:52:06] INFO root fetch - main [MainThread]: End processing [proxsuite]: success
+[2023-05-05 12:52:06] INFO root fetch - main [MainThread]: Store serial: [17985733]
