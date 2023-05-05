@@ -21382,3 +21382,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-05 21:05:07] INFO root fetch - main [MainThread]: End processing [citrusdb]: success
 [2023-05-05 21:05:07] INFO root fetch - main [MainThread]: End processing [matlabengine]: success
 [2023-05-05 21:05:07] INFO root fetch - main [MainThread]: Store serial: [17991687]
+[2023-05-05 21:10:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17991687]
+[2023-05-05 21:10:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-05 21:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud-resource-matcher
+[2023-05-05 21:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matlabengine
+[2023-05-05 21:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transcribe-anything
+[2023-05-05 21:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyswitchbee
+[2023-05-05 21:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: beanie
+[2023-05-05 21:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diffoscope
+[2023-05-05 21:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spimdisasm
+[2023-05-05 21:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: matlabengine
+[2023-05-05 21:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydantic-core
+[2023-05-05 21:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: timetool
+[2023-05-05 21:10:16] INFO root fetch - processPackages [pyswitchbee]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-05-05 21:10:16] INFO root fetch - processPackages [cloud-resource-matcher]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-05 21:10:16] INFO root fetch - processPackages [matlabengine]: New version: [9.9.1] Old Version: [9.14.3]
+[2023-05-05 21:10:16] INFO root fetch - processPackages [spimdisasm]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-05 21:10:16] INFO root fetch - processPackages [diffoscope]: New version: [99] Old Version: [98]
+[2023-05-05 21:10:16] INFO root fetch - processPackages [transcribe-anything]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-05 21:10:16] INFO root fetch - processPackages [beanie]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-05 21:10:16] INFO root fetch - processPackages [matlabengine]: New version: [9.9.1] Old Version: [9.14.3]
+[2023-05-05 21:10:16] INFO root fetch - processPackages [pydantic-core]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-05 21:10:16] INFO root fetch - processPackages [matlabengine]: executing diffoscope
+[2023-05-05 21:10:16] INFO root fetch - processPackages [matlabengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matlabengine-9.14.3.tar.gz tmp/matlabengine-9.9.1.tar.gz --markdown 20230505/m/matlabengine/9.14.3-9.9.1/diff.md --exclude *.pyd
+[2023-05-05 21:10:16] INFO root fetch - processPackages [timetool]: New version: [0.9] Old Version: [0.8]
+[2023-05-05 21:10:16] INFO root fetch - processPackages [pyswitchbee]: executing diffoscope
+[2023-05-05 21:10:16] INFO root fetch - processPackages [pyswitchbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswitchbee-1.7.8.tar.gz tmp/pyswitchbee-1.7.9.tar.gz --markdown 20230505/p/pyswitchbee/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-05-05 21:10:16] INFO root fetch - processPackages [matlabengine]: executing diffoscope
+[2023-05-05 21:10:16] INFO root fetch - processPackages [matlabengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matlabengine-9.14.3.tar.gz tmp/matlabengine-9.9.1.tar.gz --markdown 20230505/m/matlabengine/9.14.3-9.9.1/diff.md --exclude *.pyd
+[2023-05-05 21:10:16] INFO root fetch - processPackages [pydantic-core]: executing diffoscope
+[2023-05-05 21:10:16] INFO root fetch - processPackages [pydantic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_core-0.8.2.tar.gz tmp/pydantic_core-0.9.0.tar.gz --markdown 20230505/p/pydantic-core/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 21:10:16] INFO root fetch - processPackages [cloud-resource-matcher]: Downloading https://files.pythonhosted.org/packages/fa/c9/3097cf38ae67a059ac3a27f927e93063914c94250e276c79163002dfab78/cloud_resource_matcher-0.1.0.tar.gz
+[2023-05-05 21:10:16] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/3a/3e/308a04b435a6c8c9956656b7f2a66d6ed38d5972df453d70202834c4ff43/diffoscope-98.tar.gz
+[2023-05-05 21:10:17] INFO root fetch - processPackages [spimdisasm]: Downloading https://files.pythonhosted.org/packages/65/8a/e3c45d6cdbcedb650d78e916ad3a53d6a72fa3e8eb4c6ffe1da395457581/spimdisasm-1.9.1.tar.gz
+[2023-05-05 21:10:17] INFO root fetch - processPackages [transcribe-anything]: Downloading https://files.pythonhosted.org/packages/a7/ae/0f43ba7ea779fa1db12b634d5de546e6832389a86591ee589659486f6b2d/transcribe-anything-2.2.1.tar.gz
+[2023-05-05 21:10:17] INFO root fetch - processPackages [timetool]: Downloading https://files.pythonhosted.org/packages/c3/90/2c9129e63ee6d5d14b47584843d1f30dc1d9b661251f41b510b2fbc0380b/timetool-0.8.tar.gz
+[2023-05-05 21:10:17] INFO root fetch - processPackages [transcribe-anything]: executing diffoscope
+[2023-05-05 21:10:17] INFO root fetch - processPackages [transcribe-anything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcribe-anything-2.2.0.tar.gz tmp/transcribe-anything-2.2.1.tar.gz --markdown 20230505/t/transcribe-anything/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-05 21:10:17] INFO root fetch - processPackages [beanie]: executing diffoscope
+[2023-05-05 21:10:17] INFO root fetch - processPackages [beanie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanie-1.9.1.tar.gz tmp/beanie-1.9.2.tar.gz --markdown 20230505/b/beanie/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-05 21:10:17] INFO root fetch - processPackages [spimdisasm]: Downloading https://files.pythonhosted.org/packages/4f/b6/3e3fe88ecbbc893a7b39d4c1bb62693fbaa6ad1360bbb0af77a0acafca9c/spimdisasm-1.9.2.tar.gz
+[2023-05-05 21:10:17] INFO root fetch - processPackages [cloud-resource-matcher]: Downloading https://files.pythonhosted.org/packages/e2/93/8755e9a71f73027b228583eb991c1310cfa77ce829222ac1c4727069b0c7/cloud_resource_matcher-0.2.0.tar.gz
+[2023-05-05 21:10:17] INFO root fetch - processPackages [timetool]: Downloading https://files.pythonhosted.org/packages/8b/a6/a3e0464fea862712aa4a337a444be236c55f61952b9977a715def996f95c/timetool-0.9.tar.gz
+[2023-05-05 21:10:17] INFO root fetch - processPackages [cloud-resource-matcher]: executing diffoscope
+[2023-05-05 21:10:17] INFO root fetch - processPackages [cloud-resource-matcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_resource_matcher-0.1.0.tar.gz tmp/cloud_resource_matcher-0.2.0.tar.gz --markdown 20230505/c/cloud-resource-matcher/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 21:10:17] INFO root fetch - processPackages [spimdisasm]: executing diffoscope
+[2023-05-05 21:10:17] INFO root fetch - processPackages [spimdisasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spimdisasm-1.9.1.tar.gz tmp/spimdisasm-1.9.2.tar.gz --markdown 20230505/s/spimdisasm/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-05 21:10:17] INFO root fetch - processPackages [timetool]: executing diffoscope
+[2023-05-05 21:10:17] INFO root fetch - processPackages [timetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timetool-0.8.tar.gz tmp/timetool-0.9.tar.gz --markdown 20230505/t/timetool/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-05 21:10:18] INFO root fetch - processPackages [matlabengine]: Start processing: graphdisplay
+[2023-05-05 21:10:18] INFO root fetch - main [MainThread]: End processing [matlabengine]: success
+[2023-05-05 21:10:18] INFO root fetch - processPackages [graphdisplay]: New version: [0.2.6] Old Version: [0.2.2]
+[2023-05-05 21:10:18] INFO root fetch - processPackages [transcribe-anything]: Start processing: automation-anywhere
+[2023-05-05 21:10:18] INFO root fetch - main [MainThread]: End processing [transcribe-anything]: success
+[2023-05-05 21:10:18] INFO root fetch - processPackages [automation-anywhere]: New version: [2.0.0] Old Version: [1.1]
+[2023-05-05 21:10:18] INFO root fetch - processPackages [graphdisplay]: Downloading https://files.pythonhosted.org/packages/46/6e/b1c54f3b989266f06fa4680ecd4ec0f473268a81c598122c385d5fd89c54/graphdisplay-0.2.2.tar.gz
+[2023-05-05 21:10:18] INFO root fetch - processPackages [pyswitchbee]: Start processing: graphql-service-framework
+[2023-05-05 21:10:18] INFO root fetch - main [MainThread]: End processing [pyswitchbee]: success
+[2023-05-05 21:10:18] INFO root fetch - processPackages [automation-anywhere]: Downloading https://files.pythonhosted.org/packages/a5/54/2f9aaa685b614470d7b67d64e4219bc125d004e9cae35ce56bfb5211ac82/automation_anywhere-1.1.tar.gz
+[2023-05-05 21:10:18] INFO root fetch - main [MainThread]: End processing [matlabengine]: success
+[2023-05-05 21:10:18] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-05 21:10:18] INFO root fetch - main [MainThread]: End processing [cloud-resource-matcher]: success
+[2023-05-05 21:10:18] INFO root fetch - processPackages [graphdisplay]: Downloading https://files.pythonhosted.org/packages/6b/55/a32d261953cb4a0ccbe8c17b3871c0ad4277ecea2b13421d42bd653d3c95/graphdisplay-0.2.6.tar.gz
+[2023-05-05 21:10:18] INFO root fetch - main [MainThread]: End processing [timetool]: success
+[2023-05-05 21:10:19] INFO root fetch - processPackages [graphdisplay]: executing diffoscope
+[2023-05-05 21:10:19] INFO root fetch - processPackages [graphdisplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphdisplay-0.2.2.tar.gz tmp/graphdisplay-0.2.6.tar.gz --markdown 20230505/g/graphdisplay/0.2.2-0.2.6/diff.md --exclude *.pyd
+[2023-05-05 21:10:19] INFO root fetch - processPackages [graphql-service-framework]: Downloading https://files.pythonhosted.org/packages/31/55/14511aa3b0e3ac54be656ceba27f972dbd0eedffc528a00a6ae4e9022015/graphql_service_framework-1.1.8.tar.gz
+[2023-05-05 21:10:19] INFO root fetch - processPackages [automation-anywhere]: Downloading https://files.pythonhosted.org/packages/15/53/1a71906d79b2244788308123b68f24d4c846e5f9fe800bba8c4f3d5df91a/automation_anywhere-2.0.0.tar.gz
+[2023-05-05 21:10:19] INFO root fetch - processPackages [automation-anywhere]: executing diffoscope
+[2023-05-05 21:10:19] INFO root fetch - processPackages [automation-anywhere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_anywhere-1.1.tar.gz tmp/automation_anywhere-2.0.0.tar.gz --markdown 20230505/a/automation-anywhere/1.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-05 21:10:19] INFO root fetch - main [MainThread]: End processing [spimdisasm]: success
+[2023-05-05 21:10:19] INFO root fetch - processPackages [graphql-service-framework]: Downloading https://files.pythonhosted.org/packages/7e/b8/dd09eda7d33ac33cafb5aafd7b9e54bcefc5b2235a82625cdcff9ccd6196/graphql_service_framework-1.1.9.tar.gz
+[2023-05-05 21:10:19] INFO root fetch - main [MainThread]: End processing [beanie]: success
+[2023-05-05 21:10:19] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-05-05 21:10:19] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.8.tar.gz tmp/graphql_service_framework-1.1.9.tar.gz --markdown 20230505/g/graphql-service-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-05 21:10:19] INFO root fetch - main [MainThread]: End processing [pydantic-core]: success
+[2023-05-05 21:10:20] INFO root fetch - main [MainThread]: End processing [graphdisplay]: success
+[2023-05-05 21:10:20] INFO root fetch - main [MainThread]: End processing [automation-anywhere]: success
+[2023-05-05 21:10:20] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-05-05 21:10:20] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/8d/e7/b8881e47097497471c7112ef2abc4328496f66e5c91772837ef365f39dc1/diffoscope-99.tar.gz
+[2023-05-05 21:10:24] INFO root fetch - processPackages [diffoscope]: executing diffoscope
+[2023-05-05 21:10:24] INFO root fetch - processPackages [diffoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffoscope-98.tar.gz tmp/diffoscope-99.tar.gz --markdown 20230505/d/diffoscope/98-99/diff.md --exclude *.pyd
+[2023-05-05 21:10:29] INFO root fetch - main [MainThread]: End processing [diffoscope]: success
+[2023-05-05 21:10:29] INFO root fetch - main [MainThread]: Store serial: [17991768]
