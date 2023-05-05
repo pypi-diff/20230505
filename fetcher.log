@@ -4401,3 +4401,33 @@
 [2023-05-05 03:24:47] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte]: success
 [2023-05-05 03:25:27] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-05-05 03:25:27] INFO root fetch - main [MainThread]: Store serial: [17980851]
+[2023-05-05 03:30:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17980851]
+[2023-05-05 03:30:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-05 03:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-wordpress
+[2023-05-05 03:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dev-gpt
+[2023-05-05 03:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carchive
+[2023-05-05 03:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-wget
+[2023-05-05 03:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-organizations
+[2023-05-05 03:30:37] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.37.dev52] Old Version: [0.18.37.dev51]
+[2023-05-05 03:30:37] INFO root fetch - processPackages [carchive]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-05-05 03:30:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-05 03:30:37] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 03:30:37] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-05 03:30:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-05 03:30:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230505/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-05 03:30:37] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/1b/dc/4cb3e1ff22baa21710c2b9cf9e3c1efa44b9e0738b03932da670cc4f4603/dev-gpt-0.18.37.dev52.tar.gz
+[2023-05-05 03:30:37] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/14/37/c027978fd87baf92e3c88ff74cc8feb524701134c9970f2e250d2ed4b3aa/carchive-0.0.39.tar.gz
+[2023-05-05 03:30:38] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-05 03:30:38] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.38.tar.gz tmp/carchive-0.0.39.tar.gz --markdown 20230505/c/carchive/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-05-05 03:30:38] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-05 03:30:38] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.37.dev51.tar.gz tmp/dev-gpt-0.18.37.dev52.tar.gz --markdown 20230505/d/dev-gpt/0.18.37.dev51-0.18.37.dev52/diff.md --exclude *.pyd
+[2023-05-05 03:30:38] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-05 03:30:38] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230505/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-05 03:30:38] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-05-05 03:30:38] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230505/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 03:30:38] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-05 03:30:39] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-05 03:30:39] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-05 03:30:39] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-05-05 03:30:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-05 03:30:39] INFO root fetch - main [MainThread]: Store serial: [17981087]
