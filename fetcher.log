@@ -21561,3 +21561,80 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-05 21:15:43] INFO root fetch - main [MainThread]: End processing [mango-cli]: success
 [2023-05-05 21:15:43] INFO root fetch - main [MainThread]: End processing [hyp3-sdk]: success
 [2023-05-05 21:15:43] INFO root fetch - main [MainThread]: Store serial: [17991859]
+[2023-05-05 21:20:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17991859]
+[2023-05-05 21:20:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 21:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchness
+[2023-05-05 21:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-monitor-opentelemetry
+[2023-05-05 21:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt4all
+[2023-05-05 21:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: html2info
+[2023-05-05 21:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: domolibrary
+[2023-05-05 21:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CSV-to-JSON-Python
+[2023-05-05 21:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mango-pycore
+[2023-05-05 21:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ompr
+[2023-05-05 21:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: matlabengine
+[2023-05-05 21:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RobloxPyApi3
+[2023-05-05 21:20:53] INFO root fetch - processPackages [torchness]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-05 21:20:53] INFO root fetch - processPackages [html2info]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 21:20:53] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 21:20:53] WARNING root fetch - processPackages [CSV-to-JSON-Python]: Skipping, unable to determine old version
+[2023-05-05 21:20:53] INFO root fetch - processPackages [CSV-to-JSON-Python]: Start processing: mango-pycore
+[2023-05-05 21:20:53] INFO root fetch - main [MainThread]: End processing [CSV-to-JSON-Python] error
+[2023-05-05 21:20:53] INFO root fetch - processPackages [mango-pycore]: New version: [0.1.8] Old Version: [0.1.7a0]
+[2023-05-05 21:20:53] INFO root fetch - processPackages [azure-monitor-opentelemetry]: New version: [1.0.0b9] Old Version: [1.0.0b12]
+[2023-05-05 21:20:53] INFO root fetch - processPackages [matlabengine]: New version: [9.9.4] Old Version: [9.9.1]
+[2023-05-05 21:20:53] INFO root fetch - processPackages [RobloxPyApi3]: New version: [2.0.63332] Old Version: [2.0.6311]
+[2023-05-05 21:20:53] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/8a/e3/10ea1a81e8501cc98b85babdd49498b52acee344f1f7c71d9ba312d1f67c/mango_pycore-0.1.7a0.tar.gz
+[2023-05-05 21:20:53] INFO root fetch - processPackages [gpt4all]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-05 21:20:53] INFO root fetch - processPackages [ompr]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-05 21:20:53] INFO root fetch - processPackages [mango-pycore]: New version: [0.1.8a0] Old Version: [0.1.8]
+[2023-05-05 21:20:53] INFO root fetch - processPackages [azure-monitor-opentelemetry]: Downloading https://files.pythonhosted.org/packages/ea/1e/17fb8c80335d4ddcea2e4dfdec187d66ba7857f037c3cec0cfc0cfe3b82c/azure-monitor-opentelemetry-1.0.0b12.tar.gz
+[2023-05-05 21:20:53] INFO root fetch - processPackages [torchness]: Downloading https://files.pythonhosted.org/packages/33/28/728ada20a7bae1db58d112a1be09fd6e9ae665c2a0fd668fa3363d278eb5/torchness-1.0.3.tar.gz
+[2023-05-05 21:20:53] INFO root fetch - processPackages [matlabengine]: Downloading https://files.pythonhosted.org/packages/b1/6c/54cd93d8ba111737e1d496bdf57a8b32a415adf0be5877b44e76bc526b80/matlabengine-9.9.4.tar.gz
+[2023-05-05 21:20:54] INFO root fetch - processPackages [RobloxPyApi3]: Downloading https://files.pythonhosted.org/packages/40/26/8f5c68f0c79bf61df9014481261fd6e87b7d6911d3d87c5e1118d55cf38d/RobloxPyApi3-2.0.63332.tar.gz
+[2023-05-05 21:20:54] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/4d/60/67dd794c244483fde4abdaa6b4b30332e9a64dc7df210017dfbd37a5d941/mango_pycore-0.1.8.tar.gz
+[2023-05-05 21:20:54] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/4d/60/67dd794c244483fde4abdaa6b4b30332e9a64dc7df210017dfbd37a5d941/mango_pycore-0.1.8.tar.gz
+[2023-05-05 21:20:54] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-05 21:20:54] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230505/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 21:20:54] INFO root fetch - processPackages [ompr]: Downloading https://files.pythonhosted.org/packages/e8/44/21b42ae56e1c1dfe6cc3660d5d99530c3c4199f23e05248537e73e858c91/ompr-1.2.0.tar.gz
+[2023-05-05 21:20:54] INFO root fetch - processPackages [html2info]: Downloading https://files.pythonhosted.org/packages/95/b9/c7e7ae68e08f09163e8112d1e4ff706ce18009197270cab7d8e2206dda3e/html2info-0.1.9.tar.gz
+[2023-05-05 21:20:54] INFO root fetch - processPackages [mango-pycore]: executing diffoscope
+[2023-05-05 21:20:54] INFO root fetch - processPackages [mango-pycore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_pycore-0.1.7a0.tar.gz tmp/mango_pycore-0.1.8.tar.gz --markdown 20230505/m/mango-pycore/0.1.7a0-0.1.8/diff.md --exclude *.pyd
+[2023-05-05 21:20:54] INFO root fetch - processPackages [gpt4all]: Downloading https://files.pythonhosted.org/packages/61/a2/9f0448e90545ed04173a25eecf592cfd92556d50ace6d8ed4a7797a91af1/gpt4all-0.1.6-py3-none-any.whl
+[2023-05-05 21:20:54] INFO root fetch - processPackages [html2info]: executing diffoscope
+[2023-05-05 21:20:54] INFO root fetch - processPackages [html2info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html2info-0.1.8.tar.gz tmp/html2info-0.1.9.tar.gz --markdown 20230505/h/html2info/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 21:20:54] INFO root fetch - processPackages [torchness]: Downloading https://files.pythonhosted.org/packages/82/99/b80b2f1ffe502995689d34837f17b8bd12c8f81ae41ca4871109d04a2d7a/torchness-1.0.4.tar.gz
+[2023-05-05 21:20:54] INFO root fetch - processPackages [RobloxPyApi3]: executing diffoscope
+[2023-05-05 21:20:54] INFO root fetch - processPackages [RobloxPyApi3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobloxPyApi3-2.0.6311.tar.gz tmp/RobloxPyApi3-2.0.63332.tar.gz --markdown 20230505/R/RobloxPyApi3/2.0.6311-2.0.63332/diff.md --exclude *.pyd
+[2023-05-05 21:20:54] INFO root fetch - processPackages [matlabengine]: executing diffoscope
+[2023-05-05 21:20:54] INFO root fetch - processPackages [matlabengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matlabengine-9.9.1.tar.gz tmp/matlabengine-9.9.4.tar.gz --markdown 20230505/m/matlabengine/9.9.1-9.9.4/diff.md --exclude *.pyd
+[2023-05-05 21:20:54] INFO root fetch - processPackages [azure-monitor-opentelemetry]: Downloading https://files.pythonhosted.org/packages/c1/0b/cbd2b660d5bf2ced406a4e5913fac5e068f7940577041df1d851b8dcdf59/azure-monitor-opentelemetry-1.0.0b9.tar.gz
+[2023-05-05 21:20:54] INFO root fetch - processPackages [gpt4all]: executing diffoscope
+[2023-05-05 21:20:54] INFO root fetch - processPackages [gpt4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-0.1.5.tar.gz tmp/gpt4all-0.1.6-py3-none-any.whl.zip --markdown 20230505/g/gpt4all/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-05 21:20:54] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/dd/2e/14c38e4e5d34f2b3bf8390eba2f36cf232f84cc4d17c7dd53d504489fd94/mango_pycore-0.1.8a0.tar.gz
+[2023-05-05 21:20:54] INFO root fetch - processPackages [azure-monitor-opentelemetry]: executing diffoscope
+[2023-05-05 21:20:54] INFO root fetch - processPackages [azure-monitor-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-monitor-opentelemetry-1.0.0b12.tar.gz tmp/azure-monitor-opentelemetry-1.0.0b9.tar.gz --markdown 20230505/a/azure-monitor-opentelemetry/1.0.0b12-1.0.0b9/diff.md --exclude *.pyd
+[2023-05-05 21:20:54] INFO root fetch - processPackages [torchness]: executing diffoscope
+[2023-05-05 21:20:54] INFO root fetch - processPackages [torchness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchness-1.0.3.tar.gz tmp/torchness-1.0.4.tar.gz --markdown 20230505/t/torchness/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-05 21:20:54] INFO root fetch - processPackages [ompr]: Downloading https://files.pythonhosted.org/packages/e4/71/4be3f84680db2650f5ac475246381393cb70876d0bdc3e220187e1a89389/ompr-1.2.1.tar.gz
+[2023-05-05 21:20:54] INFO root fetch - processPackages [ompr]: executing diffoscope
+[2023-05-05 21:20:54] INFO root fetch - processPackages [ompr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ompr-1.2.0.tar.gz tmp/ompr-1.2.1.tar.gz --markdown 20230505/o/ompr/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-05 21:20:54] INFO root fetch - processPackages [mango-pycore]: executing diffoscope
+[2023-05-05 21:20:54] INFO root fetch - processPackages [mango-pycore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_pycore-0.1.8.tar.gz tmp/mango_pycore-0.1.8a0.tar.gz --markdown 20230505/m/mango-pycore/0.1.8-0.1.8a0/diff.md --exclude *.pyd
+[2023-05-05 21:20:55] INFO root fetch - processPackages [html2info]: Start processing: pypaq
+[2023-05-05 21:20:55] INFO root fetch - main [MainThread]: End processing [html2info]: success
+[2023-05-05 21:20:55] INFO root fetch - main [MainThread]: End processing [mango-pycore]: success
+[2023-05-05 21:20:55] INFO root fetch - processPackages [pypaq]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-05 21:20:55] INFO root fetch - main [MainThread]: End processing [gpt4all]: success
+[2023-05-05 21:20:55] INFO root fetch - processPackages [pypaq]: Downloading https://files.pythonhosted.org/packages/5d/2b/5cb958bfd817b1b6a0b97b0d4aa701517b6ea8ebf6f585a87b7884f745cf/pypaq-1.1.3.tar.gz
+[2023-05-05 21:20:55] INFO root fetch - main [MainThread]: End processing [azure-monitor-opentelemetry]: success
+[2023-05-05 21:20:56] INFO root fetch - main [MainThread]: End processing [ompr]: success
+[2023-05-05 21:20:56] INFO root fetch - main [MainThread]: End processing [mango-pycore]: success
+[2023-05-05 21:20:56] INFO root fetch - processPackages [pypaq]: Downloading https://files.pythonhosted.org/packages/b1/4c/c14b008f5fe70769aee89bdf37c5c6a38267f7c56d0635c550dc43e06064/pypaq-1.1.4.tar.gz
+[2023-05-05 21:20:56] INFO root fetch - main [MainThread]: End processing [matlabengine]: success
+[2023-05-05 21:20:56] INFO root fetch - processPackages [pypaq]: executing diffoscope
+[2023-05-05 21:20:56] INFO root fetch - processPackages [pypaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypaq-1.1.3.tar.gz tmp/pypaq-1.1.4.tar.gz --markdown 20230505/p/pypaq/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-05 21:20:56] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-05 21:20:56] INFO root fetch - main [MainThread]: End processing [torchness]: success
+[2023-05-05 21:20:56] INFO root fetch - main [MainThread]: End processing [RobloxPyApi3]: success
+[2023-05-05 21:20:57] INFO root fetch - main [MainThread]: End processing [pypaq]: success
+[2023-05-05 21:20:57] INFO root fetch - main [MainThread]: Store serial: [17991904]
