@@ -5750,3 +5750,49 @@
 [2023-05-05 06:17:19] INFO root fetch - main [MainThread]: End processing [granola-py]: success
 [2023-05-05 06:17:21] INFO root fetch - main [MainThread]: End processing [openai-game-translator]: success
 [2023-05-05 06:17:21] INFO root fetch - main [MainThread]: Store serial: [17981851]
+[2023-05-05 06:22:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981851]
+[2023-05-05 06:22:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-05 06:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-ket
+[2023-05-05 06:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mnfinder
+[2023-05-05 06:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datoso-seed-sfc-enhancedcolors
+[2023-05-05 06:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datoso-plugin-internetarchive
+[2023-05-05 06:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NikeCA
+[2023-05-05 06:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bcsfe-bot
+[2023-05-05 06:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: realnet
+[2023-05-05 06:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: authanor
+[2023-05-05 06:22:30] WARNING root fetch - processPackages [datoso-seed-sfc-enhancedcolors]: Skipping, unable to determine old version
+[2023-05-05 06:22:30] INFO root fetch - main [MainThread]: End processing [datoso-seed-sfc-enhancedcolors] error
+[2023-05-05 06:22:30] INFO root fetch - processPackages [mnfinder]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 06:22:30] INFO root fetch - processPackages [realnet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 06:22:30] INFO root fetch - processPackages [aws-ket]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 06:22:30] INFO root fetch - processPackages [NikeCA]: New version: [0.1.91] Old Version: [0.1.90]
+[2023-05-05 06:22:30] WARNING root fetch - processPackages [bcsfe-bot]: Skipping, unable to determine old version
+[2023-05-05 06:22:30] INFO root fetch - main [MainThread]: End processing [bcsfe-bot] error
+[2023-05-05 06:22:30] INFO root fetch - processPackages [datoso-plugin-internetarchive]: New version: [0.2.3] Old Version: [0.2.0]
+[2023-05-05 06:22:30] INFO root fetch - processPackages [authanor]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-05 06:22:30] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-05-05 06:22:30] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.98.tar.gz tmp/realnet-0.0.99.tar.gz --markdown 20230505/r/realnet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 06:22:30] INFO root fetch - processPackages [mnfinder]: Downloading https://files.pythonhosted.org/packages/4d/cf/dc6db82939c37a243560fbd7a3642f82f0f06793782ae083d20b668ce324/mnfinder-0.1.4.tar.gz
+[2023-05-05 06:22:30] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/0c/78/1d2e48235fa3fad5ed4c447e6c93ce1fbf9241987ffb0b500242013d5800/NikeCA-0.1.91.tar.gz
+[2023-05-05 06:22:30] INFO root fetch - processPackages [aws-ket]: Downloading https://files.pythonhosted.org/packages/fe/8f/0376dad3e1d1c3d316feeba79eff15b71632b4251286cb54c3a018a03c94/aws-ket-0.1.4.tar.gz
+[2023-05-05 06:22:30] INFO root fetch - processPackages [datoso-plugin-internetarchive]: Downloading https://files.pythonhosted.org/packages/a9/37/940bbd18e00f5fb4836a2c0fadc22968c9e92db140fed5e7681443f33624/datoso_plugin_internetarchive-0.2.0.tar.gz
+[2023-05-05 06:22:30] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-05-05 06:22:30] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.90.tar.gz tmp/NikeCA-0.1.91.tar.gz --markdown 20230505/N/NikeCA/0.1.90-0.1.91/diff.md --exclude *.pyd
+[2023-05-05 06:22:30] INFO root fetch - processPackages [authanor]: Downloading https://files.pythonhosted.org/packages/b9/46/29d0337ccc8635e8810dbea8883af4ba105275ea3b151461b5a480d40c9a/authanor-0.1.0.tar.gz
+[2023-05-05 06:22:30] WARNING root fetch - processPackages [mnfinder]: Skipping package: exceeds size limit 33926966>=10485760
+[2023-05-05 06:22:30] INFO root fetch - main [MainThread]: End processing [mnfinder] error
+[2023-05-05 06:22:30] INFO root fetch - processPackages [aws-ket]: Downloading https://files.pythonhosted.org/packages/57/e7/457933829832dc45298e7caabe40464cb5ab61dfd0b565eb605b2afe88e7/aws-ket-0.1.5.tar.gz
+[2023-05-05 06:22:30] INFO root fetch - processPackages [datoso-plugin-internetarchive]: Downloading https://files.pythonhosted.org/packages/de/f0/bcb9c8ae6389b53bc5db078be84fb7b407b9d5017c832d9fa22c85d95757/datoso_plugin_internetarchive-0.2.3.tar.gz
+[2023-05-05 06:22:30] INFO root fetch - processPackages [aws-ket]: executing diffoscope
+[2023-05-05 06:22:30] INFO root fetch - processPackages [aws-ket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-ket-0.1.4.tar.gz tmp/aws-ket-0.1.5.tar.gz --markdown 20230505/a/aws-ket/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 06:22:30] INFO root fetch - processPackages [datoso-plugin-internetarchive]: executing diffoscope
+[2023-05-05 06:22:30] INFO root fetch - processPackages [datoso-plugin-internetarchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_plugin_internetarchive-0.2.0.tar.gz tmp/datoso_plugin_internetarchive-0.2.3.tar.gz --markdown 20230505/d/datoso-plugin-internetarchive/0.2.0-0.2.3/diff.md --exclude *.pyd
+[2023-05-05 06:22:30] INFO root fetch - processPackages [authanor]: Downloading https://files.pythonhosted.org/packages/dd/59/cead485b66435eda00bd3034376ce9572cac91984f98fbb4da30d9db1cd3/authanor-0.2.0.tar.gz
+[2023-05-05 06:22:30] INFO root fetch - processPackages [authanor]: executing diffoscope
+[2023-05-05 06:22:30] INFO root fetch - processPackages [authanor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authanor-0.1.0.tar.gz tmp/authanor-0.2.0.tar.gz --markdown 20230505/a/authanor/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 06:22:31] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-05-05 06:22:31] INFO root fetch - main [MainThread]: End processing [datoso-plugin-internetarchive]: success
+[2023-05-05 06:22:31] INFO root fetch - main [MainThread]: End processing [aws-ket]: success
+[2023-05-05 06:22:32] INFO root fetch - main [MainThread]: End processing [authanor]: success
+[2023-05-05 06:22:33] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-05-05 06:22:33] INFO root fetch - main [MainThread]: Store serial: [17981878]
