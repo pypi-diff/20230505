@@ -7080,3 +7080,78 @@
 [2023-05-05 08:13:34] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
 [2023-05-05 08:13:36] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-05 08:13:36] INFO root fetch - main [MainThread]: Store serial: [17982701]
+[2023-05-05 08:18:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982701]
+[2023-05-05 08:18:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 08:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-mailgun
+[2023-05-05 08:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiomodelz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-akamai
+[2023-05-05 08:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-minio
+[2023-05-05 08:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Seq2SeqSharp
+[2023-05-05 08:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiomodelz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: IAS-ur5
+[2023-05-05 08:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-future-tasks
+[2023-05-05 08:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llama-index
+[2023-05-05 08:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-index
+[2023-05-05 08:18:47] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2023-05-05 08:18:47] INFO root fetch - processPackages [pulumi-akamai]: New version: [4.5.0a1683263893] Old Version: [4.5.0a1683051806]
+[2023-05-05 08:18:47] WARNING root fetch - processPackages [django-future-tasks]: Skipping, unable to determine old version
+[2023-05-05 08:18:47] INFO root fetch - processPackages [django-future-tasks]: Start processing: pulumi-artifactory
+[2023-05-05 08:18:47] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.5.0a1683265701] Old Version: [3.5.0a1681933101]
+[2023-05-05 08:18:47] INFO root fetch - main [MainThread]: End processing [django-future-tasks] error
+[2023-05-05 08:18:47] INFO root fetch - processPackages [aiomodelz]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-05 08:18:47] INFO root fetch - processPackages [aiomodelz]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-05 08:18:47] WARNING root fetch - processPackages [IAS-ur5]: Skipping, unable to determine old version
+[2023-05-05 08:18:47] INFO root fetch - processPackages [IAS-ur5]: Start processing: Seq2SeqSharp
+[2023-05-05 08:18:47] INFO root fetch - main [MainThread]: End processing [IAS-ur5] error
+[2023-05-05 08:18:47] INFO root fetch - processPackages [Seq2SeqSharp]: New version: [2.7.5] Old Version: [2.7.4]
+[2023-05-05 08:18:47] INFO root fetch - processPackages [llama-index]: New version: [0.6.1] Old Version: [0.6.0a7]
+[2023-05-05 08:18:47] INFO root fetch - processPackages [Seq2SeqSharp]: New version: [2.7.5] Old Version: [2.7.4]
+[2023-05-05 08:18:47] INFO root fetch - processPackages [gpt-index]: New version: [0.6.1] Old Version: [0.6.0a7]
+[2023-05-05 08:18:47] INFO root fetch - processPackages [pulumi-artifactory]: New version: [3.5.0a1683263954] Old Version: [3.5.0a1683158775]
+[2023-05-05 08:18:47] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/38/b8/84fcbb72f47badc4c47108385ec76a80ec01eb55cc1f5b80ff47eaaf31f2/pulumi_mailgun-3.5.0a1681933101.tar.gz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [aiomodelz]: Downloading https://files.pythonhosted.org/packages/94/7b/2880909862fd0dc2523a709ba316e67d2cfeb6de8f4253aff38301d1a1bc/aiomodelz-0.4.6.tar.gz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [aiomodelz]: Downloading https://files.pythonhosted.org/packages/94/7b/2880909862fd0dc2523a709ba316e67d2cfeb6de8f4253aff38301d1a1bc/aiomodelz-0.4.6.tar.gz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/18/06/dcbe52f286f2310a60365d7cd4931c36823662fd5a597c7e6c0f80795954/pulumi_akamai-4.5.0a1683263893.tar.gz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/55/ca/2eebf607d73f9d5ddfe1ac1917124b1530184d81817bc12f60da3e840441/llama_index-0.6.1.tar.gz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [Seq2SeqSharp]: Downloading https://files.pythonhosted.org/packages/20/eb/9b17e304363506d7a11bb569303a1040a1534bc0e12074891e90e14fe64f/Seq2SeqSharp-2.7.4.tar.gz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [Seq2SeqSharp]: Downloading https://files.pythonhosted.org/packages/20/eb/9b17e304363506d7a11bb569303a1040a1534bc0e12074891e90e14fe64f/Seq2SeqSharp-2.7.4.tar.gz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/b6/a8/327093aa6443468db02de2f650c6e5de4b04617e7a5401a2befad35a73e8/gpt_index-0.6.1.tar.gz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-05-05 08:18:47] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.0a7.tar.gz tmp/llama_index-0.6.1.tar.gz --markdown 20230505/l/llama-index/0.6.0a7-0.6.1/diff.md --exclude *.pyd
+[2023-05-05 08:18:47] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-05-05 08:18:47] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-4.5.0a1683051806.tar.gz tmp/pulumi_akamai-4.5.0a1683263893.tar.gz --markdown 20230505/p/pulumi-akamai/4.5.0a1683051806-4.5.0a1683263893/diff.md --exclude *.pyd
+[2023-05-05 08:18:47] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/82/89/199d2cb5f16dd270aa8fc9dd6bae395c854f5109740181635eea764aecd4/pulumi_mailgun-3.5.0a1683265701.tar.gz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [aiomodelz]: Downloading https://files.pythonhosted.org/packages/f0/a7/0c46ebb97d08ced62a75ee3d9162241a6835fd36d41ac1366b5be7af69b5/aiomodelz-0.4.7.tar.gz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [aiomodelz]: Downloading https://files.pythonhosted.org/packages/f0/a7/0c46ebb97d08ced62a75ee3d9162241a6835fd36d41ac1366b5be7af69b5/aiomodelz-0.4.7.tar.gz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/e3/93/1b1bab094a80114ccc5bf2e6c0da80a2cfa62db3a1cf110cfbb621350b8a/pulumi_artifactory-3.5.0a1683263954.tar.gz
+[2023-05-05 08:18:47] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-05-05 08:18:47] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.0a7-py3-none-any.whl.zip tmp/gpt_index-0.6.1.tar.gz --markdown 20230505/g/gpt-index/0.6.0a7-0.6.1/diff.md --exclude *.pyd
+[2023-05-05 08:18:47] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2023-05-05 08:18:47] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.5.0a1681933101.tar.gz tmp/pulumi_mailgun-3.5.0a1683265701.tar.gz --markdown 20230505/p/pulumi-mailgun/3.5.0a1681933101-3.5.0a1683265701/diff.md --exclude *.pyd
+[2023-05-05 08:18:47] INFO root fetch - processPackages [aiomodelz]: executing diffoscope
+[2023-05-05 08:18:47] INFO root fetch - processPackages [aiomodelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomodelz-0.4.6.tar.gz tmp/aiomodelz-0.4.7.tar.gz --markdown 20230505/a/aiomodelz/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-05-05 08:18:47] INFO root fetch - processPackages [aiomodelz]: executing diffoscope
+[2023-05-05 08:18:47] INFO root fetch - processPackages [aiomodelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomodelz-0.4.6.tar.gz tmp/aiomodelz-0.4.7.tar.gz --markdown 20230505/a/aiomodelz/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-05-05 08:18:47] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2023-05-05 08:18:48] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2023-05-05 08:18:48] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-3.5.0a1683158775.tar.gz tmp/pulumi_artifactory-3.5.0a1683263954.tar.gz --markdown 20230505/p/pulumi-artifactory/3.5.0a1683158775-3.5.0a1683263954/diff.md --exclude *.pyd
+[2023-05-05 08:18:48] INFO root fetch - processPackages [Seq2SeqSharp]: Downloading https://files.pythonhosted.org/packages/16/f6/d362cacacb4b73ba65f27ad840822a904810db677b1ef3a9c9b9b5052b50/Seq2SeqSharp-2.7.5.tar.gz
+[2023-05-05 08:18:48] INFO root fetch - processPackages [Seq2SeqSharp]: Downloading https://files.pythonhosted.org/packages/16/f6/d362cacacb4b73ba65f27ad840822a904810db677b1ef3a9c9b9b5052b50/Seq2SeqSharp-2.7.5.tar.gz
+[2023-05-05 08:18:48] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2023-05-05 08:18:48] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20230505/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/diff.md --exclude *.pyd
+[2023-05-05 08:18:48] INFO root fetch - processPackages [Seq2SeqSharp]: executing diffoscope
+[2023-05-05 08:18:48] INFO root fetch - processPackages [Seq2SeqSharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Seq2SeqSharp-2.7.4.tar.gz tmp/Seq2SeqSharp-2.7.5.tar.gz --markdown 20230505/S/Seq2SeqSharp/2.7.4-2.7.5/diff.md --exclude *.pyd
+[2023-05-05 08:18:48] INFO root fetch - processPackages [Seq2SeqSharp]: executing diffoscope
+[2023-05-05 08:18:48] INFO root fetch - processPackages [Seq2SeqSharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Seq2SeqSharp-2.7.4.tar.gz tmp/Seq2SeqSharp-2.7.5.tar.gz --markdown 20230505/S/Seq2SeqSharp/2.7.4-2.7.5/diff.md --exclude *.pyd
+[2023-05-05 08:18:49] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2023-05-05 08:18:49] INFO root fetch - main [MainThread]: End processing [aiomodelz]: success
+[2023-05-05 08:18:49] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-05-05 08:18:49] INFO root fetch - main [MainThread]: End processing [aiomodelz]: success
+[2023-05-05 08:18:50] INFO root fetch - main [MainThread]: End processing [Seq2SeqSharp]: success
+[2023-05-05 08:18:50] INFO root fetch - main [MainThread]: End processing [Seq2SeqSharp]: success
+[2023-05-05 08:18:50] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-05-05 08:18:51] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2023-05-05 08:18:53] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2023-05-05 08:18:54] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-05-05 08:18:54] INFO root fetch - main [MainThread]: Store serial: [17982737]
