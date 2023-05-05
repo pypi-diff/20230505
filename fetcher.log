@@ -7448,3 +7448,96 @@
 [2023-05-05 08:34:46] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
 [2023-05-05 08:34:46] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
 [2023-05-05 08:34:46] INFO root fetch - main [MainThread]: Store serial: [17982917]
+[2023-05-05 08:39:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982917]
+[2023-05-05 08:39:56] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-05 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jina
+[2023-05-05 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-macos
+[2023-05-05 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpyt
+[2023-05-05 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VikyTest
+[2023-05-05 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rayvision-houdini
+[2023-05-05 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-imagesearch20210501
+[2023-05-05 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sarus
+[2023-05-05 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dagknows
+[2023-05-05 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-05-05 08:39:56] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230505.6.35.992484] Old Version: [20230502.14.58.849574]
+[2023-05-05 08:39:56] INFO root fetch - processPackages [gpyt]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-05 08:39:56] INFO root fetch - processPackages [dagknows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 08:39:56] INFO root fetch - processPackages [VikyTest]: New version: [5.0] Old Version: [4.0]
+[2023-05-05 08:39:56] INFO root fetch - processPackages [rayvision-houdini]: New version: [1.4.5] Old Version: [1.4.2]
+[2023-05-05 08:39:56] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 08:39:56] INFO root fetch - processPackages [alibabacloud-imagesearch20210501]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-05 08:39:56] INFO root fetch - processPackages [sarus]: New version: [0.6.0.dev0] Old Version: [0.6.0]
+[2023-05-05 08:39:56] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230504] Old Version: [2.14.0.dev20230503]
+[2023-05-05 08:39:56] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-05 08:39:56] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/f8/4e/e5dad39c6d7a9d62085e55ecf78018cdae42e489e7714bd1c947ea0c45e1/certora-cli-alpha-rahav-cert-1987_update_regTest-20230502.14.58.849574.tar.gz
+[2023-05-05 08:39:56] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/34/15/ce51369f1364ece4fee94527526a69e4915c45582fcb3f14d717817d0cfc/sarus-0.6.0.tar.gz
+[2023-05-05 08:39:56] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/11/16/ae771187fe387dd0bfb36250a5377737e95a167825abf80e697d22744e6d/tf_nightly_macos-2.14.0.dev20230503-cp39-cp39-macosx_12_0_arm64.whl
+[2023-05-05 08:39:56] INFO root fetch - processPackages [VikyTest]: Downloading https://files.pythonhosted.org/packages/d4/6c/52ee9251f4216eb573d06ce145ecaa0d8e5bf731c4c991df009a8641bd1a/VikyTest-5.0.tar.gz
+[2023-05-05 08:39:56] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/de/a0/5d0af6d89a2c23444ae609a054c08a29d7641fc54acaf60d73a7d01fe4c2/alibabacloud_btripopen20220520_py2-1.0.8.tar.gz
+[2023-05-05 08:39:56] INFO root fetch - processPackages [rayvision-houdini]: Downloading https://files.pythonhosted.org/packages/fb/af/f57ff540e1542c02c995e8d548cecd7094750fc8db2cc6d8710dd18c8200/rayvision_houdini-1.4.2.tar.gz
+[2023-05-05 08:39:56] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-05 08:39:56] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230505/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-05 08:39:56] INFO root fetch - processPackages [alibabacloud-imagesearch20210501]: Downloading https://files.pythonhosted.org/packages/ee/96/238d0ba35e6d7d42b61b05392cc94b0a46e8a11799de35ab0b3dcd9427c9/alibabacloud_imagesearch20210501-1.2.2.tar.gz
+[2023-05-05 08:39:56] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/7f/d3/b17aac5e24d33b266c17f2b984cbf3b796885c37c9c4d83f5686d0710a85/gpyt-0.2.8.tar.gz
+[2023-05-05 08:39:57] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 189384817>=10485760
+[2023-05-05 08:39:57] INFO root fetch - processPackages [tf-nightly-macos]: Start processing: ffmpeg-progress-yield
+[2023-05-05 08:39:57] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-05-05 08:39:57] INFO root fetch - processPackages [ffmpeg-progress-yield]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-05 08:39:57] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38364500>=10485760
+[2023-05-05 08:39:57] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Start processing: pyfa-converter
+[2023-05-05 08:39:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-05 08:39:57] INFO root fetch - processPackages [pyfa-converter]: New version: [1.0.4.1] Old Version: [1.0.4.0a0]
+[2023-05-05 08:39:57] INFO root fetch - processPackages [dagknows]: executing diffoscope
+[2023-05-05 08:39:57] INFO root fetch - processPackages [dagknows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagknows-0.0.8-py3-none-any.whl.zip tmp/dagknows-0.0.9-py3-none-any.whl.zip --markdown 20230505/d/dagknows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 08:39:57] INFO root fetch - processPackages [VikyTest]: executing diffoscope
+[2023-05-05 08:39:57] INFO root fetch - processPackages [VikyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VikyTest-4.0.tar.gz tmp/VikyTest-5.0.tar.gz --markdown 20230505/V/VikyTest/4.0-5.0/diff.md --exclude *.pyd
+[2023-05-05 08:39:57] INFO root fetch - processPackages [sarus]: executing diffoscope
+[2023-05-05 08:39:57] INFO root fetch - processPackages [sarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus-0.6.0.tar.gz tmp/sarus-0.6.0.dev0.tar.gz --markdown 20230505/s/sarus/0.6.0-0.6.0.dev0/diff.md --exclude *.pyd
+[2023-05-05 08:39:57] INFO root fetch - processPackages [gpyt]: executing diffoscope
+[2023-05-05 08:39:57] INFO root fetch - processPackages [gpyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpyt-0.2.7.tar.gz tmp/gpyt-0.2.8.tar.gz --markdown 20230505/g/gpyt/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-05 08:39:57] INFO root fetch - processPackages [ffmpeg-progress-yield]: Downloading https://files.pythonhosted.org/packages/76/54/a82d8be874fd756540e3cdd790a6564ef828bf98193b5108dab0b89c71d2/ffmpeg-progress-yield-0.7.2.tar.gz
+[2023-05-05 08:39:57] INFO root fetch - processPackages [pyfa-converter]: Downloading https://files.pythonhosted.org/packages/54/b4/342dc60d6c30ba30343d5724c066ce2eb4be8223da97d140c5b157def69a/pyfa_converter-1.0.4.0a0.tar.gz
+[2023-05-05 08:39:57] INFO root fetch - processPackages [alibabacloud-imagesearch20210501]: Downloading https://files.pythonhosted.org/packages/fb/c6/375693c72e1fa5a1af921149c62aa811eb369a70d1cae4af195e8d8672be/alibabacloud_imagesearch20210501-1.2.3.tar.gz
+[2023-05-05 08:39:57] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/e4/c7/d4efe3620d3319b87755842b6ed1925259fd25ba21cce7089faa20c24d4b/alibabacloud_btripopen20220520_py2-1.0.9.tar.gz
+[2023-05-05 08:39:57] INFO root fetch - processPackages [alibabacloud-imagesearch20210501]: executing diffoscope
+[2023-05-05 08:39:57] INFO root fetch - processPackages [alibabacloud-imagesearch20210501]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_imagesearch20210501-1.2.2.tar.gz tmp/alibabacloud_imagesearch20210501-1.2.3.tar.gz --markdown 20230505/a/alibabacloud-imagesearch20210501/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-05 08:39:57] INFO root fetch - processPackages [pyfa-converter]: Downloading https://files.pythonhosted.org/packages/c0/65/3f9bdbde45386aa8c56845f6c4820c3db67d4be50c0eafaee7870cf5b0cd/pyfa_converter-1.0.4.1.tar.gz
+[2023-05-05 08:39:57] INFO root fetch - processPackages [ffmpeg-progress-yield]: Downloading https://files.pythonhosted.org/packages/e1/18/50d4d68618a24fa4803094c0701cdc943f2e26dfb3d9d72a82a59174862d/ffmpeg-progress-yield-0.7.3.tar.gz
+[2023-05-05 08:39:57] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-05-05 08:39:57] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.0.9.tar.gz --markdown 20230505/a/alibabacloud-btripopen20220520-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 08:39:57] INFO root fetch - processPackages [ffmpeg-progress-yield]: executing diffoscope
+[2023-05-05 08:39:57] INFO root fetch - processPackages [ffmpeg-progress-yield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg-progress-yield-0.7.2.tar.gz tmp/ffmpeg-progress-yield-0.7.3.tar.gz --markdown 20230505/f/ffmpeg-progress-yield/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-05 08:39:57] INFO root fetch - processPackages [pyfa-converter]: executing diffoscope
+[2023-05-05 08:39:57] INFO root fetch - processPackages [pyfa-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfa_converter-1.0.4.0a0.tar.gz tmp/pyfa_converter-1.0.4.1.tar.gz --markdown 20230505/p/pyfa-converter/1.0.4.0a0-1.0.4.1/diff.md --exclude *.pyd
+[2023-05-05 08:39:57] INFO root fetch - processPackages [rayvision-houdini]: Downloading https://files.pythonhosted.org/packages/c3/73/542297ef4d55eec4fbf5fd260cd2468276797e115965365e22636af080df/rayvision_houdini-1.4.5.tar.gz
+[2023-05-05 08:39:58] INFO root fetch - processPackages [VikyTest]: Start processing: alirpa-pack
+[2023-05-05 08:39:58] INFO root fetch - main [MainThread]: End processing [VikyTest]: success
+[2023-05-05 08:39:58] INFO root fetch - processPackages [alirpa-pack]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-05-05 08:39:58] INFO root fetch - processPackages [dagknows]: Start processing: alibabacloud-btripopen20220520
+[2023-05-05 08:39:58] INFO root fetch - main [MainThread]: End processing [dagknows]: success
+[2023-05-05 08:39:58] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 08:39:58] INFO root fetch - processPackages [gpyt]: Start processing: scrapetron
+[2023-05-05 08:39:58] INFO root fetch - main [MainThread]: End processing [gpyt]: success
+[2023-05-05 08:39:58] INFO root fetch - processPackages [rayvision-houdini]: executing diffoscope
+[2023-05-05 08:39:58] INFO root fetch - processPackages [rayvision-houdini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayvision_houdini-1.4.2.tar.gz tmp/rayvision_houdini-1.4.5.tar.gz --markdown 20230505/r/rayvision-houdini/1.4.2-1.4.5/diff.md --exclude *.pyd
+[2023-05-05 08:39:58] INFO root fetch - processPackages [alirpa-pack]: Downloading https://files.pythonhosted.org/packages/64/ea/7ad8bf6449b7bb4f157704e314194d369f7600d953b39ceca3b756c87da7/alirpa_pack-3.0.2.tar.gz
+[2023-05-05 08:39:58] WARNING root fetch - processPackages [scrapetron]: Skipping, unable to determine old version
+[2023-05-05 08:39:58] INFO root fetch - main [MainThread]: End processing [scrapetron] error
+[2023-05-05 08:39:58] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/22/db/55856f6d8870724d595ac9e131b5fb49d5acd414a50bd7142cebbc660f9d/alibabacloud_btripopen20220520-1.0.8.tar.gz
+[2023-05-05 08:39:58] INFO root fetch - processPackages [alirpa-pack]: Downloading https://files.pythonhosted.org/packages/ad/5f/e8209e4a6c277177d4bd3ea8145a7994ab0ee34b74483278f557c9ff3d3f/alirpa_pack-3.0.3.tar.gz
+[2023-05-05 08:39:58] INFO root fetch - main [MainThread]: End processing [pyfa-converter]: success
+[2023-05-05 08:39:59] INFO root fetch - processPackages [alirpa-pack]: executing diffoscope
+[2023-05-05 08:39:59] INFO root fetch - processPackages [alirpa-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alirpa_pack-3.0.2.tar.gz tmp/alirpa_pack-3.0.3.tar.gz --markdown 20230505/a/alirpa-pack/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-05-05 08:39:59] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/9a/a2/11400c6b9d370d1b31aa09ba794773931b464f71096c6677a22ccfacd119/alibabacloud_btripopen20220520-1.0.9.tar.gz
+[2023-05-05 08:39:59] INFO root fetch - main [MainThread]: End processing [alibabacloud-imagesearch20210501]: success
+[2023-05-05 08:39:59] INFO root fetch - main [MainThread]: End processing [ffmpeg-progress-yield]: success
+[2023-05-05 08:39:59] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-05-05 08:39:59] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520-1.0.9.tar.gz --markdown 20230505/a/alibabacloud-btripopen20220520/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 08:39:59] INFO root fetch - main [MainThread]: End processing [sarus]: success
+[2023-05-05 08:40:00] INFO root fetch - main [MainThread]: End processing [alirpa-pack]: success
+[2023-05-05 08:40:00] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-05 08:40:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-05-05 08:40:00] INFO root fetch - main [MainThread]: End processing [rayvision-houdini]: success
+[2023-05-05 08:40:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-05-05 08:40:00] INFO root fetch - main [MainThread]: Store serial: [17982963]
