@@ -11565,3 +11565,119 @@
 [2023-05-05 12:14:26] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-05-05 12:15:07] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-05-05 12:15:07] INFO root fetch - main [MainThread]: Store serial: [17985301]
+[2023-05-05 12:20:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17985301]
+[2023-05-05 12:20:19] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-05 12:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-05 12:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aib-logging
+[2023-05-05 12:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zzlib
+[2023-05-05 12:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyytlounge
+[2023-05-05 12:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: automlgpt
+[2023-05-05 12:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proteus-cli
+[2023-05-05 12:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: editanything
+[2023-05-05 12:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dve-lumipy-preview
+[2023-05-05 12:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: monopay
+[2023-05-05 12:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: semisup-segmentation
+[2023-05-05 12:20:19] INFO root fetch - processPackages [monopay]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 12:20:19] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230505.6.35.992484] Old Version: [20230505.10.13.773040]
+[2023-05-05 12:20:19] INFO root fetch - processPackages [pyytlounge]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-05-05 12:20:19] WARNING root fetch - processPackages [editanything]: Skipping, unable to determine old version
+[2023-05-05 12:20:19] INFO root fetch - processPackages [editanything]: Start processing: magicsoup
+[2023-05-05 12:20:19] WARNING root fetch - processPackages [automlgpt]: Skipping, unable to determine old version
+[2023-05-05 12:20:19] INFO root fetch - main [MainThread]: End processing [editanything] error
+[2023-05-05 12:20:19] INFO root fetch - processPackages [automlgpt]: Start processing: pyroporn
+[2023-05-05 12:20:19] INFO root fetch - main [MainThread]: End processing [automlgpt] error
+[2023-05-05 12:20:19] INFO root fetch - processPackages [proteus-cli]: New version: [0.2.25] Old Version: [0.2.23]
+[2023-05-05 12:20:19] INFO root fetch - processPackages [zzlib]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 12:20:19] INFO root fetch - processPackages [aib-logging]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-05 12:20:19] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 12:20:19] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-05 12:20:19] INFO root fetch - processPackages [magicsoup]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-05 12:20:19] INFO root fetch - processPackages [pyroporn]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 12:20:19] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-05 12:20:19] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230505/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 12:20:19] INFO root fetch - processPackages [magicsoup]: executing diffoscope
+[2023-05-05 12:20:19] INFO root fetch - processPackages [magicsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicsoup-0.3.8.tar.gz tmp/magicsoup-0.3.9.tar.gz --markdown 20230505/m/magicsoup/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-05 12:20:19] INFO root fetch - processPackages [aib-logging]: Downloading https://files.pythonhosted.org/packages/97/8a/f4c62e3dc5aa71e312c666c7b18d1128be871909114a737d297c7227f0b1/aib_logging-1.0.2.tar.gz
+[2023-05-05 12:20:19] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/bb/7e/bf6e3a09c78dedbdb1e7bf71d20e94c4308a0cc02ff9a1e54489ba12f961/certora-cli-alpha-rahav-cert-1987_update_regTest-20230505.10.13.773040.tar.gz
+[2023-05-05 12:20:19] INFO root fetch - processPackages [monopay]: Downloading https://files.pythonhosted.org/packages/85/33/a99b6e055d86da67f04c140ab33cd40afd620198adb243a057cf24fa8f4d/monopay-0.0.5.tar.gz
+[2023-05-05 12:20:19] INFO root fetch - processPackages [pyytlounge]: Downloading https://files.pythonhosted.org/packages/66/18/cd8a5a63cea0634795732c6f8711577a9863b29db773bd44215ffa4bc687/pyytlounge-1.4.3.tar.gz
+[2023-05-05 12:20:19] INFO root fetch - processPackages [zzlib]: Downloading https://files.pythonhosted.org/packages/9a/0f/2ffd034ea6931502dd6b9cc5e225f50d34031fe0f7c57cefa6ebfc94c586/zzlib-0.1.1.tar.gz
+[2023-05-05 12:20:19] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38472930>=10485760
+[2023-05-05 12:20:19] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Start processing: zimscraperlib
+[2023-05-05 12:20:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-05 12:20:19] INFO root fetch - processPackages [pyroporn]: Downloading https://files.pythonhosted.org/packages/2b/41/2faef0fffdab0f9d1c76468964e1cc241422c6e708b8aa7c18bfce27024c/pyroporn-0.0.9.tar.gz
+[2023-05-05 12:20:19] INFO root fetch - processPackages [zimscraperlib]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-05-05 12:20:19] INFO root fetch - processPackages [proteus-cli]: Downloading https://files.pythonhosted.org/packages/33/22/c2c92ac3c0a6b847fb8d35635f35780a0011a5b209f03953a04b221eef9e/proteus_cli-0.2.25.tar.gz
+[2023-05-05 12:20:20] INFO root fetch - processPackages [monopay]: executing diffoscope
+[2023-05-05 12:20:20] INFO root fetch - processPackages [monopay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monopay-0.0.4.tar.gz tmp/monopay-0.0.5.tar.gz --markdown 20230505/m/monopay/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 12:20:20] INFO root fetch - processPackages [aib-logging]: Downloading https://files.pythonhosted.org/packages/e3/d4/12bb2010ab94844ce9afaf744a78f68e0b471df4bfc94d26b91235ddf668/aib_logging-1.0.3.tar.gz
+[2023-05-05 12:20:20] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-05-05 12:20:20] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230505/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-05 12:20:20] INFO root fetch - processPackages [pyroporn]: executing diffoscope
+[2023-05-05 12:20:20] INFO root fetch - processPackages [pyroporn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroporn-0.0.8.tar.gz tmp/pyroporn-0.0.9.tar.gz --markdown 20230505/p/pyroporn/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 12:20:20] INFO root fetch - processPackages [proteus-cli]: executing diffoscope
+[2023-05-05 12:20:20] INFO root fetch - processPackages [proteus-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_cli-0.2.23.tar.gz tmp/proteus_cli-0.2.25.tar.gz --markdown 20230505/p/proteus-cli/0.2.23-0.2.25/diff.md --exclude *.pyd
+[2023-05-05 12:20:20] INFO root fetch - processPackages [zimscraperlib]: Downloading https://files.pythonhosted.org/packages/8b/84/6c0bab0ec473f91790a947e50139274dafef24f5e4b49aad3bb9c6ae571c/zimscraperlib-3.0.0.tar.gz
+[2023-05-05 12:20:20] INFO root fetch - processPackages [zzlib]: Downloading https://files.pythonhosted.org/packages/5c/c5/a79440cf67ea1ecf589edb8a72216b00e4fab14a9337d470b4148a5eef14/zzlib-0.1.2.tar.gz
+[2023-05-05 12:20:20] INFO root fetch - processPackages [pyytlounge]: Downloading https://files.pythonhosted.org/packages/a6/d5/f92d0029a33fcf3f0bdebe55574817cca73011e4a42f9bfb48a7a0afc479/pyytlounge-1.5.0.tar.gz
+[2023-05-05 12:20:20] INFO root fetch - processPackages [aib-logging]: executing diffoscope
+[2023-05-05 12:20:20] INFO root fetch - processPackages [aib-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aib_logging-1.0.2.tar.gz tmp/aib_logging-1.0.3.tar.gz --markdown 20230505/a/aib-logging/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-05 12:20:20] INFO root fetch - processPackages [zzlib]: executing diffoscope
+[2023-05-05 12:20:20] INFO root fetch - processPackages [zzlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zzlib-0.1.1.tar.gz tmp/zzlib-0.1.2.tar.gz --markdown 20230505/z/zzlib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 12:20:20] INFO root fetch - processPackages [pyytlounge]: executing diffoscope
+[2023-05-05 12:20:20] INFO root fetch - processPackages [pyytlounge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyytlounge-1.4.3.tar.gz tmp/pyytlounge-1.5.0.tar.gz --markdown 20230505/p/pyytlounge/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-05-05 12:20:20] INFO root fetch - processPackages [zimscraperlib]: Downloading https://files.pythonhosted.org/packages/67/b9/b8bac284d1aece0bf579f30ec0b15cd52836e186859f01864a62a8948d09/zimscraperlib-3.1.0.tar.gz
+[2023-05-05 12:20:20] INFO root fetch - processPackages [zimscraperlib]: executing diffoscope
+[2023-05-05 12:20:20] INFO root fetch - processPackages [zimscraperlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimscraperlib-3.0.0.tar.gz tmp/zimscraperlib-3.1.0.tar.gz --markdown 20230505/z/zimscraperlib/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-05-05 12:20:21] INFO root fetch - processPackages [semisup-segmentation]: Start processing: UzbekNLP
+[2023-05-05 12:20:21] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-05 12:20:21] INFO root fetch - processPackages [UzbekNLP]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 12:20:21] INFO root fetch - processPackages [UzbekNLP]: Downloading https://files.pythonhosted.org/packages/3d/31/c076d473c573226137fe4d71e4d8680b568f99cd568a11982460b00c5413/UzbekNLP-0.0.1.tar.gz
+[2023-05-05 12:20:21] INFO root fetch - processPackages [proteus-cli]: Start processing: OpenFisca-Core
+[2023-05-05 12:20:21] INFO root fetch - main [MainThread]: End processing [proteus-cli]: success
+[2023-05-05 12:20:21] INFO root fetch - processPackages [UzbekNLP]: Downloading https://files.pythonhosted.org/packages/8b/ee/df765e82e8cd17cdaaec3378aa62bec5748d3bfd379c6d1646f147ce450a/UzbekNLP-0.0.2.tar.gz
+[2023-05-05 12:20:21] INFO root fetch - processPackages [OpenFisca-Core]: New version: [9.1.0] Old Version: [9.0.2]
+[2023-05-05 12:20:21] INFO root fetch - processPackages [aib-logging]: Start processing: ftdz-from-fyh
+[2023-05-05 12:20:21] INFO root fetch - main [MainThread]: End processing [aib-logging]: success
+[2023-05-05 12:20:21] INFO root fetch - processPackages [UzbekNLP]: executing diffoscope
+[2023-05-05 12:20:21] INFO root fetch - processPackages [UzbekNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UzbekNLP-0.0.1.tar.gz tmp/UzbekNLP-0.0.2.tar.gz --markdown 20230505/U/UzbekNLP/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 12:20:21] INFO root fetch - processPackages [ftdz-from-fyh]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 12:20:21] INFO root fetch - processPackages [OpenFisca-Core]: Downloading https://files.pythonhosted.org/packages/e6/0b/a63085e3a4ecf0c1e5bd24630551ce0e0843787457ffac478fa371957b59/OpenFisca_Core-9.0.2-py2-none-any.whl
+[2023-05-05 12:20:21] INFO root fetch - processPackages [monopay]: Start processing: pyjpt
+[2023-05-05 12:20:21] INFO root fetch - main [MainThread]: End processing [monopay]: success
+[2023-05-05 12:20:21] INFO root fetch - processPackages [pyroporn]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-05-05 12:20:21] INFO root fetch - main [MainThread]: End processing [pyroporn]: success
+[2023-05-05 12:20:21] INFO root fetch - processPackages [pyjpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 12:20:21] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 12:20:21] INFO root fetch - processPackages [ftdz-from-fyh]: Downloading https://files.pythonhosted.org/packages/ef/a1/bc5b590515346e1e9599dada216e32ce23f2960801d27064a11f21524715/ftdz_from_fyh-1.0.0.tar.gz
+[2023-05-05 12:20:22] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-05-05 12:20:22] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.0.9.tar.gz --markdown 20230505/a/alibabacloud-btripopen20220520-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 12:20:22] INFO root fetch - processPackages [zimscraperlib]: Start processing: dynamic-qrcode-image
+[2023-05-05 12:20:22] INFO root fetch - main [MainThread]: End processing [zimscraperlib]: success
+[2023-05-05 12:20:22] WARNING root fetch - processPackages [dynamic-qrcode-image]: Skipping, unable to determine old version
+[2023-05-05 12:20:22] INFO root fetch - processPackages [dynamic-qrcode-image]: Start processing: alibabacloud-btripopen20220520
+[2023-05-05 12:20:22] INFO root fetch - main [MainThread]: End processing [dynamic-qrcode-image] error
+[2023-05-05 12:20:22] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 12:20:22] INFO root fetch - main [MainThread]: End processing [pyytlounge]: success
+[2023-05-05 12:20:22] INFO root fetch - processPackages [ftdz-from-fyh]: Downloading https://files.pythonhosted.org/packages/6f/0b/4797dbf232ddf5ffed7bae614f5b3575e0da135e00c598695aa44510af23/ftdz_from_fyh-1.0.1.tar.gz
+[2023-05-05 12:20:22] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-05-05 12:20:22] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520-1.0.9.tar.gz --markdown 20230505/a/alibabacloud-btripopen20220520/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 12:20:22] INFO root fetch - processPackages [pyjpt]: Downloading https://files.pythonhosted.org/packages/c7/13/907cebdac0dad5d81112674adbea3b791d181e0141501a5a115b4fce12ba/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-05 12:20:22] INFO root fetch - processPackages [OpenFisca-Core]: Downloading https://files.pythonhosted.org/packages/9a/1e/ea587e6227625ec43769d66eba77da071548d6687b8309ab71a77e62974a/OpenFisca_Core-9.1.0-py2-none-any.whl
+[2023-05-05 12:20:22] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-05-05 12:20:22] INFO root fetch - processPackages [ftdz-from-fyh]: executing diffoscope
+[2023-05-05 12:20:22] INFO root fetch - processPackages [ftdz-from-fyh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftdz_from_fyh-1.0.0.tar.gz tmp/ftdz_from_fyh-1.0.1.tar.gz --markdown 20230505/f/ftdz-from-fyh/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 12:20:22] INFO root fetch - processPackages [OpenFisca-Core]: executing diffoscope
+[2023-05-05 12:20:22] INFO root fetch - processPackages [OpenFisca-Core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_Core-9.0.2-py2-none-any.whl.zip tmp/OpenFisca_Core-9.1.0-py2-none-any.whl.zip --markdown 20230505/O/OpenFisca-Core/9.0.2-9.1.0/diff.md --exclude *.pyd
+[2023-05-05 12:20:22] INFO root fetch - main [MainThread]: End processing [zzlib]: success
+[2023-05-05 12:20:22] INFO root fetch - main [MainThread]: End processing [magicsoup]: success
+[2023-05-05 12:20:22] INFO root fetch - main [MainThread]: End processing [UzbekNLP]: success
+[2023-05-05 12:20:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-05-05 12:20:23] INFO root fetch - processPackages [pyjpt]: Downloading https://files.pythonhosted.org/packages/68/d8/1cd9d8fa3a040ee3f1851f7a23274a54d62b69990c4523fe22d1c20fab64/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-05 12:20:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-05-05 12:20:23] INFO root fetch - main [MainThread]: End processing [ftdz-from-fyh]: success
+[2023-05-05 12:20:23] INFO root fetch - main [MainThread]: End processing [OpenFisca-Core]: success
+[2023-05-05 12:20:24] INFO root fetch - processPackages [pyjpt]: executing diffoscope
+[2023-05-05 12:20:24] INFO root fetch - processPackages [pyjpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230505/p/pyjpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 12:20:36] INFO root fetch - main [MainThread]: End processing [pyjpt]: success
+[2023-05-05 12:20:36] INFO root fetch - main [MainThread]: Store serial: [17985371]
