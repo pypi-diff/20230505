@@ -8588,3 +8588,100 @@
 [2023-05-05 09:45:34] INFO root fetch - main [MainThread]: End processing [HawaData]: success
 [2023-05-05 09:45:37] INFO root fetch - main [MainThread]: End processing [robotslacker-testcli]: success
 [2023-05-05 09:45:37] INFO root fetch - main [MainThread]: Store serial: [17983567]
+[2023-05-05 09:50:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17983567]
+[2023-05-05 09:50:47] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-05 09:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyspark-extension
+[2023-05-05 09:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspark-extension
+[2023-05-05 09:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imio.events.core
+[2023-05-05 09:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyspark-extension
+[2023-05-05 09:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyspark-extension
+[2023-05-05 09:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llmbda-fastapi
+[2023-05-05 09:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keras-nightly
+[2023-05-05 09:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloudshell-shell-core
+[2023-05-05 09:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kodexa
+[2023-05-05 09:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: discake
+[2023-05-05 09:50:47] INFO root fetch - processPackages [pyspark-extension]: New version: [2.7.0.3.4] Old Version: [2.7.0.3.3]
+[2023-05-05 09:50:47] INFO root fetch - processPackages [imio.events.core]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-05 09:50:47] INFO root fetch - processPackages [llmbda-fastapi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 09:50:47] INFO root fetch - processPackages [pyspark-extension]: New version: [2.7.0.3.4] Old Version: [2.7.0.3.3]
+[2023-05-05 09:50:47] INFO root fetch - processPackages [pyspark-extension]: New version: [2.7.0.3.4] Old Version: [2.7.0.3.3]
+[2023-05-05 09:50:47] INFO root fetch - processPackages [pyspark-extension]: New version: [2.7.0.3.4] Old Version: [2.7.0.3.3]
+[2023-05-05 09:50:47] INFO root fetch - processPackages [cloudshell-shell-core]: New version: [6.0.0] Old Version: [5.1.1]
+[2023-05-05 09:50:47] INFO root fetch - processPackages [discake]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 09:50:47] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-05-05 09:50:47] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-05-05 09:50:47] INFO root fetch - processPackages [pyspark-extension]: Downloading https://files.pythonhosted.org/packages/b4/41/22075bf663b117c3ca22eb237788f701a7eebea37b2ec75a4cc7668c456c/pyspark_extension-2.7.0.3.3-py3-none-any.whl
+[2023-05-05 09:50:47] INFO root fetch - processPackages [pyspark-extension]: Downloading https://files.pythonhosted.org/packages/b4/41/22075bf663b117c3ca22eb237788f701a7eebea37b2ec75a4cc7668c456c/pyspark_extension-2.7.0.3.3-py3-none-any.whl
+[2023-05-05 09:50:47] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-05-05 09:50:47] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230505/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-05-05 09:50:47] INFO root fetch - processPackages [pyspark-extension]: Downloading https://files.pythonhosted.org/packages/b4/41/22075bf663b117c3ca22eb237788f701a7eebea37b2ec75a4cc7668c456c/pyspark_extension-2.7.0.3.3-py3-none-any.whl
+[2023-05-05 09:50:47] INFO root fetch - processPackages [pyspark-extension]: Downloading https://files.pythonhosted.org/packages/b4/41/22075bf663b117c3ca22eb237788f701a7eebea37b2ec75a4cc7668c456c/pyspark_extension-2.7.0.3.3-py3-none-any.whl
+[2023-05-05 09:50:47] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-05-05 09:50:47] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230505/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-05-05 09:50:47] INFO root fetch - processPackages [llmbda-fastapi]: Downloading https://files.pythonhosted.org/packages/8a/a9/92993b3eeea48db8a6c646cbcf150e201056e49f7bdaf9d957001d8465c6/llmbda_fastapi-0.0.7.tar.gz
+[2023-05-05 09:50:47] INFO root fetch - processPackages [cloudshell-shell-core]: Downloading https://files.pythonhosted.org/packages/32/ca/df0c83aaa6181fd2a3c2abf678827968b5ad9a1b2b4b2cc5502f4e4fc266/cloudshell-shell-core-5.1.1.zip
+[2023-05-05 09:50:47] INFO root fetch - processPackages [discake]: Downloading https://files.pythonhosted.org/packages/db/d8/082603abef4f780eb681470904a3f1b6a11a55f846504b5e4c3c81cc8741/discake-0.0.7.tar.gz
+[2023-05-05 09:50:48] INFO root fetch - processPackages [imio.events.core]: Downloading https://files.pythonhosted.org/packages/a7/86/619c8b42b106374cc70b5d4109dbc84614dd493f6244d41cb1fc07c73947/imio.events.core-1.1.5.tar.gz
+[2023-05-05 09:50:48] INFO root fetch - processPackages [discake]: Downloading https://files.pythonhosted.org/packages/96/78/2add182c081b3b4f3482a8ba015c0e30061b4861a7ea3287b995149857d2/discake-0.0.8.tar.gz
+[2023-05-05 09:50:48] INFO root fetch - processPackages [cloudshell-shell-core]: Downloading https://files.pythonhosted.org/packages/3a/43/8071bc51411dfe5b80622d50711337faf24a78c0321cae272d141cf5e4b5/cloudshell-shell-core-6.0.0.zip
+[2023-05-05 09:50:48] INFO root fetch - processPackages [llmbda-fastapi]: Downloading https://files.pythonhosted.org/packages/b9/97/eeb159e777bf1963f3e31ba262051236554cb9bbb25b8d01826cd3dc5307/llmbda_fastapi-0.0.8.tar.gz
+[2023-05-05 09:50:48] INFO root fetch - processPackages [imio.events.core]: Downloading https://files.pythonhosted.org/packages/e6/66/f37b6fcba6486998aef493d6093449adabc7ac6bce91c0d71687c1f585e0/imio.events.core-1.1.6.tar.gz
+[2023-05-05 09:50:48] INFO root fetch - processPackages [imio.events.core]: executing diffoscope
+[2023-05-05 09:50:48] INFO root fetch - processPackages [imio.events.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.events.core-1.1.5.tar.gz tmp/imio.events.core-1.1.6.tar.gz --markdown 20230505/i/imio.events.core/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-05 09:50:48] INFO root fetch - processPackages [pyspark-extension]: Downloading https://files.pythonhosted.org/packages/e8/53/30aaf659123a531534c9071359d2132ad85da74c2332b11f9759ae8fba6a/pyspark_extension-2.7.0.3.4-py3-none-any.whl
+[2023-05-05 09:50:48] INFO root fetch - processPackages [pyspark-extension]: Downloading https://files.pythonhosted.org/packages/e8/53/30aaf659123a531534c9071359d2132ad85da74c2332b11f9759ae8fba6a/pyspark_extension-2.7.0.3.4-py3-none-any.whl
+[2023-05-05 09:50:48] INFO root fetch - processPackages [discake]: executing diffoscope
+[2023-05-05 09:50:48] INFO root fetch - processPackages [discake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discake-0.0.7.tar.gz tmp/discake-0.0.8.tar.gz --markdown 20230505/d/discake/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 09:50:48] INFO root fetch - processPackages [cloudshell-shell-core]: executing diffoscope
+[2023-05-05 09:50:48] INFO root fetch - processPackages [pyspark-extension]: Downloading https://files.pythonhosted.org/packages/e8/53/30aaf659123a531534c9071359d2132ad85da74c2332b11f9759ae8fba6a/pyspark_extension-2.7.0.3.4-py3-none-any.whl
+[2023-05-05 09:50:48] INFO root fetch - processPackages [cloudshell-shell-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudshell-shell-core-5.1.1.zip tmp/cloudshell-shell-core-6.0.0.zip --markdown 20230505/c/cloudshell-shell-core/5.1.1-6.0.0/diff.md --exclude *.pyd
+[2023-05-05 09:50:48] INFO root fetch - processPackages [llmbda-fastapi]: executing diffoscope
+[2023-05-05 09:50:48] INFO root fetch - processPackages [llmbda-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmbda_fastapi-0.0.7.tar.gz tmp/llmbda_fastapi-0.0.8.tar.gz --markdown 20230505/l/llmbda-fastapi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 09:50:48] INFO root fetch - processPackages [pyspark-extension]: Downloading https://files.pythonhosted.org/packages/e8/53/30aaf659123a531534c9071359d2132ad85da74c2332b11f9759ae8fba6a/pyspark_extension-2.7.0.3.4-py3-none-any.whl
+[2023-05-05 09:50:48] INFO root fetch - processPackages [pyspark-extension]: executing diffoscope
+[2023-05-05 09:50:48] INFO root fetch - processPackages [pyspark-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark_extension-2.7.0.3.3-py3-none-any.whl.zip tmp/pyspark_extension-2.7.0.3.4-py3-none-any.whl.zip --markdown 20230505/p/pyspark-extension/2.7.0.3.3-2.7.0.3.4/diff.md --exclude *.pyd
+[2023-05-05 09:50:48] INFO root fetch - processPackages [pyspark-extension]: executing diffoscope
+[2023-05-05 09:50:48] INFO root fetch - processPackages [pyspark-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark_extension-2.7.0.3.3-py3-none-any.whl.zip tmp/pyspark_extension-2.7.0.3.4-py3-none-any.whl.zip --markdown 20230505/p/pyspark-extension/2.7.0.3.3-2.7.0.3.4/diff.md --exclude *.pyd
+[2023-05-05 09:50:48] INFO root fetch - processPackages [pyspark-extension]: executing diffoscope
+[2023-05-05 09:50:48] INFO root fetch - processPackages [pyspark-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark_extension-2.7.0.3.3-py3-none-any.whl.zip tmp/pyspark_extension-2.7.0.3.4-py3-none-any.whl.zip --markdown 20230505/p/pyspark-extension/2.7.0.3.3-2.7.0.3.4/diff.md --exclude *.pyd
+[2023-05-05 09:50:48] INFO root fetch - processPackages [pyspark-extension]: executing diffoscope
+[2023-05-05 09:50:48] INFO root fetch - processPackages [pyspark-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark_extension-2.7.0.3.3-py3-none-any.whl.zip tmp/pyspark_extension-2.7.0.3.4-py3-none-any.whl.zip --markdown 20230505/p/pyspark-extension/2.7.0.3.3-2.7.0.3.4/diff.md --exclude *.pyd
+[2023-05-05 09:50:50] INFO root fetch - processPackages [discake]: Start processing: capellambse
+[2023-05-05 09:50:50] INFO root fetch - main [MainThread]: End processing [discake]: success
+[2023-05-05 09:50:50] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-05-05 09:50:50] INFO root fetch - processPackages [llmbda-fastapi]: Start processing: bdffont
+[2023-05-05 09:50:50] INFO root fetch - main [MainThread]: End processing [llmbda-fastapi]: success
+[2023-05-05 09:50:50] INFO root fetch - processPackages [bdffont]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 09:50:50] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-05-05 09:50:50] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230505/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-05-05 09:50:50] INFO root fetch - processPackages [bdffont]: Downloading https://files.pythonhosted.org/packages/47/44/f86f954dfffd8bcb9ad14af028fa1662bff403c98f1b34911a19a03ccc88/bdffont-0.0.1.tar.gz
+[2023-05-05 09:50:50] INFO root fetch - processPackages [kodexa]: Start processing: hyfi
+[2023-05-05 09:50:50] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-05-05 09:50:50] INFO root fetch - processPackages [cloudshell-shell-core]: Start processing: tf-nightly-cpu
+[2023-05-05 09:50:50] INFO root fetch - main [MainThread]: End processing [cloudshell-shell-core]: success
+[2023-05-05 09:50:50] INFO root fetch - processPackages [hyfi]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-05 09:50:50] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230505] Old Version: [2.14.0.dev20230504]
+[2023-05-05 09:50:50] INFO root fetch - processPackages [bdffont]: Downloading https://files.pythonhosted.org/packages/f2/ef/9a1e0ff92dfcc12f4136fcab203474995841ca44baec6fc476282bffe80b/bdffont-0.0.2.tar.gz
+[2023-05-05 09:50:50] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/11/f5/218894ed9e59d1c43ef375df9e09b626a52234f126a82b6e41de9971849f/hyfi-0.3.4.tar.gz
+[2023-05-05 09:50:50] INFO root fetch - processPackages [bdffont]: executing diffoscope
+[2023-05-05 09:50:50] INFO root fetch - processPackages [bdffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdffont-0.0.1.tar.gz tmp/bdffont-0.0.2.tar.gz --markdown 20230505/b/bdffont/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 09:50:50] INFO root fetch - main [MainThread]: End processing [imio.events.core]: success
+[2023-05-05 09:50:50] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-05-05 09:50:50] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.3.3.tar.gz tmp/hyfi-0.3.4.tar.gz --markdown 20230505/h/hyfi/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-05 09:50:50] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/5d/45/fb36904ba0eac98d5f55846d1194e653499a0cd2d973994d6d00787f5c80/tf_nightly_cpu-2.14.0.dev20230505-cp39-cp39-win_amd64.whl
+[2023-05-05 09:50:50] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-05-05 09:50:50] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230504-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230505-cp39-cp39-win_amd64.whl.zip --markdown 20230505/t/tf-nightly-cpu/2.14.0.dev20230504-2.14.0.dev20230505/diff.md --exclude *.pyd
+[2023-05-05 09:50:52] INFO root fetch - main [MainThread]: End processing [bdffont]: success
+[2023-05-05 09:50:53] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-05-05 09:50:53] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-05-05 09:51:01] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-05-05 09:51:11] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-05-05 09:53:48] ERROR root fetch - processPackages [pyspark-extension]: Timeout during execution of pkgdiff
+[2023-05-05 09:53:48] INFO root fetch - main [MainThread]: End processing [pyspark-extension] error
+[2023-05-05 09:53:48] ERROR root fetch - processPackages [pyspark-extension]: Timeout during execution of pkgdiff
+[2023-05-05 09:53:48] INFO root fetch - main [MainThread]: End processing [pyspark-extension] error
+[2023-05-05 09:53:48] ERROR root fetch - processPackages [pyspark-extension]: Timeout during execution of pkgdiff
+[2023-05-05 09:53:48] INFO root fetch - main [MainThread]: End processing [pyspark-extension] error
+[2023-05-05 09:53:48] ERROR root fetch - processPackages [pyspark-extension]: Timeout during execution of pkgdiff
+[2023-05-05 09:53:48] INFO root fetch - main [MainThread]: End processing [pyspark-extension] error
+[2023-05-05 09:53:48] INFO root fetch - main [MainThread]: Store serial: [17983614]
