@@ -4725,3 +4725,37 @@
 [2023-05-05 04:07:49] INFO root fetch - main [MainThread]: End processing [tsutils]: success
 [2023-05-05 04:08:17] INFO root fetch - main [MainThread]: End processing [abi3info]: success
 [2023-05-05 04:08:17] INFO root fetch - main [MainThread]: Store serial: [17981267]
+[2023-05-05 04:13:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981267]
+[2023-05-05 04:13:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-05 04:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bmtrain
+[2023-05-05 04:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-fb-d2-poc
+[2023-05-05 04:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chitose
+[2023-05-05 04:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyFCST
+[2023-05-05 04:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyswarming
+[2023-05-05 04:13:25] INFO root fetch - processPackages [bmtrain]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-05 04:13:25] INFO root fetch - processPackages [chitose]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 04:13:25] INFO root fetch - processPackages [pyswarming]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-05 04:13:25] INFO root fetch - processPackages [pyFCST]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 04:13:25] WARNING root fetch - processPackages [test-fb-d2-poc]: Skipping, unable to determine old version
+[2023-05-05 04:13:25] INFO root fetch - main [MainThread]: End processing [test-fb-d2-poc] error
+[2023-05-05 04:13:25] INFO root fetch - processPackages [chitose]: Downloading https://files.pythonhosted.org/packages/f6/31/f6f9e427530b0b4f9bc0f9890fa2add4b08ea2be85100114c8f86121c4f5/chitose-0.0.1.tar.gz
+[2023-05-05 04:13:25] INFO root fetch - processPackages [pyFCST]: Downloading https://files.pythonhosted.org/packages/cd/17/dd86bc3ffe0d3ed50e6d6ab672423723fc85bb3e80ffa3c1caa888238cf0/pyFCST-0.0.7.tar.gz
+[2023-05-05 04:13:26] INFO root fetch - processPackages [bmtrain]: Downloading https://files.pythonhosted.org/packages/b6/b0/843d863e0322006bcce384ebd788aa74db71d9d585bed0dd9fae50a19654/bmtrain-0.2.1.tar.gz
+[2023-05-05 04:13:26] INFO root fetch - processPackages [pyswarming]: Downloading https://files.pythonhosted.org/packages/2a/9a/a809d952cbd72730b9f0a72057ecbf58960724ccc8f9b0cdf31254bf46a1/pyswarming-1.0.0.tar.gz
+[2023-05-05 04:13:26] INFO root fetch - processPackages [pyFCST]: Downloading https://files.pythonhosted.org/packages/7a/3c/1936b09d243610a584ef030be353363f318713d48d9948e473954d79042e/pyFCST-0.0.8.tar.gz
+[2023-05-05 04:13:26] INFO root fetch - processPackages [chitose]: Downloading https://files.pythonhosted.org/packages/fc/67/bcc500e06bbee19daccf2f7610cb8a40ff57b2acef59ddca83110aae5b67/chitose-0.0.2.tar.gz
+[2023-05-05 04:13:26] INFO root fetch - processPackages [bmtrain]: Downloading https://files.pythonhosted.org/packages/13/b3/f414fc642070bb5baddab996bc4667bc16ae5f329094bd87ba923a1e7028/bmtrain-0.2.2.tar.gz
+[2023-05-05 04:13:26] INFO root fetch - processPackages [pyFCST]: executing diffoscope
+[2023-05-05 04:13:26] INFO root fetch - processPackages [pyFCST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyFCST-0.0.7.tar.gz tmp/pyFCST-0.0.8.tar.gz --markdown 20230505/p/pyFCST/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 04:13:26] INFO root fetch - processPackages [bmtrain]: executing diffoscope
+[2023-05-05 04:13:26] INFO root fetch - processPackages [bmtrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmtrain-0.2.1.tar.gz tmp/bmtrain-0.2.2.tar.gz --markdown 20230505/b/bmtrain/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-05 04:13:26] INFO root fetch - processPackages [chitose]: executing diffoscope
+[2023-05-05 04:13:26] INFO root fetch - processPackages [chitose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chitose-0.0.1.tar.gz tmp/chitose-0.0.2.tar.gz --markdown 20230505/c/chitose/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 04:13:26] INFO root fetch - processPackages [pyswarming]: Downloading https://files.pythonhosted.org/packages/9a/71/93110d4e040274a2737e0c4b35bdc25c2671224a3b6989e0ab3ef828df54/pyswarming-1.1.0.tar.gz
+[2023-05-05 04:13:26] INFO root fetch - processPackages [pyswarming]: executing diffoscope
+[2023-05-05 04:13:26] INFO root fetch - processPackages [pyswarming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswarming-1.0.0.tar.gz tmp/pyswarming-1.1.0.tar.gz --markdown 20230505/p/pyswarming/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 04:13:27] INFO root fetch - main [MainThread]: End processing [pyFCST]: success
+[2023-05-05 04:13:27] INFO root fetch - main [MainThread]: End processing [bmtrain]: success
+[2023-05-05 04:13:27] INFO root fetch - main [MainThread]: End processing [pyswarming]: success
+[2023-05-05 04:13:28] INFO root fetch - main [MainThread]: End processing [chitose]: success
+[2023-05-05 04:13:28] INFO root fetch - main [MainThread]: Store serial: [17981284]
