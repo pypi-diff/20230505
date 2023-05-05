@@ -19031,3 +19031,176 @@
 [2023-05-05 18:50:26] ERROR root fetch - processPackages [h2o-pysparkling-scoring-3.3]: Timeout during execution of pkgdiff
 [2023-05-05 18:50:26] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-3.3] error
 [2023-05-05 18:50:26] INFO root fetch - main [MainThread]: Store serial: [17990104]
+[2023-05-05 18:55:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17990104]
+[2023-05-05 18:55:36] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-05-05 18:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyalgotrading
+[2023-05-05 18:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HTTP-PyServer
+[2023-05-05 18:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiokeydb
+[2023-05-05 18:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inverse
+[2023-05-05 18:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: editanything
+[2023-05-05 18:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aesim.simba
+[2023-05-05 18:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: h2o-pysparkling-3.1
+[2023-05-05 18:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oking
+[2023-05-05 18:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: medspacy-quickumls
+[2023-05-05 18:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbdemos
+[2023-05-05 18:55:36] INFO root fetch - processPackages [HTTP-PyServer]: New version: [0.1.3.2] Old Version: [0.1.3.1]
+[2023-05-05 18:55:36] INFO root fetch - processPackages [inverse]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-05 18:55:36] INFO root fetch - processPackages [h2o-pysparkling-3.1]: New version: [3.40.0.4.post1] Old Version: [3.40.0.3.post1]
+[2023-05-05 18:55:36] INFO root fetch - processPackages [aiokeydb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 18:55:36] INFO root fetch - processPackages [medspacy-quickumls]: New version: [3.0] Old Version: [2.7.1a0]
+[2023-05-05 18:55:36] INFO root fetch - processPackages [editanything]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 18:55:36] INFO root fetch - processPackages [aesim.simba]: New version: [23.5.5] Old Version: [2023.5.4a1]
+[2023-05-05 18:55:36] INFO root fetch - processPackages [dbdemos]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-05 18:55:36] INFO root fetch - processPackages [oking]: New version: [4.1.99] Old Version: [4.1.98]
+[2023-05-05 18:55:36] INFO root fetch - processPackages [pyalgotrading]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-05-05 18:55:36] INFO root fetch - processPackages [medspacy-quickumls]: Downloading https://files.pythonhosted.org/packages/dd/8f/cb2cd7f1aac2ea4d6d72cc715d2a1bac1a07508eedbd335ce8288401e2e2/medspacy_quickumls-2.7.1a0.tar.gz
+[2023-05-05 18:55:36] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/10/e0/bc03eb0f51c985363e25571936de0258a0f3e5e43f8525986b708e4f2e81/oking-4.1.98.tar.gz
+[2023-05-05 18:55:36] INFO root fetch - processPackages [h2o-pysparkling-3.1]: Downloading https://files.pythonhosted.org/packages/13/fe/34cbac0a99a4f40370b7aae8588477b303a16b7498658472da672ea3ce10/h2o_pysparkling_3.1-3.40.0.3-1.tar.gz
+[2023-05-05 18:55:36] INFO root fetch - processPackages [dbdemos]: Downloading https://files.pythonhosted.org/packages/6c/c5/9454bae82e5fb5c1b0134e7c26d6cc743c4c92ae262fcd50a4f297cc5054/dbdemos-0.3.8-py3-none-any.whl
+[2023-05-05 18:55:36] INFO root fetch - processPackages [aesim.simba]: Downloading https://files.pythonhosted.org/packages/d4/9f/a22b1152697ff4da5dc6248a4a954dec69502837a824f3806cdea796f725/aesim.simba-2023.5.4a1-py3-none-win_amd64.whl
+[2023-05-05 18:55:36] INFO root fetch - processPackages [HTTP-PyServer]: Downloading https://files.pythonhosted.org/packages/53/0b/b65623c2673ee4d89fa6a71ac513a771681921521e5bc970f50d51bf1acd/HTTP-PyServer-0.1.3.2.tar.gz
+[2023-05-05 18:55:36] WARNING root fetch - processPackages [h2o-pysparkling-3.1]: Skipping package: exceeds size limit 161711580>=10485760
+[2023-05-05 18:55:36] INFO root fetch - processPackages [h2o-pysparkling-3.1]: Start processing: h2o-pysparkling-scoring-3.1
+[2023-05-05 18:55:36] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-3.1] error
+[2023-05-05 18:55:36] WARNING root fetch - processPackages [dbdemos]: Skipping package: exceeds size limit 29692537>=10485760
+[2023-05-05 18:55:36] INFO root fetch - processPackages [dbdemos]: Start processing: opvious
+[2023-05-05 18:55:36] INFO root fetch - main [MainThread]: End processing [dbdemos] error
+[2023-05-05 18:55:36] WARNING root fetch - processPackages [aesim.simba]: Skipping package: exceeds size limit 86846590>=10485760
+[2023-05-05 18:55:36] INFO root fetch - processPackages [editanything]: executing diffoscope
+[2023-05-05 18:55:36] INFO root fetch - processPackages [aesim.simba]: Start processing: azjwt
+[2023-05-05 18:55:36] INFO root fetch - processPackages [editanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/editanything-0.0.7.tar.gz tmp/editanything-0.0.8.tar.gz --markdown 20230505/e/editanything/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 18:55:36] INFO root fetch - main [MainThread]: End processing [aesim.simba] error
+[2023-05-05 18:55:36] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.1]: New version: [3.40.0.4.post1] Old Version: [3.40.0.3.post1]
+[2023-05-05 18:55:36] INFO root fetch - processPackages [inverse]: Downloading https://files.pythonhosted.org/packages/80/1e/6de31a1c7c1a13ef18ca0e66fa921a91fe6d52d72ba86007eb84f8acfa33/inverse-0.0.7-py3-none-any.whl
+[2023-05-05 18:55:36] WARNING root fetch - processPackages [azjwt]: Skipping, unable to determine old version
+[2023-05-05 18:55:36] INFO root fetch - processPackages [azjwt]: Start processing: editanything
+[2023-05-05 18:55:36] INFO root fetch - main [MainThread]: End processing [azjwt] error
+[2023-05-05 18:55:36] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-05 18:55:36] INFO root fetch - processPackages [editanything]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 18:55:36] INFO root fetch - processPackages [HTTP-PyServer]: executing diffoscope
+[2023-05-05 18:55:36] INFO root fetch - processPackages [HTTP-PyServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HTTP-PyServer-0.1.3.1.tar.gz tmp/HTTP-PyServer-0.1.3.2.tar.gz --markdown 20230505/H/HTTP-PyServer/0.1.3.1-0.1.3.2/diff.md --exclude *.pyd
+[2023-05-05 18:55:36] INFO root fetch - processPackages [pyalgotrading]: Downloading https://files.pythonhosted.org/packages/39/95/213cd708c6a8fc166bbf4c27c48a2eb93fef79ba99cfa88e45738e31d823/pyalgotrading-2023.5.3-py3-none-any.whl
+[2023-05-05 18:55:36] INFO root fetch - processPackages [aiokeydb]: executing diffoscope
+[2023-05-05 18:55:36] INFO root fetch - processPackages [aiokeydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokeydb-0.1.8.tar.gz tmp/aiokeydb-0.1.9.tar.gz --markdown 20230505/a/aiokeydb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 18:55:36] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-05 18:55:36] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.6-py3-none-any.whl.zip tmp/inverse-0.0.7-py3-none-any.whl.zip --markdown 20230505/i/inverse/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-05 18:55:36] INFO root fetch - processPackages [editanything]: executing diffoscope
+[2023-05-05 18:55:36] INFO root fetch - processPackages [editanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/editanything-0.0.7.tar.gz tmp/editanything-0.0.8.tar.gz --markdown 20230505/e/editanything/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 18:55:36] INFO root fetch - processPackages [pyalgotrading]: executing diffoscope
+[2023-05-05 18:55:36] INFO root fetch - processPackages [pyalgotrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalgotrading-2023.5.2-py3-none-any.whl.zip tmp/pyalgotrading-2023.5.3-py3-none-any.whl.zip --markdown 20230505/p/pyalgotrading/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-05-05 18:55:36] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.1]: Downloading https://files.pythonhosted.org/packages/87/2f/94923b61f5359767e79ace41273fa1ba588bd086ca7cac54066c6f6694cf/h2o_pysparkling_scoring_3.1-3.40.0.3-1.tar.gz
+[2023-05-05 18:55:36] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2023-05-05 18:55:36] INFO root fetch - processPackages [medspacy-quickumls]: Downloading https://files.pythonhosted.org/packages/73/6c/0c6b1658c1532a53c91b0d5743b0653491cc8308ecbeb4c637c49e2ff293/medspacy_quickumls-3.0.tar.gz
+[2023-05-05 18:55:37] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82479280>=10485760
+[2023-05-05 18:55:37] INFO root fetch - processPackages [oking]: Start processing: azureml-rag
+[2023-05-05 18:55:37] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-05 18:55:37] WARNING root fetch - processPackages [azureml-rag]: Skipping, unable to determine old version
+[2023-05-05 18:55:37] INFO root fetch - processPackages [azureml-rag]: Start processing: h2o-pysparkling-3.2
+[2023-05-05 18:55:37] INFO root fetch - main [MainThread]: End processing [azureml-rag] error
+[2023-05-05 18:55:37] INFO root fetch - processPackages [h2o-pysparkling-3.2]: New version: [3.40.0.4.post1] Old Version: [3.40.0.3.post1]
+[2023-05-05 18:55:37] INFO root fetch - processPackages [medspacy-quickumls]: executing diffoscope
+[2023-05-05 18:55:37] INFO root fetch - processPackages [medspacy-quickumls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medspacy_quickumls-2.7.1a0.tar.gz tmp/medspacy_quickumls-3.0.tar.gz --markdown 20230505/m/medspacy-quickumls/2.7.1a0-3.0/diff.md --exclude *.pyd
+[2023-05-05 18:55:37] INFO root fetch - processPackages [h2o-pysparkling-3.2]: Downloading https://files.pythonhosted.org/packages/5e/e7/6de55100e3b10c3c4032192645f4e8f8f1117731179c368a2b8be2a3abb2/h2o_pysparkling_3.2-3.40.0.3-1.tar.gz
+[2023-05-05 18:55:37] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.1]: Downloading https://files.pythonhosted.org/packages/11/e0/6965187211514a2692362cda618aed6dd49730b295f0884398c64a2309eb/h2o_pysparkling_scoring_3.1-3.40.0.4-1.tar.gz
+[2023-05-05 18:55:37] WARNING root fetch - processPackages [h2o-pysparkling-3.2]: Skipping package: exceeds size limit 161711772>=10485760
+[2023-05-05 18:55:37] INFO root fetch - processPackages [h2o-pysparkling-3.2]: Start processing: h2o-pysparkling-scoring-3.2
+[2023-05-05 18:55:37] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-3.2] error
+[2023-05-05 18:55:37] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.2]: New version: [3.40.0.4.post1] Old Version: [3.40.0.3.post1]
+[2023-05-05 18:55:37] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2023-05-05 18:55:37] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.1]: executing diffoscope
+[2023-05-05 18:55:37] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_pysparkling_scoring_3.1-3.40.0.3-1.tar.gz tmp/h2o_pysparkling_scoring_3.1-3.40.0.4-1.tar.gz --markdown 20230505/h/h2o-pysparkling-scoring-3.1/3.40.0.3.post1-3.40.0.4.post1/diff.md --exclude *.pyd
+[2023-05-05 18:55:37] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-05 18:55:37] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230505/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-05 18:55:37] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.2]: Downloading https://files.pythonhosted.org/packages/08/3c/8fd224a80f6048d364d436958ad366dcfd08da436486bcddd34e14ddb064/h2o_pysparkling_scoring_3.2-3.40.0.3-1.tar.gz
+[2023-05-05 18:55:37] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.2]: Downloading https://files.pythonhosted.org/packages/97/94/d85dff35f877e5d03ad6e0318cb30a6ea6dca4c79e15b27e30cf8e61a81b/h2o_pysparkling_scoring_3.2-3.40.0.4-1.tar.gz
+[2023-05-05 18:55:38] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.2]: executing diffoscope
+[2023-05-05 18:55:38] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_pysparkling_scoring_3.2-3.40.0.3-1.tar.gz tmp/h2o_pysparkling_scoring_3.2-3.40.0.4-1.tar.gz --markdown 20230505/h/h2o-pysparkling-scoring-3.2/3.40.0.3.post1-3.40.0.4.post1/diff.md --exclude *.pyd
+[2023-05-05 18:55:38] INFO root fetch - processPackages [editanything]: Start processing: python-messytable-handler
+[2023-05-05 18:55:38] INFO root fetch - main [MainThread]: End processing [editanything]: success
+[2023-05-05 18:55:38] WARNING root fetch - processPackages [python-messytable-handler]: Skipping, unable to determine old version
+[2023-05-05 18:55:38] INFO root fetch - processPackages [python-messytable-handler]: Start processing: cagen
+[2023-05-05 18:55:38] INFO root fetch - main [MainThread]: End processing [python-messytable-handler] error
+[2023-05-05 18:55:38] INFO root fetch - processPackages [cagen]: New version: [0.2.0b8] Old Version: [0.2.0b6]
+[2023-05-05 18:55:38] INFO root fetch - processPackages [HTTP-PyServer]: Start processing: azjwt
+[2023-05-05 18:55:38] INFO root fetch - main [MainThread]: End processing [HTTP-PyServer]: success
+[2023-05-05 18:55:38] INFO root fetch - processPackages [pyalgotrading]: Start processing: mcgtpy
+[2023-05-05 18:55:38] INFO root fetch - main [MainThread]: End processing [pyalgotrading]: success
+[2023-05-05 18:55:38] WARNING root fetch - processPackages [mcgtpy]: Skipping, unable to determine old version
+[2023-05-05 18:55:38] INFO root fetch - processPackages [mcgtpy]: Start processing: embedbase-qdrant
+[2023-05-05 18:55:38] INFO root fetch - main [MainThread]: End processing [mcgtpy] error
+[2023-05-05 18:55:38] WARNING root fetch - processPackages [azjwt]: Skipping, unable to determine old version
+[2023-05-05 18:55:38] INFO root fetch - processPackages [azjwt]: Start processing: CoLT5-attention
+[2023-05-05 18:55:38] INFO root fetch - main [MainThread]: End processing [azjwt] error
+[2023-05-05 18:55:38] INFO root fetch - processPackages [editanything]: Start processing: polars-lts-cpu
+[2023-05-05 18:55:38] INFO root fetch - main [MainThread]: End processing [editanything]: success
+[2023-05-05 18:55:38] WARNING root fetch - processPackages [embedbase-qdrant]: Skipping, unable to determine old version
+[2023-05-05 18:55:38] INFO root fetch - processPackages [embedbase-qdrant]: Start processing: dkist-processing-pac
+[2023-05-05 18:55:38] INFO root fetch - main [MainThread]: End processing [embedbase-qdrant] error
+[2023-05-05 18:55:38] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.6.2] Old Version: [0.6.0]
+[2023-05-05 18:55:38] INFO root fetch - processPackages [polars-lts-cpu]: New version: [0.17.9] Old Version: [0.17.8]
+[2023-05-05 18:55:38] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/c3/03/982186d11f467a3947ed495535c8032b572639551ce3cdcf56bd50764cf1/cagen-0.2.0b8.tar.gz
+[2023-05-05 18:55:38] INFO root fetch - processPackages [dkist-processing-pac]: New version: [2.1.1rc1] Old Version: [2.1.0]
+[2023-05-05 18:55:38] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-05-05 18:55:38] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0b6.tar.gz tmp/cagen-0.2.0b8.tar.gz --markdown 20230505/c/cagen/0.2.0b6-0.2.0b8/diff.md --exclude *.pyd
+[2023-05-05 18:55:38] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/4b/df/391a9cdb5797692d48f96471142e3aeaceeba8b3c282a6c76876f90e3cf9/CoLT5-attention-0.6.2.tar.gz
+[2023-05-05 18:55:38] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/cf/5a/e9d7cc0eb44d3b7f07ad9f8383d720d695be9a13eb1d5846f50689fda832/polars_lts_cpu-0.17.8.tar.gz
+[2023-05-05 18:55:38] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-05 18:55:38] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.6.0.tar.gz tmp/CoLT5-attention-0.6.2.tar.gz --markdown 20230505/C/CoLT5-attention/0.6.0-0.6.2/diff.md --exclude *.pyd
+[2023-05-05 18:55:39] INFO root fetch - processPackages [opvious]: Start processing: azdsdr
+[2023-05-05 18:55:39] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-05 18:55:39] INFO root fetch - processPackages [dkist-processing-pac]: Downloading https://files.pythonhosted.org/packages/de/08/4fbb36163faedf1f4e8719c19d2357e83293ed874be7ec38e60969678266/dkist-processing-pac-2.1.0.tar.gz
+[2023-05-05 18:55:39] INFO root fetch - processPackages [azdsdr]: New version: [1.230505.1] Old Version: [1.230424.2]
+[2023-05-05 18:55:39] INFO root fetch - processPackages [medspacy-quickumls]: Start processing: pyshaper
+[2023-05-05 18:55:39] INFO root fetch - main [MainThread]: End processing [medspacy-quickumls]: success
+[2023-05-05 18:55:39] INFO root fetch - processPackages [dkist-processing-pac]: Downloading https://files.pythonhosted.org/packages/fa/09/9accbfba50c4ed732f1519a0c4cd309e7a4920d3561b8d2085b16bae712d/dkist-processing-pac-2.1.1rc1.tar.gz
+[2023-05-05 18:55:39] INFO root fetch - processPackages [azdsdr]: Downloading https://files.pythonhosted.org/packages/5a/21/32d1e9caddd2cd188c780df9d48d695f983a1a912200453edfc4e1ef1e5a/azdsdr-1.230424.2.tar.gz
+[2023-05-05 18:55:39] INFO root fetch - processPackages [inverse]: Start processing: micropython-ds1307
+[2023-05-05 18:55:39] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-05 18:55:39] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/d4/ef/c46a5777b15f5ee0474ae58ae5cfdd176412dbe9b310e4391e74d3b162f0/polars_lts_cpu-0.17.9.tar.gz
+[2023-05-05 18:55:39] INFO root fetch - processPackages [dkist-processing-pac]: executing diffoscope
+[2023-05-05 18:55:39] INFO root fetch - processPackages [dkist-processing-pac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-pac-2.1.0.tar.gz tmp/dkist-processing-pac-2.1.1rc1.tar.gz --markdown 20230505/d/dkist-processing-pac/2.1.0-2.1.1rc1/diff.md --exclude *.pyd
+[2023-05-05 18:55:39] WARNING root fetch - processPackages [micropython-ds1307]: Skipping, unable to determine old version
+[2023-05-05 18:55:39] INFO root fetch - processPackages [micropython-ds1307]: Start processing: jpmml-evaluator
+[2023-05-05 18:55:39] INFO root fetch - main [MainThread]: End processing [micropython-ds1307] error
+[2023-05-05 18:55:39] INFO root fetch - processPackages [pyshaper]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-05 18:55:39] INFO root fetch - processPackages [azdsdr]: Downloading https://files.pythonhosted.org/packages/cd/ea/accc6e09c37d3c7263f3b87927ec3e1b86f3479739a54abfff60c232b733/azdsdr-1.230505.1.tar.gz
+[2023-05-05 18:55:39] INFO root fetch - processPackages [jpmml-evaluator]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-05 18:55:39] INFO root fetch - processPackages [polars-lts-cpu]: executing diffoscope
+[2023-05-05 18:55:39] INFO root fetch - processPackages [polars-lts-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_lts_cpu-0.17.8.tar.gz tmp/polars_lts_cpu-0.17.9.tar.gz --markdown 20230505/p/polars-lts-cpu/0.17.8-0.17.9/diff.md --exclude *.pyd
+[2023-05-05 18:55:39] INFO root fetch - processPackages [azdsdr]: executing diffoscope
+[2023-05-05 18:55:39] INFO root fetch - processPackages [azdsdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdsdr-1.230424.2.tar.gz tmp/azdsdr-1.230505.1.tar.gz --markdown 20230505/a/azdsdr/1.230424.2-1.230505.1/diff.md --exclude *.pyd
+[2023-05-05 18:55:39] INFO root fetch - processPackages [jpmml-evaluator]: Downloading https://files.pythonhosted.org/packages/e7/17/8f6eb75a4a0465fcd71073084befdb45827ea57bae9ce125effcde7e55b9/jpmml_evaluator-0.8.1.tar.gz
+[2023-05-05 18:55:39] INFO root fetch - processPackages [pyshaper]: Downloading https://files.pythonhosted.org/packages/55/ed/1db6fb2dde302cdae74ef3f8de57901ab4eb21383c5dddb613f7ddb461ed/pyshaper-1.0.1.tar.gz
+[2023-05-05 18:55:40] INFO root fetch - processPackages [cagen]: Start processing: django-twined
+[2023-05-05 18:55:40] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-05-05 18:55:40] INFO root fetch - processPackages [pyshaper]: Downloading https://files.pythonhosted.org/packages/08/8e/a72c74cd826c044fc19102109fe14e1b0757ce4c2e5e39bde6cacc09dbe4/pyshaper-1.1.0.tar.gz
+[2023-05-05 18:55:40] INFO root fetch - processPackages [django-twined]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-05 18:55:40] INFO root fetch - processPackages [pyshaper]: executing diffoscope
+[2023-05-05 18:55:40] INFO root fetch - processPackages [pyshaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyshaper-1.0.1.tar.gz tmp/pyshaper-1.1.0.tar.gz --markdown 20230505/p/pyshaper/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 18:55:40] INFO root fetch - processPackages [django-twined]: Downloading https://files.pythonhosted.org/packages/3f/85/e3cd6430f9930e3009d7146d2f75316dd2cfcfb626cced3e14bab97633b0/django_twined-0.4.1.tar.gz
+[2023-05-05 18:55:40] INFO root fetch - processPackages [CoLT5-attention]: Start processing: polars
+[2023-05-05 18:55:40] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-05 18:55:40] INFO root fetch - processPackages [django-twined]: Downloading https://files.pythonhosted.org/packages/f3/88/e84856a1948fd6a851b1ff56b205d6875dc11eac5dee7f19c908dce0540a/django_twined-0.4.2.tar.gz
+[2023-05-05 18:55:40] INFO root fetch - processPackages [polars]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-05 18:55:40] INFO root fetch - processPackages [django-twined]: executing diffoscope
+[2023-05-05 18:55:40] INFO root fetch - processPackages [django-twined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_twined-0.4.1.tar.gz tmp/django_twined-0.4.2.tar.gz --markdown 20230505/d/django-twined/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-05 18:55:40] INFO root fetch - main [MainThread]: End processing [dkist-processing-pac]: success
+[2023-05-05 18:55:40] INFO root fetch - main [MainThread]: End processing [azdsdr]: success
+[2023-05-05 18:55:41] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/e7/87/d9b28ede138dfbfa298446f324fd99a8c9f1229deeabc69024c8613d68f8/polars-0.9.8.tar.gz
+[2023-05-05 18:55:41] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/96/26/63076bebabb9ecbc73cd58cf48f924a3f05b871166f576b56d9935158194/polars-0.9.9.tar.gz
+[2023-05-05 18:55:41] INFO root fetch - processPackages [polars]: executing diffoscope
+[2023-05-05 18:55:41] INFO root fetch - processPackages [polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-0.9.8.tar.gz tmp/polars-0.9.9.tar.gz --markdown 20230505/p/polars/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 18:55:41] INFO root fetch - main [MainThread]: End processing [pyshaper]: success
+[2023-05-05 18:55:42] INFO root fetch - processPackages [jpmml-evaluator]: Downloading https://files.pythonhosted.org/packages/08/f8/f7d6d9e931865bf8559678e15a43cd58ea42424a1eae6c0a7d0d91f313d1/jpmml_evaluator-0.9.0.tar.gz
+[2023-05-05 18:55:42] INFO root fetch - main [MainThread]: End processing [django-twined]: success
+[2023-05-05 18:55:42] INFO root fetch - main [MainThread]: End processing [aiokeydb]: success
+[2023-05-05 18:55:42] INFO root fetch - processPackages [jpmml-evaluator]: executing diffoscope
+[2023-05-05 18:55:42] INFO root fetch - processPackages [jpmml-evaluator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpmml_evaluator-0.8.1.tar.gz tmp/jpmml_evaluator-0.9.0.tar.gz --markdown 20230505/j/jpmml-evaluator/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 18:55:44] INFO root fetch - main [MainThread]: End processing [jpmml-evaluator]: success
+[2023-05-05 18:55:45] INFO root fetch - main [MainThread]: End processing [polars]: success
+[2023-05-05 18:55:57] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
+[2023-05-05 18:58:37] ERROR root fetch - processPackages [h2o-pysparkling-scoring-3.1]: Timeout during execution of pkgdiff
+[2023-05-05 18:58:37] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-3.1] error
+[2023-05-05 18:58:38] ERROR root fetch - processPackages [h2o-pysparkling-scoring-3.2]: Timeout during execution of pkgdiff
+[2023-05-05 18:58:38] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-3.2] error
+[2023-05-05 18:58:38] INFO root fetch - main [MainThread]: Store serial: [17990204]
