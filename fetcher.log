@@ -6159,3 +6159,95 @@
 [2023-05-05 06:59:16] INFO root fetch - main [MainThread]: End processing [getlino]: success
 [2023-05-05 07:01:59] INFO root fetch - main [MainThread]: End processing [lino]: success
 [2023-05-05 07:01:59] INFO root fetch - main [MainThread]: Store serial: [17982076]
+[2023-05-05 07:07:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982076]
+[2023-05-05 07:07:08] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trackplot
+[2023-05-05 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-watch
+[2023-05-05 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MeUtils
+[2023-05-05 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datoso-seed-nointro
+[2023-05-05 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dask-cuda
+[2023-05-05 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datoso
+[2023-05-05 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tflite-runtime-nightly
+[2023-05-05 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simple-print
+[2023-05-05 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: labelme2yolo
+[2023-05-05 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiomodelz
+[2023-05-05 07:07:08] INFO root fetch - processPackages [datoso-seed-nointro]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-05 07:07:08] INFO root fetch - processPackages [trackplot]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-05 07:07:08] INFO root fetch - processPackages [simple-print]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-05 07:07:08] INFO root fetch - processPackages [django-watch]: New version: [0.5] Old Version: [0.4.2]
+[2023-05-05 07:07:08] INFO root fetch - processPackages [datoso]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-05 07:07:08] INFO root fetch - processPackages [aiomodelz]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-05 07:07:08] INFO root fetch - processPackages [labelme2yolo]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 07:07:08] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.5.13.0.43] Old Version: [2023.5.4.9.19.24]
+[2023-05-05 07:07:08] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230503] Old Version: [2.13.0.dev20230430]
+[2023-05-05 07:07:09] INFO root fetch - processPackages [dask-cuda]: New version: [23.6.0a230504] Old Version: [23.6.0a230503]
+[2023-05-05 07:07:09] INFO root fetch - processPackages [aiomodelz]: Downloading https://files.pythonhosted.org/packages/35/8b/b191e63d5de08a627ab08bcdada076a8debfcbbccba9273a625b89ddac45/aiomodelz-0.4.1.tar.gz
+[2023-05-05 07:07:09] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-05-05 07:07:09] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.13.0.dev20230430-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230503-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230505/t/tflite-runtime-nightly/2.13.0.dev20230430-2.14.0.dev20230503/diff.md --exclude *.pyd
+[2023-05-05 07:07:09] INFO root fetch - processPackages [labelme2yolo]: Downloading https://files.pythonhosted.org/packages/5d/5b/904ecc9de73ba5b22d323abdc4893deae70f781c473655f6ae46129d623d/labelme2yolo-0.1.0.tar.gz
+[2023-05-05 07:07:09] INFO root fetch - processPackages [datoso]: Downloading https://files.pythonhosted.org/packages/1c/09/696d598ef30ae2a992720ad80201d8211928f408c5c0d3493debac18553a/datoso-0.2.5.tar.gz
+[2023-05-05 07:07:09] INFO root fetch - processPackages [django-watch]: Downloading https://files.pythonhosted.org/packages/5f/48/75b1fc292b86eb766572e683d6b22bd7ba547659c63a38143b7aceb4d2dd/django_watch-0.4.2-py3-none-any.whl
+[2023-05-05 07:07:09] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/00/09/9e1f28b9c47bf7a4e2d620d4ba787e9f4c8cf133904a51e2e664351d0b8c/trackplot-0.2.3.tar.gz
+[2023-05-05 07:07:09] INFO root fetch - processPackages [datoso-seed-nointro]: Downloading https://files.pythonhosted.org/packages/04/59/3b7706c165b76ede44a675c12263621a7a24642f50584c729d5c910604ac/datoso_seed_nointro-0.2.4.tar.gz
+[2023-05-05 07:07:09] INFO root fetch - processPackages [datoso]: executing diffoscope
+[2023-05-05 07:07:09] INFO root fetch - processPackages [datoso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso-0.2.4.tar.gz tmp/datoso-0.2.5.tar.gz --markdown 20230505/d/datoso/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-05 07:07:09] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/5a/a2/2df18fe9d0bbd97647dfc3d8e299294e4306cc5c4a54f8e7be352a238618/MeUtils-2023.5.5.13.0.43.tar.gz
+[2023-05-05 07:07:09] INFO root fetch - processPackages [simple-print]: Downloading https://files.pythonhosted.org/packages/53/e2/9e4af96658a3fff2d0e365cd94e47a54ca74a168565c4522ab984e890e4a/simple_print-1.7.3-py3-none-any.whl
+[2023-05-05 07:07:09] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/3e/cf/5d46a5615b5cd3d5a525865b8d0d7809f0ba26e08d154681e3b313d2b78b/dask-cuda-23.6.0a230504.tar.gz
+[2023-05-05 07:07:09] INFO root fetch - processPackages [datoso-seed-nointro]: executing diffoscope
+[2023-05-05 07:07:09] INFO root fetch - processPackages [datoso-seed-nointro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_nointro-0.2.3.tar.gz tmp/datoso_seed_nointro-0.2.4.tar.gz --markdown 20230505/d/datoso-seed-nointro/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-05 07:07:09] INFO root fetch - processPackages [trackplot]: executing diffoscope
+[2023-05-05 07:07:09] INFO root fetch - processPackages [trackplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trackplot-0.2.2.tar.gz tmp/trackplot-0.2.3.tar.gz --markdown 20230505/t/trackplot/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-05 07:07:09] INFO root fetch - processPackages [simple-print]: executing diffoscope
+[2023-05-05 07:07:09] INFO root fetch - processPackages [simple-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_print-1.7.2-py3-none-any.whl.zip tmp/simple_print-1.7.3-py3-none-any.whl.zip --markdown 20230505/s/simple-print/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-05-05 07:07:09] INFO root fetch - processPackages [aiomodelz]: Downloading https://files.pythonhosted.org/packages/13/df/0ae85c182c33ecad844dda0b69b9c6aaf141e241e65e31e9f55a5a9aeefc/aiomodelz-0.4.2.tar.gz
+[2023-05-05 07:07:09] INFO root fetch - processPackages [django-watch]: Downloading https://files.pythonhosted.org/packages/73/62/bc5e6ec580113ca160b488f94924f3d379e9d80eddce9c00e9a8a96404dc/django_watch-0.5-py3-none-any.whl
+[2023-05-05 07:07:09] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-05-05 07:07:09] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.6.0a230503.tar.gz tmp/dask-cuda-23.6.0a230504.tar.gz --markdown 20230505/d/dask-cuda/23.6.0a230503-23.6.0a230504/diff.md --exclude *.pyd
+[2023-05-05 07:07:09] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-05 07:07:09] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.4.9.19.24.tar.gz tmp/MeUtils-2023.5.5.13.0.43.tar.gz --markdown 20230505/M/MeUtils/2023.5.4.9.19.24-2023.5.5.13.0.43/diff.md --exclude *.pyd
+[2023-05-05 07:07:09] INFO root fetch - processPackages [aiomodelz]: executing diffoscope
+[2023-05-05 07:07:09] INFO root fetch - processPackages [aiomodelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomodelz-0.4.1.tar.gz tmp/aiomodelz-0.4.2.tar.gz --markdown 20230505/a/aiomodelz/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-05 07:07:09] INFO root fetch - processPackages [labelme2yolo]: Downloading https://files.pythonhosted.org/packages/23/e9/6beba752571dc8931113161a1576788630fd7f8fa485c8d5984bfb10d8aa/labelme2yolo-0.1.1.tar.gz
+[2023-05-05 07:07:09] INFO root fetch - processPackages [django-watch]: executing diffoscope
+[2023-05-05 07:07:09] INFO root fetch - processPackages [django-watch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_watch-0.4.2-py3-none-any.whl.zip tmp/django_watch-0.5-py3-none-any.whl.zip --markdown 20230505/d/django-watch/0.4.2-0.5/diff.md --exclude *.pyd
+[2023-05-05 07:07:09] INFO root fetch - processPackages [labelme2yolo]: executing diffoscope
+[2023-05-05 07:07:09] INFO root fetch - processPackages [labelme2yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelme2yolo-0.1.0.tar.gz tmp/labelme2yolo-0.1.1.tar.gz --markdown 20230505/l/labelme2yolo/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 07:07:10] INFO root fetch - processPackages [datoso]: Start processing: bs-admin-utils
+[2023-05-05 07:07:10] INFO root fetch - main [MainThread]: End processing [datoso]: success
+[2023-05-05 07:07:10] INFO root fetch - processPackages [bs-admin-utils]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-05 07:07:10] INFO root fetch - processPackages [simple-print]: Start processing: gpt-hero-core
+[2023-05-05 07:07:10] INFO root fetch - main [MainThread]: End processing [simple-print]: success
+[2023-05-05 07:07:10] INFO root fetch - processPackages [datoso-seed-nointro]: Start processing: aiomodelz
+[2023-05-05 07:07:10] INFO root fetch - main [MainThread]: End processing [datoso-seed-nointro]: success
+[2023-05-05 07:07:10] WARNING root fetch - processPackages [gpt-hero-core]: Skipping, unable to determine old version
+[2023-05-05 07:07:10] INFO root fetch - processPackages [gpt-hero-core]: Start processing: xt-st-common
+[2023-05-05 07:07:10] INFO root fetch - main [MainThread]: End processing [gpt-hero-core] error
+[2023-05-05 07:07:10] INFO root fetch - processPackages [xt-st-common]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-05 07:07:10] INFO root fetch - processPackages [aiomodelz]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-05 07:07:11] INFO root fetch - processPackages [django-watch]: Start processing: multi-model-server
+[2023-05-05 07:07:11] INFO root fetch - main [MainThread]: End processing [django-watch]: success
+[2023-05-05 07:07:11] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230505] Old Version: [1.1.8b20230504]
+[2023-05-05 07:07:11] INFO root fetch - processPackages [aiomodelz]: executing diffoscope
+[2023-05-05 07:07:11] INFO root fetch - processPackages [aiomodelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomodelz-0.4.1.tar.gz tmp/aiomodelz-0.4.2.tar.gz --markdown 20230505/a/aiomodelz/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-05 07:07:11] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/21/88/033988c7aa12a9cb4093b32cb7e1182a59a7a7fac169270780c3ee571f59/bs_admin_utils-1.0.2.tar.gz
+[2023-05-05 07:07:11] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/02/1b/7079e33239d935f1ae995d37868b18e78a21bd6ced70e090782251010f70/xt_st_common-0.4.1.tar.gz
+[2023-05-05 07:07:11] INFO root fetch - main [MainThread]: End processing [labelme2yolo]: success
+[2023-05-05 07:07:11] INFO root fetch - processPackages [xt-st-common]: executing diffoscope
+[2023-05-05 07:07:11] INFO root fetch - processPackages [xt-st-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xt_st_common-0.4.0.tar.gz tmp/xt_st_common-0.4.1.tar.gz --markdown 20230505/x/xt-st-common/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-05 07:07:11] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/86/97/a9bb9e851edf65dd64f84dc91e5ac82039d2a4fef285b516ad11a93e7185/multi_model_server-1.1.8b20230505-py2.py3-none-any.whl
+[2023-05-05 07:07:11] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-05-05 07:07:11] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/a9/80/07778c40e7979a8fb1c54a456e1218c3fc4f9e63c88b66d0ba6b21715e6b/bs_admin_utils-1.0.3.tar.gz
+[2023-05-05 07:07:11] INFO root fetch - main [MainThread]: End processing [aiomodelz]: success
+[2023-05-05 07:07:11] INFO root fetch - processPackages [bs-admin-utils]: executing diffoscope
+[2023-05-05 07:07:11] INFO root fetch - processPackages [bs-admin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_admin_utils-1.0.2.tar.gz tmp/bs_admin_utils-1.0.3.tar.gz --markdown 20230505/b/bs-admin-utils/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-05 07:07:12] INFO root fetch - main [MainThread]: End processing [trackplot]: success
+[2023-05-05 07:07:12] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-05-05 07:07:12] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230504-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230505-py2.py3-none-any.whl.zip --markdown 20230505/m/multi-model-server/1.1.8b20230504-1.1.8b20230505/diff.md --exclude *.pyd
+[2023-05-05 07:07:12] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
+[2023-05-05 07:07:12] INFO root fetch - main [MainThread]: End processing [aiomodelz]: success
+[2023-05-05 07:07:12] INFO root fetch - main [MainThread]: End processing [bs-admin-utils]: success
+[2023-05-05 07:07:17] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-05 07:07:39] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-05-05 07:10:02] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-05-05 07:10:02] INFO root fetch - main [MainThread]: Store serial: [17982135]
