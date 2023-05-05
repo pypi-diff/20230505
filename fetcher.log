@@ -6075,3 +6075,43 @@
 [2023-05-05 06:48:51] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2023-05-05 06:48:51] INFO root fetch - main [MainThread]: End processing [cercis]: success
 [2023-05-05 06:48:51] INFO root fetch - main [MainThread]: Store serial: [17982033]
+[2023-05-05 06:53:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982033]
+[2023-05-05 06:54:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-05 06:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meerschaum
+[2023-05-05 06:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meerschaum
+[2023-05-05 06:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dq-test
+[2023-05-05 06:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazyops
+[2023-05-05 06:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pelicun
+[2023-05-05 06:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-review
+[2023-05-05 06:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: awsimple
+[2023-05-05 06:54:00] INFO root fetch - processPackages [gpt-review]: New version: [0.5.0rc407.post1] Old Version: [0.5.0rc406.post1]
+[2023-05-05 06:54:00] INFO root fetch - processPackages [pelicun]: New version: [3.2b3] Old Version: [3.2b2]
+[2023-05-05 06:54:00] INFO root fetch - processPackages [lazyops]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 06:54:00] WARNING root fetch - processPackages [dq-test]: Skipping, unable to determine old version
+[2023-05-05 06:54:00] INFO root fetch - main [MainThread]: End processing [dq-test] error
+[2023-05-05 06:54:00] INFO root fetch - processPackages [awsimple]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-05-05 06:54:00] INFO root fetch - processPackages [meerschaum]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-05 06:54:00] INFO root fetch - processPackages [meerschaum]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-05 06:54:00] INFO root fetch - processPackages [pelicun]: executing diffoscope
+[2023-05-05 06:54:00] INFO root fetch - processPackages [pelicun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelicun-3.2b2.tar.gz tmp/pelicun-3.2b3.tar.gz --markdown 20230505/p/pelicun/3.2b2-3.2b3/diff.md --exclude *.pyd
+[2023-05-05 06:54:00] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-05 06:54:00] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.5.0rc406.post1.tar.gz tmp/gpt-review-0.5.0rc407.post1.tar.gz --markdown 20230505/g/gpt-review/0.5.0rc406.post1-0.5.0rc407.post1/diff.md --exclude *.pyd
+[2023-05-05 06:54:00] INFO root fetch - processPackages [lazyops]: executing diffoscope
+[2023-05-05 06:54:00] INFO root fetch - processPackages [lazyops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyops-0.2.8.tar.gz tmp/lazyops-0.2.9.tar.gz --markdown 20230505/l/lazyops/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 06:54:00] INFO root fetch - processPackages [awsimple]: executing diffoscope
+[2023-05-05 06:54:00] INFO root fetch - processPackages [awsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsimple-2.4.0-py3-none-any.whl.zip tmp/awsimple-2.4.1-py3-none-any.whl.zip --markdown 20230505/a/awsimple/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-05-05 06:54:00] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/ee/c1/51e3e39f0949d39830d879124412d6e9b2296544a0832657b4ef7fd412a1/meerschaum-1.6.4.tar.gz
+[2023-05-05 06:54:00] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/ee/c1/51e3e39f0949d39830d879124412d6e9b2296544a0832657b4ef7fd412a1/meerschaum-1.6.4.tar.gz
+[2023-05-05 06:54:01] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/31/b1/2ad8a4a0fd7a77b1f010173e7d5c1218414d2b7cc0fa44b9816791e6697f/meerschaum-1.6.5.tar.gz
+[2023-05-05 06:54:01] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/31/b1/2ad8a4a0fd7a77b1f010173e7d5c1218414d2b7cc0fa44b9816791e6697f/meerschaum-1.6.5.tar.gz
+[2023-05-05 06:54:01] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-05-05 06:54:01] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-05-05 06:54:01] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.6.4.tar.gz tmp/meerschaum-1.6.5.tar.gz --markdown 20230505/m/meerschaum/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-05 06:54:01] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.6.4.tar.gz tmp/meerschaum-1.6.5.tar.gz --markdown 20230505/m/meerschaum/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-05 06:54:02] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-05 06:54:02] INFO root fetch - main [MainThread]: End processing [awsimple]: success
+[2023-05-05 06:54:02] INFO root fetch - main [MainThread]: End processing [lazyops]: success
+[2023-05-05 06:54:03] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-05-05 06:54:03] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-05-05 06:54:05] INFO root fetch - main [MainThread]: End processing [pelicun]: success
+[2023-05-05 06:54:05] INFO root fetch - main [MainThread]: Store serial: [17982053]
