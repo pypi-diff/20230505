@@ -9863,3 +9863,79 @@
 [2023-05-05 10:58:54] INFO root fetch - main [MainThread]: End processing [tyro]: success
 [2023-05-05 10:58:57] INFO root fetch - main [MainThread]: End processing [funboost]: success
 [2023-05-05 10:58:57] INFO root fetch - main [MainThread]: Store serial: [17984285]
+[2023-05-05 11:04:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17984285]
+[2023-05-05 11:04:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 11:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unique-char-counter-cli-kir-boh
+[2023-05-05 11:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: regtest
+[2023-05-05 11:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maxeqx-dc-token.py
+[2023-05-05 11:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: collective.superfish
+[2023-05-05 11:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch4uie
+[2023-05-05 11:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cmem-plugin-pyshacl
+[2023-05-05 11:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: auto-eval
+[2023-05-05 11:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-ddmrp
+[2023-05-05 11:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dustpylib
+[2023-05-05 11:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyroporn
+[2023-05-05 11:04:07] INFO root fetch - processPackages [maxeqx-dc-token.py]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 11:04:07] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-05 11:04:07] INFO root fetch - processPackages [regtest]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-05 11:04:07] INFO root fetch - processPackages [torch4uie]: New version: [2023.5.5.17.0.57] Old Version: [2023.5.5.16.57.38]
+[2023-05-05 11:04:07] INFO root fetch - processPackages [collective.superfish]: New version: [2.1] Old Version: [2.0a1]
+[2023-05-05 11:04:07] INFO root fetch - processPackages [dustpylib]: New version: [0.3.0rc1] Old Version: [0.3.0rc0]
+[2023-05-05 11:04:07] INFO root fetch - processPackages [auto-eval]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 11:04:07] INFO root fetch - processPackages [cmem-plugin-pyshacl]: New version: [4.2.0rc1] Old Version: [4.1.3rc4]
+[2023-05-05 11:04:07] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-05-05 11:04:07] WARNING root fetch - processPackages [pyroporn]: Skipping, unable to determine old version
+[2023-05-05 11:04:07] INFO root fetch - processPackages [pyroporn]: Start processing: scrapere
+[2023-05-05 11:04:07] INFO root fetch - main [MainThread]: End processing [pyroporn] error
+[2023-05-05 11:04:07] INFO root fetch - processPackages [scrapere]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 11:04:07] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: Downloading https://files.pythonhosted.org/packages/49/56/c82afd7e0ac9b07945476542588544515881ee540d83104316e5a85d772d/unique_char_counter_cli_kir_boh-1.5.1.tar.gz
+[2023-05-05 11:04:07] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2023-05-05 11:04:07] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230505/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-05-05 11:04:07] INFO root fetch - processPackages [scrapere]: executing diffoscope
+[2023-05-05 11:04:07] INFO root fetch - processPackages [scrapere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapere-0.1.3.tar.gz tmp/scrapere-0.1.4.tar.gz --markdown 20230505/s/scrapere/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 11:04:07] INFO root fetch - processPackages [maxeqx-dc-token.py]: Downloading https://files.pythonhosted.org/packages/91/0a/ad366410fda18e922091e363cd5eea8f28a7d22ebf82e0f14fa911316da7/maxeqx-dc-token.py-1.0.0.tar.gz
+[2023-05-05 11:04:07] INFO root fetch - processPackages [collective.superfish]: Downloading https://files.pythonhosted.org/packages/a2/4b/9bc40cb11bacab264d542fa3ce8a498ad9fafef061485a1c94cfbb672043/collective.superfish-2.0a1.tar.gz
+[2023-05-05 11:04:07] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/3c/98/ad183b7fa71d018cc9eced322639aaff5c80dec2c3c635a5a2962cc87c35/auto-eval-0.1.3.tar.gz
+[2023-05-05 11:04:07] INFO root fetch - processPackages [cmem-plugin-pyshacl]: Downloading https://files.pythonhosted.org/packages/8e/d0/a65fa6d4514d771b676606233d4cd507beb526da3bd1cf277deee9639d7d/cmem_plugin_pyshacl-4.1.3rc4.tar.gz
+[2023-05-05 11:04:07] INFO root fetch - processPackages [torch4uie]: Downloading https://files.pythonhosted.org/packages/82/ca/81c29542a012ecf0d0cb5d8afb9aeaddfeabebc983ad5f174effa55136e7/torch4uie-2023.5.5.17.0.57.tar.gz
+[2023-05-05 11:04:07] INFO root fetch - processPackages [dustpylib]: Downloading https://files.pythonhosted.org/packages/e0/fd/10e1862a41fd083111ac2be7b6288a124e7678303c3dbb330bff02c4e66a/dustpylib-0.3.0rc1.tar.gz
+[2023-05-05 11:04:07] INFO root fetch - processPackages [torch4uie]: executing diffoscope
+[2023-05-05 11:04:07] INFO root fetch - processPackages [torch4uie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch4uie-2023.5.5.16.57.38.tar.gz tmp/torch4uie-2023.5.5.17.0.57.tar.gz --markdown 20230505/t/torch4uie/2023.5.5.16.57.38-2023.5.5.17.0.57/diff.md --exclude *.pyd
+[2023-05-05 11:04:07] INFO root fetch - processPackages [regtest]: Downloading https://files.pythonhosted.org/packages/f1/00/ce422855fcde2bf89c8b25b624d8c2add4fede7667df30232620f7a131c3/regtest-0.3.3.zip
+[2023-05-05 11:04:07] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: Downloading https://files.pythonhosted.org/packages/f3/e7/631b36059fa6803bbb439cbbf53234f21e6e7dc5a2e519c5958b9125725d/unique_char_counter_cli_kir_boh-1.5.2.tar.gz
+[2023-05-05 11:04:07] INFO root fetch - processPackages [regtest]: executing diffoscope
+[2023-05-05 11:04:07] INFO root fetch - processPackages [regtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regtest-0.3.2.zip tmp/regtest-0.3.3.zip --markdown 20230505/r/regtest/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-05 11:04:07] INFO root fetch - processPackages [maxeqx-dc-token.py]: Downloading https://files.pythonhosted.org/packages/09/1a/536943afd8eeae422161ec3f71c8bc3ed7e68cf054be6e47e6bacb695c83/maxeqx-dc-token.py-1.0.1.tar.gz
+[2023-05-05 11:04:07] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: executing diffoscope
+[2023-05-05 11:04:07] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unique_char_counter_cli_kir_boh-1.5.1.tar.gz tmp/unique_char_counter_cli_kir_boh-1.5.2.tar.gz --markdown 20230505/u/unique-char-counter-cli-kir-boh/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-05 11:04:07] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/0c/34/d6112586861fae45734b441c78eb247ef21b993d985dd84d087251cf9a65/auto-eval-0.1.4.tar.gz
+[2023-05-05 11:04:07] INFO root fetch - processPackages [maxeqx-dc-token.py]: executing diffoscope
+[2023-05-05 11:04:07] INFO root fetch - processPackages [maxeqx-dc-token.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxeqx-dc-token.py-1.0.0.tar.gz tmp/maxeqx-dc-token.py-1.0.1.tar.gz --markdown 20230505/m/maxeqx-dc-token.py/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 11:04:07] INFO root fetch - processPackages [auto-eval]: executing diffoscope
+[2023-05-05 11:04:07] INFO root fetch - processPackages [auto-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-eval-0.1.3.tar.gz tmp/auto-eval-0.1.4.tar.gz --markdown 20230505/a/auto-eval/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 11:04:07] INFO root fetch - processPackages [collective.superfish]: Downloading https://files.pythonhosted.org/packages/ee/8b/e2c9e87ab9ad0a1e4d06ddffbdd4354316da85614100ed97fcc4e5e70db3/collective.superfish-2.1.tar.gz
+[2023-05-05 11:04:07] INFO root fetch - processPackages [cmem-plugin-pyshacl]: Downloading https://files.pythonhosted.org/packages/54/a0/08dd954fbba3707c1b61a11d0ab6ebc6598448eede5c2aec34d773da678d/cmem_plugin_pyshacl-4.2.0rc1.tar.gz
+[2023-05-05 11:04:07] INFO root fetch - processPackages [collective.superfish]: executing diffoscope
+[2023-05-05 11:04:07] INFO root fetch - processPackages [collective.superfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.superfish-2.0a1.tar.gz tmp/collective.superfish-2.1.tar.gz --markdown 20230505/c/collective.superfish/2.0a1-2.1/diff.md --exclude *.pyd
+[2023-05-05 11:04:07] INFO root fetch - processPackages [cmem-plugin-pyshacl]: executing diffoscope
+[2023-05-05 11:04:07] INFO root fetch - processPackages [cmem-plugin-pyshacl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_pyshacl-4.1.3rc4.tar.gz tmp/cmem_plugin_pyshacl-4.2.0rc1.tar.gz --markdown 20230505/c/cmem-plugin-pyshacl/4.1.3rc4-4.2.0rc1/diff.md --exclude *.pyd
+[2023-05-05 11:04:07] INFO root fetch - processPackages [dustpylib]: executing diffoscope
+[2023-05-05 11:04:07] INFO root fetch - processPackages [dustpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dustpylib-0.3.0rc0.tar.gz tmp/dustpylib-0.3.0rc1.tar.gz --markdown 20230505/d/dustpylib/0.3.0rc0-0.3.0rc1/diff.md --exclude *.pyd
+[2023-05-05 11:04:08] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: Start processing: canaille
+[2023-05-05 11:04:08] INFO root fetch - main [MainThread]: End processing [unique-char-counter-cli-kir-boh]: success
+[2023-05-05 11:04:08] INFO root fetch - main [MainThread]: End processing [regtest]: success
+[2023-05-05 11:04:09] INFO root fetch - main [MainThread]: End processing [torch4uie]: success
+[2023-05-05 11:04:09] INFO root fetch - processPackages [canaille]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 11:04:09] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
+[2023-05-05 11:04:09] INFO root fetch - main [MainThread]: End processing [maxeqx-dc-token.py]: success
+[2023-05-05 11:04:09] INFO root fetch - processPackages [canaille]: Downloading https://files.pythonhosted.org/packages/d6/eb/991a3a33db9ca5921988151369084477a94b823d1f0b8df10104a1cf97eb/Canaille-0.0.8.tar.gz
+[2023-05-05 11:04:09] INFO root fetch - main [MainThread]: End processing [cmem-plugin-pyshacl]: success
+[2023-05-05 11:04:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2023-05-05 11:04:09] INFO root fetch - main [MainThread]: End processing [dustpylib]: success
+[2023-05-05 11:04:10] INFO root fetch - main [MainThread]: End processing [collective.superfish]: success
+[2023-05-05 11:04:10] INFO root fetch - processPackages [canaille]: Downloading https://files.pythonhosted.org/packages/ea/de/e5cb98bd36f4d3ede89c7fd372eb1414185d621efaba9f50b438082962d5/Canaille-0.0.9.tar.gz
+[2023-05-05 11:04:11] INFO root fetch - main [MainThread]: End processing [scrapere]: success
+[2023-05-05 11:04:11] INFO root fetch - processPackages [canaille]: executing diffoscope
+[2023-05-05 11:04:11] INFO root fetch - processPackages [canaille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Canaille-0.0.8.tar.gz tmp/Canaille-0.0.9.tar.gz --markdown 20230505/c/canaille/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 11:04:21] INFO root fetch - main [MainThread]: End processing [canaille]: success
+[2023-05-05 11:04:21] INFO root fetch - main [MainThread]: Store serial: [17984315]
