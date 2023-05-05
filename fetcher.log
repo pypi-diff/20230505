@@ -13296,3 +13296,123 @@
 [2023-05-05 13:53:50] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
 [2023-05-05 13:53:54] INFO root fetch - main [MainThread]: End processing [echolocator]: success
 [2023-05-05 13:53:54] INFO root fetch - main [MainThread]: Store serial: [17986371]
+[2023-05-05 13:58:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17986371]
+[2023-05-05 13:59:03] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-05 13:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybiolib
+[2023-05-05 13:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MDbrew
+[2023-05-05 13:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seppmail-converter
+[2023-05-05 13:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccxt
+[2023-05-05 13:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: better-python-lists
+[2023-05-05 13:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-05-05 13:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rpaframework
+[2023-05-05 13:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akerbp.mlops
+[2023-05-05 13:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: potatorch
+[2023-05-05 13:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: forged-client
+[2023-05-05 13:59:03] INFO root fetch - processPackages [seppmail-converter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 13:59:03] INFO root fetch - processPackages [MDbrew]: New version: [2.3.0] Old Version: [2.2.5]
+[2023-05-05 13:59:03] INFO root fetch - processPackages [better-python-lists]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-05 13:59:03] INFO root fetch - processPackages [forged-client]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-05 13:59:03] INFO root fetch - processPackages [rpaframework]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-05-05 13:59:03] INFO root fetch - processPackages [potatorch]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 13:59:03] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-05-05 13:59:03] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.1.1a2] Old Version: [3.1.0a1]
+[2023-05-05 13:59:03] INFO root fetch - processPackages [kcli]: New version: [99.0.202305051154] Old Version: [99.0.202305050933]
+[2023-05-05 13:59:03] INFO root fetch - processPackages [ccxt]: New version: [3.0.93] Old Version: [3.0.92]
+[2023-05-05 13:59:03] INFO root fetch - processPackages [forged-client]: Downloading https://files.pythonhosted.org/packages/74/d3/03b2e912f8cbd01f9f451fbbf1241cbf228ecb9f8a9ed2ea27e87ea36eb9/forged-client-0.0.1.tar.gz
+[2023-05-05 13:59:03] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/08/36/2753b6863128fce0fd17301c85f3767b92c880658c31f1a1f8773dd22d10/rpaframework-9.5.0.tar.gz
+[2023-05-05 13:59:03] INFO root fetch - processPackages [seppmail-converter]: Downloading https://files.pythonhosted.org/packages/1b/92/97e6c3d874a862e08fd9a08dd3141e7c0080a845a5aa7f72d7f955e32cc7/seppmail_converter-0.1.9.tar.gz
+[2023-05-05 13:59:03] INFO root fetch - processPackages [better-python-lists]: Downloading https://files.pythonhosted.org/packages/bc/c2/1c3040a2fd2dabab22178ea6f635d09c5069c5805eff0b409bb37f668379/better_python_lists-0.1.3.tar.gz
+[2023-05-05 13:59:04] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/24/7e/d7dad9a6b8be7fca65d6f0297ec0c4e382798cb9aeb8bffa4d022de637fb/kcli-99.0.202305051154-py3-none-any.whl
+[2023-05-05 13:59:04] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/22/57/6d6f2d5d2a8b6ae04577e6b6f3d9b49931b08689019a07bdf2d90ab404f1/ccxt-3.0.92.tar.gz
+[2023-05-05 13:59:04] INFO root fetch - processPackages [MDbrew]: Downloading https://files.pythonhosted.org/packages/25/71/73edfc71810f5c532d740dec5eaa0198e4e02e15efb59f5cf671fdfe2db6/MDbrew-2.3.0.tar.gz
+[2023-05-05 13:59:04] INFO root fetch - processPackages [seppmail-converter]: executing diffoscope
+[2023-05-05 13:59:04] INFO root fetch - processPackages [seppmail-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seppmail_converter-0.1.8.tar.gz tmp/seppmail_converter-0.1.9.tar.gz --markdown 20230505/s/seppmail-converter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 13:59:04] INFO root fetch - processPackages [better-python-lists]: executing diffoscope
+[2023-05-05 13:59:04] INFO root fetch - processPackages [better-python-lists]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better_python_lists-0.1.2.tar.gz tmp/better_python_lists-0.1.3.tar.gz --markdown 20230505/b/better-python-lists/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-05 13:59:04] INFO root fetch - processPackages [potatorch]: Downloading https://files.pythonhosted.org/packages/91/c5/3b58185f905e07c886ce5159759fe078d4d8e85fc2f6d9048a65d95b190a/potatorch-0.0.3.tar.gz
+[2023-05-05 13:59:04] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-05 13:59:04] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230505/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-05-05 13:59:04] INFO root fetch - processPackages [MDbrew]: executing diffoscope
+[2023-05-05 13:59:04] INFO root fetch - processPackages [MDbrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MDbrew-2.2.5.tar.gz tmp/MDbrew-2.3.0.tar.gz --markdown 20230505/M/MDbrew/2.2.5-2.3.0/diff.md --exclude *.pyd
+[2023-05-05 13:59:04] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/4f/07/16e319c399d37575d592477e3d257fc154cf20039204089510b6ed3e7e07/akerbp.mlops-3.1.1a2.tar.gz
+[2023-05-05 13:59:04] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-05 13:59:04] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305050933-py3-none-any.whl.zip tmp/kcli-99.0.202305051154-py3-none-any.whl.zip --markdown 20230505/k/kcli/99.0.202305050933-99.0.202305051154/diff.md --exclude *.pyd
+[2023-05-05 13:59:04] INFO root fetch - processPackages [forged-client]: Downloading https://files.pythonhosted.org/packages/ac/32/be8e1538da7b29d39de84c01a023140c85b4ade2a3ac4bb3d43162b716a5/forged-client-0.1.0.tar.gz
+[2023-05-05 13:59:04] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-05-05 13:59:04] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.1.0a1.tar.gz tmp/akerbp.mlops-3.1.1a2.tar.gz --markdown 20230505/a/akerbp.mlops/3.1.0a1-3.1.1a2/diff.md --exclude *.pyd
+[2023-05-05 13:59:04] INFO root fetch - processPackages [potatorch]: executing diffoscope
+[2023-05-05 13:59:04] INFO root fetch - processPackages [potatorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potatorch-0.0.2.tar.gz tmp/potatorch-0.0.3.tar.gz --markdown 20230505/p/potatorch/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 13:59:04] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/19/f7/1609648ebf433e2d03ee3021fe908033d03c9e34c819570efd47b68878c4/ccxt-3.0.93.tar.gz
+[2023-05-05 13:59:04] INFO root fetch - processPackages [forged-client]: executing diffoscope
+[2023-05-05 13:59:04] INFO root fetch - processPackages [forged-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forged-client-0.0.1.tar.gz tmp/forged-client-0.1.0.tar.gz --markdown 20230505/f/forged-client/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-05 13:59:04] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-05 13:59:04] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.92.tar.gz tmp/ccxt-3.0.93.tar.gz --markdown 20230505/c/ccxt/3.0.92-3.0.93/diff.md --exclude *.pyd
+[2023-05-05 13:59:05] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/ec/52/e237349f170c7f11301bcd83a500356a47b1480cdeee67c6971b224571b0/rpaframework-9.6.0.tar.gz
+[2023-05-05 13:59:05] INFO root fetch - processPackages [seppmail-converter]: Start processing: venv-modulefile
+[2023-05-05 13:59:05] INFO root fetch - main [MainThread]: End processing [seppmail-converter]: success
+[2023-05-05 13:59:05] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 13:59:05] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-05 13:59:05] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.8.tar.gz tmp/venv-modulefile-0.0.9.tar.gz --markdown 20230505/v/venv-modulefile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 13:59:05] INFO root fetch - processPackages [MDbrew]: Start processing: pyroporn
+[2023-05-05 13:59:05] INFO root fetch - main [MainThread]: End processing [MDbrew]: success
+[2023-05-05 13:59:05] INFO root fetch - processPackages [pyroporn]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 13:59:05] INFO root fetch - processPackages [better-python-lists]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-05 13:59:05] INFO root fetch - main [MainThread]: End processing [better-python-lists]: success
+[2023-05-05 13:59:05] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230505.6.35.992484] Old Version: [20230505.11.57.878314]
+[2023-05-05 13:59:05] INFO root fetch - processPackages [pyroporn]: Downloading https://files.pythonhosted.org/packages/f2/cc/9998b05920822525a889487bc4ea1ed5ac8524eef165e9d3f671b3070fb4/pyroporn-0.1.2.tar.gz
+[2023-05-05 13:59:06] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/48/b1/1e104af36bcc3cd7dbf6da9553f43ae3831937d7acc000fc7b322f39b854/certora-cli-alpha-rahav-cert-1987_update_regTest-20230505.11.57.878314.tar.gz
+[2023-05-05 13:59:06] INFO root fetch - processPackages [pybiolib]: Start processing: dst-handler
+[2023-05-05 13:59:06] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-05 13:59:06] WARNING root fetch - processPackages [dst-handler]: Skipping, unable to determine old version
+[2023-05-05 13:59:06] INFO root fetch - processPackages [dst-handler]: Start processing: tpucare
+[2023-05-05 13:59:06] INFO root fetch - main [MainThread]: End processing [dst-handler] error
+[2023-05-05 13:59:06] INFO root fetch - processPackages [pyroporn]: executing diffoscope
+[2023-05-05 13:59:06] INFO root fetch - processPackages [pyroporn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroporn-0.1.1.tar.gz tmp/pyroporn-0.1.2.tar.gz --markdown 20230505/p/pyroporn/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 13:59:06] INFO root fetch - processPackages [tpucare]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-05 13:59:06] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38472959>=10485760
+[2023-05-05 13:59:06] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Start processing: mrftools
+[2023-05-05 13:59:06] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-05 13:59:06] INFO root fetch - processPackages [mrftools]: New version: [0.2.1] Old Version: [0.1.9]
+[2023-05-05 13:59:06] INFO root fetch - processPackages [forged-client]: Start processing: geofileops
+[2023-05-05 13:59:06] INFO root fetch - main [MainThread]: End processing [forged-client]: success
+[2023-05-05 13:59:06] INFO root fetch - processPackages [akerbp.mlops]: Start processing: sry
+[2023-05-05 13:59:06] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-05-05 13:59:06] INFO root fetch - processPackages [geofileops]: New version: [0.8.0a3] Old Version: [0.8.0a2]
+[2023-05-05 13:59:06] INFO root fetch - processPackages [sry]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-05 13:59:06] INFO root fetch - processPackages [rpaframework]: executing diffoscope
+[2023-05-05 13:59:06] INFO root fetch - processPackages [rpaframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework-9.5.0.tar.gz tmp/rpaframework-9.6.0.tar.gz --markdown 20230505/r/rpaframework/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-05-05 13:59:06] INFO root fetch - processPackages [potatorch]: Start processing: pyswitchbee
+[2023-05-05 13:59:06] INFO root fetch - main [MainThread]: End processing [potatorch]: success
+[2023-05-05 13:59:06] INFO root fetch - processPackages [tpucare]: Downloading https://files.pythonhosted.org/packages/96/20/a414afd237895d6ef95f0c24d3620c40be960476b48a636f6e3f22a454a8/tpucare-0.4.2.tar.gz
+[2023-05-05 13:59:06] INFO root fetch - processPackages [pyswitchbee]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-05-05 13:59:06] INFO root fetch - processPackages [mrftools]: Downloading https://files.pythonhosted.org/packages/a0/e3/92e5fedc90dd99fcff6c8ae9bcf6653540057101bf5ec5179d9c5e5d1afc/mrftools-0.1.9.tar.gz
+[2023-05-05 13:59:06] INFO root fetch - processPackages [pyswitchbee]: executing diffoscope
+[2023-05-05 13:59:06] INFO root fetch - processPackages [pyswitchbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswitchbee-1.7.8.tar.gz tmp/pyswitchbee-1.7.9.tar.gz --markdown 20230505/p/pyswitchbee/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-05-05 13:59:06] INFO root fetch - processPackages [geofileops]: Downloading https://files.pythonhosted.org/packages/96/dc/d0a8b9caf5c8e4e42ac119b5c94fe7155bc7d1ac0b60582bb55bcd54118b/geofileops-0.8.0a2.tar.gz
+[2023-05-05 13:59:06] INFO root fetch - processPackages [sry]: Downloading https://files.pythonhosted.org/packages/28/3c/aaec9aaec96db6339a2135b7da1b2eeae382c0874fe1dd45b77196172380/sry-0.0.1-py3-none-any.whl
+[2023-05-05 13:59:06] INFO root fetch - processPackages [tpucare]: Downloading https://files.pythonhosted.org/packages/8c/a2/9dedeb546832af67c246c5c4a56958cdb445ff72afbf13cb79e91062003a/tpucare-0.4.3.tar.gz
+[2023-05-05 13:59:06] INFO root fetch - processPackages [tpucare]: executing diffoscope
+[2023-05-05 13:59:06] INFO root fetch - processPackages [tpucare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpucare-0.4.2.tar.gz tmp/tpucare-0.4.3.tar.gz --markdown 20230505/t/tpucare/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-05 13:59:06] INFO root fetch - processPackages [sry]: Downloading https://files.pythonhosted.org/packages/57/a1/b5cc5e8cd399a43819f2e4937f4364c1d04803418dbfe4e877fc46884295/sry-0.0.1.tar.gz
+[2023-05-05 13:59:06] INFO root fetch - processPackages [geofileops]: Downloading https://files.pythonhosted.org/packages/a3/1e/0efc5aab3a5a315b275145894cbf3488757c873c1e4f719a4977d6a6a89b/geofileops-0.8.0a3.tar.gz
+[2023-05-05 13:59:06] INFO root fetch - processPackages [mrftools]: Downloading https://files.pythonhosted.org/packages/1d/4f/58ec315d1029a0c283f615268b5fdaa1416db3dee929647f58983271bffe/mrftools-0.2.1.tar.gz
+[2023-05-05 13:59:06] INFO root fetch - processPackages [sry]: executing diffoscope
+[2023-05-05 13:59:06] INFO root fetch - processPackages [sry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sry-0.0.1-py3-none-any.whl.zip tmp/sry-0.0.1.tar.gz --markdown 20230505/s/sry/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-05 13:59:07] INFO root fetch - processPackages [geofileops]: executing diffoscope
+[2023-05-05 13:59:07] INFO root fetch - processPackages [geofileops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofileops-0.8.0a2.tar.gz tmp/geofileops-0.8.0a3.tar.gz --markdown 20230505/g/geofileops/0.8.0a2-0.8.0a3/diff.md --exclude *.pyd
+[2023-05-05 13:59:07] INFO root fetch - processPackages [venv-modulefile]: Start processing: spacy-curated-transformers
+[2023-05-05 13:59:07] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-05 13:59:07] WARNING root fetch - processPackages [spacy-curated-transformers]: Skipping, unable to determine old version
+[2023-05-05 13:59:07] INFO root fetch - main [MainThread]: End processing [spacy-curated-transformers] error
+[2023-05-05 13:59:07] INFO root fetch - main [MainThread]: End processing [pyswitchbee]: success
+[2023-05-05 13:59:07] INFO root fetch - processPackages [mrftools]: executing diffoscope
+[2023-05-05 13:59:07] INFO root fetch - processPackages [mrftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrftools-0.1.9.tar.gz tmp/mrftools-0.2.1.tar.gz --markdown 20230505/m/mrftools/0.1.9-0.2.1/diff.md --exclude *.pyd
+[2023-05-05 13:59:07] INFO root fetch - main [MainThread]: End processing [tpucare]: success
+[2023-05-05 13:59:08] INFO root fetch - main [MainThread]: End processing [pyroporn]: success
+[2023-05-05 13:59:08] INFO root fetch - main [MainThread]: End processing [sry]: success
+[2023-05-05 13:59:08] INFO root fetch - main [MainThread]: End processing [geofileops]: success
+[2023-05-05 13:59:09] INFO root fetch - main [MainThread]: End processing [rpaframework]: success
+[2023-05-05 13:59:09] INFO root fetch - main [MainThread]: End processing [mrftools]: success
+[2023-05-05 13:59:11] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-05 13:59:15] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-05 13:59:15] INFO root fetch - main [MainThread]: Store serial: [17986440]
