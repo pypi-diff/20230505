@@ -17328,3 +17328,92 @@
 [2023-05-05 17:23:26] INFO root fetch - main [MainThread]: End processing [rattail]: success
 [2023-05-05 17:23:27] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-05-05 17:23:27] INFO root fetch - main [MainThread]: Store serial: [17989022]
+[2023-05-05 17:28:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17989022]
+[2023-05-05 17:28:36] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-05 17:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pglib
+[2023-05-05 17:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unicorn-binance-rest-api
+[2023-05-05 17:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvidia-cudnn-cu11
+[2023-05-05 17:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moto-ext
+[2023-05-05 17:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-cudnn-cu12
+[2023-05-05 17:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bluepyopt
+[2023-05-05 17:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Jvav
+[2023-05-05 17:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PDFVisor
+[2023-05-05 17:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nlp-pipeline
+[2023-05-05 17:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cagen
+[2023-05-05 17:28:37] INFO root fetch - processPackages [unicorn-binance-rest-api]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-05 17:28:37] INFO root fetch - processPackages [nlp-pipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 17:28:37] INFO root fetch - processPackages [nvidia-cudnn-cu12]: New version: [8.9.0.131] Old Version: [8.8.1.3]
+[2023-05-05 17:28:37] INFO root fetch - processPackages [nvidia-cudnn-cu11]: New version: [8.9.1.23] Old Version: [8.9.0.131]
+[2023-05-05 17:28:37] INFO root fetch - processPackages [Jvav]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-05 17:28:37] INFO root fetch - processPackages [pglib]: New version: [5.7.0] Old Version: [5.6.0]
+[2023-05-05 17:28:37] INFO root fetch - processPackages [moto-ext]: New version: [4.1.8.post1] Old Version: [4.1.7.post2]
+[2023-05-05 17:28:37] INFO root fetch - processPackages [PDFVisor]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 17:28:37] INFO root fetch - processPackages [bluepyopt]: New version: [1.9.98] Old Version: [1.9.96]
+[2023-05-05 17:28:37] INFO root fetch - processPackages [Jvav]: executing diffoscope
+[2023-05-05 17:28:37] INFO root fetch - processPackages [Jvav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jvav-1.2.8.tar.gz tmp/Jvav-1.2.9.tar.gz --markdown 20230505/J/Jvav/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-05 17:28:37] INFO root fetch - processPackages [nlp-pipeline]: executing diffoscope
+[2023-05-05 17:28:37] INFO root fetch - processPackages [nlp-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_pipeline-0.0.8.tar.gz tmp/nlp_pipeline-0.0.9.tar.gz --markdown 20230505/n/nlp-pipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 17:28:37] INFO root fetch - processPackages [cagen]: New version: [0.2.0b1] Old Version: [0.2.0a9]
+[2023-05-05 17:28:37] INFO root fetch - processPackages [nvidia-cudnn-cu11]: Downloading https://files.pythonhosted.org/packages/de/ab/480bd223774470722982214ebf9df23b2783c23bf94b31ffffc28a728a9f/nvidia_cudnn_cu11-8.9.0.131-py3-none-manylinux1_x86_64.whl
+[2023-05-05 17:28:37] INFO root fetch - processPackages [nvidia-cudnn-cu12]: Downloading https://files.pythonhosted.org/packages/40/64/d472b11ac03f164f6cdea5a0936a6399587d6e8bcc71a7fe94b94b7f4f2a/nvidia_cudnn_cu12-8.8.1.3-py3-none-manylinux1_x86_64.whl
+[2023-05-05 17:28:37] INFO root fetch - processPackages [pglib]: Downloading https://files.pythonhosted.org/packages/d5/62/25a4560c6229a6a3503444de6ed219a2f5db28789d0a95fbb6994b5886fc/pglib-5.6.0.tar.gz
+[2023-05-05 17:28:37] INFO root fetch - processPackages [unicorn-binance-rest-api]: Downloading https://files.pythonhosted.org/packages/45/81/9114ba34488342898aa33eaeeedfeb2bbf05d3441a22976e85f3434717bc/unicorn-binance-rest-api-1.8.1.tar.gz
+[2023-05-05 17:28:37] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/dc/30/ac63d37ea7f09b2af528b98a26214e8081ed53eb7d13b5db14dd48598669/moto-ext-4.1.7.post2.tar.gz
+[2023-05-05 17:28:37] WARNING root fetch - processPackages [nvidia-cudnn-cu11]: Skipping package: exceeds size limit 720034968>=10485760
+[2023-05-05 17:28:37] INFO root fetch - processPackages [nvidia-cudnn-cu11]: Start processing: parsgod
+[2023-05-05 17:28:37] INFO root fetch - main [MainThread]: End processing [nvidia-cudnn-cu11] error
+[2023-05-05 17:28:37] INFO root fetch - processPackages [PDFVisor]: Downloading https://files.pythonhosted.org/packages/1e/2a/ff49c6368c3ea703b07d7ce192c9a77c8cf578f56ece7129e56235cb99c6/PDFVisor-0.1.0.tar.gz
+[2023-05-05 17:28:37] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/32/f2/ecc635f4d7f75b946eb5355a4cc68d0341e5e47a5e105fe0db256e7fa113/cagen-0.2.0a9.tar.gz
+[2023-05-05 17:28:37] WARNING root fetch - processPackages [nvidia-cudnn-cu12]: Skipping package: exceeds size limit 718424677>=10485760
+[2023-05-05 17:28:37] INFO root fetch - processPackages [nvidia-cudnn-cu12]: Start processing: editanything
+[2023-05-05 17:28:37] INFO root fetch - main [MainThread]: End processing [nvidia-cudnn-cu12] error
+[2023-05-05 17:28:37] WARNING root fetch - processPackages [parsgod]: Skipping, unable to determine old version
+[2023-05-05 17:28:37] INFO root fetch - processPackages [parsgod]: Start processing: imod
+[2023-05-05 17:28:37] INFO root fetch - main [MainThread]: End processing [parsgod] error
+[2023-05-05 17:28:37] INFO root fetch - processPackages [editanything]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 17:28:37] INFO root fetch - processPackages [pglib]: Downloading https://files.pythonhosted.org/packages/98/84/f2094230c2bb8b31a6523314c88126774f65ee35d6b9e52c6fb0c02a9c62/pglib-5.7.0.tar.gz
+[2023-05-05 17:28:37] INFO root fetch - processPackages [editanything]: executing diffoscope
+[2023-05-05 17:28:37] INFO root fetch - processPackages [editanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/editanything-0.0.7.tar.gz tmp/editanything-0.0.8.tar.gz --markdown 20230505/e/editanything/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 17:28:37] INFO root fetch - processPackages [imod]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-05 17:28:37] INFO root fetch - processPackages [bluepyopt]: executing diffoscope
+[2023-05-05 17:28:37] INFO root fetch - processPackages [bluepyopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyopt-1.9.96.tar.gz tmp/bluepyopt-1.9.98.tar.gz --markdown 20230505/b/bluepyopt/1.9.96-1.9.98/diff.md --exclude *.pyd
+[2023-05-05 17:28:37] INFO root fetch - processPackages [pglib]: executing diffoscope
+[2023-05-05 17:28:37] INFO root fetch - processPackages [pglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pglib-5.6.0.tar.gz tmp/pglib-5.7.0.tar.gz --markdown 20230505/p/pglib/5.6.0-5.7.0/diff.md --exclude *.pyd
+[2023-05-05 17:28:37] INFO root fetch - processPackages [PDFVisor]: Downloading https://files.pythonhosted.org/packages/9c/cb/a39d3928b5e4cef809794e10669a87b9343d46308b7d0a4de7da64f09487/PDFVisor-0.1.1.tar.gz
+[2023-05-05 17:28:37] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/a2/e9/90d0a0ef27fc081d195aa7e083e10db0a80e96eaeb892b1ce2c3b114901b/moto-ext-4.1.8.post1.tar.gz
+[2023-05-05 17:28:37] INFO root fetch - processPackages [unicorn-binance-rest-api]: Downloading https://files.pythonhosted.org/packages/ef/68/b58b1de1604b678d519bac6e2cd22d3a843200aa9ce4e1e189d6eff43fc3/unicorn-binance-rest-api-1.9.0.tar.gz
+[2023-05-05 17:28:37] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/fe/7a/f705ecd16261834126436efec906c55b922760710f889869317910e0b446/cagen-0.2.0b1.tar.gz
+[2023-05-05 17:28:37] INFO root fetch - processPackages [PDFVisor]: executing diffoscope
+[2023-05-05 17:28:37] INFO root fetch - processPackages [PDFVisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PDFVisor-0.1.0.tar.gz tmp/PDFVisor-0.1.1.tar.gz --markdown 20230505/P/PDFVisor/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 17:28:37] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2023-05-05 17:28:37] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-ext-4.1.7.post2.tar.gz tmp/moto-ext-4.1.8.post1.tar.gz --markdown 20230505/m/moto-ext/4.1.7.post2-4.1.8.post1/diff.md --exclude *.pyd
+[2023-05-05 17:28:37] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-05-05 17:28:37] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0a9.tar.gz tmp/cagen-0.2.0b1.tar.gz --markdown 20230505/c/cagen/0.2.0a9-0.2.0b1/diff.md --exclude *.pyd
+[2023-05-05 17:28:37] INFO root fetch - processPackages [unicorn-binance-rest-api]: executing diffoscope
+[2023-05-05 17:28:37] INFO root fetch - processPackages [unicorn-binance-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicorn-binance-rest-api-1.8.1.tar.gz tmp/unicorn-binance-rest-api-1.9.0.tar.gz --markdown 20230505/u/unicorn-binance-rest-api/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-05 17:28:37] INFO root fetch - processPackages [imod]: executing diffoscope
+[2023-05-05 17:28:37] INFO root fetch - processPackages [imod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imod-0.8.0.tar.gz tmp/imod-0.9.0.tar.gz --markdown 20230505/i/imod/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 17:28:38] INFO root fetch - processPackages [editanything]: Start processing: qpp
+[2023-05-05 17:28:38] INFO root fetch - main [MainThread]: End processing [editanything]: success
+[2023-05-05 17:28:38] INFO root fetch - processPackages [nlp-pipeline]: Start processing: pyroporn
+[2023-05-05 17:28:38] INFO root fetch - main [MainThread]: End processing [nlp-pipeline]: success
+[2023-05-05 17:28:38] INFO root fetch - processPackages [pyroporn]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-05 17:28:38] WARNING root fetch - processPackages [qpp]: Skipping, unable to determine old version
+[2023-05-05 17:28:38] INFO root fetch - processPackages [qpp]: Start processing: sqlsprinkler-python-GT3CH1
+[2023-05-05 17:28:38] INFO root fetch - main [MainThread]: End processing [qpp] error
+[2023-05-05 17:28:38] INFO root fetch - main [MainThread]: End processing [Jvav]: success
+[2023-05-05 17:28:38] INFO root fetch - processPackages [sqlsprinkler-python-GT3CH1]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 17:28:38] INFO root fetch - processPackages [pyroporn]: executing diffoscope
+[2023-05-05 17:28:38] INFO root fetch - processPackages [pyroporn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroporn-0.1.5.tar.gz tmp/pyroporn-0.1.6.tar.gz --markdown 20230505/p/pyroporn/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-05 17:28:39] INFO root fetch - processPackages [sqlsprinkler-python-GT3CH1]: executing diffoscope
+[2023-05-05 17:28:39] INFO root fetch - processPackages [sqlsprinkler-python-GT3CH1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlsprinkler-python-GT3CH1-0.0.4.tar.gz tmp/sqlsprinkler-python-GT3CH1-0.0.5.tar.gz --markdown 20230505/s/sqlsprinkler-python-GT3CH1/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 17:28:39] INFO root fetch - main [MainThread]: End processing [PDFVisor]: success
+[2023-05-05 17:28:39] INFO root fetch - main [MainThread]: End processing [pglib]: success
+[2023-05-05 17:28:39] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-05-05 17:28:40] INFO root fetch - main [MainThread]: End processing [sqlsprinkler-python-GT3CH1]: success
+[2023-05-05 17:28:40] INFO root fetch - main [MainThread]: End processing [unicorn-binance-rest-api]: success
+[2023-05-05 17:28:40] INFO root fetch - main [MainThread]: End processing [pyroporn]: success
+[2023-05-05 17:28:40] INFO root fetch - main [MainThread]: End processing [bluepyopt]: success
+[2023-05-05 17:28:41] INFO root fetch - main [MainThread]: End processing [imod]: success
+[2023-05-05 17:29:35] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
+[2023-05-05 17:29:35] INFO root fetch - main [MainThread]: Store serial: [17989069]
