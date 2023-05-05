@@ -8900,3 +8900,83 @@
 [2023-05-05 10:05:11] INFO root fetch - main [MainThread]: End processing [moftransformer]: success
 [2023-05-05 10:05:16] INFO root fetch - main [MainThread]: End processing [argus-api]: success
 [2023-05-05 10:05:16] INFO root fetch - main [MainThread]: Store serial: [17983789]
+[2023-05-05 10:10:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17983789]
+[2023-05-05 10:10:25] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi
+[2023-05-05 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sui-brownie
+[2023-05-05 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-es-partner
+[2023-05-05 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paddypy
+[2023-05-05 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yetl-framework
+[2023-05-05 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyglove
+[2023-05-05 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pizurscan
+[2023-05-05 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xrprimer
+[2023-05-05 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hyfi-template
+[2023-05-05 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unique-char-counter-cli-kir-boh
+[2023-05-05 10:10:25] INFO root fetch - processPackages [hyfi]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-05 10:10:25] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 10:10:25] INFO root fetch - processPackages [xrprimer]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-05 10:10:25] INFO root fetch - processPackages [paddypy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 10:10:25] INFO root fetch - processPackages [pizurscan]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-05 10:10:25] INFO root fetch - processPackages [sui-brownie]: New version: [1.0.1] Old Version: [0.33.0]
+[2023-05-05 10:10:25] INFO root fetch - processPackages [yetl-framework]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 10:10:25] INFO root fetch - processPackages [odoo14-addon-l10n-es-partner]: New version: [14.0.1.0.3.dev2] Old Version: [14.0.1.0.3.dev1]
+[2023-05-05 10:10:25] INFO root fetch - processPackages [hyfi-template]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-05 10:10:25] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230505] Old Version: [0.3.1.dev20230504]
+[2023-05-05 10:10:25] INFO root fetch - processPackages [pizurscan]: Downloading https://files.pythonhosted.org/packages/0f/09/aaaeb4e8db6867fca20eb54b03a32826ed3e186ce55b0ccc73e23904a178/pizurscan-0.1.5.tar.gz
+[2023-05-05 10:10:25] INFO root fetch - processPackages [paddypy]: Downloading https://files.pythonhosted.org/packages/69/00/3acf5b12e2c02e2bc965d9aa7ed3db5e6a930b1ece583482bc076b19a27f/paddypy-0.1.4.tar.gz
+[2023-05-05 10:10:25] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: Downloading https://files.pythonhosted.org/packages/bc/1c/01392fd13c68fd26c1e2f7c1e6143a0ff9cf2e0c901a057c21635e0f2d15/unique_char_counter_cli_kir_boh-0.0.2.tar.gz
+[2023-05-05 10:10:25] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/38/96/b063d00cc948ef0db5af31b11df025995ff3751c57ad783eae0c8c320331/yetl-framework-1.0.1.tar.gz
+[2023-05-05 10:10:25] INFO root fetch - processPackages [odoo14-addon-l10n-es-partner]: Downloading https://files.pythonhosted.org/packages/f5/c7/86cd355ce398ad9a5fb91db8d8469a5f73c6a63b28578b685a18b1f1d112/odoo14_addon_l10n_es_partner-14.0.1.0.3.dev1-py3-none-any.whl
+[2023-05-05 10:10:25] INFO root fetch - processPackages [xrprimer]: Downloading https://files.pythonhosted.org/packages/96/6d/836ff44790bd45e45e1bc6b99d1597e5db3284b3b59f8ef4eedac473c38c/xrprimer-0.6.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-05 10:10:25] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/73/0f/e08f715bff32d4630eacf58c35006a5badaf492eb1f8e3b6a492d46169bd/hyfi_template-0.2.2.tar.gz
+[2023-05-05 10:10:25] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/a0/31/44f10b4321e228d7c2664d891e53e18305b5643720458cff7c2a50fbd7b4/pyglove-0.3.1.dev20230505.tar.gz
+[2023-05-05 10:10:25] INFO root fetch - processPackages [sui-brownie]: Downloading https://files.pythonhosted.org/packages/ec/23/d8209b4f41efc699bd237b7e20ec1961fb451d655384543173433f9605a2/sui_brownie-0.33.0-py3-none-any.whl
+[2023-05-05 10:10:25] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/8e/82/49200a5567a5012260b7c4f9295010d788672d757fd7bd6ce814f2b52047/hyfi-0.3.5.tar.gz
+[2023-05-05 10:10:25] INFO root fetch - processPackages [paddypy]: executing diffoscope
+[2023-05-05 10:10:25] INFO root fetch - processPackages [paddypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddypy-0.1.3.tar.gz tmp/paddypy-0.1.4.tar.gz --markdown 20230505/p/paddypy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 10:10:26] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-05-05 10:10:26] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.3.4.tar.gz tmp/hyfi-0.3.5.tar.gz --markdown 20230505/h/hyfi/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-05 10:10:26] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-05-05 10:10:26] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.0.0.tar.gz tmp/yetl-framework-1.0.1.tar.gz --markdown 20230505/y/yetl-framework/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 10:10:26] INFO root fetch - processPackages [pizurscan]: Downloading https://files.pythonhosted.org/packages/d0/af/8f5b8895880605fdb170e8b8ebadefbfe7236745050a77af19b61fab1912/pizurscan-0.1.6.tar.gz
+[2023-05-05 10:10:26] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-05-05 10:10:26] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.2.1.tar.gz tmp/hyfi_template-0.2.2.tar.gz --markdown 20230505/h/hyfi-template/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-05 10:10:26] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-05-05 10:10:26] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230504.tar.gz tmp/pyglove-0.3.1.dev20230505.tar.gz --markdown 20230505/p/pyglove/0.3.1.dev20230504-0.3.1.dev20230505/diff.md --exclude *.pyd
+[2023-05-05 10:10:26] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: Downloading https://files.pythonhosted.org/packages/26/35/651eed3470491179e9010ae2df3450b05956c2a137fb524dd8174f53d540/unique_char_counter_cli_kir_boh-0.0.3-py3-none-any.whl
+[2023-05-05 10:10:26] INFO root fetch - processPackages [pizurscan]: executing diffoscope
+[2023-05-05 10:10:26] INFO root fetch - processPackages [pizurscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pizurscan-0.1.5.tar.gz tmp/pizurscan-0.1.6.tar.gz --markdown 20230505/p/pizurscan/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-05 10:10:26] INFO root fetch - processPackages [sui-brownie]: Downloading https://files.pythonhosted.org/packages/82/95/3900c2243b9a1919b0c8f4957649b3fb5d2a601228acc1b368e0cb0dd560/sui_brownie-1.0.1-py3-none-any.whl
+[2023-05-05 10:10:26] INFO root fetch - processPackages [odoo14-addon-l10n-es-partner]: Downloading https://files.pythonhosted.org/packages/52/a1/a0b89d12078c1289b3347fb6c9f34e9baeaba357be13815a44db98d41f8a/odoo14_addon_l10n_es_partner-14.0.1.0.3.dev2-py3-none-any.whl
+[2023-05-05 10:10:26] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: executing diffoscope
+[2023-05-05 10:10:26] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unique_char_counter_cli_kir_boh-0.0.2.tar.gz tmp/unique_char_counter_cli_kir_boh-0.0.3-py3-none-any.whl.zip --markdown 20230505/u/unique-char-counter-cli-kir-boh/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 10:10:26] INFO root fetch - processPackages [sui-brownie]: executing diffoscope
+[2023-05-05 10:10:26] INFO root fetch - processPackages [sui-brownie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sui_brownie-0.33.0-py3-none-any.whl.zip tmp/sui_brownie-1.0.1-py3-none-any.whl.zip --markdown 20230505/s/sui-brownie/0.33.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 10:10:26] INFO root fetch - processPackages [odoo14-addon-l10n-es-partner]: executing diffoscope
+[2023-05-05 10:10:26] INFO root fetch - processPackages [odoo14-addon-l10n-es-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_partner-14.0.1.0.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_partner-14.0.1.0.3.dev2-py3-none-any.whl.zip --markdown 20230505/o/odoo14-addon-l10n-es-partner/14.0.1.0.3.dev1-14.0.1.0.3.dev2/diff.md --exclude *.pyd
+[2023-05-05 10:10:27] INFO root fetch - processPackages [paddypy]: Start processing: slack-watchman
+[2023-05-05 10:10:27] INFO root fetch - main [MainThread]: End processing [paddypy]: success
+[2023-05-05 10:10:27] INFO root fetch - processPackages [slack-watchman]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-05-05 10:10:27] INFO root fetch - processPackages [xrprimer]: Downloading https://files.pythonhosted.org/packages/10/af/e40dd6802a3b1cad8ad8415e42f24cb2273ed20e92d1365c850ad8b5f484/xrprimer-0.7.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-05 10:10:27] INFO root fetch - processPackages [yetl-framework]: Start processing: fastapi-profiler
+[2023-05-05 10:10:27] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-05-05 10:10:27] INFO root fetch - processPackages [fastapi-profiler]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-05 10:10:27] INFO root fetch - main [MainThread]: End processing [pizurscan]: success
+[2023-05-05 10:10:27] INFO root fetch - main [MainThread]: End processing [unique-char-counter-cli-kir-boh]: success
+[2023-05-05 10:10:27] WARNING root fetch - processPackages [xrprimer]: Skipping package: exceeds size limit 11151658>=10485760
+[2023-05-05 10:10:27] INFO root fetch - main [MainThread]: End processing [xrprimer] error
+[2023-05-05 10:10:27] INFO root fetch - processPackages [slack-watchman]: Downloading https://files.pythonhosted.org/packages/ec/5f/c8d502b7aaf992d062a885838ceeb7fb6443636b2324f6fe955306a2cf06/slack-watchman-4.0.1.tar.gz
+[2023-05-05 10:10:27] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-05-05 10:10:27] INFO root fetch - processPackages [slack-watchman]: executing diffoscope
+[2023-05-05 10:10:27] INFO root fetch - processPackages [slack-watchman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack-watchman-4.0.0.tar.gz tmp/slack-watchman-4.0.1.tar.gz --markdown 20230505/s/slack-watchman/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-05-05 10:10:27] INFO root fetch - processPackages [fastapi-profiler]: Downloading https://files.pythonhosted.org/packages/bf/71/a07c871faf782eeeb7ea0cad190356b7ead6b59c1ed867998af26315bdbe/fastapi_profiler-1.1.0-py3-none-any.whl
+[2023-05-05 10:10:27] INFO root fetch - main [MainThread]: End processing [sui-brownie]: success
+[2023-05-05 10:10:28] INFO root fetch - processPackages [fastapi-profiler]: Downloading https://files.pythonhosted.org/packages/02/23/ad8d27ec07a3087e8dbec720acfe26ab6e59f5688ca547061b578d4736ad/fastapi_profiler-1.2.0-py3-none-any.whl
+[2023-05-05 10:10:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-partner]: success
+[2023-05-05 10:10:28] INFO root fetch - processPackages [fastapi-profiler]: executing diffoscope
+[2023-05-05 10:10:28] INFO root fetch - processPackages [fastapi-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_profiler-1.1.0-py3-none-any.whl.zip tmp/fastapi_profiler-1.2.0-py3-none-any.whl.zip --markdown 20230505/f/fastapi-profiler/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-05 10:10:28] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-05-05 10:10:28] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-05-05 10:10:29] INFO root fetch - main [MainThread]: End processing [fastapi-profiler]: success
+[2023-05-05 10:10:29] INFO root fetch - main [MainThread]: End processing [slack-watchman]: success
+[2023-05-05 10:10:29] INFO root fetch - main [MainThread]: Store serial: [17983829]
