@@ -13808,3 +13808,137 @@
 [2023-05-05 14:21:30] INFO root fetch - main [MainThread]: End processing [minet]: success
 [2023-05-05 14:21:30] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
 [2023-05-05 14:21:30] INFO root fetch - main [MainThread]: Store serial: [17986673]
+[2023-05-05 14:26:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17986673]
+[2023-05-05 14:26:39] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-05 14:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: afex-sso
+[2023-05-05 14:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PicsToPdfs
+[2023-05-05 14:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-bank-python
+[2023-05-05 14:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: punch-api
+[2023-05-05 14:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqtorch
+[2023-05-05 14:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openstef-dbc
+[2023-05-05 14:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eurodb
+[2023-05-05 14:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phone-number-validator
+[2023-05-05 14:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: solders
+[2023-05-05 14:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyroporn
+[2023-05-05 14:26:39] INFO root fetch - processPackages [PicsToPdfs]: New version: [0.3.0] Old Version: [0.1.2]
+[2023-05-05 14:26:39] INFO root fetch - processPackages [solders]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-05 14:26:39] WARNING root fetch - processPackages [pyqtorch]: Skipping, unable to determine old version
+[2023-05-05 14:26:39] INFO root fetch - processPackages [pyqtorch]: Start processing: sheetcloud
+[2023-05-05 14:26:39] INFO root fetch - processPackages [afex-sso]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-05-05 14:26:39] INFO root fetch - main [MainThread]: End processing [pyqtorch] error
+[2023-05-05 14:26:39] INFO root fetch - processPackages [punch-api]: New version: [8.1.dev0] Old Version: [8.1.2]
+[2023-05-05 14:26:39] INFO root fetch - processPackages [eurodb]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 14:26:39] INFO root fetch - processPackages [pyroporn]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-05 14:26:39] INFO root fetch - processPackages [openstef-dbc]: New version: [3.6.6] Old Version: [3.6.5]
+[2023-05-05 14:26:39] INFO root fetch - processPackages [sheetcloud]: New version: [0.1.0.post1] Old Version: [0.1.0.post0]
+[2023-05-05 14:26:39] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-05 14:26:39] ERROR root fetch - processPackages [phone-number-validator]: Unable to get metadata: No such project 'phone-number-validator'
+[2023-05-05 14:26:39] INFO root fetch - processPackages [phone-number-validator]: Start processing: camerahub-tagger
+[2023-05-05 14:26:39] INFO root fetch - main [MainThread]: End processing [phone-number-validator] error
+[2023-05-05 14:26:39] INFO root fetch - processPackages [camerahub-tagger]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-05 14:26:39] INFO root fetch - processPackages [punch-api]: Downloading https://files.pythonhosted.org/packages/b3/d6/38ff5fbc1056a4c797ec0b5a675210ce23956b388d5d0a487685a3b3a8c8/punch_api-8.1.2.tar.gz
+[2023-05-05 14:26:39] INFO root fetch - processPackages [PicsToPdfs]: Downloading https://files.pythonhosted.org/packages/d7/62/aaedd9289738504a7634da1b68f4de47632fb0aa816aeb50a6bee0cc4bbd/PicsToPdfs-0.1.2.tar.gz
+[2023-05-05 14:26:39] INFO root fetch - processPackages [solders]: Downloading https://files.pythonhosted.org/packages/ca/f9/fa1942c8620dd0e805a48a37549e22b2276710f8ecc126474a76b274012f/solders-0.9.2.tar.gz
+[2023-05-05 14:26:39] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/66/55/a319ab29566ea27503e5b422e19463b07b3a9dbf76818dc2e606fc4bd773/afex-sso-0.0.41.tar.gz
+[2023-05-05 14:26:40] INFO root fetch - processPackages [pyroporn]: Downloading https://files.pythonhosted.org/packages/41/0d/3472f6f568fa7909f8bfd0779053c6d6d893373635d9cbb019eb31771648/pyroporn-0.1.3.tar.gz
+[2023-05-05 14:26:40] INFO root fetch - processPackages [sheetcloud]: Downloading https://files.pythonhosted.org/packages/2c/75/d837cc5baf5c3cb31d780c29ee53c30965a468e1393c808056a78cf86387/sheetcloud-0.1.0.post1.tar.gz
+[2023-05-05 14:26:40] INFO root fetch - processPackages [eurodb]: Downloading https://files.pythonhosted.org/packages/e9/08/14def41f7ecc160d639b12ca0223b7fb03695a70998cbb109b712de33990/eurodb-1.0.0.tar.gz
+[2023-05-05 14:26:40] INFO root fetch - processPackages [openstef-dbc]: Downloading https://files.pythonhosted.org/packages/7c/db/d7fb1d44ce6c761815cc8e6ae06304d6e24f36e80ae52a51f151938e043a/openstef_dbc-3.6.6.tar.gz
+[2023-05-05 14:26:40] INFO root fetch - processPackages [camerahub-tagger]: Downloading https://files.pythonhosted.org/packages/d5/c3/23b31c233c06288d11564292def55ea06669e90f3e521aedd44b53f4a21d/camerahub_tagger-0.3.1.tar.gz
+[2023-05-05 14:26:40] INFO root fetch - processPackages [openstef-dbc]: executing diffoscope
+[2023-05-05 14:26:40] INFO root fetch - processPackages [openstef-dbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef_dbc-3.6.5.tar.gz tmp/openstef_dbc-3.6.6.tar.gz --markdown 20230505/o/openstef-dbc/3.6.5-3.6.6/diff.md --exclude *.pyd
+[2023-05-05 14:26:40] INFO root fetch - processPackages [PicsToPdfs]: Downloading https://files.pythonhosted.org/packages/97/24/8cffffdb1f0efda1901382a6085fa395f35a045f5edc48d729c6c313b82f/PicsToPdfs-0.3.0.tar.gz
+[2023-05-05 14:26:40] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-05 14:26:40] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230505/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 14:26:40] INFO root fetch - processPackages [sheetcloud]: executing diffoscope
+[2023-05-05 14:26:40] INFO root fetch - processPackages [sheetcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sheetcloud-0.1.0.post0.tar.gz tmp/sheetcloud-0.1.0.post1.tar.gz --markdown 20230505/s/sheetcloud/0.1.0.post0-0.1.0.post1/diff.md --exclude *.pyd
+[2023-05-05 14:26:40] INFO root fetch - processPackages [eurodb]: Downloading https://files.pythonhosted.org/packages/d2/ca/2a8f365b41f5da0328758289117b1eac40786a34d0c79a53d6ec6dd2cb8d/eurodb-1.0.1.tar.gz
+[2023-05-05 14:26:40] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/90/47/1eefaa9a5e1f21e1bf99f0d146fd0f5011ce97f4b791df7ead7324b6cef8/afex-sso-0.0.42.tar.gz
+[2023-05-05 14:26:40] INFO root fetch - processPackages [punch-api]: Downloading https://files.pythonhosted.org/packages/5d/c8/804f4678e38ff304071fd1cac7ff16e5375605bfc6e8083683477555c129/punch_api-8.1.dev0.tar.gz
+[2023-05-05 14:26:40] INFO root fetch - processPackages [PicsToPdfs]: executing diffoscope
+[2023-05-05 14:26:40] INFO root fetch - processPackages [PicsToPdfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PicsToPdfs-0.1.2.tar.gz tmp/PicsToPdfs-0.3.0.tar.gz --markdown 20230505/P/PicsToPdfs/0.1.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 14:26:40] INFO root fetch - processPackages [eurodb]: executing diffoscope
+[2023-05-05 14:26:40] INFO root fetch - processPackages [eurodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurodb-1.0.0.tar.gz tmp/eurodb-1.0.1.tar.gz --markdown 20230505/e/eurodb/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 14:26:40] INFO root fetch - processPackages [camerahub-tagger]: Downloading https://files.pythonhosted.org/packages/77/70/43cef413dc325e0b0d22f474e47efe32ff461adaa783b3c4170e71053a3e/camerahub_tagger-0.3.2.tar.gz
+[2023-05-05 14:26:40] INFO root fetch - processPackages [solders]: Downloading https://files.pythonhosted.org/packages/b7/03/64846714c27720feaed177a01b5b96c6744de000aba7d8917c829cf7ce90/solders-0.9.3.tar.gz
+[2023-05-05 14:26:40] INFO root fetch - processPackages [afex-sso]: executing diffoscope
+[2023-05-05 14:26:40] INFO root fetch - processPackages [afex-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-sso-0.0.41.tar.gz tmp/afex-sso-0.0.42.tar.gz --markdown 20230505/a/afex-sso/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-05-05 14:26:40] INFO root fetch - processPackages [camerahub-tagger]: executing diffoscope
+[2023-05-05 14:26:40] INFO root fetch - processPackages [camerahub-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camerahub_tagger-0.3.1.tar.gz tmp/camerahub_tagger-0.3.2.tar.gz --markdown 20230505/c/camerahub-tagger/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-05 14:26:40] INFO root fetch - processPackages [solders]: executing diffoscope
+[2023-05-05 14:26:40] INFO root fetch - processPackages [solders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solders-0.9.2.tar.gz tmp/solders-0.9.3.tar.gz --markdown 20230505/s/solders/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-05 14:26:40] INFO root fetch - processPackages [punch-api]: executing diffoscope
+[2023-05-05 14:26:40] INFO root fetch - processPackages [punch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punch_api-8.1.2.tar.gz tmp/punch_api-8.1.dev0.tar.gz --markdown 20230505/p/punch-api/8.1.2-8.1.dev0/diff.md --exclude *.pyd
+[2023-05-05 14:26:41] INFO root fetch - processPackages [pyroporn]: executing diffoscope
+[2023-05-05 14:26:41] INFO root fetch - processPackages [pyroporn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroporn-0.1.2.tar.gz tmp/pyroporn-0.1.3.tar.gz --markdown 20230505/p/pyroporn/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-05 14:26:41] INFO root fetch - processPackages [openstef-dbc]: Start processing: sphere-base
+[2023-05-05 14:26:41] INFO root fetch - main [MainThread]: End processing [openstef-dbc]: success
+[2023-05-05 14:26:41] INFO root fetch - processPackages [sphere-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 14:26:41] INFO root fetch - processPackages [PicsToPdfs]: Start processing: spai
+[2023-05-05 14:26:41] INFO root fetch - main [MainThread]: End processing [PicsToPdfs]: success
+[2023-05-05 14:26:41] INFO root fetch - processPackages [sphere-base]: executing diffoscope
+[2023-05-05 14:26:41] INFO root fetch - processPackages [sphere-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_base-0.1.8.tar.gz tmp/sphere_base-0.1.9.tar.gz --markdown 20230505/s/sphere-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 14:26:41] WARNING root fetch - processPackages [spai]: Skipping, unable to determine old version
+[2023-05-05 14:26:41] INFO root fetch - processPackages [spai]: Start processing: woe-conversion
+[2023-05-05 14:26:41] INFO root fetch - main [MainThread]: End processing [spai] error
+[2023-05-05 14:26:41] INFO root fetch - processPackages [woe-conversion]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 14:26:42] INFO root fetch - processPackages [afex-sso]: Start processing: WordsToPdfs
+[2023-05-05 14:26:42] INFO root fetch - main [MainThread]: End processing [afex-sso]: success
+[2023-05-05 14:26:42] INFO root fetch - processPackages [woe-conversion]: Downloading https://files.pythonhosted.org/packages/0b/94/2dfa3e1c6fc79bacc61970f8ca3d482e5ca0a101a3093df9de50c6fabfc0/woe_conversion-0.0.5.tar.gz
+[2023-05-05 14:26:42] INFO root fetch - processPackages [camerahub-tagger]: Start processing: akshatbuffed
+[2023-05-05 14:26:42] INFO root fetch - main [MainThread]: End processing [camerahub-tagger]: success
+[2023-05-05 14:26:42] INFO root fetch - processPackages [WordsToPdfs]: New version: [0.3.0] Old Version: [0.1.4]
+[2023-05-05 14:26:42] WARNING root fetch - processPackages [akshatbuffed]: Skipping, unable to determine old version
+[2023-05-05 14:26:42] INFO root fetch - processPackages [akshatbuffed]: Start processing: pymatgen-io-fleur
+[2023-05-05 14:26:42] INFO root fetch - main [MainThread]: End processing [akshatbuffed] error
+[2023-05-05 14:26:42] INFO root fetch - processPackages [eurodb]: Start processing: UtilsRL
+[2023-05-05 14:26:42] INFO root fetch - main [MainThread]: End processing [eurodb]: success
+[2023-05-05 14:26:42] INFO root fetch - processPackages [pymatgen-io-fleur]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-05 14:26:42] INFO root fetch - processPackages [UtilsRL]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-05 14:26:42] INFO root fetch - processPackages [punch-api]: Start processing: mobie
+[2023-05-05 14:26:42] INFO root fetch - main [MainThread]: End processing [punch-api]: success
+[2023-05-05 14:26:42] INFO root fetch - processPackages [mobie]: New version: [4.0.1] Old Version: [3.0.9]
+[2023-05-05 14:26:42] INFO root fetch - processPackages [sheetcloud]: Start processing: issue-db-api
+[2023-05-05 14:26:42] INFO root fetch - main [MainThread]: End processing [sheetcloud]: success
+[2023-05-05 14:26:42] INFO root fetch - processPackages [issue-db-api]: New version: [0.7.0] Old Version: [0.6.6]
+[2023-05-05 14:26:42] INFO root fetch - processPackages [woe-conversion]: Downloading https://files.pythonhosted.org/packages/a9/d2/f7d215033c4a7f73bcc0d084cf6aa3a52f4e85e4d53123d7ed8e2b7df35d/woe_conversion-0.0.6.tar.gz
+[2023-05-05 14:26:42] INFO root fetch - processPackages [pymatgen-io-fleur]: Downloading https://files.pythonhosted.org/packages/55/b0/2460bea3450be454f56b68c19ac4fde664ce25251e4c3ccc49214973002e/pymatgen-io-fleur-0.4.1.tar.gz
+[2023-05-05 14:26:42] INFO root fetch - processPackages [UtilsRL]: Downloading https://files.pythonhosted.org/packages/8a/d4/d4602b17e977f7a175dfbacbf7c30375592752beb39575dd4f610ea27d92/UtilsRL-0.5.7.tar.gz
+[2023-05-05 14:26:42] INFO root fetch - processPackages [issue-db-api]: executing diffoscope
+[2023-05-05 14:26:42] INFO root fetch - processPackages [issue-db-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issue_db_api-0.6.6.tar.gz tmp/issue_db_api-0.7.0.tar.gz --markdown 20230505/i/issue-db-api/0.6.6-0.7.0/diff.md --exclude *.pyd
+[2023-05-05 14:26:42] INFO root fetch - processPackages [woe-conversion]: executing diffoscope
+[2023-05-05 14:26:42] INFO root fetch - processPackages [woe-conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woe_conversion-0.0.5.tar.gz tmp/woe_conversion-0.0.6.tar.gz --markdown 20230505/w/woe-conversion/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 14:26:42] INFO root fetch - processPackages [mobie]: Downloading https://files.pythonhosted.org/packages/d3/02/7a2c990392619463f3a24c1ec59318e0ee8db576de1cb19941074b43db3d/mobie-3.0.9.tar.gz
+[2023-05-05 14:26:42] INFO root fetch - processPackages [WordsToPdfs]: Downloading https://files.pythonhosted.org/packages/7f/58/9d07ab7a655393e3e274d3f68464757ea1e9a68090d18921314270c6556f/WordsToPdfs-0.1.4.tar.gz
+[2023-05-05 14:26:42] INFO root fetch - processPackages [pymatgen-io-fleur]: Downloading https://files.pythonhosted.org/packages/d1/72/c490c76005ee21250b53482999c255fd951dedf68fc5bcec128fb7caf7a9/pymatgen-io-fleur-0.5.0.tar.gz
+[2023-05-05 14:26:42] INFO root fetch - processPackages [UtilsRL]: Downloading https://files.pythonhosted.org/packages/b5/5a/a0f79f4807910f8a9b5ced485836908b57c1105eb4348190a5ab4c9094c7/UtilsRL-0.5.8.tar.gz
+[2023-05-05 14:26:42] INFO root fetch - processPackages [pymatgen-io-fleur]: executing diffoscope
+[2023-05-05 14:26:42] INFO root fetch - processPackages [pymatgen-io-fleur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymatgen-io-fleur-0.4.1.tar.gz tmp/pymatgen-io-fleur-0.5.0.tar.gz --markdown 20230505/p/pymatgen-io-fleur/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-05 14:26:42] INFO root fetch - processPackages [WordsToPdfs]: Downloading https://files.pythonhosted.org/packages/36/a6/ee411f04b03138f5ef9d1673b2385de2ef3d41439304a068482820086778/WordsToPdfs-0.3.0.tar.gz
+[2023-05-05 14:26:42] INFO root fetch - processPackages [mobie]: Downloading https://files.pythonhosted.org/packages/de/18/5e117232dd172c79b605baad21db46a037f9f6cee550ac6517c554231b0f/mobie-4.0.1.tar.gz
+[2023-05-05 14:26:42] INFO root fetch - processPackages [UtilsRL]: executing diffoscope
+[2023-05-05 14:26:42] INFO root fetch - processPackages [UtilsRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UtilsRL-0.5.7.tar.gz tmp/UtilsRL-0.5.8.tar.gz --markdown 20230505/U/UtilsRL/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-05 14:26:42] INFO root fetch - processPackages [WordsToPdfs]: executing diffoscope
+[2023-05-05 14:26:42] INFO root fetch - processPackages [WordsToPdfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WordsToPdfs-0.1.4.tar.gz tmp/WordsToPdfs-0.3.0.tar.gz --markdown 20230505/W/WordsToPdfs/0.1.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 14:26:42] INFO root fetch - processPackages [mobie]: executing diffoscope
+[2023-05-05 14:26:42] INFO root fetch - processPackages [mobie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobie-3.0.9.tar.gz tmp/mobie-4.0.1.tar.gz --markdown 20230505/m/mobie/3.0.9-4.0.1/diff.md --exclude *.pyd
+[2023-05-05 14:26:43] INFO root fetch - processPackages [pyroporn]: Start processing: twyn
+[2023-05-05 14:26:43] INFO root fetch - main [MainThread]: End processing [pyroporn]: success
+[2023-05-05 14:26:43] INFO root fetch - processPackages [woe-conversion]: Start processing: bsd
+[2023-05-05 14:26:43] INFO root fetch - main [MainThread]: End processing [woe-conversion]: success
+[2023-05-05 14:26:43] WARNING root fetch - processPackages [twyn]: Skipping, unable to determine old version
+[2023-05-05 14:26:43] INFO root fetch - processPackages [twyn]: Start processing: dynamic-qrcode-image
+[2023-05-05 14:26:43] INFO root fetch - main [MainThread]: End processing [twyn] error
+[2023-05-05 14:26:43] WARNING root fetch - processPackages [bsd]: Skipping, unable to determine old version
+[2023-05-05 14:26:43] INFO root fetch - main [MainThread]: End processing [bsd] error
+[2023-05-05 14:26:43] WARNING root fetch - processPackages [dynamic-qrcode-image]: Skipping, unable to determine old version
+[2023-05-05 14:26:43] INFO root fetch - main [MainThread]: End processing [dynamic-qrcode-image] error
+[2023-05-05 14:26:43] INFO root fetch - main [MainThread]: End processing [issue-db-api]: success
+[2023-05-05 14:26:44] INFO root fetch - main [MainThread]: End processing [pymatgen-io-fleur]: success
+[2023-05-05 14:26:44] INFO root fetch - main [MainThread]: End processing [WordsToPdfs]: success
+[2023-05-05 14:26:44] INFO root fetch - main [MainThread]: End processing [mobie]: success
+[2023-05-05 14:26:44] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
+[2023-05-05 14:26:44] INFO root fetch - main [MainThread]: End processing [solders]: success
+[2023-05-05 14:26:44] INFO root fetch - main [MainThread]: End processing [UtilsRL]: success
+[2023-05-05 14:26:47] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-05 14:26:47] INFO root fetch - main [MainThread]: Store serial: [17986800]
