@@ -5929,3 +5929,56 @@
 [2023-05-05 06:33:10] INFO root fetch - main [MainThread]: End processing [pyrfc]: success
 [2023-05-05 06:33:12] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2023-05-05 06:33:12] INFO root fetch - main [MainThread]: Store serial: [17981953]
+[2023-05-05 06:38:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981953]
+[2023-05-05 06:38:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-05 06:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Slpapy
+[2023-05-05 06:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intake-dataframe-catalog
+[2023-05-05 06:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mnfinder
+[2023-05-05 06:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: petrolib
+[2023-05-05 06:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: retention-rules
+[2023-05-05 06:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: notion-api
+[2023-05-05 06:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Slpapy
+[2023-05-05 06:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyfirebird
+[2023-05-05 06:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: authanor
+[2023-05-05 06:38:22] INFO root fetch - processPackages [Slpapy]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-05 06:38:22] INFO root fetch - processPackages [mnfinder]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-05 06:38:22] INFO root fetch - processPackages [authanor]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-05 06:38:22] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 06:38:22] INFO root fetch - processPackages [notion-api]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-05 06:38:22] WARNING root fetch - processPackages [intake-dataframe-catalog]: Skipping, unable to determine old version
+[2023-05-05 06:38:22] INFO root fetch - processPackages [petrolib]: New version: [1.2.5] Old Version: [1.2.4.1]
+[2023-05-05 06:38:22] WARNING root fetch - processPackages [retention-rules]: Skipping, unable to determine old version
+[2023-05-05 06:38:22] INFO root fetch - main [MainThread]: End processing [intake-dataframe-catalog] error
+[2023-05-05 06:38:22] INFO root fetch - processPackages [Slpapy]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-05 06:38:22] INFO root fetch - main [MainThread]: End processing [retention-rules] error
+[2023-05-05 06:38:22] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-05-05 06:38:22] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.8.tar.gz tmp/pyfirebird-0.0.9.tar.gz --markdown 20230505/p/pyfirebird/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 06:38:22] INFO root fetch - processPackages [petrolib]: Downloading https://files.pythonhosted.org/packages/c6/1c/614fa1a7f942c12aeed622fd780844e8e0c19914096b37b92baf2dd1b373/petrolib-1.2.4.1.tar.gz
+[2023-05-05 06:38:22] INFO root fetch - processPackages [mnfinder]: Downloading https://files.pythonhosted.org/packages/cc/19/fcceb2cc9f74349f39e5699d5303e056baae52f07273e66301812c4d41a4/mnfinder-0.1.5.tar.gz
+[2023-05-05 06:38:23] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/7a/3d/d94d354758305fc46357cc30216dd7fe37eebc5faa08970bbc31db2fa2d7/Slpapy-0.2.5-py3-none-any.whl
+[2023-05-05 06:38:23] INFO root fetch - processPackages [authanor]: Downloading https://files.pythonhosted.org/packages/98/a4/b11f35685f1a2e0e0f00abaeb820ca359d8ae7514cb6558ac2e5e849fbed/authanor-0.2.1.tar.gz
+[2023-05-05 06:38:23] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/7a/3d/d94d354758305fc46357cc30216dd7fe37eebc5faa08970bbc31db2fa2d7/Slpapy-0.2.5-py3-none-any.whl
+[2023-05-05 06:38:23] WARNING root fetch - processPackages [mnfinder]: Skipping package: exceeds size limit 33927020>=10485760
+[2023-05-05 06:38:23] INFO root fetch - main [MainThread]: End processing [mnfinder] error
+[2023-05-05 06:38:23] INFO root fetch - processPackages [notion-api]: Downloading https://files.pythonhosted.org/packages/f5/e6/f93b731a67fdb88a606c354f227a51439c8283032168e6ea8bd145012bad/notion_api-0.5.0.tar.gz
+[2023-05-05 06:38:23] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/c1/85/b2b080678cfd6dc80dc7a9a5401138db330c22879eeb4d87bf5cb350a75b/Slpapy-0.2.6.tar.gz
+[2023-05-05 06:38:23] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/c1/85/b2b080678cfd6dc80dc7a9a5401138db330c22879eeb4d87bf5cb350a75b/Slpapy-0.2.6.tar.gz
+[2023-05-05 06:38:23] INFO root fetch - processPackages [notion-api]: Downloading https://files.pythonhosted.org/packages/89/a2/611765b8a70cf0beda5c55478c72608ac7e7e68f73add2b8bc85a2b5ab72/notion_api-0.5.1.tar.gz
+[2023-05-05 06:38:23] INFO root fetch - processPackages [notion-api]: executing diffoscope
+[2023-05-05 06:38:23] INFO root fetch - processPackages [notion-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion_api-0.5.0.tar.gz tmp/notion_api-0.5.1.tar.gz --markdown 20230505/n/notion-api/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-05 06:38:23] INFO root fetch - processPackages [petrolib]: Downloading https://files.pythonhosted.org/packages/d8/73/dc02b91c0df8b9dd3e4527e65bdce2e3c9b31b9eb6229cd9c91bf17e037a/petrolib-1.2.5.tar.gz
+[2023-05-05 06:38:23] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-05-05 06:38:23] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-05-05 06:38:23] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.2.5-py3-none-any.whl.zip tmp/Slpapy-0.2.6.tar.gz --markdown 20230505/S/Slpapy/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-05 06:38:23] INFO root fetch - processPackages [authanor]: executing diffoscope
+[2023-05-05 06:38:23] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.2.5-py3-none-any.whl.zip tmp/Slpapy-0.2.6.tar.gz --markdown 20230505/S/Slpapy/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-05 06:38:23] INFO root fetch - processPackages [authanor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authanor-0.2.0.tar.gz tmp/authanor-0.2.1.tar.gz --markdown 20230505/a/authanor/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-05 06:38:23] INFO root fetch - processPackages [petrolib]: executing diffoscope
+[2023-05-05 06:38:23] INFO root fetch - processPackages [petrolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petrolib-1.2.4.1.tar.gz tmp/petrolib-1.2.5.tar.gz --markdown 20230505/p/petrolib/1.2.4.1-1.2.5/diff.md --exclude *.pyd
+[2023-05-05 06:38:23] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-05-05 06:38:24] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-05-05 06:38:24] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-05-05 06:38:24] INFO root fetch - main [MainThread]: End processing [authanor]: success
+[2023-05-05 06:38:24] INFO root fetch - main [MainThread]: End processing [notion-api]: success
+[2023-05-05 06:38:24] INFO root fetch - main [MainThread]: End processing [petrolib]: success
+[2023-05-05 06:38:24] INFO root fetch - main [MainThread]: Store serial: [17981983]
