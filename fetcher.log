@@ -5184,3 +5184,67 @@
 [2023-05-05 05:12:57] INFO root fetch - main [MainThread]: End processing [solox]: success
 [2023-05-05 05:13:31] INFO root fetch - main [MainThread]: End processing [py-spy-for-datakit]: success
 [2023-05-05 05:13:31] INFO root fetch - main [MainThread]: Store serial: [17981571]
+[2023-05-05 05:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981571]
+[2023-05-05 05:18:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyFCST
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GANDLF
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyMouseKey
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-strongly-typed
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-tts-server
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chalk-harness
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cosmic-variance
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-cdktf-provider-vault
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: checkov
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-brand
+[2023-05-05 05:18:52] INFO root fetch - processPackages [pyFCST]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 05:18:52] INFO root fetch - processPackages [PyMouseKey]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ovos-tts-server]: New version: [0.0.2a3] Old Version: [0.0.2]
+[2023-05-05 05:18:52] INFO root fetch - processPackages [py-strongly-typed]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-05 05:18:52] INFO root fetch - processPackages [GANDLF]: New version: [0.0.16.dev20230505] Old Version: [0.0.16.dev20230504]
+[2023-05-05 05:18:52] INFO root fetch - processPackages [odoo-addon-account-brand]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-05 05:18:52] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-05 05:18:52] INFO root fetch - processPackages [cosmic-variance]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-05 05:18:52] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-05-05 05:18:52] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-05 05:18:52] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-05-05 05:18:52] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230505/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ovos-tts-server]: Downloading https://files.pythonhosted.org/packages/25/b6/72bef377c95e65137c4a33a8c9294d3d54e8216b313fed94bab83c3350c7/ovos-tts-server-0.0.2.tar.gz
+[2023-05-05 05:18:52] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-05 05:18:52] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230505/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-05 05:18:52] INFO root fetch - processPackages [odoo-addon-account-brand]: Downloading https://files.pythonhosted.org/packages/fa/1a/5e5a1a23bbdb2c0be1b6ee2f6ad4e38086662267baef41320f1256cbb9d3/odoo_addon_account_brand-16.0.1.0.0.8-py3-none-any.whl
+[2023-05-05 05:18:52] INFO root fetch - processPackages [cosmic-variance]: Downloading https://files.pythonhosted.org/packages/a0/ff/e1aeeb5bb9544f09612cd26d6a8cacfa5fd7ceb5cebbb9d181ccf30e337d/cosmic_variance-0.0.9.tar.gz
+[2023-05-05 05:18:52] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/1c/90/739d93cadb264fa52e9dfd443d377ba940c1e8abc604ca968671b2c7c088/cdktf-cdktf-provider-vault-7.0.2.tar.gz
+[2023-05-05 05:18:52] INFO root fetch - processPackages [PyMouseKey]: Downloading https://files.pythonhosted.org/packages/78/b1/eb00d5c13b72b146d9a6b8c9b4ba2a089310ebc675f79655c0fb5cb01f17/PyMouseKey-1.0.3.tar.gz
+[2023-05-05 05:18:52] INFO root fetch - processPackages [py-strongly-typed]: Downloading https://files.pythonhosted.org/packages/e6/1b/1c56080e6c1e77acf6941438e929e5567e7e694a60f5d9ae70207c6890f2/py-strongly-typed-1.1.5.tar.gz
+[2023-05-05 05:18:52] INFO root fetch - processPackages [pyFCST]: Downloading https://files.pythonhosted.org/packages/3b/79/9592873b22b22496c392cda792d3e14165dffb0267e9629b20db999b41d4/pyFCST-0.0.9.tar.gz
+[2023-05-05 05:18:52] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/fb/61/4d33d4a5621b38de7d178e31eb673498b35a101006dd30db2644cb94aa7e/GANDLF-0.0.16.dev20230505.tar.gz
+[2023-05-05 05:18:52] INFO root fetch - processPackages [py-strongly-typed]: executing diffoscope
+[2023-05-05 05:18:52] INFO root fetch - processPackages [py-strongly-typed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-strongly-typed-1.1.4.tar.gz tmp/py-strongly-typed-1.1.5.tar.gz --markdown 20230505/p/py-strongly-typed/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-05 05:18:52] INFO root fetch - processPackages [pyFCST]: executing diffoscope
+[2023-05-05 05:18:52] INFO root fetch - processPackages [pyFCST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyFCST-0.0.8.tar.gz tmp/pyFCST-0.0.9.tar.gz --markdown 20230505/p/pyFCST/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 05:18:52] INFO root fetch - processPackages [PyMouseKey]: executing diffoscope
+[2023-05-05 05:18:52] INFO root fetch - processPackages [PyMouseKey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMouseKey-1.0.2.tar.gz tmp/PyMouseKey-1.0.3.tar.gz --markdown 20230505/P/PyMouseKey/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-05 05:18:52] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-05-05 05:18:52] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.16.dev20230504.tar.gz tmp/GANDLF-0.0.16.dev20230505.tar.gz --markdown 20230505/G/GANDLF/0.0.16.dev20230504-0.0.16.dev20230505/diff.md --exclude *.pyd
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ovos-tts-server]: Downloading https://files.pythonhosted.org/packages/e6/3a/10d5c29333e20e1348961e56e4e669954c64316800260dfda9cf922b141a/ovos-tts-server-0.0.2a3.tar.gz
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ovos-tts-server]: executing diffoscope
+[2023-05-05 05:18:52] INFO root fetch - processPackages [ovos-tts-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-tts-server-0.0.2.tar.gz tmp/ovos-tts-server-0.0.2a3.tar.gz --markdown 20230505/o/ovos-tts-server/0.0.2-0.0.2a3/diff.md --exclude *.pyd
+[2023-05-05 05:18:52] INFO root fetch - processPackages [odoo-addon-account-brand]: Downloading https://files.pythonhosted.org/packages/24/34/7d1e6e31549e6985e83122811ebacddf67eff8c24e68cc0c2eafe2ef9cf7/odoo_addon_account_brand-16.0.1.0.0.9-py3-none-any.whl
+[2023-05-05 05:18:52] INFO root fetch - processPackages [cosmic-variance]: Downloading https://files.pythonhosted.org/packages/84/ad/9acd6b9a5a53f92bb98f0e004743242e6e8e68dfc0e7abe1304d9e19b72b/cosmic_variance-0.1.0.tar.gz
+[2023-05-05 05:18:52] INFO root fetch - processPackages [cosmic-variance]: executing diffoscope
+[2023-05-05 05:18:52] INFO root fetch - processPackages [cosmic-variance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmic_variance-0.0.9.tar.gz tmp/cosmic_variance-0.1.0.tar.gz --markdown 20230505/c/cosmic-variance/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-05 05:18:52] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: executing diffoscope
+[2023-05-05 05:18:52] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-vault-7.0.1.tar.gz tmp/cdktf-cdktf-provider-vault-7.0.2.tar.gz --markdown 20230505/c/cdktf-cdktf-provider-vault/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2023-05-05 05:18:52] INFO root fetch - processPackages [odoo-addon-account-brand]: executing diffoscope
+[2023-05-05 05:18:52] INFO root fetch - processPackages [odoo-addon-account-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_brand-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_brand-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230505/o/odoo-addon-account-brand/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-05 05:18:53] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-05-05 05:18:54] INFO root fetch - main [MainThread]: End processing [ovos-tts-server]: success
+[2023-05-05 05:18:54] INFO root fetch - main [MainThread]: End processing [pyFCST]: success
+[2023-05-05 05:18:54] INFO root fetch - main [MainThread]: End processing [PyMouseKey]: success
+[2023-05-05 05:18:54] INFO root fetch - main [MainThread]: End processing [py-strongly-typed]: success
+[2023-05-05 05:18:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-brand]: success
+[2023-05-05 05:18:54] INFO root fetch - main [MainThread]: End processing [cosmic-variance]: success
+[2023-05-05 05:18:56] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-05-05 05:19:03] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
+[2023-05-05 05:19:30] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-05 05:19:30] INFO root fetch - main [MainThread]: Store serial: [17981601]
