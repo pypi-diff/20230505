@@ -5248,3 +5248,51 @@
 [2023-05-05 05:19:03] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
 [2023-05-05 05:19:30] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-05 05:19:30] INFO root fetch - main [MainThread]: Store serial: [17981601]
+[2023-05-05 05:24:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981601]
+[2023-05-05 05:24:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-05 05:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xyz-appoint
+[2023-05-05 05:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lariat-python-sdk
+[2023-05-05 05:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carchive
+[2023-05-05 05:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codefast
+[2023-05-05 05:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zkpy
+[2023-05-05 05:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lariat-python-sdk
+[2023-05-05 05:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-cdktf-provider-opentelekomcloud
+[2023-05-05 05:24:39] INFO root fetch - processPackages [xyz-appoint]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 05:24:39] INFO root fetch - processPackages [zkpy]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-05 05:24:39] INFO root fetch - processPackages [lariat-python-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 05:24:39] INFO root fetch - processPackages [carchive]: New version: [0.0.46] Old Version: [0.0.45]
+[2023-05-05 05:24:39] INFO root fetch - processPackages [lariat-python-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 05:24:39] INFO root fetch - processPackages [codefast]: New version: [23.5.5.11] Old Version: [23.5.4.16]
+[2023-05-05 05:24:39] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-05-05 05:24:39] INFO root fetch - processPackages [xyz-appoint]: Downloading https://files.pythonhosted.org/packages/56/68/d35e0eea8d6e5596cc44d227f02f826867d7417da089a781eae143235853/xyz_appoint-0.0.2-py3-none-any.whl
+[2023-05-05 05:24:39] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/62/2f/662ec59c4de17369a88c433ff5345d2e5928bdc4b8426e1eadd7b416ee9f/carchive-0.0.46.tar.gz
+[2023-05-05 05:24:39] INFO root fetch - processPackages [zkpy]: Downloading https://files.pythonhosted.org/packages/f3/d2/7982df000c53690cedf470561dfdcd5e8914aba2aff271b1079587f51fb2/zkpy-0.1.0.tar.gz
+[2023-05-05 05:24:39] INFO root fetch - processPackages [lariat-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/93/7264b27a8258b13a53ab5e7743276077881258b1099dc8ed433de2235f4e/lariat_python_sdk-0.1.1.tar.gz
+[2023-05-05 05:24:39] INFO root fetch - processPackages [lariat-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/93/7264b27a8258b13a53ab5e7743276077881258b1099dc8ed433de2235f4e/lariat_python_sdk-0.1.1.tar.gz
+[2023-05-05 05:24:39] INFO root fetch - processPackages [codefast]: Downloading https://files.pythonhosted.org/packages/81/ef/432de72d4813966899e4ca52eea548009ccbb7b3614e22e33f79d10e7289/codefast-23.5.5.11.tar.gz
+[2023-05-05 05:24:39] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Downloading https://files.pythonhosted.org/packages/61/7a/b3b19fa0ec00720fe3de8acd6252fc35ae66184df0541135d2c3da39f6b7/cdktf-cdktf-provider-opentelekomcloud-6.0.1.tar.gz
+[2023-05-05 05:24:39] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-05 05:24:39] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.45.tar.gz tmp/carchive-0.0.46.tar.gz --markdown 20230505/c/carchive/0.0.45-0.0.46/diff.md --exclude *.pyd
+[2023-05-05 05:24:39] INFO root fetch - processPackages [codefast]: executing diffoscope
+[2023-05-05 05:24:39] INFO root fetch - processPackages [codefast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codefast-23.5.4.16.tar.gz tmp/codefast-23.5.5.11.tar.gz --markdown 20230505/c/codefast/23.5.4.16-23.5.5.11/diff.md --exclude *.pyd
+[2023-05-05 05:24:40] INFO root fetch - processPackages [xyz-appoint]: Downloading https://files.pythonhosted.org/packages/fd/dc/9239d7735bc322c5021619cff4507ad42db3d4eafdb5397ecf26ea9540cc/xyz_appoint-0.0.3-py3-none-any.whl
+[2023-05-05 05:24:40] WARNING root fetch - processPackages [zkpy]: Skipping package: exceeds size limit 12650049>=10485760
+[2023-05-05 05:24:40] INFO root fetch - main [MainThread]: End processing [zkpy] error
+[2023-05-05 05:24:40] INFO root fetch - processPackages [lariat-python-sdk]: Downloading https://files.pythonhosted.org/packages/d4/2a/cce2b148e4ef29efa91c115a1dd0ab4d1777e64e17cafe208ff638fc7bf4/lariat_python_sdk-0.1.2.tar.gz
+[2023-05-05 05:24:40] INFO root fetch - processPackages [lariat-python-sdk]: Downloading https://files.pythonhosted.org/packages/d4/2a/cce2b148e4ef29efa91c115a1dd0ab4d1777e64e17cafe208ff638fc7bf4/lariat_python_sdk-0.1.2.tar.gz
+[2023-05-05 05:24:40] INFO root fetch - processPackages [lariat-python-sdk]: executing diffoscope
+[2023-05-05 05:24:40] INFO root fetch - processPackages [lariat-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lariat_python_sdk-0.1.1.tar.gz tmp/lariat_python_sdk-0.1.2.tar.gz --markdown 20230505/l/lariat-python-sdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 05:24:40] INFO root fetch - processPackages [lariat-python-sdk]: executing diffoscope
+[2023-05-05 05:24:40] INFO root fetch - processPackages [lariat-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lariat_python_sdk-0.1.1.tar.gz tmp/lariat_python_sdk-0.1.2.tar.gz --markdown 20230505/l/lariat-python-sdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 05:24:40] INFO root fetch - processPackages [xyz-appoint]: executing diffoscope
+[2023-05-05 05:24:40] INFO root fetch - processPackages [xyz-appoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_appoint-0.0.2-py3-none-any.whl.zip tmp/xyz_appoint-0.0.3-py3-none-any.whl.zip --markdown 20230505/x/xyz-appoint/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 05:24:41] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-05 05:24:41] INFO root fetch - main [MainThread]: End processing [lariat-python-sdk]: success
+[2023-05-05 05:24:41] INFO root fetch - main [MainThread]: End processing [codefast]: success
+[2023-05-05 05:24:41] INFO root fetch - main [MainThread]: End processing [xyz-appoint]: success
+[2023-05-05 05:24:41] INFO root fetch - main [MainThread]: End processing [lariat-python-sdk]: success
+[2023-05-05 05:24:42] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Downloading https://files.pythonhosted.org/packages/58/6d/a9d8d6117237b360d00c0cbc7e74c71cc57df77060863df4141f334f49f3/cdktf-cdktf-provider-opentelekomcloud-6.0.2.tar.gz
+[2023-05-05 05:24:42] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: executing diffoscope
+[2023-05-05 05:24:42] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-opentelekomcloud-6.0.1.tar.gz tmp/cdktf-cdktf-provider-opentelekomcloud-6.0.2.tar.gz --markdown 20230505/c/cdktf-cdktf-provider-opentelekomcloud/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-05-05 05:24:58] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-opentelekomcloud]: success
+[2023-05-05 05:24:58] INFO root fetch - main [MainThread]: Store serial: [17981626]
