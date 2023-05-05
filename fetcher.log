@@ -6989,3 +6989,94 @@
 [2023-05-05 08:08:06] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-05-05 08:08:20] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-05 08:08:21] INFO root fetch - main [MainThread]: Store serial: [17982658]
+[2023-05-05 08:13:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982658]
+[2023-05-05 08:13:30] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 08:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kafka
+[2023-05-05 08:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Cerebro-Viewer
+[2023-05-05 08:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kong
+[2023-05-05 08:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-ec
+[2023-05-05 08:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-digitalocean
+[2023-05-05 08:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: koda-validate
+[2023-05-05 08:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiomodelz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drill-bits
+[2023-05-05 08:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qontract-reconcile
+[2023-05-05 08:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ats-case
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.5.0a1683265326] Old Version: [3.5.0a1682958583]
+[2023-05-05 08:13:30] INFO root fetch - processPackages [aiomodelz]: New version: [0.4.5] Old Version: [0.4.2]
+[2023-05-05 08:13:30] INFO root fetch - processPackages [ats-case]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-05-05 08:13:30] WARNING root fetch - processPackages [drill-bits]: Skipping, unable to determine old version
+[2023-05-05 08:13:30] INFO root fetch - processPackages [drill-bits]: Start processing: musegan
+[2023-05-05 08:13:30] INFO root fetch - main [MainThread]: End processing [drill-bits] error
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1683265455] Old Version: [4.6.0a1681931272]
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-ec]: New version: [0.5.2a1683265085] Old Version: [0.5.2a1681928339]
+[2023-05-05 08:13:30] INFO root fetch - processPackages [Cerebro-Viewer]: New version: [0.0.9.6] Old Version: [0.0.9.5]
+[2023-05-05 08:13:30] INFO root fetch - processPackages [koda-validate]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2023-05-05 08:13:30] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-05 08:13:30] WARNING root fetch - processPackages [musegan]: Skipping, unable to determine old version
+[2023-05-05 08:13:30] INFO root fetch - processPackages [musegan]: Start processing: py-searchconsole
+[2023-05-05 08:13:30] INFO root fetch - main [MainThread]: End processing [musegan] error
+[2023-05-05 08:13:30] WARNING root fetch - processPackages [py-searchconsole]: Skipping, unable to determine old version
+[2023-05-05 08:13:30] INFO root fetch - processPackages [py-searchconsole]: Start processing: pulumi-keycloak
+[2023-05-05 08:13:30] INFO root fetch - main [MainThread]: End processing [py-searchconsole] error
+[2023-05-05 08:13:30] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-05 08:13:30] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230505/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/0f/83/78650ebcb17e847c7affa8473f333d3b940bab7d24d49b0ac0f8311cb3bb/pulumi_kafka-3.5.0a1682958583.tar.gz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [Cerebro-Viewer]: Downloading https://files.pythonhosted.org/packages/31/21/00905e344d4278d2d6d70a9f0d459b9ab7afb83d1fb669beeff19e45a03d/Cerebro_Viewer-0.0.9.5.tar.gz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [koda-validate]: Downloading https://files.pythonhosted.org/packages/89/b5/d4a9a23e358f3d96449e657a875c533e411feba5e8f2564bd0b0e236c714/koda_validate-3.1.1.tar.gz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/2c/af/1fde545f7959c4b4dc27376fe92578f0016c585674c8fc5162197cc47b1a/pulumi_ec-0.5.2a1681928339.tar.gz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/27/97/a28f4183d8baf40ed707457b9d69919a7291552b25d94fbabea434e6da55/ats_case-0.6.7.tar.gz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/6f/bc/567c6caf89798a7dcdceac1927217a4f7a1d37218d425a9a10403cec2cae/pulumi_kong-4.6.0a1681931272.tar.gz
+[2023-05-05 08:13:30] WARNING root fetch - processPackages [Cerebro-Viewer]: Skipping package: exceeds size limit 13701566>=10485760
+[2023-05-05 08:13:30] INFO root fetch - processPackages [Cerebro-Viewer]: Start processing: pondpond
+[2023-05-05 08:13:30] INFO root fetch - main [MainThread]: End processing [Cerebro-Viewer] error
+[2023-05-05 08:13:30] INFO root fetch - processPackages [aiomodelz]: Downloading https://files.pythonhosted.org/packages/35/0c/1abdf7ec9015592bb8fe3eae8967641a083da0589c0a161a214735ede900/aiomodelz-0.4.5.tar.gz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.2.0a1683265567] Old Version: [5.2.0a1681931089]
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [aiomodelz]: executing diffoscope
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pondpond]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-05 08:13:30] INFO root fetch - processPackages [aiomodelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomodelz-0.4.2.tar.gz tmp/aiomodelz-0.4.5.tar.gz --markdown 20230505/a/aiomodelz/0.4.2-0.4.5/diff.md --exclude *.pyd
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/8a/2b/ab21f9f18a9edbd23528ddd345eb32a2ba56709285b9054b2d9adbf3c162/pulumi_kafka-3.5.0a1683265326.tar.gz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/dd/f0/5689368ef7aa18fd8e3df0661f064e42bb0ea1c5189c1350f88e52a95158/pulumi_kong-4.6.0a1683265455.tar.gz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/bd/85/da266d683b4e4bd586ea1b7f640e77a7456b384d90f76b0ef201318d423c/pulumi_keycloak-5.2.0a1681931089.tar.gz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [koda-validate]: Downloading https://files.pythonhosted.org/packages/fe/b6/e515743fad4b394e5df96584c8ece95031367bf18c6d5779c8990e899235/koda_validate-3.1.2.tar.gz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.5.0a1682958583.tar.gz tmp/pulumi_kafka-3.5.0a1683265326.tar.gz --markdown 20230505/p/pulumi-kafka/3.5.0a1682958583-3.5.0a1683265326/diff.md --exclude *.pyd
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/07/08/d8adedb55230ff1c90e74526ae985630b43f7081db581964bd32e068b41d/pulumi_ec-0.5.2a1683265085.tar.gz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pondpond]: Downloading https://files.pythonhosted.org/packages/d0/29/79e0cbfb449d1a4dda0be23c1a358048d4c69e13fec55a541c0977747ba6/pondpond-1.3.1.tar.gz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/1c/33/eaec1bd3b9642ee1336c43421d3a5cad2eba582ad092855c3b4322a658f7/ats_case-0.6.8.tar.gz
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2023-05-05 08:13:30] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1681931272.tar.gz tmp/pulumi_kong-4.6.0a1683265455.tar.gz --markdown 20230505/p/pulumi-kong/4.6.0a1681931272-4.6.0a1683265455/diff.md --exclude *.pyd
+[2023-05-05 08:13:31] INFO root fetch - processPackages [koda-validate]: executing diffoscope
+[2023-05-05 08:13:31] INFO root fetch - processPackages [koda-validate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koda_validate-3.1.1.tar.gz tmp/koda_validate-3.1.2.tar.gz --markdown 20230505/k/koda-validate/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-05-05 08:13:31] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2023-05-05 08:13:31] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.5.2a1681928339.tar.gz tmp/pulumi_ec-0.5.2a1683265085.tar.gz --markdown 20230505/p/pulumi-ec/0.5.2a1681928339-0.5.2a1683265085/diff.md --exclude *.pyd
+[2023-05-05 08:13:31] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2023-05-05 08:13:31] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-05-05 08:13:31] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.6.7.tar.gz tmp/ats_case-0.6.8.tar.gz --markdown 20230505/a/ats-case/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-05-05 08:13:31] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/82/bd/93ef323e2eaa855201cce8bab3a23d1a6ace56ea0dc167fa9894da2684bb/pulumi_keycloak-5.2.0a1683265567.tar.gz
+[2023-05-05 08:13:31] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2023-05-05 08:13:31] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20230505/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/diff.md --exclude *.pyd
+[2023-05-05 08:13:31] INFO root fetch - processPackages [pondpond]: Downloading https://files.pythonhosted.org/packages/59/e5/21519b2b3fe37caf64487d667ca390a6b811e8fb26f5900723ebfbd3c3b5/pondpond-1.3.2.tar.gz
+[2023-05-05 08:13:31] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2023-05-05 08:13:31] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.2.0a1681931089.tar.gz tmp/pulumi_keycloak-5.2.0a1683265567.tar.gz --markdown 20230505/p/pulumi-keycloak/5.2.0a1681931089-5.2.0a1683265567/diff.md --exclude *.pyd
+[2023-05-05 08:13:31] INFO root fetch - processPackages [pondpond]: executing diffoscope
+[2023-05-05 08:13:31] INFO root fetch - processPackages [pondpond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pondpond-1.3.1.tar.gz tmp/pondpond-1.3.2.tar.gz --markdown 20230505/p/pondpond/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-05 08:13:32] INFO root fetch - processPackages [aiomodelz]: Start processing: korcen
+[2023-05-05 08:13:32] INFO root fetch - main [MainThread]: End processing [aiomodelz]: success
+[2023-05-05 08:13:32] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2023-05-05 08:13:32] INFO root fetch - processPackages [korcen]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-05 08:13:32] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2023-05-05 08:13:32] INFO root fetch - main [MainThread]: End processing [koda-validate]: success
+[2023-05-05 08:13:32] INFO root fetch - processPackages [korcen]: Downloading https://files.pythonhosted.org/packages/2b/55/d6b7a427bdb5180669ae89ebe97eb644f27fc5038c77a0d96a4727bf44fb/korcen-0.3.3.tar.gz
+[2023-05-05 08:13:32] INFO root fetch - main [MainThread]: End processing [pondpond]: success
+[2023-05-05 08:13:32] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-05-05 08:13:33] INFO root fetch - processPackages [korcen]: Downloading https://files.pythonhosted.org/packages/b8/67/ca0de4da1e2ef8dc46664ac4918847b1d1a46bf7bfe9ce984dfd2c92325e/korcen-0.3.4-py3-none-any.whl
+[2023-05-05 08:13:33] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2023-05-05 08:13:33] INFO root fetch - processPackages [korcen]: executing diffoscope
+[2023-05-05 08:13:33] INFO root fetch - processPackages [korcen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/korcen-0.3.3.tar.gz tmp/korcen-0.3.4-py3-none-any.whl.zip --markdown 20230505/k/korcen/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-05 08:13:33] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2023-05-05 08:13:34] INFO root fetch - main [MainThread]: End processing [korcen]: success
+[2023-05-05 08:13:34] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2023-05-05 08:13:36] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-05 08:13:36] INFO root fetch - main [MainThread]: Store serial: [17982701]
