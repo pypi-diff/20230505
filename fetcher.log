@@ -5586,3 +5586,24 @@
 [2023-05-05 05:51:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-overdue-reminder]: success
 [2023-05-05 05:51:01] INFO root fetch - main [MainThread]: End processing [herptest]: success
 [2023-05-05 05:51:01] INFO root fetch - main [MainThread]: Store serial: [17981765]
+[2023-05-05 05:56:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981765]
+[2023-05-05 05:56:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-05 05:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kmlb
+[2023-05-05 05:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VonPylib
+[2023-05-05 05:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asc2mb
+[2023-05-05 05:56:09] INFO root fetch - processPackages [asc2mb]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-05-05 05:56:09] INFO root fetch - processPackages [kmlb]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-05-05 05:56:09] INFO root fetch - processPackages [VonPylib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 05:56:10] INFO root fetch - processPackages [VonPylib]: executing diffoscope
+[2023-05-05 05:56:10] INFO root fetch - processPackages [VonPylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VonPylib-0.1.8.tar.gz tmp/VonPylib-0.1.9.tar.gz --markdown 20230505/V/VonPylib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 05:56:10] INFO root fetch - processPackages [kmlb]: Downloading https://files.pythonhosted.org/packages/c6/22/7306f29d40d113077df1fe3575641808596fad6155878db0341ebc16ccac/kmlb-0.0.93.tar.gz
+[2023-05-05 05:56:10] INFO root fetch - processPackages [asc2mb]: Downloading https://files.pythonhosted.org/packages/a3/07/242e947c1b8668b1aba86fe1b0c4371be726c2edc16dc445c346a89b8620/asc2mb-0.6.2.tar.gz
+[2023-05-05 05:56:10] INFO root fetch - processPackages [kmlb]: executing diffoscope
+[2023-05-05 05:56:10] INFO root fetch - processPackages [kmlb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmlb-0.0.92.tar.gz tmp/kmlb-0.0.93.tar.gz --markdown 20230505/k/kmlb/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-05-05 05:56:10] INFO root fetch - processPackages [asc2mb]: Downloading https://files.pythonhosted.org/packages/6a/33/b396eed8d468c50c710d8456d905f7496eabd27e99695df7bf2cb6db73bb/asc2mb-0.7.0.tar.gz
+[2023-05-05 05:56:10] INFO root fetch - processPackages [asc2mb]: executing diffoscope
+[2023-05-05 05:56:10] INFO root fetch - processPackages [asc2mb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asc2mb-0.6.2.tar.gz tmp/asc2mb-0.7.0.tar.gz --markdown 20230505/a/asc2mb/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-05-05 05:56:11] INFO root fetch - main [MainThread]: End processing [VonPylib]: success
+[2023-05-05 05:56:11] INFO root fetch - main [MainThread]: End processing [kmlb]: success
+[2023-05-05 05:56:11] INFO root fetch - main [MainThread]: End processing [asc2mb]: success
+[2023-05-05 05:56:11] INFO root fetch - main [MainThread]: Store serial: [17981776]
