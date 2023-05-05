@@ -17638,3 +17638,96 @@
 [2023-05-05 17:40:12] INFO root fetch - main [MainThread]: End processing [TorchEase]: success
 [2023-05-05 17:40:13] INFO root fetch - main [MainThread]: End processing [sdcclient]: success
 [2023-05-05 17:40:13] INFO root fetch - main [MainThread]: Store serial: [17989261]
+[2023-05-05 17:45:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17989261]
+[2023-05-05 17:45:22] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parsgod
+[2023-05-05 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: editanything
+[2023-05-05 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycapacity
+[2023-05-05 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: delia
+[2023-05-05 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geocat.comp
+[2023-05-05 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geocat.viz
+[2023-05-05 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sipiiiii
+[2023-05-05 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyUAMMD
+[2023-05-05 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: maxeqx-losowanie-liczby.py
+[2023-05-05 17:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sdeclient
+[2023-05-05 17:45:22] INFO root fetch - processPackages [editanything]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 17:45:22] WARNING root fetch - processPackages [parsgod]: Skipping, unable to determine old version
+[2023-05-05 17:45:22] INFO root fetch - processPackages [delia]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 17:45:22] INFO root fetch - processPackages [parsgod]: Start processing: pyprland
+[2023-05-05 17:45:22] INFO root fetch - processPackages [sdeclient]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 17:45:22] INFO root fetch - main [MainThread]: End processing [parsgod] error
+[2023-05-05 17:45:22] INFO root fetch - processPackages [pycapacity]: New version: [2.0.0] Old Version: [1.2.9]
+[2023-05-05 17:45:22] INFO root fetch - processPackages [geocat.comp]: New version: [2023.5.0] Old Version: [2023.3.2]
+[2023-05-05 17:45:22] INFO root fetch - processPackages [maxeqx-losowanie-liczby.py]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-05 17:45:22] INFO root fetch - processPackages [geocat.viz]: New version: [2023.5.0] Old Version: [2023.3.0.post0]
+[2023-05-05 17:45:22] INFO root fetch - processPackages [sipiiiii]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 17:45:22] INFO root fetch - processPackages [pyUAMMD]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-05 17:45:22] INFO root fetch - processPackages [pyprland]: New version: [1.3.1] Old Version: [1.0.2]
+[2023-05-05 17:45:22] INFO root fetch - processPackages [editanything]: executing diffoscope
+[2023-05-05 17:45:22] INFO root fetch - processPackages [editanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/editanything-0.0.7.tar.gz tmp/editanything-0.0.8.tar.gz --markdown 20230505/e/editanything/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 17:45:22] INFO root fetch - processPackages [delia]: executing diffoscope
+[2023-05-05 17:45:22] INFO root fetch - processPackages [delia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delia-1.0.8.tar.gz tmp/delia-1.0.9.tar.gz --markdown 20230505/d/delia/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 17:45:22] INFO root fetch - processPackages [sdeclient]: Downloading https://files.pythonhosted.org/packages/e5/3e/95cd36c5bcb89a94a596201effcceb9bade17e13de5f3863be7e8e5408b0/sdeclient-0.0.8.tar.gz
+[2023-05-05 17:45:22] INFO root fetch - processPackages [sipiiiii]: Downloading https://files.pythonhosted.org/packages/0a/f4/74bad3b8e3fd7e8a0403a2d7de5eca944159d89165882fe1cdd269e656ca/sipiiiii-1.0.1.tar.gz
+[2023-05-05 17:45:22] INFO root fetch - processPackages [pyUAMMD]: Downloading https://files.pythonhosted.org/packages/c3/fd/17e6ede8c972a99564be171a20305ff03693fd26b898518bad32ac8155fe/pyUAMMD-1.0.7.tar.gz
+[2023-05-05 17:45:22] INFO root fetch - processPackages [pyprland]: Downloading https://files.pythonhosted.org/packages/0e/f9/f2b5940ab6842bbbed891e70bd8db82633512a46b63a87475567d9558ba4/pyprland-1.0.2.tar.gz
+[2023-05-05 17:45:22] INFO root fetch - processPackages [geocat.comp]: Downloading https://files.pythonhosted.org/packages/52/47/410f3adbaf133465cde8e1ff7efcef13a23c8be0fe77725682c8818a0ed0/geocat.comp-2023.3.2.tar.gz
+[2023-05-05 17:45:22] INFO root fetch - processPackages [pycapacity]: Downloading https://files.pythonhosted.org/packages/b1/5d/540c59fa7103beed069e20461a920104c0cac70e3f814d6d264f05a6a715/pycapacity-1.2.9.tar.gz
+[2023-05-05 17:45:22] INFO root fetch - processPackages [maxeqx-losowanie-liczby.py]: Downloading https://files.pythonhosted.org/packages/86/d1/36fd3a02b679cd51d28619e31a50ba8e1a7a48774b85c4f417e5ae9cb7ba/maxeqx-losowanie-liczby.py-1.0.3.tar.gz
+[2023-05-05 17:45:22] INFO root fetch - processPackages [geocat.viz]: Downloading https://files.pythonhosted.org/packages/6c/9f/e146bbda0f64348648d32acf48349278a29dec756da97431e68c1de4cb62/geocat.viz-2023.3.0.post0.tar.gz
+[2023-05-05 17:45:22] INFO root fetch - processPackages [maxeqx-losowanie-liczby.py]: executing diffoscope
+[2023-05-05 17:45:22] INFO root fetch - processPackages [maxeqx-losowanie-liczby.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxeqx-losowanie-liczby.py-1.0.2.tar.gz tmp/maxeqx-losowanie-liczby.py-1.0.3.tar.gz --markdown 20230505/m/maxeqx-losowanie-liczby.py/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-05 17:45:23] INFO root fetch - processPackages [pyUAMMD]: executing diffoscope
+[2023-05-05 17:45:23] INFO root fetch - processPackages [pyUAMMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyUAMMD-1.0.6.tar.gz tmp/pyUAMMD-1.0.7.tar.gz --markdown 20230505/p/pyUAMMD/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-05 17:45:23] INFO root fetch - processPackages [sdeclient]: executing diffoscope
+[2023-05-05 17:45:23] INFO root fetch - processPackages [sdeclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdeclient-0.0.7.tar.gz tmp/sdeclient-0.0.8.tar.gz --markdown 20230505/s/sdeclient/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 17:45:23] INFO root fetch - processPackages [sipiiiii]: executing diffoscope
+[2023-05-05 17:45:23] INFO root fetch - processPackages [sipiiiii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sipiiiii-1.0.0.tar.gz tmp/sipiiiii-1.0.1.tar.gz --markdown 20230505/s/sipiiiii/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 17:45:23] INFO root fetch - processPackages [geocat.comp]: Downloading https://files.pythonhosted.org/packages/89/18/9dec2c2bce1d3f0e424bb26448f1db3f421552b51916e80e7f9244ae76ba/geocat.comp-2023.5.0.tar.gz
+[2023-05-05 17:45:23] INFO root fetch - processPackages [pyprland]: Downloading https://files.pythonhosted.org/packages/16/c4/f4865baef0a33187a82f8e3a35cc68e53aac8a31bfae1223c9c77f8d1353/pyprland-1.3.1.tar.gz
+[2023-05-05 17:45:23] INFO root fetch - processPackages [geocat.comp]: executing diffoscope
+[2023-05-05 17:45:23] INFO root fetch - processPackages [geocat.comp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocat.comp-2023.3.2.tar.gz tmp/geocat.comp-2023.5.0.tar.gz --markdown 20230505/g/geocat.comp/2023.3.2-2023.5.0/diff.md --exclude *.pyd
+[2023-05-05 17:45:23] INFO root fetch - processPackages [pyprland]: executing diffoscope
+[2023-05-05 17:45:23] INFO root fetch - processPackages [pyprland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprland-1.0.2.tar.gz tmp/pyprland-1.3.1.tar.gz --markdown 20230505/p/pyprland/1.0.2-1.3.1/diff.md --exclude *.pyd
+[2023-05-05 17:45:23] INFO root fetch - processPackages [pycapacity]: Downloading https://files.pythonhosted.org/packages/74/e1/fe11fc3c605886181e7b2d2ef4e83b1807e2bd1ba982411fdea0e52278cd/pycapacity-2.0.0.tar.gz
+[2023-05-05 17:45:23] INFO root fetch - processPackages [geocat.viz]: Downloading https://files.pythonhosted.org/packages/75/43/a1297fd16db24fe11f1ba5d67538777adf738a9cce74d9a5e01cd1c14e58/geocat.viz-2023.5.0.tar.gz
+[2023-05-05 17:45:23] INFO root fetch - processPackages [pycapacity]: executing diffoscope
+[2023-05-05 17:45:23] INFO root fetch - processPackages [pycapacity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycapacity-1.2.9.tar.gz tmp/pycapacity-2.0.0.tar.gz --markdown 20230505/p/pycapacity/1.2.9-2.0.0/diff.md --exclude *.pyd
+[2023-05-05 17:45:23] INFO root fetch - processPackages [geocat.viz]: executing diffoscope
+[2023-05-05 17:45:23] INFO root fetch - processPackages [geocat.viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocat.viz-2023.3.0.post0.tar.gz tmp/geocat.viz-2023.5.0.tar.gz --markdown 20230505/g/geocat.viz/2023.3.0.post0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-05 17:45:24] INFO root fetch - processPackages [editanything]: Start processing: ddtrace
+[2023-05-05 17:45:24] INFO root fetch - main [MainThread]: End processing [editanything]: success
+[2023-05-05 17:45:24] INFO root fetch - processPackages [ddtrace]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-05-05 17:45:24] INFO root fetch - processPackages [maxeqx-losowanie-liczby.py]: Start processing: wds-client
+[2023-05-05 17:45:24] INFO root fetch - main [MainThread]: End processing [maxeqx-losowanie-liczby.py]: success
+[2023-05-05 17:45:24] INFO root fetch - processPackages [wds-client]: New version: [0.2.8] Old Version: [0.2.77]
+[2023-05-05 17:45:24] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/fa/24/2d536f2832279093f94f07859b3d26c65f77719c0ae568e980f3686d1665/wds-client-0.2.77.tar.gz
+[2023-05-05 17:45:24] INFO root fetch - processPackages [sdeclient]: Start processing: pdbx2df
+[2023-05-05 17:45:24] INFO root fetch - main [MainThread]: End processing [sdeclient]: success
+[2023-05-05 17:45:24] INFO root fetch - processPackages [pdbx2df]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-05 17:45:24] INFO root fetch - processPackages [sipiiiii]: Start processing: quick-styles
+[2023-05-05 17:45:24] INFO root fetch - main [MainThread]: End processing [sipiiiii]: success
+[2023-05-05 17:45:24] INFO root fetch - processPackages [quick-styles]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 17:45:24] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-05-05 17:45:24] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.77.tar.gz tmp/wds-client-0.2.8.tar.gz --markdown 20230505/w/wds-client/0.2.77-0.2.8/diff.md --exclude *.pyd
+[2023-05-05 17:45:24] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-05-05 17:45:24] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.5.tar.gz tmp/ddtrace-1.9.6.tar.gz --markdown 20230505/d/ddtrace/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-05-05 17:45:24] INFO root fetch - processPackages [pdbx2df]: Downloading https://files.pythonhosted.org/packages/bd/b3/ac9b3577bc7de094220bd4c6cbd39c8c7d495334dc7ad244f79b2ceaf212/pdbx2df-0.2.1.tar.gz
+[2023-05-05 17:45:24] INFO root fetch - processPackages [quick-styles]: Downloading https://files.pythonhosted.org/packages/30/44/a6d71f5e7a66b1d3513632b703e129eec32b3954d44865e7cf699fbb2454/quick_styles-1.0.0.tar.gz
+[2023-05-05 17:45:24] INFO root fetch - main [MainThread]: End processing [pycapacity]: success
+[2023-05-05 17:45:24] INFO root fetch - main [MainThread]: End processing [geocat.comp]: success
+[2023-05-05 17:45:24] INFO root fetch - main [MainThread]: End processing [delia]: success
+[2023-05-05 17:45:25] INFO root fetch - processPackages [quick-styles]: Downloading https://files.pythonhosted.org/packages/bb/72/498888e4981da27156b14e208370fcae2995f0b260f1f78601a65f532bab/quick_styles-1.0.1.tar.gz
+[2023-05-05 17:45:25] INFO root fetch - processPackages [pdbx2df]: Downloading https://files.pythonhosted.org/packages/76/e2/8df5c8fb85625b3957ebd252a046d9c15df42ccb8b562f29d534a8aece70/pdbx2df-0.2.2.tar.gz
+[2023-05-05 17:45:25] INFO root fetch - processPackages [pdbx2df]: executing diffoscope
+[2023-05-05 17:45:25] INFO root fetch - processPackages [pdbx2df]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdbx2df-0.2.1.tar.gz tmp/pdbx2df-0.2.2.tar.gz --markdown 20230505/p/pdbx2df/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-05 17:45:25] INFO root fetch - main [MainThread]: End processing [pyprland]: success
+[2023-05-05 17:45:25] INFO root fetch - processPackages [quick-styles]: executing diffoscope
+[2023-05-05 17:45:25] INFO root fetch - processPackages [quick-styles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_styles-1.0.0.tar.gz tmp/quick_styles-1.0.1.tar.gz --markdown 20230505/q/quick-styles/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 17:45:26] INFO root fetch - main [MainThread]: End processing [quick-styles]: success
+[2023-05-05 17:45:26] INFO root fetch - main [MainThread]: End processing [pdbx2df]: success
+[2023-05-05 17:45:26] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-05-05 17:45:26] INFO root fetch - main [MainThread]: End processing [pyUAMMD]: success
+[2023-05-05 17:45:27] INFO root fetch - main [MainThread]: End processing [geocat.viz]: success
+[2023-05-05 17:46:31] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-05-05 17:46:31] INFO root fetch - main [MainThread]: Store serial: [17989340]
