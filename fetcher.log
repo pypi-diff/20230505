@@ -23445,3 +23445,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-05 22:53:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-oidc]: success
 [2023-05-05 22:53:03] INFO root fetch - main [MainThread]: End processing [img2table]: success
 [2023-05-05 22:53:03] INFO root fetch - main [MainThread]: Store serial: [17992867]
+[2023-05-05 22:58:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17992867]
+[2023-05-05 22:58:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-05 22:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-space-toolkit-core
+[2023-05-05 22:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdfix-sdk
+[2023-05-05 22:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botocore
+[2023-05-05 22:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: duckcloud
+[2023-05-05 22:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awscli
+[2023-05-05 22:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyberpay-utils-lib
+[2023-05-05 22:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: boto3
+[2023-05-05 22:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-sops-secrets
+[2023-05-05 22:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coastsat-package
+[2023-05-05 22:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: schoolware-api
+[2023-05-05 22:58:12] INFO root fetch - processPackages [open-space-toolkit-core]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-05 22:58:12] INFO root fetch - processPackages [cyberpay-utils-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 22:58:12] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-05 22:58:12] INFO root fetch - processPackages [coastsat-package]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-05 22:58:12] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.9] Old Version: [1.2.81]
+[2023-05-05 22:58:12] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-05 22:58:12] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-05-05 22:58:12] WARNING root fetch - processPackages [duckcloud]: Skipping, unable to determine old version
+[2023-05-05 22:58:12] INFO root fetch - processPackages [duckcloud]: Start processing: pyrobox
+[2023-05-05 22:58:12] INFO root fetch - main [MainThread]: End processing [duckcloud] error
+[2023-05-05 22:58:12] WARNING root fetch - processPackages [pdfix-sdk]: Skipping, unable to determine old version
+[2023-05-05 22:58:12] INFO root fetch - main [MainThread]: End processing [pdfix-sdk] error
+[2023-05-05 22:58:12] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-05 22:58:12] INFO root fetch - processPackages [coastsat-package]: Downloading https://files.pythonhosted.org/packages/e5/8a/756a74a7f42edf5923bc216e45955c4f3943eaf77a18de90b09f055ac52c/coastsat_package-0.1.6.tar.gz
+[2023-05-05 22:58:12] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 22:58:12] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.8.tar.gz tmp/schoolware_api-1.1.9.tar.gz --markdown 20230505/s/schoolware-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-05 22:58:12] INFO root fetch - processPackages [cyberpay-utils-lib]: executing diffoscope
+[2023-05-05 22:58:12] INFO root fetch - processPackages [cyberpay-utils-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberpay-utils-lib-0.0.8.tar.gz tmp/cyberpay-utils-lib-0.0.9.tar.gz --markdown 20230505/c/cyberpay-utils-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 22:58:12] INFO root fetch - processPackages [open-space-toolkit-core]: Downloading https://files.pythonhosted.org/packages/f4/c1/5688ecc9e3bd56d3c37ac462f1853631ecb37fbbcb91029e75f4b806c6b3/open_space_toolkit_core-0.5.0-py39-none-any.whl
+[2023-05-05 22:58:12] WARNING root fetch - processPackages [coastsat-package]: Skipping package: exceeds size limit 32858346>=10485760
+[2023-05-05 22:58:12] INFO root fetch - main [MainThread]: End processing [coastsat-package] error
+[2023-05-05 22:58:13] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-05-05 22:58:13] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230505/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-05 22:58:13] INFO root fetch - processPackages [pyrobox]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-05-05 22:58:13] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-05-05 22:58:13] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230505/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-05-05 22:58:13] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-05 22:58:13] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.81.tar.gz tmp/cdk-sops-secrets-1.2.9.tar.gz --markdown 20230505/c/cdk-sops-secrets/1.2.81-1.2.9/diff.md --exclude *.pyd
+[2023-05-05 22:58:13] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-05-05 22:58:13] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230505/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-05 22:58:13] INFO root fetch - processPackages [pyrobox]: Downloading https://files.pythonhosted.org/packages/d8/6b/4dcb303f42dab8da0f23ee5f928e3a84b98dc0bb79ee7cf94069b427c63b/pyrobox-0.7.4.tar.gz
+[2023-05-05 22:58:13] INFO root fetch - processPackages [open-space-toolkit-core]: Downloading https://files.pythonhosted.org/packages/25/67/a2ee4db516ade72d13c41aad6d02ab65ad50af278f9bbb3d6b823e846366/open_space_toolkit_core-0.6.0-py39-none-any.whl
+[2023-05-05 22:58:13] INFO root fetch - processPackages [pyrobox]: Downloading https://files.pythonhosted.org/packages/a6/52/835b68b143cd2ffb70426026bfd4287c69300ea019e88e94965c8d65a455/pyrobox-0.8.0.tar.gz
+[2023-05-05 22:58:13] INFO root fetch - processPackages [open-space-toolkit-core]: executing diffoscope
+[2023-05-05 22:58:13] INFO root fetch - processPackages [open-space-toolkit-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_core-0.5.0-py39-none-any.whl.zip tmp/open_space_toolkit_core-0.6.0-py39-none-any.whl.zip --markdown 20230505/o/open-space-toolkit-core/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-05 22:58:13] INFO root fetch - processPackages [pyrobox]: executing diffoscope
+[2023-05-05 22:58:13] INFO root fetch - processPackages [pyrobox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrobox-0.7.4.tar.gz tmp/pyrobox-0.8.0.tar.gz --markdown 20230505/p/pyrobox/0.7.4-0.8.0/diff.md --exclude *.pyd
+[2023-05-05 22:58:14] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 22:58:14] INFO root fetch - main [MainThread]: End processing [cyberpay-utils-lib]: success
+[2023-05-05 22:58:14] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-05-05 22:58:15] INFO root fetch - main [MainThread]: End processing [pyrobox]: success
+[2023-05-05 22:58:16] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-05 22:58:25] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-05-05 22:58:26] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-core]: success
+[2023-05-05 22:58:34] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-05-05 22:58:34] INFO root fetch - main [MainThread]: Store serial: [17992907]
