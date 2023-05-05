@@ -21711,3 +21711,104 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-05 21:26:11] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
 [2023-05-05 21:26:12] INFO root fetch - main [MainThread]: End processing [lithic]: success
 [2023-05-05 21:26:12] INFO root fetch - main [MainThread]: Store serial: [17991954]
+[2023-05-05 21:31:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17991954]
+[2023-05-05 21:31:22] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-05 21:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taxomatcher
+[2023-05-05 21:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viggonuvemfiscal
+[2023-05-05 21:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mango-cli
+[2023-05-05 21:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: backgroundremover
+[2023-05-05 21:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-mike-migration-script
+[2023-05-05 21:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nycu-tdx-py
+[2023-05-05 21:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geoinsight
+[2023-05-05 21:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gantry
+[2023-05-05 21:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mango-cli
+[2023-05-05 21:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: homeassistant
+[2023-05-05 21:31:22] WARNING root fetch - processPackages [taxomatcher]: Skipping, unable to determine old version
+[2023-05-05 21:31:22] INFO root fetch - processPackages [viggonuvemfiscal]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-05 21:31:22] INFO root fetch - processPackages [taxomatcher]: Start processing: iracingdataapi
+[2023-05-05 21:31:22] INFO root fetch - main [MainThread]: End processing [taxomatcher] error
+[2023-05-05 21:31:22] INFO root fetch - processPackages [backgroundremover]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-05 21:31:22] WARNING root fetch - processPackages [certora-cli-alpha-mike-migration-script]: Skipping, unable to determine old version
+[2023-05-05 21:31:22] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 21:31:22] INFO root fetch - processPackages [certora-cli-alpha-mike-migration-script]: Start processing: releyCrypt
+[2023-05-05 21:31:22] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-mike-migration-script] error
+[2023-05-05 21:31:22] INFO root fetch - processPackages [mango-cli]: New version: [0.0.9a2] Old Version: [0.0.9a1]
+[2023-05-05 21:31:22] WARNING root fetch - processPackages [geoinsight]: Skipping, unable to determine old version
+[2023-05-05 21:31:22] INFO root fetch - processPackages [geoinsight]: Start processing: imagefx
+[2023-05-05 21:31:22] INFO root fetch - processPackages [mango-cli]: New version: [0.0.9a2] Old Version: [0.0.9a1]
+[2023-05-05 21:31:22] INFO root fetch - main [MainThread]: End processing [geoinsight] error
+[2023-05-05 21:31:22] INFO root fetch - processPackages [gantry]: New version: [0.6.2a0] Old Version: [0.6.1]
+[2023-05-05 21:31:22] INFO root fetch - processPackages [iracingdataapi]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-05 21:31:22] INFO root fetch - processPackages [releyCrypt]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-05 21:31:22] INFO root fetch - processPackages [homeassistant]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-05 21:31:22] WARNING root fetch - processPackages [imagefx]: Skipping, unable to determine old version
+[2023-05-05 21:31:22] INFO root fetch - processPackages [imagefx]: Start processing: getsmarter-api-clients
+[2023-05-05 21:31:22] INFO root fetch - main [MainThread]: End processing [imagefx] error
+[2023-05-05 21:31:22] INFO root fetch - processPackages [getsmarter-api-clients]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-05 21:31:22] INFO root fetch - processPackages [mango-cli]: Downloading https://files.pythonhosted.org/packages/1f/eb/44844a67029e9e4a79bfb2cc404c1f6264fdbad60178b0ab3b35614b4de0/mango-cli-0.0.9a1.tar.gz
+[2023-05-05 21:31:22] INFO root fetch - processPackages [mango-cli]: Downloading https://files.pythonhosted.org/packages/1f/eb/44844a67029e9e4a79bfb2cc404c1f6264fdbad60178b0ab3b35614b4de0/mango-cli-0.0.9a1.tar.gz
+[2023-05-05 21:31:22] INFO root fetch - processPackages [backgroundremover]: Downloading https://files.pythonhosted.org/packages/46/b4/f43c355554b3bde83d71ef06b3e6b34addf3d16533ef428bb90dc53f9c5f/backgroundremover-0.1.9.tar.gz
+[2023-05-05 21:31:22] INFO root fetch - processPackages [viggonuvemfiscal]: Downloading https://files.pythonhosted.org/packages/87/d5/e5cc737b1b82178b5e10444b0fb6d860f38ce521b9dd39ba535d7e2f7d60/viggonuvemfiscal-1.0.5.tar.gz
+[2023-05-05 21:31:22] INFO root fetch - processPackages [iracingdataapi]: Downloading https://files.pythonhosted.org/packages/ba/b3/e695484eaa82c55565eacc813d8748f1387a1227f084e4f5316cfcb7d4d6/iracingdataapi-1.1.2.tar.gz
+[2023-05-05 21:31:22] INFO root fetch - processPackages [releyCrypt]: Downloading https://files.pythonhosted.org/packages/53/ab/05cdb219f33730dcc9e181e49c0a15b12464cb30e7ce8177143a5a37b294/releyCrypt-0.1.6.tar.gz
+[2023-05-05 21:31:22] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/f5/49/9cdd99802ca3622d49fb26736215b1e056ede3c7c2acaed9b51761b17264/homeassistant-2023.5.1.tar.gz
+[2023-05-05 21:31:23] INFO root fetch - processPackages [gantry]: Downloading https://files.pythonhosted.org/packages/12/bd/4e67420eca60517df3a683b9656cefda5abc9de5c0b2f32e25a700379e7b/gantry-0.6.1.tar.gz
+[2023-05-05 21:31:23] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 13761393>=10485760
+[2023-05-05 21:31:23] INFO root fetch - processPackages [homeassistant]: Start processing: gpt-review
+[2023-05-05 21:31:23] INFO root fetch - processPackages [getsmarter-api-clients]: Downloading https://files.pythonhosted.org/packages/a2/c4/2c137f31f1730648dd2e5a5786721cf87c38da4d1b1a3295ed1f53ab9b88/getsmarter-api-clients-0.5.0.tar.gz
+[2023-05-05 21:31:23] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-05-05 21:31:23] INFO root fetch - processPackages [iracingdataapi]: executing diffoscope
+[2023-05-05 21:31:23] INFO root fetch - processPackages [iracingdataapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iracingdataapi-1.1.1.tar.gz tmp/iracingdataapi-1.1.2.tar.gz --markdown 20230505/i/iracingdataapi/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-05 21:31:23] INFO root fetch - processPackages [gpt-review]: New version: [0.7.0rc475.post1] Old Version: [0.6.0rc462.post1]
+[2023-05-05 21:31:23] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-05-05 21:31:23] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230505/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 21:31:23] INFO root fetch - processPackages [mango-cli]: Downloading https://files.pythonhosted.org/packages/c7/67/e829cc1d90aad509d4811abd88d584e17732090487584b396b9cb8b0ce57/mango-cli-0.0.9a2.tar.gz
+[2023-05-05 21:31:23] INFO root fetch - processPackages [mango-cli]: Downloading https://files.pythonhosted.org/packages/c7/67/e829cc1d90aad509d4811abd88d584e17732090487584b396b9cb8b0ce57/mango-cli-0.0.9a2.tar.gz
+[2023-05-05 21:31:23] INFO root fetch - processPackages [viggonuvemfiscal]: Downloading https://files.pythonhosted.org/packages/1d/a3/e0c448d0825aac60cbafb1c0ffe070c282fc1fd342c988212acecac5367d/viggonuvemfiscal-1.0.6.tar.gz
+[2023-05-05 21:31:23] INFO root fetch - processPackages [backgroundremover]: Downloading https://files.pythonhosted.org/packages/2e/0c/b2d8440d203bb4a2cb13579f3ec8853a361e0b7935e6e9be9cdfa6d5c039/backgroundremover-0.2.0.tar.gz
+[2023-05-05 21:31:23] INFO root fetch - processPackages [releyCrypt]: Downloading https://files.pythonhosted.org/packages/e0/0c/0528e325bab9dc635e08ee986f02bc260bb0028a8bd62314a4ed2c9b5137/releyCrypt-0.1.7.tar.gz
+[2023-05-05 21:31:23] INFO root fetch - processPackages [mango-cli]: executing diffoscope
+[2023-05-05 21:31:23] INFO root fetch - processPackages [mango-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-cli-0.0.9a1.tar.gz tmp/mango-cli-0.0.9a2.tar.gz --markdown 20230505/m/mango-cli/0.0.9a1-0.0.9a2/diff.md --exclude *.pyd
+[2023-05-05 21:31:23] INFO root fetch - processPackages [mango-cli]: executing diffoscope
+[2023-05-05 21:31:23] INFO root fetch - processPackages [mango-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-cli-0.0.9a1.tar.gz tmp/mango-cli-0.0.9a2.tar.gz --markdown 20230505/m/mango-cli/0.0.9a1-0.0.9a2/diff.md --exclude *.pyd
+[2023-05-05 21:31:23] INFO root fetch - processPackages [gantry]: Downloading https://files.pythonhosted.org/packages/3b/33/4c0224cc1751809867cd7e0fac68fb9f2c5ae3adfb5ac165c8e8bc6be16b/gantry-0.6.2a0.tar.gz
+[2023-05-05 21:31:23] INFO root fetch - processPackages [getsmarter-api-clients]: Downloading https://files.pythonhosted.org/packages/2f/7a/97396cf37c70037d995a63e2ec63b05baccac59e49492c8c17f038c10f72/getsmarter-api-clients-0.5.1.tar.gz
+[2023-05-05 21:31:23] INFO root fetch - processPackages [viggonuvemfiscal]: executing diffoscope
+[2023-05-05 21:31:23] INFO root fetch - processPackages [viggonuvemfiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggonuvemfiscal-1.0.5.tar.gz tmp/viggonuvemfiscal-1.0.6.tar.gz --markdown 20230505/v/viggonuvemfiscal/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-05 21:31:23] INFO root fetch - processPackages [backgroundremover]: executing diffoscope
+[2023-05-05 21:31:23] INFO root fetch - processPackages [backgroundremover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backgroundremover-0.1.9.tar.gz tmp/backgroundremover-0.2.0.tar.gz --markdown 20230505/b/backgroundremover/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 21:31:23] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/31/42/6a29100f42735d4ca151ea3cd74ed3fa0c7b17d0830b51fd39ec9a181edb/gpt-review-0.7.0rc475.post1.tar.gz
+[2023-05-05 21:31:23] INFO root fetch - processPackages [releyCrypt]: executing diffoscope
+[2023-05-05 21:31:23] INFO root fetch - processPackages [releyCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/releyCrypt-0.1.6.tar.gz tmp/releyCrypt-0.1.7.tar.gz --markdown 20230505/r/releyCrypt/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-05 21:31:23] INFO root fetch - processPackages [getsmarter-api-clients]: executing diffoscope
+[2023-05-05 21:31:23] INFO root fetch - processPackages [getsmarter-api-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getsmarter-api-clients-0.5.0.tar.gz tmp/getsmarter-api-clients-0.5.1.tar.gz --markdown 20230505/g/getsmarter-api-clients/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-05 21:31:23] INFO root fetch - processPackages [gantry]: executing diffoscope
+[2023-05-05 21:31:23] INFO root fetch - processPackages [gantry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gantry-0.6.1.tar.gz tmp/gantry-0.6.2a0.tar.gz --markdown 20230505/g/gantry/0.6.1-0.6.2a0/diff.md --exclude *.pyd
+[2023-05-05 21:31:23] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-05 21:31:23] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.6.0rc462.post1.tar.gz tmp/gpt-review-0.7.0rc475.post1.tar.gz --markdown 20230505/g/gpt-review/0.6.0rc462.post1-0.7.0rc475.post1/diff.md --exclude *.pyd
+[2023-05-05 21:31:24] INFO root fetch - processPackages [nycu-tdx-py]: Start processing: chilife
+[2023-05-05 21:31:24] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-05-05 21:31:24] INFO root fetch - processPackages [chilife]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-05 21:31:24] INFO root fetch - processPackages [chilife]: Downloading https://files.pythonhosted.org/packages/d8/c8/98d7d439d199c35f3dbdc2d8fd0a1255b22d52b0482acb004219bc46b478/chilife-0.1.6.tar.gz
+[2023-05-05 21:31:24] INFO root fetch - processPackages [mango-cli]: Start processing: pymino
+[2023-05-05 21:31:24] INFO root fetch - main [MainThread]: End processing [mango-cli]: success
+[2023-05-05 21:31:24] INFO root fetch - processPackages [pymino]: New version: [1.1.7.5] Old Version: [1.1.7.4]
+[2023-05-05 21:31:24] INFO root fetch - processPackages [mango-cli]: Start processing: JsToPy
+[2023-05-05 21:31:24] INFO root fetch - main [MainThread]: End processing [mango-cli]: success
+[2023-05-05 21:31:24] WARNING root fetch - processPackages [JsToPy]: Skipping, unable to determine old version
+[2023-05-05 21:31:24] INFO root fetch - main [MainThread]: End processing [JsToPy] error
+[2023-05-05 21:31:24] WARNING root fetch - processPackages [chilife]: Skipping package: exceeds size limit 17724692>=10485760
+[2023-05-05 21:31:24] INFO root fetch - main [MainThread]: End processing [chilife] error
+[2023-05-05 21:31:24] INFO root fetch - main [MainThread]: End processing [iracingdataapi]: success
+[2023-05-05 21:31:24] INFO root fetch - main [MainThread]: End processing [releyCrypt]: success
+[2023-05-05 21:31:25] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/f9/4b/e25dc1bc4d1cf30af2d75155f07542984816b3ec9939346228492dac2aeb/pymino-1.1.7.4.tar.gz
+[2023-05-05 21:31:25] INFO root fetch - main [MainThread]: End processing [getsmarter-api-clients]: success
+[2023-05-05 21:31:25] INFO root fetch - main [MainThread]: End processing [backgroundremover]: success
+[2023-05-05 21:31:25] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/b5/52/922e5c085f643b2ae96b3391ec616b353e5bd9ec9c48062af2eb383daa5c/pymino-1.1.7.5.tar.gz
+[2023-05-05 21:31:25] INFO root fetch - main [MainThread]: End processing [viggonuvemfiscal]: success
+[2023-05-05 21:31:25] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-05-05 21:31:25] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.1.7.4.tar.gz tmp/pymino-1.1.7.5.tar.gz --markdown 20230505/p/pymino/1.1.7.4-1.1.7.5/diff.md --exclude *.pyd
+[2023-05-05 21:31:25] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-05 21:31:26] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-05-05 21:31:27] INFO root fetch - main [MainThread]: End processing [gantry]: success
+[2023-05-05 21:31:27] INFO root fetch - main [MainThread]: Store serial: [17992018]
