@@ -13740,3 +13740,71 @@
 [2023-05-05 14:16:16] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-05-05 14:16:16] INFO root fetch - main [MainThread]: End processing [nautiluszim]: success
 [2023-05-05 14:16:16] INFO root fetch - main [MainThread]: Store serial: [17986628]
+[2023-05-05 14:21:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17986628]
+[2023-05-05 14:21:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-05 14:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webcam
+[2023-05-05 14:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kojo
+[2023-05-05 14:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: canals
+[2023-05-05 14:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OnloadTable
+[2023-05-05 14:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: matflow-new
+[2023-05-05 14:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycompete
+[2023-05-05 14:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TikTokLiveCustom
+[2023-05-05 14:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minet
+[2023-05-05 14:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-ansible
+[2023-05-05 14:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cybrid-api-organization-python
+[2023-05-05 14:21:26] INFO root fetch - processPackages [kojo]: New version: [0.16.0] Old Version: [0.15.0]
+[2023-05-05 14:21:26] INFO root fetch - processPackages [canals]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-05-05 14:21:26] INFO root fetch - processPackages [webcam]: New version: [0.6] Old Version: [0.5]
+[2023-05-05 14:21:26] INFO root fetch - processPackages [pycompete]: New version: [0.0.4] Old Version: [0.0.0]
+[2023-05-05 14:21:26] WARNING root fetch - processPackages [OnloadTable]: Skipping, unable to determine old version
+[2023-05-05 14:21:26] INFO root fetch - processPackages [OnloadTable]: Start processing: cybrid-api-id-python
+[2023-05-05 14:21:26] INFO root fetch - main [MainThread]: End processing [OnloadTable] error
+[2023-05-05 14:21:26] INFO root fetch - processPackages [TikTokLiveCustom]: New version: [0.3] Old Version: [0.2]
+[2023-05-05 14:21:26] INFO root fetch - processPackages [pytest-ansible]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-05-05 14:21:26] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-05-05 14:21:26] INFO root fetch - processPackages [minet]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-05 14:21:26] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-05 14:21:26] INFO root fetch - processPackages [TikTokLiveCustom]: Downloading https://files.pythonhosted.org/packages/03/13/b6ef81b3980d59107212a0aaf51375aea550abe3d97bb5199e847d76cc48/TikTokLiveCustom-0.2-py3.9.egg
+[2023-05-05 14:21:26] INFO root fetch - processPackages [canals]: Downloading https://files.pythonhosted.org/packages/d7/cc/3fb525538c9f1adb141c6510e05eefbac4b1f618f4bcab98ad2958bd9bab/canals-0.0.3.tar.gz
+[2023-05-05 14:21:26] INFO root fetch - processPackages [pycompete]: Downloading https://files.pythonhosted.org/packages/88/d2/4851a711932a781d3aca64dbbaaa52a0cae1b5966eafaf61874a31dadc3e/pycompete-0.0.0.tar.gz
+[2023-05-05 14:21:26] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/94/41/154a6ff426782236dbac9d1f34cf02f023cf30692810e4d15682f8b7c8c5/minet-1.0.0a8.tar.gz
+[2023-05-05 14:21:26] INFO root fetch - processPackages [pytest-ansible]: Downloading https://files.pythonhosted.org/packages/8c/9e/cc6233f1ee4accbc863f4732dd0fcb5ff181173732be161f45e6d33f65a5/pytest-ansible-3.0.0.tar.gz
+[2023-05-05 14:21:26] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-05-05 14:21:26] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a8.tar.gz tmp/matflow_new-0.3.0a9.tar.gz --markdown 20230505/m/matflow-new/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-05-05 14:21:26] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/fd/aa/a311c3d7529afe335eff2e4d6b61f6d04891b162be0745221ca06e4ec02a/webcam-0.6.tar.gz
+[2023-05-05 14:21:26] INFO root fetch - processPackages [kojo]: Downloading https://files.pythonhosted.org/packages/ec/dc/1dbe5d8c555d396ff928b1c06ec84d91a53b1c5dcaf7021b82670592a921/kojo-0.16.0.tar.gz
+[2023-05-05 14:21:26] INFO root fetch - processPackages [kojo]: executing diffoscope
+[2023-05-05 14:21:26] INFO root fetch - processPackages [kojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kojo-0.15.0.tar.gz tmp/kojo-0.16.0.tar.gz --markdown 20230505/k/kojo/0.15.0-0.16.0/diff.md --exclude *.pyd
+[2023-05-05 14:21:26] INFO root fetch - processPackages [webcam]: executing diffoscope
+[2023-05-05 14:21:26] INFO root fetch - processPackages [webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webcam-0.5.tar.gz tmp/webcam-0.6.tar.gz --markdown 20230505/w/webcam/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-05 14:21:26] INFO root fetch - processPackages [TikTokLiveCustom]: Downloading https://files.pythonhosted.org/packages/29/0e/23c9e1c7344b92cec76d5fc9140f5b64fed3d9c8e6e58322f83f4bea81e0/TikTokLiveCustom-0.3-py3.9.egg
+[2023-05-05 14:21:26] INFO root fetch - processPackages [pycompete]: Downloading https://files.pythonhosted.org/packages/e6/f1/dbd6d5a80faf9b7bc38c0d8c10fcdcc2228eb2b5b0bbbe99ac483df40bc1/pycompete-0.0.4.tar.gz
+[2023-05-05 14:21:26] INFO root fetch - processPackages [pytest-ansible]: Downloading https://files.pythonhosted.org/packages/f6/98/b3413146d911fade0c7f540821eed6abc66eb2b16724baebdeccf06bba7e/pytest-ansible-3.1.0.tar.gz
+[2023-05-05 14:21:26] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-05 14:21:26] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-05 14:21:26] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230505/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 14:21:27] INFO root fetch - processPackages [canals]: Downloading https://files.pythonhosted.org/packages/81/1e/021b75f729724797f6f7f8c170c508ec8fb3e02c941c6fcff64652e48c71/canals-0.1.0.tar.gz
+[2023-05-05 14:21:27] INFO root fetch - processPackages [TikTokLiveCustom]: executing diffoscope
+[2023-05-05 14:21:27] INFO root fetch - processPackages [TikTokLiveCustom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TikTokLiveCustom-0.2-py3.9.egg tmp/TikTokLiveCustom-0.3-py3.9.egg --markdown 20230505/T/TikTokLiveCustom/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-05 14:21:27] INFO root fetch - processPackages [pytest-ansible]: executing diffoscope
+[2023-05-05 14:21:27] INFO root fetch - processPackages [pytest-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-ansible-3.0.0.tar.gz tmp/pytest-ansible-3.1.0.tar.gz --markdown 20230505/p/pytest-ansible/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-05-05 14:21:27] INFO root fetch - processPackages [pycompete]: executing diffoscope
+[2023-05-05 14:21:27] INFO root fetch - processPackages [pycompete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompete-0.0.0.tar.gz tmp/pycompete-0.0.4.tar.gz --markdown 20230505/p/pycompete/0.0.0-0.0.4/diff.md --exclude *.pyd
+[2023-05-05 14:21:27] INFO root fetch - processPackages [canals]: executing diffoscope
+[2023-05-05 14:21:27] INFO root fetch - processPackages [canals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canals-0.0.3.tar.gz tmp/canals-0.1.0.tar.gz --markdown 20230505/c/canals/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-05-05 14:21:27] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/4e/e5/909a67e95297d6394fab66a1746fc102658cf4b729a2c90a72872c3dd759/minet-1.0.0a9.tar.gz
+[2023-05-05 14:21:27] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-05 14:21:27] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230505/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 14:21:27] INFO root fetch - processPackages [minet]: executing diffoscope
+[2023-05-05 14:21:27] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.0.0a8.tar.gz tmp/minet-1.0.0a9.tar.gz --markdown 20230505/m/minet/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-05 14:21:28] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-05-05 14:21:28] INFO root fetch - main [MainThread]: End processing [kojo]: success
+[2023-05-05 14:21:28] INFO root fetch - main [MainThread]: End processing [webcam]: success
+[2023-05-05 14:21:28] INFO root fetch - main [MainThread]: End processing [pycompete]: success
+[2023-05-05 14:21:28] INFO root fetch - main [MainThread]: End processing [TikTokLiveCustom]: success
+[2023-05-05 14:21:28] INFO root fetch - main [MainThread]: End processing [pytest-ansible]: success
+[2023-05-05 14:21:29] INFO root fetch - main [MainThread]: End processing [canals]: success
+[2023-05-05 14:21:29] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-05 14:21:30] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2023-05-05 14:21:30] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-05 14:21:30] INFO root fetch - main [MainThread]: Store serial: [17986673]
