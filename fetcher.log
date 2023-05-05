@@ -19325,3 +19325,146 @@
 [2023-05-05 19:03:54] INFO root fetch - main [MainThread]: End processing [alphaz]: success
 [2023-05-05 19:04:08] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
 [2023-05-05 19:04:08] INFO root fetch - main [MainThread]: Store serial: [17990282]
+[2023-05-05 19:09:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17990282]
+[2023-05-05 19:09:18] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gen3authz
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amounts
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaml
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flake8-iw
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: h2o-pysparkling-3.0
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: h2o-pysparkling-scoring-3.0
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfcst
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opencage
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ovos-tts-server
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloud-data-connector
+[2023-05-05 19:09:18] INFO root fetch - processPackages [flake8-iw]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 19:09:18] INFO root fetch - processPackages [gen3authz]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-05 19:09:18] WARNING root fetch - processPackages [amounts]: Skipping, unable to determine old version
+[2023-05-05 19:09:18] INFO root fetch - processPackages [amounts]: Start processing: optiframe
+[2023-05-05 19:09:18] INFO root fetch - main [MainThread]: End processing [amounts] error
+[2023-05-05 19:09:18] INFO root fetch - processPackages [opencage]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-05 19:09:18] WARNING root fetch - processPackages [pyfcst]: Skipping, unable to determine old version
+[2023-05-05 19:09:18] INFO root fetch - processPackages [pyfcst]: Start processing: ghastoolkit
+[2023-05-05 19:09:18] INFO root fetch - processPackages [pyaml]: New version: [23.5.7] Old Version: [23.5.6]
+[2023-05-05 19:09:18] INFO root fetch - main [MainThread]: End processing [pyfcst] error
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ovos-tts-server]: New version: [0.0.2a4] Old Version: [0.0.2a3]
+[2023-05-05 19:09:18] INFO root fetch - processPackages [h2o-pysparkling-3.0]: New version: [3.40.0.4.post1] Old Version: [3.40.0.3.post1]
+[2023-05-05 19:09:18] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.0]: New version: [3.40.0.4.post1] Old Version: [3.40.0.3.post1]
+[2023-05-05 19:09:18] INFO root fetch - processPackages [flake8-iw]: executing diffoscope
+[2023-05-05 19:09:18] INFO root fetch - processPackages [flake8-iw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_iw-0.0.8.tar.gz tmp/flake8_iw-0.0.9.tar.gz --markdown 20230505/f/flake8-iw/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 19:09:18] ERROR root fetch - processPackages [cloud-data-connector]: Unable to get metadata: No such project 'cloud-data-connector'
+[2023-05-05 19:09:18] INFO root fetch - processPackages [cloud-data-connector]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-05 19:09:18] INFO root fetch - main [MainThread]: End processing [cloud-data-connector] error
+[2023-05-05 19:09:18] INFO root fetch - processPackages [optiframe]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ghastoolkit]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-05 19:09:18] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230505.6.35.992484] Old Version: [20230505.15.34.838592]
+[2023-05-05 19:09:18] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/72/98/873f645ec21748a1fcc044d9beebc982440119296367b7795d5d7f1d244f/certora-cli-alpha-rahav-cert-1987_update_regTest-20230505.15.34.838592.tar.gz
+[2023-05-05 19:09:18] INFO root fetch - processPackages [gen3authz]: Downloading https://files.pythonhosted.org/packages/e2/f8/ec353a620fe5cc0fc6e46798b9eaa317ffc3915c12cfff4b728123099c7e/gen3authz-2.0.0.tar.gz
+[2023-05-05 19:09:18] INFO root fetch - processPackages [h2o-pysparkling-3.0]: Downloading https://files.pythonhosted.org/packages/0d/27/4b39fc822323a6251205c3f375775c92648de264facc1075e7beffb8c9a2/h2o_pysparkling_3.0-3.40.0.3-1.tar.gz
+[2023-05-05 19:09:18] INFO root fetch - processPackages [opencage]: Downloading https://files.pythonhosted.org/packages/9f/13/52582c31e9f35085452b7eab8ab7f759b5efda956158d1888d57400f91cd/opencage-2.1.0.tar.gz
+[2023-05-05 19:09:18] INFO root fetch - processPackages [pyaml]: Downloading https://files.pythonhosted.org/packages/06/d3/c73b4fc111814d37aaf34ca061cf3bed79e89acfb6a2207ac35d45092756/pyaml-23.5.7.tar.gz
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ovos-tts-server]: Downloading https://files.pythonhosted.org/packages/cf/a2/8ca5a7931279575ab15b785c6319c665aee74d4c6c19a5ce5ed72c51733e/ovos-tts-server-0.0.2a4.tar.gz
+[2023-05-05 19:09:18] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38473005>=10485760
+[2023-05-05 19:09:18] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Start processing: mango-cli
+[2023-05-05 19:09:18] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-05 19:09:18] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.0]: Downloading https://files.pythonhosted.org/packages/43/bf/e303015f0ff06724a8e7ebb08606e8908faf590d2fd39de7958c5f7356d0/h2o_pysparkling_scoring_3.0-3.40.0.3-1.tar.gz
+[2023-05-05 19:09:18] INFO root fetch - processPackages [optiframe]: Downloading https://files.pythonhosted.org/packages/ae/97/714347a46e8df581764bd1a0a6dcb5882cfa9bdfd78601892437a921e95b/optiframe-0.4.0.tar.gz
+[2023-05-05 19:09:18] WARNING root fetch - processPackages [mango-cli]: Skipping, unable to determine old version
+[2023-05-05 19:09:18] INFO root fetch - processPackages [mango-cli]: Start processing: cdpcli
+[2023-05-05 19:09:18] INFO root fetch - main [MainThread]: End processing [mango-cli] error
+[2023-05-05 19:09:18] INFO root fetch - processPackages [pyaml]: executing diffoscope
+[2023-05-05 19:09:18] INFO root fetch - processPackages [pyaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaml-23.5.6.tar.gz tmp/pyaml-23.5.7.tar.gz --markdown 20230505/p/pyaml/23.5.6-23.5.7/diff.md --exclude *.pyd
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ovos-tts-server]: executing diffoscope
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ovos-tts-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-tts-server-0.0.2a3.tar.gz tmp/ovos-tts-server-0.0.2a4.tar.gz --markdown 20230505/o/ovos-tts-server/0.0.2a3-0.0.2a4/diff.md --exclude *.pyd
+[2023-05-05 19:09:18] WARNING root fetch - processPackages [h2o-pysparkling-3.0]: Skipping package: exceeds size limit 161711044>=10485760
+[2023-05-05 19:09:18] INFO root fetch - processPackages [h2o-pysparkling-3.0]: Start processing: T3SF
+[2023-05-05 19:09:18] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-3.0] error
+[2023-05-05 19:09:18] INFO root fetch - processPackages [T3SF]: New version: [2.0rc1] Old Version: [1.2]
+[2023-05-05 19:09:18] INFO root fetch - processPackages [cdpcli]: New version: [0.9.9] Old Version: [0.9.86]
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/5a/73/2d51131a04d506c915f561a67821764eb9ec4aca02bd8e05bbeb8169d2ed/ghastoolkit-0.2.2.tar.gz
+[2023-05-05 19:09:18] INFO root fetch - processPackages [T3SF]: executing diffoscope
+[2023-05-05 19:09:18] INFO root fetch - processPackages [T3SF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/T3SF-1.2.tar.gz tmp/T3SF-2.0rc1.tar.gz --markdown 20230505/T/T3SF/1.2-2.0rc1/diff.md --exclude *.pyd
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-05-05 19:09:18] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.2.1.tar.gz tmp/ghastoolkit-0.2.2.tar.gz --markdown 20230505/g/ghastoolkit/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-05 19:09:18] INFO root fetch - processPackages [optiframe]: Downloading https://files.pythonhosted.org/packages/dd/8c/b7b57f0debafcfff7b6adec22cfc696dc7e5fc983e554641b34b1a356a14/optiframe-0.5.0.tar.gz
+[2023-05-05 19:09:18] INFO root fetch - processPackages [cdpcli]: Downloading https://files.pythonhosted.org/packages/f8/91/aca237dcc26d549a7c0f9fe674151b20e368961408a75356fa282b74acb6/cdpcli-0.9.86.tar.gz
+[2023-05-05 19:09:18] INFO root fetch - processPackages [gen3authz]: Downloading https://files.pythonhosted.org/packages/59/75/3cff7d90acfb8d459e6edc032f90914c672468707e99fd7d068f9f665fcd/gen3authz-2.0.1-py3-none-any.whl
+[2023-05-05 19:09:18] INFO root fetch - processPackages [opencage]: Downloading https://files.pythonhosted.org/packages/49/fb/2c9a1c04226e6fdc98aa06e9304f2e4173d006d3f1d73729747256a2efb3/opencage-2.1.1.tar.gz
+[2023-05-05 19:09:18] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.0]: Downloading https://files.pythonhosted.org/packages/d1/7f/1786fa4294b2be4db3e7de16bfa205d6d165f8007dc681832a32f8064fc5/h2o_pysparkling_scoring_3.0-3.40.0.4-1.tar.gz
+[2023-05-05 19:09:18] INFO root fetch - processPackages [optiframe]: executing diffoscope
+[2023-05-05 19:09:18] INFO root fetch - processPackages [optiframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optiframe-0.4.0.tar.gz tmp/optiframe-0.5.0.tar.gz --markdown 20230505/o/optiframe/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-05 19:09:18] INFO root fetch - processPackages [gen3authz]: executing diffoscope
+[2023-05-05 19:09:18] INFO root fetch - processPackages [gen3authz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3authz-2.0.0.tar.gz tmp/gen3authz-2.0.1-py3-none-any.whl.zip --markdown 20230505/g/gen3authz/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-05 19:09:18] INFO root fetch - processPackages [opencage]: executing diffoscope
+[2023-05-05 19:09:18] INFO root fetch - processPackages [opencage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencage-2.1.0.tar.gz tmp/opencage-2.1.1.tar.gz --markdown 20230505/o/opencage/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-05 19:09:19] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.0]: executing diffoscope
+[2023-05-05 19:09:19] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_pysparkling_scoring_3.0-3.40.0.3-1.tar.gz tmp/h2o_pysparkling_scoring_3.0-3.40.0.4-1.tar.gz --markdown 20230505/h/h2o-pysparkling-scoring-3.0/3.40.0.3.post1-3.40.0.4.post1/diff.md --exclude *.pyd
+[2023-05-05 19:09:19] INFO root fetch - processPackages [cdpcli]: Downloading https://files.pythonhosted.org/packages/93/32/b9c49cd15469571b388bcf8082817282c493eec94d458b0da1b2c72ce3e3/cdpcli-0.9.9.tar.gz
+[2023-05-05 19:09:19] INFO root fetch - processPackages [cdpcli]: executing diffoscope
+[2023-05-05 19:09:19] INFO root fetch - processPackages [cdpcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdpcli-0.9.86.tar.gz tmp/cdpcli-0.9.9.tar.gz --markdown 20230505/c/cdpcli/0.9.86-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 19:09:19] INFO root fetch - processPackages [flake8-iw]: Start processing: amounts
+[2023-05-05 19:09:19] INFO root fetch - main [MainThread]: End processing [flake8-iw]: success
+[2023-05-05 19:09:19] INFO root fetch - processPackages [amounts]: New version: [2.8] Old Version: [2.7]
+[2023-05-05 19:09:19] INFO root fetch - processPackages [amounts]: Downloading https://files.pythonhosted.org/packages/2b/b2/50bbc3462066a12a170a61414aa8ec6aa12f40131275fdf74252c7bd8c71/amounts-2.7.tar.gz
+[2023-05-05 19:09:19] INFO root fetch - processPackages [ovos-tts-server]: Start processing: tf-nightly-intel
+[2023-05-05 19:09:19] INFO root fetch - main [MainThread]: End processing [ovos-tts-server]: success
+[2023-05-05 19:09:19] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230505] Old Version: [2.14.0.dev20230504]
+[2023-05-05 19:09:20] INFO root fetch - processPackages [amounts]: Downloading https://files.pythonhosted.org/packages/99/ee/6fc0266e4f0ba495076ed021813f333d21de7bcfd044ccd26b66bfd44000/amounts-2.8.tar.gz
+[2023-05-05 19:09:20] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/3d/43/c5ae5c9957254a090b2f8c0fd7e69ed22511a80fdf4d5de1efcf1df47e83/tf_nightly_intel-2.14.0.dev20230504-cp39-cp39-win_amd64.whl
+[2023-05-05 19:09:20] INFO root fetch - processPackages [pyaml]: Start processing: MegaFlow2D
+[2023-05-05 19:09:20] INFO root fetch - main [MainThread]: End processing [pyaml]: success
+[2023-05-05 19:09:20] INFO root fetch - processPackages [amounts]: executing diffoscope
+[2023-05-05 19:09:20] INFO root fetch - processPackages [amounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amounts-2.7.tar.gz tmp/amounts-2.8.tar.gz --markdown 20230505/a/amounts/2.7-2.8/diff.md --exclude *.pyd
+[2023-05-05 19:09:20] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 179777229>=10485760
+[2023-05-05 19:09:20] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: seqnado
+[2023-05-05 19:09:20] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-05-05 19:09:20] INFO root fetch - processPackages [gen3authz]: Start processing: pyfcst
+[2023-05-05 19:09:20] INFO root fetch - main [MainThread]: End processing [gen3authz]: success
+[2023-05-05 19:09:20] INFO root fetch - processPackages [pyfcst]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 19:09:20] INFO root fetch - processPackages [MegaFlow2D]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-05 19:09:20] INFO root fetch - processPackages [opencage]: Start processing: time-magic
+[2023-05-05 19:09:20] INFO root fetch - main [MainThread]: End processing [opencage]: success
+[2023-05-05 19:09:20] INFO root fetch - processPackages [seqnado]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-05 19:09:20] INFO root fetch - processPackages [pyfcst]: Downloading https://files.pythonhosted.org/packages/8b/e8/f20cc891f3da1f8f7159aa47cbe1b9d68543c13a278ea25ad19f159e850a/pyfcst-0.0.2.tar.gz
+[2023-05-05 19:09:20] WARNING root fetch - processPackages [time-magic]: Skipping, unable to determine old version
+[2023-05-05 19:09:20] INFO root fetch - processPackages [time-magic]: Start processing: sts-libs
+[2023-05-05 19:09:20] INFO root fetch - main [MainThread]: End processing [time-magic] error
+[2023-05-05 19:09:20] INFO root fetch - processPackages [sts-libs]: New version: [0.0.1.dev1] Old Version: [0.0.1.dev0]
+[2023-05-05 19:09:20] INFO root fetch - processPackages [optiframe]: Start processing: pyc3dtools
+[2023-05-05 19:09:20] INFO root fetch - main [MainThread]: End processing [optiframe]: success
+[2023-05-05 19:09:20] WARNING root fetch - processPackages [pyc3dtools]: Skipping, unable to determine old version
+[2023-05-05 19:09:20] INFO root fetch - processPackages [pyc3dtools]: Start processing: for-django-projects
+[2023-05-05 19:09:20] INFO root fetch - main [MainThread]: End processing [pyc3dtools] error
+[2023-05-05 19:09:20] INFO root fetch - processPackages [MegaFlow2D]: Downloading https://files.pythonhosted.org/packages/48/a1/36c1e5d64f10b2ed97a7445c3413982d018a3c3fd922a526af441e6ef277/MegaFlow2D-0.5.2.tar.gz
+[2023-05-05 19:09:20] INFO root fetch - processPackages [for-django-projects]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-05 19:09:20] INFO root fetch - processPackages [pyfcst]: Downloading https://files.pythonhosted.org/packages/8d/47/e0236a8aa2dd70b8e5033d34c99311fd3a01d6f6528e5d148eff3167552a/pyfcst-0.0.3.tar.gz
+[2023-05-05 19:09:20] INFO root fetch - processPackages [for-django-projects]: executing diffoscope
+[2023-05-05 19:09:20] INFO root fetch - processPackages [for-django-projects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/for-django-projects-1.0.3.tar.gz tmp/for-django-projects-1.0.4.tar.gz --markdown 20230505/f/for-django-projects/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-05 19:09:20] INFO root fetch - processPackages [ghastoolkit]: Start processing: xlwings
+[2023-05-05 19:09:20] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-05-05 19:09:20] INFO root fetch - processPackages [MegaFlow2D]: Downloading https://files.pythonhosted.org/packages/f4/2f/d42bc328880f64fb348898f3283ad7c4026f963beddc330258ba133e1741/MegaFlow2D-0.5.3.tar.gz
+[2023-05-05 19:09:20] INFO root fetch - processPackages [seqnado]: executing diffoscope
+[2023-05-05 19:09:20] INFO root fetch - processPackages [seqnado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqnado-0.3.1.tar.gz tmp/seqnado-0.3.2.tar.gz --markdown 20230505/s/seqnado/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-05 19:09:20] INFO root fetch - processPackages [pyfcst]: executing diffoscope
+[2023-05-05 19:09:20] INFO root fetch - processPackages [pyfcst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfcst-0.0.2.tar.gz tmp/pyfcst-0.0.3.tar.gz --markdown 20230505/p/pyfcst/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 19:09:20] INFO root fetch - processPackages [sts-libs]: executing diffoscope
+[2023-05-05 19:09:20] INFO root fetch - processPackages [sts-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts_libs-0.0.1.dev0.tar.gz tmp/sts_libs-0.0.1.dev1.tar.gz --markdown 20230505/s/sts-libs/0.0.1.dev0-0.0.1.dev1/diff.md --exclude *.pyd
+[2023-05-05 19:09:20] INFO root fetch - processPackages [MegaFlow2D]: executing diffoscope
+[2023-05-05 19:09:20] INFO root fetch - processPackages [MegaFlow2D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MegaFlow2D-0.5.2.tar.gz tmp/MegaFlow2D-0.5.3.tar.gz --markdown 20230505/M/MegaFlow2D/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-05 19:09:20] INFO root fetch - main [MainThread]: End processing [T3SF]: success
+[2023-05-05 19:09:21] INFO root fetch - processPackages [xlwings]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-05 19:09:21] INFO root fetch - processPackages [xlwings]: Downloading https://files.pythonhosted.org/packages/0d/d1/d7544bcf36d0a64b7a4a213be44ca19bf0eb8b7de232cf743eddceba7c8b/xlwings-0.9.2.tar.gz
+[2023-05-05 19:09:21] INFO root fetch - main [MainThread]: End processing [amounts]: success
+[2023-05-05 19:09:21] INFO root fetch - processPackages [xlwings]: Downloading https://files.pythonhosted.org/packages/98/93/a49777fac149cadd5687de9b05d87a423507769a75cbb922559cebc3d068/xlwings-0.9.3.tar.gz
+[2023-05-05 19:09:21] INFO root fetch - main [MainThread]: End processing [for-django-projects]: success
+[2023-05-05 19:09:21] INFO root fetch - main [MainThread]: End processing [pyfcst]: success
+[2023-05-05 19:09:22] INFO root fetch - main [MainThread]: End processing [MegaFlow2D]: success
+[2023-05-05 19:09:22] INFO root fetch - main [MainThread]: End processing [sts-libs]: success
+[2023-05-05 19:09:22] INFO root fetch - processPackages [xlwings]: executing diffoscope
+[2023-05-05 19:09:22] INFO root fetch - processPackages [xlwings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlwings-0.9.2.tar.gz tmp/xlwings-0.9.3.tar.gz --markdown 20230505/x/xlwings/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-05 19:09:25] INFO root fetch - main [MainThread]: End processing [cdpcli]: success
+[2023-05-05 19:09:26] INFO root fetch - main [MainThread]: End processing [xlwings]: success
+[2023-05-05 19:09:46] INFO root fetch - main [MainThread]: End processing [seqnado]: success
+[2023-05-05 19:12:19] ERROR root fetch - processPackages [h2o-pysparkling-scoring-3.0]: Timeout during execution of pkgdiff
+[2023-05-05 19:12:19] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-3.0] error
+[2023-05-05 19:12:19] INFO root fetch - main [MainThread]: Store serial: [17990374]
