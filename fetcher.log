@@ -10619,3 +10619,109 @@
 [2023-05-05 11:36:25] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-05 11:36:53] INFO root fetch - main [MainThread]: End processing [poseidon-hash]: success
 [2023-05-05 11:36:53] INFO root fetch - main [MainThread]: Store serial: [17984699]
+[2023-05-05 11:41:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17984699]
+[2023-05-05 11:42:03] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-05 11:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyperfast-python-template
+[2023-05-05 11:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ddmrp-coverage-days
+[2023-05-05 11:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: birentechci
+[2023-05-05 11:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twyn
+[2023-05-05 11:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyracf
+[2023-05-05 11:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bemserver-core
+[2023-05-05 11:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agilerl
+[2023-05-05 11:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vcarhillclient
+[2023-05-05 11:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ayugespidertools
+[2023-05-05 11:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyNyaaTa
+[2023-05-05 11:42:03] INFO root fetch - processPackages [odoo14-addon-ddmrp-coverage-days]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.1.dev3]
+[2023-05-05 11:42:03] INFO root fetch - processPackages [birentechci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 11:42:03] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-05 11:42:03] WARNING root fetch - processPackages [vcarhillclient]: Skipping, unable to determine old version
+[2023-05-05 11:42:03] INFO root fetch - processPackages [bemserver-core]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-05 11:42:03] INFO root fetch - processPackages [vcarhillclient]: Start processing: twyn
+[2023-05-05 11:42:03] INFO root fetch - main [MainThread]: End processing [vcarhillclient] error
+[2023-05-05 11:42:03] INFO root fetch - processPackages [twyn]: New version: [0.20.3] Old Version: [0.20.2]
+[2023-05-05 11:42:03] INFO root fetch - processPackages [pyracf]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-05 11:42:03] INFO root fetch - processPackages [agilerl]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 11:42:03] INFO root fetch - processPackages [ayugespidertools]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-05 11:42:03] INFO root fetch - processPackages [PyNyaaTa]: New version: [202305050938] Old Version: [202305020519]
+[2023-05-05 11:42:03] INFO root fetch - processPackages [twyn]: New version: [0.20.3] Old Version: [0.20.2]
+[2023-05-05 11:42:03] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/92/0a/56986c422b8daefe04eddbc75bb296e3c3b26ed6c6ff29fd588223143ab8/twyn-0.20.2.tar.gz
+[2023-05-05 11:42:03] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/92/0a/56986c422b8daefe04eddbc75bb296e3c3b26ed6c6ff29fd588223143ab8/twyn-0.20.2.tar.gz
+[2023-05-05 11:42:03] INFO root fetch - processPackages [odoo14-addon-ddmrp-coverage-days]: Downloading https://files.pythonhosted.org/packages/b2/d3/dbdd6a6d1d540f4a4bb14de66fefd3243f3d1e1be41086c2dde9edb99ea1/odoo14_addon_ddmrp_coverage_days-14.0.1.1.1.dev3-py3-none-any.whl
+[2023-05-05 11:42:03] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/d5/ac/59ef8e4f4b59180be3eef14333000c62557baf8951a112cf790242d06272/PyNyaaTa-202305020519.tar.gz
+[2023-05-05 11:42:03] INFO root fetch - processPackages [birentechci]: Downloading https://files.pythonhosted.org/packages/7b/de/0960257c410e07160e8d15f098b69170b953a038c255d8ec6d359ee7be81/birentechci-0.0.8.tar.gz
+[2023-05-05 11:42:03] INFO root fetch - processPackages [agilerl]: Downloading https://files.pythonhosted.org/packages/f4/1b/5a57fd93c3b9c782edb0b51fe9480a65d3528153d072d23626ac3c315e27/agilerl-0.1.4.tar.gz
+[2023-05-05 11:42:03] INFO root fetch - processPackages [pyracf]: Downloading https://files.pythonhosted.org/packages/a4/dc/6a038b7949101804c68ae7ca5c66ce803b9fd13a2f1b0414aabab9d63f4d/pyracf-0.5.8.tar.gz
+[2023-05-05 11:42:03] INFO root fetch - processPackages [ayugespidertools]: Downloading https://files.pythonhosted.org/packages/0a/06/f8d9e00b1808f165ddaf4b59437903a5c8f176c008c63f0fb25ed80b4441/ayugespidertools-2.0.1.tar.gz
+[2023-05-05 11:42:03] INFO root fetch - processPackages [bemserver-core]: executing diffoscope
+[2023-05-05 11:42:03] INFO root fetch - processPackages [bemserver-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-core-0.9.0.tar.gz tmp/bemserver-core-0.9.1.tar.gz --markdown 20230505/b/bemserver-core/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-05 11:42:03] INFO root fetch - processPackages [pyracf]: executing diffoscope
+[2023-05-05 11:42:03] INFO root fetch - processPackages [pyracf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyracf-0.5.7.tar.gz tmp/pyracf-0.5.8.tar.gz --markdown 20230505/p/pyracf/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-05 11:42:03] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/a2/13/3e4dd06a9819df4e9b7bce967be8d02e22f9059848da5b3aca10609a753f/twyn-0.20.3.tar.gz
+[2023-05-05 11:42:03] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/a2/13/3e4dd06a9819df4e9b7bce967be8d02e22f9059848da5b3aca10609a753f/twyn-0.20.3.tar.gz
+[2023-05-05 11:42:03] INFO root fetch - processPackages [odoo14-addon-ddmrp-coverage-days]: Downloading https://files.pythonhosted.org/packages/2c/a4/f9c7ab7e9434d1d8900695e0d82ca931802134cab9eedcd24286eb16f49e/odoo14_addon_ddmrp_coverage_days-14.0.1.2.0-py3-none-any.whl
+[2023-05-05 11:42:03] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-05-05 11:42:03] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.4.8.tar.gz tmp/hyperfast_python_template-0.4.9.tar.gz --markdown 20230505/h/hyperfast-python-template/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-05 11:42:03] INFO root fetch - processPackages [agilerl]: Downloading https://files.pythonhosted.org/packages/3f/0b/151b5e24acecd3e740debb113e07574e6b8c92f0ccf69bed09a655e72d63/agilerl-0.1.5.tar.gz
+[2023-05-05 11:42:03] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/58/78/0609ecff4f0c3c56b1631da7bd5ae638514c4bc16979f1d54020105bda0d/PyNyaaTa-202305050938.tar.gz
+[2023-05-05 11:42:03] INFO root fetch - processPackages [ayugespidertools]: Downloading https://files.pythonhosted.org/packages/09/63/bc85a8e88f45674d42b52d5907a3c04216d3b62af3f3e0dca07ead92d4f2/ayugespidertools-2.0.2.tar.gz
+[2023-05-05 11:42:03] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-05-05 11:42:03] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-0.20.2.tar.gz tmp/twyn-0.20.3.tar.gz --markdown 20230505/t/twyn/0.20.2-0.20.3/diff.md --exclude *.pyd
+[2023-05-05 11:42:03] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-05-05 11:42:03] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-0.20.2.tar.gz tmp/twyn-0.20.3.tar.gz --markdown 20230505/t/twyn/0.20.2-0.20.3/diff.md --exclude *.pyd
+[2023-05-05 11:42:03] INFO root fetch - processPackages [odoo14-addon-ddmrp-coverage-days]: executing diffoscope
+[2023-05-05 11:42:03] INFO root fetch - processPackages [odoo14-addon-ddmrp-coverage-days]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp_coverage_days-14.0.1.1.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp_coverage_days-14.0.1.2.0-py3-none-any.whl.zip --markdown 20230505/o/odoo14-addon-ddmrp-coverage-days/14.0.1.1.1.dev3-14.0.1.2.0/diff.md --exclude *.pyd
+[2023-05-05 11:42:03] INFO root fetch - processPackages [agilerl]: executing diffoscope
+[2023-05-05 11:42:03] INFO root fetch - processPackages [agilerl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilerl-0.1.4.tar.gz tmp/agilerl-0.1.5.tar.gz --markdown 20230505/a/agilerl/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 11:42:04] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-05-05 11:42:04] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202305020519.tar.gz tmp/PyNyaaTa-202305050938.tar.gz --markdown 20230505/P/PyNyaaTa/202305020519-202305050938/diff.md --exclude *.pyd
+[2023-05-05 11:42:04] INFO root fetch - processPackages [ayugespidertools]: executing diffoscope
+[2023-05-05 11:42:04] INFO root fetch - processPackages [ayugespidertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayugespidertools-2.0.1.tar.gz tmp/ayugespidertools-2.0.2.tar.gz --markdown 20230505/a/ayugespidertools/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-05 11:42:04] INFO root fetch - processPackages [birentechci]: Downloading https://files.pythonhosted.org/packages/4f/f9/f3d66a557192c24b59cc958b87d1c2910008be4a71f24410b923f42157a9/birentechci-0.0.9.tar.gz
+[2023-05-05 11:42:04] INFO root fetch - processPackages [birentechci]: executing diffoscope
+[2023-05-05 11:42:04] INFO root fetch - processPackages [birentechci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birentechci-0.0.8.tar.gz tmp/birentechci-0.0.9.tar.gz --markdown 20230505/b/birentechci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 11:42:05] INFO root fetch - processPackages [hyperfast-python-template]: Start processing: p-ttauto-crawler
+[2023-05-05 11:42:05] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-05-05 11:42:05] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 11:42:05] INFO root fetch - processPackages [odoo14-addon-ddmrp-coverage-days]: Start processing: crdb
+[2023-05-05 11:42:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp-coverage-days]: success
+[2023-05-05 11:42:05] INFO root fetch - processPackages [crdb]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-05 11:42:05] INFO root fetch - processPackages [crdb]: Downloading https://files.pythonhosted.org/packages/0b/19/a45f098652ac66a605edba9ad04299498438bbf8f175a2d66055c8297978/crdb-0.6.1.tar.gz
+[2023-05-05 11:42:05] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-05-05 11:42:05] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.0.8.tar.gz tmp/p-ttauto-crawler-0.0.9.tar.gz --markdown 20230505/p/p-ttauto-crawler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 11:42:05] INFO root fetch - processPackages [twyn]: Start processing: lifeomic-patient-ml-types
+[2023-05-05 11:42:05] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-05-05 11:42:05] INFO root fetch - processPackages [lifeomic-patient-ml-types]: New version: [7.5.1] Old Version: [7.5.0]
+[2023-05-05 11:42:05] INFO root fetch - processPackages [birentechci]: Start processing: hyperfast-python-template
+[2023-05-05 11:42:05] INFO root fetch - main [MainThread]: End processing [birentechci]: success
+[2023-05-05 11:42:05] INFO root fetch - processPackages [twyn]: Start processing: jina
+[2023-05-05 11:42:05] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-05-05 11:42:05] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-05 11:42:05] INFO root fetch - processPackages [crdb]: executing diffoscope
+[2023-05-05 11:42:05] INFO root fetch - processPackages [crdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crdb-0.6.0.tar.gz tmp/crdb-0.6.1.tar.gz --markdown 20230505/c/crdb/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-05 11:42:05] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-05 11:42:05] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-05-05 11:42:05] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.4.8.tar.gz tmp/hyperfast_python_template-0.4.9.tar.gz --markdown 20230505/h/hyperfast-python-template/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-05 11:42:05] INFO root fetch - processPackages [lifeomic-patient-ml-types]: Downloading https://files.pythonhosted.org/packages/68/1e/f032b1b1ef098813178b4a15735cd2fc41dbd2a0de7fdbafaf689500514c/lifeomic_patient_ml_types-7.5.0.tar.gz
+[2023-05-05 11:42:05] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-05 11:42:05] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230505/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-05 11:42:06] INFO root fetch - processPackages [lifeomic-patient-ml-types]: Downloading https://files.pythonhosted.org/packages/18/71/7c3a0a6c9d2c555f755ad848d521527bafa63ceedd1828cdf619f5a44cb3/lifeomic_patient_ml_types-7.5.1.tar.gz
+[2023-05-05 11:42:06] INFO root fetch - processPackages [agilerl]: Start processing: th2-data-services
+[2023-05-05 11:42:06] INFO root fetch - main [MainThread]: End processing [agilerl]: success
+[2023-05-05 11:42:06] INFO root fetch - main [MainThread]: End processing [pyracf]: success
+[2023-05-05 11:42:06] INFO root fetch - processPackages [lifeomic-patient-ml-types]: executing diffoscope
+[2023-05-05 11:42:06] INFO root fetch - processPackages [lifeomic-patient-ml-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifeomic_patient_ml_types-7.5.0.tar.gz tmp/lifeomic_patient_ml_types-7.5.1.tar.gz --markdown 20230505/l/lifeomic-patient-ml-types/7.5.0-7.5.1/diff.md --exclude *.pyd
+[2023-05-05 11:42:06] INFO root fetch - main [MainThread]: End processing [ayugespidertools]: success
+[2023-05-05 11:42:06] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev4892029505] Old Version: [2.0.0.dev4783695011]
+[2023-05-05 11:42:06] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-05-05 11:42:06] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/b0/f7/0ea81a233ce05a16ee97d2524012cd66784b6b1c4413242f4b7e5ace6a7a/th2_data_services-2.0.0.dev4783695011.tar.gz
+[2023-05-05 11:42:07] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-05-05 11:42:07] INFO root fetch - main [MainThread]: End processing [crdb]: success
+[2023-05-05 11:42:07] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-05-05 11:42:07] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/1e/d2/a0ca27e581819bed806dcc8ac0c12760d8b1212faa120b198a3ad45a18d3/th2_data_services-2.0.0.dev4892029505.tar.gz
+[2023-05-05 11:42:07] INFO root fetch - main [MainThread]: End processing [lifeomic-patient-ml-types]: success
+[2023-05-05 11:42:07] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-05-05 11:42:07] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev4783695011.tar.gz tmp/th2_data_services-2.0.0.dev4892029505.tar.gz --markdown 20230505/t/th2-data-services/2.0.0.dev4783695011-2.0.0.dev4892029505/diff.md --exclude *.pyd
+[2023-05-05 11:42:07] INFO root fetch - main [MainThread]: End processing [bemserver-core]: success
+[2023-05-05 11:42:08] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-05 11:42:10] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-05-05 11:42:10] INFO root fetch - main [MainThread]: Store serial: [17984751]
