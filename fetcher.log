@@ -18114,3 +18114,147 @@
 [2023-05-05 18:02:24] INFO root fetch - main [MainThread]: End processing [moneykit]: success
 [2023-05-05 18:02:25] INFO root fetch - main [MainThread]: End processing [kivy-widgets]: success
 [2023-05-05 18:02:25] INFO root fetch - main [MainThread]: Store serial: [17989579]
+[2023-05-05 18:07:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17989579]
+[2023-05-05 18:07:34] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-05 18:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdeclient
+[2023-05-05 18:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ural
+[2023-05-05 18:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phenopedia-parser
+[2023-05-05 18:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: static-frame
+[2023-05-05 18:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: T3SF
+[2023-05-05 18:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flake8-iw
+[2023-05-05 18:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-05-05 18:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rad-tools
+[2023-05-05 18:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vrt-lss-account
+[2023-05-05 18:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vrt-lss-agro
+[2023-05-05 18:07:34] ERROR root fetch - processPackages [sdeclient]: Unable to get metadata: No such project 'sdeclient'
+[2023-05-05 18:07:34] INFO root fetch - processPackages [vrt-lss-account]: New version: [6.5.1990] Old Version: [6.4.1962]
+[2023-05-05 18:07:34] INFO root fetch - processPackages [sdeclient]: Start processing: vrt-lss-packer
+[2023-05-05 18:07:34] INFO root fetch - main [MainThread]: End processing [sdeclient] error
+[2023-05-05 18:07:34] INFO root fetch - processPackages [vrt-lss-agro]: New version: [6.5.1990] Old Version: [6.4.1962]
+[2023-05-05 18:07:34] INFO root fetch - processPackages [T3SF]: New version: [2.0rc1] Old Version: [1.2]
+[2023-05-05 18:07:34] INFO root fetch - processPackages [phenopedia-parser]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 18:07:34] INFO root fetch - processPackages [ural]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-05 18:07:34] INFO root fetch - processPackages [vrt-lss-packer]: New version: [6.5.1990] Old Version: [6.4.1962]
+[2023-05-05 18:07:34] INFO root fetch - processPackages [flake8-iw]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 18:07:34] INFO root fetch - processPackages [rad-tools]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-05 18:07:34] INFO root fetch - processPackages [static-frame]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-05 18:07:34] INFO root fetch - processPackages [coiled]: New version: [0.6.2.dev9] Old Version: [0.6.2.dev6]
+[2023-05-05 18:07:34] INFO root fetch - processPackages [phenopedia-parser]: Downloading https://files.pythonhosted.org/packages/ea/04/07511a5b088440d194b366bb1d19f6316fb6e48d62c5327f2c7509c094e4/phenopedia-parser-0.0.2.tar.gz
+[2023-05-05 18:07:34] INFO root fetch - processPackages [vrt-lss-account]: Downloading https://files.pythonhosted.org/packages/be/80/e3cddae043611dc27be616b480ec997e58839f6254545aa725e3270e0df8/vrt_lss_account-6.4.1962-py3-none-any.whl
+[2023-05-05 18:07:34] INFO root fetch - processPackages [T3SF]: Downloading https://files.pythonhosted.org/packages/c7/98/dcead90e4c1aa95c924c7d5bbad596f9af88ef9afe34664a88021bbe41b6/T3SF-1.2.tar.gz
+[2023-05-05 18:07:34] INFO root fetch - processPackages [vrt-lss-agro]: Downloading https://files.pythonhosted.org/packages/09/b5/9b67c085b9c641f9fcf54f0c9f900c2927f1f65689fbc9c8f38cd9295a42/vrt_lss_agro-6.4.1962-py3-none-any.whl
+[2023-05-05 18:07:34] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-05 18:07:34] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.2.dev6.tar.gz tmp/coiled-0.6.2.dev9.tar.gz --markdown 20230505/c/coiled/0.6.2.dev6-0.6.2.dev9/diff.md --exclude *.pyd
+[2023-05-05 18:07:35] INFO root fetch - processPackages [rad-tools]: executing diffoscope
+[2023-05-05 18:07:35] INFO root fetch - processPackages [rad-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rad-tools-0.5.8.tar.gz tmp/rad-tools-0.5.9.tar.gz --markdown 20230505/r/rad-tools/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-05 18:07:35] INFO root fetch - processPackages [flake8-iw]: Downloading https://files.pythonhosted.org/packages/b0/8d/d764ec8fc3145bc8fbf808e82ef21452099e732c3b5f745da6b66e0d913c/flake8_iw-0.0.8.tar.gz
+[2023-05-05 18:07:35] INFO root fetch - processPackages [vrt-lss-packer]: Downloading https://files.pythonhosted.org/packages/f6/31/7887bd526d1f10c83e78f72f3e48f5b154d023e3d138f74b105f8b579846/vrt_lss_packer-6.4.1962-py3-none-any.whl
+[2023-05-05 18:07:35] INFO root fetch - processPackages [static-frame]: Downloading https://files.pythonhosted.org/packages/5a/c2/275a413fe1ff9b46a610d74c6e6554a4316e822077361738cc856e6267e4/static-frame-1.4.1.tar.gz
+[2023-05-05 18:07:35] INFO root fetch - processPackages [static-frame]: executing diffoscope
+[2023-05-05 18:07:35] INFO root fetch - processPackages [static-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/static-frame-1.4.0.tar.gz tmp/static-frame-1.4.1.tar.gz --markdown 20230505/s/static-frame/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-05 18:07:35] INFO root fetch - processPackages [ural]: executing diffoscope
+[2023-05-05 18:07:35] INFO root fetch - processPackages [ural]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ural-0.8.0.tar.gz tmp/ural-0.9.0.tar.gz --markdown 20230505/u/ural/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 18:07:35] INFO root fetch - processPackages [T3SF]: Downloading https://files.pythonhosted.org/packages/15/de/e47daf7ee48723f0287cd0aab0068bc6b143dad916ea9a7c625fa4ec46b2/T3SF-2.0rc1.tar.gz
+[2023-05-05 18:07:35] INFO root fetch - processPackages [phenopedia-parser]: Downloading https://files.pythonhosted.org/packages/48/c0/2875f19dfb9158d12738af1c6825f90adf24eef0ca250973643fcef1e725/phenopedia-parser-0.0.3.tar.gz
+[2023-05-05 18:07:35] INFO root fetch - processPackages [T3SF]: executing diffoscope
+[2023-05-05 18:07:35] INFO root fetch - processPackages [T3SF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/T3SF-1.2.tar.gz tmp/T3SF-2.0rc1.tar.gz --markdown 20230505/T/T3SF/1.2-2.0rc1/diff.md --exclude *.pyd
+[2023-05-05 18:07:35] INFO root fetch - processPackages [vrt-lss-agro]: Downloading https://files.pythonhosted.org/packages/35/1a/f41728811b096253bd5cb06536527b3b59f26cf7634aa47d29ede2258e63/vrt_lss_agro-6.5.1990-py3-none-any.whl
+[2023-05-05 18:07:35] INFO root fetch - processPackages [phenopedia-parser]: executing diffoscope
+[2023-05-05 18:07:35] INFO root fetch - processPackages [phenopedia-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenopedia-parser-0.0.2.tar.gz tmp/phenopedia-parser-0.0.3.tar.gz --markdown 20230505/p/phenopedia-parser/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 18:07:35] INFO root fetch - processPackages [vrt-lss-account]: Downloading https://files.pythonhosted.org/packages/99/cb/37aa0352d582689d59a1193eeeb941fb45491bfb308f327177301dc327a8/vrt_lss_account-6.5.1990-py3-none-any.whl
+[2023-05-05 18:07:35] INFO root fetch - processPackages [vrt-lss-packer]: Downloading https://files.pythonhosted.org/packages/ed/e6/b12f96a71987c880a774d99d88d0b7686d3ecf5a0078d1f39f6d884bf9f3/vrt_lss_packer-6.5.1990-py3-none-any.whl
+[2023-05-05 18:07:35] INFO root fetch - processPackages [flake8-iw]: Downloading https://files.pythonhosted.org/packages/90/59/09fa1637697936fa3c922cf9b20676bf22a192cc85b3b10a6d291163072a/flake8_iw-0.0.9.tar.gz
+[2023-05-05 18:07:35] INFO root fetch - processPackages [vrt-lss-agro]: executing diffoscope
+[2023-05-05 18:07:35] INFO root fetch - processPackages [vrt-lss-agro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_agro-6.4.1962-py3-none-any.whl.zip tmp/vrt_lss_agro-6.5.1990-py3-none-any.whl.zip --markdown 20230505/v/vrt-lss-agro/6.4.1962-6.5.1990/diff.md --exclude *.pyd
+[2023-05-05 18:07:35] INFO root fetch - processPackages [vrt-lss-packer]: executing diffoscope
+[2023-05-05 18:07:35] INFO root fetch - processPackages [vrt-lss-packer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_packer-6.4.1962-py3-none-any.whl.zip tmp/vrt_lss_packer-6.5.1990-py3-none-any.whl.zip --markdown 20230505/v/vrt-lss-packer/6.4.1962-6.5.1990/diff.md --exclude *.pyd
+[2023-05-05 18:07:35] INFO root fetch - processPackages [vrt-lss-account]: executing diffoscope
+[2023-05-05 18:07:35] INFO root fetch - processPackages [vrt-lss-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_account-6.4.1962-py3-none-any.whl.zip tmp/vrt_lss_account-6.5.1990-py3-none-any.whl.zip --markdown 20230505/v/vrt-lss-account/6.4.1962-6.5.1990/diff.md --exclude *.pyd
+[2023-05-05 18:07:35] INFO root fetch - processPackages [flake8-iw]: executing diffoscope
+[2023-05-05 18:07:35] INFO root fetch - processPackages [flake8-iw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_iw-0.0.8.tar.gz tmp/flake8_iw-0.0.9.tar.gz --markdown 20230505/f/flake8-iw/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 18:07:36] INFO root fetch - processPackages [T3SF]: Start processing: vrt-lss-routing
+[2023-05-05 18:07:36] INFO root fetch - main [MainThread]: End processing [T3SF]: success
+[2023-05-05 18:07:36] INFO root fetch - processPackages [vrt-lss-routing]: New version: [6.5.1990] Old Version: [6.4.1962]
+[2023-05-05 18:07:36] INFO root fetch - processPackages [phenopedia-parser]: Start processing: vrt-lss-studio
+[2023-05-05 18:07:36] INFO root fetch - main [MainThread]: End processing [phenopedia-parser]: success
+[2023-05-05 18:07:36] INFO root fetch - processPackages [vrt-lss-studio]: New version: [6.5.1990] Old Version: [6.4.1962]
+[2023-05-05 18:07:36] INFO root fetch - processPackages [ural]: Start processing: braincube-aws-core-alpha
+[2023-05-05 18:07:36] INFO root fetch - main [MainThread]: End processing [ural]: success
+[2023-05-05 18:07:36] INFO root fetch - processPackages [braincube-aws-core-alpha]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-05-05 18:07:36] INFO root fetch - processPackages [rad-tools]: Start processing: babs
+[2023-05-05 18:07:36] INFO root fetch - main [MainThread]: End processing [rad-tools]: success
+[2023-05-05 18:07:36] INFO root fetch - processPackages [vrt-lss-routing]: Downloading https://files.pythonhosted.org/packages/c0/26/1393a3f450209fcb4de6bf987645057d6d2b88b7fe5fc8669315bf6117f2/vrt_lss_routing-6.4.1962-py3-none-any.whl
+[2023-05-05 18:07:36] INFO root fetch - processPackages [babs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 18:07:36] INFO root fetch - processPackages [vrt-lss-studio]: Downloading https://files.pythonhosted.org/packages/1d/88/d2d4b1d5ca0542ec55083a4f064c1d4626b020ab5e20d8ada4bcfcef5ead/vrt_lss_studio-6.4.1962-py3-none-any.whl
+[2023-05-05 18:07:37] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/c3/50/6c731202c853a70821b9f379d783c59efa3ecae33dd0eb17b1ab9f6b32ec/braincube-aws-core-alpha-0.0.16.tar.gz
+[2023-05-05 18:07:37] INFO root fetch - processPackages [flake8-iw]: Start processing: digitalguide-reader
+[2023-05-05 18:07:37] INFO root fetch - main [MainThread]: End processing [flake8-iw]: success
+[2023-05-05 18:07:37] INFO root fetch - processPackages [digitalguide-reader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 18:07:37] INFO root fetch - processPackages [babs]: Downloading https://files.pythonhosted.org/packages/4d/38/6dc55c335aaa9a384e9d07a1f9b4ad8cb68137085b961c65dbfbab1b5ec6/babs-0.0.2.tar.gz
+[2023-05-05 18:07:37] INFO root fetch - processPackages [vrt-lss-packer]: Start processing: vrt-lss-universal
+[2023-05-05 18:07:37] INFO root fetch - main [MainThread]: End processing [vrt-lss-packer]: success
+[2023-05-05 18:07:37] INFO root fetch - processPackages [digitalguide-reader]: executing diffoscope
+[2023-05-05 18:07:37] INFO root fetch - processPackages [digitalguide-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide_reader-0.0.8.tar.gz tmp/digitalguide_reader-0.0.9.tar.gz --markdown 20230505/d/digitalguide-reader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 18:07:37] INFO root fetch - processPackages [vrt-lss-account]: Start processing: dkist-processing-core
+[2023-05-05 18:07:37] INFO root fetch - main [MainThread]: End processing [vrt-lss-account]: success
+[2023-05-05 18:07:37] INFO root fetch - processPackages [vrt-lss-universal]: New version: [6.5.1990] Old Version: [6.4.1962]
+[2023-05-05 18:07:37] INFO root fetch - processPackages [dkist-processing-core]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-05 18:07:37] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/87/3c/c1bf72411bdf5129597d0af3fb0a8e9da021e5e221fc6b3d2a243048ca2f/braincube-aws-core-alpha-0.0.17.tar.gz
+[2023-05-05 18:07:37] INFO root fetch - processPackages [vrt-lss-routing]: Downloading https://files.pythonhosted.org/packages/d4/bf/a252e5ec99cf526c99c07bc46f7d19be56efaf1de3f7416d60a8390555ca/vrt_lss_routing-6.5.1990-py3-none-any.whl
+[2023-05-05 18:07:37] INFO root fetch - processPackages [vrt-lss-agro]: Start processing: pysqa
+[2023-05-05 18:07:37] INFO root fetch - main [MainThread]: End processing [vrt-lss-agro]: success
+[2023-05-05 18:07:37] INFO root fetch - processPackages [pysqa]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 18:07:37] INFO root fetch - processPackages [vrt-lss-studio]: Downloading https://files.pythonhosted.org/packages/7a/b3/af6ac0dbe68e0d6a21e166f4824a42d86f4e53ea6196b56f9c1636572c81/vrt_lss_studio-6.5.1990-py3-none-any.whl
+[2023-05-05 18:07:37] INFO root fetch - processPackages [braincube-aws-core-alpha]: executing diffoscope
+[2023-05-05 18:07:37] INFO root fetch - processPackages [braincube-aws-core-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-alpha-0.0.16.tar.gz tmp/braincube-aws-core-alpha-0.0.17.tar.gz --markdown 20230505/b/braincube-aws-core-alpha/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-05-05 18:07:37] INFO root fetch - processPackages [vrt-lss-routing]: executing diffoscope
+[2023-05-05 18:07:37] INFO root fetch - processPackages [vrt-lss-routing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_routing-6.4.1962-py3-none-any.whl.zip tmp/vrt_lss_routing-6.5.1990-py3-none-any.whl.zip --markdown 20230505/v/vrt-lss-routing/6.4.1962-6.5.1990/diff.md --exclude *.pyd
+[2023-05-05 18:07:37] INFO root fetch - processPackages [dkist-processing-core]: Downloading https://files.pythonhosted.org/packages/50/fc/f3f8760f5528b7bee765facd7a650a86021c8aee21e2b7102e4fd549c2ae/dkist-processing-core-1.3.0.tar.gz
+[2023-05-05 18:07:37] INFO root fetch - processPackages [vrt-lss-universal]: Downloading https://files.pythonhosted.org/packages/28/55/09eb5946b81026e5b245cab631f459a79990ac14213b3d1437ef62d6e87b/vrt_lss_universal-6.4.1962-py3-none-any.whl
+[2023-05-05 18:07:37] INFO root fetch - processPackages [vrt-lss-studio]: executing diffoscope
+[2023-05-05 18:07:37] INFO root fetch - processPackages [vrt-lss-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_studio-6.4.1962-py3-none-any.whl.zip tmp/vrt_lss_studio-6.5.1990-py3-none-any.whl.zip --markdown 20230505/v/vrt-lss-studio/6.4.1962-6.5.1990/diff.md --exclude *.pyd
+[2023-05-05 18:07:37] INFO root fetch - processPackages [babs]: Downloading https://files.pythonhosted.org/packages/2f/e9/179b0a87af047363d9c644add0956df499b17a63489675f23911cb4e4a28/babs-0.0.3.tar.gz
+[2023-05-05 18:07:37] INFO root fetch - processPackages [babs]: executing diffoscope
+[2023-05-05 18:07:37] INFO root fetch - processPackages [babs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babs-0.0.2.tar.gz tmp/babs-0.0.3.tar.gz --markdown 20230505/b/babs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 18:07:37] INFO root fetch - processPackages [dkist-processing-core]: Downloading https://files.pythonhosted.org/packages/1a/82/ffb256cd693dfd05b5232763b719c52ebdb4f223a7af96925091ed0159cf/dkist-processing-core-1.4.0.tar.gz
+[2023-05-05 18:07:37] INFO root fetch - processPackages [pysqa]: executing diffoscope
+[2023-05-05 18:07:37] INFO root fetch - processPackages [pysqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqa-0.0.8.tar.gz tmp/pysqa-0.0.9.tar.gz --markdown 20230505/p/pysqa/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 18:07:37] INFO root fetch - processPackages [dkist-processing-core]: executing diffoscope
+[2023-05-05 18:07:37] INFO root fetch - processPackages [dkist-processing-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-core-1.3.0.tar.gz tmp/dkist-processing-core-1.4.0.tar.gz --markdown 20230505/d/dkist-processing-core/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-05 18:07:37] INFO root fetch - processPackages [coiled]: Start processing: django-privates
+[2023-05-05 18:07:37] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-05 18:07:37] INFO root fetch - processPackages [vrt-lss-universal]: Downloading https://files.pythonhosted.org/packages/56/00/fd4fe325144ab98547c4c9ecd1d067e5604252eb15b1b06cb64c8d13d1cd/vrt_lss_universal-6.5.1990-py3-none-any.whl
+[2023-05-05 18:07:37] INFO root fetch - processPackages [django-privates]: New version: [2.0.0] Old Version: [1.5.0]
+[2023-05-05 18:07:37] INFO root fetch - processPackages [vrt-lss-universal]: executing diffoscope
+[2023-05-05 18:07:37] INFO root fetch - processPackages [vrt-lss-universal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_universal-6.4.1962-py3-none-any.whl.zip tmp/vrt_lss_universal-6.5.1990-py3-none-any.whl.zip --markdown 20230505/v/vrt-lss-universal/6.4.1962-6.5.1990/diff.md --exclude *.pyd
+[2023-05-05 18:07:38] INFO root fetch - processPackages [django-privates]: Downloading https://files.pythonhosted.org/packages/2b/45/fc227afcd9cf2e1f5fe1f6bb7bc9c703383115f896c8833acdb4e6be0712/django-privates-1.5.0.tar.gz
+[2023-05-05 18:07:38] INFO root fetch - processPackages [django-privates]: Downloading https://files.pythonhosted.org/packages/3b/94/7e31169ca51e3ba90177080537ef4183316cb93953b687345b5aa32e69c1/django-privates-2.0.0.tar.gz
+[2023-05-05 18:07:38] INFO root fetch - processPackages [digitalguide-reader]: Start processing: dimredpy
+[2023-05-05 18:07:38] INFO root fetch - main [MainThread]: End processing [digitalguide-reader]: success
+[2023-05-05 18:07:38] INFO root fetch - processPackages [dimredpy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-05 18:07:38] INFO root fetch - processPackages [django-privates]: executing diffoscope
+[2023-05-05 18:07:38] INFO root fetch - processPackages [django-privates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-privates-1.5.0.tar.gz tmp/django-privates-2.0.0.tar.gz --markdown 20230505/d/django-privates/1.5.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-05 18:07:38] INFO root fetch - processPackages [dimredpy]: Downloading https://files.pythonhosted.org/packages/79/0e/89c19beea2246ae6e71c78fd94d20768b6966248a113199f6741b91b3ca2/dimredpy-1.0.2.tar.gz
+[2023-05-05 18:07:38] INFO root fetch - processPackages [braincube-aws-core-alpha]: Start processing: notification-service-nightly
+[2023-05-05 18:07:38] INFO root fetch - main [MainThread]: End processing [braincube-aws-core-alpha]: success
+[2023-05-05 18:07:38] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.5.4] Old Version: [2023.5.3]
+[2023-05-05 18:07:38] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-05-05 18:07:38] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.5.3.tar.gz tmp/notification_service_nightly-2023.5.4.tar.gz --markdown 20230505/n/notification-service-nightly/2023.5.3-2023.5.4/diff.md --exclude *.pyd
+[2023-05-05 18:07:38] INFO root fetch - processPackages [dimredpy]: executing diffoscope
+[2023-05-05 18:07:38] INFO root fetch - processPackages [dimredpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimredpy-1.0.1.tar.gz tmp/dimredpy-1.0.2.tar.gz --markdown 20230505/d/dimredpy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-05 18:07:38] INFO root fetch - processPackages [vrt-lss-routing]: Start processing: ai-flow-nightly
+[2023-05-05 18:07:38] INFO root fetch - main [MainThread]: End processing [vrt-lss-routing]: success
+[2023-05-05 18:07:38] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.5.4] Old Version: [2023.5.3]
+[2023-05-05 18:07:39] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-05-05 18:07:39] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.5.3.tar.gz tmp/ai_flow_nightly-2023.5.4.tar.gz --markdown 20230505/a/ai-flow-nightly/2023.5.3-2023.5.4/diff.md --exclude *.pyd
+[2023-05-05 18:07:39] INFO root fetch - main [MainThread]: End processing [babs]: success
+[2023-05-05 18:07:39] INFO root fetch - main [MainThread]: End processing [pysqa]: success
+[2023-05-05 18:07:39] INFO root fetch - main [MainThread]: End processing [vrt-lss-universal]: success
+[2023-05-05 18:07:39] INFO root fetch - main [MainThread]: End processing [django-privates]: success
+[2023-05-05 18:07:40] INFO root fetch - main [MainThread]: End processing [dimredpy]: success
+[2023-05-05 18:07:40] INFO root fetch - main [MainThread]: End processing [vrt-lss-studio]: success
+[2023-05-05 18:07:40] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-05-05 18:07:40] INFO root fetch - main [MainThread]: End processing [dkist-processing-core]: success
+[2023-05-05 18:07:41] INFO root fetch - main [MainThread]: End processing [static-frame]: success
+[2023-05-05 18:07:41] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-05-05 18:07:41] INFO root fetch - main [MainThread]: Store serial: [17989644]
