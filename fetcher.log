@@ -12058,3 +12058,96 @@
 [2023-05-05 12:41:33] INFO root fetch - main [MainThread]: End processing [cdktf]: success
 [2023-05-05 12:41:33] INFO root fetch - main [MainThread]: End processing [kongalib]: success
 [2023-05-05 12:41:33] INFO root fetch - main [MainThread]: Store serial: [17985641]
+[2023-05-05 12:46:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17985641]
+[2023-05-05 12:46:43] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PythonToolsKit
+[2023-05-05 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: editanything
+[2023-05-05 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tybase
+[2023-05-05 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hctest-basic-platform
+[2023-05-05 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amlopschat
+[2023-05-05 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-sqs-extended-client
+[2023-05-05 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyroporn
+[2023-05-05 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: binbinpy
+[2023-05-05 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: NodeGraphQt
+[2023-05-05 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: koodousfinder
+[2023-05-05 12:46:43] INFO root fetch - processPackages [hctest-basic-platform]: New version: [3.0] Old Version: [2.0]
+[2023-05-05 12:46:43] INFO root fetch - processPackages [editanything]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 12:46:43] INFO root fetch - processPackages [PythonToolsKit]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-05 12:46:43] INFO root fetch - processPackages [binbinpy]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-05-05 12:46:43] INFO root fetch - processPackages [tybase]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 12:46:43] INFO root fetch - processPackages [amlopschat]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-05 12:46:43] INFO root fetch - processPackages [NodeGraphQt]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-05 12:46:43] INFO root fetch - processPackages [pyroporn]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-05 12:46:43] INFO root fetch - processPackages [django-sqs-extended-client]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-05-05 12:46:43] INFO root fetch - processPackages [koodousfinder]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 12:46:44] INFO root fetch - processPackages [PythonToolsKit]: Downloading https://files.pythonhosted.org/packages/40/d5/972269c73f87cd7d0f2d6dd74c62f5601881e0dcc3aca61694a360346d12/PythonToolsKit-1.2.4.tar.gz
+[2023-05-05 12:46:44] INFO root fetch - processPackages [koodousfinder]: Downloading https://files.pythonhosted.org/packages/1b/ee/ebef81038aabb82494e930655cc98afcda908382293021118dd66f5bce63/koodousfinder-0.1.0.tar.gz
+[2023-05-05 12:46:44] INFO root fetch - processPackages [hctest-basic-platform]: Downloading https://files.pythonhosted.org/packages/9b/cc/9a4a74d7a3c5f179e2bcd297f32cd8965cddb165beceb8c1cd65a0982e02/hctest_basic_platform-3.0.tar.gz
+[2023-05-05 12:46:44] INFO root fetch - processPackages [editanything]: Downloading https://files.pythonhosted.org/packages/ce/39/239408b33e579c7bef093228135113ad4b5d61a7de22725e71da172af5bc/editanything-0.0.5.tar.gz
+[2023-05-05 12:46:44] INFO root fetch - processPackages [django-sqs-extended-client]: Downloading https://files.pythonhosted.org/packages/9e/5b/afed91afd6a6cdad377772389124db96159f111e57cc0960e35005aa6ca4/django-sqs-extended-client-2.6.0.tar.gz
+[2023-05-05 12:46:44] INFO root fetch - processPackages [amlopschat]: Downloading https://files.pythonhosted.org/packages/04/ca/5deff2e55318ae9b741e1e3546da4e8609fc3ae96d65a8b187dd08963f14/amlopschat-1.1.8.tar.gz
+[2023-05-05 12:46:44] INFO root fetch - processPackages [binbinpy]: Downloading https://files.pythonhosted.org/packages/d9/05/928d8b82b1da26c85151036a58ddb97b99d4a804c3bbe452ef618b262b7f/binbinpy-1.0.9.tar.gz
+[2023-05-05 12:46:44] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/54/36/31caf788beab9a3eecc447e5539bc3e690da4712f6d0b8141b99993f3484/tybase-0.0.3.tar.gz
+[2023-05-05 12:46:44] INFO root fetch - processPackages [pyroporn]: Downloading https://files.pythonhosted.org/packages/c1/02/b4532a6306ab5f9408de35eeef1e7065b20517d6386d14f531907dbca948/pyroporn-0.1.0.tar.gz
+[2023-05-05 12:46:44] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/1f/48/5fe80b2270d3bdc73a08cea022870804051753879125b61be73ad76388d6/NodeGraphQt-0.5.9.tar.gz
+[2023-05-05 12:46:44] INFO root fetch - processPackages [hctest-basic-platform]: executing diffoscope
+[2023-05-05 12:46:44] INFO root fetch - processPackages [hctest-basic-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hctest_basic_platform-2.0.tar.gz tmp/hctest_basic_platform-3.0.tar.gz --markdown 20230505/h/hctest-basic-platform/2.0-3.0/diff.md --exclude *.pyd
+[2023-05-05 12:46:44] INFO root fetch - processPackages [editanything]: executing diffoscope
+[2023-05-05 12:46:44] INFO root fetch - processPackages [editanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/editanything-0.0.4.tar.gz tmp/editanything-0.0.5.tar.gz --markdown 20230505/e/editanything/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 12:46:44] INFO root fetch - processPackages [binbinpy]: executing diffoscope
+[2023-05-05 12:46:44] INFO root fetch - processPackages [binbinpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binbinpy-1.0.7-py3-none-any.whl.zip tmp/binbinpy-1.0.9.tar.gz --markdown 20230505/b/binbinpy/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 12:46:44] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-05-05 12:46:44] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.0.2.tar.gz tmp/tybase-0.0.3.tar.gz --markdown 20230505/t/tybase/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 12:46:44] INFO root fetch - processPackages [pyroporn]: executing diffoscope
+[2023-05-05 12:46:44] INFO root fetch - processPackages [pyroporn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroporn-0.0.9.tar.gz tmp/pyroporn-0.1.0.tar.gz --markdown 20230505/p/pyroporn/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-05 12:46:44] INFO root fetch - processPackages [PythonToolsKit]: Downloading https://files.pythonhosted.org/packages/8a/20/b0c9b539f78481b10012756cfde6c752f73567cdadb257df464f7d3a1268/PythonToolsKit-1.2.5.tar.gz
+[2023-05-05 12:46:44] INFO root fetch - processPackages [NodeGraphQt]: executing diffoscope
+[2023-05-05 12:46:44] INFO root fetch - processPackages [NodeGraphQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NodeGraphQt-0.5.8.tar.gz tmp/NodeGraphQt-0.5.9.tar.gz --markdown 20230505/N/NodeGraphQt/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-05 12:46:44] INFO root fetch - processPackages [amlopschat]: Downloading https://files.pythonhosted.org/packages/00/71/2d1f7b03b4f0717abc7ebc3c08bff29ad71e79746d0897e8eb8e5861dbfd/amlopschat-1.1.9.tar.gz
+[2023-05-05 12:46:44] INFO root fetch - processPackages [koodousfinder]: Downloading https://files.pythonhosted.org/packages/e2/fd/158d65fc61209ea408071a3155042eb8ce739e8b5e3f8242d8d281b04359/koodousfinder-0.1.1.tar.gz
+[2023-05-05 12:46:44] INFO root fetch - processPackages [django-sqs-extended-client]: Downloading https://files.pythonhosted.org/packages/ca/a9/3c0a9bd22f51f438c632e1bcc650257d6b1e967d911cbf72c3ffacd7cbb6/django-sqs-extended-client-2.6.1.tar.gz
+[2023-05-05 12:46:44] INFO root fetch - processPackages [PythonToolsKit]: executing diffoscope
+[2023-05-05 12:46:44] INFO root fetch - processPackages [PythonToolsKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonToolsKit-1.2.4.tar.gz tmp/PythonToolsKit-1.2.5.tar.gz --markdown 20230505/P/PythonToolsKit/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-05 12:46:44] INFO root fetch - processPackages [koodousfinder]: executing diffoscope
+[2023-05-05 12:46:44] INFO root fetch - processPackages [koodousfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koodousfinder-0.1.0.tar.gz tmp/koodousfinder-0.1.1.tar.gz --markdown 20230505/k/koodousfinder/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 12:46:44] INFO root fetch - processPackages [amlopschat]: executing diffoscope
+[2023-05-05 12:46:44] INFO root fetch - processPackages [amlopschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopschat-1.1.8.tar.gz tmp/amlopschat-1.1.9.tar.gz --markdown 20230505/a/amlopschat/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-05 12:46:44] INFO root fetch - processPackages [django-sqs-extended-client]: executing diffoscope
+[2023-05-05 12:46:44] INFO root fetch - processPackages [django-sqs-extended-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sqs-extended-client-2.6.0.tar.gz tmp/django-sqs-extended-client-2.6.1.tar.gz --markdown 20230505/d/django-sqs-extended-client/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-05-05 12:46:45] INFO root fetch - processPackages [binbinpy]: Start processing: kedro-snowflake
+[2023-05-05 12:46:45] INFO root fetch - main [MainThread]: End processing [binbinpy]: success
+[2023-05-05 12:46:45] INFO root fetch - processPackages [kedro-snowflake]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 12:46:45] INFO root fetch - processPackages [hctest-basic-platform]: Start processing: pybiolib
+[2023-05-05 12:46:45] INFO root fetch - main [MainThread]: End processing [hctest-basic-platform]: success
+[2023-05-05 12:46:45] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-05-05 12:46:45] INFO root fetch - processPackages [editanything]: Start processing: editanything
+[2023-05-05 12:46:45] INFO root fetch - main [MainThread]: End processing [editanything]: success
+[2023-05-05 12:46:45] INFO root fetch - processPackages [editanything]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 12:46:45] INFO root fetch - processPackages [kedro-snowflake]: Downloading https://files.pythonhosted.org/packages/5a/a1/ad6ffb4e6aea8f646afe7f27670a6db1812b5377c5ce5d1425a4e6fbae10/kedro_snowflake-0.1.1.tar.gz
+[2023-05-05 12:46:45] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-05 12:46:45] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230505/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-05-05 12:46:45] INFO root fetch - processPackages [tybase]: Start processing: remla-lib-release
+[2023-05-05 12:46:45] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-05-05 12:46:45] INFO root fetch - processPackages [remla-lib-release]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-05 12:46:45] INFO root fetch - processPackages [editanything]: Downloading https://files.pythonhosted.org/packages/94/73/efcf00fd5dbda59c225b5ab417907a9c3f0e27a7fee65e4c77b692a77db1/editanything-0.0.6.tar.gz
+[2023-05-05 12:46:46] INFO root fetch - processPackages [pyroporn]: Start processing: pysfa
+[2023-05-05 12:46:46] INFO root fetch - main [MainThread]: End processing [pyroporn]: success
+[2023-05-05 12:46:46] INFO root fetch - processPackages [remla-lib-release]: executing diffoscope
+[2023-05-05 12:46:46] INFO root fetch - processPackages [remla-lib-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remla-lib-release-0.0.0.tar.gz tmp/remla-lib-release-0.0.1.tar.gz --markdown 20230505/r/remla-lib-release/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-05 12:46:46] INFO root fetch - processPackages [editanything]: executing diffoscope
+[2023-05-05 12:46:46] INFO root fetch - processPackages [editanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/editanything-0.0.5.tar.gz tmp/editanything-0.0.6.tar.gz --markdown 20230505/e/editanything/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 12:46:46] WARNING root fetch - processPackages [pysfa]: Skipping, unable to determine old version
+[2023-05-05 12:46:46] INFO root fetch - main [MainThread]: End processing [pysfa] error
+[2023-05-05 12:46:46] INFO root fetch - main [MainThread]: End processing [koodousfinder]: success
+[2023-05-05 12:46:46] INFO root fetch - processPackages [kedro-snowflake]: Downloading https://files.pythonhosted.org/packages/4f/3f/70a285e2a7188fe39f04a33515e7843a0410606c3d2f336ed347971c574b/kedro_snowflake-0.1.2.tar.gz
+[2023-05-05 12:46:46] INFO root fetch - main [MainThread]: End processing [django-sqs-extended-client]: success
+[2023-05-05 12:46:46] INFO root fetch - processPackages [kedro-snowflake]: executing diffoscope
+[2023-05-05 12:46:46] INFO root fetch - processPackages [kedro-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro_snowflake-0.1.1.tar.gz tmp/kedro_snowflake-0.1.2.tar.gz --markdown 20230505/k/kedro-snowflake/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 12:46:47] INFO root fetch - main [MainThread]: End processing [editanything]: success
+[2023-05-05 12:46:47] INFO root fetch - main [MainThread]: End processing [remla-lib-release]: success
+[2023-05-05 12:46:47] INFO root fetch - main [MainThread]: End processing [PythonToolsKit]: success
+[2023-05-05 12:46:47] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-05 12:46:48] INFO root fetch - main [MainThread]: End processing [NodeGraphQt]: success
+[2023-05-05 12:46:48] INFO root fetch - main [MainThread]: End processing [kedro-snowflake]: success
+[2023-05-05 12:46:51] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
+[2023-05-05 12:46:51] INFO root fetch - main [MainThread]: Store serial: [17985702]
