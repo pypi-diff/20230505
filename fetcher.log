@@ -19468,3 +19468,159 @@
 [2023-05-05 19:12:19] ERROR root fetch - processPackages [h2o-pysparkling-scoring-3.0]: Timeout during execution of pkgdiff
 [2023-05-05 19:12:19] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-3.0] error
 [2023-05-05 19:12:19] INFO root fetch - main [MainThread]: Store serial: [17990374]
+[2023-05-05 19:17:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17990374]
+[2023-05-05 19:17:28] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-05 19:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-lambda-deno
+[2023-05-05 19:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yetl-framework
+[2023-05-05 19:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: serverless-sdk
+[2023-05-05 19:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gen3authz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfcst
+[2023-05-05 19:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MSO-WT
+[2023-05-05 19:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfcst
+[2023-05-05 19:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azdsdr
+[2023-05-05 19:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cartman
+[2023-05-05 19:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupyter-references
+[2023-05-05 19:17:28] INFO root fetch - processPackages [serverless-sdk]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-05 19:17:28] INFO root fetch - processPackages [yetl-framework]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-05 19:17:28] INFO root fetch - processPackages [gen3authz]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pyfcst]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 19:17:28] INFO root fetch - processPackages [cartman]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-05 19:17:28] INFO root fetch - processPackages [azdsdr]: New version: [1.230505.2] Old Version: [1.230505.1]
+[2023-05-05 19:17:28] INFO root fetch - processPackages [jupyter-references]: New version: [0.2] Old Version: [0.1]
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pyfcst]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 19:17:28] WARNING root fetch - processPackages [MSO-WT]: Skipping, unable to determine old version
+[2023-05-05 19:17:28] INFO root fetch - processPackages [MSO-WT]: Start processing: pretix-mpesa-mz
+[2023-05-05 19:17:28] INFO root fetch - main [MainThread]: End processing [MSO-WT] error
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pretix-mpesa-mz]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-05 19:17:28] INFO root fetch - processPackages [jupyter-references]: Downloading https://files.pythonhosted.org/packages/18/bd/6c183796f5655692f648c018e1097412de6ebb35d70f8534ae441d4bb6a1/jupyter-references-0.1.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [serverless-sdk]: Downloading https://files.pythonhosted.org/packages/a8/4c/dea610101ced1f51f68735486020c5dad017ec0c0a8d4a0805cd4eb64091/serverless-sdk-0.4.5.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [cartman]: Downloading https://files.pythonhosted.org/packages/d7/71/4fab575e92a82fffbf82a67440fd3cf88cfea53a4811778c5fd4147dd5a9/cartman-0.3.0.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pyfcst]: Downloading https://files.pythonhosted.org/packages/5f/34/2129239fd8bd4879fc12a76095f990426ac807118469136c812d2f5c89dd/pyfcst-0.0.5.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: Downloading https://files.pythonhosted.org/packages/4c/97/7e7ee48e76578e376852415f8f3506f459ac0999dde2c44ae8a214009250/pepperize.cdk-lambda-deno-0.0.98.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pyfcst]: Downloading https://files.pythonhosted.org/packages/5f/34/2129239fd8bd4879fc12a76095f990426ac807118469136c812d2f5c89dd/pyfcst-0.0.5.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [gen3authz]: Downloading https://files.pythonhosted.org/packages/5c/af/f39c4b6672356c16e783b5cd7898b2848a9bc1db22b193b53b73d7fd4ff6/gen3authz-2.1.0.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [azdsdr]: Downloading https://files.pythonhosted.org/packages/0e/2c/7e62ad71544571ea373d552b89b91346679577f6e4e32f2982770100c4a7/azdsdr-1.230505.2.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [gen3authz]: executing diffoscope
+[2023-05-05 19:17:28] INFO root fetch - processPackages [gen3authz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3authz-2.0.1-py3-none-any.whl.zip tmp/gen3authz-2.1.0.tar.gz --markdown 20230505/g/gen3authz/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-05-05 19:17:28] INFO root fetch - processPackages [azdsdr]: executing diffoscope
+[2023-05-05 19:17:28] INFO root fetch - processPackages [azdsdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdsdr-1.230505.1.tar.gz tmp/azdsdr-1.230505.2.tar.gz --markdown 20230505/a/azdsdr/1.230505.1-1.230505.2/diff.md --exclude *.pyd
+[2023-05-05 19:17:28] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/02/3a/596e38ee7b5d839c7318e38d79b6a388e84ec76374faedf8d998db46d020/yetl-framework-1.0.2.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pretix-mpesa-mz]: Downloading https://files.pythonhosted.org/packages/71/fa/03d58b5e6aa160abe1688754239bc7544f3ab38eea4500db8f7b57996145/pretix-mpesa-mz-1.0.2.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [jupyter-references]: Downloading https://files.pythonhosted.org/packages/5e/43/0d863d939e4aef973a4690eee9d8ce0c8b9151008d34c4e04888aa46b4cd/jupyter-references-0.2.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [serverless-sdk]: Downloading https://files.pythonhosted.org/packages/34/07/1fbd666da721a6e8ad67e83b9b77cc6e1cf81546a9f172f1ff92eddb4560/serverless-sdk-0.4.6.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-05-05 19:17:28] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.0.1.tar.gz tmp/yetl-framework-1.0.2.tar.gz --markdown 20230505/y/yetl-framework/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-05 19:17:28] INFO root fetch - processPackages [jupyter-references]: executing diffoscope
+[2023-05-05 19:17:28] INFO root fetch - processPackages [jupyter-references]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-references-0.1.tar.gz tmp/jupyter-references-0.2.tar.gz --markdown 20230505/j/jupyter-references/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pretix-mpesa-mz]: executing diffoscope
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pretix-mpesa-mz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-mpesa-mz-1.0.1.tar.gz tmp/pretix-mpesa-mz-1.0.2.tar.gz --markdown 20230505/p/pretix-mpesa-mz/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pyfcst]: Downloading https://files.pythonhosted.org/packages/86/a3/4191f51fffe3ebe6bdc5411af2e8b5eee2cca95e21f90734039f6789522e/pyfcst-0.0.6.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [cartman]: Downloading https://files.pythonhosted.org/packages/bd/74/7819f1dfab404094f6d18001ad692fe16fc109017c556dcbb424173b556f/cartman-0.3.1.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pyfcst]: Downloading https://files.pythonhosted.org/packages/86/a3/4191f51fffe3ebe6bdc5411af2e8b5eee2cca95e21f90734039f6789522e/pyfcst-0.0.6.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [serverless-sdk]: executing diffoscope
+[2023-05-05 19:17:28] INFO root fetch - processPackages [serverless-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless-sdk-0.4.5.tar.gz tmp/serverless-sdk-0.4.6.tar.gz --markdown 20230505/s/serverless-sdk/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: Downloading https://files.pythonhosted.org/packages/85/5f/f687fbc9239934d25fca128989aec9e2827e117f5b840cc95329a9c1fd77/pepperize.cdk-lambda-deno-0.0.99.tar.gz
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pyfcst]: executing diffoscope
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pyfcst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfcst-0.0.5.tar.gz tmp/pyfcst-0.0.6.tar.gz --markdown 20230505/p/pyfcst/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pyfcst]: executing diffoscope
+[2023-05-05 19:17:28] INFO root fetch - processPackages [pyfcst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfcst-0.0.5.tar.gz tmp/pyfcst-0.0.6.tar.gz --markdown 20230505/p/pyfcst/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 19:17:29] INFO root fetch - processPackages [cartman]: executing diffoscope
+[2023-05-05 19:17:29] INFO root fetch - processPackages [cartman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartman-0.3.0.tar.gz tmp/cartman-0.3.1.tar.gz --markdown 20230505/c/cartman/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-05 19:17:29] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: executing diffoscope
+[2023-05-05 19:17:29] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-lambda-deno-0.0.98.tar.gz tmp/pepperize.cdk-lambda-deno-0.0.99.tar.gz --markdown 20230505/p/pepperize.cdk-lambda-deno/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 19:17:29] INFO root fetch - processPackages [gen3authz]: Start processing: mango-cli
+[2023-05-05 19:17:29] INFO root fetch - main [MainThread]: End processing [gen3authz]: success
+[2023-05-05 19:17:30] INFO root fetch - processPackages [mango-cli]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 19:17:30] INFO root fetch - processPackages [mango-cli]: Downloading https://files.pythonhosted.org/packages/60/3e/b2b6070874f8c088b5db9ef3819c041c98653b82ca904e0ecb0b20edc7b4/mango-cli-0.0.2.tar.gz
+[2023-05-05 19:17:30] INFO root fetch - processPackages [azdsdr]: Start processing: osim-utils
+[2023-05-05 19:17:30] INFO root fetch - main [MainThread]: End processing [azdsdr]: success
+[2023-05-05 19:17:30] INFO root fetch - processPackages [osim-utils]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-05 19:17:30] INFO root fetch - processPackages [osim-utils]: Downloading https://files.pythonhosted.org/packages/42/c9/364a6911f4a2b223c4e2aa9714459a6cd29458a100a85985c8a651b8d187/osim_utils-0.3.2.tar.gz
+[2023-05-05 19:17:30] INFO root fetch - processPackages [jupyter-references]: Start processing: pyfcst
+[2023-05-05 19:17:30] INFO root fetch - main [MainThread]: End processing [jupyter-references]: success
+[2023-05-05 19:17:30] INFO root fetch - processPackages [pyfcst]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 19:17:30] INFO root fetch - processPackages [mango-cli]: Downloading https://files.pythonhosted.org/packages/f4/fc/52777777bda5af559473c76582df008387064eee6a0d793e52e473f16536/mango-cli-0.0.3.tar.gz
+[2023-05-05 19:17:30] INFO root fetch - processPackages [mango-cli]: executing diffoscope
+[2023-05-05 19:17:30] INFO root fetch - processPackages [mango-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-cli-0.0.2.tar.gz tmp/mango-cli-0.0.3.tar.gz --markdown 20230505/m/mango-cli/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 19:17:30] INFO root fetch - processPackages [osim-utils]: Downloading https://files.pythonhosted.org/packages/c5/db/9c022c356276c933484228e8b15b8ab9dc8f11ab8e8df405be5544515e78/osim_utils-0.4.0.tar.gz
+[2023-05-05 19:17:30] INFO root fetch - processPackages [pyfcst]: executing diffoscope
+[2023-05-05 19:17:30] INFO root fetch - processPackages [pyfcst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfcst-0.0.5.tar.gz tmp/pyfcst-0.0.6.tar.gz --markdown 20230505/p/pyfcst/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 19:17:30] INFO root fetch - processPackages [osim-utils]: executing diffoscope
+[2023-05-05 19:17:30] INFO root fetch - processPackages [osim-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osim_utils-0.3.2.tar.gz tmp/osim_utils-0.4.0.tar.gz --markdown 20230505/o/osim-utils/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-05 19:17:30] INFO root fetch - processPackages [serverless-sdk]: Start processing: picsellia
+[2023-05-05 19:17:30] INFO root fetch - main [MainThread]: End processing [serverless-sdk]: success
+[2023-05-05 19:17:30] INFO root fetch - processPackages [picsellia]: New version: [6.7.0] Old Version: [6.6.0]
+[2023-05-05 19:17:30] INFO root fetch - processPackages [pyfcst]: Start processing: customtkinter
+[2023-05-05 19:17:30] INFO root fetch - main [MainThread]: End processing [pyfcst]: success
+[2023-05-05 19:17:30] INFO root fetch - processPackages [customtkinter]: New version: [5.1.3] Old Version: [5.1.2]
+[2023-05-05 19:17:30] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: Start processing: cdpcli-beta
+[2023-05-05 19:17:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-lambda-deno]: success
+[2023-05-05 19:17:30] INFO root fetch - processPackages [yetl-framework]: Start processing: sqlmesh
+[2023-05-05 19:17:30] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-05-05 19:17:30] INFO root fetch - processPackages [cdpcli-beta]: New version: [0.9.86] Old Version: [0.9.85]
+[2023-05-05 19:17:30] INFO root fetch - processPackages [picsellia]: Downloading https://files.pythonhosted.org/packages/5d/12/12ca715d2b0cd990635d493c889bf273652afaf4d2970dd622c6c58135d2/picsellia-6.6.0.tar.gz
+[2023-05-05 19:17:30] INFO root fetch - processPackages [cartman]: Start processing: jupyter-references
+[2023-05-05 19:17:30] INFO root fetch - main [MainThread]: End processing [cartman]: success
+[2023-05-05 19:17:30] INFO root fetch - processPackages [sqlmesh]: New version: [0.7.1.dev33] Old Version: [0.7.0]
+[2023-05-05 19:17:30] INFO root fetch - processPackages [pyfcst]: Start processing: mrftools
+[2023-05-05 19:17:30] INFO root fetch - main [MainThread]: End processing [pyfcst]: success
+[2023-05-05 19:17:30] INFO root fetch - processPackages [jupyter-references]: New version: [0.2] Old Version: [0.1]
+[2023-05-05 19:17:30] INFO root fetch - processPackages [pretix-mpesa-mz]: Start processing: digitalguide-reader
+[2023-05-05 19:17:30] INFO root fetch - main [MainThread]: End processing [pretix-mpesa-mz]: success
+[2023-05-05 19:17:30] INFO root fetch - processPackages [mrftools]: New version: [0.2.1] Old Version: [0.1.9]
+[2023-05-05 19:17:30] INFO root fetch - processPackages [digitalguide-reader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 19:17:31] INFO root fetch - processPackages [jupyter-references]: executing diffoscope
+[2023-05-05 19:17:31] INFO root fetch - processPackages [jupyter-references]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-references-0.1.tar.gz tmp/jupyter-references-0.2.tar.gz --markdown 20230505/j/jupyter-references/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-05 19:17:31] INFO root fetch - processPackages [customtkinter]: Downloading https://files.pythonhosted.org/packages/ca/7d/37eee0c6fd32a78502c967a5a0073a82118fbf4b1ee46ae4082907a283a2/customtkinter-5.1.3.tar.gz
+[2023-05-05 19:17:31] INFO root fetch - processPackages [digitalguide-reader]: executing diffoscope
+[2023-05-05 19:17:31] INFO root fetch - processPackages [digitalguide-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide_reader-0.0.8.tar.gz tmp/digitalguide_reader-0.0.9.tar.gz --markdown 20230505/d/digitalguide-reader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 19:17:31] INFO root fetch - processPackages [mrftools]: executing diffoscope
+[2023-05-05 19:17:31] INFO root fetch - processPackages [mrftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrftools-0.1.9.tar.gz tmp/mrftools-0.2.1.tar.gz --markdown 20230505/m/mrftools/0.1.9-0.2.1/diff.md --exclude *.pyd
+[2023-05-05 19:17:31] INFO root fetch - processPackages [cdpcli-beta]: Downloading https://files.pythonhosted.org/packages/f2/dc/8faad7bd88582fe8ff8c91c8416644bbb6b7e77268995759195ae0239aff/cdpcli-beta-0.9.85.tar.gz
+[2023-05-05 19:17:31] INFO root fetch - processPackages [picsellia]: Downloading https://files.pythonhosted.org/packages/66/38/34caf9ae75c8b2ce458787a41bbc4c7f46178ed36c736639752d1998d8a4/picsellia-6.7.0.tar.gz
+[2023-05-05 19:17:31] INFO root fetch - processPackages [customtkinter]: executing diffoscope
+[2023-05-05 19:17:31] INFO root fetch - processPackages [customtkinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customtkinter-5.1.2.tar.gz tmp/customtkinter-5.1.3.tar.gz --markdown 20230505/c/customtkinter/5.1.2-5.1.3/diff.md --exclude *.pyd
+[2023-05-05 19:17:31] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/4f/fb/7c5d0b3e7e28496fc8a9ae17ccb7d86e5e3e773c766b6df5de14579a7e2a/sqlmesh-0.7.1.dev33.tar.gz
+[2023-05-05 19:17:31] INFO root fetch - processPackages [picsellia]: executing diffoscope
+[2023-05-05 19:17:31] INFO root fetch - processPackages [picsellia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picsellia-6.6.0.tar.gz tmp/picsellia-6.7.0.tar.gz --markdown 20230505/p/picsellia/6.6.0-6.7.0/diff.md --exclude *.pyd
+[2023-05-05 19:17:31] INFO root fetch - processPackages [cdpcli-beta]: Downloading https://files.pythonhosted.org/packages/19/c3/ad12692c2daa1d80a033c8d500f87a1dd047d4dd82bd9804981b3eb8e2cc/cdpcli-beta-0.9.86.tar.gz
+[2023-05-05 19:17:31] INFO root fetch - processPackages [cdpcli-beta]: executing diffoscope
+[2023-05-05 19:17:31] INFO root fetch - processPackages [cdpcli-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdpcli-beta-0.9.85.tar.gz tmp/cdpcli-beta-0.9.86.tar.gz --markdown 20230505/c/cdpcli-beta/0.9.85-0.9.86/diff.md --exclude *.pyd
+[2023-05-05 19:17:32] INFO root fetch - processPackages [mango-cli]: Start processing: bagbag
+[2023-05-05 19:17:32] INFO root fetch - main [MainThread]: End processing [mango-cli]: success
+[2023-05-05 19:17:32] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-05-05 19:17:32] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.7.0.tar.gz tmp/sqlmesh-0.7.1.dev33.tar.gz --markdown 20230505/s/sqlmesh/0.7.0-0.7.1.dev33/diff.md --exclude *.pyd
+[2023-05-05 19:17:32] INFO root fetch - processPackages [bagbag]: New version: [0.58.9] Old Version: [0.58.8]
+[2023-05-05 19:17:32] INFO root fetch - processPackages [osim-utils]: Start processing: ypricemagic
+[2023-05-05 19:17:32] INFO root fetch - main [MainThread]: End processing [osim-utils]: success
+[2023-05-05 19:17:32] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/93/38/2b465711bc025bb16b135886272e8a8d59ae9ea741770b4a9bf6e4c8ef42/bagbag-0.58.9.tar.gz
+[2023-05-05 19:17:32] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.7.dev8] Old Version: [2.2.7.dev7]
+[2023-05-05 19:17:32] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-05 19:17:32] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.58.8.tar.gz tmp/bagbag-0.58.9.tar.gz --markdown 20230505/b/bagbag/0.58.8-0.58.9/diff.md --exclude *.pyd
+[2023-05-05 19:17:32] INFO root fetch - processPackages [jupyter-references]: Start processing: bemserver-core
+[2023-05-05 19:17:32] INFO root fetch - main [MainThread]: End processing [jupyter-references]: success
+[2023-05-05 19:17:32] INFO root fetch - processPackages [bemserver-core]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-05 19:17:32] INFO root fetch - processPackages [pyfcst]: Start processing: editanything
+[2023-05-05 19:17:32] INFO root fetch - main [MainThread]: End processing [pyfcst]: success
+[2023-05-05 19:17:32] INFO root fetch - processPackages [editanything]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 19:17:32] INFO root fetch - processPackages [bemserver-core]: executing diffoscope
+[2023-05-05 19:17:32] INFO root fetch - processPackages [bemserver-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-core-0.9.0.tar.gz tmp/bemserver-core-0.9.1.tar.gz --markdown 20230505/b/bemserver-core/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-05 19:17:32] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/ca/cd/c326227648065124ab3e891d275cde176f640714ca06fce2795924c0d0e9/ypricemagic-2.2.7.dev7.tar.gz
+[2023-05-05 19:17:32] INFO root fetch - processPackages [editanything]: executing diffoscope
+[2023-05-05 19:17:32] INFO root fetch - processPackages [editanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/editanything-0.0.7.tar.gz tmp/editanything-0.0.8.tar.gz --markdown 20230505/e/editanything/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 19:17:32] INFO root fetch - main [MainThread]: End processing [digitalguide-reader]: success
+[2023-05-05 19:17:32] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/1e/36/9882f6c554a350d9bd18523eae9d16ded7df3baa74172b9328524a97430c/ypricemagic-2.2.7.dev8.tar.gz
+[2023-05-05 19:17:33] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-05-05 19:17:33] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.7.dev7.tar.gz tmp/ypricemagic-2.2.7.dev8.tar.gz --markdown 20230505/y/ypricemagic/2.2.7.dev7-2.2.7.dev8/diff.md --exclude *.pyd
+[2023-05-05 19:17:33] INFO root fetch - main [MainThread]: End processing [mrftools]: success
+[2023-05-05 19:17:33] INFO root fetch - main [MainThread]: End processing [editanything]: success
+[2023-05-05 19:17:34] INFO root fetch - main [MainThread]: End processing [picsellia]: success
+[2023-05-05 19:17:34] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-05-05 19:17:34] INFO root fetch - main [MainThread]: End processing [cdpcli-beta]: success
+[2023-05-05 19:17:34] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-05 19:17:35] INFO root fetch - main [MainThread]: End processing [customtkinter]: success
+[2023-05-05 19:17:36] INFO root fetch - main [MainThread]: End processing [bemserver-core]: success
+[2023-05-05 19:20:32] ERROR root fetch - processPackages [sqlmesh]: Timeout during execution of pkgdiff
+[2023-05-05 19:20:32] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
+[2023-05-05 19:20:32] INFO root fetch - main [MainThread]: Store serial: [17990489]
