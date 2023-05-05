@@ -20760,3 +20760,69 @@
 [2023-05-05 20:20:42] INFO root fetch - main [MainThread]: End processing [ob-metaflow]: success
 [2023-05-05 20:21:08] INFO root fetch - main [MainThread]: End processing [forbidden]: success
 [2023-05-05 20:21:08] INFO root fetch - main [MainThread]: Store serial: [17991283]
+[2023-05-05 20:26:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17991283]
+[2023-05-05 20:26:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 20:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvista
+[2023-05-05 20:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantconnect-stubs
+[2023-05-05 20:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ob-dj-feature-flags
+[2023-05-05 20:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cheap-pie
+[2023-05-05 20:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nti.wsgi.cors
+[2023-05-05 20:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyter-references
+[2023-05-05 20:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vocabmaster
+[2023-05-05 20:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chalk-harness
+[2023-05-05 20:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: colarma
+[2023-05-05 20:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datadog-sma
+[2023-05-05 20:26:17] INFO root fetch - processPackages [pyvista]: New version: [0.39.0] Old Version: [0.38.6]
+[2023-05-05 20:26:17] WARNING root fetch - processPackages [ob-dj-feature-flags]: Skipping, unable to determine old version
+[2023-05-05 20:26:17] INFO root fetch - processPackages [ob-dj-feature-flags]: Start processing: dkist-processing-vbi
+[2023-05-05 20:26:17] INFO root fetch - main [MainThread]: End processing [ob-dj-feature-flags] error
+[2023-05-05 20:26:17] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-05 20:26:17] INFO root fetch - processPackages [jupyter-references]: New version: [0.3] Old Version: [0.2]
+[2023-05-05 20:26:17] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-05 20:26:17] WARNING root fetch - processPackages [colarma]: Skipping, unable to determine old version
+[2023-05-05 20:26:17] INFO root fetch - processPackages [colarma]: Start processing: dh-potluck
+[2023-05-05 20:26:17] INFO root fetch - main [MainThread]: End processing [colarma] error
+[2023-05-05 20:26:17] WARNING root fetch - processPackages [datadog-sma]: Skipping, unable to determine old version
+[2023-05-05 20:26:17] INFO root fetch - main [MainThread]: End processing [datadog-sma] error
+[2023-05-05 20:26:17] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-05-05 20:26:17] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230505/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 20:26:17] INFO root fetch - processPackages [nti.wsgi.cors]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-05 20:26:17] INFO root fetch - processPackages [cheap-pie]: New version: [0.1.17] Old Version: [0.1.16]
+[2023-05-05 20:26:17] INFO root fetch - processPackages [vocabmaster]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 20:26:17] INFO root fetch - processPackages [dkist-processing-vbi]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-05 20:26:17] INFO root fetch - processPackages [dh-potluck]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-05 20:26:17] INFO root fetch - processPackages [pyvista]: Downloading https://files.pythonhosted.org/packages/22/16/4245329fa45f06911d43073f02132865c48b826c6eb7f887c9842c544e21/pyvista-0.39.0.tar.gz
+[2023-05-05 20:26:17] INFO root fetch - processPackages [jupyter-references]: Downloading https://files.pythonhosted.org/packages/2d/43/5af77be0726e872465a449123ee0f9f8b30128684c17b0f4ea5331d0488f/jupyter-references-0.3.tar.gz
+[2023-05-05 20:26:17] INFO root fetch - processPackages [vocabmaster]: Downloading https://files.pythonhosted.org/packages/b5/f3/c36a8446c6b5ee737693fbe7ebc9151b066333f3494b81417891578b60ab/vocabmaster-0.1.4.tar.gz
+[2023-05-05 20:26:17] INFO root fetch - processPackages [nti.wsgi.cors]: Downloading https://files.pythonhosted.org/packages/c7/d1/cd8199cd3efbc91995f041a4a47ab18b884c6ddf25949aa384af8981f9df/nti.wsgi.cors-1.1.1.tar.gz
+[2023-05-05 20:26:17] INFO root fetch - processPackages [cheap-pie]: Downloading https://files.pythonhosted.org/packages/ed/71/d6c598dab65469bd8ba8c7fb37190273b2b0d8ed8691db1a446ecc4dc842/cheap_pie-0.1.16.tar.gz
+[2023-05-05 20:26:18] INFO root fetch - processPackages [dh-potluck]: executing diffoscope
+[2023-05-05 20:26:18] INFO root fetch - processPackages [dh-potluck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dh-potluck-1.9.0.tar.gz tmp/dh-potluck-1.9.1.tar.gz --markdown 20230505/d/dh-potluck/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-05 20:26:18] INFO root fetch - processPackages [jupyter-references]: executing diffoscope
+[2023-05-05 20:26:18] INFO root fetch - processPackages [jupyter-references]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-references-0.2.tar.gz tmp/jupyter-references-0.3.tar.gz --markdown 20230505/j/jupyter-references/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-05 20:26:18] INFO root fetch - processPackages [pyvista]: executing diffoscope
+[2023-05-05 20:26:18] INFO root fetch - processPackages [pyvista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvista-0.38.6.tar.gz tmp/pyvista-0.39.0.tar.gz --markdown 20230505/p/pyvista/0.38.6-0.39.0/diff.md --exclude *.pyd
+[2023-05-05 20:26:18] INFO root fetch - processPackages [dkist-processing-vbi]: Downloading https://files.pythonhosted.org/packages/ba/42/50f1ac24f2755eb7315bdf689a3433d6e9c10baecc5b320ccfb03529dd8f/dkist_processing_vbi-1.2.1.tar.gz
+[2023-05-05 20:26:18] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-05 20:26:18] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230505/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-05 20:26:18] INFO root fetch - processPackages [dkist-processing-vbi]: executing diffoscope
+[2023-05-05 20:26:18] INFO root fetch - processPackages [dkist-processing-vbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_vbi-1.2.0.tar.gz tmp/dkist_processing_vbi-1.2.1.tar.gz --markdown 20230505/d/dkist-processing-vbi/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-05 20:26:18] INFO root fetch - processPackages [nti.wsgi.cors]: Downloading https://files.pythonhosted.org/packages/68/16/318116149c1d24ba95564ddae01fa736d29df014a454905355662d95dd78/nti.wsgi.cors-1.2.0.tar.gz
+[2023-05-05 20:26:18] INFO root fetch - processPackages [vocabmaster]: Downloading https://files.pythonhosted.org/packages/90/cb/4cef3c8bc3ae0441c742597135c92b16af60398fd3ee89dddb8dc5d20f38/vocabmaster-0.1.5.tar.gz
+[2023-05-05 20:26:18] INFO root fetch - processPackages [cheap-pie]: Downloading https://files.pythonhosted.org/packages/98/ef/3f13b953eb4e1aa55d5dad4b6bb8d9a613f981188af6fdd4f1f97673f280/cheap_pie-0.1.17.tar.gz
+[2023-05-05 20:26:18] INFO root fetch - processPackages [vocabmaster]: executing diffoscope
+[2023-05-05 20:26:18] INFO root fetch - processPackages [vocabmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocabmaster-0.1.4.tar.gz tmp/vocabmaster-0.1.5.tar.gz --markdown 20230505/v/vocabmaster/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 20:26:18] INFO root fetch - processPackages [nti.wsgi.cors]: executing diffoscope
+[2023-05-05 20:26:18] INFO root fetch - processPackages [nti.wsgi.cors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nti.wsgi.cors-1.1.1.tar.gz tmp/nti.wsgi.cors-1.2.0.tar.gz --markdown 20230505/n/nti.wsgi.cors/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-05 20:26:18] INFO root fetch - processPackages [cheap-pie]: executing diffoscope
+[2023-05-05 20:26:18] INFO root fetch - processPackages [cheap-pie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheap_pie-0.1.16.tar.gz tmp/cheap_pie-0.1.17.tar.gz --markdown 20230505/c/cheap-pie/0.1.16-0.1.17/diff.md --exclude *.pyd
+[2023-05-05 20:26:19] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-05-05 20:26:19] INFO root fetch - main [MainThread]: End processing [jupyter-references]: success
+[2023-05-05 20:26:19] INFO root fetch - main [MainThread]: End processing [dh-potluck]: success
+[2023-05-05 20:26:19] INFO root fetch - main [MainThread]: End processing [nti.wsgi.cors]: success
+[2023-05-05 20:26:19] INFO root fetch - main [MainThread]: End processing [vocabmaster]: success
+[2023-05-05 20:26:19] INFO root fetch - main [MainThread]: End processing [cheap-pie]: success
+[2023-05-05 20:26:20] INFO root fetch - main [MainThread]: End processing [dkist-processing-vbi]: success
+[2023-05-05 20:26:25] INFO root fetch - main [MainThread]: End processing [pyvista]: success
+[2023-05-05 20:26:25] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-05 20:26:25] INFO root fetch - main [MainThread]: Store serial: [17991333]
