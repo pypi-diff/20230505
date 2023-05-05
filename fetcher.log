@@ -15197,3 +15197,122 @@
 [2023-05-05 15:26:19] INFO root fetch - main [MainThread]: End processing [sidewinder-db]: success
 [2023-05-05 15:26:20] INFO root fetch - main [MainThread]: End processing [biobookshelf]: success
 [2023-05-05 15:26:20] INFO root fetch - main [MainThread]: Store serial: [17987570]
+[2023-05-05 15:31:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17987570]
+[2023-05-05 15:31:29] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-05 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rego-imager-readfile
+[2023-05-05 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dop-integration-libs
+[2023-05-05 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nascam-imager-readfile
+[2023-05-05 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Wyzard
+[2023-05-05 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rappmysql
+[2023-05-05 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dop-integration-libs
+[2023-05-05 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rainbow-imager-readfile
+[2023-05-05 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: schoolware-api
+[2023-05-05 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sheetcloud
+[2023-05-05 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-advanced-pdf
+[2023-05-05 15:31:29] INFO root fetch - processPackages [rego-imager-readfile]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-05 15:31:29] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 15:31:29] WARNING root fetch - processPackages [rappmysql]: Skipping, unable to determine old version
+[2023-05-05 15:31:29] INFO root fetch - processPackages [rappmysql]: Start processing: pyc3dtools
+[2023-05-05 15:31:29] INFO root fetch - main [MainThread]: End processing [rappmysql] error
+[2023-05-05 15:31:29] INFO root fetch - processPackages [nascam-imager-readfile]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-05 15:31:29] INFO root fetch - processPackages [rainbow-imager-readfile]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-05 15:31:29] WARNING root fetch - processPackages [Wyzard]: Skipping, unable to determine old version
+[2023-05-05 15:31:29] INFO root fetch - processPackages [django-advanced-pdf]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-05 15:31:29] INFO root fetch - processPackages [Wyzard]: Start processing: pyfed
+[2023-05-05 15:31:29] INFO root fetch - main [MainThread]: End processing [Wyzard] error
+[2023-05-05 15:31:29] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-05 15:31:29] INFO root fetch - processPackages [sheetcloud]: New version: [0.1.0.post8] Old Version: [0.1.0.post7]
+[2023-05-05 15:31:29] WARNING root fetch - processPackages [pyc3dtools]: Skipping, unable to determine old version
+[2023-05-05 15:31:29] INFO root fetch - processPackages [pyc3dtools]: Start processing: pyfed-macos
+[2023-05-05 15:31:29] INFO root fetch - main [MainThread]: End processing [pyc3dtools] error
+[2023-05-05 15:31:29] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 15:31:29] INFO root fetch - processPackages [pyfed]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 15:31:29] INFO root fetch - processPackages [pyfed-macos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 15:31:29] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 15:31:29] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.8.tar.gz tmp/schoolware_api-1.1.9.tar.gz --markdown 20230505/s/schoolware-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-05 15:31:29] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-05 15:31:29] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230505/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 15:31:29] INFO root fetch - processPackages [rainbow-imager-readfile]: Downloading https://files.pythonhosted.org/packages/e5/c8/3946104c72bd59973baa278458e9dd6a98c3e760f6103eba256832e64ae2/rainbow_imager_readfile-1.1.1.tar.gz
+[2023-05-05 15:31:29] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-05 15:31:29] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230505/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 15:31:29] INFO root fetch - processPackages [pyfed]: executing diffoscope
+[2023-05-05 15:31:29] INFO root fetch - processPackages [pyfed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed-0.0.8.tar.gz tmp/pyfed-0.0.9.tar.gz --markdown 20230505/p/pyfed/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 15:31:30] INFO root fetch - processPackages [pyfed-macos]: executing diffoscope
+[2023-05-05 15:31:30] INFO root fetch - processPackages [pyfed-macos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed_macos-0.0.8.tar.gz tmp/pyfed_macos-0.0.9.tar.gz --markdown 20230505/p/pyfed-macos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 15:31:30] INFO root fetch - processPackages [nascam-imager-readfile]: Downloading https://files.pythonhosted.org/packages/fc/14/cfaf920a34edff785757a91fa24cc081d007d3f8f5c463b815f308aea07d/nascam_imager_readfile-1.2.1.tar.gz
+[2023-05-05 15:31:30] INFO root fetch - processPackages [rainbow-imager-readfile]: executing diffoscope
+[2023-05-05 15:31:30] INFO root fetch - processPackages [rainbow-imager-readfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rainbow_imager_readfile-1.1.0.tar.gz tmp/rainbow_imager_readfile-1.1.1.tar.gz --markdown 20230505/r/rainbow-imager-readfile/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-05 15:31:30] INFO root fetch - processPackages [django-advanced-pdf]: Downloading https://files.pythonhosted.org/packages/99/da/82b2b68d83555f76f873bb9886aab5a2c73acfa3ab507c725ac87f156eb6/django-advanced-pdf-0.2.3.tar.gz
+[2023-05-05 15:31:30] INFO root fetch - processPackages [sheetcloud]: Downloading https://files.pythonhosted.org/packages/64/2c/6a36d1dabfdbbbdd31cf8d87711f0978814965f53c5cf88d946af3338c4d/sheetcloud-0.1.0.post8.tar.gz
+[2023-05-05 15:31:30] INFO root fetch - processPackages [nascam-imager-readfile]: executing diffoscope
+[2023-05-05 15:31:30] INFO root fetch - processPackages [nascam-imager-readfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nascam_imager_readfile-1.2.0.tar.gz tmp/nascam_imager_readfile-1.2.1.tar.gz --markdown 20230505/n/nascam-imager-readfile/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-05 15:31:30] INFO root fetch - processPackages [rego-imager-readfile]: Downloading https://files.pythonhosted.org/packages/4b/14/6830ebcc3e56c300908a4335b1a966982060f5213f720c6958fdf58929cb/rego_imager_readfile-1.1.1.tar.gz
+[2023-05-05 15:31:30] INFO root fetch - processPackages [sheetcloud]: executing diffoscope
+[2023-05-05 15:31:30] INFO root fetch - processPackages [sheetcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sheetcloud-0.1.0.post7.tar.gz tmp/sheetcloud-0.1.0.post8.tar.gz --markdown 20230505/s/sheetcloud/0.1.0.post7-0.1.0.post8/diff.md --exclude *.pyd
+[2023-05-05 15:31:30] INFO root fetch - processPackages [rego-imager-readfile]: executing diffoscope
+[2023-05-05 15:31:30] INFO root fetch - processPackages [rego-imager-readfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rego_imager_readfile-1.1.0.tar.gz tmp/rego_imager_readfile-1.1.1.tar.gz --markdown 20230505/r/rego-imager-readfile/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-05 15:31:30] INFO root fetch - processPackages [django-advanced-pdf]: executing diffoscope
+[2023-05-05 15:31:30] INFO root fetch - processPackages [django-advanced-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-advanced-pdf-0.2.2.tar.gz tmp/django-advanced-pdf-0.2.3.tar.gz --markdown 20230505/d/django-advanced-pdf/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-05 15:31:31] INFO root fetch - processPackages [dop-integration-libs]: Start processing: pyprocessors-readinggrid
+[2023-05-05 15:31:31] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-05 15:31:31] INFO root fetch - processPackages [pyprocessors-readinggrid]: New version: [0.5.81] Old Version: [0.5.8]
+[2023-05-05 15:31:31] INFO root fetch - processPackages [dop-integration-libs]: Start processing: gravipython
+[2023-05-05 15:31:31] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-05 15:31:31] INFO root fetch - processPackages [gravipython]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 15:31:31] INFO root fetch - processPackages [pyprocessors-readinggrid]: Downloading https://files.pythonhosted.org/packages/af/a0/0da5889c9bfe3c4da903c0ccca453f33f05047bd336d818a4288c0d8b79f/pyprocessors-readinggrid-0.5.8.tar.gz
+[2023-05-05 15:31:31] INFO root fetch - processPackages [pyfed]: Start processing: pushcart-deploy
+[2023-05-05 15:31:31] INFO root fetch - main [MainThread]: End processing [pyfed]: success
+[2023-05-05 15:31:31] WARNING root fetch - processPackages [pushcart-deploy]: Skipping, unable to determine old version
+[2023-05-05 15:31:31] INFO root fetch - processPackages [pushcart-deploy]: Start processing: krx-rigger
+[2023-05-05 15:31:31] INFO root fetch - main [MainThread]: End processing [pushcart-deploy] error
+[2023-05-05 15:31:31] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 15:31:31] INFO root fetch - processPackages [nascam-imager-readfile]: Start processing: autora-workflow
+[2023-05-05 15:31:31] INFO root fetch - main [MainThread]: End processing [nascam-imager-readfile]: success
+[2023-05-05 15:31:31] INFO root fetch - processPackages [gravipython]: Downloading https://files.pythonhosted.org/packages/8f/02/97247d87f3013fd62b66cc52de517b26eedbb5b00bd575c872a4e46f0531/gravipython-0.0.1.tar.gz
+[2023-05-05 15:31:31] INFO root fetch - processPackages [autora-workflow]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-05 15:31:31] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-05 15:31:31] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.8.tar.gz tmp/krx_rigger-0.0.9.tar.gz --markdown 20230505/k/krx-rigger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 15:31:31] INFO root fetch - processPackages [pyfed-macos]: Start processing: chaostoolkit-reliably
+[2023-05-05 15:31:31] INFO root fetch - main [MainThread]: End processing [pyfed-macos]: success
+[2023-05-05 15:31:31] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-05 15:31:31] INFO root fetch - processPackages [pyprocessors-readinggrid]: Downloading https://files.pythonhosted.org/packages/e0/ac/26f6b1184ced1eb7e3a547e3ff9db8fe9c1b1a596424188d2f469d0c1794/pyprocessors-readinggrid-0.5.81.tar.gz
+[2023-05-05 15:31:31] INFO root fetch - processPackages [pyprocessors-readinggrid]: executing diffoscope
+[2023-05-05 15:31:31] INFO root fetch - processPackages [pyprocessors-readinggrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-readinggrid-0.5.8.tar.gz tmp/pyprocessors-readinggrid-0.5.81.tar.gz --markdown 20230505/p/pyprocessors-readinggrid/0.5.8-0.5.81/diff.md --exclude *.pyd
+[2023-05-05 15:31:31] INFO root fetch - processPackages [rainbow-imager-readfile]: Start processing: dop-integration-libs
+[2023-05-05 15:31:31] INFO root fetch - main [MainThread]: End processing [rainbow-imager-readfile]: success
+[2023-05-05 15:31:31] INFO root fetch - processPackages [gravipython]: Downloading https://files.pythonhosted.org/packages/5c/e8/426d22b03a7df3bcf1bcb43879d5fe6534e999b60f8f3cb72e0a65058e87/gravipython-0.0.2.tar.gz
+[2023-05-05 15:31:31] INFO root fetch - processPackages [autora-workflow]: Downloading https://files.pythonhosted.org/packages/8b/7a/5a2eb1c0e4d7427ef04b91f24999fc907c7427c289fb598a110cf974fc34/autora-workflow-0.2.1.tar.gz
+[2023-05-05 15:31:31] INFO root fetch - processPackages [schoolware-api]: Start processing: ltbfiles
+[2023-05-05 15:31:31] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 15:31:31] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 15:31:31] INFO root fetch - processPackages [gravipython]: executing diffoscope
+[2023-05-05 15:31:31] INFO root fetch - processPackages [gravipython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravipython-0.0.1.tar.gz tmp/gravipython-0.0.2.tar.gz --markdown 20230505/g/gravipython/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 15:31:32] INFO root fetch - processPackages [rego-imager-readfile]: Start processing: pop-create-idem
+[2023-05-05 15:31:32] INFO root fetch - main [MainThread]: End processing [rego-imager-readfile]: success
+[2023-05-05 15:31:32] INFO root fetch - processPackages [ltbfiles]: New version: [2.3.1rc82] Old Version: [2.3.0rc74]
+[2023-05-05 15:31:32] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-05 15:31:32] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230505/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 15:31:32] INFO root fetch - processPackages [autora-workflow]: Downloading https://files.pythonhosted.org/packages/65/87/105fadda1b17d69f5a592579e5d304924b75548ed7d31a82fc814adc3aae/autora-workflow-0.3.0.tar.gz
+[2023-05-05 15:31:32] INFO root fetch - processPackages [autora-workflow]: executing diffoscope
+[2023-05-05 15:31:32] INFO root fetch - processPackages [autora-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-workflow-0.2.1.tar.gz tmp/autora-workflow-0.3.0.tar.gz --markdown 20230505/a/autora-workflow/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 15:31:32] INFO root fetch - processPackages [pop-create-idem]: New version: [3.4.0] Old Version: [3.3.1]
+[2023-05-05 15:31:32] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-05-05 15:31:32] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230505/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-05 15:31:32] INFO root fetch - main [MainThread]: End processing [sheetcloud]: success
+[2023-05-05 15:31:32] INFO root fetch - processPackages [ltbfiles]: Downloading https://files.pythonhosted.org/packages/9d/06/66204b6a4c4c33d46f91a47f60263f917f037783b61659de4a539b89640e/ltbfiles-2.3.0rc74.tar.gz
+[2023-05-05 15:31:32] INFO root fetch - processPackages [ltbfiles]: Downloading https://files.pythonhosted.org/packages/79/f1/c92fe54bce07df427dadea509ca71789e7578ffc3cfe067b501531f69712/ltbfiles-2.3.1rc82.tar.gz
+[2023-05-05 15:31:32] INFO root fetch - processPackages [pop-create-idem]: Downloading https://files.pythonhosted.org/packages/96/c5/20a30afba47f58c6060003af3191d689135c4bd9976d1e5571690e3f5f59/pop-create-idem-3.4.0.tar.gz
+[2023-05-05 15:31:32] INFO root fetch - processPackages [ltbfiles]: executing diffoscope
+[2023-05-05 15:31:32] INFO root fetch - processPackages [ltbfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltbfiles-2.3.0rc74.tar.gz tmp/ltbfiles-2.3.1rc82.tar.gz --markdown 20230505/l/ltbfiles/2.3.0rc74-2.3.1rc82/diff.md --exclude *.pyd
+[2023-05-05 15:31:32] INFO root fetch - processPackages [pop-create-idem]: executing diffoscope
+[2023-05-05 15:31:32] INFO root fetch - processPackages [pop-create-idem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop-create-idem-3.3.1.tar.gz tmp/pop-create-idem-3.4.0.tar.gz --markdown 20230505/p/pop-create-idem/3.3.1-3.4.0/diff.md --exclude *.pyd
+[2023-05-05 15:31:33] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-05 15:31:33] INFO root fetch - main [MainThread]: End processing [gravipython]: success
+[2023-05-05 15:31:33] INFO root fetch - main [MainThread]: End processing [pyprocessors-readinggrid]: success
+[2023-05-05 15:31:33] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-05 15:31:33] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-05-05 15:31:33] INFO root fetch - main [MainThread]: End processing [autora-workflow]: success
+[2023-05-05 15:31:33] INFO root fetch - main [MainThread]: End processing [ltbfiles]: success
+[2023-05-05 15:31:34] INFO root fetch - main [MainThread]: End processing [pop-create-idem]: success
+[2023-05-05 15:31:34] INFO root fetch - main [MainThread]: End processing [django-advanced-pdf]: success
+[2023-05-05 15:31:34] INFO root fetch - main [MainThread]: Store serial: [17987642]
