@@ -6426,3 +6426,45 @@
 [2023-05-05 07:30:55] INFO root fetch - main [MainThread]: End processing [alienpy]: success
 [2023-05-05 07:30:56] INFO root fetch - main [MainThread]: End processing [vectorbt]: success
 [2023-05-05 07:30:56] INFO root fetch - main [MainThread]: Store serial: [17982227]
+[2023-05-05 07:36:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982227]
+[2023-05-05 07:36:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-05 07:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-strongly-typed
+[2023-05-05 07:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hiddifypanel
+[2023-05-05 07:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmp-folder
+[2023-05-05 07:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SparkSim
+[2023-05-05 07:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: code_genie
+[2023-05-05 07:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: folint
+[2023-05-05 07:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fuzzly
+[2023-05-05 07:36:05] INFO root fetch - processPackages [py-strongly-typed]: New version: [2.0.0] Old Version: [1.1.5]
+[2023-05-05 07:36:05] INFO root fetch - processPackages [folint]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-05 07:36:05] WARNING root fetch - processPackages [tmp-folder]: Skipping, unable to determine old version
+[2023-05-05 07:36:05] INFO root fetch - main [MainThread]: End processing [tmp-folder] error
+[2023-05-05 07:36:05] INFO root fetch - processPackages [hiddifypanel]: New version: [6.5.0] Old Version: [6.4.2]
+[2023-05-05 07:36:05] WARNING root fetch - processPackages [SparkSim]: Skipping, unable to determine old version
+[2023-05-05 07:36:05] INFO root fetch - main [MainThread]: End processing [SparkSim] error
+[2023-05-05 07:36:05] INFO root fetch - processPackages [fuzzly]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-05 07:36:05] INFO root fetch - processPackages [code_genie]: New version: [0.3.0] Old Version: [0.2.1.dev0]
+[2023-05-05 07:36:05] INFO root fetch - processPackages [code_genie]: Downloading https://files.pythonhosted.org/packages/2d/2f/58dd6b355063191e9ac804fdf3be63971708bed589cc9395e67906292941/code_genie-0.2.1.dev0.tar.gz
+[2023-05-05 07:36:05] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/0b/68/db5340713833c72a496b70121f416ea9024b2f60fa24afda2a7b2bfa8256/hiddifypanel-6.5.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-05 07:36:05] INFO root fetch - processPackages [fuzzly]: Downloading https://files.pythonhosted.org/packages/9c/83/6494090cdfc76d90b0ec2935b735627507a25e5823e2c8462e892d7c129f/fuzzly-0.0.3.tar.gz
+[2023-05-05 07:36:05] INFO root fetch - processPackages [folint]: Downloading https://files.pythonhosted.org/packages/26/0f/3bf0296bdf474a76f01a0e86a7112941b9adc5a6cdd73b40c67e8a674a3b/folint-1.0.3.tar.gz
+[2023-05-05 07:36:05] INFO root fetch - processPackages [py-strongly-typed]: Downloading https://files.pythonhosted.org/packages/5f/e0/70d563cf13124e06ec45daffdac65376b858a3000ec0d4022032e93d6137/py-strongly-typed-2.0.0.tar.gz
+[2023-05-05 07:36:05] INFO root fetch - processPackages [py-strongly-typed]: executing diffoscope
+[2023-05-05 07:36:05] INFO root fetch - processPackages [py-strongly-typed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-strongly-typed-1.1.5.tar.gz tmp/py-strongly-typed-2.0.0.tar.gz --markdown 20230505/p/py-strongly-typed/1.1.5-2.0.0/diff.md --exclude *.pyd
+[2023-05-05 07:36:05] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-05 07:36:05] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-6.4.2-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-6.5.0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230505/h/hiddifypanel/6.4.2-6.5.0/diff.md --exclude *.pyd
+[2023-05-05 07:36:06] INFO root fetch - processPackages [code_genie]: Downloading https://files.pythonhosted.org/packages/94/50/c9271ebdb065a0deca7b51836291aaf9260ab7af336d44c8211576eef51f/code_genie-0.3.0.tar.gz
+[2023-05-05 07:36:06] INFO root fetch - processPackages [fuzzly]: Downloading https://files.pythonhosted.org/packages/d0/55/dc4fecdd2d7cb38111d96f9b6bbc1a013be6c1530df5e3dbc24bd5d903ba/fuzzly-0.0.4.tar.gz
+[2023-05-05 07:36:06] INFO root fetch - processPackages [code_genie]: executing diffoscope
+[2023-05-05 07:36:06] INFO root fetch - processPackages [code_genie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_genie-0.2.1.dev0.tar.gz tmp/code_genie-0.3.0.tar.gz --markdown 20230505/c/code_genie/0.2.1.dev0-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 07:36:06] INFO root fetch - processPackages [folint]: Downloading https://files.pythonhosted.org/packages/35/62/ce6fd2cb276c338de8eb6a560bc3438c5b78117e2d57b0582757c49cc9ab/folint-1.0.4.tar.gz
+[2023-05-05 07:36:06] INFO root fetch - processPackages [fuzzly]: executing diffoscope
+[2023-05-05 07:36:06] INFO root fetch - processPackages [fuzzly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzly-0.0.3.tar.gz tmp/fuzzly-0.0.4.tar.gz --markdown 20230505/f/fuzzly/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-05 07:36:06] INFO root fetch - processPackages [folint]: executing diffoscope
+[2023-05-05 07:36:06] INFO root fetch - processPackages [folint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folint-1.0.3.tar.gz tmp/folint-1.0.4.tar.gz --markdown 20230505/f/folint/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-05 07:36:06] INFO root fetch - main [MainThread]: End processing [py-strongly-typed]: success
+[2023-05-05 07:36:07] INFO root fetch - main [MainThread]: End processing [fuzzly]: success
+[2023-05-05 07:36:07] INFO root fetch - main [MainThread]: End processing [folint]: success
+[2023-05-05 07:36:07] INFO root fetch - main [MainThread]: End processing [code_genie]: success
+[2023-05-05 07:36:26] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-05 07:36:26] INFO root fetch - main [MainThread]: Store serial: [17982256]
