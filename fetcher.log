@@ -17241,3 +17241,90 @@
 [2023-05-05 17:18:09] INFO root fetch - main [MainThread]: End processing [openstef]: success
 [2023-05-05 17:18:10] INFO root fetch - main [MainThread]: End processing [thermal-conductivity-step]: success
 [2023-05-05 17:18:10] INFO root fetch - main [MainThread]: Store serial: [17988948]
+[2023-05-05 17:23:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17988948]
+[2023-05-05 17:23:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HumanCursor
+[2023-05-05 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: morse-transcript
+[2023-05-05 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-eric-kotlin1.8
+[2023-05-05 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adata
+[2023-05-05 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyterlmod
+[2023-05-05 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdeclient
+[2023-05-05 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: splight-cli
+[2023-05-05 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robotslacker-testcli
+[2023-05-05 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vertexai
+[2023-05-05 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pipcolorv2
+[2023-05-05 17:23:19] INFO root fetch - processPackages [adata]: New version: [0.0.8b0] Old Version: [0.0.7b0]
+[2023-05-05 17:23:19] INFO root fetch - processPackages [morse-transcript]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 17:23:19] WARNING root fetch - processPackages [pipcolorv2]: Skipping, unable to determine old version
+[2023-05-05 17:23:19] INFO root fetch - processPackages [pipcolorv2]: Start processing: avclass-malicialab
+[2023-05-05 17:23:19] INFO root fetch - main [MainThread]: End processing [pipcolorv2] error
+[2023-05-05 17:23:19] INFO root fetch - processPackages [HumanCursor]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-05 17:23:19] INFO root fetch - processPackages [sdeclient]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-05 17:23:19] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: New version: [20230505.15.18.449845] Old Version: [20230504.23.14.996571]
+[2023-05-05 17:23:19] WARNING root fetch - processPackages [vertexai]: Skipping, unable to determine old version
+[2023-05-05 17:23:19] INFO root fetch - processPackages [vertexai]: Start processing: trexio
+[2023-05-05 17:23:19] INFO root fetch - main [MainThread]: End processing [vertexai] error
+[2023-05-05 17:23:19] INFO root fetch - processPackages [splight-cli]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-05 17:23:19] INFO root fetch - processPackages [jupyterlmod]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-05-05 17:23:19] INFO root fetch - processPackages [avclass-malicialab]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-05-05 17:23:19] INFO root fetch - processPackages [robotslacker-testcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 17:23:19] INFO root fetch - processPackages [trexio]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-05 17:23:19] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-05-05 17:23:19] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-2.3.8.tar.gz tmp/splight-cli-2.3.9.tar.gz --markdown 20230505/s/splight-cli/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-05 17:23:19] INFO root fetch - processPackages [robotslacker-testcli]: executing diffoscope
+[2023-05-05 17:23:19] INFO root fetch - processPackages [robotslacker-testcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotslacker-testcli-0.0.8.tar.gz tmp/robotslacker-testcli-0.0.9.tar.gz --markdown 20230505/r/robotslacker-testcli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 17:23:19] INFO root fetch - processPackages [sdeclient]: Downloading https://files.pythonhosted.org/packages/6c/a1/706a97aaca6fcf9544e4753eedddf89dfae4779f4c9e11d8d95a5d1c3ad1/sdeclient-0.0.4.tar.gz
+[2023-05-05 17:23:19] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Downloading https://files.pythonhosted.org/packages/70/82/e4dd508a6b43e38bc33d6cb3a38edd7610041f644726a785722b7aa79b2f/certora-cli-alpha-eric-kotlin1.8-20230504.23.14.996571.tar.gz
+[2023-05-05 17:23:19] INFO root fetch - processPackages [morse-transcript]: Downloading https://files.pythonhosted.org/packages/c9/d6/0fb212975288a3c207d577e7ee154563ebecd27f232a5a448c079ab9a5e2/morse-transcript-0.0.2.tar.gz
+[2023-05-05 17:23:19] INFO root fetch - processPackages [HumanCursor]: Downloading https://files.pythonhosted.org/packages/d6/16/48b087545d78914ed67ba310e3286d8be43e8ab217a3cfba089e530f1604/HumanCursor-0.0.3.tar.gz
+[2023-05-05 17:23:19] INFO root fetch - processPackages [jupyterlmod]: Downloading https://files.pythonhosted.org/packages/0d/86/7ec959f4f4b6f7ed00e5b22068f96b2f4ca63525c991dc915047bc5be493/jupyterlmod-4.0.2.tar.gz
+[2023-05-05 17:23:19] WARNING root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Skipping package: exceeds size limit 39220096>=10485760
+[2023-05-05 17:23:19] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Start processing: quantconnect-stubs
+[2023-05-05 17:23:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-kotlin1.8] error
+[2023-05-05 17:23:19] INFO root fetch - processPackages [trexio]: Downloading https://files.pythonhosted.org/packages/58/f6/b3ae5d657136db68dc8c0c62037a5a3d630d3385ebf5c536d1fcb610d541/trexio-1.3.1.tar.gz
+[2023-05-05 17:23:19] INFO root fetch - processPackages [avclass-malicialab]: Downloading https://files.pythonhosted.org/packages/2b/2b/c664e9b8232c523b8ca4dbc5a11753df9ffeed8b0c2b7b2f37ed0aa8144e/avclass-malicialab-2.8.2.tar.gz
+[2023-05-05 17:23:19] WARNING root fetch - processPackages [jupyterlmod]: Skipping package: exceeds size limit 28569763>=10485760
+[2023-05-05 17:23:19] INFO root fetch - processPackages [jupyterlmod]: Start processing: styledlogger
+[2023-05-05 17:23:19] INFO root fetch - main [MainThread]: End processing [jupyterlmod] error
+[2023-05-05 17:23:19] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/66/fd/d3c9b9a7b2572489cc2001d80eeca95b9e231b8b8c1d6f582fe0e62853c5/adata-0.0.8b0.tar.gz
+[2023-05-05 17:23:19] INFO root fetch - processPackages [sdeclient]: executing diffoscope
+[2023-05-05 17:23:19] INFO root fetch - processPackages [sdeclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdeclient-0.0.3.tar.gz tmp/sdeclient-0.0.4.tar.gz --markdown 20230505/s/sdeclient/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-05 17:23:19] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-05 17:23:19] INFO root fetch - processPackages [avclass-malicialab]: executing diffoscope
+[2023-05-05 17:23:19] INFO root fetch - processPackages [avclass-malicialab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avclass-malicialab-2.8.1.tar.gz tmp/avclass-malicialab-2.8.2.tar.gz --markdown 20230505/a/avclass-malicialab/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-05-05 17:23:19] INFO root fetch - processPackages [styledlogger]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 17:23:19] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-05-05 17:23:19] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.7b0.tar.gz tmp/adata-0.0.8b0.tar.gz --markdown 20230505/a/adata/0.0.7b0-0.0.8b0/diff.md --exclude *.pyd
+[2023-05-05 17:23:19] INFO root fetch - processPackages [morse-transcript]: Downloading https://files.pythonhosted.org/packages/ab/76/702365f9490f52085e76d97d8c72d3c7707e4bc7d56b2131b801bd7225d2/morse-transcript-0.0.3.tar.gz
+[2023-05-05 17:23:19] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-05 17:23:19] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230505/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-05 17:23:19] INFO root fetch - processPackages [HumanCursor]: Downloading https://files.pythonhosted.org/packages/ee/ea/b59752c0c732a47bd57b958812a84ba899a9c4e3da5bae11304664b55389/HumanCursor-0.0.4.tar.gz
+[2023-05-05 17:23:19] INFO root fetch - processPackages [morse-transcript]: executing diffoscope
+[2023-05-05 17:23:19] INFO root fetch - processPackages [morse-transcript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morse-transcript-0.0.2.tar.gz tmp/morse-transcript-0.0.3.tar.gz --markdown 20230505/m/morse-transcript/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 17:23:19] INFO root fetch - processPackages [trexio]: Downloading https://files.pythonhosted.org/packages/a4/14/0170089577ec974a808106a0589e7bc641ff39bc00e9a34463a9bd2b5d9b/trexio-1.3.2.tar.gz
+[2023-05-05 17:23:19] INFO root fetch - processPackages [HumanCursor]: executing diffoscope
+[2023-05-05 17:23:19] INFO root fetch - processPackages [HumanCursor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HumanCursor-0.0.3.tar.gz tmp/HumanCursor-0.0.4.tar.gz --markdown 20230505/H/HumanCursor/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-05 17:23:19] INFO root fetch - processPackages [trexio]: executing diffoscope
+[2023-05-05 17:23:19] INFO root fetch - processPackages [trexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trexio-1.3.1.tar.gz tmp/trexio-1.3.2.tar.gz --markdown 20230505/t/trexio/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-05 17:23:20] INFO root fetch - processPackages [styledlogger]: Downloading https://files.pythonhosted.org/packages/11/4a/48f2c7e878f86d0b6478acf01534909b0e6250de02307ab182636bb37bee/styledlogger-0.0.4.tar.gz
+[2023-05-05 17:23:20] INFO root fetch - processPackages [styledlogger]: Downloading https://files.pythonhosted.org/packages/29/33/b2ae70ef3256356ea5514c7dae188c8e6cfe17fb3d39fab8d7ee16bf91b3/styledlogger-0.0.5.tar.gz
+[2023-05-05 17:23:20] INFO root fetch - processPackages [styledlogger]: executing diffoscope
+[2023-05-05 17:23:20] INFO root fetch - processPackages [styledlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/styledlogger-0.0.4.tar.gz tmp/styledlogger-0.0.5.tar.gz --markdown 20230505/s/styledlogger/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 17:23:21] INFO root fetch - processPackages [splight-cli]: Start processing: rattail
+[2023-05-05 17:23:21] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-05-05 17:23:21] INFO root fetch - main [MainThread]: End processing [sdeclient]: success
+[2023-05-05 17:23:21] INFO root fetch - main [MainThread]: End processing [morse-transcript]: success
+[2023-05-05 17:23:21] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-05 17:23:21] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-05-05 17:23:21] INFO root fetch - main [MainThread]: End processing [HumanCursor]: success
+[2023-05-05 17:23:21] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/8a/ab/1d0b66effa702be7aef6de038a0b9a0727d9d4053df5c56aa1ee5b1d9b45/rattail-0.9.98.tar.gz
+[2023-05-05 17:23:21] INFO root fetch - main [MainThread]: End processing [styledlogger]: success
+[2023-05-05 17:23:21] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/1e/c3/79e6d80f4a830a425f80fae7cf7f242293341bfd63e5d6f25421dfd44465/rattail-0.9.99.tar.gz
+[2023-05-05 17:23:21] INFO root fetch - main [MainThread]: End processing [avclass-malicialab]: success
+[2023-05-05 17:23:21] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2023-05-05 17:23:21] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20230505/r/rattail/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-05 17:23:23] INFO root fetch - main [MainThread]: End processing [trexio]: success
+[2023-05-05 17:23:24] INFO root fetch - main [MainThread]: End processing [robotslacker-testcli]: success
+[2023-05-05 17:23:26] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2023-05-05 17:23:27] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-05 17:23:27] INFO root fetch - main [MainThread]: Store serial: [17989022]
