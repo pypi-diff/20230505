@@ -20529,3 +20529,120 @@
 [2023-05-05 20:03:45] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
 [2023-05-05 20:04:40] INFO root fetch - main [MainThread]: End processing [netapp-ontap]: success
 [2023-05-05 20:04:40] INFO root fetch - main [MainThread]: Store serial: [17991095]
+[2023-05-05 20:09:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17991095]
+[2023-05-05 20:09:50] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-05 20:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore
+[2023-05-05 20:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fabricauthenticator
+[2023-05-05 20:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appdynamics-alpine
+[2023-05-05 20:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: awscli
+[2023-05-05 20:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: appdynamics-bindeps-alpine-linux-x64
+[2023-05-05 20:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: boto3
+[2023-05-05 20:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bemserver-api
+[2023-05-05 20:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adafruit-circuitpython-wave
+[2023-05-05 20:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: appdynamics-bindeps-linux-x64
+[2023-05-05 20:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: appdynamics
+[2023-05-05 20:09:50] INFO root fetch - processPackages [appdynamics-alpine]: New version: [23.5.0.5932] Old Version: [23.2.0.5678]
+[2023-05-05 20:09:50] INFO root fetch - processPackages [appdynamics-bindeps-alpine-linux-x64]: New version: [23.4.0] Old Version: [22.9.0]
+[2023-05-05 20:09:50] WARNING root fetch - processPackages [adafruit-circuitpython-wave]: Skipping, unable to determine old version
+[2023-05-05 20:09:50] INFO root fetch - processPackages [adafruit-circuitpython-wave]: Start processing: pollination-honeybee-vtk
+[2023-05-05 20:09:50] INFO root fetch - processPackages [fabricauthenticator]: New version: [1.2rc0] Old Version: [1.1rc9]
+[2023-05-05 20:09:50] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-wave] error
+[2023-05-05 20:09:50] INFO root fetch - processPackages [bemserver-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-05 20:09:50] INFO root fetch - processPackages [appdynamics]: New version: [4.5.8.0] Old Version: [4.5.7.0]
+[2023-05-05 20:09:50] INFO root fetch - processPackages [appdynamics-bindeps-linux-x64]: New version: [9.0] Old Version: [8.0]
+[2023-05-05 20:09:50] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-05 20:09:50] INFO root fetch - processPackages [pollination-honeybee-vtk]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-05 20:09:50] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-05-05 20:09:50] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-05 20:09:50] INFO root fetch - processPackages [bemserver-api]: executing diffoscope
+[2023-05-05 20:09:50] INFO root fetch - processPackages [bemserver-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-api-0.8.0.tar.gz tmp/bemserver-api-0.9.0.tar.gz --markdown 20230505/b/bemserver-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 20:09:50] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-05-05 20:09:50] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230505/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-05-05 20:09:50] INFO root fetch - processPackages [appdynamics-alpine]: Downloading https://files.pythonhosted.org/packages/c9/8b/21100556fcdd035835526cde2d2335a063114a344f7156aa4fadd257cd8e/appdynamics_alpine-23.2.0.5678-py2.py3-none-any.whl
+[2023-05-05 20:09:50] INFO root fetch - processPackages [appdynamics-bindeps-alpine-linux-x64]: Downloading https://files.pythonhosted.org/packages/20/5a/ed2bc72944a168d91110055ac851ed6a69889007d27db81b40407bb31a17/appdynamics_bindeps_alpine_linux_x64-22.9.0-cp39-none-any.whl
+[2023-05-05 20:09:50] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-05-05 20:09:50] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230505/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-05 20:09:50] INFO root fetch - processPackages [fabricauthenticator]: Downloading https://files.pythonhosted.org/packages/ef/97/3c1f4391035c49f0677564e6444fcd4cbcc9c11c20b6a5f3bbbd59a1e0f5/fabricauthenticator-1.1rc9.tar.gz
+[2023-05-05 20:09:50] INFO root fetch - processPackages [appdynamics]: Downloading https://files.pythonhosted.org/packages/bf/ed/2040d8ec7088ec99dc304a4d8278bf79a1473d3c1de3cb284c1fc1bf7cdc/appdynamics-4.5.7.0-py2.py3-none-any.whl
+[2023-05-05 20:09:50] INFO root fetch - processPackages [appdynamics-bindeps-linux-x64]: Downloading https://files.pythonhosted.org/packages/ab/ff/fd1cd2e979e3684db128eeb6064f8053eeb5c68b140f28fcead4f0709dd6/appdynamics_bindeps_linux_x64-8.0-cp37-none-any.whl
+[2023-05-05 20:09:50] INFO root fetch - processPackages [pollination-honeybee-vtk]: Downloading https://files.pythonhosted.org/packages/a0/63/48e4e25cc3be070af54109a2368744602633b0e9501aa4658d73e80f9d6b/pollination-honeybee-vtk-0.4.8.tar.gz
+[2023-05-05 20:09:50] WARNING root fetch - processPackages [appdynamics-bindeps-linux-x64]: Skipping package: exceeds size limit 21904103>=10485760
+[2023-05-05 20:09:50] INFO root fetch - processPackages [appdynamics-bindeps-linux-x64]: Start processing: blctools
+[2023-05-05 20:09:50] INFO root fetch - main [MainThread]: End processing [appdynamics-bindeps-linux-x64] error
+[2023-05-05 20:09:50] INFO root fetch - processPackages [blctools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 20:09:50] WARNING root fetch - processPackages [appdynamics-bindeps-alpine-linux-x64]: Skipping package: exceeds size limit 68642476>=10485760
+[2023-05-05 20:09:50] INFO root fetch - processPackages [appdynamics-bindeps-alpine-linux-x64]: Start processing: py-near
+[2023-05-05 20:09:50] INFO root fetch - main [MainThread]: End processing [appdynamics-bindeps-alpine-linux-x64] error
+[2023-05-05 20:09:50] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-05-05 20:09:50] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230505/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-05 20:09:50] INFO root fetch - processPackages [py-near]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 20:09:50] INFO root fetch - processPackages [appdynamics-alpine]: Downloading https://files.pythonhosted.org/packages/6f/43/8ce2cf22a7415b8d7aaab04b80e959fbf83301497f93b5462486defb6ea3/appdynamics_alpine-23.5.0.5932-py2.py3-none-any.whl
+[2023-05-05 20:09:50] INFO root fetch - processPackages [blctools]: Downloading https://files.pythonhosted.org/packages/95/7c/727c82fdb747da4b861c5c1c3fd83ff1a2404d7aed39f615008e178f7991/blctools-0.0.8.tar.gz
+[2023-05-05 20:09:50] INFO root fetch - processPackages [appdynamics-alpine]: executing diffoscope
+[2023-05-05 20:09:50] INFO root fetch - processPackages [appdynamics-alpine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appdynamics_alpine-23.2.0.5678-py2.py3-none-any.whl.zip tmp/appdynamics_alpine-23.5.0.5932-py2.py3-none-any.whl.zip --markdown 20230505/a/appdynamics-alpine/23.2.0.5678-23.5.0.5932/diff.md --exclude *.pyd
+[2023-05-05 20:09:50] INFO root fetch - processPackages [pollination-honeybee-vtk]: Downloading https://files.pythonhosted.org/packages/01/9a/f9f3e1281fbecb657477bc7b9417559cf15ef6d3063a7761e20ef3890d9e/pollination-honeybee-vtk-0.4.9.tar.gz
+[2023-05-05 20:09:50] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/71/63/345d3e62221dc7abcddbb1a6b9ebe3417d0aa20efa8c0b42fa648dbe096e/py-near-1.0.8.tar.gz
+[2023-05-05 20:09:51] INFO root fetch - processPackages [appdynamics]: Downloading https://files.pythonhosted.org/packages/c1/39/9736ccc054ed982973efe45baf1491bf187e9431a105b163d6a087888d4b/appdynamics-4.5.8.0-py2.py3-none-any.whl
+[2023-05-05 20:09:51] INFO root fetch - processPackages [fabricauthenticator]: Downloading https://files.pythonhosted.org/packages/f4/17/bdf973c51d1612d5596fc92eced05dffe7511744c8eaea8d95eaa24a4269/fabricauthenticator-1.2rc0.tar.gz
+[2023-05-05 20:09:51] INFO root fetch - processPackages [pollination-honeybee-vtk]: executing diffoscope
+[2023-05-05 20:09:51] INFO root fetch - processPackages [pollination-honeybee-vtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-honeybee-vtk-0.4.8.tar.gz tmp/pollination-honeybee-vtk-0.4.9.tar.gz --markdown 20230505/p/pollination-honeybee-vtk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-05 20:09:51] INFO root fetch - processPackages [fabricauthenticator]: executing diffoscope
+[2023-05-05 20:09:51] INFO root fetch - processPackages [fabricauthenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabricauthenticator-1.1rc9.tar.gz tmp/fabricauthenticator-1.2rc0.tar.gz --markdown 20230505/f/fabricauthenticator/1.1rc9-1.2rc0/diff.md --exclude *.pyd
+[2023-05-05 20:09:51] INFO root fetch - processPackages [appdynamics]: executing diffoscope
+[2023-05-05 20:09:51] INFO root fetch - processPackages [appdynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appdynamics-4.5.7.0-py2.py3-none-any.whl.zip tmp/appdynamics-4.5.8.0-py2.py3-none-any.whl.zip --markdown 20230505/a/appdynamics/4.5.7.0-4.5.8.0/diff.md --exclude *.pyd
+[2023-05-05 20:09:51] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/32/61/e93b9cf48f393f4a66993256da93707529418082685745c06b31899b7c36/py-near-1.0.9.tar.gz
+[2023-05-05 20:09:51] INFO root fetch - processPackages [blctools]: Downloading https://files.pythonhosted.org/packages/77/f8/614ee38ed9dbff9d13ea071fb6f6ccd76b40325f79850ddd210e482a583c/blctools-0.0.9.tar.gz
+[2023-05-05 20:09:51] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2023-05-05 20:09:51] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-near-1.0.8.tar.gz tmp/py-near-1.0.9.tar.gz --markdown 20230505/p/py-near/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 20:09:51] INFO root fetch - processPackages [blctools]: executing diffoscope
+[2023-05-05 20:09:51] INFO root fetch - processPackages [blctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blctools-0.0.8.tar.gz tmp/blctools-0.0.9.tar.gz --markdown 20230505/b/blctools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 20:09:52] INFO root fetch - processPackages [boto3]: Start processing: mypy-boto3-sqs
+[2023-05-05 20:09:52] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-05-05 20:09:52] INFO root fetch - processPackages [mypy-boto3-sqs]: New version: [1.26.128] Old Version: [1.26.127]
+[2023-05-05 20:09:52] INFO root fetch - processPackages [mypy-boto3-sqs]: Downloading https://files.pythonhosted.org/packages/79/75/de5a5f71f6d69eef70ba5dac387046201cf19ccfd3db10d2cc474a26ddf5/mypy-boto3-sqs-1.26.128.tar.gz
+[2023-05-05 20:09:52] INFO root fetch - processPackages [mypy-boto3-sqs]: executing diffoscope
+[2023-05-05 20:09:52] INFO root fetch - processPackages [mypy-boto3-sqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-sqs-1.26.127.tar.gz tmp/mypy-boto3-sqs-1.26.128.tar.gz --markdown 20230505/m/mypy-boto3-sqs/1.26.127-1.26.128/diff.md --exclude *.pyd
+[2023-05-05 20:09:52] INFO root fetch - processPackages [fabricauthenticator]: Start processing: mypy-boto3
+[2023-05-05 20:09:52] INFO root fetch - main [MainThread]: End processing [fabricauthenticator]: success
+[2023-05-05 20:09:52] INFO root fetch - processPackages [mypy-boto3]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-05-05 20:09:52] INFO root fetch - processPackages [pollination-honeybee-vtk]: Start processing: boto3-stubs
+[2023-05-05 20:09:52] INFO root fetch - main [MainThread]: End processing [pollination-honeybee-vtk]: success
+[2023-05-05 20:09:52] INFO root fetch - processPackages [boto3-stubs]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-05-05 20:09:52] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2023-05-05 20:09:52] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-1.26.98.tar.gz tmp/mypy-boto3-1.26.99.tar.gz --markdown 20230505/m/mypy-boto3/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-05-05 20:09:53] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2023-05-05 20:09:53] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-1.26.98.tar.gz tmp/boto3-stubs-1.26.99.tar.gz --markdown 20230505/b/boto3-stubs/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-05-05 20:09:53] INFO root fetch - processPackages [appdynamics-alpine]: Start processing: Pulse3D
+[2023-05-05 20:09:53] INFO root fetch - main [MainThread]: End processing [appdynamics-alpine]: success
+[2023-05-05 20:09:53] INFO root fetch - processPackages [Pulse3D]: New version: [0.33.2] Old Version: [0.33.1]
+[2023-05-05 20:09:53] INFO root fetch - processPackages [appdynamics]: Start processing: boto3-stubs-lite
+[2023-05-05 20:09:53] INFO root fetch - main [MainThread]: End processing [appdynamics]: success
+[2023-05-05 20:09:53] INFO root fetch - processPackages [Pulse3D]: Downloading https://files.pythonhosted.org/packages/0c/00/45702cba95579d89817d0e048f7712db63d74a9bec561ddcc66c7d451dff/Pulse3D-0.33.2.tar.gz
+[2023-05-05 20:09:53] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-05-05 20:09:53] INFO root fetch - processPackages [py-near]: Start processing: hyperspy
+[2023-05-05 20:09:53] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2023-05-05 20:09:53] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2023-05-05 20:09:53] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-lite-1.26.98.tar.gz tmp/boto3-stubs-lite-1.26.99.tar.gz --markdown 20230505/b/boto3-stubs-lite/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-05-05 20:09:54] INFO root fetch - processPackages [Pulse3D]: executing diffoscope
+[2023-05-05 20:09:54] INFO root fetch - processPackages [Pulse3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pulse3D-0.33.1.tar.gz tmp/Pulse3D-0.33.2.tar.gz --markdown 20230505/P/Pulse3D/0.33.1-0.33.2/diff.md --exclude *.pyd
+[2023-05-05 20:09:54] INFO root fetch - processPackages [hyperspy]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-05-05 20:09:54] INFO root fetch - processPackages [hyperspy]: Downloading https://files.pythonhosted.org/packages/de/b3/136e1d6472e09bbe9579cc807557f0c31ab1610ccb57c67edb6221b104fa/hyperspy-1.7.4.tar.gz
+[2023-05-05 20:09:54] INFO root fetch - processPackages [mypy-boto3]: Start processing: depfinder
+[2023-05-05 20:09:54] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2023-05-05 20:09:54] WARNING root fetch - processPackages [hyperspy]: Skipping package: exceeds size limit 31552101>=10485760
+[2023-05-05 20:09:54] INFO root fetch - main [MainThread]: End processing [hyperspy] error
+[2023-05-05 20:09:54] INFO root fetch - processPackages [depfinder]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-05 20:09:54] INFO root fetch - main [MainThread]: End processing [blctools]: success
+[2023-05-05 20:09:54] INFO root fetch - main [MainThread]: End processing [bemserver-api]: success
+[2023-05-05 20:09:54] INFO root fetch - processPackages [depfinder]: Downloading https://files.pythonhosted.org/packages/24/64/0dd2239286913056a84e050a19ef05113e995ffffc6bdf58911ae46b20a2/depfinder-2.9.1.tar.gz
+[2023-05-05 20:09:54] INFO root fetch - main [MainThread]: End processing [mypy-boto3-sqs]: success
+[2023-05-05 20:09:55] INFO root fetch - processPackages [depfinder]: Downloading https://files.pythonhosted.org/packages/c1/51/f6df1e85fc6c2cf76aee9de6eab6d2ebc7fa60e6b506c0781c0353ca3e1f/depfinder-2.9.2.tar.gz
+[2023-05-05 20:09:55] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2023-05-05 20:09:55] INFO root fetch - main [MainThread]: End processing [Pulse3D]: success
+[2023-05-05 20:09:55] INFO root fetch - processPackages [depfinder]: executing diffoscope
+[2023-05-05 20:09:55] INFO root fetch - processPackages [depfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depfinder-2.9.1.tar.gz tmp/depfinder-2.9.2.tar.gz --markdown 20230505/d/depfinder/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-05 20:09:56] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2023-05-05 20:09:56] INFO root fetch - main [MainThread]: End processing [depfinder]: success
+[2023-05-05 20:10:02] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-05-05 20:10:12] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-05-05 20:10:12] INFO root fetch - main [MainThread]: Store serial: [17991183]
