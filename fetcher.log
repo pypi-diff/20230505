@@ -14967,3 +14967,113 @@
 [2023-05-05 15:15:49] INFO root fetch - main [MainThread]: End processing [cryptos]: success
 [2023-05-05 15:15:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
 [2023-05-05 15:15:49] INFO root fetch - main [MainThread]: Store serial: [17987422]
+[2023-05-05 15:20:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17987422]
+[2023-05-05 15:20:58] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-05 15:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yohsin3d
+[2023-05-05 15:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tupa123
+[2023-05-05 15:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UtilsRL
+[2023-05-05 15:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: accompanist
+[2023-05-05 15:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: super-search-gpt
+[2023-05-05 15:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: schoolware-api
+[2023-05-05 15:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-agents-nightly
+[2023-05-05 15:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: notifications-python-client
+[2023-05-05 15:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nlp-uncertainty-zoo
+[2023-05-05 15:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dop-integration-libs
+[2023-05-05 15:20:58] INFO root fetch - processPackages [accompanist]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-05-05 15:20:58] INFO root fetch - processPackages [tupa123]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-05 15:20:58] WARNING root fetch - processPackages [super-search-gpt]: Skipping, unable to determine old version
+[2023-05-05 15:20:58] INFO root fetch - processPackages [super-search-gpt]: Start processing: pytest-sqlalchemy-session
+[2023-05-05 15:20:58] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-05 15:20:58] INFO root fetch - main [MainThread]: End processing [super-search-gpt] error
+[2023-05-05 15:20:58] INFO root fetch - processPackages [yohsin3d]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-05 15:20:58] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 15:20:58] INFO root fetch - processPackages [notifications-python-client]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-05-05 15:20:58] INFO root fetch - processPackages [nlp-uncertainty-zoo]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-05 15:20:58] INFO root fetch - processPackages [UtilsRL]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-05 15:20:58] INFO root fetch - processPackages [pytest-sqlalchemy-session]: New version: [0.3.0b1] Old Version: [0.2.0b1]
+[2023-05-05 15:20:58] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-05-05 15:20:58] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 15:20:58] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.8.tar.gz tmp/schoolware_api-1.1.9.tar.gz --markdown 20230505/s/schoolware-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-05 15:20:58] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-05-05 15:20:58] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.4.8.tar.gz tmp/tupa123-1.4.9.tar.gz --markdown 20230505/t/tupa123/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-05 15:20:58] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-05 15:20:58] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230505/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 15:20:58] INFO root fetch - processPackages [yohsin3d]: Downloading https://files.pythonhosted.org/packages/6d/9b/caa2e56b518af7b2c1d8d9d4f974d36212519f1095473f99d6c11fa12fec/yohsin3d-0.3.0.tar.gz
+[2023-05-05 15:20:58] INFO root fetch - processPackages [nlp-uncertainty-zoo]: Downloading https://files.pythonhosted.org/packages/df/35/9d39ba0d42e4557cf5db8d8bfa0c23b487f7397499841553fa4fcdf9dae6/nlp-uncertainty-zoo-1.0.2.tar.gz
+[2023-05-05 15:20:58] INFO root fetch - processPackages [notifications-python-client]: Downloading https://files.pythonhosted.org/packages/54/82/51d6fd460b5297c63028722ff91c7d3326ad179a30b8daca46e32771175a/notifications_python_client-8.0.0-py3-none-any.whl
+[2023-05-05 15:20:58] INFO root fetch - processPackages [accompanist]: Downloading https://files.pythonhosted.org/packages/05/93/e2fd9f22a11247f4e2384ae6fbb9dc7c19789f44179a25ad767c80868344/accompanist-1.0.4-py3-none-any.whl
+[2023-05-05 15:20:58] INFO root fetch - processPackages [UtilsRL]: Downloading https://files.pythonhosted.org/packages/ae/f2/86974361381cb6aff46d1229f5e4b9de01f4691a20bd0630687ea66e3da9/UtilsRL-0.5.9.tar.gz
+[2023-05-05 15:20:58] INFO root fetch - processPackages [pytest-sqlalchemy-session]: Downloading https://files.pythonhosted.org/packages/33/d0/4924188fb8adc4e275c52e807ba80d57eb489327ec379b420dc74fd7d68f/pytest-sqlalchemy-session-0.2.0b1.tar.gz
+[2023-05-05 15:20:58] INFO root fetch - processPackages [UtilsRL]: executing diffoscope
+[2023-05-05 15:20:58] INFO root fetch - processPackages [UtilsRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UtilsRL-0.5.8.tar.gz tmp/UtilsRL-0.5.9.tar.gz --markdown 20230505/U/UtilsRL/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-05 15:20:59] INFO root fetch - processPackages [pytest-sqlalchemy-session]: Downloading https://files.pythonhosted.org/packages/ba/4e/f783b8d57a959a7f9286516c4952cfe57501e0f63af762b870d7ced42914/pytest-sqlalchemy-session-0.3.0b1.tar.gz
+[2023-05-05 15:20:59] INFO root fetch - processPackages [accompanist]: Downloading https://files.pythonhosted.org/packages/f2/75/52583f4417a45d2f48bb961ef54c77afec4b99281cde7ffa006d323ac956/accompanist-1.1.0-py3-none-any.whl
+[2023-05-05 15:20:59] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-05-05 15:20:59] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230505/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-05-05 15:20:59] INFO root fetch - processPackages [notifications-python-client]: Downloading https://files.pythonhosted.org/packages/63/5e/66958d520db9e0d90db5f0bdeff2a07164473a3ef5cd6f799d2271264390/notifications_python_client-8.0.1-py3-none-any.whl
+[2023-05-05 15:20:59] INFO root fetch - processPackages [nlp-uncertainty-zoo]: Downloading https://files.pythonhosted.org/packages/10/d4/0adbbb2c4d9383026ba1f073d90f8a521a87583d9b248aecd91ff88c278e/nlp-uncertainty-zoo-1.0.3.tar.gz
+[2023-05-05 15:20:59] INFO root fetch - processPackages [yohsin3d]: Downloading https://files.pythonhosted.org/packages/4d/91/9ceabe3b2742bc263c78e47feb6c2a2ab9f7681321ff1a2e94d68bb39c7f/yohsin3d-0.4.0.tar.gz
+[2023-05-05 15:20:59] INFO root fetch - processPackages [pytest-sqlalchemy-session]: executing diffoscope
+[2023-05-05 15:20:59] INFO root fetch - processPackages [pytest-sqlalchemy-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sqlalchemy-session-0.2.0b1.tar.gz tmp/pytest-sqlalchemy-session-0.3.0b1.tar.gz --markdown 20230505/p/pytest-sqlalchemy-session/0.2.0b1-0.3.0b1/diff.md --exclude *.pyd
+[2023-05-05 15:20:59] INFO root fetch - processPackages [accompanist]: executing diffoscope
+[2023-05-05 15:20:59] INFO root fetch - processPackages [accompanist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accompanist-1.0.4-py3-none-any.whl.zip tmp/accompanist-1.1.0-py3-none-any.whl.zip --markdown 20230505/a/accompanist/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 15:20:59] INFO root fetch - processPackages [notifications-python-client]: executing diffoscope
+[2023-05-05 15:20:59] INFO root fetch - processPackages [notifications-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notifications_python_client-8.0.0-py3-none-any.whl.zip tmp/notifications_python_client-8.0.1-py3-none-any.whl.zip --markdown 20230505/n/notifications-python-client/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-05-05 15:20:59] INFO root fetch - processPackages [nlp-uncertainty-zoo]: executing diffoscope
+[2023-05-05 15:20:59] INFO root fetch - processPackages [nlp-uncertainty-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp-uncertainty-zoo-1.0.2.tar.gz tmp/nlp-uncertainty-zoo-1.0.3.tar.gz --markdown 20230505/n/nlp-uncertainty-zoo/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-05 15:20:59] INFO root fetch - processPackages [yohsin3d]: executing diffoscope
+[2023-05-05 15:20:59] INFO root fetch - processPackages [yohsin3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yohsin3d-0.3.0.tar.gz tmp/yohsin3d-0.4.0.tar.gz --markdown 20230505/y/yohsin3d/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-05 15:20:59] INFO root fetch - processPackages [dop-integration-libs]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-05 15:20:59] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-05 15:21:00] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 15:21:00] INFO root fetch - processPackages [schoolware-api]: Start processing: peaqevcore
+[2023-05-05 15:21:00] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 15:21:00] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-05-05 15:21:00] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-05 15:21:00] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230505/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 15:21:00] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-05-05 15:21:00] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230505/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-05-05 15:21:00] INFO root fetch - processPackages [tupa123]: Start processing: sheetcloud
+[2023-05-05 15:21:00] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-05-05 15:21:00] INFO root fetch - processPackages [sheetcloud]: New version: [0.1.0.post7] Old Version: [0.1.0.post6]
+[2023-05-05 15:21:00] INFO root fetch - processPackages [sheetcloud]: Downloading https://files.pythonhosted.org/packages/01/c0/cb9a8131fce2995a7ee4e495787027b4d188b6fdae79ee3d9894592c93d1/sheetcloud-0.1.0.post7.tar.gz
+[2023-05-05 15:21:00] INFO root fetch - processPackages [notifications-python-client]: Start processing: anadroid
+[2023-05-05 15:21:00] INFO root fetch - main [MainThread]: End processing [notifications-python-client]: success
+[2023-05-05 15:21:00] INFO root fetch - processPackages [anadroid]: New version: [0.5.5] Old Version: [0.5.41]
+[2023-05-05 15:21:00] INFO root fetch - processPackages [pytest-sqlalchemy-session]: Start processing: schoolware-api
+[2023-05-05 15:21:00] INFO root fetch - main [MainThread]: End processing [pytest-sqlalchemy-session]: success
+[2023-05-05 15:21:00] INFO root fetch - processPackages [accompanist]: Start processing: espaco-exclusivo-package
+[2023-05-05 15:21:00] INFO root fetch - main [MainThread]: End processing [accompanist]: success
+[2023-05-05 15:21:00] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-05 15:21:00] INFO root fetch - processPackages [anadroid]: Downloading https://files.pythonhosted.org/packages/f2/59/5a084dca252f7e0945da9b20e59049741f5b81c33c69358429a32750dcb0/anadroid-0.5.41.tar.gz
+[2023-05-05 15:21:00] INFO root fetch - processPackages [sheetcloud]: executing diffoscope
+[2023-05-05 15:21:00] INFO root fetch - processPackages [sheetcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sheetcloud-0.1.0.post6.tar.gz tmp/sheetcloud-0.1.0.post7.tar.gz --markdown 20230505/s/sheetcloud/0.1.0.post6-0.1.0.post7/diff.md --exclude *.pyd
+[2023-05-05 15:21:00] WARNING root fetch - processPackages [anadroid]: Skipping package: exceeds size limit 80759498>=10485760
+[2023-05-05 15:21:00] INFO root fetch - processPackages [anadroid]: Start processing: pybiolib
+[2023-05-05 15:21:00] INFO root fetch - main [MainThread]: End processing [anadroid] error
+[2023-05-05 15:21:00] INFO root fetch - processPackages [espaco-exclusivo-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 15:21:00] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 15:21:00] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.8.tar.gz tmp/schoolware_api-1.1.9.tar.gz --markdown 20230505/s/schoolware-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-05 15:21:00] INFO root fetch - processPackages [nlp-uncertainty-zoo]: Start processing: autora
+[2023-05-05 15:21:00] INFO root fetch - main [MainThread]: End processing [nlp-uncertainty-zoo]: success
+[2023-05-05 15:21:00] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-05-05 15:21:00] INFO root fetch - processPackages [autora]: New version: [3.0.0a8] Old Version: [3.0.0a7]
+[2023-05-05 15:21:01] INFO root fetch - processPackages [autora]: executing diffoscope
+[2023-05-05 15:21:01] INFO root fetch - processPackages [autora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-3.0.0a7.tar.gz tmp/autora-3.0.0a8.tar.gz --markdown 20230505/a/autora/3.0.0a7-3.0.0a8/diff.md --exclude *.pyd
+[2023-05-05 15:21:01] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-05 15:21:01] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230505/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-05-05 15:21:01] INFO root fetch - main [MainThread]: End processing [UtilsRL]: success
+[2023-05-05 15:21:01] INFO root fetch - processPackages [espaco-exclusivo-package]: Downloading https://files.pythonhosted.org/packages/8b/32/53037070cd534af896d5e69b9c7e5480c791764898c8bc874bb8b0dd3d5e/espaco_exclusivo_package-0.1.8.tar.gz
+[2023-05-05 15:21:01] INFO root fetch - main [MainThread]: End processing [yohsin3d]: success
+[2023-05-05 15:21:01] INFO root fetch - processPackages [espaco-exclusivo-package]: Downloading https://files.pythonhosted.org/packages/e3/fd/52452d064cec2e3002f91559bd68dfd1353f60185fc63dcb3a9923b9a3eb/espaco_exclusivo_package-0.1.9.tar.gz
+[2023-05-05 15:21:01] INFO root fetch - processPackages [espaco-exclusivo-package]: executing diffoscope
+[2023-05-05 15:21:01] INFO root fetch - processPackages [espaco-exclusivo-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espaco_exclusivo_package-0.1.8.tar.gz tmp/espaco_exclusivo_package-0.1.9.tar.gz --markdown 20230505/e/espaco-exclusivo-package/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 15:21:02] INFO root fetch - main [MainThread]: End processing [sheetcloud]: success
+[2023-05-05 15:21:02] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 15:21:02] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-05 15:21:02] INFO root fetch - main [MainThread]: End processing [autora]: success
+[2023-05-05 15:21:02] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-05-05 15:21:03] INFO root fetch - main [MainThread]: End processing [espaco-exclusivo-package]: success
+[2023-05-05 15:21:03] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-05 15:21:06] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-05-05 15:21:06] INFO root fetch - main [MainThread]: Store serial: [17987508]
