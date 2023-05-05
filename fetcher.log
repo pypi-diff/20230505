@@ -16693,3 +16693,61 @@
 [2023-05-05 16:46:34] INFO root fetch - main [MainThread]: End processing [pyroporn]: success
 [2023-05-05 16:46:34] INFO root fetch - main [MainThread]: End processing [maoc-support-functions]: success
 [2023-05-05 16:46:34] INFO root fetch - main [MainThread]: Store serial: [17988518]
+[2023-05-05 16:51:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17988518]
+[2023-05-05 16:51:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-05 16:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KoiLang
+[2023-05-05 16:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: api-console-solver
+[2023-05-05 16:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unblob
+[2023-05-05 16:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: solana
+[2023-05-05 16:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easymp
+[2023-05-05 16:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: irails
+[2023-05-05 16:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gameyamlspiderandgenerator
+[2023-05-05 16:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: browsr
+[2023-05-05 16:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyGrained
+[2023-05-05 16:51:43] INFO root fetch - processPackages [unblob]: New version: [23.5.5] Old Version: [23.4.17]
+[2023-05-05 16:51:43] INFO root fetch - processPackages [api-console-solver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 16:51:43] WARNING root fetch - processPackages [pyGrained]: Skipping, unable to determine old version
+[2023-05-05 16:51:43] INFO root fetch - main [MainThread]: End processing [pyGrained] error
+[2023-05-05 16:51:43] INFO root fetch - processPackages [solana]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-05 16:51:43] INFO root fetch - processPackages [easymp]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-05 16:51:43] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-05 16:51:43] INFO root fetch - processPackages [browsr]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-05 16:51:43] INFO root fetch - processPackages [irails]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-05 16:51:43] INFO root fetch - processPackages [KoiLang]: New version: [1.1.0b2] Old Version: [1.1.0]
+[2023-05-05 16:51:43] INFO root fetch - processPackages [unblob]: Downloading https://files.pythonhosted.org/packages/c5/72/030dc9c9fb3df0b6b1bb72ee0c5967a12c2c820e049fadd040167b6a3867/unblob-23.4.17.tar.gz
+[2023-05-05 16:51:43] INFO root fetch - processPackages [api-console-solver]: Downloading https://files.pythonhosted.org/packages/7f/f3/0a4c5813a36bb2e1acf1e866615e2164ca10440de6b8d9b56be1d8ee8243/api-console-solver-0.0.8.tar.gz
+[2023-05-05 16:51:43] INFO root fetch - processPackages [easymp]: Downloading https://files.pythonhosted.org/packages/2f/75/be400b280d811597ada990e316760efd1106cea8a5ef7172a8ef54db9393/easymp-0.1.8.tar.gz
+[2023-05-05 16:51:43] INFO root fetch - processPackages [KoiLang]: Downloading https://files.pythonhosted.org/packages/f6/d4/a388f74269f85ededd3878679e14e6de96004884bdc861c3a5db1b50ee97/KoiLang-1.1.0.tar.gz
+[2023-05-05 16:51:43] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/b1/fe/ffe86a9ab190200e40d4fcf1c551b3c49a3a3f878a3621c4081c3a70e856/gameyamlspiderandgenerator-1.4.3.tar.gz
+[2023-05-05 16:51:43] INFO root fetch - processPackages [browsr]: Downloading https://files.pythonhosted.org/packages/d0/95/06bdd22d9a18d0c90b8a12787d4b1b92e25dd0f84a78d6bad598fa47a8fd/browsr-1.2.2.tar.gz
+[2023-05-05 16:51:43] INFO root fetch - processPackages [solana]: Downloading https://files.pythonhosted.org/packages/1c/21/bb8a78df8cc4a051fa53399a11ce6ad997a3abae40bcfe7fcb7019d8038f/solana-0.9.1.tar.gz
+[2023-05-05 16:51:43] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2023-05-05 16:51:43] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.4.2.tar.gz tmp/gameyamlspiderandgenerator-1.4.3.tar.gz --markdown 20230505/g/gameyamlspiderandgenerator/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-05 16:51:43] INFO root fetch - processPackages [easymp]: executing diffoscope
+[2023-05-05 16:51:43] INFO root fetch - processPackages [easymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easymp-0.1.7.tar.gz tmp/easymp-0.1.8.tar.gz --markdown 20230505/e/easymp/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-05 16:51:43] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/71/5b/a1de13405db776b6849b13a9b72898ca2215e59ec7e24a6bb6a9a19b4692/irails-1.1.6.tar.gz
+[2023-05-05 16:51:43] INFO root fetch - processPackages [browsr]: executing diffoscope
+[2023-05-05 16:51:43] INFO root fetch - processPackages [browsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browsr-1.2.1.tar.gz tmp/browsr-1.2.2.tar.gz --markdown 20230505/b/browsr/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-05 16:51:43] INFO root fetch - processPackages [unblob]: Downloading https://files.pythonhosted.org/packages/67/38/c8f98a3d1500f3be8ae8648c02f9d3b631b4c69725b2405feb2062cbf1f6/unblob-23.5.5.tar.gz
+[2023-05-05 16:51:43] INFO root fetch - processPackages [api-console-solver]: Downloading https://files.pythonhosted.org/packages/a7/0c/1229a4df607c10fee01de2f6b8bfbe449ecc5a30e02413f67ed7c319e321/api-console-solver-0.0.9.tar.gz
+[2023-05-05 16:51:43] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-05-05 16:51:43] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.1.5.tar.gz tmp/irails-1.1.6.tar.gz --markdown 20230505/i/irails/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-05 16:51:43] INFO root fetch - processPackages [unblob]: executing diffoscope
+[2023-05-05 16:51:43] INFO root fetch - processPackages [unblob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unblob-23.4.17.tar.gz tmp/unblob-23.5.5.tar.gz --markdown 20230505/u/unblob/23.4.17-23.5.5/diff.md --exclude *.pyd
+[2023-05-05 16:51:43] INFO root fetch - processPackages [KoiLang]: Downloading https://files.pythonhosted.org/packages/2f/79/6e3d1ee543125e2437154598723b0bd69bc6dd8151489610fb9f802d8a6b/KoiLang-1.1.0b2.tar.gz
+[2023-05-05 16:51:43] INFO root fetch - processPackages [api-console-solver]: executing diffoscope
+[2023-05-05 16:51:43] INFO root fetch - processPackages [api-console-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-console-solver-0.0.8.tar.gz tmp/api-console-solver-0.0.9.tar.gz --markdown 20230505/a/api-console-solver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 16:51:43] INFO root fetch - processPackages [solana]: Downloading https://files.pythonhosted.org/packages/6e/d0/55172890da7bb3ab0f1a025890c117bfcdeaf6f88ac4592f3fbd7de8d182/solana-0.9.2.tar.gz
+[2023-05-05 16:51:43] INFO root fetch - processPackages [KoiLang]: executing diffoscope
+[2023-05-05 16:51:43] INFO root fetch - processPackages [KoiLang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KoiLang-1.1.0.tar.gz tmp/KoiLang-1.1.0b2.tar.gz --markdown 20230505/K/KoiLang/1.1.0-1.1.0b2/diff.md --exclude *.pyd
+[2023-05-05 16:51:44] INFO root fetch - processPackages [solana]: executing diffoscope
+[2023-05-05 16:51:44] INFO root fetch - processPackages [solana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solana-0.9.1.tar.gz tmp/solana-0.9.2.tar.gz --markdown 20230505/s/solana/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-05 16:51:44] INFO root fetch - main [MainThread]: End processing [easymp]: success
+[2023-05-05 16:51:45] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2023-05-05 16:51:45] INFO root fetch - main [MainThread]: End processing [browsr]: success
+[2023-05-05 16:51:45] INFO root fetch - main [MainThread]: End processing [api-console-solver]: success
+[2023-05-05 16:51:45] INFO root fetch - main [MainThread]: End processing [solana]: success
+[2023-05-05 16:51:45] INFO root fetch - main [MainThread]: End processing [unblob]: success
+[2023-05-05 16:51:45] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-05-05 16:51:46] INFO root fetch - main [MainThread]: End processing [KoiLang]: success
+[2023-05-05 16:51:46] INFO root fetch - main [MainThread]: Store serial: [17988575]
