@@ -4923,3 +4923,19 @@
 [2023-05-05 04:35:19] INFO root fetch - main [MainThread]: End processing [uniTbrow]: success
 [2023-05-05 04:35:20] INFO root fetch - main [MainThread]: End processing [tplbuild]: success
 [2023-05-05 04:35:20] INFO root fetch - main [MainThread]: Store serial: [17981407]
+[2023-05-05 04:40:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981407]
+[2023-05-05 04:40:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-05 04:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyproject-generator
+[2023-05-05 04:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-rdma-qe
+[2023-05-05 04:40:29] INFO root fetch - processPackages [python-rdma-qe]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 04:40:29] INFO root fetch - processPackages [pyproject-generator]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-05 04:40:29] INFO root fetch - processPackages [python-rdma-qe]: Downloading https://files.pythonhosted.org/packages/12/17/84589ad98915b6f0586385da228938f96f5d181075ba0cec18f8a3bd8c9c/python_rdma_qe-0.0.5.tar.gz
+[2023-05-05 04:40:30] INFO root fetch - processPackages [pyproject-generator]: Downloading https://files.pythonhosted.org/packages/66/74/acd98b507e4d922a9b5328c12c07bf42671f2837c849fca5145c92227f2b/pyproject-generator-0.1.6.tar.gz
+[2023-05-05 04:40:30] INFO root fetch - processPackages [pyproject-generator]: executing diffoscope
+[2023-05-05 04:40:30] INFO root fetch - processPackages [pyproject-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-generator-0.1.5.tar.gz tmp/pyproject-generator-0.1.6.tar.gz --markdown 20230505/p/pyproject-generator/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-05 04:40:30] INFO root fetch - processPackages [python-rdma-qe]: Downloading https://files.pythonhosted.org/packages/56/79/02516a0c44fa26b288fbc31c2cad978f7f9276d3237fa04affe429450735/python_rdma_qe-0.0.6.tar.gz
+[2023-05-05 04:40:30] INFO root fetch - processPackages [python-rdma-qe]: executing diffoscope
+[2023-05-05 04:40:30] INFO root fetch - processPackages [python-rdma-qe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_rdma_qe-0.0.5.tar.gz tmp/python_rdma_qe-0.0.6.tar.gz --markdown 20230505/p/python-rdma-qe/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 04:40:31] INFO root fetch - main [MainThread]: End processing [pyproject-generator]: success
+[2023-05-05 04:40:31] INFO root fetch - main [MainThread]: End processing [python-rdma-qe]: success
+[2023-05-05 04:40:31] INFO root fetch - main [MainThread]: Store serial: [17981417]
