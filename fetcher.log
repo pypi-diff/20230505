@@ -6013,3 +6013,65 @@
 [2023-05-05 06:43:38] INFO root fetch - main [MainThread]: End processing [hyfi]: success
 [2023-05-05 06:43:38] INFO root fetch - main [MainThread]: End processing [insta-captions]: success
 [2023-05-05 06:43:38] INFO root fetch - main [MainThread]: Store serial: [17982003]
+[2023-05-05 06:48:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982003]
+[2023-05-05 06:48:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-05 06:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowclient
+[2023-05-05 06:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowetl
+[2023-05-05 06:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowmachine
+[2023-05-05 06:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manga-ocr-abang
+[2023-05-05 06:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datoso
+[2023-05-05 06:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scikit-fibers
+[2023-05-05 06:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-apx
+[2023-05-05 06:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cercis
+[2023-05-05 06:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nalax
+[2023-05-05 06:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addons-oca-l10n-france
+[2023-05-05 06:48:48] INFO root fetch - processPackages [datoso]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-05 06:48:48] WARNING root fetch - processPackages [nalax]: Skipping, unable to determine old version
+[2023-05-05 06:48:48] INFO root fetch - processPackages [scikit-fibers]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-05 06:48:48] INFO root fetch - processPackages [cercis]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 06:48:48] INFO root fetch - main [MainThread]: End processing [nalax] error
+[2023-05-05 06:48:48] INFO root fetch - processPackages [manga-ocr-abang]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-05 06:48:48] WARNING root fetch - processPackages [flask-apx]: Skipping, unable to determine old version
+[2023-05-05 06:48:48] INFO root fetch - main [MainThread]: End processing [flask-apx] error
+[2023-05-05 06:48:48] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-05 06:48:48] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-05 06:48:48] INFO root fetch - processPackages [odoo14-addons-oca-l10n-france]: New version: [14.0.20230504.0] Old Version: [14.0.20230304.0]
+[2023-05-05 06:48:48] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-05 06:48:48] INFO root fetch - processPackages [scikit-fibers]: Downloading https://files.pythonhosted.org/packages/66/d9/e28c2ea0aa2d0d8f5012492bb1b29de50e83012b1f3ef28e26b4b3a3b33d/scikit-fibers-0.9.2.tar.gz
+[2023-05-05 06:48:48] INFO root fetch - processPackages [datoso]: Downloading https://files.pythonhosted.org/packages/8b/d6/098ee9f5f06aeef1925786b49ae85e02c0ca847aeabc3179f02acabf3529/datoso-0.2.4.tar.gz
+[2023-05-05 06:48:48] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2023-05-05 06:48:48] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2023-05-05 06:48:48] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2023-05-05 06:48:48] INFO root fetch - processPackages [odoo14-addons-oca-l10n-france]: Downloading https://files.pythonhosted.org/packages/4b/95/8853c056d9e3bad25033571635a01a4cbe7396df0d2a1db545ce107c47fc/odoo14_addons_oca_l10n_france-14.0.20230304.0-py3-none-any.whl
+[2023-05-05 06:48:48] INFO root fetch - processPackages [cercis]: Downloading https://files.pythonhosted.org/packages/c0/27/8e05b58aecbff4e789ea8bc6c9a0b155e65b857bf77b9bee26c6ec5fc710/cercis-0.1.2.tar.gz
+[2023-05-05 06:48:48] INFO root fetch - processPackages [datoso]: executing diffoscope
+[2023-05-05 06:48:48] INFO root fetch - processPackages [datoso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso-0.2.3.tar.gz tmp/datoso-0.2.4.tar.gz --markdown 20230505/d/datoso/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-05 06:48:48] INFO root fetch - processPackages [manga-ocr-abang]: Downloading https://files.pythonhosted.org/packages/51/f3/8c5e07565d628d3545a6c778cd8828b1332af5d8fc650b634eea5f903bbc/manga-ocr-abang-0.2.0.tar.gz
+[2023-05-05 06:48:48] INFO root fetch - processPackages [cercis]: executing diffoscope
+[2023-05-05 06:48:48] INFO root fetch - processPackages [cercis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cercis-0.1.1.tar.gz tmp/cercis-0.1.2.tar.gz --markdown 20230505/c/cercis/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 06:48:48] INFO root fetch - processPackages [manga-ocr-abang]: executing diffoscope
+[2023-05-05 06:48:48] INFO root fetch - processPackages [manga-ocr-abang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manga-ocr-abang-0.1.9.tar.gz tmp/manga-ocr-abang-0.2.0.tar.gz --markdown 20230505/m/manga-ocr-abang/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 06:48:49] INFO root fetch - processPackages [scikit-fibers]: Downloading https://files.pythonhosted.org/packages/48/42/de9e3ccce8f3bba9c78481457412c43691414a9c6e12d4d7c875d5d92c59/scikit-fibers-0.9.3.tar.gz
+[2023-05-05 06:48:49] INFO root fetch - processPackages [odoo14-addons-oca-l10n-france]: Downloading https://files.pythonhosted.org/packages/b5/29/51c84e990bf529101ffd5881540dd841b900c077d3efca108033ce36f302/odoo14_addons_oca_l10n_france-14.0.20230504.0-py3-none-any.whl
+[2023-05-05 06:48:49] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2023-05-05 06:48:49] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2023-05-05 06:48:49] INFO root fetch - processPackages [scikit-fibers]: executing diffoscope
+[2023-05-05 06:48:49] INFO root fetch - processPackages [scikit-fibers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-fibers-0.9.2.tar.gz tmp/scikit-fibers-0.9.3.tar.gz --markdown 20230505/s/scikit-fibers/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-05 06:48:49] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2023-05-05 06:48:49] INFO root fetch - processPackages [odoo14-addons-oca-l10n-france]: executing diffoscope
+[2023-05-05 06:48:49] INFO root fetch - processPackages [odoo14-addons-oca-l10n-france]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_l10n_france-14.0.20230304.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_l10n_france-14.0.20230504.0-py3-none-any.whl.zip --markdown 20230505/o/odoo14-addons-oca-l10n-france/14.0.20230304.0-14.0.20230504.0/diff.md --exclude *.pyd
+[2023-05-05 06:48:49] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-05-05 06:48:49] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230505/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-05 06:48:49] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-05-05 06:48:49] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230505/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-05 06:48:49] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-05-05 06:48:49] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230505/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-05 06:48:50] INFO root fetch - main [MainThread]: End processing [manga-ocr-abang]: success
+[2023-05-05 06:48:50] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-france]: success
+[2023-05-05 06:48:50] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-05-05 06:48:50] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-05-05 06:48:50] INFO root fetch - main [MainThread]: End processing [datoso]: success
+[2023-05-05 06:48:50] INFO root fetch - main [MainThread]: End processing [scikit-fibers]: success
+[2023-05-05 06:48:51] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-05-05 06:48:51] INFO root fetch - main [MainThread]: End processing [cercis]: success
+[2023-05-05 06:48:51] INFO root fetch - main [MainThread]: Store serial: [17982033]
