@@ -7717,3 +7717,85 @@
 [2023-05-05 08:50:33] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
 [2023-05-05 08:50:34] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
 [2023-05-05 08:50:34] INFO root fetch - main [MainThread]: Store serial: [17983051]
+[2023-05-05 08:55:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17983051]
+[2023-05-05 08:55:43] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 08:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvespa
+[2023-05-05 08:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musegan
+[2023-05-05 08:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xarray-safe-s1
+[2023-05-05 08:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vessl
+[2023-05-05 08:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xj-thread
+[2023-05-05 08:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parking-env
+[2023-05-05 08:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mxmake
+[2023-05-05 08:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: otx
+[2023-05-05 08:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lasintaxisxd2
+[2023-05-05 08:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ebmeta
+[2023-05-05 08:55:43] INFO root fetch - processPackages [pyvespa]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-05 08:55:43] WARNING root fetch - processPackages [parking-env]: Skipping, unable to determine old version
+[2023-05-05 08:55:43] INFO root fetch - processPackages [parking-env]: Start processing: pysearchconsole
+[2023-05-05 08:55:43] INFO root fetch - main [MainThread]: End processing [parking-env] error
+[2023-05-05 08:55:43] INFO root fetch - processPackages [xarray-safe-s1]: New version: [2023.5.4] Old Version: [1.0.4]
+[2023-05-05 08:55:43] INFO root fetch - processPackages [musegan]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 08:55:43] WARNING root fetch - processPackages [lasintaxisxd2]: Skipping, unable to determine old version
+[2023-05-05 08:55:43] INFO root fetch - processPackages [lasintaxisxd2]: Start processing: azure-recommendations
+[2023-05-05 08:55:43] INFO root fetch - main [MainThread]: End processing [lasintaxisxd2] error
+[2023-05-05 08:55:43] INFO root fetch - processPackages [mxmake]: New version: [1.0a1] Old Version: [0.1]
+[2023-05-05 08:55:43] WARNING root fetch - processPackages [ebmeta]: Skipping, unable to determine old version
+[2023-05-05 08:55:43] INFO root fetch - processPackages [ebmeta]: Start processing: pygame-pause
+[2023-05-05 08:55:43] INFO root fetch - processPackages [otx]: New version: [1.2.1rc4] Old Version: [1.2.1rc3]
+[2023-05-05 08:55:43] INFO root fetch - main [MainThread]: End processing [ebmeta] error
+[2023-05-05 08:55:43] INFO root fetch - processPackages [vessl]: New version: [0.1.91] Old Version: [0.1.90]
+[2023-05-05 08:55:43] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-05-05 08:55:43] INFO root fetch - processPackages [azure-recommendations]: New version: [0.3.1] Old Version: [0.0.2]
+[2023-05-05 08:55:43] WARNING root fetch - processPackages [pygame-pause]: Skipping, unable to determine old version
+[2023-05-05 08:55:43] INFO root fetch - processPackages [pygame-pause]: Start processing: nvcl-kit
+[2023-05-05 08:55:43] INFO root fetch - main [MainThread]: End processing [pygame-pause] error
+[2023-05-05 08:55:43] WARNING root fetch - processPackages [pysearchconsole]: Skipping, unable to determine old version
+[2023-05-05 08:55:43] INFO root fetch - processPackages [pysearchconsole]: Start processing: alpha-trader-python
+[2023-05-05 08:55:43] INFO root fetch - main [MainThread]: End processing [pysearchconsole] error
+[2023-05-05 08:55:43] INFO root fetch - processPackages [alpha-trader-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 08:55:43] INFO root fetch - processPackages [xarray-safe-s1]: executing diffoscope
+[2023-05-05 08:55:43] INFO root fetch - processPackages [xarray-safe-s1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray-safe-s1-1.0.4.tar.gz tmp/xarray-safe-s1-2023.5.4.tar.gz --markdown 20230505/x/xarray-safe-s1/1.0.4-2023.5.4/diff.md --exclude *.pyd
+[2023-05-05 08:55:43] INFO root fetch - processPackages [nvcl-kit]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-05-05 08:55:43] INFO root fetch - processPackages [musegan]: Downloading https://files.pythonhosted.org/packages/af/62/fc39abed3f59521c601db027b150ee01364ac2b43aac140ab59b4ad84895/musegan-0.0.2.tar.gz
+[2023-05-05 08:55:43] INFO root fetch - processPackages [alpha-trader-python]: executing diffoscope
+[2023-05-05 08:55:43] INFO root fetch - processPackages [alpha-trader-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpha_trader_python-0.0.2.tar.gz tmp/alpha_trader_python-0.0.3.tar.gz --markdown 20230505/a/alpha-trader-python/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 08:55:43] INFO root fetch - processPackages [pyvespa]: Downloading https://files.pythonhosted.org/packages/fa/a7/b8ddb63363ad676537d6d2fe0bb57776db1add62129f6c30094d044e8ad2/pyvespa-0.8.1.tar.gz
+[2023-05-05 08:55:43] INFO root fetch - processPackages [mxmake]: Downloading https://files.pythonhosted.org/packages/38/57/25a7ce582badf5424a37be3535c26e874e88a42de26a03fc06fd0d52cdac/mxmake-0.1.tar.gz
+[2023-05-05 08:55:43] INFO root fetch - processPackages [azure-recommendations]: Downloading https://files.pythonhosted.org/packages/fb/a3/bbab423120517e45cfb9c033c3d0d72ec0f9e98f89bc07944b0857e50b95/azure_recommendations-0.0.2.tar.gz
+[2023-05-05 08:55:43] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/9e/9b/a12be040eeda94eae0112074a1a0f91568684cf387c86b0ac4c7d6702d61/vessl-0.1.90.tar.gz
+[2023-05-05 08:55:43] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2023-05-05 08:55:43] INFO root fetch - processPackages [nvcl-kit]: Downloading https://files.pythonhosted.org/packages/0b/ba/335408bbcf561d69381d631340d76e55dd7c3779ef6dca75cf8379022ae8/nvcl-kit-1.1.2.tar.gz
+[2023-05-05 08:55:43] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/a9/03/462e4f8dbc4b71c477b1c95f52c4ba008bd88c5fa344922e3549e4ab67ab/otx-1.2.1rc4.tar.gz
+[2023-05-05 08:55:43] INFO root fetch - processPackages [musegan]: Downloading https://files.pythonhosted.org/packages/19/c5/a6ff0bbb772de285389e9d65509573cf6127c8b226592ee93921d57af09c/musegan-0.0.3.tar.gz
+[2023-05-05 08:55:44] INFO root fetch - processPackages [nvcl-kit]: executing diffoscope
+[2023-05-05 08:55:44] INFO root fetch - processPackages [nvcl-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvcl-kit-1.1.0.tar.gz tmp/nvcl-kit-1.1.2.tar.gz --markdown 20230505/n/nvcl-kit/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-05-05 08:55:44] INFO root fetch - processPackages [musegan]: executing diffoscope
+[2023-05-05 08:55:44] INFO root fetch - processPackages [musegan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musegan-0.0.2.tar.gz tmp/musegan-0.0.3.tar.gz --markdown 20230505/m/musegan/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 08:55:44] INFO root fetch - processPackages [mxmake]: Downloading https://files.pythonhosted.org/packages/d0/dd/ada5004e87215082d81e746bf6f84daf7e1d20cddc5ac5776db1d21fcfec/mxmake-1.0a1.tar.gz
+[2023-05-05 08:55:44] INFO root fetch - processPackages [otx]: executing diffoscope
+[2023-05-05 08:55:44] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.2.1rc3.tar.gz tmp/otx-1.2.1rc4.tar.gz --markdown 20230505/o/otx/1.2.1rc3-1.2.1rc4/diff.md --exclude *.pyd
+[2023-05-05 08:55:44] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/c3/96/5053e07e6eacbe5d72bdfc02947467b9ec0024075092a1976ad4bf51f2e2/vessl-0.1.91.tar.gz
+[2023-05-05 08:55:44] INFO root fetch - processPackages [pyvespa]: Downloading https://files.pythonhosted.org/packages/38/7c/c1343e050b9b534173a78967b52854b4de31b5cd08648091a70363bda661/pyvespa-0.9.0.tar.gz
+[2023-05-05 08:55:44] INFO root fetch - processPackages [mxmake]: executing diffoscope
+[2023-05-05 08:55:44] INFO root fetch - processPackages [mxmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxmake-0.1.tar.gz tmp/mxmake-1.0a1.tar.gz --markdown 20230505/m/mxmake/0.1-1.0a1/diff.md --exclude *.pyd
+[2023-05-05 08:55:44] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2023-05-05 08:55:44] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-05-05 08:55:44] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.90.tar.gz tmp/vessl-0.1.91.tar.gz --markdown 20230505/v/vessl/0.1.90-0.1.91/diff.md --exclude *.pyd
+[2023-05-05 08:55:44] INFO root fetch - processPackages [azure-recommendations]: Downloading https://files.pythonhosted.org/packages/bb/f0/481144beff7230c2cd5176257f8b4de6a5ca75808d5613227bc098e2bf7d/azure_recommendations-0.3.1.tar.gz
+[2023-05-05 08:55:44] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-05-05 08:55:44] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230505/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-05-05 08:55:44] INFO root fetch - processPackages [azure-recommendations]: executing diffoscope
+[2023-05-05 08:55:44] INFO root fetch - processPackages [azure-recommendations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_recommendations-0.0.2.tar.gz tmp/azure_recommendations-0.3.1.tar.gz --markdown 20230505/a/azure-recommendations/0.0.2-0.3.1/diff.md --exclude *.pyd
+[2023-05-05 08:55:44] INFO root fetch - processPackages [pyvespa]: executing diffoscope
+[2023-05-05 08:55:44] INFO root fetch - processPackages [pyvespa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvespa-0.8.1.tar.gz tmp/pyvespa-0.9.0.tar.gz --markdown 20230505/p/pyvespa/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 08:55:44] INFO root fetch - main [MainThread]: End processing [xarray-safe-s1]: success
+[2023-05-05 08:55:45] INFO root fetch - main [MainThread]: End processing [alpha-trader-python]: success
+[2023-05-05 08:55:45] INFO root fetch - main [MainThread]: End processing [musegan]: success
+[2023-05-05 08:55:45] INFO root fetch - main [MainThread]: End processing [mxmake]: success
+[2023-05-05 08:55:45] INFO root fetch - main [MainThread]: End processing [nvcl-kit]: success
+[2023-05-05 08:55:45] INFO root fetch - main [MainThread]: End processing [pyvespa]: success
+[2023-05-05 08:55:45] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-05-05 08:55:45] INFO root fetch - main [MainThread]: End processing [azure-recommendations]: success
+[2023-05-05 08:55:54] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-05-05 08:56:21] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2023-05-05 08:56:21] INFO root fetch - main [MainThread]: Store serial: [17983105]
