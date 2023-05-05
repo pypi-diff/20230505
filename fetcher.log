@@ -14248,3 +14248,73 @@
 [2023-05-05 14:43:11] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-05 14:43:33] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
 [2023-05-05 14:43:33] INFO root fetch - main [MainThread]: Store serial: [17986997]
+[2023-05-05 14:48:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17986997]
+[2023-05-05 14:48:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-serverless-crud
+[2023-05-05 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aij-webcam
+[2023-05-05 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorcircuit-nightly
+[2023-05-05 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coiled
+[2023-05-05 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyhacklib
+[2023-05-05 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PageXML-to-Mask-converter
+[2023-05-05 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-channels-graphql-ws
+[2023-05-05 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vigilant-kit
+[2023-05-05 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: appmesh
+[2023-05-05 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dop-integration-libs
+[2023-05-05 14:48:42] INFO root fetch - processPackages [aij-webcam]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-05 14:48:42] INFO root fetch - processPackages [python-serverless-crud]: New version: [1.3.4] Old Version: [1.3.2]
+[2023-05-05 14:48:42] INFO root fetch - processPackages [PageXML-to-Mask-converter]: New version: [0.2] Old Version: [0.1]
+[2023-05-05 14:48:42] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.8.0.dev20230504] Old Version: [0.8.0.dev20230503]
+[2023-05-05 14:48:42] WARNING root fetch - processPackages [pyhacklib]: Skipping, unable to determine old version
+[2023-05-05 14:48:42] INFO root fetch - processPackages [pyhacklib]: Start processing: th2-data-services-lwdp
+[2023-05-05 14:48:42] INFO root fetch - main [MainThread]: End processing [pyhacklib] error
+[2023-05-05 14:48:42] INFO root fetch - processPackages [coiled]: New version: [0.6.2.dev6] Old Version: [0.6.2.dev5]
+[2023-05-05 14:48:42] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.3.0.dev4893468846] Old Version: [2.0.2.0.dev4818834136]
+[2023-05-05 14:48:43] INFO root fetch - processPackages [django-channels-graphql-ws]: New version: [1.0.0rc5] Old Version: [1.0.0rc4]
+[2023-05-05 14:48:43] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 14:48:43] INFO root fetch - processPackages [appmesh]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-05 14:48:43] INFO root fetch - processPackages [vigilant-kit]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-05 14:48:43] INFO root fetch - processPackages [python-serverless-crud]: Downloading https://files.pythonhosted.org/packages/f8/2b/331b1c3ffcfd9552adebff43c6b1569c92b4cf96492718ff8fe40a29979b/python-serverless-crud-1.3.2.tar.gz
+[2023-05-05 14:48:43] INFO root fetch - processPackages [aij-webcam]: Downloading https://files.pythonhosted.org/packages/f3/f7/1121a564b4df13d8f5391e158777e777cfda76c0645d2f621cfc9af76d11/aij-webcam-1.1.0.tar.gz
+[2023-05-05 14:48:43] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/c9/0e/3dc269a7e44ea7d32f3009f156db2b537371004b7a69c2220465b5647fff/tensorcircuit-nightly-0.8.0.dev20230504.tar.gz
+[2023-05-05 14:48:43] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/6d/ddee0af748c8c80b57f23f54f397c7a575a77a3d1877a817b95a80fb408f/coiled-0.6.2.dev6.tar.gz
+[2023-05-05 14:48:43] INFO root fetch - processPackages [PageXML-to-Mask-converter]: Downloading https://files.pythonhosted.org/packages/c5/c8/9cccdc2cadc6c1fee3c8b8b19aa136f9e32ac84e2b520371648f84dbda6d/PageXML_to_Mask_converter-0.1.tar.gz
+[2023-05-05 14:48:43] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-05-05 14:48:43] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.2.0.dev4818834136.tar.gz tmp/th2_data_services_lwdp-2.0.3.0.dev4893468846.tar.gz --markdown 20230505/t/th2-data-services-lwdp/2.0.2.0.dev4818834136-2.0.3.0.dev4893468846/diff.md --exclude *.pyd
+[2023-05-05 14:48:43] INFO root fetch - processPackages [aij-webcam]: executing diffoscope
+[2023-05-05 14:48:43] INFO root fetch - processPackages [aij-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-webcam-1.0.9.tar.gz tmp/aij-webcam-1.1.0.tar.gz --markdown 20230505/a/aij-webcam/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 14:48:43] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/43/45/503ef5ebdbc2738c82cbbb80537a5bf115e4bed41edfaf9e30a244d34f0a/appmesh-0.4.2-py3-none-any.whl
+[2023-05-05 14:48:43] INFO root fetch - processPackages [django-channels-graphql-ws]: Downloading https://files.pythonhosted.org/packages/0c/61/6cb3b05295096e678a8f1e3aee40763b77849b1e37ca160ad279cad54bab/django_channels_graphql_ws-1.0.0rc5.tar.gz
+[2023-05-05 14:48:43] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-05-05 14:48:43] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.8.0.dev20230503.tar.gz tmp/tensorcircuit-nightly-0.8.0.dev20230504.tar.gz --markdown 20230505/t/tensorcircuit-nightly/0.8.0.dev20230503-0.8.0.dev20230504/diff.md --exclude *.pyd
+[2023-05-05 14:48:43] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-05 14:48:43] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.2.dev5.tar.gz tmp/coiled-0.6.2.dev6.tar.gz --markdown 20230505/c/coiled/0.6.2.dev5-0.6.2.dev6/diff.md --exclude *.pyd
+[2023-05-05 14:48:43] INFO root fetch - processPackages [vigilant-kit]: Downloading https://files.pythonhosted.org/packages/71/e8/8e0bba933f5a8630c079ce236f31019e04b45a8734d8d1edf671bec830c4/vigilant_kit-1.2.1.tar.gz
+[2023-05-05 14:48:43] INFO root fetch - processPackages [django-channels-graphql-ws]: executing diffoscope
+[2023-05-05 14:48:43] INFO root fetch - processPackages [django-channels-graphql-ws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_channels_graphql_ws-1.0.0rc4.tar.gz tmp/django_channels_graphql_ws-1.0.0rc5.tar.gz --markdown 20230505/d/django-channels-graphql-ws/1.0.0rc4-1.0.0rc5/diff.md --exclude *.pyd
+[2023-05-05 14:48:43] INFO root fetch - processPackages [python-serverless-crud]: Downloading https://files.pythonhosted.org/packages/af/b1/54eee0a350c9a9749c9925ee15e97f00e3309077a8bb845cde0718d0dae0/python_serverless_crud-1.3.4.tar.gz
+[2023-05-05 14:48:43] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-05 14:48:43] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230505/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 14:48:43] INFO root fetch - processPackages [PageXML-to-Mask-converter]: Downloading https://files.pythonhosted.org/packages/f6/71/85a4d0501b4b2a342ecdf001f1f1c701df72d0bf0f2f8a316a65d074a2e0/PageXML_to_Mask_converter-0.2.tar.gz
+[2023-05-05 14:48:43] INFO root fetch - processPackages [vigilant-kit]: executing diffoscope
+[2023-05-05 14:48:43] INFO root fetch - processPackages [vigilant-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vigilant_kit-1.2.0.tar.gz tmp/vigilant_kit-1.2.1.tar.gz --markdown 20230505/v/vigilant-kit/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-05 14:48:43] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/af/38/0098e422479257785bed4153d811a6453c1effdbe394c4392026024a3186/appmesh-0.4.3-py3-none-any.whl
+[2023-05-05 14:48:43] INFO root fetch - processPackages [python-serverless-crud]: executing diffoscope
+[2023-05-05 14:48:43] INFO root fetch - processPackages [python-serverless-crud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-serverless-crud-1.3.2.tar.gz tmp/python_serverless_crud-1.3.4.tar.gz --markdown 20230505/p/python-serverless-crud/1.3.2-1.3.4/diff.md --exclude *.pyd
+[2023-05-05 14:48:43] INFO root fetch - processPackages [PageXML-to-Mask-converter]: executing diffoscope
+[2023-05-05 14:48:43] INFO root fetch - processPackages [PageXML-to-Mask-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PageXML_to_Mask_converter-0.1.tar.gz tmp/PageXML_to_Mask_converter-0.2.tar.gz --markdown 20230505/P/PageXML-to-Mask-converter/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-05 14:48:43] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2023-05-05 14:48:43] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-0.4.2-py3-none-any.whl.zip tmp/appmesh-0.4.3-py3-none-any.whl.zip --markdown 20230505/a/appmesh/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-05 14:48:44] INFO root fetch - processPackages [th2-data-services-lwdp]: Start processing: morse-transcript
+[2023-05-05 14:48:44] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-05-05 14:48:44] WARNING root fetch - processPackages [morse-transcript]: Skipping, unable to determine old version
+[2023-05-05 14:48:44] INFO root fetch - main [MainThread]: End processing [morse-transcript] error
+[2023-05-05 14:48:45] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-05 14:48:45] INFO root fetch - main [MainThread]: End processing [aij-webcam]: success
+[2023-05-05 14:48:45] INFO root fetch - main [MainThread]: End processing [django-channels-graphql-ws]: success
+[2023-05-05 14:48:45] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2023-05-05 14:48:45] INFO root fetch - main [MainThread]: End processing [python-serverless-crud]: success
+[2023-05-05 14:48:45] INFO root fetch - main [MainThread]: End processing [PageXML-to-Mask-converter]: success
+[2023-05-05 14:48:45] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-05-05 14:48:45] INFO root fetch - main [MainThread]: End processing [vigilant-kit]: success
+[2023-05-05 14:48:46] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-05 14:48:46] INFO root fetch - main [MainThread]: Store serial: [17987034]
