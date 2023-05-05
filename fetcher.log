@@ -20826,3 +20826,144 @@
 [2023-05-05 20:26:25] INFO root fetch - main [MainThread]: End processing [pyvista]: success
 [2023-05-05 20:26:25] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-05-05 20:26:25] INFO root fetch - main [MainThread]: Store serial: [17991333]
+[2023-05-05 20:31:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17991333]
+[2023-05-05 20:31:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-05 20:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-review
+[2023-05-05 20:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ruamel.yaml
+[2023-05-05 20:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dkist-processing-visp
+[2023-05-05 20:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weewx
+[2023-05-05 20:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-duckdb
+[2023-05-05 20:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hi-ml-azure
+[2023-05-05 20:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hi-ml
+[2023-05-05 20:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ob-dj-feature-flags
+[2023-05-05 20:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: burlap
+[2023-05-05 20:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyt-gpt
+[2023-05-05 20:31:35] INFO root fetch - processPackages [gpt-review]: New version: [0.6.0rc462.post1] Old Version: [0.6.0]
+[2023-05-05 20:31:35] INFO root fetch - processPackages [dkist-processing-visp]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-05 20:31:35] INFO root fetch - processPackages [ob-dj-feature-flags]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-05 20:31:35] INFO root fetch - processPackages [ruamel.yaml]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-05 20:31:35] INFO root fetch - processPackages [weewx]: New version: [5.0.0a30] Old Version: [5.0.0a29]
+[2023-05-05 20:31:35] INFO root fetch - processPackages [dbt-duckdb]: New version: [1.5.1] Old Version: [1.5.0rc1]
+[2023-05-05 20:31:35] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-05-05 20:31:35] INFO root fetch - processPackages [hi-ml-azure]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-05 20:31:35] INFO root fetch - processPackages [hi-ml]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-05 20:31:35] INFO root fetch - processPackages [burlap]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-05 20:31:35] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/6a/84/206ea21b89bce9efd844bfec9d555b5498f9b5b18e563afed2b7e02cf891/gpt-review-0.6.0.tar.gz
+[2023-05-05 20:31:35] INFO root fetch - processPackages [ob-dj-feature-flags]: Downloading https://files.pythonhosted.org/packages/88/ed/3a413b0e6be142b08b65bd5305d037f004d6fc1c1a689eec9bfb280ee4dc/ob-dj-feature-flags-0.0.0.tar.gz
+[2023-05-05 20:31:35] INFO root fetch - processPackages [ruamel.yaml]: Downloading https://files.pythonhosted.org/packages/08/2e/36ad3bba826620494292ad7c14beb21695e6da91705f50cf228fb0fa4409/ruamel.yaml-0.9.7.tar.gz
+[2023-05-05 20:31:35] INFO root fetch - processPackages [hyt-gpt]: Downloading https://files.pythonhosted.org/packages/38/43/86fe96daca9e907629372b0af7568ca5c984862861ad5a1a0dc157533a60/hyt-gpt-0.2.6.tar.gz
+[2023-05-05 20:31:35] INFO root fetch - processPackages [dbt-duckdb]: Downloading https://files.pythonhosted.org/packages/55/cd/73500873a0d8eca9e0b225b67e63369c9798d0a4f3cdbdf8e037763f3c09/dbt-duckdb-1.5.0rc1.tar.gz
+[2023-05-05 20:31:35] INFO root fetch - processPackages [hi-ml]: Downloading https://files.pythonhosted.org/packages/aa/92/cc5d600094f3746fbd18629313e8e9319f47e26b4c6994702d166df0fa00/hi-ml-0.2.9.tar.gz
+[2023-05-05 20:31:35] INFO root fetch - processPackages [hi-ml-azure]: Downloading https://files.pythonhosted.org/packages/a9/42/29f1df2a8ed57c2320ed07aa110df545cae65adbbeff983f0fea68a7a996/hi-ml-azure-0.2.9.tar.gz
+[2023-05-05 20:31:35] INFO root fetch - processPackages [burlap]: Downloading https://files.pythonhosted.org/packages/fc/e6/42b063deba5f865cce573d1eb1e76fd2200f51b99bdc7e1797f4d6f0bd45/burlap-0.9.98.tar.gz
+[2023-05-05 20:31:36] INFO root fetch - processPackages [dkist-processing-visp]: Downloading https://files.pythonhosted.org/packages/ad/e2/e34258f1ee0aa3cda7e273cc17ae58140ebf5ffdedf1f785be67b73a5015/dkist_processing_visp-2.1.1.tar.gz
+[2023-05-05 20:31:36] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-05 20:31:36] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.6.0.tar.gz tmp/gpt-review-0.6.0rc462.post1.tar.gz --markdown 20230505/g/gpt-review/0.6.0-0.6.0rc462.post1/diff.md --exclude *.pyd
+[2023-05-05 20:31:36] INFO root fetch - processPackages [weewx]: Downloading https://files.pythonhosted.org/packages/5b/b2/33cff1e349a94fc2edc6d4fb4a810c45e5caea0c15f7950d5f070ef55d56/weewx-5.0.0a30.tar.gz
+[2023-05-05 20:31:36] INFO root fetch - processPackages [dkist-processing-visp]: executing diffoscope
+[2023-05-05 20:31:36] INFO root fetch - processPackages [dkist-processing-visp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_visp-2.1.0.tar.gz tmp/dkist_processing_visp-2.1.1.tar.gz --markdown 20230505/d/dkist-processing-visp/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-05 20:31:36] INFO root fetch - processPackages [ob-dj-feature-flags]: Downloading https://files.pythonhosted.org/packages/ac/7f/35685d2586c0cf9570bcf380fbf4845abf7991a8cfbfdd6c00602fc8d021/ob-dj-feature-flags-0.0.1.tar.gz
+[2023-05-05 20:31:36] INFO root fetch - processPackages [ruamel.yaml]: Downloading https://files.pythonhosted.org/packages/29/71/ac3ab7be172ca88b6d16134578c9124e0b5ed157a3681e5181d9ca9bb3ec/ruamel.yaml-0.9.8.tar.gz
+[2023-05-05 20:31:36] INFO root fetch - processPackages [weewx]: executing diffoscope
+[2023-05-05 20:31:36] INFO root fetch - processPackages [weewx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weewx-5.0.0a29.tar.gz tmp/weewx-5.0.0a30.tar.gz --markdown 20230505/w/weewx/5.0.0a29-5.0.0a30/diff.md --exclude *.pyd
+[2023-05-05 20:31:36] INFO root fetch - processPackages [ob-dj-feature-flags]: executing diffoscope
+[2023-05-05 20:31:36] INFO root fetch - processPackages [ob-dj-feature-flags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-dj-feature-flags-0.0.0.tar.gz tmp/ob-dj-feature-flags-0.0.1.tar.gz --markdown 20230505/o/ob-dj-feature-flags/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-05 20:31:36] INFO root fetch - processPackages [hyt-gpt]: Downloading https://files.pythonhosted.org/packages/41/d8/729c270b1ddef2553e5ab9a89583d43c16ee6c69c8fb127cbdf9e67f2f0f/hyt-gpt-0.3.0.tar.gz
+[2023-05-05 20:31:36] INFO root fetch - processPackages [dbt-duckdb]: Downloading https://files.pythonhosted.org/packages/0c/4f/f589e06419a75867f3d89a45a904a7d8c0338a6016dc61a40cac11de264d/dbt-duckdb-1.5.1.tar.gz
+[2023-05-05 20:31:36] INFO root fetch - processPackages [hi-ml-azure]: Downloading https://files.pythonhosted.org/packages/98/16/d17ddfed5ed60e80381ff3af383d0d36bdf8c0813a8e0724031b673862cf/hi-ml-azure-0.3.0.tar.gz
+[2023-05-05 20:31:36] INFO root fetch - processPackages [hi-ml]: Downloading https://files.pythonhosted.org/packages/eb/04/e5ce2ae50b75643d4329415e3235137e01c6987575f2aafa5ba341c110b9/hi-ml-0.3.0.tar.gz
+[2023-05-05 20:31:36] INFO root fetch - processPackages [ruamel.yaml]: executing diffoscope
+[2023-05-05 20:31:36] INFO root fetch - processPackages [ruamel.yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruamel.yaml-0.9.7.tar.gz tmp/ruamel.yaml-0.9.8.tar.gz --markdown 20230505/r/ruamel.yaml/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-05 20:31:36] INFO root fetch - processPackages [burlap]: Downloading https://files.pythonhosted.org/packages/6d/48/0c20ab173d12220662092bd17c55c72df1b308b5e4786aa0350813e01931/burlap-0.9.99.tar.gz
+[2023-05-05 20:31:36] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-05 20:31:36] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.2.6.tar.gz tmp/hyt-gpt-0.3.0.tar.gz --markdown 20230505/h/hyt-gpt/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 20:31:36] INFO root fetch - processPackages [hi-ml-azure]: executing diffoscope
+[2023-05-05 20:31:36] INFO root fetch - processPackages [hi-ml-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hi-ml-azure-0.2.9.tar.gz tmp/hi-ml-azure-0.3.0.tar.gz --markdown 20230505/h/hi-ml-azure/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 20:31:36] INFO root fetch - processPackages [dbt-duckdb]: executing diffoscope
+[2023-05-05 20:31:36] INFO root fetch - processPackages [dbt-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-duckdb-1.5.0rc1.tar.gz tmp/dbt-duckdb-1.5.1.tar.gz --markdown 20230505/d/dbt-duckdb/1.5.0rc1-1.5.1/diff.md --exclude *.pyd
+[2023-05-05 20:31:36] INFO root fetch - processPackages [hi-ml]: executing diffoscope
+[2023-05-05 20:31:36] INFO root fetch - processPackages [hi-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hi-ml-0.2.9.tar.gz tmp/hi-ml-0.3.0.tar.gz --markdown 20230505/h/hi-ml/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 20:31:36] INFO root fetch - processPackages [burlap]: executing diffoscope
+[2023-05-05 20:31:36] INFO root fetch - processPackages [burlap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burlap-0.9.98.tar.gz tmp/burlap-0.9.99.tar.gz --markdown 20230505/b/burlap/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-05 20:31:38] INFO root fetch - processPackages [hyt-gpt]: Start processing: OpenSRANE
+[2023-05-05 20:31:38] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-05 20:31:38] INFO root fetch - processPackages [gpt-review]: Start processing: fpyo2ipa
+[2023-05-05 20:31:38] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-05 20:31:38] INFO root fetch - processPackages [fpyo2ipa]: New version: [1.0.3] Old Version: [1.0]
+[2023-05-05 20:31:38] INFO root fetch - processPackages [OpenSRANE]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-05-05 20:31:38] INFO root fetch - processPackages [fpyo2ipa]: executing diffoscope
+[2023-05-05 20:31:38] INFO root fetch - processPackages [fpyo2ipa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpyo2ipa-1.0.tar.gz tmp/fpyo2ipa-1.0.3.tar.gz --markdown 20230505/f/fpyo2ipa/1.0-1.0.3/diff.md --exclude *.pyd
+[2023-05-05 20:31:38] INFO root fetch - processPackages [ruamel.yaml]: Start processing: lancedb
+[2023-05-05 20:31:38] INFO root fetch - main [MainThread]: End processing [ruamel.yaml]: success
+[2023-05-05 20:31:38] INFO root fetch - main [MainThread]: End processing [hi-ml-azure]: success
+[2023-05-05 20:31:38] INFO root fetch - processPackages [OpenSRANE]: Downloading https://files.pythonhosted.org/packages/a0/5b/c4befa21401c68eb2c0b8b2a95fe2526430c6abca26a1865dd59682df15d/OpenSRANE-0.0.0.tar.gz
+[2023-05-05 20:31:38] INFO root fetch - main [MainThread]: End processing [ob-dj-feature-flags]: success
+[2023-05-05 20:31:38] INFO root fetch - processPackages [lancedb]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 20:31:38] INFO root fetch - main [MainThread]: End processing [dbt-duckdb]: success
+[2023-05-05 20:31:38] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/bb/c9/e1eb2c88fda973e5fa7ca22eaded6e61d3d93570b741ce5023131b985f2e/lancedb-0.1.1.tar.gz
+[2023-05-05 20:31:38] INFO root fetch - processPackages [OpenSRANE]: Downloading https://files.pythonhosted.org/packages/89/07/d798de74f6d10c0eaa08b668e16c5f34ae2d86f2f20c64d73bf8c55f5007/OpenSRANE-0.0.2.tar.gz
+[2023-05-05 20:31:38] INFO root fetch - processPackages [OpenSRANE]: executing diffoscope
+[2023-05-05 20:31:38] INFO root fetch - processPackages [OpenSRANE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenSRANE-0.0.0.tar.gz tmp/OpenSRANE-0.0.2.tar.gz --markdown 20230505/O/OpenSRANE/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 20:31:38] INFO root fetch - main [MainThread]: End processing [dkist-processing-visp]: success
+[2023-05-05 20:31:38] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/78/d9/1fd5a2ae549dd63fbab070116fce11d9767910fbd945d069c95023b4cd6b/lancedb-0.1.2.tar.gz
+[2023-05-05 20:31:39] INFO root fetch - main [MainThread]: End processing [hi-ml]: success
+[2023-05-05 20:31:39] INFO root fetch - processPackages [lancedb]: executing diffoscope
+[2023-05-05 20:31:39] INFO root fetch - processPackages [lancedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lancedb-0.1.1.tar.gz tmp/lancedb-0.1.2.tar.gz --markdown 20230505/l/lancedb/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 20:31:39] INFO root fetch - main [MainThread]: End processing [burlap]: success
+[2023-05-05 20:31:39] INFO root fetch - main [MainThread]: End processing [fpyo2ipa]: success
+[2023-05-05 20:31:39] INFO root fetch - main [MainThread]: End processing [OpenSRANE]: success
+[2023-05-05 20:31:40] INFO root fetch - main [MainThread]: End processing [lancedb]: success
+[2023-05-05 20:31:43] ERROR root fetch - processPackages [weewx]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-05-05 20:31:43] INFO root fetch - main [MainThread]: End processing [weewx] error
+[2023-05-05 20:31:43] INFO root fetch - main [MainThread]: Store serial: [17991377]
