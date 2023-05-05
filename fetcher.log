@@ -19624,3 +19624,131 @@
 [2023-05-05 19:20:32] ERROR root fetch - processPackages [sqlmesh]: Timeout during execution of pkgdiff
 [2023-05-05 19:20:32] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
 [2023-05-05 19:20:32] INFO root fetch - main [MainThread]: Store serial: [17990489]
+[2023-05-05 19:25:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17990489]
+[2023-05-05 19:25:41] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-05 19:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mango-cli
+[2023-05-05 19:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bagbag
+[2023-05-05 19:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mango-cli
+[2023-05-05 19:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QuNet
+[2023-05-05 19:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfcst
+[2023-05-05 19:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: structuretoolkit
+[2023-05-05 19:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ypricemagic
+[2023-05-05 19:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: connpy
+[2023-05-05 19:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: logtail-python
+[2023-05-05 19:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-05-05 19:25:41] INFO root fetch - processPackages [bagbag]: New version: [0.58.9] Old Version: [0.58.8]
+[2023-05-05 19:25:41] INFO root fetch - processPackages [mango-cli]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 19:25:41] INFO root fetch - processPackages [pyfcst]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 19:25:41] INFO root fetch - processPackages [connpy]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-05-05 19:25:41] INFO root fetch - processPackages [structuretoolkit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 19:25:41] INFO root fetch - processPackages [mango-cli]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 19:25:41] INFO root fetch - processPackages [logtail-python]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-05-05 19:25:41] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 19:25:42] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.7.dev8] Old Version: [2.2.7.dev7]
+[2023-05-05 19:25:42] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-05 19:25:42] INFO root fetch - processPackages [mango-cli]: Downloading https://files.pythonhosted.org/packages/cc/b7/7fcb325bbd0fe3da7b31157ff3b1f94c0c2badab23f2d7339c7bacf4af4b/mango-cli-0.0.4.tar.gz
+[2023-05-05 19:25:42] INFO root fetch - processPackages [mango-cli]: Downloading https://files.pythonhosted.org/packages/cc/b7/7fcb325bbd0fe3da7b31157ff3b1f94c0c2badab23f2d7339c7bacf4af4b/mango-cli-0.0.4.tar.gz
+[2023-05-05 19:25:42] INFO root fetch - processPackages [pyfcst]: Downloading https://files.pythonhosted.org/packages/3f/f1/3a85e229b41ffb7e4099ceb45fab99b7bb37d15862ec8ef1b7773f13fbd8/pyfcst-0.0.8.tar.gz
+[2023-05-05 19:25:42] INFO root fetch - processPackages [structuretoolkit]: Downloading https://files.pythonhosted.org/packages/77/e8/5b92bcdda37058595275c49ed664876309c4933fc7fd2aefd53651762fdf/structuretoolkit-0.0.1.tar.gz
+[2023-05-05 19:25:42] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-05 19:25:42] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230505/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-05 19:25:42] INFO root fetch - processPackages [logtail-python]: Downloading https://files.pythonhosted.org/packages/b4/91/9d3db2481c25868c2f1a01cd29dcf0fcbfc93231182506ffe3a6545759b5/logtail-python-0.2.3.tar.gz
+[2023-05-05 19:25:42] INFO root fetch - processPackages [connpy]: Downloading https://files.pythonhosted.org/packages/be/c1/9b648d5c64f19bd9032ff22ce15d4ccd26329417e6ae99d15bb5513bb778/connpy-3.2.1.tar.gz
+[2023-05-05 19:25:42] INFO root fetch - processPackages [mango-cli]: Downloading https://files.pythonhosted.org/packages/5c/86/66cb02548a05faaa9eff826906255dfc1924920c6f5e213f3bfaa8c7733b/mango-cli-0.0.5.tar.gz
+[2023-05-05 19:25:42] INFO root fetch - processPackages [mango-cli]: Downloading https://files.pythonhosted.org/packages/5c/86/66cb02548a05faaa9eff826906255dfc1924920c6f5e213f3bfaa8c7733b/mango-cli-0.0.5.tar.gz
+[2023-05-05 19:25:42] INFO root fetch - processPackages [connpy]: executing diffoscope
+[2023-05-05 19:25:42] INFO root fetch - processPackages [connpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connpy-3.2.0.tar.gz tmp/connpy-3.2.1.tar.gz --markdown 20230505/c/connpy/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-05-05 19:25:42] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-05 19:25:42] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.58.8.tar.gz tmp/bagbag-0.58.9.tar.gz --markdown 20230505/b/bagbag/0.58.8-0.58.9/diff.md --exclude *.pyd
+[2023-05-05 19:25:42] INFO root fetch - processPackages [mango-cli]: executing diffoscope
+[2023-05-05 19:25:42] INFO root fetch - processPackages [mango-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-cli-0.0.4.tar.gz tmp/mango-cli-0.0.5.tar.gz --markdown 20230505/m/mango-cli/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 19:25:42] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-05 19:25:42] INFO root fetch - processPackages [mango-cli]: executing diffoscope
+[2023-05-05 19:25:42] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230505/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 19:25:42] INFO root fetch - processPackages [mango-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-cli-0.0.4.tar.gz tmp/mango-cli-0.0.5.tar.gz --markdown 20230505/m/mango-cli/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 19:25:42] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-05-05 19:25:42] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.7.dev7.tar.gz tmp/ypricemagic-2.2.7.dev8.tar.gz --markdown 20230505/y/ypricemagic/2.2.7.dev7-2.2.7.dev8/diff.md --exclude *.pyd
+[2023-05-05 19:25:42] INFO root fetch - processPackages [logtail-python]: Downloading https://files.pythonhosted.org/packages/79/a2/1edfd9e4123f18ffc127ce4a02c11b1c3013a1859dafe582425d1377a2aa/logtail-python-0.2.5.tar.gz
+[2023-05-05 19:25:42] INFO root fetch - processPackages [structuretoolkit]: Downloading https://files.pythonhosted.org/packages/9a/da/8c3c1c7bbf5d8f20af1a1007cc108c55bd8cd484ba00abab9cf9f3220b4b/structuretoolkit-0.0.2.tar.gz
+[2023-05-05 19:25:42] INFO root fetch - processPackages [pyfcst]: Downloading https://files.pythonhosted.org/packages/55/b2/8599c5500515b2b76614d3def00158f5f48ffd3bdef939341a98c3331c49/pyfcst-0.0.9.tar.gz
+[2023-05-05 19:25:42] INFO root fetch - processPackages [logtail-python]: executing diffoscope
+[2023-05-05 19:25:42] INFO root fetch - processPackages [logtail-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logtail-python-0.2.3.tar.gz tmp/logtail-python-0.2.5.tar.gz --markdown 20230505/l/logtail-python/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-05-05 19:25:42] INFO root fetch - processPackages [structuretoolkit]: executing diffoscope
+[2023-05-05 19:25:42] INFO root fetch - processPackages [structuretoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structuretoolkit-0.0.1.tar.gz tmp/structuretoolkit-0.0.2.tar.gz --markdown 20230505/s/structuretoolkit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 19:25:42] INFO root fetch - processPackages [pyfcst]: executing diffoscope
+[2023-05-05 19:25:42] INFO root fetch - processPackages [pyfcst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfcst-0.0.8.tar.gz tmp/pyfcst-0.0.9.tar.gz --markdown 20230505/p/pyfcst/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 19:25:43] INFO root fetch - processPackages [mango-cli]: Start processing: spanishconjugator
+[2023-05-05 19:25:43] INFO root fetch - main [MainThread]: End processing [mango-cli]: success
+[2023-05-05 19:25:44] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-05 19:25:44] INFO root fetch - processPackages [QuNet]: Start processing: pyfcst
+[2023-05-05 19:25:44] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-05 19:25:44] INFO root fetch - processPackages [connpy]: Start processing: custodes
+[2023-05-05 19:25:44] INFO root fetch - main [MainThread]: End processing [connpy]: success
+[2023-05-05 19:25:44] INFO root fetch - processPackages [pyfcst]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 19:25:44] INFO root fetch - processPackages [custodes]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 19:25:44] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-05 19:25:44] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230505/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-05 19:25:44] INFO root fetch - processPackages [spanishconjugator]: Start processing: opvious
+[2023-05-05 19:25:44] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-05 19:25:44] INFO root fetch - processPackages [mango-cli]: Start processing: mango-cli
+[2023-05-05 19:25:44] INFO root fetch - main [MainThread]: End processing [mango-cli]: success
+[2023-05-05 19:25:44] INFO root fetch - processPackages [pyfcst]: executing diffoscope
+[2023-05-05 19:25:44] INFO root fetch - processPackages [pyfcst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfcst-0.0.8.tar.gz tmp/pyfcst-0.0.9.tar.gz --markdown 20230505/p/pyfcst/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 19:25:44] INFO root fetch - processPackages [mango-cli]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 19:25:44] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-05 19:25:44] INFO root fetch - processPackages [custodes]: executing diffoscope
+[2023-05-05 19:25:44] INFO root fetch - processPackages [custodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custodes-0.0.8.tar.gz tmp/custodes-0.0.9.tar.gz --markdown 20230505/c/custodes/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 19:25:44] INFO root fetch - processPackages [logtail-python]: Start processing: ima-search
+[2023-05-05 19:25:44] INFO root fetch - main [MainThread]: End processing [logtail-python]: success
+[2023-05-05 19:25:44] WARNING root fetch - processPackages [ima-search]: Skipping, unable to determine old version
+[2023-05-05 19:25:44] INFO root fetch - processPackages [ima-search]: Start processing: syngen
+[2023-05-05 19:25:44] INFO root fetch - main [MainThread]: End processing [ima-search] error
+[2023-05-05 19:25:44] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-05 19:25:44] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230505/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-05 19:25:44] INFO root fetch - processPackages [mango-cli]: executing diffoscope
+[2023-05-05 19:25:44] INFO root fetch - processPackages [mango-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-cli-0.0.4.tar.gz tmp/mango-cli-0.0.5.tar.gz --markdown 20230505/m/mango-cli/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 19:25:44] INFO root fetch - processPackages [syngen]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-05-05 19:25:44] INFO root fetch - processPackages [structuretoolkit]: Start processing: jaxsim
+[2023-05-05 19:25:44] INFO root fetch - main [MainThread]: End processing [structuretoolkit]: success
+[2023-05-05 19:25:44] INFO root fetch - processPackages [jaxsim]: New version: [0.1.dev153] Old Version: [0.1.dev151]
+[2023-05-05 19:25:44] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/cc/68/66cdb7e63c23693faa75a2174da2d3b312ba14faae69d72a388f6f7edd7f/syngen-0.0.97.tar.gz
+[2023-05-05 19:25:44] INFO root fetch - processPackages [pyfcst]: Start processing: certora-cli-alpha-eric-serialModule
+[2023-05-05 19:25:44] INFO root fetch - main [MainThread]: End processing [pyfcst]: success
+[2023-05-05 19:25:44] INFO root fetch - processPackages [certora-cli-alpha-eric-serialModule]: New version: [20230505.17.24.332277] Old Version: [20230502.4.38.846792]
+[2023-05-05 19:25:44] INFO root fetch - processPackages [ypricemagic]: Start processing: yangsuite-grpc-telemetry
+[2023-05-05 19:25:44] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-05-05 19:25:44] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/4b/7e/58e1b0a15169919a86bdad4e4066adc89bb3ffea68d6b7dea0d7dec30381/jaxsim-0.1.dev153.tar.gz
+[2023-05-05 19:25:44] INFO root fetch - processPackages [yangsuite-grpc-telemetry]: New version: [1.0.4.post0.dev6] Old Version: [1.0.4.post0.dev4]
+[2023-05-05 19:25:44] INFO root fetch - processPackages [certora-cli-alpha-eric-serialModule]: Downloading https://files.pythonhosted.org/packages/4f/e8/8b737a145363659ab778864fb54adc15818a8abb8ca4461d84ead468c0a9/certora-cli-alpha-eric-serialModule-20230502.4.38.846792.tar.gz
+[2023-05-05 19:25:44] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2023-05-05 19:25:44] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.1.dev151.tar.gz tmp/jaxsim-0.1.dev153.tar.gz --markdown 20230505/j/jaxsim/0.1.dev151-0.1.dev153/diff.md --exclude *.pyd
+[2023-05-05 19:25:44] WARNING root fetch - processPackages [certora-cli-alpha-eric-serialModule]: Skipping package: exceeds size limit 38402911>=10485760
+[2023-05-05 19:25:44] INFO root fetch - processPackages [certora-cli-alpha-eric-serialModule]: Start processing: pyfcst
+[2023-05-05 19:25:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-serialModule] error
+[2023-05-05 19:25:44] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/b7/7d/027d5778a737efb508df3344c06dc61233079b210f4cf21ff5841e69c2ca/syngen-0.0.98.tar.gz
+[2023-05-05 19:25:44] INFO root fetch - processPackages [pyfcst]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 19:25:45] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-05-05 19:25:45] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.0.97.tar.gz tmp/syngen-0.0.98.tar.gz --markdown 20230505/s/syngen/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-05-05 19:25:45] INFO root fetch - processPackages [pyfcst]: executing diffoscope
+[2023-05-05 19:25:45] INFO root fetch - processPackages [pyfcst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfcst-0.0.8.tar.gz tmp/pyfcst-0.0.9.tar.gz --markdown 20230505/p/pyfcst/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 19:25:45] INFO root fetch - processPackages [yangsuite-grpc-telemetry]: Downloading https://files.pythonhosted.org/packages/73/d4/dff5e91378ff44eb9939a87b2e88ec5aed3661f247048ee5490ddf22180c/yangsuite_grpc_telemetry-1.0.4.post0.dev6-py3-none-any.whl
+[2023-05-05 19:25:45] INFO root fetch - processPackages [custodes]: Start processing: repairwheel
+[2023-05-05 19:25:45] INFO root fetch - main [MainThread]: End processing [custodes]: success
+[2023-05-05 19:25:45] INFO root fetch - processPackages [yangsuite-grpc-telemetry]: executing diffoscope
+[2023-05-05 19:25:45] INFO root fetch - processPackages [yangsuite-grpc-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_grpc_telemetry-1.0.4.post0.dev4-py3-none-any.whl.zip tmp/yangsuite_grpc_telemetry-1.0.4.post0.dev6-py3-none-any.whl.zip --markdown 20230505/y/yangsuite-grpc-telemetry/1.0.4.post0.dev4-1.0.4.post0.dev6/diff.md --exclude *.pyd
+[2023-05-05 19:25:45] INFO root fetch - processPackages [repairwheel]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-05 19:25:45] INFO root fetch - main [MainThread]: End processing [mango-cli]: success
+[2023-05-05 19:25:45] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-05 19:25:45] INFO root fetch - processPackages [repairwheel]: Downloading https://files.pythonhosted.org/packages/b4/4f/bdbc53b8870671f776dccc9570d79643a98b69f3bbc3e930cbfaad3f945f/repairwheel-0.2.3.tar.gz
+[2023-05-05 19:25:45] INFO root fetch - main [MainThread]: End processing [pyfcst]: success
+[2023-05-05 19:25:46] INFO root fetch - processPackages [repairwheel]: Downloading https://files.pythonhosted.org/packages/ff/00/1886eb5bff4d119ec84854ecea5986e27d0392e9839297d5e07dab9bd3ee/repairwheel-0.2.4.tar.gz
+[2023-05-05 19:25:46] INFO root fetch - processPackages [repairwheel]: executing diffoscope
+[2023-05-05 19:25:46] INFO root fetch - processPackages [repairwheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repairwheel-0.2.3.tar.gz tmp/repairwheel-0.2.4.tar.gz --markdown 20230505/r/repairwheel/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-05 19:25:46] INFO root fetch - main [MainThread]: End processing [pyfcst]: success
+[2023-05-05 19:25:46] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-05 19:25:46] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-05-05 19:25:47] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-05 19:25:47] INFO root fetch - main [MainThread]: End processing [repairwheel]: success
+[2023-05-05 19:25:48] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2023-05-05 19:25:51] INFO root fetch - main [MainThread]: End processing [yangsuite-grpc-telemetry]: success
+[2023-05-05 19:25:51] INFO root fetch - main [MainThread]: Store serial: [17990567]
