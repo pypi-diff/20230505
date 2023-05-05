@@ -8827,3 +8827,76 @@
 [2023-05-05 09:59:08] INFO root fetch - main [MainThread]: End processing [enaml]: success
 [2023-05-05 09:59:45] INFO root fetch - main [MainThread]: End processing [dgl]: success
 [2023-05-05 09:59:45] INFO root fetch - main [MainThread]: Store serial: [17983715]
+[2023-05-05 10:05:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17983715]
+[2023-05-05 10:05:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 10:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyTPro
+[2023-05-05 10:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ibm-watson-openscale
+[2023-05-05 10:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Slpapy
+[2023-05-05 10:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: axiom-logger
+[2023-05-05 10:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyfi-template
+[2023-05-05 10:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: schoolware-api
+[2023-05-05 10:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: argus-api
+[2023-05-05 10:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: up-spiderplan
+[2023-05-05 10:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: moftransformer
+[2023-05-05 10:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: schoolware-api
+[2023-05-05 10:05:05] INFO root fetch - processPackages [pyTPro]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 10:05:05] INFO root fetch - processPackages [ibm-watson-openscale]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-05 10:05:05] INFO root fetch - processPackages [Slpapy]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-05 10:05:05] INFO root fetch - processPackages [hyfi-template]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-05 10:05:05] INFO root fetch - processPackages [axiom-logger]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-05 10:05:05] WARNING root fetch - processPackages [up-spiderplan]: Skipping, unable to determine old version
+[2023-05-05 10:05:05] INFO root fetch - processPackages [up-spiderplan]: Start processing: mpservice
+[2023-05-05 10:05:05] INFO root fetch - processPackages [moftransformer]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-05 10:05:05] INFO root fetch - main [MainThread]: End processing [up-spiderplan] error
+[2023-05-05 10:05:05] INFO root fetch - processPackages [schoolware-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-05 10:05:05] INFO root fetch - processPackages [argus-api]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-05 10:05:05] INFO root fetch - processPackages [schoolware-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-05 10:05:05] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 10:05:05] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.0.7.tar.gz tmp/schoolware_api-1.0.8.tar.gz --markdown 20230505/s/schoolware-api/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-05 10:05:05] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 10:05:05] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.0.7.tar.gz tmp/schoolware_api-1.0.8.tar.gz --markdown 20230505/s/schoolware-api/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-05 10:05:06] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-05-05 10:05:06] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/64/08/d3dd3876374be7a654b7c8b10d5f4f7192733b5dbf19a85a32e1e599e6ba/Slpapy-0.2.7.tar.gz
+[2023-05-05 10:05:06] INFO root fetch - processPackages [ibm-watson-openscale]: Downloading https://files.pythonhosted.org/packages/ff/8a/a4e714ad4a5b578378a89893becf5d175e82d2787794712186e72711c809/ibm_watson_openscale-3.0.8-py3-none-any.whl
+[2023-05-05 10:05:06] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/2a/fe/4b64ef1e2f3cd2c71631e23b73493db9005a255c8ca0d84656b35141c381/hyfi_template-0.2.0.tar.gz
+[2023-05-05 10:05:06] INFO root fetch - processPackages [argus-api]: Downloading https://files.pythonhosted.org/packages/7c/a9/0de0fe925190dbfbc41478bcfc14f296a31afc53fc179db5e58b7c11ff0c/argus_api-3.8.0.tar.gz
+[2023-05-05 10:05:06] INFO root fetch - processPackages [moftransformer]: Downloading https://files.pythonhosted.org/packages/44/cd/5c72d0a857290690954dcf2a0a5aeaf0489792485da761cd6b0d85399989/moftransformer-2.0.0.tar.gz
+[2023-05-05 10:05:06] INFO root fetch - processPackages [pyTPro]: Downloading https://files.pythonhosted.org/packages/32/0d/b10276a634522d969184180a365baf47582b22087a1e3051a9ed77a48bfa/pyTPro-0.0.2.tar.gz
+[2023-05-05 10:05:06] INFO root fetch - processPackages [axiom-logger]: Downloading https://files.pythonhosted.org/packages/a8/f6/c2d9773ff9a78e107b50360bddef6d4ac2a9f055cd70ddd4da848b85e229/axiom_logger-1.0.3.tar.gz
+[2023-05-05 10:05:06] INFO root fetch - processPackages [axiom-logger]: executing diffoscope
+[2023-05-05 10:05:06] INFO root fetch - processPackages [axiom-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axiom_logger-1.0.2.tar.gz tmp/axiom_logger-1.0.3.tar.gz --markdown 20230505/a/axiom-logger/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-05 10:05:06] INFO root fetch - processPackages [pyTPro]: executing diffoscope
+[2023-05-05 10:05:06] INFO root fetch - processPackages [pyTPro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTPro-0.0.1.tar.gz tmp/pyTPro-0.0.2.tar.gz --markdown 20230505/p/pyTPro/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 10:05:06] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/37/8c/4b424591ea8b2547a7c79953e0b1ffbf2606c0cf284d0386be539cae3bb6/Slpapy-0.2.8.tar.gz
+[2023-05-05 10:05:06] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-05-05 10:05:06] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.2.7.tar.gz tmp/Slpapy-0.2.8.tar.gz --markdown 20230505/S/Slpapy/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-05 10:05:06] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/a4/0b/fd7348734e2f0b409cc8bfa634fa31efed1938289009200a17089018600e/hyfi_template-0.2.1.tar.gz
+[2023-05-05 10:05:06] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-05-05 10:05:06] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230505/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-05-05 10:05:06] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-05-05 10:05:06] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.2.0.tar.gz tmp/hyfi_template-0.2.1.tar.gz --markdown 20230505/h/hyfi-template/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-05 10:05:06] INFO root fetch - processPackages [ibm-watson-openscale]: Downloading https://files.pythonhosted.org/packages/b0/33/1dc28a5725a301c519fe0d47d81218c12e19c1155621813f73d268dbfc9b/ibm_watson_openscale-3.0.9-py3-none-any.whl
+[2023-05-05 10:05:06] INFO root fetch - processPackages [moftransformer]: Downloading https://files.pythonhosted.org/packages/ee/7d/86616775a4f342abf08933246d20a2dccd469f02a305c771dc666261ffef/moftransformer-2.0.1.tar.gz
+[2023-05-05 10:05:06] INFO root fetch - processPackages [moftransformer]: executing diffoscope
+[2023-05-05 10:05:06] INFO root fetch - processPackages [moftransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moftransformer-2.0.0.tar.gz tmp/moftransformer-2.0.1.tar.gz --markdown 20230505/m/moftransformer/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-05 10:05:06] INFO root fetch - processPackages [ibm-watson-openscale]: executing diffoscope
+[2023-05-05 10:05:06] INFO root fetch - processPackages [ibm-watson-openscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_openscale-3.0.8-py3-none-any.whl.zip tmp/ibm_watson_openscale-3.0.9-py3-none-any.whl.zip --markdown 20230505/i/ibm-watson-openscale/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-05 10:05:06] INFO root fetch - processPackages [argus-api]: Downloading https://files.pythonhosted.org/packages/48/2f/dc8867bfe5957610794f3fd60f0d1e3aa2212100eb22b8938d8f2c8a29cd/argus_api-3.9.0.tar.gz
+[2023-05-05 10:05:07] INFO root fetch - processPackages [argus-api]: executing diffoscope
+[2023-05-05 10:05:07] INFO root fetch - processPackages [argus-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_api-3.8.0.tar.gz tmp/argus_api-3.9.0.tar.gz --markdown 20230505/a/argus-api/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-05 10:05:07] INFO root fetch - processPackages [schoolware-api]: Start processing: maxeqx-dc-webhook.py
+[2023-05-05 10:05:07] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 10:05:07] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 10:05:07] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: executing diffoscope
+[2023-05-05 10:05:07] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxeqx-dc-webhook.py-1.0.8.tar.gz tmp/maxeqx-dc-webhook.py-1.0.9.tar.gz --markdown 20230505/m/maxeqx-dc-webhook.py/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 10:05:07] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 10:05:07] INFO root fetch - main [MainThread]: End processing [axiom-logger]: success
+[2023-05-05 10:05:07] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-05-05 10:05:08] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-05-05 10:05:08] INFO root fetch - main [MainThread]: End processing [ibm-watson-openscale]: success
+[2023-05-05 10:05:08] INFO root fetch - main [MainThread]: End processing [maxeqx-dc-webhook.py]: success
+[2023-05-05 10:05:08] INFO root fetch - main [MainThread]: End processing [pyTPro]: success
+[2023-05-05 10:05:08] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-05-05 10:05:11] INFO root fetch - main [MainThread]: End processing [moftransformer]: success
+[2023-05-05 10:05:16] INFO root fetch - main [MainThread]: End processing [argus-api]: success
+[2023-05-05 10:05:16] INFO root fetch - main [MainThread]: Store serial: [17983789]
