@@ -16363,3 +16363,75 @@
 [2023-05-05 16:25:18] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-05-05 16:25:19] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2023-05-05 16:25:19] INFO root fetch - main [MainThread]: Store serial: [17988289]
+[2023-05-05 16:30:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17988289]
+[2023-05-05 16:30:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 16:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parsgod
+[2023-05-05 16:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pika
+[2023-05-05 16:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bsl
+[2023-05-05 16:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: krisi
+[2023-05-05 16:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: worksheet-grading
+[2023-05-05 16:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mx-sphinx-click
+[2023-05-05 16:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hugchat
+[2023-05-05 16:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cmem-cmemc
+[2023-05-05 16:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: goats
+[2023-05-05 16:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt4all
+[2023-05-05 16:30:34] INFO root fetch - processPackages [hugchat]: New version: [0.0.5.5] Old Version: [0.0.5.4]
+[2023-05-05 16:30:34] INFO root fetch - processPackages [bsl]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-05-05 16:30:34] INFO root fetch - processPackages [pika]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-05 16:30:34] WARNING root fetch - processPackages [mx-sphinx-click]: Skipping, unable to determine old version
+[2023-05-05 16:30:34] INFO root fetch - processPackages [mx-sphinx-click]: Start processing: ttkDesigner
+[2023-05-05 16:30:34] INFO root fetch - main [MainThread]: End processing [mx-sphinx-click] error
+[2023-05-05 16:30:34] INFO root fetch - processPackages [cmem-cmemc]: New version: [23.1.1rc1] Old Version: [23.1.1]
+[2023-05-05 16:30:34] ERROR root fetch - processPackages [parsgod]: Unable to get metadata: No such project 'parsgod'
+[2023-05-05 16:30:34] INFO root fetch - processPackages [goats]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-05 16:30:34] INFO root fetch - processPackages [gpt4all]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 16:30:34] INFO root fetch - processPackages [worksheet-grading]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-05 16:30:34] INFO root fetch - processPackages [parsgod]: Start processing: pyroporn
+[2023-05-05 16:30:34] INFO root fetch - main [MainThread]: End processing [parsgod] error
+[2023-05-05 16:30:34] INFO root fetch - processPackages [krisi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 16:30:34] INFO root fetch - processPackages [ttkDesigner]: New version: [0.30.0a9] Old Version: [0.30.0a8]
+[2023-05-05 16:30:34] INFO root fetch - processPackages [pyroporn]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 16:30:34] INFO root fetch - processPackages [pika]: Downloading https://files.pythonhosted.org/packages/9d/70/173abbf8b0bc8260a4e6d39a5f633da114bfebeb35715e6c05d17dc77403/pika-1.3.1.tar.gz
+[2023-05-05 16:30:34] INFO root fetch - processPackages [ttkDesigner]: executing diffoscope
+[2023-05-05 16:30:34] INFO root fetch - processPackages [ttkDesigner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttkDesigner-0.30.0a8.tar.gz tmp/ttkDesigner-0.30.0a9.tar.gz --markdown 20230505/t/ttkDesigner/0.30.0a8-0.30.0a9/diff.md --exclude *.pyd
+[2023-05-05 16:30:34] INFO root fetch - processPackages [pyroporn]: executing diffoscope
+[2023-05-05 16:30:34] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/02/ae/423d67befc100bf6268ed1a64851b5717d2233cb7250f55357db9d1b023e/hugchat-0.0.5.5.tar.gz
+[2023-05-05 16:30:34] INFO root fetch - processPackages [pyroporn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroporn-0.1.3.tar.gz tmp/pyroporn-0.1.4.tar.gz --markdown 20230505/p/pyroporn/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 16:30:34] INFO root fetch - processPackages [worksheet-grading]: Downloading https://files.pythonhosted.org/packages/b8/88/58bb41491d70b3e3c2e7525a54e68c9e4fe2d06435ef53c60f9acf147b2a/worksheet_grading-1.4.3.tar.gz
+[2023-05-05 16:30:34] INFO root fetch - processPackages [gpt4all]: Downloading https://files.pythonhosted.org/packages/b3/b6/4a4372c96ccce4b561567b288e46059a0b7a081ba12c5231d64b3d57ade6/gpt4all-0.1.3.tar.gz
+[2023-05-05 16:30:34] INFO root fetch - processPackages [cmem-cmemc]: Downloading https://files.pythonhosted.org/packages/d6/ae/ca562b786687ec84be37b75fd5ce77d161d4ec1c9dadb4cf1ad097014218/cmem_cmemc-23.1.1.tar.gz
+[2023-05-05 16:30:34] INFO root fetch - processPackages [bsl]: Downloading https://files.pythonhosted.org/packages/b5/aa/157cf8a41f841a132b9499ec49c027351bd2a66bd47b0f8c5290bfac2d43/bsl-0.5.2.tar.gz
+[2023-05-05 16:30:34] INFO root fetch - processPackages [hugchat]: executing diffoscope
+[2023-05-05 16:30:34] INFO root fetch - processPackages [hugchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat-0.0.5.4.tar.gz tmp/hugchat-0.0.5.5.tar.gz --markdown 20230505/h/hugchat/0.0.5.4-0.0.5.5/diff.md --exclude *.pyd
+[2023-05-05 16:30:34] INFO root fetch - processPackages [pika]: Downloading https://files.pythonhosted.org/packages/db/db/d4102f356af18f316c67f2cead8ece307f731dd63140e2c71f170ddacf9b/pika-1.3.2.tar.gz
+[2023-05-05 16:30:34] INFO root fetch - processPackages [goats]: Downloading https://files.pythonhosted.org/packages/a9/01/4eeb35577af4d624f5deafc0e3084d23d950ea7a8810af3a0979097e32f5/goats-0.2.6.tar.gz
+[2023-05-05 16:30:34] INFO root fetch - processPackages [worksheet-grading]: Downloading https://files.pythonhosted.org/packages/75/dd/0ce82903c292de5b6d933cefdfefa347fded5c9355f29bedbbe364f0bb19/worksheet_grading-1.4.4.tar.gz
+[2023-05-05 16:30:34] INFO root fetch - processPackages [krisi]: Downloading https://files.pythonhosted.org/packages/69/6f/c427acb71ee6363d588c9eeda93998d6937414fbbcd9553e2d8cb8790ade/krisi-0.1.4.tar.gz
+[2023-05-05 16:30:34] INFO root fetch - processPackages [pika]: executing diffoscope
+[2023-05-05 16:30:34] INFO root fetch - processPackages [pika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pika-1.3.1.tar.gz tmp/pika-1.3.2.tar.gz --markdown 20230505/p/pika/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-05 16:30:34] INFO root fetch - processPackages [goats]: executing diffoscope
+[2023-05-05 16:30:34] INFO root fetch - processPackages [goats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goats-0.2.5.tar.gz tmp/goats-0.2.6.tar.gz --markdown 20230505/g/goats/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-05 16:30:34] INFO root fetch - processPackages [worksheet-grading]: executing diffoscope
+[2023-05-05 16:30:34] INFO root fetch - processPackages [worksheet-grading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/worksheet_grading-1.4.3.tar.gz tmp/worksheet_grading-1.4.4.tar.gz --markdown 20230505/w/worksheet-grading/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-05 16:30:34] INFO root fetch - processPackages [krisi]: executing diffoscope
+[2023-05-05 16:30:34] INFO root fetch - processPackages [krisi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krisi-0.1.3.tar.gz tmp/krisi-0.1.4.tar.gz --markdown 20230505/k/krisi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 16:30:34] INFO root fetch - processPackages [cmem-cmemc]: Downloading https://files.pythonhosted.org/packages/39/dd/762181f0b9fc2e069e6128fba60dae2e17ce89ceddb5cb852d95ac800859/cmem_cmemc-23.1.1rc1.tar.gz
+[2023-05-05 16:30:34] INFO root fetch - processPackages [cmem-cmemc]: executing diffoscope
+[2023-05-05 16:30:34] INFO root fetch - processPackages [cmem-cmemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_cmemc-23.1.1.tar.gz tmp/cmem_cmemc-23.1.1rc1.tar.gz --markdown 20230505/c/cmem-cmemc/23.1.1-23.1.1rc1/diff.md --exclude *.pyd
+[2023-05-05 16:30:34] INFO root fetch - processPackages [gpt4all]: Downloading https://files.pythonhosted.org/packages/59/59/10416ebd8ca9b9ac7b834abe5bb2f10e225f5a4d3c380641cbb9a8c8a1d3/gpt4all-0.1.4.tar.gz
+[2023-05-05 16:30:34] INFO root fetch - processPackages [gpt4all]: executing diffoscope
+[2023-05-05 16:30:34] INFO root fetch - processPackages [gpt4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-0.1.3.tar.gz tmp/gpt4all-0.1.4.tar.gz --markdown 20230505/g/gpt4all/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 16:30:34] INFO root fetch - processPackages [bsl]: Downloading https://files.pythonhosted.org/packages/36/bd/493f0f2ccf2595e85566946408ae903ba1024122f40e30693b0a75ed3c9f/bsl-0.6.0.tar.gz
+[2023-05-05 16:30:34] INFO root fetch - processPackages [bsl]: executing diffoscope
+[2023-05-05 16:30:34] INFO root fetch - processPackages [bsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsl-0.5.2.tar.gz tmp/bsl-0.6.0.tar.gz --markdown 20230505/b/bsl/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-05-05 16:30:35] INFO root fetch - main [MainThread]: End processing [hugchat]: success
+[2023-05-05 16:30:36] INFO root fetch - main [MainThread]: End processing [gpt4all]: success
+[2023-05-05 16:30:36] INFO root fetch - main [MainThread]: End processing [cmem-cmemc]: success
+[2023-05-05 16:30:36] INFO root fetch - main [MainThread]: End processing [ttkDesigner]: success
+[2023-05-05 16:30:36] INFO root fetch - main [MainThread]: End processing [worksheet-grading]: success
+[2023-05-05 16:30:36] INFO root fetch - main [MainThread]: End processing [pyroporn]: success
+[2023-05-05 16:30:36] INFO root fetch - main [MainThread]: End processing [krisi]: success
+[2023-05-05 16:30:37] INFO root fetch - main [MainThread]: End processing [goats]: success
+[2023-05-05 16:30:37] INFO root fetch - main [MainThread]: End processing [pika]: success
+[2023-05-05 16:30:51] INFO root fetch - main [MainThread]: End processing [bsl]: success
+[2023-05-05 16:30:51] INFO root fetch - main [MainThread]: Store serial: [17988332]
