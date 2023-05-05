@@ -14515,3 +14515,116 @@
 [2023-05-05 14:54:04] INFO root fetch - main [MainThread]: End processing [anylabeling-gpu]: success
 [2023-05-05 14:54:05] INFO root fetch - main [MainThread]: End processing [anylabeling]: success
 [2023-05-05 14:54:05] INFO root fetch - main [MainThread]: Store serial: [17987146]
+[2023-05-05 14:59:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17987146]
+[2023-05-05 14:59:16] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-05 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphere-base
+[2023-05-05 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unique-char-counter-cli-kir-boh
+[2023-05-05 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyCondorRaven
+[2023-05-05 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miniflask
+[2023-05-05 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volworld-aws-api-common
+[2023-05-05 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Than-lib
+[2023-05-05 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sheetcloud
+[2023-05-05 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: en-spacysentiment
+[2023-05-05 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: solfinder
+[2023-05-05 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyqtorch
+[2023-05-05 14:59:16] INFO root fetch - processPackages [sphere-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 14:59:16] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-05-05 14:59:16] WARNING root fetch - processPackages [Than-lib]: Skipping, unable to determine old version
+[2023-05-05 14:59:16] INFO root fetch - processPackages [Than-lib]: Start processing: pydcmtk
+[2023-05-05 14:59:16] INFO root fetch - main [MainThread]: End processing [Than-lib] error
+[2023-05-05 14:59:16] WARNING root fetch - processPackages [en-spacysentiment]: Skipping, unable to determine old version
+[2023-05-05 14:59:16] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-05-05 14:59:16] INFO root fetch - processPackages [en-spacysentiment]: Start processing: pyparlaclarin
+[2023-05-05 14:59:16] INFO root fetch - main [MainThread]: End processing [en-spacysentiment] error
+[2023-05-05 14:59:16] INFO root fetch - processPackages [sheetcloud]: New version: [0.1.0.post6] Old Version: [0.1.0.post4]
+[2023-05-05 14:59:16] INFO root fetch - processPackages [PyCondorRaven]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 14:59:16] INFO root fetch - processPackages [miniflask]: New version: [5.1.2] Old Version: [5.1.1]
+[2023-05-05 14:59:16] INFO root fetch - processPackages [pyqtorch]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-05 14:59:16] WARNING root fetch - processPackages [pydcmtk]: Skipping, unable to determine old version
+[2023-05-05 14:59:16] INFO root fetch - processPackages [pydcmtk]: Start processing: ankitpalbuffed
+[2023-05-05 14:59:16] INFO root fetch - main [MainThread]: End processing [pydcmtk] error
+[2023-05-05 14:59:16] INFO root fetch - processPackages [pyparlaclarin]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-05 14:59:16] WARNING root fetch - processPackages [solfinder]: Skipping, unable to determine old version
+[2023-05-05 14:59:16] INFO root fetch - processPackages [solfinder]: Start processing: hyundai-kia-connect-api
+[2023-05-05 14:59:16] INFO root fetch - main [MainThread]: End processing [solfinder] error
+[2023-05-05 14:59:16] INFO root fetch - processPackages [hyundai-kia-connect-api]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-05-05 14:59:16] WARNING root fetch - processPackages [ankitpalbuffed]: Skipping, unable to determine old version
+[2023-05-05 14:59:16] INFO root fetch - processPackages [ankitpalbuffed]: Start processing: pyopencga
+[2023-05-05 14:59:16] INFO root fetch - main [MainThread]: End processing [ankitpalbuffed] error
+[2023-05-05 14:59:16] INFO root fetch - processPackages [pyopencga]: New version: [2.8.0] Old Version: [2.7.1]
+[2023-05-05 14:59:16] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: Downloading https://files.pythonhosted.org/packages/24/c1/d54ea52488d1fe62ff778b87274ba95cc97b8e75fa75d6440de659c20d37/unique_char_counter_cli_kir_boh-1.5.3.tar.gz
+[2023-05-05 14:59:16] INFO root fetch - processPackages [PyCondorRaven]: Downloading https://files.pythonhosted.org/packages/f5/17/a5d44c79166f8c8c013e12b65f7ea3feafb78c2f894481ac56e957fcea2d/PyCondorRaven-1.0.8.tar.gz
+[2023-05-05 14:59:16] INFO root fetch - processPackages [miniflask]: Downloading https://files.pythonhosted.org/packages/79/d1/0f3169ebb6aa6eeb61776f94f73aae05c487134bfe73887eacbbaee8c380/miniflask-5.1.1.tar.gz
+[2023-05-05 14:59:16] INFO root fetch - processPackages [pyopencga]: executing diffoscope
+[2023-05-05 14:59:16] INFO root fetch - processPackages [pyopencga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopencga-2.7.1.tar.gz tmp/pyopencga-2.8.0.tar.gz --markdown 20230505/p/pyopencga/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2023-05-05 14:59:16] INFO root fetch - processPackages [pyqtorch]: Downloading https://files.pythonhosted.org/packages/98/e9/6371a858866af5d4d2380ca37e187d17df1340637d247665e7639338a5f2/pyqtorch-0.2.0.tar.gz
+[2023-05-05 14:59:16] INFO root fetch - processPackages [sheetcloud]: Downloading https://files.pythonhosted.org/packages/7e/50/49bef3e0fbb80057005bc9859aa350dab6eaeef725232414819df3880be8/sheetcloud-0.1.0.post6.tar.gz
+[2023-05-05 14:59:16] INFO root fetch - processPackages [pyparlaclarin]: Downloading https://files.pythonhosted.org/packages/21/88/2a2ffbb0a2783159ee17c7c59e14eb6ee404c6e5ff74f17d50efca07aa0c/pyparlaclarin-0.7.1.tar.gz
+[2023-05-05 14:59:16] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/a6/02/727a1a95201c57f92c15cd0186c01e2ca25d12f1e35c5c8f6ff9a6b13a40/volworld_aws_api_common-0.1.96.tar.gz
+[2023-05-05 14:59:16] INFO root fetch - processPackages [sheetcloud]: executing diffoscope
+[2023-05-05 14:59:16] INFO root fetch - processPackages [sheetcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sheetcloud-0.1.0.post4.tar.gz tmp/sheetcloud-0.1.0.post6.tar.gz --markdown 20230505/s/sheetcloud/0.1.0.post4-0.1.0.post6/diff.md --exclude *.pyd
+[2023-05-05 14:59:16] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-05 14:59:16] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.95.tar.gz tmp/volworld_aws_api_common-0.1.96.tar.gz --markdown 20230505/v/volworld-aws-api-common/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-05-05 14:59:16] INFO root fetch - processPackages [pyparlaclarin]: executing diffoscope
+[2023-05-05 14:59:16] INFO root fetch - processPackages [pyparlaclarin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyparlaclarin-0.7.0.tar.gz tmp/pyparlaclarin-0.7.1.tar.gz --markdown 20230505/p/pyparlaclarin/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-05 14:59:17] INFO root fetch - processPackages [sphere-base]: executing diffoscope
+[2023-05-05 14:59:17] INFO root fetch - processPackages [sphere-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_base-0.1.8.tar.gz tmp/sphere_base-0.1.9.tar.gz --markdown 20230505/s/sphere-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 14:59:17] INFO root fetch - processPackages [hyundai-kia-connect-api]: Downloading https://files.pythonhosted.org/packages/09/1e/5bcdd38016a0ae94e23cbba268b3a931906ce91fcec6acf2083334055f26/hyundai_kia_connect_api-3.3.1.tar.gz
+[2023-05-05 14:59:17] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: Downloading https://files.pythonhosted.org/packages/f0/3f/1fcfbc25409222c85de79b62d408f8b0702e8fdac656d152378412c396f2/unique_char_counter_cli_kir_boh-1.5.4.tar.gz
+[2023-05-05 14:59:17] INFO root fetch - processPackages [miniflask]: Downloading https://files.pythonhosted.org/packages/5f/56/0cbf2d457dea42a475d4864197a3694e9a64f7d4b67038b0dae93f5f9c8c/miniflask-5.1.2.tar.gz
+[2023-05-05 14:59:17] INFO root fetch - processPackages [PyCondorRaven]: Downloading https://files.pythonhosted.org/packages/6b/90/43bf8cd9ba337f761842146167c9a16ae7f1fc3c105b6c366cbe42d9e943/PyCondorRaven-1.0.9.tar.gz
+[2023-05-05 14:59:17] INFO root fetch - processPackages [pyqtorch]: Downloading https://files.pythonhosted.org/packages/da/0d/bd09d5cf12142e2f922153b1b8f454443887c4429527f4c2a2bdd2f39343/pyqtorch-0.2.1.tar.gz
+[2023-05-05 14:59:17] INFO root fetch - processPackages [hyundai-kia-connect-api]: executing diffoscope
+[2023-05-05 14:59:17] INFO root fetch - processPackages [hyundai-kia-connect-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyundai_kia_connect_api-3.3.0.tar.gz tmp/hyundai_kia_connect_api-3.3.1.tar.gz --markdown 20230505/h/hyundai-kia-connect-api/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-05-05 14:59:17] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: executing diffoscope
+[2023-05-05 14:59:17] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unique_char_counter_cli_kir_boh-1.5.3.tar.gz tmp/unique_char_counter_cli_kir_boh-1.5.4.tar.gz --markdown 20230505/u/unique-char-counter-cli-kir-boh/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-05-05 14:59:17] INFO root fetch - processPackages [miniflask]: executing diffoscope
+[2023-05-05 14:59:17] INFO root fetch - processPackages [miniflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniflask-5.1.1.tar.gz tmp/miniflask-5.1.2.tar.gz --markdown 20230505/m/miniflask/5.1.1-5.1.2/diff.md --exclude *.pyd
+[2023-05-05 14:59:17] INFO root fetch - processPackages [PyCondorRaven]: executing diffoscope
+[2023-05-05 14:59:17] INFO root fetch - processPackages [PyCondorRaven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCondorRaven-1.0.8.tar.gz tmp/PyCondorRaven-1.0.9.tar.gz --markdown 20230505/P/PyCondorRaven/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 14:59:17] INFO root fetch - processPackages [pyqtorch]: executing diffoscope
+[2023-05-05 14:59:17] INFO root fetch - processPackages [pyqtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqtorch-0.2.0.tar.gz tmp/pyqtorch-0.2.1.tar.gz --markdown 20230505/p/pyqtorch/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-05 14:59:18] INFO root fetch - processPackages [sheetcloud]: Start processing: pydiverse-pipedag
+[2023-05-05 14:59:18] INFO root fetch - main [MainThread]: End processing [sheetcloud]: success
+[2023-05-05 14:59:18] INFO root fetch - processPackages [pydiverse-pipedag]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-05 14:59:18] INFO root fetch - processPackages [pyparlaclarin]: Start processing: anylabeling-gpu
+[2023-05-05 14:59:18] INFO root fetch - main [MainThread]: End processing [pyparlaclarin]: success
+[2023-05-05 14:59:18] INFO root fetch - processPackages [anylabeling-gpu]: New version: [0.2.20] Old Version: [0.2.19]
+[2023-05-05 14:59:18] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: Start processing: dop-integration-libs
+[2023-05-05 14:59:18] INFO root fetch - main [MainThread]: End processing [unique-char-counter-cli-kir-boh]: success
+[2023-05-05 14:59:18] INFO root fetch - processPackages [anylabeling-gpu]: executing diffoscope
+[2023-05-05 14:59:18] INFO root fetch - processPackages [anylabeling-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylabeling_gpu-0.2.19-py3-none-any.whl.zip tmp/anylabeling_gpu-0.2.20-py3-none-any.whl.zip --markdown 20230505/a/anylabeling-gpu/0.2.19-0.2.20/diff.md --exclude *.pyd
+[2023-05-05 14:59:18] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 14:59:18] INFO root fetch - processPackages [pydiverse-pipedag]: Downloading https://files.pythonhosted.org/packages/65/4b/3c2aea6a19f2434f85c023ed76639b006bc2723faa91153cc52099f39354/pydiverse-pipedag-0.2.3.tar.gz
+[2023-05-05 14:59:18] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-05 14:59:18] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230505/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 14:59:18] INFO root fetch - processPackages [PyCondorRaven]: Start processing: sbioapputils
+[2023-05-05 14:59:18] INFO root fetch - main [MainThread]: End processing [PyCondorRaven]: success
+[2023-05-05 14:59:18] INFO root fetch - processPackages [sbioapputils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 14:59:18] INFO root fetch - processPackages [volworld-aws-api-common]: Start processing: anylabeling
+[2023-05-05 14:59:18] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-05 14:59:18] INFO root fetch - processPackages [anylabeling]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 14:59:18] INFO root fetch - processPackages [sbioapputils]: executing diffoscope
+[2023-05-05 14:59:18] INFO root fetch - processPackages [sbioapputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbioapputils-1.0.8.tar.gz tmp/sbioapputils-1.0.9.tar.gz --markdown 20230505/s/sbioapputils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 14:59:18] INFO root fetch - processPackages [pydiverse-pipedag]: Downloading https://files.pythonhosted.org/packages/95/e6/2a17d56d2be89f96bddc6bd48ed0a33701e5f4a4b67853fd029463662d8d/pydiverse-pipedag-0.2.4.tar.gz
+[2023-05-05 14:59:18] INFO root fetch - processPackages [anylabeling]: executing diffoscope
+[2023-05-05 14:59:18] INFO root fetch - processPackages [anylabeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylabeling-0.2.8.tar.gz tmp/anylabeling-0.2.9.tar.gz --markdown 20230505/a/anylabeling/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 14:59:19] INFO root fetch - processPackages [pyqtorch]: Start processing: volworld-aws-api-common
+[2023-05-05 14:59:19] INFO root fetch - main [MainThread]: End processing [pyqtorch]: success
+[2023-05-05 14:59:19] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.97] Old Version: [0.1.96]
+[2023-05-05 14:59:19] INFO root fetch - processPackages [pydiverse-pipedag]: executing diffoscope
+[2023-05-05 14:59:19] INFO root fetch - processPackages [pydiverse-pipedag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydiverse-pipedag-0.2.3.tar.gz tmp/pydiverse-pipedag-0.2.4.tar.gz --markdown 20230505/p/pydiverse-pipedag/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-05 14:59:19] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/51/30/2cdf5a9034b32040a4433cea499e5649d8805f8f776025d299b3e96998df/volworld_aws_api_common-0.1.97.tar.gz
+[2023-05-05 14:59:19] INFO root fetch - main [MainThread]: End processing [miniflask]: success
+[2023-05-05 14:59:19] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-05-05 14:59:19] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.96.tar.gz tmp/volworld_aws_api_common-0.1.97.tar.gz --markdown 20230505/v/volworld-aws-api-common/0.1.96-0.1.97/diff.md --exclude *.pyd
+[2023-05-05 14:59:19] INFO root fetch - main [MainThread]: End processing [hyundai-kia-connect-api]: success
+[2023-05-05 14:59:19] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-05 14:59:20] INFO root fetch - main [MainThread]: End processing [sbioapputils]: success
+[2023-05-05 14:59:20] INFO root fetch - main [MainThread]: End processing [pydiverse-pipedag]: success
+[2023-05-05 14:59:20] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-05-05 14:59:20] INFO root fetch - main [MainThread]: End processing [pyopencga]: success
+[2023-05-05 14:59:20] INFO root fetch - main [MainThread]: End processing [anylabeling]: success
+[2023-05-05 14:59:21] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
+[2023-05-05 14:59:25] INFO root fetch - main [MainThread]: End processing [anylabeling-gpu]: success
+[2023-05-05 14:59:25] INFO root fetch - main [MainThread]: Store serial: [17987214]
