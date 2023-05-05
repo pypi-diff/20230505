@@ -12885,3 +12885,133 @@
 [2023-05-05 13:32:00] INFO root fetch - main [MainThread]: End processing [vdk-dag]: success
 [2023-05-05 13:32:00] INFO root fetch - main [MainThread]: End processing [querynator]: success
 [2023-05-05 13:32:00] INFO root fetch - main [MainThread]: Store serial: [17986141]
+[2023-05-05 13:37:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17986141]
+[2023-05-05 13:37:10] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-05 13:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invenio-notifications
+[2023-05-05 13:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inverse
+[2023-05-05 13:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-nano
+[2023-05-05 13:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-chronos
+[2023-05-05 13:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaaql-monitor
+[2023-05-05 13:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-serving
+[2023-05-05 13:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdm
+[2023-05-05 13:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mouse2
+[2023-05-05 13:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchx-nightly
+[2023-05-05 13:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: myUniquePythonPackageName
+[2023-05-05 13:37:10] INFO root fetch - processPackages [invenio-notifications]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 13:37:10] INFO root fetch - processPackages [inverse]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-05-05 13:37:10] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230505] Old Version: [2.4.0b20230504]
+[2023-05-05 13:37:10] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.30] Old Version: [1.2.29]
+[2023-05-05 13:37:10] INFO root fetch - processPackages [mouse2]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 13:37:10] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [5.5.106]
+[2023-05-05 13:37:10] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230505] Old Version: [2.4.0b20230504]
+[2023-05-05 13:37:10] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.5.4] Old Version: [2023.5.3]
+[2023-05-05 13:37:10] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230505] Old Version: [2.4.0b20230504]
+[2023-05-05 13:37:10] INFO root fetch - processPackages [pdm]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-05-05 13:37:10] INFO root fetch - processPackages [mouse2]: executing diffoscope
+[2023-05-05 13:37:10] INFO root fetch - processPackages [mouse2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mouse2-0.2.8.tar.gz tmp/mouse2-0.2.9.tar.gz --markdown 20230505/m/mouse2/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 13:37:10] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-05-05 13:37:10] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-5.5.106.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230505/m/myUniquePythonPackageName/5.5.106-7.10.7/diff.md --exclude *.pyd
+[2023-05-05 13:37:10] INFO root fetch - processPackages [invenio-notifications]: Downloading https://files.pythonhosted.org/packages/37/ae/c1315a77ed5815673db3070872dedbce18847de4a0634e9dc51e7171c9a1/invenio-notifications-0.1.0.tar.gz
+[2023-05-05 13:37:10] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/ee/a7/6256b9de71ba10848da9239fba4bd86996443bfcfe23ba1c6390b511a8e9/bigdl_serving-2.4.0b20230505-py2.py3-none-any.whl
+[2023-05-05 13:37:10] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/89/61/348cadfb20b591cf7a58d9cecfe6a64d9b2fdbed06976acecfcd2138cb6d/jaaql-monitor-1.2.30.tar.gz
+[2023-05-05 13:37:10] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/bc/e7/98dc906185ce29db03d8dc5605c1b0e090f1aa8fd977bca1537da71e5ade/bigdl_chronos-2.4.0b20230504-py3-none-win_amd64.whl
+[2023-05-05 13:37:10] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/00/59/bcd8463a645e5566cec173847effc0dbc2448cd48fcc2c35dda99910b927/bigdl_nano-2.4.0b20230504-py3-none-win_amd64.whl
+[2023-05-05 13:37:10] INFO root fetch - processPackages [inverse]: Downloading https://files.pythonhosted.org/packages/08/44/8e20887000e2c112686bdefb30a63af27f8bb6edb780eb841ecf1af442a6/inverse-0.0.5-py3-none-any.whl
+[2023-05-05 13:37:10] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/ab/6c/ee79e47fde243fc7af0e88e5548b3ce1d71f80b66456a4ac85ef46522977/pdm-2.5.5.tar.gz
+[2023-05-05 13:37:10] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-05-05 13:37:10] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-05-05 13:37:10] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230504-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230505-py2.py3-none-any.whl.zip --markdown 20230505/b/bigdl-serving/2.4.0b20230504-2.4.0b20230505/diff.md --exclude *.pyd
+[2023-05-05 13:37:10] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.29.tar.gz tmp/jaaql-monitor-1.2.30.tar.gz --markdown 20230505/j/jaaql-monitor/1.2.29-1.2.30/diff.md --exclude *.pyd
+[2023-05-05 13:37:10] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/d8/99/8129d0224c89d1b1e8a1ab648385e11c5d33c61616ea2bad53b5ab844ae7/torchx_nightly-2023.5.4-py3-none-any.whl
+[2023-05-05 13:37:10] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-05 13:37:10] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.3-py3-none-any.whl.zip tmp/inverse-0.0.5-py3-none-any.whl.zip --markdown 20230505/i/inverse/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 13:37:10] INFO root fetch - processPackages [pdm]: executing diffoscope
+[2023-05-05 13:37:10] INFO root fetch - processPackages [pdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-2.5.4.tar.gz tmp/pdm-2.5.5.tar.gz --markdown 20230505/p/pdm/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-05-05 13:37:10] INFO root fetch - processPackages [invenio-notifications]: Downloading https://files.pythonhosted.org/packages/ff/0c/d02d55abe3d053c85304ac3b8edfef84b8d7f15258e452be05f2e020d93f/invenio-notifications-0.1.1.tar.gz
+[2023-05-05 13:37:10] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-05-05 13:37:10] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.5.3-py3-none-any.whl.zip tmp/torchx_nightly-2023.5.4-py3-none-any.whl.zip --markdown 20230505/t/torchx-nightly/2023.5.3-2023.5.4/diff.md --exclude *.pyd
+[2023-05-05 13:37:10] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/34/77/68730d78cce4282bf8b71448525ebffc6f37a826634cebab7ab4fd4a5bd7/bigdl_chronos-2.4.0b20230505-py3-none-win_amd64.whl
+[2023-05-05 13:37:10] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/82/54/ecb65456bc487e661c18e11c826ecb978e2b2b04b60f4d479eceb34d39d5/bigdl_nano-2.4.0b20230505-py3-none-win_amd64.whl
+[2023-05-05 13:37:10] INFO root fetch - processPackages [invenio-notifications]: executing diffoscope
+[2023-05-05 13:37:10] INFO root fetch - processPackages [invenio-notifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-notifications-0.1.0.tar.gz tmp/invenio-notifications-0.1.1.tar.gz --markdown 20230505/i/invenio-notifications/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 13:37:10] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-05-05 13:37:10] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230504-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230505-py3-none-win_amd64.whl.zip --markdown 20230505/b/bigdl-chronos/2.4.0b20230504-2.4.0b20230505/diff.md --exclude *.pyd
+[2023-05-05 13:37:10] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-05-05 13:37:10] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230504-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230505-py3-none-win_amd64.whl.zip --markdown 20230505/b/bigdl-nano/2.4.0b20230504-2.4.0b20230505/diff.md --exclude *.pyd
+[2023-05-05 13:37:11] INFO root fetch - processPackages [myUniquePythonPackageName]: Start processing: custom-maya
+[2023-05-05 13:37:11] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-05-05 13:37:11] INFO root fetch - processPackages [custom-maya]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 13:37:12] INFO root fetch - processPackages [bigdl-serving]: Start processing: pyroute2
+[2023-05-05 13:37:12] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-05-05 13:37:12] INFO root fetch - processPackages [pyroute2]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-05-05 13:37:12] INFO root fetch - processPackages [custom-maya]: Downloading https://files.pythonhosted.org/packages/1e/6f/b4dd761686f494409f02f156388489f0779767b0af9b8ae99e35f5bb8045/custom_maya-0.0.8.tar.gz
+[2023-05-05 13:37:12] INFO root fetch - processPackages [jaaql-monitor]: Start processing: pyroute2.minimal
+[2023-05-05 13:37:12] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-05-05 13:37:12] INFO root fetch - processPackages [pyroute2.minimal]: New version: [0.7.8] Old Version: [0.7.6]
+[2023-05-05 13:37:12] INFO root fetch - processPackages [pyroute2]: Downloading https://files.pythonhosted.org/packages/84/28/61b97e706254219bf8b1bf0cf9969e83d4c4b17a01e06d8e4b90d2e02287/pyroute2-0.7.7.tar.gz
+[2023-05-05 13:37:12] INFO root fetch - processPackages [mouse2]: Start processing: prism-dev
+[2023-05-05 13:37:12] INFO root fetch - main [MainThread]: End processing [mouse2]: success
+[2023-05-05 13:37:12] WARNING root fetch - processPackages [prism-dev]: Skipping, unable to determine old version
+[2023-05-05 13:37:12] INFO root fetch - processPackages [prism-dev]: Start processing: usls
+[2023-05-05 13:37:12] INFO root fetch - main [MainThread]: End processing [prism-dev] error
+[2023-05-05 13:37:12] INFO root fetch - processPackages [usls]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-05 13:37:12] INFO root fetch - processPackages [pyroute2.minimal]: Downloading https://files.pythonhosted.org/packages/ef/d4/16033d4380e21257a39fff2e3b61e597877c5b08573535fffacec2d5b75e/pyroute2.minimal-0.7.6.tar.gz
+[2023-05-05 13:37:12] INFO root fetch - processPackages [pyroute2]: Downloading https://files.pythonhosted.org/packages/bf/f2/7a96aa171eb3148e769f3c8250d0391cc625e7d47e831ed3da8c000b7ace/pyroute2-0.7.8.tar.gz
+[2023-05-05 13:37:12] INFO root fetch - processPackages [custom-maya]: Downloading https://files.pythonhosted.org/packages/c2/a6/5201e895be6fa98f68e82986e2ab0fdc87caabe2ea9d0644d3508f4de522/custom_maya-0.0.9.tar.gz
+[2023-05-05 13:37:12] INFO root fetch - processPackages [pyroute2]: executing diffoscope
+[2023-05-05 13:37:12] INFO root fetch - processPackages [pyroute2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroute2-0.7.7.tar.gz tmp/pyroute2-0.7.8.tar.gz --markdown 20230505/p/pyroute2/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-05-05 13:37:12] INFO root fetch - processPackages [usls]: Downloading https://files.pythonhosted.org/packages/b4/49/1994362b66256560245c2d5446bf6b91507bed62dcdffa987e656957b9fd/usls-0.2.3-py3-none-any.whl
+[2023-05-05 13:37:12] INFO root fetch - processPackages [custom-maya]: executing diffoscope
+[2023-05-05 13:37:12] INFO root fetch - processPackages [custom-maya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_maya-0.0.8.tar.gz tmp/custom_maya-0.0.9.tar.gz --markdown 20230505/c/custom-maya/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 13:37:12] INFO root fetch - processPackages [invenio-notifications]: Start processing: barbell2-bodycomp
+[2023-05-05 13:37:12] INFO root fetch - main [MainThread]: End processing [invenio-notifications]: success
+[2023-05-05 13:37:12] INFO root fetch - processPackages [barbell2-bodycomp]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-05 13:37:12] INFO root fetch - processPackages [pyroute2.minimal]: Downloading https://files.pythonhosted.org/packages/9a/51/8e78741c0cbad4ee0441ecbacee87d3fb0ac35aeac2c27c52870a77ac11f/pyroute2.minimal-0.7.8.tar.gz
+[2023-05-05 13:37:12] INFO root fetch - processPackages [usls]: executing diffoscope
+[2023-05-05 13:37:12] INFO root fetch - processPackages [usls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usls-0.2.2-py3-none-any.whl.zip tmp/usls-0.2.3-py3-none-any.whl.zip --markdown 20230505/u/usls/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-05 13:37:12] INFO root fetch - processPackages [barbell2-bodycomp]: executing diffoscope
+[2023-05-05 13:37:12] INFO root fetch - processPackages [barbell2-bodycomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barbell2_bodycomp-0.8.0.tar.gz tmp/barbell2_bodycomp-0.9.0.tar.gz --markdown 20230505/b/barbell2-bodycomp/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 13:37:12] INFO root fetch - processPackages [pyroute2.minimal]: executing diffoscope
+[2023-05-05 13:37:12] INFO root fetch - processPackages [pyroute2.minimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroute2.minimal-0.7.6.tar.gz tmp/pyroute2.minimal-0.7.8.tar.gz --markdown 20230505/p/pyroute2.minimal/0.7.6-0.7.8/diff.md --exclude *.pyd
+[2023-05-05 13:37:12] INFO root fetch - processPackages [torchx-nightly]: Start processing: funboost
+[2023-05-05 13:37:12] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-05-05 13:37:12] INFO root fetch - processPackages [funboost]: New version: [20.6] Old Version: [20.5]
+[2023-05-05 13:37:13] INFO root fetch - processPackages [inverse]: Start processing: edubot
+[2023-05-05 13:37:13] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-05 13:37:13] INFO root fetch - processPackages [edubot]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-05-05 13:37:13] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/cc/55/7a19ea3452a2d7ff51616a5823951154c5d853244b8b79784a81f380d75b/funboost-20.6-py3-none-any.whl
+[2023-05-05 13:37:13] INFO root fetch - processPackages [edubot]: Downloading https://files.pythonhosted.org/packages/77/ea/5543f0d77699d24c22a01bae2450082652925a2cb59cbfcfbe1cf3817ed0/edubot-0.6.7.tar.gz
+[2023-05-05 13:37:13] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2023-05-05 13:37:13] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-20.5-py3-none-any.whl.zip tmp/funboost-20.6-py3-none-any.whl.zip --markdown 20230505/f/funboost/20.5-20.6/diff.md --exclude *.pyd
+[2023-05-05 13:37:13] INFO root fetch - processPackages [edubot]: executing diffoscope
+[2023-05-05 13:37:13] INFO root fetch - processPackages [edubot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edubot-0.6.6.tar.gz tmp/edubot-0.6.7.tar.gz --markdown 20230505/e/edubot/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-05-05 13:37:13] INFO root fetch - processPackages [bigdl-chronos]: Start processing: icloudtogcal
+[2023-05-05 13:37:13] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-05-05 13:37:13] INFO root fetch - processPackages [icloudtogcal]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-05 13:37:13] INFO root fetch - processPackages [icloudtogcal]: Downloading https://files.pythonhosted.org/packages/89/f1/996ca98d646d759767c96956ffcf3fc92cf36263d66b5f30f6b0d2ac7319/icloudtogcal-1.0.4-py3-none-any.whl
+[2023-05-05 13:37:13] INFO root fetch - processPackages [icloudtogcal]: executing diffoscope
+[2023-05-05 13:37:13] INFO root fetch - processPackages [icloudtogcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icloudtogcal-1.0.3-py3-none-any.whl.zip tmp/icloudtogcal-1.0.4-py3-none-any.whl.zip --markdown 20230505/i/icloudtogcal/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-05 13:37:14] INFO root fetch - processPackages [custom-maya]: Start processing: statsmodels
+[2023-05-05 13:37:14] INFO root fetch - main [MainThread]: End processing [custom-maya]: success
+[2023-05-05 13:37:14] INFO root fetch - processPackages [statsmodels]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-05-05 13:37:14] INFO root fetch - processPackages [bigdl-nano]: Start processing: semisup-segmentation
+[2023-05-05 13:37:14] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-05-05 13:37:14] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 13:37:14] INFO root fetch - processPackages [usls]: Start processing: test-package-0.0.1
+[2023-05-05 13:37:14] INFO root fetch - main [MainThread]: End processing [usls]: success
+[2023-05-05 13:37:14] WARNING root fetch - processPackages [test-package-0.0.1]: Skipping, unable to determine old version
+[2023-05-05 13:37:14] INFO root fetch - main [MainThread]: End processing [test-package-0.0.1] error
+[2023-05-05 13:37:14] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-05 13:37:14] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230505/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 13:37:14] INFO root fetch - processPackages [statsmodels]: Downloading https://files.pythonhosted.org/packages/67/68/eb3ec6ab61f97216c257edddb853cc174cd76ea44b365cf4adaedcd44482/statsmodels-0.9.0.tar.gz
+[2023-05-05 13:37:14] WARNING root fetch - processPackages [statsmodels]: Skipping package: exceeds size limit 12658359>=10485760
+[2023-05-05 13:37:14] INFO root fetch - main [MainThread]: End processing [statsmodels] error
+[2023-05-05 13:37:14] INFO root fetch - main [MainThread]: End processing [barbell2-bodycomp]: success
+[2023-05-05 13:37:14] INFO root fetch - main [MainThread]: End processing [edubot]: success
+[2023-05-05 13:37:15] INFO root fetch - main [MainThread]: End processing [icloudtogcal]: success
+[2023-05-05 13:37:15] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-05 13:37:16] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2023-05-05 13:37:18] INFO root fetch - main [MainThread]: End processing [pyroute2.minimal]: success
+[2023-05-05 13:37:18] INFO root fetch - main [MainThread]: End processing [pyroute2]: success
+[2023-05-05 13:37:46] INFO root fetch - main [MainThread]: End processing [pdm]: success
+[2023-05-05 13:37:46] INFO root fetch - main [MainThread]: Store serial: [17986205]
