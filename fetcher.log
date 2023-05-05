@@ -15077,3 +15077,123 @@
 [2023-05-05 15:21:03] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
 [2023-05-05 15:21:06] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-05-05 15:21:06] INFO root fetch - main [MainThread]: Store serial: [17987508]
+[2023-05-05 15:26:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17987508]
+[2023-05-05 15:26:15] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-05 15:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biobookshelf
+[2023-05-05 15:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Jvav
+[2023-05-05 15:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-sdk-experimental
+[2023-05-05 15:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: extr-ds
+[2023-05-05 15:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wds-client
+[2023-05-05 15:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrape-schema
+[2023-05-05 15:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: schoolware-api
+[2023-05-05 15:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crabpy-pyramid
+[2023-05-05 15:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-greenplum
+[2023-05-05 15:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: monitors
+[2023-05-05 15:26:15] INFO root fetch - processPackages [Jvav]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-05 15:26:15] INFO root fetch - processPackages [biobookshelf]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-05 15:26:15] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-05 15:26:15] INFO root fetch - processPackages [dbt-greenplum]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-05 15:26:15] INFO root fetch - processPackages [crabpy-pyramid]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-05 15:26:15] INFO root fetch - processPackages [scrape-schema]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 15:26:15] INFO root fetch - processPackages [monitors]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-05 15:26:15] INFO root fetch - processPackages [wds-client]: New version: [0.2.8] Old Version: [0.2.74]
+[2023-05-05 15:26:15] INFO root fetch - processPackages [cognite-sdk-experimental]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-05 15:26:15] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 15:26:15] INFO root fetch - processPackages [biobookshelf]: Downloading https://files.pythonhosted.org/packages/49/d9/b2497098f96538e6bbf2d2ff4fcd2e39ed71bfae4277ba9d7267e6631ff5/biobookshelf-0.2.3.tar.gz
+[2023-05-05 15:26:15] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 15:26:15] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.8.tar.gz tmp/schoolware_api-1.1.9.tar.gz --markdown 20230505/s/schoolware-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-05 15:26:15] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-05 15:26:15] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230505/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 15:26:15] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/39/c4/e2a435e2a0381e4b08335ab0ee72a0cc7369298f5f7c6b26f6df83dbaec4/scrape_schema-0.1.3.tar.gz
+[2023-05-05 15:26:15] INFO root fetch - processPackages [monitors]: Downloading https://files.pythonhosted.org/packages/70/86/df60ccc4d2c95f07a052be180df1b31f6a235088de08736ff64d92e73e5d/monitors-1.1.1.tar.gz
+[2023-05-05 15:26:15] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/04/c3/6dbc33fad89213b9a193a3ddca0ca1e6345754f03f6293509748e5678324/wds-client-0.2.74.tar.gz
+[2023-05-05 15:26:15] INFO root fetch - processPackages [Jvav]: Downloading https://files.pythonhosted.org/packages/e4/19/fd8453c2be90de302e0df861fa40ad860fddcd28d237a848cd851b6de81e/Jvav-1.2.8.tar.gz
+[2023-05-05 15:26:15] INFO root fetch - processPackages [crabpy-pyramid]: Downloading https://files.pythonhosted.org/packages/f9/61/d4a5a4f12c06eab93df71b67207bf9108787c60f110bef93ee6f57303bfa/crabpy_pyramid-1.2.0.tar.gz
+[2023-05-05 15:26:15] INFO root fetch - processPackages [dbt-greenplum]: Downloading https://files.pythonhosted.org/packages/c6/14/9731c1a5c5a0f62ec8351c260432c4033c57c502e90adce1d0d944c3a92c/dbt-greenplum-1.4.0.tar.gz
+[2023-05-05 15:26:15] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-05-05 15:26:15] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.74.tar.gz tmp/wds-client-0.2.8.tar.gz --markdown 20230505/w/wds-client/0.2.74-0.2.8/diff.md --exclude *.pyd
+[2023-05-05 15:26:15] INFO root fetch - processPackages [biobookshelf]: Downloading https://files.pythonhosted.org/packages/e2/dd/46010371b310d4b84f1addad3a8cbdd8d303e55d10b7a5fd815ec515757c/biobookshelf-0.2.4.tar.gz
+[2023-05-05 15:26:15] INFO root fetch - processPackages [cognite-sdk-experimental]: executing diffoscope
+[2023-05-05 15:26:15] INFO root fetch - processPackages [cognite-sdk-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite-sdk-experimental-0.98.0.tar.gz tmp/cognite-sdk-experimental-0.99.0.tar.gz --markdown 20230505/c/cognite-sdk-experimental/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-05 15:26:15] INFO root fetch - processPackages [crabpy-pyramid]: Downloading https://files.pythonhosted.org/packages/57/fb/7453d80570b87eeeea8f053d1fee8c675d75a506e18c2bc8097a07fcff57/crabpy_pyramid-1.3.0.tar.gz
+[2023-05-05 15:26:15] INFO root fetch - processPackages [Jvav]: Downloading https://files.pythonhosted.org/packages/f9/d8/985496f4218c5bdccc1241dc6b685e82caf449b8c39e0e9dfdba699b4b21/Jvav-1.2.9.tar.gz
+[2023-05-05 15:26:15] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/da/98/40cfc51da7307b3273987d2e500f875ff6998463068f8bb5c7821a9ed676/scrape_schema-0.1.4.tar.gz
+[2023-05-05 15:26:15] INFO root fetch - processPackages [dbt-greenplum]: Downloading https://files.pythonhosted.org/packages/d4/23/2a9a7278176b0e5848ab81a10fb8e17146a6e0067089b3a363718eaeda41/dbt-greenplum-1.5.0.tar.gz
+[2023-05-05 15:26:15] INFO root fetch - processPackages [biobookshelf]: executing diffoscope
+[2023-05-05 15:26:15] INFO root fetch - processPackages [biobookshelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobookshelf-0.2.3.tar.gz tmp/biobookshelf-0.2.4.tar.gz --markdown 20230505/b/biobookshelf/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-05 15:26:15] INFO root fetch - processPackages [monitors]: Downloading https://files.pythonhosted.org/packages/8b/5d/bdcb16ba6681a10184a14f789de23110dab940c876d12d3dd4d4a2dc6f2e/monitors-1.1.2.tar.gz
+[2023-05-05 15:26:15] INFO root fetch - processPackages [crabpy-pyramid]: executing diffoscope
+[2023-05-05 15:26:15] INFO root fetch - processPackages [crabpy-pyramid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crabpy_pyramid-1.2.0.tar.gz tmp/crabpy_pyramid-1.3.0.tar.gz --markdown 20230505/c/crabpy-pyramid/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-05 15:26:15] INFO root fetch - processPackages [Jvav]: executing diffoscope
+[2023-05-05 15:26:15] INFO root fetch - processPackages [Jvav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jvav-1.2.8.tar.gz tmp/Jvav-1.2.9.tar.gz --markdown 20230505/J/Jvav/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-05 15:26:15] INFO root fetch - processPackages [dbt-greenplum]: executing diffoscope
+[2023-05-05 15:26:15] INFO root fetch - processPackages [dbt-greenplum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-greenplum-1.4.0.tar.gz tmp/dbt-greenplum-1.5.0.tar.gz --markdown 20230505/d/dbt-greenplum/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-05 15:26:15] INFO root fetch - processPackages [scrape-schema]: executing diffoscope
+[2023-05-05 15:26:15] INFO root fetch - processPackages [scrape-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrape_schema-0.1.3.tar.gz tmp/scrape_schema-0.1.4.tar.gz --markdown 20230505/s/scrape-schema/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 15:26:15] INFO root fetch - processPackages [monitors]: executing diffoscope
+[2023-05-05 15:26:15] INFO root fetch - processPackages [monitors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monitors-1.1.1.tar.gz tmp/monitors-1.1.2.tar.gz --markdown 20230505/m/monitors/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-05 15:26:16] INFO root fetch - processPackages [schoolware-api]: Start processing: macrobond-data-api
+[2023-05-05 15:26:16] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 15:26:16] INFO root fetch - processPackages [macrobond-data-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-05 15:26:17] INFO root fetch - processPackages [extr-ds]: Start processing: qgate-perf
+[2023-05-05 15:26:17] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-05 15:26:17] INFO root fetch - processPackages [qgate-perf]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-05 15:26:17] INFO root fetch - processPackages [macrobond-data-api]: Downloading https://files.pythonhosted.org/packages/15/60/3342610072b774621fbce528082fc38d1ceaf108bf76f42f1ba365e4ce68/macrobond-data-api-1.0.4.tar.gz
+[2023-05-05 15:26:17] INFO root fetch - processPackages [qgate-perf]: Downloading https://files.pythonhosted.org/packages/d9/e2/c3a9fddaab68fcebff348fc82f967f7e9c86347618a39774b9f04e38ed56/qgate_perf-0.1.1.tar.gz
+[2023-05-05 15:26:17] INFO root fetch - processPackages [macrobond-data-api]: executing diffoscope
+[2023-05-05 15:26:17] INFO root fetch - processPackages [macrobond-data-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrobond-data-api-1.0.3.tar.gz tmp/macrobond-data-api-1.0.4.tar.gz --markdown 20230505/m/macrobond-data-api/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-05 15:26:17] INFO root fetch - processPackages [Jvav]: Start processing: sbioapputils
+[2023-05-05 15:26:17] INFO root fetch - main [MainThread]: End processing [Jvav]: success
+[2023-05-05 15:26:17] INFO root fetch - processPackages [sbioapputils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 15:26:17] INFO root fetch - processPackages [sbioapputils]: executing diffoscope
+[2023-05-05 15:26:17] INFO root fetch - processPackages [sbioapputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbioapputils-1.0.8.tar.gz tmp/sbioapputils-1.0.9.tar.gz --markdown 20230505/s/sbioapputils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 15:26:17] INFO root fetch - processPackages [qgate-perf]: Downloading https://files.pythonhosted.org/packages/63/9a/60a35239398550fba06d2fa61439a7c5048f2dc5eb64b82b0a0dfa0f85a2/qgate_perf-0.1.3.tar.gz
+[2023-05-05 15:26:17] INFO root fetch - processPackages [scrape-schema]: Start processing: fbgemm-gpu-nightly
+[2023-05-05 15:26:17] INFO root fetch - main [MainThread]: End processing [scrape-schema]: success
+[2023-05-05 15:26:17] INFO root fetch - processPackages [dbt-greenplum]: Start processing: sidewinder-db
+[2023-05-05 15:26:17] INFO root fetch - main [MainThread]: End processing [dbt-greenplum]: success
+[2023-05-05 15:26:17] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping, unable to determine old version
+[2023-05-05 15:26:17] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: themis-imager-readfile
+[2023-05-05 15:26:17] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-05-05 15:26:17] INFO root fetch - processPackages [sidewinder-db]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 15:26:17] INFO root fetch - processPackages [themis-imager-readfile]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-05 15:26:17] INFO root fetch - processPackages [qgate-perf]: executing diffoscope
+[2023-05-05 15:26:17] INFO root fetch - processPackages [qgate-perf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_perf-0.1.1.tar.gz tmp/qgate_perf-0.1.3.tar.gz --markdown 20230505/q/qgate-perf/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-05 15:26:17] INFO root fetch - processPackages [sidewinder-db]: Downloading https://files.pythonhosted.org/packages/41/8c/4962d301dbebe1579580beddfee1d2e67b820f27a1cf41283445c7219faa/sidewinder-db-0.0.8.tar.gz
+[2023-05-05 15:26:17] INFO root fetch - processPackages [crabpy-pyramid]: Start processing: thiennguyen
+[2023-05-05 15:26:17] INFO root fetch - main [MainThread]: End processing [crabpy-pyramid]: success
+[2023-05-05 15:26:17] INFO root fetch - processPackages [themis-imager-readfile]: Downloading https://files.pythonhosted.org/packages/d0/2e/b3918d3dc35b99f402f49e5931034c9b98e4642d673fd51f82058e68a73c/themis_imager_readfile-1.1.1.tar.gz
+[2023-05-05 15:26:17] INFO root fetch - processPackages [cognite-sdk-experimental]: Start processing: krx-rigger
+[2023-05-05 15:26:17] INFO root fetch - main [MainThread]: End processing [cognite-sdk-experimental]: success
+[2023-05-05 15:26:17] WARNING root fetch - processPackages [thiennguyen]: Skipping, unable to determine old version
+[2023-05-05 15:26:17] INFO root fetch - processPackages [thiennguyen]: Start processing: cicc-excel
+[2023-05-05 15:26:17] INFO root fetch - main [MainThread]: End processing [thiennguyen] error
+[2023-05-05 15:26:17] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 15:26:17] INFO root fetch - processPackages [cicc-excel]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 15:26:17] INFO root fetch - processPackages [themis-imager-readfile]: executing diffoscope
+[2023-05-05 15:26:17] INFO root fetch - processPackages [themis-imager-readfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/themis_imager_readfile-1.1.0.tar.gz tmp/themis_imager_readfile-1.1.1.tar.gz --markdown 20230505/t/themis-imager-readfile/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-05 15:26:18] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-05 15:26:18] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.8.tar.gz tmp/krx_rigger-0.0.9.tar.gz --markdown 20230505/k/krx-rigger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 15:26:18] INFO root fetch - processPackages [monitors]: Start processing: dop-integration-libs
+[2023-05-05 15:26:18] INFO root fetch - main [MainThread]: End processing [monitors]: success
+[2023-05-05 15:26:18] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 15:26:18] INFO root fetch - processPackages [cicc-excel]: Downloading https://files.pythonhosted.org/packages/b2/58/8032ab6f6907090fe77bf74c2e64e1b2f5b2f6d836f5a36137855a69b67f/cicc_excel-0.0.1.tar.gz
+[2023-05-05 15:26:18] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-05 15:26:18] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230505/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 15:26:18] INFO root fetch - processPackages [sidewinder-db]: Downloading https://files.pythonhosted.org/packages/b4/1e/90ca024c383d5af900d01d83653527bcf952ac605ca5599cb8668cc17609/sidewinder-db-0.0.9.tar.gz
+[2023-05-05 15:26:18] INFO root fetch - processPackages [cicc-excel]: Downloading https://files.pythonhosted.org/packages/1a/19/9b23c85553ffca82b34b700e1f435a7e5774b5c27ad19b412568356895c9/cicc_excel-0.0.2.tar.gz
+[2023-05-05 15:26:18] INFO root fetch - processPackages [sidewinder-db]: executing diffoscope
+[2023-05-05 15:26:18] INFO root fetch - processPackages [sidewinder-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidewinder-db-0.0.8.tar.gz tmp/sidewinder-db-0.0.9.tar.gz --markdown 20230505/s/sidewinder-db/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 15:26:18] INFO root fetch - processPackages [cicc-excel]: executing diffoscope
+[2023-05-05 15:26:18] INFO root fetch - processPackages [cicc-excel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cicc_excel-0.0.1.tar.gz tmp/cicc_excel-0.0.2.tar.gz --markdown 20230505/c/cicc-excel/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 15:26:18] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-05-05 15:26:18] INFO root fetch - main [MainThread]: End processing [sbioapputils]: success
+[2023-05-05 15:26:19] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-05 15:26:19] INFO root fetch - main [MainThread]: End processing [themis-imager-readfile]: success
+[2023-05-05 15:26:19] INFO root fetch - main [MainThread]: End processing [macrobond-data-api]: success
+[2023-05-05 15:26:19] INFO root fetch - main [MainThread]: End processing [qgate-perf]: success
+[2023-05-05 15:26:19] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-05 15:26:19] INFO root fetch - main [MainThread]: End processing [cicc-excel]: success
+[2023-05-05 15:26:19] INFO root fetch - main [MainThread]: End processing [sidewinder-db]: success
+[2023-05-05 15:26:20] INFO root fetch - main [MainThread]: End processing [biobookshelf]: success
+[2023-05-05 15:26:20] INFO root fetch - main [MainThread]: Store serial: [17987570]
