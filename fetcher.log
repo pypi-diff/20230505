@@ -16522,3 +16522,71 @@
 [2023-05-05 16:36:06] INFO root fetch - main [MainThread]: End processing [goxlrutilityapi]: success
 [2023-05-05 16:36:08] INFO root fetch - main [MainThread]: End processing [distkv]: success
 [2023-05-05 16:36:08] INFO root fetch - main [MainThread]: Store serial: [17988406]
+[2023-05-05 16:41:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17988406]
+[2023-05-05 16:41:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-05 16:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: venv-modulefile
+[2023-05-05 16:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: koji-fedoramessaging-messages
+[2023-05-05 16:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apify-client
+[2023-05-05 16:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fedexapi-chnoma
+[2023-05-05 16:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-05 16:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easierfile
+[2023-05-05 16:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djangoldp-needle
+[2023-05-05 16:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gempyp
+[2023-05-05 16:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sphere-base
+[2023-05-05 16:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: parsgod
+[2023-05-05 16:41:17] INFO root fetch - processPackages [fedexapi-chnoma]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-05 16:41:17] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 16:41:17] INFO root fetch - processPackages [gempyp]: New version: [1.0.70b0] Old Version: [1.0.60b2]
+[2023-05-05 16:41:17] WARNING root fetch - processPackages [parsgod]: Skipping, unable to determine old version
+[2023-05-05 16:41:17] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230505.6.35.992484] Old Version: [20230505.14.38.637018]
+[2023-05-05 16:41:17] INFO root fetch - processPackages [koji-fedoramessaging-messages]: New version: [1.1.0] Old Version: [1.0.7]
+[2023-05-05 16:41:17] INFO root fetch - processPackages [parsgod]: Start processing: odoo14-addon-l10n-br-account
+[2023-05-05 16:41:17] INFO root fetch - main [MainThread]: End processing [parsgod] error
+[2023-05-05 16:41:17] INFO root fetch - processPackages [easierfile]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-05 16:41:17] INFO root fetch - processPackages [sphere-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 16:41:17] INFO root fetch - processPackages [apify-client]: New version: [1.1.1b1] Old Version: [1.1.0b3]
+[2023-05-05 16:41:17] INFO root fetch - processPackages [djangoldp-needle]: New version: [0.1.90] Old Version: [0.1.9]
+[2023-05-05 16:41:17] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-05 16:41:17] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.8.tar.gz tmp/venv-modulefile-0.0.9.tar.gz --markdown 20230505/v/venv-modulefile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 16:41:17] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.5.8.1.dev1] Old Version: [14.0.5.8.1]
+[2023-05-05 16:41:17] INFO root fetch - processPackages [sphere-base]: executing diffoscope
+[2023-05-05 16:41:17] INFO root fetch - processPackages [sphere-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_base-0.1.8.tar.gz tmp/sphere_base-0.1.9.tar.gz --markdown 20230505/s/sphere-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 16:41:17] INFO root fetch - processPackages [fedexapi-chnoma]: Downloading https://files.pythonhosted.org/packages/03/ee/7c1a0a269a45d206b18a0bc4683ae04d18b3d1ddc9304252bbd327387387/fedexapi_chnoma-1.2.1.tar.gz
+[2023-05-05 16:41:17] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/02/48/522ecd51eda9a2088906d7dd029181da812582323769b715a71fdba62c71/certora-cli-alpha-rahav-cert-1987_update_regTest-20230505.14.38.637018.tar.gz
+[2023-05-05 16:41:17] INFO root fetch - processPackages [gempyp]: Downloading https://files.pythonhosted.org/packages/14/91/ff269d83c6f602ae8735a372aa56e7005038c6a22a8843f39a2538916ae7/gempyp-1.0.60b2.tar.gz
+[2023-05-05 16:41:17] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38472996>=10485760
+[2023-05-05 16:41:17] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-05 16:41:17] INFO root fetch - processPackages [koji-fedoramessaging-messages]: Downloading https://files.pythonhosted.org/packages/98/2a/14ae34e6d63cbc412ce2bcea301d8dd1cc888cf8eca4711bf929aeae7b8f/koji-fedoramessaging-messages-1.0.7.tar.gz
+[2023-05-05 16:41:17] INFO root fetch - processPackages [easierfile]: Downloading https://files.pythonhosted.org/packages/4d/e9/420d7f592531229df8ce028023aeb1cf84152782e471efff3528f40dcec3/easierfile-2.1.0.tar.gz
+[2023-05-05 16:41:17] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/a3/d7/65783a61c949054a50bf52ea960840d936d2896a9d200c99e28a697b98a7/apify_client-1.1.1b1.tar.gz
+[2023-05-05 16:41:17] INFO root fetch - processPackages [djangoldp-needle]: Downloading https://files.pythonhosted.org/packages/ca/44/a562b330729f672b4b56ae85c4f2a0401374ef11275d4a1d1d50369ee268/djangoldp_needle-0.1.90.tar.gz
+[2023-05-05 16:41:17] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/47/e2/a91f62267a84161bb6ddf6a5a7a2ad7eb0d6a2250ceda23a97082564fece/odoo14_addon_l10n_br_account-14.0.5.8.1-py3-none-any.whl
+[2023-05-05 16:41:17] INFO root fetch - processPackages [djangoldp-needle]: executing diffoscope
+[2023-05-05 16:41:17] INFO root fetch - processPackages [djangoldp-needle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_needle-0.1.9.tar.gz tmp/djangoldp_needle-0.1.90.tar.gz --markdown 20230505/d/djangoldp-needle/0.1.9-0.1.90/diff.md --exclude *.pyd
+[2023-05-05 16:41:17] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2023-05-05 16:41:17] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.1.0b3.tar.gz tmp/apify_client-1.1.1b1.tar.gz --markdown 20230505/a/apify-client/1.1.0b3-1.1.1b1/diff.md --exclude *.pyd
+[2023-05-05 16:41:17] INFO root fetch - processPackages [easierfile]: Downloading https://files.pythonhosted.org/packages/e0/2d/598e3ace4d87d3ac373c69cd0240c2141a9185aa1b364aa2e45aaede0540/easierfile-2.2.0.tar.gz
+[2023-05-05 16:41:17] INFO root fetch - processPackages [easierfile]: executing diffoscope
+[2023-05-05 16:41:17] INFO root fetch - processPackages [easierfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easierfile-2.1.0.tar.gz tmp/easierfile-2.2.0.tar.gz --markdown 20230505/e/easierfile/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-05 16:41:17] INFO root fetch - processPackages [fedexapi-chnoma]: Downloading https://files.pythonhosted.org/packages/3b/47/037cfc3a29523109f612509072aa81a70f45166643deadb3743155f02ce9/fedexapi_chnoma-1.2.2.tar.gz
+[2023-05-05 16:41:17] INFO root fetch - processPackages [koji-fedoramessaging-messages]: Downloading https://files.pythonhosted.org/packages/57/f8/61589f1e7b531422d616436f438550763460fb74e04d20b8597bb1d1a474/koji-fedoramessaging-messages-1.1.0.tar.gz
+[2023-05-05 16:41:17] INFO root fetch - processPackages [fedexapi-chnoma]: executing diffoscope
+[2023-05-05 16:41:17] INFO root fetch - processPackages [fedexapi-chnoma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedexapi_chnoma-1.2.1.tar.gz tmp/fedexapi_chnoma-1.2.2.tar.gz --markdown 20230505/f/fedexapi-chnoma/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-05 16:41:17] INFO root fetch - processPackages [koji-fedoramessaging-messages]: executing diffoscope
+[2023-05-05 16:41:17] INFO root fetch - processPackages [koji-fedoramessaging-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koji-fedoramessaging-messages-1.0.7.tar.gz tmp/koji-fedoramessaging-messages-1.1.0.tar.gz --markdown 20230505/k/koji-fedoramessaging-messages/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 16:41:17] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/62/20/6a85cba534616c3d61eff63309419ade3ff36a9776470674dc96bc13c468/odoo14_addon_l10n_br_account-14.0.5.8.1.dev1-py3-none-any.whl
+[2023-05-05 16:41:17] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-05-05 16:41:17] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.5.8.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.5.8.1.dev1-py3-none-any.whl.zip --markdown 20230505/o/odoo14-addon-l10n-br-account/14.0.5.8.1-14.0.5.8.1.dev1/diff.md --exclude *.pyd
+[2023-05-05 16:41:18] INFO root fetch - processPackages [gempyp]: Downloading https://files.pythonhosted.org/packages/a9/9a/f2ae5df100bf5acd716142e3f5776bcfda3f8a86b598a47e338ab3ef72df/gempyp-1.0.70b0.tar.gz
+[2023-05-05 16:41:18] INFO root fetch - processPackages [gempyp]: executing diffoscope
+[2023-05-05 16:41:18] INFO root fetch - processPackages [gempyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gempyp-1.0.60b2.tar.gz tmp/gempyp-1.0.70b0.tar.gz --markdown 20230505/g/gempyp/1.0.60b2-1.0.70b0/diff.md --exclude *.pyd
+[2023-05-05 16:41:18] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-05 16:41:18] INFO root fetch - main [MainThread]: End processing [easierfile]: success
+[2023-05-05 16:41:19] INFO root fetch - main [MainThread]: End processing [fedexapi-chnoma]: success
+[2023-05-05 16:41:19] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2023-05-05 16:41:19] INFO root fetch - main [MainThread]: End processing [djangoldp-needle]: success
+[2023-05-05 16:41:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-05-05 16:41:19] INFO root fetch - main [MainThread]: End processing [koji-fedoramessaging-messages]: success
+[2023-05-05 16:41:19] INFO root fetch - main [MainThread]: End processing [gempyp]: success
+[2023-05-05 16:41:21] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
+[2023-05-05 16:41:21] INFO root fetch - main [MainThread]: Store serial: [17988454]
