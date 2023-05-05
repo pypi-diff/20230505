@@ -12682,3 +12682,97 @@
 [2023-05-05 13:21:29] INFO root fetch - main [MainThread]: End processing [django-cards]: success
 [2023-05-05 13:21:30] INFO root fetch - main [MainThread]: End processing [webviz-subsurface]: success
 [2023-05-05 13:21:30] INFO root fetch - main [MainThread]: Store serial: [17986026]
+[2023-05-05 13:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17986026]
+[2023-05-05 13:26:41] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-05 13:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autosubmitconfigparser
+[2023-05-05 13:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb
+[2023-05-05 13:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-client
+[2023-05-05 13:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensordict-nightly
+[2023-05-05 13:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-dataset
+[2023-05-05 13:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-models
+[2023-05-05 13:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-protos
+[2023-05-05 13:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-sdk
+[2023-05-05 13:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-utils
+[2023-05-05 13:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: easy-mitk
+[2023-05-05 13:26:42] INFO root fetch - processPackages [autosubmitconfigparser]: New version: [1.0.28] Old Version: [1.0.27]
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb]: New version: [2.8.5.post244] Old Version: [2.8.5.post243]
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.8.5.post244] Old Version: [2.8.5.post243]
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.8.5.post244] Old Version: [2.8.5.post243]
+[2023-05-05 13:26:42] WARNING root fetch - processPackages [easy-mitk]: Skipping, unable to determine old version
+[2023-05-05 13:26:42] INFO root fetch - processPackages [easy-mitk]: Start processing: FLite
+[2023-05-05 13:26:42] INFO root fetch - main [MainThread]: End processing [easy-mitk] error
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.8.5.post244] Old Version: [2.8.5.post243]
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-client]: New version: [2.8.5.post244] Old Version: [2.8.5.post243]
+[2023-05-05 13:26:42] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.5.4] Old Version: [2023.5.2]
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-models]: New version: [2.8.5.post244] Old Version: [2.8.5.post243]
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.8.5.post244] Old Version: [2.8.5.post243]
+[2023-05-05 13:26:42] WARNING root fetch - processPackages [FLite]: Skipping, unable to determine old version
+[2023-05-05 13:26:42] INFO root fetch - processPackages [FLite]: Start processing: torchtnt-nightly
+[2023-05-05 13:26:42] INFO root fetch - main [MainThread]: End processing [FLite] error
+[2023-05-05 13:26:42] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.4] Old Version: [2023.5.3]
+[2023-05-05 13:26:42] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-05-05 13:26:42] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.5.2-py39-none-any.whl.zip tmp/tensordict_nightly-2023.5.4-py39-none-any.whl.zip --markdown 20230505/t/tensordict-nightly/2023.5.2-2023.5.4/diff.md --exclude *.pyd
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/dc/81/3728cc54b9d82a8501c2e0fd4b32dd68ab2a9d183c7c1874200f82a2f935/nucliadb_protos-2.8.5.post244-py3-none-any.whl
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/a8/70/73a0e95b0e05089c22eab977359cfc44796b73f2cc372a2cf2fbe6922013/nucliadb-2.8.5.post244-py3-none-any.whl
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/12/59/5eb4c7628dfbb5489d188645d2c9bf2529bff1f2c1e3a12eef313257d272/nucliadb_dataset-2.8.5.post244-py3-none-any.whl
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.8.5.post243-py3-none-any.whl.zip tmp/nucliadb_protos-2.8.5.post244-py3-none-any.whl.zip --markdown 20230505/n/nucliadb-protos/2.8.5.post243-2.8.5.post244/diff.md --exclude *.pyd
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/bb/ab/6e30bffbd686c849c96bb7445ab87f01e545c7bd75c595f6b4bbbeac33cd/nucliadb_sdk-2.8.5.post244-py3-none-any.whl
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/6b/0a/9708c001f4eb6360c1cba76d8aa796bcaa021e384828831de3f012aa580b/nucliadb_utils-2.8.5.post244-py3-none-any.whl
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/95/5a/e63f5e1a36e13afb4ea78c35e78dd8bb1e611d6e906ad9251735d7f3f314/nucliadb_client-2.8.5.post244-py3-none-any.whl
+[2023-05-05 13:26:42] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/dc/75/df06969e8ca7a8bbf3a194ad09e83f2dca653b8ff9f690dbd5c909801999/torchtnt-nightly-2023.5.4.tar.gz
+[2023-05-05 13:26:42] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/81/7c/573297afb1729c8117d65824e45b258ccdc8d619e6a7cb30547fbe57869f/autosubmitconfigparser-1.0.28.tar.gz
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/51/77/5a8208419cb29456fdde0636a37c299125477e53fc0403a9eb0f12c49633/nucliadb_models-2.8.5.post244-py3-none-any.whl
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.8.5.post243-py3-none-any.whl.zip tmp/nucliadb-2.8.5.post244-py3-none-any.whl.zip --markdown 20230505/n/nucliadb/2.8.5.post243-2.8.5.post244/diff.md --exclude *.pyd
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.8.5.post243-py3-none-any.whl.zip tmp/nucliadb_dataset-2.8.5.post244-py3-none-any.whl.zip --markdown 20230505/n/nucliadb-dataset/2.8.5.post243-2.8.5.post244/diff.md --exclude *.pyd
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.8.5.post243-py3-none-any.whl.zip tmp/nucliadb_sdk-2.8.5.post244-py3-none-any.whl.zip --markdown 20230505/n/nucliadb-sdk/2.8.5.post243-2.8.5.post244/diff.md --exclude *.pyd
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.8.5.post243-py3-none-any.whl.zip tmp/nucliadb_utils-2.8.5.post244-py3-none-any.whl.zip --markdown 20230505/n/nucliadb-utils/2.8.5.post243-2.8.5.post244/diff.md --exclude *.pyd
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.8.5.post243-py3-none-any.whl.zip tmp/nucliadb_client-2.8.5.post244-py3-none-any.whl.zip --markdown 20230505/n/nucliadb-client/2.8.5.post243-2.8.5.post244/diff.md --exclude *.pyd
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-05 13:26:42] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.8.5.post243-py3-none-any.whl.zip tmp/nucliadb_models-2.8.5.post244-py3-none-any.whl.zip --markdown 20230505/n/nucliadb-models/2.8.5.post243-2.8.5.post244/diff.md --exclude *.pyd
+[2023-05-05 13:26:42] INFO root fetch - processPackages [autosubmitconfigparser]: executing diffoscope
+[2023-05-05 13:26:42] INFO root fetch - processPackages [autosubmitconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmitconfigparser-1.0.27.tar.gz tmp/autosubmitconfigparser-1.0.28.tar.gz --markdown 20230505/a/autosubmitconfigparser/1.0.27-1.0.28/diff.md --exclude *.pyd
+[2023-05-05 13:26:42] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-05 13:26:42] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.3.tar.gz tmp/torchtnt-nightly-2023.5.4.tar.gz --markdown 20230505/t/torchtnt-nightly/2023.5.3-2023.5.4/diff.md --exclude *.pyd
+[2023-05-05 13:26:44] INFO root fetch - processPackages [tensordict-nightly]: Start processing: rfcxtf
+[2023-05-05 13:26:44] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-05-05 13:26:44] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: webcam
+[2023-05-05 13:26:44] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-05 13:26:44] INFO root fetch - processPackages [rfcxtf]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 13:26:44] INFO root fetch - processPackages [webcam]: New version: [0.5] Old Version: [0.4]
+[2023-05-05 13:26:44] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: khruang-lyrics-load-bar
+[2023-05-05 13:26:44] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-05 13:26:44] WARNING root fetch - processPackages [khruang-lyrics-load-bar]: Skipping, unable to determine old version
+[2023-05-05 13:26:44] INFO root fetch - processPackages [khruang-lyrics-load-bar]: Start processing: torchrl-nightly
+[2023-05-05 13:26:44] INFO root fetch - main [MainThread]: End processing [khruang-lyrics-load-bar] error
+[2023-05-05 13:26:44] INFO root fetch - processPackages [rfcxtf]: Downloading https://files.pythonhosted.org/packages/9a/a7/2ec453ac4a02907455e24b1ce2cfc9d4764cf13953dcd60c50d9e475f188/rfcxtf-0.0.3.tar.gz
+[2023-05-05 13:26:44] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/11/06/4fee9e45c343abb6bedd6309bf6495a5d1c1c824dd23fe57a3fa7ee51803/webcam-0.5.tar.gz
+[2023-05-05 13:26:44] INFO root fetch - processPackages [nucliadb-client]: Start processing: apify-client
+[2023-05-05 13:26:44] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-05 13:26:44] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.5.4] Old Version: [2023.5.3]
+[2023-05-05 13:26:44] INFO root fetch - processPackages [webcam]: executing diffoscope
+[2023-05-05 13:26:44] INFO root fetch - processPackages [rfcxtf]: executing diffoscope
+[2023-05-05 13:26:44] INFO root fetch - processPackages [webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webcam-0.4.tar.gz tmp/webcam-0.5.tar.gz --markdown 20230505/w/webcam/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-05 13:26:44] INFO root fetch - processPackages [rfcxtf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfcxtf-0.0.2.tar.gz tmp/rfcxtf-0.0.3.tar.gz --markdown 20230505/r/rfcxtf/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 13:26:44] INFO root fetch - processPackages [apify-client]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2023-05-05 13:26:44] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-05 13:26:44] INFO root fetch - main [MainThread]: End processing [autosubmitconfigparser]: success
+[2023-05-05 13:26:44] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-05 13:26:44] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/82/40/983a22fecb2959bb5fb5cdb21dc7d5f44655a9109ef19075477c38fd2b01/torchrl_nightly-2023.5.4-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-05 13:26:44] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-05 13:26:44] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2023-05-05 13:26:44] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.1.0b2.tar.gz tmp/apify_client-1.1.0b3.tar.gz --markdown 20230505/a/apify-client/1.1.0b2-1.1.0b3/diff.md --exclude *.pyd
+[2023-05-05 13:26:45] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-05-05 13:26:45] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.5.3-cp39-cp39-manylinux1_x86_64.whl.zip tmp/torchrl_nightly-2023.5.4-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230505/t/torchrl-nightly/2023.5.3-2023.5.4/diff.md --exclude *.pyd
+[2023-05-05 13:26:45] INFO root fetch - main [MainThread]: End processing [rfcxtf]: success
+[2023-05-05 13:26:45] INFO root fetch - main [MainThread]: End processing [webcam]: success
+[2023-05-05 13:26:46] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-05 13:26:46] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2023-05-05 13:26:46] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-05 13:26:46] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-05-05 13:26:46] INFO root fetch - main [MainThread]: Store serial: [17986081]
