@@ -20380,3 +20380,61 @@
 [2023-05-05 19:52:21] INFO root fetch - main [MainThread]: End processing [ntfy-wrapper]: success
 [2023-05-05 19:53:02] INFO root fetch - main [MainThread]: End processing [awscrt]: success
 [2023-05-05 19:53:02] INFO root fetch - main [MainThread]: Store serial: [17990969]
+[2023-05-05 19:58:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17990969]
+[2023-05-05 19:58:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tupa123
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fpyo2ipa
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalguide-reader
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quivr
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Jlab
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfcst
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mujoco-dev
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: statinf
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ruff
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fpyo2ipa
+[2023-05-05 19:58:12] INFO root fetch - processPackages [tupa123]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-05 19:58:12] INFO root fetch - processPackages [quivr]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-05 19:58:12] INFO root fetch - processPackages [pyfcst]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-05-05 19:58:12] INFO root fetch - processPackages [statinf]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-05 19:58:12] INFO root fetch - processPackages [digitalguide-reader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 19:58:12] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev529754511] Old Version: [2.3.6.dev529706437]
+[2023-05-05 19:58:12] WARNING root fetch - processPackages [fpyo2ipa]: Skipping, unable to determine old version
+[2023-05-05 19:58:12] WARNING root fetch - processPackages [fpyo2ipa]: Skipping, unable to determine old version
+[2023-05-05 19:58:12] INFO root fetch - processPackages [Jlab]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-05 19:58:12] INFO root fetch - main [MainThread]: End processing [fpyo2ipa] error
+[2023-05-05 19:58:12] INFO root fetch - main [MainThread]: End processing [fpyo2ipa] error
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ruff]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 19:58:12] INFO root fetch - processPackages [pyfcst]: Downloading https://files.pythonhosted.org/packages/32/d9/9699a29df642c4749119b7d5e5de54bdd9f367668d0e4207607e8ac2ea12/pyfcst-0.0.15.tar.gz
+[2023-05-05 19:58:12] INFO root fetch - processPackages [Jlab]: Downloading https://files.pythonhosted.org/packages/fa/3e/32d71787edae05b219b476dd39839ffb17efb97aaeb221f98cbcba3cce0f/Jlab-1.1.8.tar.gz
+[2023-05-05 19:58:12] INFO root fetch - processPackages [statinf]: Downloading https://files.pythonhosted.org/packages/20/c6/af730db71caf0954c0dfabc9be2872ffef56763935fb65589744e0957d93/statinf-1.2.5.tar.gz
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/47/03/d97ee64c6c8899eed05f51278ea3a1de7aec597d746afa99b689f7e91c3c/ruff-0.0.98.tar.gz
+[2023-05-05 19:58:12] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/f9/04/eca20831be2a5527e777e6570bbceed70efe12925924ecb8240517a7a495/mujoco_dev-2.3.6.dev529754511-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-05 19:58:12] INFO root fetch - processPackages [quivr]: Downloading https://files.pythonhosted.org/packages/ff/59/de906f95253266c9a7c2546866bbd0c68ab1ef169c8bbe1b0b3e7f83671d/quivr-0.2.1.tar.gz
+[2023-05-05 19:58:12] INFO root fetch - processPackages [statinf]: executing diffoscope
+[2023-05-05 19:58:12] INFO root fetch - processPackages [statinf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statinf-1.2.4.tar.gz tmp/statinf-1.2.5.tar.gz --markdown 20230505/s/statinf/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-05 19:58:12] INFO root fetch - processPackages [quivr]: executing diffoscope
+[2023-05-05 19:58:12] INFO root fetch - processPackages [quivr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quivr-0.2.0.tar.gz tmp/quivr-0.2.1.tar.gz --markdown 20230505/q/quivr/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-05 19:58:12] INFO root fetch - processPackages [digitalguide-reader]: executing diffoscope
+[2023-05-05 19:58:12] INFO root fetch - processPackages [digitalguide-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide_reader-0.0.8.tar.gz tmp/digitalguide_reader-0.0.9.tar.gz --markdown 20230505/d/digitalguide-reader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 19:58:12] INFO root fetch - processPackages [pyfcst]: Downloading https://files.pythonhosted.org/packages/82/31/d941f94828f97b19a30928b279db5f6015b4f495330a566fc1d179aecc7a/pyfcst-0.0.16.tar.gz
+[2023-05-05 19:58:12] INFO root fetch - processPackages [pyfcst]: executing diffoscope
+[2023-05-05 19:58:12] INFO root fetch - processPackages [pyfcst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfcst-0.0.15.tar.gz tmp/pyfcst-0.0.16.tar.gz --markdown 20230505/p/pyfcst/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-05-05 19:58:12] INFO root fetch - processPackages [Jlab]: Downloading https://files.pythonhosted.org/packages/ac/66/0597393cb75d6bf1c5b7558e5044e2658b628fee443c2e839df2ac8944b4/Jlab-1.1.9.tar.gz
+[2023-05-05 19:58:12] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-05-05 19:58:12] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.4.8.tar.gz tmp/tupa123-1.4.9.tar.gz --markdown 20230505/t/tupa123/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/43/74/128be8dbfb351ff04131ec18fb5b96694cd3ca0c92c6acacfdfe8dc4235f/ruff-0.0.99.tar.gz
+[2023-05-05 19:58:12] INFO root fetch - processPackages [Jlab]: executing diffoscope
+[2023-05-05 19:58:12] INFO root fetch - processPackages [Jlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jlab-1.1.8.tar.gz tmp/Jlab-1.1.9.tar.gz --markdown 20230505/J/Jlab/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ruff]: executing diffoscope
+[2023-05-05 19:58:12] INFO root fetch - processPackages [ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-0.0.98.tar.gz tmp/ruff-0.0.99.tar.gz --markdown 20230505/r/ruff/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 19:58:13] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-05-05 19:58:13] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev529706437-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/mujoco_dev-2.3.6.dev529754511-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230505/m/mujoco-dev/2.3.6.dev529706437-2.3.6.dev529754511/diff.md --exclude *.pyd
+[2023-05-05 19:58:13] INFO root fetch - main [MainThread]: End processing [digitalguide-reader]: success
+[2023-05-05 19:58:14] INFO root fetch - main [MainThread]: End processing [statinf]: success
+[2023-05-05 19:58:14] INFO root fetch - main [MainThread]: End processing [quivr]: success
+[2023-05-05 19:58:14] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-05-05 19:58:14] INFO root fetch - main [MainThread]: End processing [Jlab]: success
+[2023-05-05 19:58:14] INFO root fetch - main [MainThread]: End processing [pyfcst]: success
+[2023-05-05 19:58:18] INFO root fetch - main [MainThread]: End processing [ruff]: success
+[2023-05-05 19:58:27] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-05-05 19:58:27] INFO root fetch - main [MainThread]: Store serial: [17991026]
