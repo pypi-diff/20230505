@@ -22693,3 +22693,80 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-05 22:08:26] INFO root fetch - main [MainThread]: End processing [autora]: success
 [2023-05-05 22:08:26] INFO root fetch - main [MainThread]: End processing [inverter-connect]: success
 [2023-05-05 22:08:26] INFO root fetch - main [MainThread]: Store serial: [17992432]
+[2023-05-05 22:13:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17992432]
+[2023-05-05 22:13:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-05 22:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hgchat
+[2023-05-05 22:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qgate-perf
+[2023-05-05 22:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domolibrary
+[2023-05-05 22:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CSV-to-JSON-Python
+[2023-05-05 22:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: not1mm
+[2023-05-05 22:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aim-ui
+[2023-05-05 22:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysui
+[2023-05-05 22:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deskaone-sdk-scrypt-2023
+[2023-05-05 22:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ovos-bus-client
+[2023-05-05 22:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SalesforceMinu
+[2023-05-05 22:13:35] INFO root fetch - processPackages [qgate-perf]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 22:13:35] INFO root fetch - processPackages [hgchat]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 22:13:35] INFO root fetch - processPackages [CSV-to-JSON-Python]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 22:13:35] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-05 22:13:35] INFO root fetch - processPackages [SalesforceMinu]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-05 22:13:35] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 22:13:35] INFO root fetch - processPackages [not1mm]: New version: [23.5.5] Old Version: [23.5.4]
+[2023-05-05 22:13:35] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: New version: [1.0.8] Old Version: [1.0.4]
+[2023-05-05 22:13:35] INFO root fetch - processPackages [pysui]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-05 22:13:35] INFO root fetch - processPackages [ovos-bus-client]: New version: [0.0.4a7] Old Version: [0.0.4a6]
+[2023-05-05 22:13:35] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/15/04/0624cfb818b4aa00681fd98b1d6ff24f56e0dc30cc0aa27fb90fce93dcc3/aim-ui-4.0.0.dev4.tar.gz
+[2023-05-05 22:13:35] INFO root fetch - processPackages [SalesforceMinu]: executing diffoscope
+[2023-05-05 22:13:35] INFO root fetch - processPackages [SalesforceMinu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SalesforceMinu-0.0.3.tar.gz tmp/SalesforceMinu-0.0.4.tar.gz --markdown 20230505/S/SalesforceMinu/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-05 22:13:35] INFO root fetch - processPackages [qgate-perf]: Downloading https://files.pythonhosted.org/packages/61/48/4b58d162dd9472a8e2dac8f036dde1a8fbfa67313fb4ea27f230576d78a4/qgate_perf-0.1.4.tar.gz
+[2023-05-05 22:13:35] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 21591110>=10485760
+[2023-05-05 22:13:35] INFO root fetch - processPackages [aim-ui]: Start processing: aim
+[2023-05-05 22:13:35] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-05-05 22:13:36] INFO root fetch - processPackages [hgchat]: Downloading https://files.pythonhosted.org/packages/26/69/c006e6e2d01dbd77c796997e534ed4c4b09a992c2ff07ea0c340ce775115/hgchat-0.1.2.tar.gz
+[2023-05-05 22:13:36] INFO root fetch - processPackages [CSV-to-JSON-Python]: Downloading https://files.pythonhosted.org/packages/9a/b9/a9007d3e8225a9fb224aa2310659d00871010311e44dbd9a0a7084d313ae/CSV%20to%20JSON%20Python-0.0.3.tar.gz
+[2023-05-05 22:13:36] INFO root fetch - processPackages [aim]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-05 22:13:36] INFO root fetch - processPackages [qgate-perf]: executing diffoscope
+[2023-05-05 22:13:36] INFO root fetch - processPackages [qgate-perf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_perf-0.1.3.tar.gz tmp/qgate_perf-0.1.4.tar.gz --markdown 20230505/q/qgate-perf/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 22:13:36] INFO root fetch - processPackages [ovos-bus-client]: Downloading https://files.pythonhosted.org/packages/ef/22/7e4d2874505a3443add371d155a81cace82292c2921a238aae0c5318660c/ovos-bus-client-0.0.4a6.tar.gz
+[2023-05-05 22:13:36] INFO root fetch - processPackages [CSV-to-JSON-Python]: executing diffoscope
+[2023-05-05 22:13:36] INFO root fetch - processPackages [CSV-to-JSON-Python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CSV to JSON Python-0.0.2.tar.gz tmp/CSV to JSON Python-0.0.3.tar.gz --markdown 20230505/C/CSV-to-JSON-Python/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 22:13:36] INFO root fetch - processPackages [hgchat]: executing diffoscope
+[2023-05-05 22:13:36] INFO root fetch - processPackages [hgchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgchat-0.1.1.tar.gz tmp/hgchat-0.1.2.tar.gz --markdown 20230505/h/hgchat/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 22:13:36] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/b6/35/efad0f62f1c090d026374cd34a55f2ee4585267de91d525431a6013596c7/not1mm-23.5.5.tar.gz
+[2023-05-05 22:13:36] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: Downloading https://files.pythonhosted.org/packages/56/4e/a8c1f83ef8a27eeafd62358de19253c1ba4fbb658881a83797f47ee5963d/deskaone_sdk_scrypt_2023-1.0.8.tar.gz
+[2023-05-05 22:13:36] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-05 22:13:36] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230505/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 22:13:36] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: executing diffoscope
+[2023-05-05 22:13:36] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deskaone_sdk_scrypt_2023-1.0.4.tar.gz tmp/deskaone_sdk_scrypt_2023-1.0.8.tar.gz --markdown 20230505/d/deskaone-sdk-scrypt-2023/1.0.4-1.0.8/diff.md --exclude *.pyd
+[2023-05-05 22:13:36] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-05-05 22:13:36] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.5.4.tar.gz tmp/not1mm-23.5.5.tar.gz --markdown 20230505/n/not1mm/23.5.4-23.5.5/diff.md --exclude *.pyd
+[2023-05-05 22:13:36] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-05-05 22:13:36] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0.dev4.tar.gz tmp/aim-4.0.0.dev5.tar.gz --markdown 20230505/a/aim/4.0.0.dev4-4.0.0.dev5/diff.md --exclude *.pyd
+[2023-05-05 22:13:36] INFO root fetch - processPackages [ovos-bus-client]: Downloading https://files.pythonhosted.org/packages/c6/1a/f1a1ab8ee76ca6167e011b8250b4e931032ac605eacf8f7ca2535c0b7489/ovos-bus-client-0.0.4a7.tar.gz
+[2023-05-05 22:13:36] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2023-05-05 22:13:36] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.8.0-py3-none-any.whl.zip tmp/pysui-0.9.0-py3-none-any.whl.zip --markdown 20230505/p/pysui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 22:13:36] INFO root fetch - processPackages [ovos-bus-client]: executing diffoscope
+[2023-05-05 22:13:36] INFO root fetch - processPackages [ovos-bus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-bus-client-0.0.4a6.tar.gz tmp/ovos-bus-client-0.0.4a7.tar.gz --markdown 20230505/o/ovos-bus-client/0.0.4a6-0.0.4a7/diff.md --exclude *.pyd
+[2023-05-05 22:13:37] INFO root fetch - processPackages [SalesforceMinu]: Start processing: coreftools
+[2023-05-05 22:13:37] INFO root fetch - main [MainThread]: End processing [SalesforceMinu]: success
+[2023-05-05 22:13:37] INFO root fetch - processPackages [coreftools]: New version: [0.2.3] Old Version: [0.1.9]
+[2023-05-05 22:13:37] INFO root fetch - processPackages [qgate-perf]: Start processing: django-oidc-provider
+[2023-05-05 22:13:37] INFO root fetch - main [MainThread]: End processing [qgate-perf]: success
+[2023-05-05 22:13:37] INFO root fetch - main [MainThread]: End processing [hgchat]: success
+[2023-05-05 22:13:37] INFO root fetch - processPackages [coreftools]: executing diffoscope
+[2023-05-05 22:13:37] INFO root fetch - processPackages [coreftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coreftools-0.1.9-py3-none-any.whl.zip tmp/coreftools-0.2.3-py3-none-any.whl.zip --markdown 20230505/c/coreftools/0.1.9-0.2.3/diff.md --exclude *.pyd
+[2023-05-05 22:13:37] INFO root fetch - processPackages [django-oidc-provider]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-05 22:13:37] INFO root fetch - main [MainThread]: End processing [CSV-to-JSON-Python]: success
+[2023-05-05 22:13:37] INFO root fetch - processPackages [django-oidc-provider]: Downloading https://files.pythonhosted.org/packages/aa/56/487131c7128edea87bad4f0e881b5149ccfa68b50aa282537efe11d8a919/django-oidc-provider-0.7.0.tar.gz
+[2023-05-05 22:13:37] INFO root fetch - main [MainThread]: End processing [deskaone-sdk-scrypt-2023]: success
+[2023-05-05 22:13:38] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2023-05-05 22:13:38] INFO root fetch - processPackages [django-oidc-provider]: Downloading https://files.pythonhosted.org/packages/b6/ff/969a310b74f23a3afa4ef5479f8bc92a285d2b674da3bd52a88daa6369cc/django-oidc-provider-0.8.0.tar.gz
+[2023-05-05 22:13:38] INFO root fetch - processPackages [django-oidc-provider]: executing diffoscope
+[2023-05-05 22:13:38] INFO root fetch - processPackages [django-oidc-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oidc-provider-0.7.0.tar.gz tmp/django-oidc-provider-0.8.0.tar.gz --markdown 20230505/d/django-oidc-provider/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-05 22:13:38] INFO root fetch - main [MainThread]: End processing [coreftools]: success
+[2023-05-05 22:13:38] INFO root fetch - main [MainThread]: End processing [ovos-bus-client]: success
+[2023-05-05 22:13:39] INFO root fetch - main [MainThread]: End processing [django-oidc-provider]: success
+[2023-05-05 22:13:39] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-05-05 22:13:40] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-05 22:13:47] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-05-05 22:13:47] INFO root fetch - main [MainThread]: Store serial: [17992475]
