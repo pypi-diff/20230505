@@ -9189,3 +9189,87 @@
 [2023-05-05 10:26:15] INFO root fetch - main [MainThread]: End processing [myNeuropsydia]: success
 [2023-05-05 10:26:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
 [2023-05-05 10:26:15] INFO root fetch - main [MainThread]: Store serial: [17983960]
+[2023-05-05 10:31:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17983960]
+[2023-05-05 10:31:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-05 10:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: semisup-segmentation
+[2023-05-05 10:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unique-char-counter-cli-kir-boh
+[2023-05-05 10:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kingspan-connect-sensor
+[2023-05-05 10:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: troncos
+[2023-05-05 10:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Qcover
+[2023-05-05 10:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: juju
+[2023-05-05 10:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autoretouch
+[2023-05-05 10:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HawaData
+[2023-05-05 10:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apify-client
+[2023-05-05 10:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: optimuslib
+[2023-05-05 10:31:24] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: New version: [1.4.1] Old Version: [0.0.3]
+[2023-05-05 10:31:24] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 10:31:24] INFO root fetch - processPackages [autoretouch]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-05 10:31:24] INFO root fetch - processPackages [kingspan-connect-sensor]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-05 10:31:24] INFO root fetch - processPackages [troncos]: New version: [3.2.0] Old Version: [3.1.2]
+[2023-05-05 10:31:24] INFO root fetch - processPackages [HawaData]: New version: [0.3.6] Old Version: [0.3.4]
+[2023-05-05 10:31:24] INFO root fetch - processPackages [Qcover]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-05-05 10:31:24] INFO root fetch - processPackages [apify-client]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2023-05-05 10:31:24] WARNING root fetch - processPackages [optimuslib]: Skipping, unable to determine old version
+[2023-05-05 10:31:24] INFO root fetch - processPackages [optimuslib]: Start processing: cefeste
+[2023-05-05 10:31:24] INFO root fetch - main [MainThread]: End processing [optimuslib] error
+[2023-05-05 10:31:24] INFO root fetch - processPackages [juju]: New version: [3.1.2.0] Old Version: [3.1.0b1]
+[2023-05-05 10:31:24] INFO root fetch - processPackages [cefeste]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-05-05 10:31:24] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-05 10:31:24] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230505/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 10:31:24] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/4d/68/ce6bf8d5f41f2cced8dcce0ec5692338975646da6342d3041b608b61a7fa/HawaData-0.3.6.tar.gz
+[2023-05-05 10:31:24] INFO root fetch - processPackages [kingspan-connect-sensor]: Downloading https://files.pythonhosted.org/packages/8b/eb/ced24a172c371c3029f96918f761147af9a1f260be5a99340f901603e2de/kingspan_connect_sensor-2.1.0.tar.gz
+[2023-05-05 10:31:24] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/2c/f6/5f8de023639b7b0501d3dfde8ae189dab09279429aeb5076d3aabdf74072/apify_client-1.1.0b3.tar.gz
+[2023-05-05 10:31:24] INFO root fetch - processPackages [Qcover]: Downloading https://files.pythonhosted.org/packages/f3/7b/931d871bdbd82915032806bec7294606d9c054a375aa3ac4c45c1be4033f/Qcover-2.4.0.tar.gz
+[2023-05-05 10:31:24] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/de/96/c1ebf6975bd2349937dadc06e04c52d16c0b806dd2a2d14c35f3b85e2ccf/troncos-3.2.0.tar.gz
+[2023-05-05 10:31:24] INFO root fetch - processPackages [juju]: Downloading https://files.pythonhosted.org/packages/43/54/773d747e953efeb17c5c1c0158a7c4b79a17f4490b657a5b0bdb817a20d3/juju-3.1.0b1-py3.10.egg
+[2023-05-05 10:31:24] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: Downloading https://files.pythonhosted.org/packages/fd/0a/600210fa834f3bb203f564eaf4ddcc2861983d28d889cefc91dd6bede650/unique_char_counter_cli_kir_boh-1.4.1.tar.gz
+[2023-05-05 10:31:24] INFO root fetch - processPackages [autoretouch]: Downloading https://files.pythonhosted.org/packages/e2/1a/9a40921959a585436f55402a2366228a5d4487025c46dee65f7cf1a1fb32/autoretouch-0.0.2.tar.gz
+[2023-05-05 10:31:25] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/2b/1f/c6747a45f65b5e5ce9e580b03d8b773da35c2d0bfaa00b3da521556502d3/cefeste-1.0.3.tar.gz
+[2023-05-05 10:31:25] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-05-05 10:31:25] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.3.4.tar.gz tmp/HawaData-0.3.6.tar.gz --markdown 20230505/H/HawaData/0.3.4-0.3.6/diff.md --exclude *.pyd
+[2023-05-05 10:31:25] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2023-05-05 10:31:25] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.1.0b2.tar.gz tmp/apify_client-1.1.0b3.tar.gz --markdown 20230505/a/apify-client/1.1.0b2-1.1.0b3/diff.md --exclude *.pyd
+[2023-05-05 10:31:25] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: executing diffoscope
+[2023-05-05 10:31:25] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unique_char_counter_cli_kir_boh-0.0.3-py3-none-any.whl.zip tmp/unique_char_counter_cli_kir_boh-1.4.1.tar.gz --markdown 20230505/u/unique-char-counter-cli-kir-boh/0.0.3-1.4.1/diff.md --exclude *.pyd
+[2023-05-05 10:31:25] INFO root fetch - processPackages [troncos]: executing diffoscope
+[2023-05-05 10:31:25] INFO root fetch - processPackages [troncos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troncos-3.1.2.tar.gz tmp/troncos-3.2.0.tar.gz --markdown 20230505/t/troncos/3.1.2-3.2.0/diff.md --exclude *.pyd
+[2023-05-05 10:31:25] INFO root fetch - processPackages [Qcover]: Downloading https://files.pythonhosted.org/packages/4a/6d/ce141e003e5fe278e9b79de73af5e7b8b3f87c76a044d7575095e6d5c859/Qcover-2.5.0-py3-none-any.whl
+[2023-05-05 10:31:25] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/64/1c/546660f3177030e1e767c1eb26cb5aece18852d1357d865faa38458902c1/cefeste-1.1.0.tar.gz
+[2023-05-05 10:31:25] INFO root fetch - processPackages [kingspan-connect-sensor]: Downloading https://files.pythonhosted.org/packages/fd/58/0fbc27d7739b978b291fd21d336ef3e8ece3b85d0df115b5cc737be7c7f5/kingspan_connect_sensor-2.1.1.tar.gz
+[2023-05-05 10:31:25] INFO root fetch - processPackages [Qcover]: executing diffoscope
+[2023-05-05 10:31:25] INFO root fetch - processPackages [Qcover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Qcover-2.4.0.tar.gz tmp/Qcover-2.5.0-py3-none-any.whl.zip --markdown 20230505/Q/Qcover/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-05-05 10:31:25] INFO root fetch - processPackages [autoretouch]: Downloading https://files.pythonhosted.org/packages/16/8b/b0396d8905bf66fedf6be0707c8be62aea447320a47c1e077694895b3f0c/autoretouch-0.1.0.tar.gz
+[2023-05-05 10:31:25] INFO root fetch - processPackages [cefeste]: executing diffoscope
+[2023-05-05 10:31:25] INFO root fetch - processPackages [cefeste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefeste-1.0.3.tar.gz tmp/cefeste-1.1.0.tar.gz --markdown 20230505/c/cefeste/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 10:31:25] INFO root fetch - processPackages [kingspan-connect-sensor]: executing diffoscope
+[2023-05-05 10:31:25] INFO root fetch - processPackages [kingspan-connect-sensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kingspan_connect_sensor-2.1.0.tar.gz tmp/kingspan_connect_sensor-2.1.1.tar.gz --markdown 20230505/k/kingspan-connect-sensor/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-05 10:31:25] INFO root fetch - processPackages [autoretouch]: executing diffoscope
+[2023-05-05 10:31:25] INFO root fetch - processPackages [autoretouch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoretouch-0.0.2.tar.gz tmp/autoretouch-0.1.0.tar.gz --markdown 20230505/a/autoretouch/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-05 10:31:26] INFO root fetch - processPackages [juju]: Downloading https://files.pythonhosted.org/packages/0b/5b/28f670aef3cb4d8de0261b7038dcbccda97a463baadad4105421cfa486da/juju-3.1.2.0.tar.gz
+[2023-05-05 10:31:26] INFO root fetch - processPackages [semisup-segmentation]: Start processing: PM3
+[2023-05-05 10:31:26] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-05 10:31:26] INFO root fetch - processPackages [juju]: executing diffoscope
+[2023-05-05 10:31:26] INFO root fetch - processPackages [juju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juju-3.1.0b1-py3.10.egg tmp/juju-3.1.2.0.tar.gz --markdown 20230505/j/juju/3.1.0b1-3.1.2.0/diff.md --exclude *.pyd
+[2023-05-05 10:31:26] INFO root fetch - processPackages [PM3]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-05 10:31:26] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: Start processing: aws-cost-optimization
+[2023-05-05 10:31:26] INFO root fetch - main [MainThread]: End processing [unique-char-counter-cli-kir-boh]: success
+[2023-05-05 10:31:26] INFO root fetch - processPackages [PM3]: Downloading https://files.pythonhosted.org/packages/5f/67/195b41591ad2a52f3aabe6e16be56737541d88786ee4409a82e1c7b3da51/PM3-0.3.8.tar.gz
+[2023-05-05 10:31:26] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-05-05 10:31:26] INFO root fetch - processPackages [aws-cost-optimization]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-05 10:31:26] INFO root fetch - main [MainThread]: End processing [Qcover]: success
+[2023-05-05 10:31:26] INFO root fetch - processPackages [aws-cost-optimization]: Downloading https://files.pythonhosted.org/packages/fc/b9/35c6d0fadce7c3a1818248d1646759294736c9bbf277bbab29f94c92f720/aws_cost_optimization-0.3.0.tar.gz
+[2023-05-05 10:31:26] INFO root fetch - main [MainThread]: End processing [kingspan-connect-sensor]: success
+[2023-05-05 10:31:26] INFO root fetch - main [MainThread]: End processing [cefeste]: success
+[2023-05-05 10:31:26] INFO root fetch - processPackages [PM3]: Downloading https://files.pythonhosted.org/packages/3d/70/223db7bba0fe6e708520aecfe739d25abd0b25b31c61b634967aa322001a/PM3-0.3.9.tar.gz
+[2023-05-05 10:31:27] INFO root fetch - processPackages [aws-cost-optimization]: Downloading https://files.pythonhosted.org/packages/93/2f/286cc506a021300373a0c0c65cc55d7f2f89f997674ac6e5045a2682cec7/aws_cost_optimization-0.3.1.tar.gz
+[2023-05-05 10:31:27] INFO root fetch - processPackages [PM3]: executing diffoscope
+[2023-05-05 10:31:27] INFO root fetch - processPackages [PM3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PM3-0.3.8.tar.gz tmp/PM3-0.3.9.tar.gz --markdown 20230505/P/PM3/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-05 10:31:27] INFO root fetch - processPackages [aws-cost-optimization]: executing diffoscope
+[2023-05-05 10:31:27] INFO root fetch - processPackages [aws-cost-optimization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_cost_optimization-0.3.0.tar.gz tmp/aws_cost_optimization-0.3.1.tar.gz --markdown 20230505/a/aws-cost-optimization/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-05 10:31:27] INFO root fetch - main [MainThread]: End processing [troncos]: success
+[2023-05-05 10:31:27] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2023-05-05 10:31:28] INFO root fetch - main [MainThread]: End processing [PM3]: success
+[2023-05-05 10:31:28] INFO root fetch - main [MainThread]: End processing [aws-cost-optimization]: success
+[2023-05-05 10:31:29] INFO root fetch - main [MainThread]: End processing [juju]: success
+[2023-05-05 10:31:54] INFO root fetch - main [MainThread]: End processing [autoretouch]: success
+[2023-05-05 10:31:54] INFO root fetch - main [MainThread]: Store serial: [17983998]
