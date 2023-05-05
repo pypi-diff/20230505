@@ -7276,3 +7276,92 @@
 [2023-05-05 08:24:11] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
 [2023-05-05 08:24:14] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-05-05 08:24:14] INFO root fetch - main [MainThread]: Store serial: [17982823]
+[2023-05-05 08:29:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982823]
+[2023-05-05 08:29:27] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 08:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unique-char-counter-cli-kir-boh
+[2023-05-05 08:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-purchase-requisition-auto-rfq
+[2023-05-05 08:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: font-CLI
+[2023-05-05 08:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: VikyTest
+[2023-05-05 08:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shazamio
+[2023-05-05 08:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mnm
+[2023-05-05 08:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-05-05 08:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-onelogin
+[2023-05-05 08:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyjp
+[2023-05-05 08:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: add_service
+[2023-05-05 08:29:27] INFO root fetch - processPackages [odoo14-addon-purchase-requisition-auto-rfq]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.0]
+[2023-05-05 08:29:27] INFO root fetch - processPackages [VikyTest]: New version: [4.0] Old Version: [3.0]
+[2023-05-05 08:29:27] INFO root fetch - processPackages [shazamio]: New version: [0.4.0.0] Old Version: [0.3.1.1]
+[2023-05-05 08:29:27] WARNING root fetch - processPackages [unique-char-counter-cli-kir-boh]: Skipping, unable to determine old version
+[2023-05-05 08:29:27] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: Start processing: musegan
+[2023-05-05 08:29:27] INFO root fetch - main [MainThread]: End processing [unique-char-counter-cli-kir-boh] error
+[2023-05-05 08:29:27] WARNING root fetch - processPackages [pyjp]: Skipping, unable to determine old version
+[2023-05-05 08:29:27] INFO root fetch - processPackages [font-CLI]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-05 08:29:27] INFO root fetch - processPackages [mnm]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-05 08:29:27] INFO root fetch - processPackages [add_service]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-05 08:29:27] INFO root fetch - processPackages [pyjp]: Start processing: interval-tools
+[2023-05-05 08:29:27] INFO root fetch - main [MainThread]: End processing [pyjp] error
+[2023-05-05 08:29:27] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230504.0] Old Version: [16.0.20230424.0]
+[2023-05-05 08:29:27] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.6.1a1683266580] Old Version: [0.6.0]
+[2023-05-05 08:29:27] WARNING root fetch - processPackages [musegan]: Skipping, unable to determine old version
+[2023-05-05 08:29:27] INFO root fetch - processPackages [musegan]: Start processing: kivy-widgets
+[2023-05-05 08:29:27] INFO root fetch - main [MainThread]: End processing [musegan] error
+[2023-05-05 08:29:27] INFO root fetch - processPackages [interval-tools]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-05 08:29:27] INFO root fetch - processPackages [kivy-widgets]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-05 08:29:28] INFO root fetch - processPackages [mnm]: Downloading https://files.pythonhosted.org/packages/b0/31/7bc60b0b99b94b44b0566c606d647576d7b95b8016239340f37cd6e9dcc1/mnm-0.1.2.tar.gz
+[2023-05-05 08:29:28] INFO root fetch - processPackages [odoo14-addon-purchase-requisition-auto-rfq]: Downloading https://files.pythonhosted.org/packages/6d/ce/e3c623c3b4c88ccb871feb77c9e880eda1ec43a456a1c8d2ad6a46d1e153/odoo14_addon_purchase_requisition_auto_rfq-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-05-05 08:29:28] INFO root fetch - processPackages [VikyTest]: Downloading https://files.pythonhosted.org/packages/75/26/6220d949e125ab54d152ee45e341605c4b6a042b2824b7ee51431633ebf4/VikyTest-4.0.tar.gz
+[2023-05-05 08:29:28] INFO root fetch - processPackages [shazamio]: Downloading https://files.pythonhosted.org/packages/ef/fc/d06eebe6041abf062001c5b43067b096516b466581c2a09ec9166b399ab0/shazamio-0.3.1.1.tar.gz
+[2023-05-05 08:29:28] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/18/d4/ad3f369301f1f6fcc48ad58859218dd2ec283fe0b9d95b3ced5db946a4d2/odoo_addons_oca_purchase_workflow-16.0.20230424.0-py3-none-any.whl
+[2023-05-05 08:29:28] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/5b/3b/43fc5d50174189c1eb04be51f4570427837ab15d62f36ba5f3d6fb288b14/pulumi_onelogin-0.6.0.tar.gz
+[2023-05-05 08:29:28] INFO root fetch - processPackages [kivy-widgets]: Downloading https://files.pythonhosted.org/packages/84/6b/3051188a538602553112e12b91e7fc1c182a75c2574e106d75c15ce9edf1/kivy_widgets-0.1.7.tar.gz
+[2023-05-05 08:29:28] INFO root fetch - processPackages [add_service]: Downloading https://files.pythonhosted.org/packages/a2/56/d2a1c0b23f453a6548360423afa858ac4482c7a467efdbfcd227d5180858/add_service-0.2.0.tar.gz
+[2023-05-05 08:29:28] INFO root fetch - processPackages [VikyTest]: executing diffoscope
+[2023-05-05 08:29:28] INFO root fetch - processPackages [VikyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VikyTest-3.0-py38-none-any.whl.zip tmp/VikyTest-4.0.tar.gz --markdown 20230505/V/VikyTest/3.0-4.0/diff.md --exclude *.pyd
+[2023-05-05 08:29:28] INFO root fetch - processPackages [interval-tools]: Downloading https://files.pythonhosted.org/packages/6c/14/425de7fd720e2c56160a20aeb41d4161b8d4da5596e4c9085000ddc9d88d/interval-tools-0.9.0.tar.gz
+[2023-05-05 08:29:28] INFO root fetch - processPackages [add_service]: executing diffoscope
+[2023-05-05 08:29:28] INFO root fetch - processPackages [add_service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/add_service-0.1.3.tar.gz tmp/add_service-0.2.0.tar.gz --markdown 20230505/a/add_service/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 08:29:28] INFO root fetch - processPackages [odoo14-addon-purchase-requisition-auto-rfq]: executing diffoscope
+[2023-05-05 08:29:28] INFO root fetch - processPackages [odoo14-addon-purchase-requisition-auto-rfq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_requisition_auto_rfq-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_purchase_requisition_auto_rfq-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230505/o/odoo14-addon-purchase-requisition-auto-rfq/14.0.1.1.0-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-05-05 08:29:28] INFO root fetch - processPackages [mnm]: Downloading https://files.pythonhosted.org/packages/72/55/b98d51a96acba97b652e3b3b4efcee6d9a4150ef4b6097bb2a0a1af8a077/mnm-0.2.0.tar.gz
+[2023-05-05 08:29:28] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/ba/cf/ad0cd15ab2a0df746a097138a73d3f88acf8c8dd864a28de82fa3500c630/pulumi_onelogin-0.6.1a1683266580.tar.gz
+[2023-05-05 08:29:28] INFO root fetch - processPackages [mnm]: executing diffoscope
+[2023-05-05 08:29:28] INFO root fetch - processPackages [mnm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnm-0.1.2.tar.gz tmp/mnm-0.2.0.tar.gz --markdown 20230505/m/mnm/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 08:29:28] INFO root fetch - processPackages [shazamio]: Downloading https://files.pythonhosted.org/packages/3b/05/1e5a15595f3f49cd66b6a8c652cb1929c69d2b64449c34ec71008aaef115/shazamio-0.4.0.0.tar.gz
+[2023-05-05 08:29:28] INFO root fetch - processPackages [font-CLI]: executing diffoscope
+[2023-05-05 08:29:28] INFO root fetch - processPackages [font-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/font-CLI-0.9.8.tar.gz tmp/font-CLI-0.9.9.tar.gz --markdown 20230505/f/font-CLI/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 08:29:28] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/dc/8b/d89a576651fd0b67ed763c09d71916251358fc94272adbf9311e51cd0a6f/odoo_addons_oca_purchase_workflow-16.0.20230504.0-py3-none-any.whl
+[2023-05-05 08:29:28] INFO root fetch - processPackages [shazamio]: executing diffoscope
+[2023-05-05 08:29:28] INFO root fetch - processPackages [shazamio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shazamio-0.3.1.1.tar.gz tmp/shazamio-0.4.0.0.tar.gz --markdown 20230505/s/shazamio/0.3.1.1-0.4.0.0/diff.md --exclude *.pyd
+[2023-05-05 08:29:28] INFO root fetch - processPackages [kivy-widgets]: Downloading https://files.pythonhosted.org/packages/ba/77/d0831aaf74db6bb7700d90bf1802fc16c95ea83cbd4420977a7c2faf6b4a/kivy_widgets-0.1.8.tar.gz
+[2023-05-05 08:29:28] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-05-05 08:29:28] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230424.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230504.0-py3-none-any.whl.zip --markdown 20230505/o/odoo-addons-oca-purchase-workflow/16.0.20230424.0-16.0.20230504.0/diff.md --exclude *.pyd
+[2023-05-05 08:29:28] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2023-05-05 08:29:28] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.6.0.tar.gz tmp/pulumi_onelogin-0.6.1a1683266580.tar.gz --markdown 20230505/p/pulumi-onelogin/0.6.0-0.6.1a1683266580/diff.md --exclude *.pyd
+[2023-05-05 08:29:28] INFO root fetch - processPackages [kivy-widgets]: executing diffoscope
+[2023-05-05 08:29:28] INFO root fetch - processPackages [kivy-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivy_widgets-0.1.7.tar.gz tmp/kivy_widgets-0.1.8.tar.gz --markdown 20230505/k/kivy-widgets/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-05 08:29:28] INFO root fetch - processPackages [interval-tools]: Downloading https://files.pythonhosted.org/packages/81/8b/3ec747db56356f59924636220f765744068373829ec3319b25c77fead246/interval-tools-0.9.1.tar.gz
+[2023-05-05 08:29:28] INFO root fetch - processPackages [interval-tools]: executing diffoscope
+[2023-05-05 08:29:28] INFO root fetch - processPackages [interval-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interval-tools-0.9.0.tar.gz tmp/interval-tools-0.9.1.tar.gz --markdown 20230505/i/interval-tools/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-05 08:29:29] INFO root fetch - processPackages [add_service]: Start processing: peewee-aio
+[2023-05-05 08:29:29] INFO root fetch - main [MainThread]: End processing [add_service]: success
+[2023-05-05 08:29:29] INFO root fetch - processPackages [VikyTest]: Start processing: VonPylib
+[2023-05-05 08:29:29] INFO root fetch - main [MainThread]: End processing [VikyTest]: success
+[2023-05-05 08:29:29] INFO root fetch - processPackages [peewee-aio]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-05-05 08:29:29] INFO root fetch - processPackages [VonPylib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 08:29:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-requisition-auto-rfq]: success
+[2023-05-05 08:29:29] INFO root fetch - processPackages [VonPylib]: executing diffoscope
+[2023-05-05 08:29:29] INFO root fetch - processPackages [VonPylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VonPylib-0.1.8.tar.gz tmp/VonPylib-0.1.9.tar.gz --markdown 20230505/V/VonPylib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 08:29:29] INFO root fetch - processPackages [peewee-aio]: Downloading https://files.pythonhosted.org/packages/46/4d/df5c3e6363de52cd0680bfabd49b6fbbf67af698e98fb0f58818dd75a936/peewee_aio-1.5.2.tar.gz
+[2023-05-05 08:29:30] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-05-05 08:29:30] INFO root fetch - main [MainThread]: End processing [mnm]: success
+[2023-05-05 08:29:30] INFO root fetch - processPackages [peewee-aio]: Downloading https://files.pythonhosted.org/packages/f4/85/a6677e00fa1f8f01a9db2d804b7dfd8e9077bc780f7cb3359d766b8175e0/peewee_aio-1.5.3.tar.gz
+[2023-05-05 08:29:30] INFO root fetch - main [MainThread]: End processing [interval-tools]: success
+[2023-05-05 08:29:30] INFO root fetch - processPackages [peewee-aio]: executing diffoscope
+[2023-05-05 08:29:30] INFO root fetch - processPackages [peewee-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee_aio-1.5.2.tar.gz tmp/peewee_aio-1.5.3.tar.gz --markdown 20230505/p/peewee-aio/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-05-05 08:29:30] INFO root fetch - main [MainThread]: End processing [shazamio]: success
+[2023-05-05 08:29:30] INFO root fetch - main [MainThread]: End processing [VonPylib]: success
+[2023-05-05 08:29:31] INFO root fetch - main [MainThread]: End processing [peewee-aio]: success
+[2023-05-05 08:29:31] INFO root fetch - main [MainThread]: End processing [font-CLI]: success
+[2023-05-05 08:29:32] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2023-05-05 08:29:32] INFO root fetch - main [MainThread]: End processing [kivy-widgets]: success
+[2023-05-05 08:29:32] INFO root fetch - main [MainThread]: Store serial: [17982871]
