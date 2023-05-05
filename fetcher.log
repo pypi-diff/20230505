@@ -5539,3 +5539,50 @@
 [2023-05-05 05:45:48] INFO root fetch - main [MainThread]: End processing [rellm]: success
 [2023-05-05 05:45:48] INFO root fetch - main [MainThread]: End processing [consolecmdtools]: success
 [2023-05-05 05:45:48] INFO root fetch - main [MainThread]: Store serial: [17981742]
+[2023-05-05 05:50:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981742]
+[2023-05-05 05:50:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-05 05:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-account-invoice-overdue-reminder
+[2023-05-05 05:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xeno
+[2023-05-05 05:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-invoice-overdue-reminder
+[2023-05-05 05:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: herptest
+[2023-05-05 05:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rellm
+[2023-05-05 05:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-jtoman-gmx-init
+[2023-05-05 05:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smartjs
+[2023-05-05 05:50:58] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-05-05 05:50:58] INFO root fetch - processPackages [xeno]: New version: [6.1.1] Old Version: [6.1.0]
+[2023-05-05 05:50:58] INFO root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: New version: [20230504.5.36.425832] Old Version: [20230504.11.25.752534]
+[2023-05-05 05:50:58] INFO root fetch - processPackages [herptest]: New version: [0.9.9.6] Old Version: [0.9.9.3]
+[2023-05-05 05:50:58] INFO root fetch - processPackages [rellm]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 05:50:58] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: New version: [14.0.1.4.1.dev1] Old Version: [14.0.1.4.0]
+[2023-05-05 05:50:58] INFO root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: Downloading https://files.pythonhosted.org/packages/9e/12/3d9861e8f3575b0c4bea82ace94a0a3eb851d00f60d77fd8c162cda14c59/certora-cli-alpha-jtoman-gmx-init-20230504.11.25.752534.tar.gz
+[2023-05-05 05:50:59] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: Skipping package: exceeds size limit 38419654>=10485760
+[2023-05-05 05:50:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-gmx-init] error
+[2023-05-05 05:50:59] INFO root fetch - processPackages [smartjs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 05:50:59] INFO root fetch - processPackages [xeno]: Downloading https://files.pythonhosted.org/packages/0b/e9/c447408186c28941da79c8831d110f1164b356dc866739c6733ab9655414/xeno-6.1.0.tar.gz
+[2023-05-05 05:50:59] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/ee/03/35081f07a496861e4f8234e406e14d17894750292d2c92c2d281fb2f78d6/odoo_addon_account_invoice_overdue_reminder-16.0.1.1.0.1-py3-none-any.whl
+[2023-05-05 05:50:59] INFO root fetch - processPackages [herptest]: Downloading https://files.pythonhosted.org/packages/ac/4a/74bd4da4bf8c6b8b2cfb4bf60ddf441b2e96d56f0fae9c786e8aac8fecf6/herptest-0.9.9.3.tar.gz
+[2023-05-05 05:50:59] INFO root fetch - processPackages [rellm]: Downloading https://files.pythonhosted.org/packages/79/bd/9c3a30d6e8e08f5a035989d2ae1e92be8c5ad0795c7ce590639b9c2b11ad/rellm-0.0.3.tar.gz
+[2023-05-05 05:50:59] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: executing diffoscope
+[2023-05-05 05:50:59] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_overdue_reminder-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_overdue_reminder-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230505/o/odoo-addon-account-invoice-overdue-reminder/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-05-05 05:50:59] INFO root fetch - processPackages [smartjs]: Downloading https://files.pythonhosted.org/packages/17/4d/27e80a987a95e55a9253f2d35f1bc3c51f759b85013827bda51685d6120f/smartjs-0.0.2.tar.gz
+[2023-05-05 05:50:59] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/dc/7f/80f44ebd5339a44bba08f64f0141afa5bf216aae0cf84e27f04a5e35e194/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev1-py3-none-any.whl
+[2023-05-05 05:50:59] INFO root fetch - processPackages [xeno]: Downloading https://files.pythonhosted.org/packages/cd/02/9e504e465004e398362542ae5b2aa575f2df230476e022df25e7a79e4808/xeno-6.1.1.tar.gz
+[2023-05-05 05:50:59] INFO root fetch - processPackages [rellm]: executing diffoscope
+[2023-05-05 05:50:59] INFO root fetch - processPackages [rellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rellm-0.0.2.tar.gz tmp/rellm-0.0.3.tar.gz --markdown 20230505/r/rellm/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 05:50:59] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: executing diffoscope
+[2023-05-05 05:50:59] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.0-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev1-py3-none-any.whl.zip --markdown 20230505/o/odoo14-addon-account-invoice-overdue-reminder/14.0.1.4.0-14.0.1.4.1.dev1/diff.md --exclude *.pyd
+[2023-05-05 05:50:59] INFO root fetch - processPackages [xeno]: executing diffoscope
+[2023-05-05 05:50:59] INFO root fetch - processPackages [xeno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xeno-6.1.0.tar.gz tmp/xeno-6.1.1.tar.gz --markdown 20230505/x/xeno/6.1.0-6.1.1/diff.md --exclude *.pyd
+[2023-05-05 05:50:59] INFO root fetch - processPackages [herptest]: Downloading https://files.pythonhosted.org/packages/37/21/bec673f7106cada1f9053486c59a8c18c5ff1d7a5d0a09e497df3ab51ae1/herptest-0.9.9.6.tar.gz
+[2023-05-05 05:50:59] INFO root fetch - processPackages [smartjs]: Downloading https://files.pythonhosted.org/packages/c8/76/b8b9bffcd36935a1eb670ad3c281924a0e17dc65616cead76d2bf4ffbc33/smartjs-0.0.3.tar.gz
+[2023-05-05 05:50:59] INFO root fetch - processPackages [smartjs]: executing diffoscope
+[2023-05-05 05:50:59] INFO root fetch - processPackages [smartjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartjs-0.0.2.tar.gz tmp/smartjs-0.0.3.tar.gz --markdown 20230505/s/smartjs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 05:50:59] INFO root fetch - processPackages [herptest]: executing diffoscope
+[2023-05-05 05:50:59] INFO root fetch - processPackages [herptest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herptest-0.9.9.3.tar.gz tmp/herptest-0.9.9.6.tar.gz --markdown 20230505/h/herptest/0.9.9.3-0.9.9.6/diff.md --exclude *.pyd
+[2023-05-05 05:51:00] INFO root fetch - main [MainThread]: End processing [rellm]: success
+[2023-05-05 05:51:00] INFO root fetch - main [MainThread]: End processing [xeno]: success
+[2023-05-05 05:51:00] INFO root fetch - main [MainThread]: End processing [smartjs]: success
+[2023-05-05 05:51:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-overdue-reminder]: success
+[2023-05-05 05:51:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-overdue-reminder]: success
+[2023-05-05 05:51:01] INFO root fetch - main [MainThread]: End processing [herptest]: success
+[2023-05-05 05:51:01] INFO root fetch - main [MainThread]: Store serial: [17981765]
