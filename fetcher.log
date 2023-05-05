@@ -11970,3 +11970,91 @@
 [2023-05-05 12:36:21] INFO root fetch - main [MainThread]: End processing [bemserver-api]: success
 [2023-05-05 12:36:22] INFO root fetch - main [MainThread]: End processing [sphinx-sizzle-theme]: success
 [2023-05-05 12:36:22] INFO root fetch - main [MainThread]: Store serial: [17985556]
+[2023-05-05 12:41:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17985556]
+[2023-05-05 12:41:31] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-05 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyDuotecno
+[2023-05-05 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf
+[2023-05-05 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: birentechci
+[2023-05-05 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eurodb
+[2023-05-05 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nashbanksync
+[2023-05-05 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rfcx
+[2023-05-05 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rfcxtf
+[2023-05-05 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kongalib
+[2023-05-05 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlpype
+[2023-05-05 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mlpype-base
+[2023-05-05 12:41:31] WARNING root fetch - processPackages [pyDuotecno]: Skipping, unable to determine old version
+[2023-05-05 12:41:31] INFO root fetch - processPackages [pyDuotecno]: Start processing: wechat-api
+[2023-05-05 12:41:31] INFO root fetch - main [MainThread]: End processing [pyDuotecno] error
+[2023-05-05 12:41:31] WARNING root fetch - processPackages [eurodb]: Skipping, unable to determine old version
+[2023-05-05 12:41:31] INFO root fetch - processPackages [eurodb]: Start processing: mlpype-fastapi
+[2023-05-05 12:41:31] INFO root fetch - main [MainThread]: End processing [eurodb] error
+[2023-05-05 12:41:31] WARNING root fetch - processPackages [mlpype-base]: Skipping, unable to determine old version
+[2023-05-05 12:41:31] INFO root fetch - processPackages [birentechci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 12:41:31] INFO root fetch - processPackages [mlpype-base]: Start processing: mlpype-hyperopt
+[2023-05-05 12:41:31] INFO root fetch - processPackages [rfcx]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-05 12:41:31] INFO root fetch - main [MainThread]: End processing [mlpype-base] error
+[2023-05-05 12:41:31] INFO root fetch - processPackages [rfcxtf]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 12:41:31] WARNING root fetch - processPackages [wechat-api]: Skipping, unable to determine old version
+[2023-05-05 12:41:31] INFO root fetch - processPackages [wechat-api]: Start processing: mlpype-mlflow
+[2023-05-05 12:41:31] INFO root fetch - main [MainThread]: End processing [wechat-api] error
+[2023-05-05 12:41:31] WARNING root fetch - processPackages [mlpype]: Skipping, unable to determine old version
+[2023-05-05 12:41:31] INFO root fetch - processPackages [mlpype]: Start processing: mlpype-sklearn
+[2023-05-05 12:41:31] INFO root fetch - main [MainThread]: End processing [mlpype] error
+[2023-05-05 12:41:31] WARNING root fetch - processPackages [mlpype-fastapi]: Skipping, unable to determine old version
+[2023-05-05 12:41:31] INFO root fetch - processPackages [mlpype-fastapi]: Start processing: mlpype-spark
+[2023-05-05 12:41:31] INFO root fetch - main [MainThread]: End processing [mlpype-fastapi] error
+[2023-05-05 12:41:31] WARNING root fetch - processPackages [mlpype-hyperopt]: Skipping, unable to determine old version
+[2023-05-05 12:41:31] INFO root fetch - processPackages [mlpype-hyperopt]: Start processing: remla-lib-release
+[2023-05-05 12:41:31] INFO root fetch - main [MainThread]: End processing [mlpype-hyperopt] error
+[2023-05-05 12:41:31] INFO root fetch - processPackages [kongalib]: New version: [2.0.0] Old Version: [1.9.5]
+[2023-05-05 12:41:31] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 12:41:31] WARNING root fetch - processPackages [mlpype-sklearn]: Skipping, unable to determine old version
+[2023-05-05 12:41:31] INFO root fetch - processPackages [mlpype-sklearn]: Start processing: mlpype-tensorflow
+[2023-05-05 12:41:31] INFO root fetch - main [MainThread]: End processing [mlpype-sklearn] error
+[2023-05-05 12:41:31] WARNING root fetch - processPackages [mlpype-mlflow]: Skipping, unable to determine old version
+[2023-05-05 12:41:31] INFO root fetch - processPackages [remla-lib-release]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-05 12:41:31] INFO root fetch - processPackages [mlpype-mlflow]: Start processing: mlpype-xgboost
+[2023-05-05 12:41:31] INFO root fetch - main [MainThread]: End processing [mlpype-mlflow] error
+[2023-05-05 12:41:31] WARNING root fetch - processPackages [mlpype-spark]: Skipping, unable to determine old version
+[2023-05-05 12:41:31] INFO root fetch - processPackages [mlpype-spark]: Start processing: semisup-segmentation
+[2023-05-05 12:41:31] INFO root fetch - main [MainThread]: End processing [mlpype-spark] error
+[2023-05-05 12:41:31] WARNING root fetch - processPackages [mlpype-tensorflow]: Skipping, unable to determine old version
+[2023-05-05 12:41:31] INFO root fetch - main [MainThread]: End processing [mlpype-tensorflow] error
+[2023-05-05 12:41:31] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-05 12:41:31] WARNING root fetch - processPackages [mlpype-xgboost]: Skipping, unable to determine old version
+[2023-05-05 12:41:31] INFO root fetch - main [MainThread]: End processing [mlpype-xgboost] error
+[2023-05-05 12:41:31] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 12:41:31] INFO root fetch - processPackages [rfcxtf]: Downloading https://files.pythonhosted.org/packages/6a/33/929651992b357b12a56b51f1a484b926c808303c4aa250a0f263fdfc37f6/rfcxtf-0.0.1.tar.gz
+[2023-05-05 12:41:31] INFO root fetch - processPackages [birentechci]: executing diffoscope
+[2023-05-05 12:41:31] INFO root fetch - processPackages [birentechci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birentechci-0.0.8.tar.gz tmp/birentechci-0.0.9.tar.gz --markdown 20230505/b/birentechci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 12:41:31] INFO root fetch - processPackages [rfcx]: Downloading https://files.pythonhosted.org/packages/b8/7c/5777e1927d826569821117ea1683664874b2b7432fd29c70460d0c51683b/rfcx-0.3.1.tar.gz
+[2023-05-05 12:41:31] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-05-05 12:41:31] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.8.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230505/n/nashbanksync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 12:41:31] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-05 12:41:31] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230505/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 12:41:31] INFO root fetch - processPackages [remla-lib-release]: Downloading https://files.pythonhosted.org/packages/fa/0c/e0642eba360b147dea68e62eabfb6564426a2f3a109e31388dd0d8b3f810/remla-lib-release-0.0.0.tar.gz
+[2023-05-05 12:41:31] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2023-05-05 12:41:31] INFO root fetch - processPackages [rfcx]: executing diffoscope
+[2023-05-05 12:41:31] INFO root fetch - processPackages [rfcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfcx-0.3.0.tar.gz tmp/rfcx-0.3.1.tar.gz --markdown 20230505/r/rfcx/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-05 12:41:31] INFO root fetch - processPackages [kongalib]: Downloading https://files.pythonhosted.org/packages/70/26/ec2da03e945ab02a1997a0e81f1d91b729cb8a017f24e4af837f1bc9d438/kongalib-1.9.5.zip
+[2023-05-05 12:41:31] INFO root fetch - processPackages [rfcxtf]: Downloading https://files.pythonhosted.org/packages/9c/46/76b5ae2a59662a7467c9d3801e8b778f977f71952a28a7b6a0889e28027d/rfcxtf-0.0.2.tar.gz
+[2023-05-05 12:41:31] INFO root fetch - processPackages [rfcxtf]: executing diffoscope
+[2023-05-05 12:41:31] INFO root fetch - processPackages [rfcxtf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfcxtf-0.0.1.tar.gz tmp/rfcxtf-0.0.2.tar.gz --markdown 20230505/r/rfcxtf/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 12:41:31] INFO root fetch - processPackages [remla-lib-release]: Downloading https://files.pythonhosted.org/packages/ab/0e/30e2634437d01c2ed90063b39a1dccc3be5591135c1207eaf7a2ff70b398/remla-lib-release-0.0.1.tar.gz
+[2023-05-05 12:41:32] INFO root fetch - processPackages [remla-lib-release]: executing diffoscope
+[2023-05-05 12:41:32] INFO root fetch - processPackages [remla-lib-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remla-lib-release-0.0.0.tar.gz tmp/remla-lib-release-0.0.1.tar.gz --markdown 20230505/r/remla-lib-release/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-05 12:41:32] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2023-05-05 12:41:32] INFO root fetch - processPackages [kongalib]: Downloading https://files.pythonhosted.org/packages/b9/0b/e0c9650a64d5aba77f448b8b932a483a812f8566b02b5060f0cb733e4701/kongalib-2.0.0.tar.gz
+[2023-05-05 12:41:32] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-05-05 12:41:32] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230505/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-05 12:41:32] INFO root fetch - processPackages [kongalib]: executing diffoscope
+[2023-05-05 12:41:32] INFO root fetch - processPackages [kongalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kongalib-1.9.5.zip tmp/kongalib-2.0.0.tar.gz --markdown 20230505/k/kongalib/1.9.5-2.0.0/diff.md --exclude *.pyd
+[2023-05-05 12:41:32] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-05 12:41:32] INFO root fetch - main [MainThread]: End processing [rfcx]: success
+[2023-05-05 12:41:32] INFO root fetch - main [MainThread]: End processing [birentechci]: success
+[2023-05-05 12:41:33] INFO root fetch - main [MainThread]: End processing [remla-lib-release]: success
+[2023-05-05 12:41:33] INFO root fetch - main [MainThread]: End processing [rfcxtf]: success
+[2023-05-05 12:41:33] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-05-05 12:41:33] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-05-05 12:41:33] INFO root fetch - main [MainThread]: End processing [kongalib]: success
+[2023-05-05 12:41:33] INFO root fetch - main [MainThread]: Store serial: [17985641]
