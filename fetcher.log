@@ -5689,3 +5689,64 @@
 [2023-05-05 06:12:07] INFO root fetch - main [MainThread]: End processing [netrics-measurements]: success
 [2023-05-05 06:12:07] INFO root fetch - main [MainThread]: End processing [edc-appointment]: success
 [2023-05-05 06:12:07] INFO root fetch - main [MainThread]: Store serial: [17981823]
+[2023-05-05 06:17:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981823]
+[2023-05-05 06:17:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-05 06:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-05 06:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: granola-py
+[2023-05-05 06:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-05 06:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datoso-seed-nointro
+[2023-05-05 06:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-game-translator
+[2023-05-05 06:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datoso-seed-md-enhanced
+[2023-05-05 06:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datoso-seed-pleasuredome
+[2023-05-05 06:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MKN-third-codes
+[2023-05-05 06:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datoso-seed-redump
+[2023-05-05 06:17:17] INFO root fetch - processPackages [granola-py]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-05 06:17:17] INFO root fetch - processPackages [datoso-seed-pleasuredome]: New version: [0.2.3] Old Version: [0.2.0]
+[2023-05-05 06:17:17] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1683259912] Old Version: [0.1.1683259904]
+[2023-05-05 06:17:17] INFO root fetch - processPackages [openai-game-translator]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-05 06:17:17] WARNING root fetch - processPackages [datoso-seed-md-enhanced]: Skipping, unable to determine old version
+[2023-05-05 06:17:17] INFO root fetch - processPackages [datoso-seed-nointro]: New version: [0.2.3] Old Version: [0.2.0]
+[2023-05-05 06:17:17] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.6.6.1] Old Version: [0.6.6]
+[2023-05-05 06:17:17] INFO root fetch - main [MainThread]: End processing [datoso-seed-md-enhanced] error
+[2023-05-05 06:17:17] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1683259912] Old Version: [0.1.1683259904]
+[2023-05-05 06:17:17] INFO root fetch - processPackages [datoso-seed-redump]: New version: [0.2.3] Old Version: [0.2.0]
+[2023-05-05 06:17:17] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/58/ab/2021bfd12aadeff3d1c66a500103019c07a208bc08cf2786ae6fea168d31/eia-odin-pkg-rioatmadja2018-0.1.1683259904.tar.gz
+[2023-05-05 06:17:17] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/58/ab/2021bfd12aadeff3d1c66a500103019c07a208bc08cf2786ae6fea168d31/eia-odin-pkg-rioatmadja2018-0.1.1683259904.tar.gz
+[2023-05-05 06:17:17] INFO root fetch - processPackages [datoso-seed-pleasuredome]: Downloading https://files.pythonhosted.org/packages/3c/6d/d3090ab1293289ca11b12cd4d60b0b414f8cd286b749bf532594bd12304c/datoso_seed_pleasuredome-0.2.0.tar.gz
+[2023-05-05 06:17:17] INFO root fetch - processPackages [granola-py]: Downloading https://files.pythonhosted.org/packages/4f/64/796055c1ad8041e326b20d0bbde82370029032172786d502135db3d9f051/granola_py-1.0.6.tar.gz
+[2023-05-05 06:17:17] INFO root fetch - processPackages [datoso-seed-nointro]: Downloading https://files.pythonhosted.org/packages/98/94/ba29251b17a7e8c154509ad286356341f8c778eaf0b363fad7864e85c125/datoso_seed_nointro-0.2.0.tar.gz
+[2023-05-05 06:17:17] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/28/b3/67fa725e7ee1a94a0606d8c158c189ea734db5ad2b2122e0c97ecffbc234/MKN_third_codes-0.6.6.1.tar.gz
+[2023-05-05 06:17:17] INFO root fetch - processPackages [openai-game-translator]: Downloading https://files.pythonhosted.org/packages/2c/75/b9c5f89db596b5772f60b3553e09641b47d2826b91c2708db6d1d6d691b9/openai-game-translator-1.1.0.tar.gz
+[2023-05-05 06:17:18] INFO root fetch - processPackages [datoso-seed-redump]: Downloading https://files.pythonhosted.org/packages/75/66/0a33dad9f476e90cbe7abfeaab677e2cd8258b90f1fa688335e6bcfa0c53/datoso_seed_redump-0.2.0.tar.gz
+[2023-05-05 06:17:18] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/b6/c1/b0b7047b66922636504a9539ee326bbbe8a0f74ddf59169205689437e7a2/eia_odin_pkg_rioatmadja2018-0.1.1683259912-py3-none-any.whl
+[2023-05-05 06:17:18] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/b6/c1/b0b7047b66922636504a9539ee326bbbe8a0f74ddf59169205689437e7a2/eia_odin_pkg_rioatmadja2018-0.1.1683259912-py3-none-any.whl
+[2023-05-05 06:17:18] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-05 06:17:18] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.6.6.tar.gz tmp/MKN_third_codes-0.6.6.1.tar.gz --markdown 20230505/M/MKN-third-codes/0.6.6-0.6.6.1/diff.md --exclude *.pyd
+[2023-05-05 06:17:18] INFO root fetch - processPackages [datoso-seed-pleasuredome]: Downloading https://files.pythonhosted.org/packages/83/bd/c13c7a6345d09434ed07c4d962fb0f21623aab276c04345119e01b3aca98/datoso_seed_pleasuredome-0.2.3.tar.gz
+[2023-05-05 06:17:18] INFO root fetch - processPackages [datoso-seed-nointro]: Downloading https://files.pythonhosted.org/packages/25/e3/27731911dfb121c2ca2adfb770e4cae936f2fa9ba1376f8395ddbdecc363/datoso_seed_nointro-0.2.3.tar.gz
+[2023-05-05 06:17:18] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-05 06:17:18] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1683259904.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1683259912-py3-none-any.whl.zip --markdown 20230505/e/eia-odin-pkg-rioatmadja2018/0.1.1683259904-0.1.1683259912/diff.md --exclude *.pyd
+[2023-05-05 06:17:18] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-05 06:17:18] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1683259904.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1683259912-py3-none-any.whl.zip --markdown 20230505/e/eia-odin-pkg-rioatmadja2018/0.1.1683259904-0.1.1683259912/diff.md --exclude *.pyd
+[2023-05-05 06:17:18] INFO root fetch - processPackages [datoso-seed-pleasuredome]: executing diffoscope
+[2023-05-05 06:17:18] INFO root fetch - processPackages [datoso-seed-pleasuredome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_pleasuredome-0.2.0.tar.gz tmp/datoso_seed_pleasuredome-0.2.3.tar.gz --markdown 20230505/d/datoso-seed-pleasuredome/0.2.0-0.2.3/diff.md --exclude *.pyd
+[2023-05-05 06:17:18] INFO root fetch - processPackages [datoso-seed-nointro]: executing diffoscope
+[2023-05-05 06:17:18] INFO root fetch - processPackages [datoso-seed-nointro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_nointro-0.2.0.tar.gz tmp/datoso_seed_nointro-0.2.3.tar.gz --markdown 20230505/d/datoso-seed-nointro/0.2.0-0.2.3/diff.md --exclude *.pyd
+[2023-05-05 06:17:18] INFO root fetch - processPackages [datoso-seed-redump]: Downloading https://files.pythonhosted.org/packages/6c/48/ecd95ca95f15457ee4db1592a09d60d8c838884845113425e4ca9decb242/datoso_seed_redump-0.2.3.tar.gz
+[2023-05-05 06:17:18] INFO root fetch - processPackages [granola-py]: Downloading https://files.pythonhosted.org/packages/b1/71/98799a45b6a1655dc8dc4ad4fac427f8afaa127f3a6f2933db9e7205855b/granola_py-1.0.7.tar.gz
+[2023-05-05 06:17:18] INFO root fetch - processPackages [granola-py]: executing diffoscope
+[2023-05-05 06:17:18] INFO root fetch - processPackages [granola-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granola_py-1.0.6.tar.gz tmp/granola_py-1.0.7.tar.gz --markdown 20230505/g/granola-py/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-05 06:17:18] INFO root fetch - processPackages [openai-game-translator]: Downloading https://files.pythonhosted.org/packages/41/80/ec7e969cb09f5e8b3f37c5fa89dd009cc97a621cc1865dd829da4fd5523d/openai-game-translator-1.2.0.tar.gz
+[2023-05-05 06:17:18] INFO root fetch - processPackages [datoso-seed-redump]: executing diffoscope
+[2023-05-05 06:17:18] INFO root fetch - processPackages [datoso-seed-redump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_redump-0.2.0.tar.gz tmp/datoso_seed_redump-0.2.3.tar.gz --markdown 20230505/d/datoso-seed-redump/0.2.0-0.2.3/diff.md --exclude *.pyd
+[2023-05-05 06:17:18] INFO root fetch - processPackages [openai-game-translator]: executing diffoscope
+[2023-05-05 06:17:18] INFO root fetch - processPackages [openai-game-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-game-translator-1.1.0.tar.gz tmp/openai-game-translator-1.2.0.tar.gz --markdown 20230505/o/openai-game-translator/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-05 06:17:19] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-05 06:17:19] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-05 06:17:19] INFO root fetch - main [MainThread]: End processing [datoso-seed-pleasuredome]: success
+[2023-05-05 06:17:19] INFO root fetch - main [MainThread]: End processing [datoso-seed-nointro]: success
+[2023-05-05 06:17:19] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-05 06:17:19] INFO root fetch - main [MainThread]: End processing [datoso-seed-redump]: success
+[2023-05-05 06:17:19] INFO root fetch - main [MainThread]: End processing [granola-py]: success
+[2023-05-05 06:17:21] INFO root fetch - main [MainThread]: End processing [openai-game-translator]: success
+[2023-05-05 06:17:21] INFO root fetch - main [MainThread]: Store serial: [17981851]
