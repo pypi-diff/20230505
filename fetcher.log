@@ -5065,3 +5065,30 @@
 [2023-05-05 04:56:12] INFO root fetch - main [MainThread]: End processing [pelicun]: success
 [2023-05-05 04:57:22] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-05-05 04:57:22] INFO root fetch - main [MainThread]: Store serial: [17981494]
+[2023-05-05 05:02:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981494]
+[2023-05-05 05:02:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-05 05:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: carchive
+[2023-05-05 05:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-spinner
+[2023-05-05 05:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfirebird
+[2023-05-05 05:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlglot
+[2023-05-05 05:02:32] INFO root fetch - processPackages [carchive]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-05 05:02:32] INFO root fetch - processPackages [simple-spinner]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 05:02:32] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 05:02:32] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-05-05 05:02:32] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-05-05 05:02:32] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230505/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-05-05 05:02:32] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/fc/f3/2cbf5b5eba09504470f26c304db363128ac5f5743b26d2cc50d178274e09/pyfirebird-0.0.8.tar.gz
+[2023-05-05 05:02:32] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/50/d8/6e7705e88a59716af0e7d9433b3233f5e78255f0621e193bbccbce076ddf/carchive-0.0.45.tar.gz
+[2023-05-05 05:02:32] INFO root fetch - processPackages [simple-spinner]: Downloading https://files.pythonhosted.org/packages/37/4b/aa6b70e156a1354b394956d2e98d32ec91e5e036ba5a84537969b751d8cd/simple_spinner-0.1.2-py3-none-any.whl
+[2023-05-05 05:02:32] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-05 05:02:32] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.44.tar.gz tmp/carchive-0.0.45.tar.gz --markdown 20230505/c/carchive/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-05 05:02:32] INFO root fetch - processPackages [simple-spinner]: executing diffoscope
+[2023-05-05 05:02:32] INFO root fetch - processPackages [simple-spinner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_spinner-0.1.1-py3-none-any.whl.zip tmp/simple_spinner-0.1.2-py3-none-any.whl.zip --markdown 20230505/s/simple-spinner/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 05:02:32] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/aa/11/76f68d854eccfadd2472bb46f5dd4774b1cb3933316943142717d8337ea1/pyfirebird-0.0.9.tar.gz
+[2023-05-05 05:02:32] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-05-05 05:02:32] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.8.tar.gz tmp/pyfirebird-0.0.9.tar.gz --markdown 20230505/p/pyfirebird/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 05:02:33] INFO root fetch - main [MainThread]: End processing [simple-spinner]: success
+[2023-05-05 05:02:33] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-05 05:02:33] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-05-05 05:02:33] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-05-05 05:02:33] INFO root fetch - main [MainThread]: Store serial: [17981507]
