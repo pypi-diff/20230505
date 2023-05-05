@@ -2210,3 +2210,32 @@
 [2023-05-05 02:33:26] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-05-05 02:33:50] INFO root fetch - main [MainThread]: End processing [HTTP-PyServer]: success
 [2023-05-05 02:33:50] INFO root fetch - main [MainThread]: Store serial: [17979798]
+[2023-05-05 02:38:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17979798]
+[2023-05-05 02:38:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-05 02:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remlateam12
+[2023-05-05 02:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slapstack
+[2023-05-05 02:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: state-machine-semaphore
+[2023-05-05 02:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exclusionms
+[2023-05-05 02:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyFCST
+[2023-05-05 02:38:59] INFO root fetch - processPackages [remlateam12]: New version: [0.0.8] Old Version: [0.0.2]
+[2023-05-05 02:38:59] WARNING root fetch - processPackages [pyFCST]: Skipping, unable to determine old version
+[2023-05-05 02:38:59] INFO root fetch - processPackages [slapstack]: New version: [0.1.1] Old Version: [0.0.24]
+[2023-05-05 02:38:59] INFO root fetch - main [MainThread]: End processing [pyFCST] error
+[2023-05-05 02:38:59] INFO root fetch - processPackages [exclusionms]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-05 02:38:59] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-05 02:38:59] INFO root fetch - processPackages [exclusionms]: Downloading https://files.pythonhosted.org/packages/f7/f2/cf2df83a1c212cbe2a68bd4db2ec3e6df902f973207c2f2a4ae8ac48838b/exclusionms-0.2.1.tar.gz
+[2023-05-05 02:38:59] INFO root fetch - processPackages [slapstack]: Downloading https://files.pythonhosted.org/packages/a6/c4/ae32dac4d0af8fdae60c799c7413348c44f7f6b808e342b0282a5f82e95b/slapstack-0.0.24.tar.gz
+[2023-05-05 02:38:59] INFO root fetch - processPackages [exclusionms]: executing diffoscope
+[2023-05-05 02:38:59] INFO root fetch - processPackages [exclusionms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exclusionms-0.2.0.tar.gz tmp/exclusionms-0.2.1.tar.gz --markdown 20230505/e/exclusionms/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-05 02:38:59] INFO root fetch - processPackages [remlateam12]: executing diffoscope
+[2023-05-05 02:38:59] INFO root fetch - processPackages [remlateam12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remlateam12-0.0.2.tar.gz tmp/remlateam12-0.0.8.tar.gz --markdown 20230505/r/remlateam12/0.0.2-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 02:38:59] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-05-05 02:38:59] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230505/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-05 02:39:00] INFO root fetch - processPackages [slapstack]: Downloading https://files.pythonhosted.org/packages/c9/2f/2ed045d204c06e9262db966f2f9f79a53ee1dc317c04ff42167cf13409a5/slapstack-0.1.1.tar.gz
+[2023-05-05 02:39:00] INFO root fetch - processPackages [slapstack]: executing diffoscope
+[2023-05-05 02:39:00] INFO root fetch - processPackages [slapstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slapstack-0.0.24.tar.gz tmp/slapstack-0.1.1.tar.gz --markdown 20230505/s/slapstack/0.0.24-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 02:39:00] INFO root fetch - main [MainThread]: End processing [remlateam12]: success
+[2023-05-05 02:39:00] INFO root fetch - main [MainThread]: End processing [exclusionms]: success
+[2023-05-05 02:39:01] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-05-05 02:39:04] INFO root fetch - main [MainThread]: End processing [slapstack]: success
+[2023-05-05 02:39:04] INFO root fetch - main [MainThread]: Store serial: [17979816]
