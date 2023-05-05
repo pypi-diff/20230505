@@ -12185,3 +12185,49 @@
 [2023-05-05 12:52:04] INFO root fetch - main [MainThread]: End processing [junifer]: success
 [2023-05-05 12:52:06] INFO root fetch - main [MainThread]: End processing [proxsuite]: success
 [2023-05-05 12:52:06] INFO root fetch - main [MainThread]: Store serial: [17985733]
+[2023-05-05 12:57:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17985733]
+[2023-05-05 12:57:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-05 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hctest-basic-platform
+[2023-05-05 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ais-dom-frontend
+[2023-05-05 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: editanything
+[2023-05-05 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oceano-algos
+[2023-05-05 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remla-lib-release
+[2023-05-05 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onnx2tf
+[2023-05-05 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ImageMagic
+[2023-05-05 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-webperformers-humans
+[2023-05-05 12:57:17] INFO root fetch - processPackages [hctest-basic-platform]: New version: [4.0] Old Version: [3.0]
+[2023-05-05 12:57:17] INFO root fetch - processPackages [ais-dom-frontend]: New version: [20230503.2] Old Version: [20230503.1]
+[2023-05-05 12:57:17] INFO root fetch - processPackages [remla-lib-release]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 12:57:17] INFO root fetch - processPackages [editanything]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-05 12:57:17] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 12:57:17] INFO root fetch - processPackages [ImageMagic]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-05 12:57:17] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-05 12:57:17] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-05-05 12:57:17] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230505/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 12:57:18] INFO root fetch - processPackages [ais-dom-frontend]: Downloading https://files.pythonhosted.org/packages/d1/ad/1a3e8b49ae85121f950342c3a0ad9925202559875eb49fa7dac7a5fb8ec9/ais_dom_frontend-20230503.1-py3-none-any.whl
+[2023-05-05 12:57:18] WARNING root fetch - processPackages [django-webperformers-humans]: Skipping, unable to determine old version
+[2023-05-05 12:57:18] INFO root fetch - main [MainThread]: End processing [django-webperformers-humans] error
+[2023-05-05 12:57:18] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-05 12:57:18] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230505/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-05 12:57:18] INFO root fetch - processPackages [remla-lib-release]: Downloading https://files.pythonhosted.org/packages/81/c0/a6caebbffd4063ce5bb2fd1034b63c65c18a60c851d62d3b683ec8fe7383/remla-lib-release-0.0.2.tar.gz
+[2023-05-05 12:57:18] WARNING root fetch - processPackages [ais-dom-frontend]: Skipping package: exceeds size limit 50108322>=10485760
+[2023-05-05 12:57:18] INFO root fetch - main [MainThread]: End processing [ais-dom-frontend] error
+[2023-05-05 12:57:18] INFO root fetch - processPackages [editanything]: Downloading https://files.pythonhosted.org/packages/b2/cf/0968f66979b25b32de3b6903f900571d4eeb40f3c1efa1c6debf7d7ca65c/editanything-0.0.7.tar.gz
+[2023-05-05 12:57:18] INFO root fetch - processPackages [ImageMagic]: Downloading https://files.pythonhosted.org/packages/d3/21/1ab95927294c808d72ede997fb7309fc55c8bff42f952c2c90f6f83fdd24/ImageMagic-0.1.6.tar.gz
+[2023-05-05 12:57:18] INFO root fetch - processPackages [editanything]: executing diffoscope
+[2023-05-05 12:57:18] INFO root fetch - processPackages [editanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/editanything-0.0.6.tar.gz tmp/editanything-0.0.7.tar.gz --markdown 20230505/e/editanything/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-05 12:57:18] INFO root fetch - processPackages [ImageMagic]: executing diffoscope
+[2023-05-05 12:57:18] INFO root fetch - processPackages [ImageMagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImageMagic-0.1.5.tar.gz tmp/ImageMagic-0.1.6.tar.gz --markdown 20230505/I/ImageMagic/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-05 12:57:18] INFO root fetch - processPackages [remla-lib-release]: Downloading https://files.pythonhosted.org/packages/8d/17/2e7031fee93291018ee2cd3b1d91eee63662aa88231f3c242f4f76b5e7e7/remla-lib-release-0.0.3.tar.gz
+[2023-05-05 12:57:18] INFO root fetch - processPackages [hctest-basic-platform]: Downloading https://files.pythonhosted.org/packages/92/b1/0bcdc231e3833c370d13e60f366960f3b6049b56d672d8940081f7ad58a7/hctest_basic_platform-4.0.tar.gz
+[2023-05-05 12:57:18] INFO root fetch - processPackages [remla-lib-release]: executing diffoscope
+[2023-05-05 12:57:18] INFO root fetch - processPackages [remla-lib-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remla-lib-release-0.0.2.tar.gz tmp/remla-lib-release-0.0.3.tar.gz --markdown 20230505/r/remla-lib-release/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 12:57:18] INFO root fetch - processPackages [hctest-basic-platform]: executing diffoscope
+[2023-05-05 12:57:18] INFO root fetch - processPackages [hctest-basic-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hctest_basic_platform-3.0.tar.gz tmp/hctest_basic_platform-4.0.tar.gz --markdown 20230505/h/hctest-basic-platform/3.0-4.0/diff.md --exclude *.pyd
+[2023-05-05 12:57:19] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-05-05 12:57:19] INFO root fetch - main [MainThread]: End processing [remla-lib-release]: success
+[2023-05-05 12:57:19] INFO root fetch - main [MainThread]: End processing [hctest-basic-platform]: success
+[2023-05-05 12:57:19] INFO root fetch - main [MainThread]: End processing [editanything]: success
+[2023-05-05 12:57:19] INFO root fetch - main [MainThread]: End processing [ImageMagic]: success
+[2023-05-05 12:57:20] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-05 12:57:20] INFO root fetch - main [MainThread]: Store serial: [17985777]
