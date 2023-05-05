@@ -9735,3 +9735,131 @@
 [2023-05-05 10:53:17] INFO root fetch - main [MainThread]: End processing [epitools]: success
 [2023-05-05 10:53:39] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
 [2023-05-05 10:53:39] INFO root fetch - main [MainThread]: Store serial: [17984225]
+[2023-05-05 10:58:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17984225]
+[2023-05-05 10:58:48] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-05 10:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: murfey
+[2023-05-05 10:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lumigo-opentelemetry
+[2023-05-05 10:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fds.sdk.FactSetEstimates
+[2023-05-05 10:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fds.sdk.OFDB
+[2023-05-05 10:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pants-py-deploy
+[2023-05-05 10:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fds.sdk.OverviewReportBuilder
+[2023-05-05 10:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyuiauto
+[2023-05-05 10:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: semisup-segmentation
+[2023-05-05 10:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: packagebinbin
+[2023-05-05 10:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unicboard-billing-sdk
+[2023-05-05 10:58:48] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 10:58:48] INFO root fetch - processPackages [fds.sdk.FactSetEstimates]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-05 10:58:48] INFO root fetch - processPackages [fds.sdk.OverviewReportBuilder]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-05 10:58:48] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 10:58:48] INFO root fetch - processPackages [unicboard-billing-sdk]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-05-05 10:58:48] INFO root fetch - processPackages [packagebinbin]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 10:58:48] INFO root fetch - processPackages [pyuiauto]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 10:58:48] INFO root fetch - processPackages [fds.sdk.OFDB]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-05 10:58:48] INFO root fetch - processPackages [pants-py-deploy]: New version: [0.0.15rc5] Old Version: [0.0.15rc4]
+[2023-05-05 10:58:48] INFO root fetch - processPackages [murfey]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-05 10:58:48] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-05 10:58:48] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230505/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 10:58:48] INFO root fetch - processPackages [packagebinbin]: Downloading https://files.pythonhosted.org/packages/10/cf/b6eee1ddcf66ccae3c27ecbabe6a8d4461c128d679716fbb73b6014b228d/packagebinbin-0.0.6-py3-none-any.whl
+[2023-05-05 10:58:48] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/9c/64/2e350612673dcde2f1bd79c8b6fea2e0ef8b6239bdff92276be501c2c300/lumigo_opentelemetry-1.0.8-py3-none-any.whl
+[2023-05-05 10:58:48] INFO root fetch - processPackages [unicboard-billing-sdk]: Downloading https://files.pythonhosted.org/packages/58/e2/53c91a3064a1835ca9c5a79d856410a3c937d68b01b278360723217ff4bf/unicboard_billing_sdk-1.0.1.tar.gz
+[2023-05-05 10:58:48] INFO root fetch - processPackages [fds.sdk.OFDB]: Downloading https://files.pythonhosted.org/packages/b9/bc/9eb42758ab3a9b217e7d86c20a14973e6cb25aa5725b5ad91efec51e1c40/fds.sdk.OFDB-0.9.1-py3-none-any.whl
+[2023-05-05 10:58:48] INFO root fetch - processPackages [fds.sdk.OverviewReportBuilder]: Downloading https://files.pythonhosted.org/packages/bd/d7/472be9edb16eb0d0cc01b1cef65ec12bc5bb4fef8220cee59f805d3a372b/fds.sdk.OverviewReportBuilder-1.0.1-py3-none-any.whl
+[2023-05-05 10:58:48] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/62/e1/ab42c18ceb8c8c9dc6c006038b43d0e3a5dc90504b6de9e6e21d38513e5c/pants_py_deploy-0.0.15rc5-py3-none-any.whl
+[2023-05-05 10:58:48] INFO root fetch - processPackages [packagebinbin]: executing diffoscope
+[2023-05-05 10:58:48] INFO root fetch - processPackages [packagebinbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packagebinbin-0.0.5.tar.gz tmp/packagebinbin-0.0.6-py3-none-any.whl.zip --markdown 20230505/p/packagebinbin/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 10:58:48] INFO root fetch - processPackages [pyuiauto]: Downloading https://files.pythonhosted.org/packages/17/fa/da3a6224a44f91a4c68c93470ffb9a32d7e60ddb2c0090cf8287f78758c3/pyUIauto-0.1.2.tar.gz
+[2023-05-05 10:58:48] INFO root fetch - processPackages [pants-py-deploy]: executing diffoscope
+[2023-05-05 10:58:48] INFO root fetch - processPackages [pants-py-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants_py_deploy-0.0.15rc4-py3-none-any.whl.zip tmp/pants_py_deploy-0.0.15rc5-py3-none-any.whl.zip --markdown 20230505/p/pants-py-deploy/0.0.15rc4-0.0.15rc5/diff.md --exclude *.pyd
+[2023-05-05 10:58:48] INFO root fetch - processPackages [fds.sdk.FactSetEstimates]: Downloading https://files.pythonhosted.org/packages/15/e6/ae1a55b066e832f79542613a40239c13aa6ccd52e497b641a88dbc400e4d/fds.sdk.FactSetEstimates-1.0.1-py3-none-any.whl
+[2023-05-05 10:58:49] INFO root fetch - processPackages [pyuiauto]: executing diffoscope
+[2023-05-05 10:58:49] INFO root fetch - processPackages [pyuiauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyUIauto-0.1.1.tar.gz tmp/pyUIauto-0.1.2.tar.gz --markdown 20230505/p/pyuiauto/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 10:58:49] INFO root fetch - processPackages [murfey]: executing diffoscope
+[2023-05-05 10:58:49] INFO root fetch - processPackages [murfey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murfey-0.7.8.tar.gz tmp/murfey-0.7.9.tar.gz --markdown 20230505/m/murfey/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-05 10:58:49] INFO root fetch - processPackages [unicboard-billing-sdk]: Downloading https://files.pythonhosted.org/packages/df/d9/23d38284a52f38636c09ccab5af5c849e7742ced688e9d5e9c2787e2113a/unicboard_billing_sdk-2.0.0.tar.gz
+[2023-05-05 10:58:49] INFO root fetch - processPackages [fds.sdk.OverviewReportBuilder]: Downloading https://files.pythonhosted.org/packages/53/1b/6356e71b635908b839db815f6f0d1c97f83aa856a566ed36932bed5fbbe7/fds.sdk.OverviewReportBuilder-1.1.0-py3-none-any.whl
+[2023-05-05 10:58:49] INFO root fetch - processPackages [fds.sdk.OFDB]: Downloading https://files.pythonhosted.org/packages/60/66/474dd298ca2cdf52a5ac2fa99142997bdb508eece8b12a1704c8d8eb4fdf/fds.sdk.OFDB-0.9.2-py3-none-any.whl
+[2023-05-05 10:58:49] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f7/5b/deb6be16415fe585d5fa6fd34df7999995f7157a010bcaddba8ef665f9ae/lumigo_opentelemetry-1.0.9-py3-none-any.whl
+[2023-05-05 10:58:49] INFO root fetch - processPackages [unicboard-billing-sdk]: executing diffoscope
+[2023-05-05 10:58:49] INFO root fetch - processPackages [unicboard-billing-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicboard_billing_sdk-1.0.1.tar.gz tmp/unicboard_billing_sdk-2.0.0.tar.gz --markdown 20230505/u/unicboard-billing-sdk/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-05 10:58:49] INFO root fetch - processPackages [fds.sdk.OverviewReportBuilder]: executing diffoscope
+[2023-05-05 10:58:49] INFO root fetch - processPackages [fds.sdk.OverviewReportBuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.OverviewReportBuilder-1.0.1-py3-none-any.whl.zip tmp/fds.sdk.OverviewReportBuilder-1.1.0-py3-none-any.whl.zip --markdown 20230505/f/fds.sdk.OverviewReportBuilder/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 10:58:49] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-05-05 10:58:49] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.8-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip --markdown 20230505/l/lumigo-opentelemetry/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 10:58:49] INFO root fetch - processPackages [fds.sdk.OFDB]: executing diffoscope
+[2023-05-05 10:58:49] INFO root fetch - processPackages [fds.sdk.OFDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.OFDB-0.9.1-py3-none-any.whl.zip tmp/fds.sdk.OFDB-0.9.2-py3-none-any.whl.zip --markdown 20230505/f/fds.sdk.OFDB/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-05 10:58:49] INFO root fetch - processPackages [fds.sdk.FactSetEstimates]: Downloading https://files.pythonhosted.org/packages/af/1d/42662bcd86e59e30de051710ecf6a834898c771dcfc6f9efaa43aa4b05d0/fds.sdk.FactSetEstimates-1.0.2-py3-none-any.whl
+[2023-05-05 10:58:49] INFO root fetch - processPackages [fds.sdk.FactSetEstimates]: executing diffoscope
+[2023-05-05 10:58:49] INFO root fetch - processPackages [fds.sdk.FactSetEstimates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.FactSetEstimates-1.0.1-py3-none-any.whl.zip tmp/fds.sdk.FactSetEstimates-1.0.2-py3-none-any.whl.zip --markdown 20230505/f/fds.sdk.FactSetEstimates/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-05 10:58:50] INFO root fetch - processPackages [packagebinbin]: Start processing: repvgg-pytorch
+[2023-05-05 10:58:50] INFO root fetch - main [MainThread]: End processing [packagebinbin]: success
+[2023-05-05 10:58:50] INFO root fetch - processPackages [repvgg-pytorch]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 10:58:50] INFO root fetch - processPackages [semisup-segmentation]: Start processing: dsharp-opac
+[2023-05-05 10:58:50] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-05 10:58:50] INFO root fetch - processPackages [dsharp-opac]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-05 10:58:50] INFO root fetch - processPackages [pants-py-deploy]: Start processing: zzlib
+[2023-05-05 10:58:50] INFO root fetch - main [MainThread]: End processing [pants-py-deploy]: success
+[2023-05-05 10:58:50] WARNING root fetch - processPackages [zzlib]: Skipping, unable to determine old version
+[2023-05-05 10:58:50] INFO root fetch - processPackages [zzlib]: Start processing: funboost
+[2023-05-05 10:58:50] INFO root fetch - main [MainThread]: End processing [zzlib] error
+[2023-05-05 10:58:50] INFO root fetch - processPackages [funboost]: New version: [20.5] Old Version: [20.4]
+[2023-05-05 10:58:50] INFO root fetch - processPackages [repvgg-pytorch]: Downloading https://files.pythonhosted.org/packages/17/3f/ba7438ec8b2ec47c878cb09806d01a05b07f2c69021151ca8fcf82f3cc96/repvgg-pytorch-1.0.0.tar.gz
+[2023-05-05 10:58:50] INFO root fetch - processPackages [dsharp-opac]: Downloading https://files.pythonhosted.org/packages/f9/1d/4c45d64ae7dbf0680de25548070dbee0c4a24689f7f5be5bba701e623263/dsharp_opac-1.1.6.tar.gz
+[2023-05-05 10:58:50] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/97/93/5937ad06e56e47e049b33dec2935fb907adbc46cf2f3f074cf559e378891/funboost-20.4-py3-none-any.whl
+[2023-05-05 10:58:50] INFO root fetch - processPackages [repvgg-pytorch]: Downloading https://files.pythonhosted.org/packages/fb/b3/f22f67ae285cf7ae4fc27509e9a54e372b6788dbf2847933a5fbc509051e/repvgg-pytorch-1.0.1.tar.gz
+[2023-05-05 10:58:50] INFO root fetch - processPackages [unicboard-billing-sdk]: Start processing: torch4uie
+[2023-05-05 10:58:50] INFO root fetch - main [MainThread]: End processing [unicboard-billing-sdk]: success
+[2023-05-05 10:58:50] INFO root fetch - processPackages [torch4uie]: New version: [2023.5.5.16.57.38] Old Version: [2023.5.5.16.56.55]
+[2023-05-05 10:58:50] INFO root fetch - processPackages [repvgg-pytorch]: executing diffoscope
+[2023-05-05 10:58:50] INFO root fetch - processPackages [repvgg-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repvgg-pytorch-1.0.0.tar.gz tmp/repvgg-pytorch-1.0.1.tar.gz --markdown 20230505/r/repvgg-pytorch/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 10:58:50] INFO root fetch - processPackages [dsharp-opac]: Downloading https://files.pythonhosted.org/packages/11/e8/d2c3ea6e4c1f6b319bf36f4f08f3ffcbcdd0ea93e19b321b84822199fc5a/dsharp_opac-1.1.7.tar.gz
+[2023-05-05 10:58:50] INFO root fetch - processPackages [torch4uie]: Downloading https://files.pythonhosted.org/packages/01/38/3f2e306b49571c12b3a2368939881063f8b1dea7f6ae11d7220d13a9c36f/torch4uie-2023.5.5.16.56.55.tar.gz
+[2023-05-05 10:58:50] INFO root fetch - processPackages [murfey]: Start processing: tyro
+[2023-05-05 10:58:50] INFO root fetch - main [MainThread]: End processing [murfey]: success
+[2023-05-05 10:58:50] INFO root fetch - processPackages [tyro]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-05 10:58:50] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/9f/a8/19be8d9eee3f687874bf7db9cb7fdbb881f6a7b512973eec89ba5ccd0f72/funboost-20.5-py3-none-any.whl
+[2023-05-05 10:58:51] INFO root fetch - processPackages [dsharp-opac]: executing diffoscope
+[2023-05-05 10:58:51] INFO root fetch - processPackages [dsharp-opac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsharp_opac-1.1.6.tar.gz tmp/dsharp_opac-1.1.7.tar.gz --markdown 20230505/d/dsharp-opac/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-05 10:58:51] INFO root fetch - processPackages [tyro]: Downloading https://files.pythonhosted.org/packages/0a/7e/2278fc9f17140c33d80b6d1c5b1d95fc69deab438e350ccce052e5b51dca/tyro-0.4.2.tar.gz
+[2023-05-05 10:58:51] INFO root fetch - processPackages [torch4uie]: Downloading https://files.pythonhosted.org/packages/67/16/56bd9f4a16b0148a87ebe3d900f2181e1eb9972652e2f948e34ce69db899/torch4uie-2023.5.5.16.57.38.tar.gz
+[2023-05-05 10:58:51] INFO root fetch - processPackages [pyuiauto]: Start processing: torch4uie
+[2023-05-05 10:58:51] INFO root fetch - main [MainThread]: End processing [pyuiauto]: success
+[2023-05-05 10:58:51] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2023-05-05 10:58:51] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-20.4-py3-none-any.whl.zip tmp/funboost-20.5-py3-none-any.whl.zip --markdown 20230505/f/funboost/20.4-20.5/diff.md --exclude *.pyd
+[2023-05-05 10:58:51] INFO root fetch - processPackages [torch4uie]: New version: [2023.5.5.16.57.38] Old Version: [2023.5.5.16.56.55]
+[2023-05-05 10:58:51] INFO root fetch - processPackages [torch4uie]: Downloading https://files.pythonhosted.org/packages/67/16/56bd9f4a16b0148a87ebe3d900f2181e1eb9972652e2f948e34ce69db899/torch4uie-2023.5.5.16.57.38.tar.gz
+[2023-05-05 10:58:51] INFO root fetch - processPackages [torch4uie]: executing diffoscope
+[2023-05-05 10:58:51] INFO root fetch - processPackages [torch4uie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch4uie-2023.5.5.16.56.55.tar.gz tmp/torch4uie-2023.5.5.16.57.38.tar.gz --markdown 20230505/t/torch4uie/2023.5.5.16.56.55-2023.5.5.16.57.38/diff.md --exclude *.pyd
+[2023-05-05 10:58:51] INFO root fetch - processPackages [lumigo-opentelemetry]: Start processing: LogAssist
+[2023-05-05 10:58:51] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-05-05 10:58:51] INFO root fetch - processPackages [torch4uie]: executing diffoscope
+[2023-05-05 10:58:51] INFO root fetch - processPackages [torch4uie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch4uie-2023.5.5.16.56.55.tar.gz tmp/torch4uie-2023.5.5.16.57.38.tar.gz --markdown 20230505/t/torch4uie/2023.5.5.16.56.55-2023.5.5.16.57.38/diff.md --exclude *.pyd
+[2023-05-05 10:58:51] INFO root fetch - processPackages [LogAssist]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-05 10:58:51] INFO root fetch - processPackages [tyro]: Downloading https://files.pythonhosted.org/packages/5b/22/94ed2bf57245804958ca96f693a7e9f073928550b28455b401504d146d45/tyro-0.5.0.tar.gz
+[2023-05-05 10:58:51] INFO root fetch - processPackages [tyro]: executing diffoscope
+[2023-05-05 10:58:51] INFO root fetch - processPackages [tyro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tyro-0.4.2.tar.gz tmp/tyro-0.5.0.tar.gz --markdown 20230505/t/tyro/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-05 10:58:51] INFO root fetch - processPackages [LogAssist]: Downloading https://files.pythonhosted.org/packages/ca/55/f0d29508b058939e87c1d5cf524b34af69e581cf9aae0c2cda28fb58d2a0/LogAssist-1.0.4.tar.gz
+[2023-05-05 10:58:51] INFO root fetch - processPackages [fds.sdk.OFDB]: Start processing: fasterai
+[2023-05-05 10:58:51] INFO root fetch - main [MainThread]: End processing [fds.sdk.OFDB]: success
+[2023-05-05 10:58:51] INFO root fetch - processPackages [LogAssist]: executing diffoscope
+[2023-05-05 10:58:51] INFO root fetch - processPackages [LogAssist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LogAssist-1.0.3.tar.gz tmp/LogAssist-1.0.4.tar.gz --markdown 20230505/L/LogAssist/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-05 10:58:51] INFO root fetch - processPackages [fasterai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 10:58:51] INFO root fetch - processPackages [fasterai]: Downloading https://files.pythonhosted.org/packages/73/ad/47edf096db9d4538014752389ee8813c657351f545c9f992b88b1783b102/fasterai-0.1.8.tar.gz
+[2023-05-05 10:58:52] INFO root fetch - processPackages [repvgg-pytorch]: Start processing: paddypy
+[2023-05-05 10:58:52] INFO root fetch - main [MainThread]: End processing [repvgg-pytorch]: success
+[2023-05-05 10:58:52] INFO root fetch - processPackages [paddypy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 10:58:52] INFO root fetch - processPackages [paddypy]: executing diffoscope
+[2023-05-05 10:58:52] INFO root fetch - processPackages [paddypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddypy-0.1.8.tar.gz tmp/paddypy-0.1.9.tar.gz --markdown 20230505/p/paddypy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 10:58:52] INFO root fetch - processPackages [fasterai]: Downloading https://files.pythonhosted.org/packages/e9/f9/134206f684f78491a7da0b270fa40e55cd4011cad69401c8d6428e1ef852/fasterai-0.1.9.tar.gz
+[2023-05-05 10:58:52] INFO root fetch - main [MainThread]: End processing [fds.sdk.FactSetEstimates]: success
+[2023-05-05 10:58:52] INFO root fetch - main [MainThread]: End processing [fds.sdk.OverviewReportBuilder]: success
+[2023-05-05 10:58:52] INFO root fetch - processPackages [fasterai]: executing diffoscope
+[2023-05-05 10:58:52] INFO root fetch - processPackages [fasterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasterai-0.1.8.tar.gz tmp/fasterai-0.1.9.tar.gz --markdown 20230505/f/fasterai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 10:58:53] INFO root fetch - main [MainThread]: End processing [LogAssist]: success
+[2023-05-05 10:58:53] INFO root fetch - main [MainThread]: End processing [paddypy]: success
+[2023-05-05 10:58:53] INFO root fetch - main [MainThread]: End processing [torch4uie]: success
+[2023-05-05 10:58:53] INFO root fetch - main [MainThread]: End processing [torch4uie]: success
+[2023-05-05 10:58:53] INFO root fetch - main [MainThread]: End processing [fasterai]: success
+[2023-05-05 10:58:53] INFO root fetch - main [MainThread]: End processing [dsharp-opac]: success
+[2023-05-05 10:58:54] INFO root fetch - main [MainThread]: End processing [tyro]: success
+[2023-05-05 10:58:57] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2023-05-05 10:58:57] INFO root fetch - main [MainThread]: Store serial: [17984285]
