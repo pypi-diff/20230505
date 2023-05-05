@@ -7799,3 +7799,83 @@
 [2023-05-05 08:55:54] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2023-05-05 08:56:21] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-05-05 08:56:21] INFO root fetch - main [MainThread]: Store serial: [17983105]
+[2023-05-05 09:01:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17983105]
+[2023-05-05 09:01:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ory-client
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nats-nsc
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-random
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dune-harmonizer
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hydra-genetics
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wllegal
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mojogpt
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azure-recommendations
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qontract-reconcile
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-rancher2
+[2023-05-05 09:01:32] WARNING root fetch - processPackages [nats-nsc]: Skipping, unable to determine old version
+[2023-05-05 09:01:32] INFO root fetch - processPackages [nats-nsc]: Start processing: pants-py-deploy
+[2023-05-05 09:01:32] INFO root fetch - main [MainThread]: End processing [nats-nsc] error
+[2023-05-05 09:01:32] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-05 09:01:32] INFO root fetch - processPackages [hydra-genetics]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ory-client]: New version: [1.1.7] Old Version: [1.1.5]
+[2023-05-05 09:01:32] INFO root fetch - processPackages [pulumi-rancher2]: New version: [4.1.0a1683267627] Old Version: [4.1.0a1683051913]
+[2023-05-05 09:01:32] INFO root fetch - processPackages [wllegal]: New version: [2023.2] Old Version: [2023.1]
+[2023-05-05 09:01:32] INFO root fetch - processPackages [azure-recommendations]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-05 09:01:32] WARNING root fetch - processPackages [mojogpt]: Skipping, unable to determine old version
+[2023-05-05 09:01:32] INFO root fetch - processPackages [mojogpt]: Start processing: pulumi-snowflake
+[2023-05-05 09:01:32] INFO root fetch - main [MainThread]: End processing [mojogpt] error
+[2023-05-05 09:01:32] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2023-05-05 09:01:32] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-05 09:01:32] INFO root fetch - processPackages [pants-py-deploy]: New version: [0.0.15rc3] Old Version: [0.0.15rc2]
+[2023-05-05 09:01:32] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-05-05 09:01:32] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-05 09:01:32] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230505/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-05 09:01:32] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-05-05 09:01:32] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230505/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-05-05 09:01:32] INFO root fetch - processPackages [hydra-genetics]: Downloading https://files.pythonhosted.org/packages/1b/83/814161fdfe318c1144ea38fe91ff3e587962a3a7f8f64ce3843e74e58718/hydra-genetics-1.0.0.tar.gz
+[2023-05-05 09:01:32] INFO root fetch - processPackages [azure-recommendations]: Downloading https://files.pythonhosted.org/packages/d9/a6/49fb52c73feee31024d841616c21c680f896d289d7b4826c5c61d0cbe2bb/azure_recommendations-0.3.2.tar.gz
+[2023-05-05 09:01:32] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/cc/00/80315093f9535f813dcfddd5946fed09ec729260e378c27324d0b623d724/pants_py_deploy-0.0.15rc2-py3-none-any.whl
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/44/8b/4799fb838d0092b7ac666a8dae770a02996267998f6731162949bce09317/ory-client-1.1.5.tar.gz
+[2023-05-05 09:01:32] INFO root fetch - processPackages [wllegal]: Downloading https://files.pythonhosted.org/packages/de/f9/07f6d51ba601eafb45093398e6ab44c506a3d8a56eaa731bc4d0e89a455c/wllegal-2023.1.tar.gz
+[2023-05-05 09:01:32] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2023-05-05 09:01:32] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/77/1d/13d428d0b4a063efdd90793e29577efd82e700799d1a9e6eb556b25c63bd/pulumi_rancher2-4.1.0a1683267627.tar.gz
+[2023-05-05 09:01:32] INFO root fetch - processPackages [azure-recommendations]: executing diffoscope
+[2023-05-05 09:01:32] INFO root fetch - processPackages [azure-recommendations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_recommendations-0.3.1.tar.gz tmp/azure_recommendations-0.3.2.tar.gz --markdown 20230505/a/azure-recommendations/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-05 09:01:32] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2023-05-05 09:01:32] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-4.1.0a1683051913.tar.gz tmp/pulumi_rancher2-4.1.0a1683267627.tar.gz --markdown 20230505/p/pulumi-rancher2/4.1.0a1683051913-4.1.0a1683267627/diff.md --exclude *.pyd
+[2023-05-05 09:01:32] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-05-05 09:01:32] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230505/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/a5/c2/168ddaefc28da41c63d772b9db3c39f3033665541e1a4b4ecc510c5eb836/ory-client-1.1.7.tar.gz
+[2023-05-05 09:01:32] INFO root fetch - processPackages [hydra-genetics]: Downloading https://files.pythonhosted.org/packages/85/87/d3013dcaa00d43785832ba62066fd186c0d33e9e331a92efa864b22cbce1/hydra-genetics-1.1.0.tar.gz
+[2023-05-05 09:01:32] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/ff/c9/fd15f4cc77641e98783d773b109d6d747886555c4d57462003300d5d6e9f/pants_py_deploy-0.0.15rc3-py3-none-any.whl
+[2023-05-05 09:01:32] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ory-client]: executing diffoscope
+[2023-05-05 09:01:32] INFO root fetch - processPackages [ory-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ory-client-1.1.5.tar.gz tmp/ory-client-1.1.7.tar.gz --markdown 20230505/o/ory-client/1.1.5-1.1.7/diff.md --exclude *.pyd
+[2023-05-05 09:01:32] INFO root fetch - processPackages [wllegal]: Downloading https://files.pythonhosted.org/packages/a7/92/409e6f8edfd39c59944142c7343ff942703dcb6f80be9620c116e433ae51/wllegal-2023.2.tar.gz
+[2023-05-05 09:01:33] INFO root fetch - processPackages [pants-py-deploy]: executing diffoscope
+[2023-05-05 09:01:33] INFO root fetch - processPackages [pants-py-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants_py_deploy-0.0.15rc2-py3-none-any.whl.zip tmp/pants_py_deploy-0.0.15rc3-py3-none-any.whl.zip --markdown 20230505/p/pants-py-deploy/0.0.15rc2-0.0.15rc3/diff.md --exclude *.pyd
+[2023-05-05 09:01:33] INFO root fetch - processPackages [hydra-genetics]: executing diffoscope
+[2023-05-05 09:01:33] INFO root fetch - processPackages [hydra-genetics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydra-genetics-1.0.0.tar.gz tmp/hydra-genetics-1.1.0.tar.gz --markdown 20230505/h/hydra-genetics/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-05 09:01:33] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2023-05-05 09:01:33] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20230505/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/diff.md --exclude *.pyd
+[2023-05-05 09:01:33] INFO root fetch - processPackages [wllegal]: executing diffoscope
+[2023-05-05 09:01:33] INFO root fetch - processPackages [wllegal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wllegal-2023.1.tar.gz tmp/wllegal-2023.2.tar.gz --markdown 20230505/w/wllegal/2023.1-2023.2/diff.md --exclude *.pyd
+[2023-05-05 09:01:34] INFO root fetch - processPackages [dune-harmonizer]: Start processing: dbterd
+[2023-05-05 09:01:34] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-05-05 09:01:34] INFO root fetch - processPackages [dbterd]: New version: [1.2.0b4] Old Version: [1.2.0b2]
+[2023-05-05 09:01:34] INFO root fetch - processPackages [pants-py-deploy]: Start processing: parking-env
+[2023-05-05 09:01:34] INFO root fetch - main [MainThread]: End processing [pants-py-deploy]: success
+[2023-05-05 09:01:34] INFO root fetch - main [MainThread]: End processing [azure-recommendations]: success
+[2023-05-05 09:01:34] WARNING root fetch - processPackages [parking-env]: Skipping, unable to determine old version
+[2023-05-05 09:01:34] INFO root fetch - main [MainThread]: End processing [parking-env] error
+[2023-05-05 09:01:34] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2023-05-05 09:01:34] INFO root fetch - processPackages [dbterd]: Downloading https://files.pythonhosted.org/packages/cd/4c/8a10218f6a98046418e40f66cb3b54e4caebc4d04097be0bd57b6a5b2827/dbterd-1.2.0b4.tar.gz
+[2023-05-05 09:01:34] INFO root fetch - processPackages [dbterd]: executing diffoscope
+[2023-05-05 09:01:34] INFO root fetch - processPackages [dbterd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbterd-1.2.0b2.tar.gz tmp/dbterd-1.2.0b4.tar.gz --markdown 20230505/d/dbterd/1.2.0b2-1.2.0b4/diff.md --exclude *.pyd
+[2023-05-05 09:01:34] INFO root fetch - main [MainThread]: End processing [hydra-genetics]: success
+[2023-05-05 09:01:35] INFO root fetch - main [MainThread]: End processing [wllegal]: success
+[2023-05-05 09:01:35] INFO root fetch - main [MainThread]: End processing [dbterd]: success
+[2023-05-05 09:01:37] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-05-05 09:01:37] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2023-05-05 09:01:37] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-05 09:01:44] INFO root fetch - main [MainThread]: End processing [ory-client]: success
+[2023-05-05 09:01:44] INFO root fetch - main [MainThread]: Store serial: [17983151]
