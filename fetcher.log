@@ -7625,3 +7625,95 @@
 [2023-05-05 08:45:19] INFO root fetch - main [MainThread]: End processing [INGInious]: success
 [2023-05-05 08:45:19] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2023-05-05 08:45:19] INFO root fetch - main [MainThread]: Store serial: [17983005]
+[2023-05-05 08:50:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17983005]
+[2023-05-05 08:50:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unitsnet-py
+[2023-05-05 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: urgxy-env
+[2023-05-05 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfanity
+[2023-05-05 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kodexa
+[2023-05-05 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyfi
+[2023-05-05 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: muffin-rest
+[2023-05-05 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-sale-order-line-price-history
+[2023-05-05 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-sale-stock-picking-blocking
+[2023-05-05 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bpmn-tools
+[2023-05-05 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ANTConnect
+[2023-05-05 08:50:28] INFO root fetch - processPackages [urgxy-env]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 08:50:28] WARNING root fetch - processPackages [bpmn-tools]: Skipping, unable to determine old version
+[2023-05-05 08:50:28] INFO root fetch - processPackages [bpmn-tools]: Start processing: griffe
+[2023-05-05 08:50:28] INFO root fetch - main [MainThread]: End processing [bpmn-tools] error
+[2023-05-05 08:50:28] INFO root fetch - processPackages [hyfi]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-05 08:50:28] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-05-05 08:50:28] INFO root fetch - processPackages [muffin-rest]: New version: [4.9.0] Old Version: [4.8.8]
+[2023-05-05 08:50:28] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: New version: [15.0.1.0.0.6] Old Version: [15.0.1.0.0.3]
+[2023-05-05 08:50:28] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.33] Old Version: [0.1.32]
+[2023-05-05 08:50:28] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-05-05 08:50:28] INFO root fetch - processPackages [pyfanity]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-05 08:50:28] INFO root fetch - processPackages [ANTConnect]: New version: [2023.8.2] Old Version: [2023.8.1]
+[2023-05-05 08:50:28] INFO root fetch - processPackages [griffe]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-05 08:50:28] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/cd/3d/5f16bc0d383636aaa86669e55bda14c1a7c8c942595fcff2cf94558d12fe/muffin_rest-4.8.8.tar.gz
+[2023-05-05 08:50:28] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/cd/79/4ebd61590ea9079f0361adb3751333fd7cdfe81f284bad0c79124e0fe912/hyfi-0.3.2.tar.gz
+[2023-05-05 08:50:28] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/43/86/08a3af93362acde154333ddc7e2bf5790ed43a9630ce627facc1cf358760/unitsnet-py-0.1.32.tar.gz
+[2023-05-05 08:50:28] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: Downloading https://files.pythonhosted.org/packages/d5/92/ab69c544f949a7145bec764b373354a3182acb852638c6012ba2c98e2989/odoo_addon_sale_order_line_price_history-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-05 08:50:28] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: Downloading https://files.pythonhosted.org/packages/26/a1/016a18c030f33d3c87047ba1e872422f3d3049e9cf926e8204e930320434/odoo_addon_sale_stock_picking_blocking-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-05 08:50:28] INFO root fetch - processPackages [pyfanity]: Downloading https://files.pythonhosted.org/packages/14/7b/f068e09ea85fc3ab5c11467a4209ad4e55ffc17a6a66a9fe69b3845b9f9a/pyfanity-0.0.1.tar.gz
+[2023-05-05 08:50:28] INFO root fetch - processPackages [ANTConnect]: Downloading https://files.pythonhosted.org/packages/7f/ac/7f7f759374d7f17897e981d3075f6718ecd481c59e387188075cb5c5c442/ANTConnect-2023.8.1.tar.gz
+[2023-05-05 08:50:28] INFO root fetch - processPackages [urgxy-env]: Downloading https://files.pythonhosted.org/packages/c8/ba/7a17cf107aaeb13021fd1bbcfcedb56d7f30b4104911d409a81928c747d0/urgxy_env-0.1.9.tar.gz
+[2023-05-05 08:50:28] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/de/2c/da5f6d836178a8ae77bb0e18d6a44f94e6fb7e425740b797677596cc3276/kodexa-6.1.3.tar.gz
+[2023-05-05 08:50:28] INFO root fetch - processPackages [urgxy-env]: executing diffoscope
+[2023-05-05 08:50:28] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/c7/28/143a2313a48f21ebfc944bd97f417c02e418f67385938b8d3c2dd1795c44/muffin_rest-4.9.0.tar.gz
+[2023-05-05 08:50:28] INFO root fetch - processPackages [urgxy-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urgxy_env-0.1.8.tar.gz tmp/urgxy_env-0.1.9.tar.gz --markdown 20230505/u/urgxy-env/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 08:50:28] INFO root fetch - processPackages [griffe]: executing diffoscope
+[2023-05-05 08:50:28] INFO root fetch - processPackages [griffe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffe-0.8.0.tar.gz tmp/griffe-0.9.0.tar.gz --markdown 20230505/g/griffe/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 08:50:28] INFO root fetch - processPackages [pyfanity]: Downloading https://files.pythonhosted.org/packages/3f/38/5ccf9731faa8f8d2da8c2228549f54ffcb495b3c5b829c5a86b5f9b3abcc/pyfanity-0.1.0.tar.gz
+[2023-05-05 08:50:28] INFO root fetch - processPackages [ANTConnect]: Downloading https://files.pythonhosted.org/packages/36/eb/04bf6bed908aaf3d97bcd43940768c185fb72d38983439a9a575f3bf42d6/ANTConnect-2023.8.2.tar.gz
+[2023-05-05 08:50:28] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/65/84/2eda3d50d590e239cdda6f025b316430d169eafa35a8adc6d333e196fbae/hyfi-0.3.3.tar.gz
+[2023-05-05 08:50:29] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: Downloading https://files.pythonhosted.org/packages/a4/2e/33fe1c5063cf968f6254cdb7bce789ba009ed9459bcfa62da270a5b06278/odoo_addon_sale_order_line_price_history-15.0.1.0.0.6-py3-none-any.whl
+[2023-05-05 08:50:29] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/12/bc/2e66a281dbd2913d4286c0c8ff4525f725eecc2605ad18903b5536fa7e7b/kodexa-6.1.4.tar.gz
+[2023-05-05 08:50:29] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/ef/83/df9e8c8bf9790614a569f15cab94ccc56e8e5b452f096ca18c8c41aed776/unitsnet-py-0.1.33.tar.gz
+[2023-05-05 08:50:29] INFO root fetch - processPackages [ANTConnect]: executing diffoscope
+[2023-05-05 08:50:29] INFO root fetch - processPackages [ANTConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANTConnect-2023.8.1.tar.gz tmp/ANTConnect-2023.8.2.tar.gz --markdown 20230505/A/ANTConnect/2023.8.1-2023.8.2/diff.md --exclude *.pyd
+[2023-05-05 08:50:29] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: Downloading https://files.pythonhosted.org/packages/83/41/f28aac5142ed1678af16a581e331a41bc449be1887ccdb03daacea748002/odoo_addon_sale_stock_picking_blocking-16.0.1.0.0.6-py3-none-any.whl
+[2023-05-05 08:50:29] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-05-05 08:50:29] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-4.8.8.tar.gz tmp/muffin_rest-4.9.0.tar.gz --markdown 20230505/m/muffin-rest/4.8.8-4.9.0/diff.md --exclude *.pyd
+[2023-05-05 08:50:29] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: executing diffoscope
+[2023-05-05 08:50:29] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_line_price_history-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_order_line_price_history-15.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230505/o/odoo-addon-sale-order-line-price-history/15.0.1.0.0.3-15.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-05-05 08:50:29] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-05-05 08:50:29] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230505/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-05-05 08:50:29] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2023-05-05 08:50:29] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.32.tar.gz tmp/unitsnet-py-0.1.33.tar.gz --markdown 20230505/u/unitsnet-py/0.1.32-0.1.33/diff.md --exclude *.pyd
+[2023-05-05 08:50:29] INFO root fetch - processPackages [pyfanity]: executing diffoscope
+[2023-05-05 08:50:29] INFO root fetch - processPackages [pyfanity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfanity-0.0.1.tar.gz tmp/pyfanity-0.1.0.tar.gz --markdown 20230505/p/pyfanity/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-05 08:50:29] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-05-05 08:50:29] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.3.2.tar.gz tmp/hyfi-0.3.3.tar.gz --markdown 20230505/h/hyfi/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-05 08:50:29] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: executing diffoscope
+[2023-05-05 08:50:29] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_stock_picking_blocking-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_sale_stock_picking_blocking-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230505/o/odoo-addon-sale-stock-picking-blocking/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-05-05 08:50:30] INFO root fetch - processPackages [urgxy-env]: Start processing: pulumi-newrelic
+[2023-05-05 08:50:30] INFO root fetch - main [MainThread]: End processing [urgxy-env]: success
+[2023-05-05 08:50:30] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2023-05-05 08:50:30] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2023-05-05 08:50:30] INFO root fetch - processPackages [ANTConnect]: Start processing: pulumi-signalfx
+[2023-05-05 08:50:30] INFO root fetch - main [MainThread]: End processing [ANTConnect]: success
+[2023-05-05 08:50:30] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: Start processing: mojoai
+[2023-05-05 08:50:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-line-price-history]: success
+[2023-05-05 08:50:30] WARNING root fetch - processPackages [mojoai]: Skipping, unable to determine old version
+[2023-05-05 08:50:30] INFO root fetch - processPackages [mojoai]: Start processing: azure-mgmt-paloaltonetworksngfw
+[2023-05-05 08:50:30] INFO root fetch - main [MainThread]: End processing [mojoai] error
+[2023-05-05 08:50:30] INFO root fetch - processPackages [pulumi-signalfx]: New version: [5.9.0a1678179334] Old Version: [5.9.0a1678129624]
+[2023-05-05 08:50:30] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-05-05 08:50:30] WARNING root fetch - processPackages [azure-mgmt-paloaltonetworksngfw]: Skipping, unable to determine old version
+[2023-05-05 08:50:30] INFO root fetch - main [MainThread]: End processing [azure-mgmt-paloaltonetworksngfw] error
+[2023-05-05 08:50:30] INFO root fetch - main [MainThread]: End processing [pyfanity]: success
+[2023-05-05 08:50:30] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-05-05 08:50:31] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/7e/61/ade4c59b6ce7c16df044d071b13218024e861c7693bfa058bbc2391d3850/pulumi_signalfx-5.9.0a1678129624.tar.gz
+[2023-05-05 08:50:31] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2023-05-05 08:50:31] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20230505/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/diff.md --exclude *.pyd
+[2023-05-05 08:50:31] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-05-05 08:50:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-stock-picking-blocking]: success
+[2023-05-05 08:50:31] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/de/fa/3f3b9230a1ef9eea16d4715b365d7651076d7530dc754902f930cb2a83cc/pulumi_signalfx-5.9.0a1678179334.tar.gz
+[2023-05-05 08:50:31] INFO root fetch - main [MainThread]: End processing [griffe]: success
+[2023-05-05 08:50:31] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2023-05-05 08:50:31] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz --markdown 20230505/p/pulumi-signalfx/5.9.0a1678129624-5.9.0a1678179334/diff.md --exclude *.pyd
+[2023-05-05 08:50:31] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2023-05-05 08:50:33] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2023-05-05 08:50:34] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2023-05-05 08:50:34] INFO root fetch - main [MainThread]: Store serial: [17983051]
