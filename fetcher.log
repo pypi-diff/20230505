@@ -5139,3 +5139,48 @@
 [2023-05-05 05:07:45] INFO root fetch - main [MainThread]: End processing [historical-timelines]: success
 [2023-05-05 05:07:46] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
 [2023-05-05 05:07:46] INFO root fetch - main [MainThread]: Store serial: [17981541]
+[2023-05-05 05:12:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981541]
+[2023-05-05 05:12:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-05 05:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckdb
+[2023-05-05 05:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-spy-for-datakit
+[2023-05-05 05:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solox
+[2023-05-05 05:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twb-project
+[2023-05-05 05:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymrt-client
+[2023-05-05 05:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ExpdLoggerService
+[2023-05-05 05:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TSMasterAPI
+[2023-05-05 05:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BioSAK
+[2023-05-05 05:12:54] INFO root fetch - processPackages [TSMasterAPI]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-05 05:12:54] INFO root fetch - processPackages [twb-project]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-05 05:12:54] WARNING root fetch - processPackages [pymrt-client]: Skipping, unable to determine old version
+[2023-05-05 05:12:54] INFO root fetch - main [MainThread]: End processing [pymrt-client] error
+[2023-05-05 05:12:54] WARNING root fetch - processPackages [ExpdLoggerService]: Skipping, unable to determine old version
+[2023-05-05 05:12:54] INFO root fetch - main [MainThread]: End processing [ExpdLoggerService] error
+[2023-05-05 05:12:54] INFO root fetch - processPackages [solox]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-05-05 05:12:54] INFO root fetch - processPackages [py-spy-for-datakit]: New version: [0.3.16] Old Version: [0.3.15]
+[2023-05-05 05:12:54] INFO root fetch - processPackages [BioSAK]: New version: [1.63.9] Old Version: [1.63.8]
+[2023-05-05 05:12:54] INFO root fetch - processPackages [duckdb]: New version: [0.7.2.dev2995] Old Version: [0.7.2.dev2867]
+[2023-05-05 05:12:54] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/52/05/ae78b44113d46a959da99f31bce33a00d0621294ecda564ad475c6e911dd/BioSAK-1.63.8.tar.gz
+[2023-05-05 05:12:54] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 16294122>=10485760
+[2023-05-05 05:12:54] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-05-05 05:12:54] INFO root fetch - processPackages [twb-project]: Downloading https://files.pythonhosted.org/packages/47/40/d84b7f1792770bd33ae1b6a6b9c24607efb6b5d1225888c57e1090972fd7/twb_project-0.9.5.tar.gz
+[2023-05-05 05:12:54] INFO root fetch - processPackages [TSMasterAPI]: Downloading https://files.pythonhosted.org/packages/5e/7c/2593286ac08410c7eea706aa848bc541ef29937cec4c4417c00059d6c97b/TSMasterAPI-2.0.1.tar.gz
+[2023-05-05 05:12:54] INFO root fetch - processPackages [py-spy-for-datakit]: Downloading https://files.pythonhosted.org/packages/8a/6a/2a37811243ccdc14bff527014929d9c8dd36c48dbc652e84917c6e6f0281/py_spy_for_datakit-0.3.15-py2.py3-none-win_amd64.whl
+[2023-05-05 05:12:54] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/53/ad/8e41362b73577cdd000100e01eedc498e3bab78fff7ab4ad0592e91836b4/duckdb-0.7.2.dev2867-cp39-cp39-win_amd64.whl
+[2023-05-05 05:12:54] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-05-05 05:12:54] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.9.4.tar.gz tmp/twb_project-0.9.5.tar.gz --markdown 20230505/t/twb-project/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-05 05:12:54] INFO root fetch - processPackages [solox]: Downloading https://files.pythonhosted.org/packages/5d/05/03accb6a361c2e2e4dc9095ae458c9bf86ea732454ec3a9875d0c5f4fea9/solox-2.6.2.tar.gz
+[2023-05-05 05:12:54] INFO root fetch - processPackages [TSMasterAPI]: executing diffoscope
+[2023-05-05 05:12:54] INFO root fetch - processPackages [TSMasterAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSMasterAPI-2.0.0.tar.gz tmp/TSMasterAPI-2.0.1.tar.gz --markdown 20230505/T/TSMasterAPI/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-05 05:12:55] INFO root fetch - processPackages [solox]: executing diffoscope
+[2023-05-05 05:12:55] INFO root fetch - processPackages [solox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solox-2.6.1.tar.gz tmp/solox-2.6.2.tar.gz --markdown 20230505/s/solox/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-05-05 05:12:55] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/c4/6b/bc18404b68eb424125bd9800eea9ce5bc3a5b1647b60a609ce44d0c5b541/duckdb-0.7.2.dev2995-cp37-cp37m-macosx_10_9_x86_64.whl
+[2023-05-05 05:12:55] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14410363>=10485760
+[2023-05-05 05:12:55] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-05-05 05:12:55] INFO root fetch - processPackages [py-spy-for-datakit]: Downloading https://files.pythonhosted.org/packages/e5/e6/6292a04855ceb32ab60866beb18c62484c8c7e29ab89d0031390b20e0865/py_spy_for_datakit-0.3.16-py2.py3-none-win_amd64.whl
+[2023-05-05 05:12:55] INFO root fetch - processPackages [py-spy-for-datakit]: executing diffoscope
+[2023-05-05 05:12:55] INFO root fetch - processPackages [py-spy-for-datakit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_spy_for_datakit-0.3.15-py2.py3-none-win_amd64.whl.zip tmp/py_spy_for_datakit-0.3.16-py2.py3-none-win_amd64.whl.zip --markdown 20230505/p/py-spy-for-datakit/0.3.15-0.3.16/diff.md --exclude *.pyd
+[2023-05-05 05:12:56] INFO root fetch - main [MainThread]: End processing [TSMasterAPI]: success
+[2023-05-05 05:12:56] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-05-05 05:12:57] INFO root fetch - main [MainThread]: End processing [solox]: success
+[2023-05-05 05:13:31] INFO root fetch - main [MainThread]: End processing [py-spy-for-datakit]: success
+[2023-05-05 05:13:31] INFO root fetch - main [MainThread]: Store serial: [17981571]
