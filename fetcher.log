@@ -20702,3 +20702,61 @@
 [2023-05-05 20:15:24] INFO root fetch - main [MainThread]: End processing [spotlight-dev]: success
 [2023-05-05 20:15:28] INFO root fetch - main [MainThread]: End processing [oracle-ads]: success
 [2023-05-05 20:15:28] INFO root fetch - main [MainThread]: Store serial: [17991247]
+[2023-05-05 20:20:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17991247]
+[2023-05-05 20:20:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Omar-Style-sel
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-review
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quick-styles
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cog
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ob-dj-feature-flags
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: forbidden
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chalk-harness
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: axanexa-moncli
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zest.releaser
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ob-metaflow
+[2023-05-05 20:20:38] INFO root fetch - processPackages [Omar-Style-sel]: New version: [0.4] Old Version: [0.3]
+[2023-05-05 20:20:38] INFO root fetch - processPackages [quick-styles]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-05-05 20:20:38] INFO root fetch - processPackages [cog]: New version: [0.7.1] Old Version: [0.7.0b9]
+[2023-05-05 20:20:38] INFO root fetch - processPackages [gpt-review]: New version: [0.6.0rc462.post1] Old Version: [0.5.3rc449.post1]
+[2023-05-05 20:20:38] WARNING root fetch - processPackages [ob-dj-feature-flags]: Skipping, unable to determine old version
+[2023-05-05 20:20:38] INFO root fetch - main [MainThread]: End processing [ob-dj-feature-flags] error
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ob-metaflow]: New version: [2.8.4.1] Old Version: [2.8.3.1]
+[2023-05-05 20:20:38] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-05 20:20:38] INFO root fetch - processPackages [forbidden]: New version: [9.7] Old Version: [9.6]
+[2023-05-05 20:20:38] INFO root fetch - processPackages [zest.releaser]: New version: [8.0.0a2] Old Version: [8.0.0a1]
+[2023-05-05 20:20:38] WARNING root fetch - processPackages [axanexa-moncli]: Skipping, unable to determine old version
+[2023-05-05 20:20:38] INFO root fetch - main [MainThread]: End processing [axanexa-moncli] error
+[2023-05-05 20:20:38] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-05-05 20:20:38] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230505/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 20:20:38] INFO root fetch - processPackages [Omar-Style-sel]: Downloading https://files.pythonhosted.org/packages/15/fc/661afc8c0833de5f5ede6907b81a24d83c156c9dafaf64da15d0b329103f/Omar_Style_sel-0.4.tar.gz
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/4d/ff/4898f4167fee88445a97abe7d34c1ac9747687fc58fa22082b0ce0410e5f/ob-metaflow-2.8.3.1.tar.gz
+[2023-05-05 20:20:38] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/4d/10/d3e2a8f837d5f0a9daa603f0a07d7751e3b9f6866ea8234ea9630b488cf9/gpt-review-0.6.0rc462.post1.tar.gz
+[2023-05-05 20:20:38] INFO root fetch - processPackages [zest.releaser]: Downloading https://files.pythonhosted.org/packages/5b/a4/8df4b55d5394ef63a59ec50a4b47f4498091f8daa9f97a36f33d73bfd524/zest.releaser-8.0.0a1.tar.gz
+[2023-05-05 20:20:38] INFO root fetch - processPackages [Omar-Style-sel]: executing diffoscope
+[2023-05-05 20:20:38] INFO root fetch - processPackages [Omar-Style-sel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Omar_Style_sel-0.3.tar.gz tmp/Omar_Style_sel-0.4.tar.gz --markdown 20230505/O/Omar-Style-sel/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-05 20:20:38] INFO root fetch - processPackages [quick-styles]: Downloading https://files.pythonhosted.org/packages/4f/dc/06d542855b11534ded53b345b0d924c016cdeed0c9ee7747e3533962056f/quick_styles-1.0.2.tar.gz
+[2023-05-05 20:20:38] INFO root fetch - processPackages [forbidden]: Downloading https://files.pythonhosted.org/packages/8d/52/6f6d0c7082a3e2ff9016875f99b9a0e3ea3a014a640ccc335de0c03360d8/forbidden-9.7.tar.gz
+[2023-05-05 20:20:38] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-05 20:20:38] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.5.3rc449.post1.tar.gz tmp/gpt-review-0.6.0rc462.post1.tar.gz --markdown 20230505/g/gpt-review/0.5.3rc449.post1-0.6.0rc462.post1/diff.md --exclude *.pyd
+[2023-05-05 20:20:38] INFO root fetch - processPackages [forbidden]: executing diffoscope
+[2023-05-05 20:20:38] INFO root fetch - processPackages [forbidden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forbidden-9.6.tar.gz tmp/forbidden-9.7.tar.gz --markdown 20230505/f/forbidden/9.6-9.7/diff.md --exclude *.pyd
+[2023-05-05 20:20:38] INFO root fetch - processPackages [cog]: Downloading https://files.pythonhosted.org/packages/c0/88/022c5430836fe8b924a65a2dcab3b116491a364dd0bcb0f3a4146fb13bc5/cog-0.7.1-py3-none-any.whl
+[2023-05-05 20:20:38] INFO root fetch - processPackages [quick-styles]: executing diffoscope
+[2023-05-05 20:20:38] INFO root fetch - processPackages [quick-styles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_styles-1.0.0.tar.gz tmp/quick_styles-1.0.2.tar.gz --markdown 20230505/q/quick-styles/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-05-05 20:20:38] INFO root fetch - processPackages [cog]: executing diffoscope
+[2023-05-05 20:20:38] INFO root fetch - processPackages [cog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cog-0.7.0b9-py3-none-any.whl.zip tmp/cog-0.7.1-py3-none-any.whl.zip --markdown 20230505/c/cog/0.7.0b9-0.7.1/diff.md --exclude *.pyd
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/ef/97/3319441d370684e6cb8fc0c432bd26bebcc5876348b9a121004a2f477afd/ob-metaflow-2.8.4.1.tar.gz
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ob-metaflow]: executing diffoscope
+[2023-05-05 20:20:38] INFO root fetch - processPackages [ob-metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-2.8.3.1.tar.gz tmp/ob-metaflow-2.8.4.1.tar.gz --markdown 20230505/o/ob-metaflow/2.8.3.1-2.8.4.1/diff.md --exclude *.pyd
+[2023-05-05 20:20:38] INFO root fetch - processPackages [zest.releaser]: Downloading https://files.pythonhosted.org/packages/dc/b4/a0b990b8a35e33661f5b2e51e9b7f8ab4d383454427b8f395243c375fed0/zest.releaser-8.0.0a2.tar.gz
+[2023-05-05 20:20:39] INFO root fetch - processPackages [zest.releaser]: executing diffoscope
+[2023-05-05 20:20:39] INFO root fetch - processPackages [zest.releaser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zest.releaser-8.0.0a1.tar.gz tmp/zest.releaser-8.0.0a2.tar.gz --markdown 20230505/z/zest.releaser/8.0.0a1-8.0.0a2/diff.md --exclude *.pyd
+[2023-05-05 20:20:39] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-05-05 20:20:39] INFO root fetch - main [MainThread]: End processing [Omar-Style-sel]: success
+[2023-05-05 20:20:39] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-05 20:20:40] INFO root fetch - main [MainThread]: End processing [quick-styles]: success
+[2023-05-05 20:20:40] INFO root fetch - main [MainThread]: End processing [cog]: success
+[2023-05-05 20:20:40] INFO root fetch - main [MainThread]: End processing [zest.releaser]: success
+[2023-05-05 20:20:42] INFO root fetch - main [MainThread]: End processing [ob-metaflow]: success
+[2023-05-05 20:21:08] INFO root fetch - main [MainThread]: End processing [forbidden]: success
+[2023-05-05 20:21:08] INFO root fetch - main [MainThread]: Store serial: [17991283]
