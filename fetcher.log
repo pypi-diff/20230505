@@ -12594,3 +12594,91 @@
 [2023-05-05 13:16:04] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-05 13:16:15] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-05 13:16:15] INFO root fetch - main [MainThread]: Store serial: [17985988]
+[2023-05-05 13:21:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17985988]
+[2023-05-05 13:21:25] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-05 13:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testgres
+[2023-05-05 13:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sheetcloud
+[2023-05-05 13:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-infer
+[2023-05-05 13:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inverse
+[2023-05-05 13:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: camerahub
+[2023-05-05 13:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-gereon-cert-2041-convert-to-lists
+[2023-05-05 13:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: semisup-segmentation
+[2023-05-05 13:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: icloudtogcal
+[2023-05-05 13:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: webviz-subsurface
+[2023-05-05 13:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: postman-sdk
+[2023-05-05 13:21:25] INFO root fetch - processPackages [inverse]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-05 13:21:25] INFO root fetch - processPackages [ml-infer]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-05-05 13:21:25] INFO root fetch - processPackages [testgres]: New version: [1.8.6] Old Version: [1.8.5]
+[2023-05-05 13:21:25] INFO root fetch - processPackages [sheetcloud]: New version: [0.1.0.post0] Old Version: [0.0.1.post5]
+[2023-05-05 13:21:25] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: New version: [20230505.9.9.764167] Old Version: [20230505.8.44.632275]
+[2023-05-05 13:21:25] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 13:21:25] INFO root fetch - processPackages [webviz-subsurface]: New version: [0.2.9rc0] Old Version: [0.2.9]
+[2023-05-05 13:21:25] INFO root fetch - processPackages [postman-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 13:21:25] INFO root fetch - processPackages [icloudtogcal]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-05 13:21:25] INFO root fetch - processPackages [camerahub]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-05 13:21:25] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Downloading https://files.pythonhosted.org/packages/ea/60/2f7d543ecd079eadc5248160e05cff279e891d879225e5f88914a35555a4/certora-cli-alpha-gereon-cert-2041-convert-to-lists-20230505.8.44.632275.tar.gz
+[2023-05-05 13:21:25] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Skipping package: exceeds size limit 38426126>=10485760
+[2023-05-05 13:21:25] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Start processing: tb-nightly
+[2023-05-05 13:21:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-2041-convert-to-lists] error
+[2023-05-05 13:21:25] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-05 13:21:25] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230505/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 13:21:25] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-05-05 13:21:25] INFO root fetch - processPackages [inverse]: Downloading https://files.pythonhosted.org/packages/44/4b/c6f014f79109c666d2d623d58483539121a69e6bb9809fb8a40194d3103e/inverse-0.0.3-py3-none-any.whl
+[2023-05-05 13:21:25] INFO root fetch - processPackages [camerahub]: executing diffoscope
+[2023-05-05 13:21:25] INFO root fetch - processPackages [camerahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camerahub-0.9.7.tar.gz tmp/camerahub-0.9.8.tar.gz --markdown 20230505/c/camerahub/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-05 13:21:25] INFO root fetch - processPackages [testgres]: Downloading https://files.pythonhosted.org/packages/e2/72/034ae31820ac48954d45a9eda54115fc86659306579638d5132d07368a2d/testgres-1.8.5.tar.gz
+[2023-05-05 13:21:25] INFO root fetch - processPackages [sheetcloud]: Downloading https://files.pythonhosted.org/packages/f2/c1/537968f09c96dfbaa13472252ea350e3a3f1076aa978045a1a7b4853b609/sheetcloud-0.1.0.post0.tar.gz
+[2023-05-05 13:21:25] INFO root fetch - processPackages [webviz-subsurface]: Downloading https://files.pythonhosted.org/packages/cb/b6/496b97d6e24433e8425adfc3e4ab3c08214fa937f58c70ff38f8097fe91a/webviz-subsurface-0.2.9.tar.gz
+[2023-05-05 13:21:25] INFO root fetch - processPackages [postman-sdk]: Downloading https://files.pythonhosted.org/packages/ec/6f/ab466cfa305bdece2df21efe294e4fbc819934a742d89380488601af4b4b/postman-sdk-0.0.8.tar.gz
+[2023-05-05 13:21:25] INFO root fetch - processPackages [icloudtogcal]: Downloading https://files.pythonhosted.org/packages/f2/bc/fc11574a5bd5765f136ef3508e3191683523b2ec06aaadf6b4dc53409c5f/icloudtogcal-1.0.3-py3-none-any.whl
+[2023-05-05 13:21:25] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-05-05 13:21:25] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230505/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-05-05 13:21:25] INFO root fetch - processPackages [sheetcloud]: executing diffoscope
+[2023-05-05 13:21:25] INFO root fetch - processPackages [sheetcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sheetcloud-0.0.1.post5.tar.gz tmp/sheetcloud-0.1.0.post0.tar.gz --markdown 20230505/s/sheetcloud/0.0.1.post5-0.1.0.post0/diff.md --exclude *.pyd
+[2023-05-05 13:21:25] INFO root fetch - processPackages [ml-infer]: Downloading https://files.pythonhosted.org/packages/3d/7a/3680fcd85e34797157a2d71108def35c93219ac8130eba16f62b0bde9d4f/ml_infer-0.0.3-cp310-cp310-macosx_11_0_x86_64.whl
+[2023-05-05 13:21:25] INFO root fetch - processPackages [testgres]: Downloading https://files.pythonhosted.org/packages/40/4c/9c4d5b6294cbfa27711dda1529a394abd41640bb4af18c9cf6d07fdd03a1/testgres-1.8.6.tar.gz
+[2023-05-05 13:21:25] INFO root fetch - processPackages [icloudtogcal]: executing diffoscope
+[2023-05-05 13:21:25] INFO root fetch - processPackages [icloudtogcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icloudtogcal-1.0.2-py3-none-any.whl.zip tmp/icloudtogcal-1.0.3-py3-none-any.whl.zip --markdown 20230505/i/icloudtogcal/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-05 13:21:25] INFO root fetch - processPackages [ml-infer]: executing diffoscope
+[2023-05-05 13:21:25] INFO root fetch - processPackages [ml-infer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-infer-0.0.1.tar.gz tmp/ml_infer-0.0.3-cp310-cp310-macosx_11_0_x86_64.whl.zip --markdown 20230505/m/ml-infer/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 13:21:25] INFO root fetch - processPackages [testgres]: executing diffoscope
+[2023-05-05 13:21:25] INFO root fetch - processPackages [testgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testgres-1.8.5.tar.gz tmp/testgres-1.8.6.tar.gz --markdown 20230505/t/testgres/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2023-05-05 13:21:25] INFO root fetch - processPackages [inverse]: Downloading https://files.pythonhosted.org/packages/17/66/5bf8948beb5d994bcb38f356403904b7388e6a1bbc3017b191cc80081060/inverse-0.0.4-py3-none-any.whl
+[2023-05-05 13:21:26] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-05 13:21:26] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.3-py3-none-any.whl.zip tmp/inverse-0.0.4-py3-none-any.whl.zip --markdown 20230505/i/inverse/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-05 13:21:26] INFO root fetch - processPackages [postman-sdk]: Downloading https://files.pythonhosted.org/packages/87/2a/a06dfd12e6949fa672407e490334747368b610da102776225121e47cc06a/postman-sdk-0.0.9.tar.gz
+[2023-05-05 13:21:26] INFO root fetch - processPackages [postman-sdk]: executing diffoscope
+[2023-05-05 13:21:26] INFO root fetch - processPackages [postman-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postman-sdk-0.0.8.tar.gz tmp/postman-sdk-0.0.9.tar.gz --markdown 20230505/p/postman-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 13:21:26] INFO root fetch - processPackages [webviz-subsurface]: Downloading https://files.pythonhosted.org/packages/c4/4c/09f887372799ea7da993ba18f2595ecc1ab65b5b21a24e39383f41b193f7/webviz-subsurface-0.2.9rc0.tar.gz
+[2023-05-05 13:21:26] INFO root fetch - processPackages [webviz-subsurface]: executing diffoscope
+[2023-05-05 13:21:26] INFO root fetch - processPackages [webviz-subsurface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webviz-subsurface-0.2.9.tar.gz tmp/webviz-subsurface-0.2.9rc0.tar.gz --markdown 20230505/w/webviz-subsurface/0.2.9-0.2.9rc0/diff.md --exclude *.pyd
+[2023-05-05 13:21:27] INFO root fetch - processPackages [semisup-segmentation]: Start processing: AutoFun
+[2023-05-05 13:21:27] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-05 13:21:27] INFO root fetch - processPackages [AutoFun]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-05 13:21:27] INFO root fetch - processPackages [sheetcloud]: Start processing: schoolware-api
+[2023-05-05 13:21:27] INFO root fetch - main [MainThread]: End processing [sheetcloud]: success
+[2023-05-05 13:21:27] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-05 13:21:27] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 13:21:27] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.4.tar.gz tmp/schoolware_api-1.1.5.tar.gz --markdown 20230505/s/schoolware-api/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-05 13:21:27] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/6e/b5/3486d1139fef5afc056727ae44420d601ca66a791051d433a7e55577a2e7/AutoFun-0.2.1.tar.gz
+[2023-05-05 13:21:27] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/90/c0/831b9592583decec1cfb7e9f6984e51b060cd91756c6f3653360ca7df6eb/AutoFun-0.3.0.tar.gz
+[2023-05-05 13:21:27] INFO root fetch - processPackages [AutoFun]: executing diffoscope
+[2023-05-05 13:21:27] INFO root fetch - processPackages [AutoFun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoFun-0.2.1.tar.gz tmp/AutoFun-0.3.0.tar.gz --markdown 20230505/A/AutoFun/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 13:21:27] INFO root fetch - processPackages [icloudtogcal]: Start processing: django-cards
+[2023-05-05 13:21:27] INFO root fetch - main [MainThread]: End processing [icloudtogcal]: success
+[2023-05-05 13:21:27] INFO root fetch - processPackages [django-cards]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-05 13:21:28] INFO root fetch - processPackages [django-cards]: Downloading https://files.pythonhosted.org/packages/ef/62/8eafc3d0bea9eae5601d8431077ef038dc02b9a28774dc34f6360e60e289/django-cards-0.8.8.tar.gz
+[2023-05-05 13:21:28] INFO root fetch - main [MainThread]: End processing [testgres]: success
+[2023-05-05 13:21:28] INFO root fetch - main [MainThread]: End processing [postman-sdk]: success
+[2023-05-05 13:21:28] INFO root fetch - processPackages [django-cards]: Downloading https://files.pythonhosted.org/packages/9c/48/98bb454b07d36ed80a78e212dd7b619cb6a597af5918e2283d5ef6ecfcb7/django-cards-0.8.9.tar.gz
+[2023-05-05 13:21:28] INFO root fetch - main [MainThread]: End processing [camerahub]: success
+[2023-05-05 13:21:28] INFO root fetch - processPackages [django-cards]: executing diffoscope
+[2023-05-05 13:21:28] INFO root fetch - processPackages [django-cards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cards-0.8.8.tar.gz tmp/django-cards-0.8.9.tar.gz --markdown 20230505/d/django-cards/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-05 13:21:28] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 13:21:28] INFO root fetch - main [MainThread]: End processing [ml-infer]: success
+[2023-05-05 13:21:28] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-05 13:21:28] INFO root fetch - main [MainThread]: End processing [AutoFun]: success
+[2023-05-05 13:21:29] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-05-05 13:21:29] INFO root fetch - main [MainThread]: End processing [django-cards]: success
+[2023-05-05 13:21:30] INFO root fetch - main [MainThread]: End processing [webviz-subsurface]: success
+[2023-05-05 13:21:30] INFO root fetch - main [MainThread]: Store serial: [17986026]
