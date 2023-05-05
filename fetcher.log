@@ -21010,3 +21010,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-05 20:36:55] INFO root fetch - main [MainThread]: End processing [idem]: success
 [2023-05-05 20:36:56] INFO root fetch - main [MainThread]: End processing [antspymm]: success
 [2023-05-05 20:36:56] INFO root fetch - main [MainThread]: Store serial: [17991399]
+[2023-05-05 20:42:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17991399]
+[2023-05-05 20:42:05] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 20:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalk-harness
+[2023-05-05 20:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loggerml
+[2023-05-05 20:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boschshcpy
+[2023-05-05 20:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pocketrockit
+[2023-05-05 20:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netext
+[2023-05-05 20:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idem-aws
+[2023-05-05 20:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: matlabengine
+[2023-05-05 20:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hagis
+[2023-05-05 20:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-Ayra
+[2023-05-05 20:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpyt
+[2023-05-05 20:42:05] INFO root fetch - processPackages [hagis]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-05 20:42:05] INFO root fetch - processPackages [matlabengine]: New version: [9.9.1] Old Version: [9.14.2]
+[2023-05-05 20:42:05] INFO root fetch - processPackages [loggerml]: New version: [0.6.2] Old Version: [0.6.0]
+[2023-05-05 20:42:05] WARNING root fetch - processPackages [netext]: Skipping, unable to determine old version
+[2023-05-05 20:42:05] INFO root fetch - processPackages [gpyt]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 20:42:05] INFO root fetch - processPackages [pocketrockit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 20:42:05] INFO root fetch - processPackages [netext]: Start processing: metaphor-connectors
+[2023-05-05 20:42:05] INFO root fetch - main [MainThread]: End processing [netext] error
+[2023-05-05 20:42:05] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-05 20:42:05] INFO root fetch - processPackages [boschshcpy]: New version: [0.2.9] Old Version: [0.2.8.dev5]
+[2023-05-05 20:42:05] INFO root fetch - processPackages [idem-aws]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-05-05 20:42:05] INFO root fetch - processPackages [py-Ayra]: New version: [8.6.9] Old Version: [8.6.8]
+[2023-05-05 20:42:05] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-05 20:42:05] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/cd/30/1ea9d6097c888e31c955cea7f5c9db2edb40ea1f1d1097515c9589cbaed9/loggerml-0.6.0.tar.gz
+[2023-05-05 20:42:05] INFO root fetch - processPackages [matlabengine]: Downloading https://files.pythonhosted.org/packages/ae/df/6800dfe92229c27c06bce32089991970f777e9e2a0f92a15180f9b499042/matlabengine-9.14.2.tar.gz
+[2023-05-05 20:42:05] INFO root fetch - processPackages [hagis]: Downloading https://files.pythonhosted.org/packages/54/c3/01d1fda4d530e3e089c8c7558899ab38dcdc2063be3b184a5e7a60bac129/hagis-0.5.4.tar.gz
+[2023-05-05 20:42:06] INFO root fetch - processPackages [pocketrockit]: Downloading https://files.pythonhosted.org/packages/a8/ee/f1c11743551245aafc55139aecd6ab3e8159baee4fca46a33374bff27bcc/pocketrockit-0.0.8.tar.gz
+[2023-05-05 20:42:06] WARNING root fetch - processPackages [loggerml]: Skipping package: exceeds size limit 28491823>=10485760
+[2023-05-05 20:42:06] INFO root fetch - processPackages [idem-aws]: Downloading https://files.pythonhosted.org/packages/4a/08/3ba742581c2b61519b1b5cff8b44e2d0d12b6fb4c506d273b9c312b28712/idem-aws-1.7.4.tar.gz
+[2023-05-05 20:42:06] INFO root fetch - processPackages [loggerml]: Start processing: ndtiff
+[2023-05-05 20:42:06] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/a9/66/b60384915b7d030e84c5815bb2d3e307e2d6014f31c06cb7c3195f75d1fd/gpyt-0.2.9.tar.gz
+[2023-05-05 20:42:06] INFO root fetch - main [MainThread]: End processing [loggerml] error
+[2023-05-05 20:42:06] INFO root fetch - processPackages [boschshcpy]: Downloading https://files.pythonhosted.org/packages/7c/ab/d3a3890c638858101b1e7c18556bf1f45182869ed9326414c291547c487c/boschshcpy-0.2.8.dev5.tar.gz
+[2023-05-05 20:42:06] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-05-05 20:42:06] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.5.3.tar.gz tmp/hagis-0.5.4.tar.gz --markdown 20230505/h/hagis/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-05 20:42:06] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/59/47/222a7e498fb76a341653680e0ac35f73261ff88febb4f45fef16d7114506/py-Ayra-8.6.9.tar.gz
+[2023-05-05 20:42:06] INFO root fetch - processPackages [ndtiff]: New version: [2.0.0] Old Version: [1.9.1]
+[2023-05-05 20:42:06] INFO root fetch - processPackages [gpyt]: executing diffoscope
+[2023-05-05 20:42:06] INFO root fetch - processPackages [gpyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpyt-0.2.8.tar.gz tmp/gpyt-0.2.9.tar.gz --markdown 20230505/g/gpyt/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 20:42:06] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-05-05 20:42:06] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230505/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 20:42:06] INFO root fetch - processPackages [py-Ayra]: executing diffoscope
+[2023-05-05 20:42:06] INFO root fetch - processPackages [py-Ayra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayra-8.6.8.tar.gz tmp/py-Ayra-8.6.9.tar.gz --markdown 20230505/p/py-Ayra/8.6.8-8.6.9/diff.md --exclude *.pyd
+[2023-05-05 20:42:06] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-05-05 20:42:06] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230505/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-05 20:42:06] INFO root fetch - processPackages [matlabengine]: Downloading https://files.pythonhosted.org/packages/96/52/a898df7f67a28656096a0f189ab2e5485ece1c95636195790f3c2e5f93e0/matlabengine-9.9.1.tar.gz
+[2023-05-05 20:42:06] INFO root fetch - processPackages [ndtiff]: Downloading https://files.pythonhosted.org/packages/27/2d/d46f8cb2bff94878756f3e6f6601c3efa05b08e704fe94b684674013ca47/ndtiff-1.9.1.tar.gz
+[2023-05-05 20:42:06] INFO root fetch - processPackages [idem-aws]: Downloading https://files.pythonhosted.org/packages/40/ac/9aaadd256fcf8d3c2d1810fc53b078974a49ed8edeb066f0943de3687cd0/idem-aws-1.7.5.tar.gz
+[2023-05-05 20:42:06] INFO root fetch - processPackages [pocketrockit]: Downloading https://files.pythonhosted.org/packages/35/0e/2ce2be3bcdaaceced761358d15c74af9ebe357db6c5da3435e8fe5d8ca74/pocketrockit-0.0.9.tar.gz
+[2023-05-05 20:42:06] INFO root fetch - processPackages [matlabengine]: executing diffoscope
+[2023-05-05 20:42:06] INFO root fetch - processPackages [matlabengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matlabengine-9.14.2.tar.gz tmp/matlabengine-9.9.1.tar.gz --markdown 20230505/m/matlabengine/9.14.2-9.9.1/diff.md --exclude *.pyd
+[2023-05-05 20:42:06] INFO root fetch - processPackages [boschshcpy]: Downloading https://files.pythonhosted.org/packages/da/79/6553c70a5e07641e022be90e265f3666990aad518748cb6b84f916849815/boschshcpy-0.2.9.tar.gz
+[2023-05-05 20:42:06] INFO root fetch - processPackages [pocketrockit]: executing diffoscope
+[2023-05-05 20:42:06] INFO root fetch - processPackages [pocketrockit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketrockit-0.0.8.tar.gz tmp/pocketrockit-0.0.9.tar.gz --markdown 20230505/p/pocketrockit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 20:42:06] INFO root fetch - processPackages [idem-aws]: executing diffoscope
+[2023-05-05 20:42:06] INFO root fetch - processPackages [idem-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-aws-1.7.4.tar.gz tmp/idem-aws-1.7.5.tar.gz --markdown 20230505/i/idem-aws/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-05-05 20:42:06] INFO root fetch - processPackages [ndtiff]: Downloading https://files.pythonhosted.org/packages/c2/42/2c1250f71c4e14c080e648b64a445c57d0aef116c3b0d2105a2f4be3e934/ndtiff-2.0.0.tar.gz
+[2023-05-05 20:42:06] INFO root fetch - processPackages [ndtiff]: executing diffoscope
+[2023-05-05 20:42:06] INFO root fetch - processPackages [ndtiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndtiff-1.9.1.tar.gz tmp/ndtiff-2.0.0.tar.gz --markdown 20230505/n/ndtiff/1.9.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-05 20:42:06] INFO root fetch - processPackages [boschshcpy]: executing diffoscope
+[2023-05-05 20:42:06] INFO root fetch - processPackages [boschshcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boschshcpy-0.2.8.dev5.tar.gz tmp/boschshcpy-0.2.9.tar.gz --markdown 20230505/b/boschshcpy/0.2.8.dev5-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 20:42:07] INFO root fetch - processPackages [gpyt]: Start processing: evalAIRR
+[2023-05-05 20:42:07] INFO root fetch - main [MainThread]: End processing [gpyt]: success
+[2023-05-05 20:42:07] INFO root fetch - processPackages [hagis]: Start processing: gt4sd
+[2023-05-05 20:42:07] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-05-05 20:42:07] INFO root fetch - processPackages [gt4sd]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-05-05 20:42:07] INFO root fetch - processPackages [chalk-harness]: Start processing: pg-force-execute
+[2023-05-05 20:42:07] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-05-05 20:42:07] INFO root fetch - processPackages [evalAIRR]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 20:42:07] INFO root fetch - processPackages [gt4sd]: executing diffoscope
+[2023-05-05 20:42:07] INFO root fetch - processPackages [gt4sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gt4sd-1.2.1.tar.gz tmp/gt4sd-1.3.0.tar.gz --markdown 20230505/g/gt4sd/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-05-05 20:42:07] INFO root fetch - processPackages [pg-force-execute]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 20:42:08] INFO root fetch - processPackages [evalAIRR]: Downloading https://files.pythonhosted.org/packages/4f/95/d9656e2674ad8061b3280effa36c5290734a45cffb34a3ca8554be3577f5/evalAIRR-0.0.8.tar.gz
+[2023-05-05 20:42:08] INFO root fetch - processPackages [pg-force-execute]: Downloading https://files.pythonhosted.org/packages/4e/9f/d9c636916b65408f7f3c948af81ec6d0bc330263fd69c2e258a33b52fa3e/pg_force_execute-0.0.5.tar.gz
+[2023-05-05 20:42:08] INFO root fetch - main [MainThread]: End processing [pocketrockit]: success
+[2023-05-05 20:42:08] INFO root fetch - main [MainThread]: End processing [matlabengine]: success
+[2023-05-05 20:42:08] INFO root fetch - processPackages [pg-force-execute]: Downloading https://files.pythonhosted.org/packages/cb/92/a064b5685b730f101ae91066e4a925db85435fc2374f0cd952de5af592f5/pg_force_execute-0.0.6.tar.gz
+[2023-05-05 20:42:08] INFO root fetch - main [MainThread]: End processing [ndtiff]: success
+[2023-05-05 20:42:08] INFO root fetch - processPackages [pg-force-execute]: executing diffoscope
+[2023-05-05 20:42:08] INFO root fetch - processPackages [pg-force-execute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_force_execute-0.0.5.tar.gz tmp/pg_force_execute-0.0.6.tar.gz --markdown 20230505/p/pg-force-execute/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 20:42:08] INFO root fetch - processPackages [evalAIRR]: Downloading https://files.pythonhosted.org/packages/67/03/95ff9db0385655b5da703e0578c2b07ad76f484faa3bf0d3cd9e1e6e3764/evalAIRR-0.0.9.tar.gz
+[2023-05-05 20:42:09] INFO root fetch - main [MainThread]: End processing [boschshcpy]: success
+[2023-05-05 20:42:09] INFO root fetch - processPackages [evalAIRR]: executing diffoscope
+[2023-05-05 20:42:09] INFO root fetch - processPackages [evalAIRR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evalAIRR-0.0.8.tar.gz tmp/evalAIRR-0.0.9.tar.gz --markdown 20230505/e/evalAIRR/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 20:42:09] INFO root fetch - main [MainThread]: End processing [pg-force-execute]: success
+[2023-05-05 20:42:09] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-05-05 20:42:09] INFO root fetch - main [MainThread]: End processing [py-Ayra]: success
+[2023-05-05 20:42:10] INFO root fetch - main [MainThread]: End processing [evalAIRR]: success
+[2023-05-05 20:42:10] INFO root fetch - main [MainThread]: End processing [gt4sd]: success
+[2023-05-05 20:42:13] INFO root fetch - main [MainThread]: End processing [idem-aws]: success
+[2023-05-05 20:42:13] INFO root fetch - main [MainThread]: Store serial: [17991450]
