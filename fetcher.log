@@ -5873,3 +5873,59 @@
 [2023-05-05 06:27:50] INFO root fetch - main [MainThread]: End processing [streamlink]: success
 [2023-05-05 06:27:55] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
 [2023-05-05 06:27:55] INFO root fetch - main [MainThread]: Store serial: [17981919]
+[2023-05-05 06:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981919]
+[2023-05-05 06:33:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-05 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalk-harness
+[2023-05-05 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datoso-seed-sfc-speedhacks
+[2023-05-05 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrfc
+[2023-05-05 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc
+[2023-05-05 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nyckel
+[2023-05-05 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: intecomm-edc
+[2023-05-05 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-05 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-05 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datoso-seed-sfc-msu1
+[2023-05-05 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyproject-generator
+[2023-05-05 06:33:06] WARNING root fetch - processPackages [datoso-seed-sfc-speedhacks]: Skipping, unable to determine old version
+[2023-05-05 06:33:06] INFO root fetch - main [MainThread]: End processing [datoso-seed-sfc-speedhacks] error
+[2023-05-05 06:33:06] INFO root fetch - processPackages [nyckel]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 06:33:06] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1683261141] Old Version: [0.1.1683261133]
+[2023-05-05 06:33:06] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1683261141] Old Version: [0.1.1683261133]
+[2023-05-05 06:33:06] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-05 06:33:06] INFO root fetch - processPackages [pyrfc]: New version: [3.0.0a5] Old Version: [3.0.0a4]
+[2023-05-05 06:33:06] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 06:33:06] INFO root fetch - processPackages [edc]: New version: [0.4.9] Old Version: [0.4.87]
+[2023-05-05 06:33:06] INFO root fetch - processPackages [pyproject-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 06:33:06] WARNING root fetch - processPackages [datoso-seed-sfc-msu1]: Skipping, unable to determine old version
+[2023-05-05 06:33:06] INFO root fetch - main [MainThread]: End processing [datoso-seed-sfc-msu1] error
+[2023-05-05 06:33:06] INFO root fetch - processPackages [pyproject-generator]: executing diffoscope
+[2023-05-05 06:33:06] INFO root fetch - processPackages [pyproject-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-generator-0.1.8.tar.gz tmp/pyproject-generator-0.1.9.tar.gz --markdown 20230505/p/pyproject-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 06:33:06] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-05-05 06:33:06] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230505/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 06:33:06] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-05-05 06:33:06] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230505/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 06:33:06] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/80/1e/b2c708089c648343efe9f8bb5e04984d38d4b1b853b6ecfacbd1c9a41e04/eia-odin-pkg-rioatmadja2018-0.1.1683261133.tar.gz
+[2023-05-05 06:33:06] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/80/1e/b2c708089c648343efe9f8bb5e04984d38d4b1b853b6ecfacbd1c9a41e04/eia-odin-pkg-rioatmadja2018-0.1.1683261133.tar.gz
+[2023-05-05 06:33:06] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/55/4d/b23884e010ba83e405f2b7be550f93aeeaaece6927037049a08a5cb5efb8/edc-0.4.87.tar.gz
+[2023-05-05 06:33:06] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/59/fd/59f6463db53a23a83d22741e35ea695ffa70ac7b9a7a43aa59a4da9dacc6/nyckel-0.0.3.tar.gz
+[2023-05-05 06:33:06] INFO root fetch - processPackages [pyrfc]: Downloading https://files.pythonhosted.org/packages/c7/1b/638b8831a03a90960b78512175401ac0351d3f2d26c8710e023a5808c3b1/pyrfc-3.0.0a5.tar.gz
+[2023-05-05 06:33:06] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-05-05 06:33:06] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.2.tar.gz tmp/nyckel-0.0.3.tar.gz --markdown 20230505/n/nyckel/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 06:33:06] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-05-05 06:33:06] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.4.87.tar.gz tmp/edc-0.4.9.tar.gz --markdown 20230505/e/edc/0.4.87-0.4.9/diff.md --exclude *.pyd
+[2023-05-05 06:33:06] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/24/3d/866c646d165978e183b52861416ded7f7ca19022f07a381a13605768d5b1/eia_odin_pkg_rioatmadja2018-0.1.1683261141-py3-none-any.whl
+[2023-05-05 06:33:06] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/24/3d/866c646d165978e183b52861416ded7f7ca19022f07a381a13605768d5b1/eia_odin_pkg_rioatmadja2018-0.1.1683261141-py3-none-any.whl
+[2023-05-05 06:33:06] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-05 06:33:06] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1683261133.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1683261141-py3-none-any.whl.zip --markdown 20230505/e/eia-odin-pkg-rioatmadja2018/0.1.1683261133-0.1.1683261141/diff.md --exclude *.pyd
+[2023-05-05 06:33:06] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-05 06:33:06] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1683261133.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1683261141-py3-none-any.whl.zip --markdown 20230505/e/eia-odin-pkg-rioatmadja2018/0.1.1683261133-0.1.1683261141/diff.md --exclude *.pyd
+[2023-05-05 06:33:06] INFO root fetch - processPackages [pyrfc]: executing diffoscope
+[2023-05-05 06:33:06] INFO root fetch - processPackages [pyrfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrfc-3.0.0a4.tar.gz tmp/pyrfc-3.0.0a5.tar.gz --markdown 20230505/p/pyrfc/3.0.0a4-3.0.0a5/diff.md --exclude *.pyd
+[2023-05-05 06:33:07] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-05-05 06:33:07] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-05 06:33:07] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-05-05 06:33:07] INFO root fetch - main [MainThread]: End processing [pyproject-generator]: success
+[2023-05-05 06:33:07] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-05-05 06:33:07] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-05 06:33:10] INFO root fetch - main [MainThread]: End processing [pyrfc]: success
+[2023-05-05 06:33:12] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-05-05 06:33:12] INFO root fetch - main [MainThread]: Store serial: [17981953]
