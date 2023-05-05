@@ -5796,3 +5796,80 @@
 [2023-05-05 06:22:32] INFO root fetch - main [MainThread]: End processing [authanor]: success
 [2023-05-05 06:22:33] INFO root fetch - main [MainThread]: End processing [realnet]: success
 [2023-05-05 06:22:33] INFO root fetch - main [MainThread]: Store serial: [17981878]
+[2023-05-05 06:27:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981878]
+[2023-05-05 06:27:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 06:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlink
+[2023-05-05 06:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MKN-third-codes
+[2023-05-05 06:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nyckel
+[2023-05-05 06:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chia-blockchain
+[2023-05-05 06:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpg-workflows
+[2023-05-05 06:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MKN-third-codes
+[2023-05-05 06:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: superlive-sdk-python
+[2023-05-05 06:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datoso-seed-translatedenglish
+[2023-05-05 06:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: NikeCA
+[2023-05-05 06:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netrics-measurements
+[2023-05-05 06:27:42] INFO root fetch - processPackages [streamlink]: New version: [5.5.0] Old Version: [5.4.0]
+[2023-05-05 06:27:42] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-05 06:27:42] WARNING root fetch - processPackages [superlive-sdk-python]: Skipping, unable to determine old version
+[2023-05-05 06:27:42] INFO root fetch - processPackages [datoso-seed-translatedenglish]: New version: [0.2.3] Old Version: [0.0.1]
+[2023-05-05 06:27:42] INFO root fetch - processPackages [netrics-measurements]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-05-05 06:27:42] INFO root fetch - processPackages [superlive-sdk-python]: Start processing: lariat-python-sdk
+[2023-05-05 06:27:42] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.6.6.3] Old Version: [0.6.6.2]
+[2023-05-05 06:27:42] INFO root fetch - processPackages [nyckel]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 06:27:42] INFO root fetch - main [MainThread]: End processing [superlive-sdk-python] error
+[2023-05-05 06:27:42] INFO root fetch - processPackages [NikeCA]: New version: [0.1.92] Old Version: [0.1.91]
+[2023-05-05 06:27:42] INFO root fetch - processPackages [chia-blockchain]: New version: [1.8.1rc1] Old Version: [1.8.0rc5]
+[2023-05-05 06:27:42] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.6.6.3] Old Version: [0.6.6.2]
+[2023-05-05 06:27:42] INFO root fetch - processPackages [lariat-python-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-05 06:27:42] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2023-05-05 06:27:42] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20230505/c/cpg-workflows/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-05 06:27:42] INFO root fetch - processPackages [netrics-measurements]: executing diffoscope
+[2023-05-05 06:27:42] INFO root fetch - processPackages [netrics-measurements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netrics_measurements-0.0.1rc8.tar.gz tmp/netrics_measurements-0.0.1rc9.tar.gz --markdown 20230505/n/netrics-measurements/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-05-05 06:27:42] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/2a/60/e5fa5a1632c92c6c52256709a272f7ca287026f8a730236fddbb395b4c6b/nyckel-0.0.1.tar.gz
+[2023-05-05 06:27:42] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/53/4d/67834f1a9ea5b667882005bd144edb6f981bbafa5785109c89c7d82e574e/MKN_third_codes-0.6.6.2.tar.gz
+[2023-05-05 06:27:42] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/53/4d/67834f1a9ea5b667882005bd144edb6f981bbafa5785109c89c7d82e574e/MKN_third_codes-0.6.6.2.tar.gz
+[2023-05-05 06:27:42] INFO root fetch - processPackages [streamlink]: Downloading https://files.pythonhosted.org/packages/f7/02/0c1e470c69976555ba19209dbea022c1319fc299c46c8a10b98948240b15/streamlink-5.4.0.tar.gz
+[2023-05-05 06:27:42] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/91/c1/dfc97137e1d64d021cfb75f641070b87458c428881d25a5bcdcd27f73554/chia-blockchain-1.8.0rc5.tar.gz
+[2023-05-05 06:27:42] INFO root fetch - processPackages [datoso-seed-translatedenglish]: Downloading https://files.pythonhosted.org/packages/e3/74/2b2de0ef01e27fee13ef0839736790381a262046e4dc8b9f14bf374a93d8/datoso_seed_translatedenglish-0.0.1.tar.gz
+[2023-05-05 06:27:42] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/05/a2/589fa6a5df751979c56041095100dceae88636c5817c700e203d79d9a7b6/NikeCA-0.1.92.tar.gz
+[2023-05-05 06:27:42] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-05-05 06:27:42] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.91.tar.gz tmp/NikeCA-0.1.92.tar.gz --markdown 20230505/N/NikeCA/0.1.91-0.1.92/diff.md --exclude *.pyd
+[2023-05-05 06:27:42] INFO root fetch - processPackages [lariat-python-sdk]: Downloading https://files.pythonhosted.org/packages/4d/5a/83e70007a221814554185f9fcf43ef298f495c3716fa5b7582f7e06cd7d9/lariat_python_sdk-0.1.3.tar.gz
+[2023-05-05 06:27:43] INFO root fetch - processPackages [lariat-python-sdk]: executing diffoscope
+[2023-05-05 06:27:43] INFO root fetch - processPackages [lariat-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lariat_python_sdk-0.1.2.tar.gz tmp/lariat_python_sdk-0.1.3.tar.gz --markdown 20230505/l/lariat-python-sdk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-05 06:27:43] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/7b/1f/ec28b2245f88c001e6f2f221b25267cef4d882284d95fbb4d0ddd53e8fae/nyckel-0.0.2.tar.gz
+[2023-05-05 06:27:43] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/c2/ca/9860fb3d664c07abde506a29e276868e4a65d55a2d02fa830a84157c9b80/MKN_third_codes-0.6.6.3.tar.gz
+[2023-05-05 06:27:43] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/c2/ca/9860fb3d664c07abde506a29e276868e4a65d55a2d02fa830a84157c9b80/MKN_third_codes-0.6.6.3.tar.gz
+[2023-05-05 06:27:43] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-05 06:27:43] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.6.6.2.tar.gz tmp/MKN_third_codes-0.6.6.3.tar.gz --markdown 20230505/M/MKN-third-codes/0.6.6.2-0.6.6.3/diff.md --exclude *.pyd
+[2023-05-05 06:27:43] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-05-05 06:27:43] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.1.tar.gz tmp/nyckel-0.0.2.tar.gz --markdown 20230505/n/nyckel/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 06:27:43] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-05 06:27:43] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.6.6.2.tar.gz tmp/MKN_third_codes-0.6.6.3.tar.gz --markdown 20230505/M/MKN-third-codes/0.6.6.2-0.6.6.3/diff.md --exclude *.pyd
+[2023-05-05 06:27:43] INFO root fetch - processPackages [datoso-seed-translatedenglish]: Downloading https://files.pythonhosted.org/packages/59/4f/becb068ce941b1b007bee45def51ec9ed228abf836badf5a890e19f70d42/datoso_seed_translatedenglish-0.2.3.tar.gz
+[2023-05-05 06:27:43] INFO root fetch - processPackages [streamlink]: Downloading https://files.pythonhosted.org/packages/75/90/b49714c67d71e3c62798cb7560581afca8f11180c8960365861114b9b048/streamlink-5.5.0.tar.gz
+[2023-05-05 06:27:43] INFO root fetch - processPackages [datoso-seed-translatedenglish]: executing diffoscope
+[2023-05-05 06:27:43] INFO root fetch - processPackages [datoso-seed-translatedenglish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso_seed_translatedenglish-0.0.1.tar.gz tmp/datoso_seed_translatedenglish-0.2.3.tar.gz --markdown 20230505/d/datoso-seed-translatedenglish/0.0.1-0.2.3/diff.md --exclude *.pyd
+[2023-05-05 06:27:43] INFO root fetch - processPackages [streamlink]: executing diffoscope
+[2023-05-05 06:27:43] INFO root fetch - processPackages [streamlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlink-5.4.0.tar.gz tmp/streamlink-5.5.0.tar.gz --markdown 20230505/s/streamlink/5.4.0-5.5.0/diff.md --exclude *.pyd
+[2023-05-05 06:27:43] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/85/c8/c773a2cd616f1abd98b370ce786b239711f2defded867568cc9a9ecde83e/chia-blockchain-1.8.1rc1.tar.gz
+[2023-05-05 06:27:44] INFO root fetch - processPackages [chia-blockchain]: executing diffoscope
+[2023-05-05 06:27:44] INFO root fetch - processPackages [chia-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia-blockchain-1.8.0rc5.tar.gz tmp/chia-blockchain-1.8.1rc1.tar.gz --markdown 20230505/c/chia-blockchain/1.8.0rc5-1.8.1rc1/diff.md --exclude *.pyd
+[2023-05-05 06:27:44] INFO root fetch - processPackages [lariat-python-sdk]: Start processing: pyproject-generator
+[2023-05-05 06:27:44] INFO root fetch - main [MainThread]: End processing [lariat-python-sdk]: success
+[2023-05-05 06:27:44] INFO root fetch - processPackages [pyproject-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 06:27:44] INFO root fetch - processPackages [pyproject-generator]: Downloading https://files.pythonhosted.org/packages/ca/ed/92a73782b504f31faacafe0ed6facf03ed8fb63ae262822dfef0111f1a0d/pyproject-generator-0.1.8.tar.gz
+[2023-05-05 06:27:44] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-05-05 06:27:44] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-05 06:27:44] INFO root fetch - main [MainThread]: End processing [datoso-seed-translatedenglish]: success
+[2023-05-05 06:27:44] INFO root fetch - main [MainThread]: End processing [netrics-measurements]: success
+[2023-05-05 06:27:44] INFO root fetch - processPackages [pyproject-generator]: Downloading https://files.pythonhosted.org/packages/45/c2/faa4cf064eec9aad5a509b8dee9b47893a3d925b1ffcad557e85d3bdb828/pyproject-generator-0.1.9.tar.gz
+[2023-05-05 06:27:44] INFO root fetch - processPackages [pyproject-generator]: executing diffoscope
+[2023-05-05 06:27:44] INFO root fetch - processPackages [pyproject-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-generator-0.1.8.tar.gz tmp/pyproject-generator-0.1.9.tar.gz --markdown 20230505/p/pyproject-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 06:27:44] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-05 06:27:44] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-05-05 06:27:45] INFO root fetch - main [MainThread]: End processing [pyproject-generator]: success
+[2023-05-05 06:27:45] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2023-05-05 06:27:50] INFO root fetch - main [MainThread]: End processing [streamlink]: success
+[2023-05-05 06:27:55] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
+[2023-05-05 06:27:55] INFO root fetch - main [MainThread]: Store serial: [17981919]
