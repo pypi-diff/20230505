@@ -19204,3 +19204,124 @@
 [2023-05-05 18:58:38] ERROR root fetch - processPackages [h2o-pysparkling-scoring-3.2]: Timeout during execution of pkgdiff
 [2023-05-05 18:58:38] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-3.2] error
 [2023-05-05 18:58:38] INFO root fetch - main [MainThread]: Store serial: [17990204]
+[2023-05-05 19:03:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17990204]
+[2023-05-05 19:03:47] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-05 19:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalguide-reader
+[2023-05-05 19:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: landingzone-organization
+[2023-05-05 19:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dokuwikidumper
+[2023-05-05 19:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agave-pyclient
+[2023-05-05 19:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awsimple
+[2023-05-05 19:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: octohub
+[2023-05-05 19:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neosekai-api
+[2023-05-05 19:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aimodelshare
+[2023-05-05 19:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: awscurl
+[2023-05-05 19:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pretix-mpesa-mz
+[2023-05-05 19:03:47] INFO root fetch - processPackages [dokuwikidumper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 19:03:47] INFO root fetch - processPackages [landingzone-organization]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-05 19:03:47] INFO root fetch - processPackages [digitalguide-reader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 19:03:47] INFO root fetch - processPackages [pretix-mpesa-mz]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 19:03:47] WARNING root fetch - processPackages [octohub]: Skipping, unable to determine old version
+[2023-05-05 19:03:47] INFO root fetch - processPackages [agave-pyclient]: New version: [1.5.0rc3] Old Version: [1.5.0rc2]
+[2023-05-05 19:03:47] INFO root fetch - processPackages [octohub]: Start processing: AutoGenerateMKD
+[2023-05-05 19:03:47] INFO root fetch - main [MainThread]: End processing [octohub] error
+[2023-05-05 19:03:47] INFO root fetch - processPackages [neosekai-api]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-05-05 19:03:47] INFO root fetch - processPackages [awscurl]: New version: [0.9] Old Version: [0.8]
+[2023-05-05 19:03:47] INFO root fetch - processPackages [awsimple]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-05-05 19:03:47] INFO root fetch - processPackages [aimodelshare]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 19:03:47] WARNING root fetch - processPackages [AutoGenerateMKD]: Skipping, unable to determine old version
+[2023-05-05 19:03:47] INFO root fetch - processPackages [AutoGenerateMKD]: Start processing: customtkinter
+[2023-05-05 19:03:47] INFO root fetch - main [MainThread]: End processing [AutoGenerateMKD] error
+[2023-05-05 19:03:47] INFO root fetch - processPackages [customtkinter]: New version: [5.1.2] Old Version: [5.1.1]
+[2023-05-05 19:03:47] INFO root fetch - processPackages [awscurl]: Downloading https://files.pythonhosted.org/packages/c1/a8/7d6819c3e8f820263eee0ed9034ac8d0645afacac1765c3caf98d0d3e49d/awscurl-0.8.tar.gz
+[2023-05-05 19:03:47] INFO root fetch - processPackages [pretix-mpesa-mz]: Downloading https://files.pythonhosted.org/packages/6a/4e/997d3cad4b2811b097648508312ada89cf21c3b146c9e8868cfc36e13aa5/pretix-mpesa-mz-1.0.0.tar.gz
+[2023-05-05 19:03:47] INFO root fetch - processPackages [neosekai-api]: Downloading https://files.pythonhosted.org/packages/a5/0b/328d0706115379d594be9e699753d273e597315788ca2846b964c19db307/neosekai_api-1.2.0-py3-none-any.whl
+[2023-05-05 19:03:48] INFO root fetch - processPackages [aimodelshare]: Downloading https://files.pythonhosted.org/packages/22/3b/9ca272cf4c14652f03f59d552115c2019bcf6d2ea4cf992b1ba55bc1c4af/aimodelshare-0.1.3.tar.gz
+[2023-05-05 19:03:48] INFO root fetch - processPackages [customtkinter]: Downloading https://files.pythonhosted.org/packages/0a/1b/a11acc63b9354981aed3508cab7e566c9a0e38be1edb2274747b2ce7c8e1/customtkinter-5.1.1.tar.gz
+[2023-05-05 19:03:48] INFO root fetch - processPackages [agave-pyclient]: executing diffoscope
+[2023-05-05 19:03:48] INFO root fetch - processPackages [agave-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agave_pyclient-1.5.0rc2.tar.gz tmp/agave_pyclient-1.5.0rc3.tar.gz --markdown 20230505/a/agave-pyclient/1.5.0rc2-1.5.0rc3/diff.md --exclude *.pyd
+[2023-05-05 19:03:48] INFO root fetch - processPackages [awsimple]: Downloading https://files.pythonhosted.org/packages/54/70/f25e2471931062c99ee20cc69229cb565acfa6a9a8aa097767688aee2049/awsimple-2.4.5-py3-none-any.whl
+[2023-05-05 19:03:48] INFO root fetch - processPackages [landingzone-organization]: Downloading https://files.pythonhosted.org/packages/fa/26/18870efb2696c1a2cf22a71b7cd4cd5706eab38e1562b58e56caadc917ce/landingzone_organization-0.4.0.tar.gz
+[2023-05-05 19:03:48] INFO root fetch - processPackages [awsimple]: executing diffoscope
+[2023-05-05 19:03:48] INFO root fetch - processPackages [awsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsimple-2.4.4-py3-none-any.whl.zip tmp/awsimple-2.4.5-py3-none-any.whl.zip --markdown 20230505/a/awsimple/2.4.4-2.4.5/diff.md --exclude *.pyd
+[2023-05-05 19:03:48] INFO root fetch - processPackages [digitalguide-reader]: executing diffoscope
+[2023-05-05 19:03:48] INFO root fetch - processPackages [digitalguide-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide_reader-0.0.8.tar.gz tmp/digitalguide_reader-0.0.9.tar.gz --markdown 20230505/d/digitalguide-reader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 19:03:48] INFO root fetch - processPackages [dokuwikidumper]: executing diffoscope
+[2023-05-05 19:03:48] INFO root fetch - processPackages [dokuwikidumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dokuwikidumper-0.1.8.tar.gz tmp/dokuwikidumper-0.1.9.tar.gz --markdown 20230505/d/dokuwikidumper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 19:03:48] INFO root fetch - processPackages [landingzone-organization]: executing diffoscope
+[2023-05-05 19:03:48] INFO root fetch - processPackages [landingzone-organization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingzone_organization-0.3.0.tar.gz tmp/landingzone_organization-0.4.0.tar.gz --markdown 20230505/l/landingzone-organization/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-05 19:03:48] INFO root fetch - processPackages [pretix-mpesa-mz]: Downloading https://files.pythonhosted.org/packages/96/14/201ed632bf5666c9389cd41d1884096fe4cf7adb6515352111130101e59c/pretix-mpesa-mz-1.0.1.tar.gz
+[2023-05-05 19:03:48] INFO root fetch - processPackages [pretix-mpesa-mz]: executing diffoscope
+[2023-05-05 19:03:48] INFO root fetch - processPackages [pretix-mpesa-mz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-mpesa-mz-1.0.0.tar.gz tmp/pretix-mpesa-mz-1.0.1.tar.gz --markdown 20230505/p/pretix-mpesa-mz/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 19:03:48] INFO root fetch - processPackages [aimodelshare]: Downloading https://files.pythonhosted.org/packages/ab/ea/e44d4904f726015fd8e9e96d24c3e0d8ca79aeba32ec804462f817f2c1a2/aimodelshare-0.1.4.tar.gz
+[2023-05-05 19:03:48] INFO root fetch - processPackages [neosekai-api]: Downloading https://files.pythonhosted.org/packages/a1/65/58bb33fcae9e3483bf43c9a029389cb7a6a3e8764070aa15ffd3a9f288cd/neosekai_api-2.0.0-py3-none-any.whl
+[2023-05-05 19:03:48] INFO root fetch - processPackages [neosekai-api]: executing diffoscope
+[2023-05-05 19:03:48] INFO root fetch - processPackages [neosekai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosekai_api-1.2.0-py3-none-any.whl.zip tmp/neosekai_api-2.0.0-py3-none-any.whl.zip --markdown 20230505/n/neosekai-api/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-05 19:03:48] INFO root fetch - processPackages [aimodelshare]: executing diffoscope
+[2023-05-05 19:03:48] INFO root fetch - processPackages [aimodelshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimodelshare-0.1.3.tar.gz tmp/aimodelshare-0.1.4.tar.gz --markdown 20230505/a/aimodelshare/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 19:03:48] INFO root fetch - processPackages [customtkinter]: Downloading https://files.pythonhosted.org/packages/18/81/b8648285075b14868acf360851457eb4c9ac2e4d0b8254aed67b4c9c634d/customtkinter-5.1.2.tar.gz
+[2023-05-05 19:03:48] INFO root fetch - processPackages [customtkinter]: executing diffoscope
+[2023-05-05 19:03:48] INFO root fetch - processPackages [customtkinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customtkinter-5.1.1.tar.gz tmp/customtkinter-5.1.2.tar.gz --markdown 20230505/c/customtkinter/5.1.1-5.1.2/diff.md --exclude *.pyd
+[2023-05-05 19:03:48] INFO root fetch - processPackages [awscurl]: Downloading https://files.pythonhosted.org/packages/ab/98/2a94c04d1eec61074d3ae22fa9fc1fb6fbda8ad910741fb11db133f17659/awscurl-0.9.tar.gz
+[2023-05-05 19:03:48] INFO root fetch - processPackages [awscurl]: executing diffoscope
+[2023-05-05 19:03:48] INFO root fetch - processPackages [awscurl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscurl-0.8.tar.gz tmp/awscurl-0.9.tar.gz --markdown 20230505/a/awscurl/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-05 19:03:49] INFO root fetch - processPackages [awsimple]: Start processing: mango-cli
+[2023-05-05 19:03:49] INFO root fetch - main [MainThread]: End processing [awsimple]: success
+[2023-05-05 19:03:49] WARNING root fetch - processPackages [mango-cli]: Skipping, unable to determine old version
+[2023-05-05 19:03:49] INFO root fetch - processPackages [mango-cli]: Start processing: polars-u64-idx
+[2023-05-05 19:03:49] INFO root fetch - main [MainThread]: End processing [mango-cli] error
+[2023-05-05 19:03:49] INFO root fetch - processPackages [polars-u64-idx]: New version: [0.17.9] Old Version: [0.17.8]
+[2023-05-05 19:03:49] INFO root fetch - processPackages [landingzone-organization]: Start processing: inmanta-dev-dependencies
+[2023-05-05 19:03:49] INFO root fetch - main [MainThread]: End processing [landingzone-organization]: success
+[2023-05-05 19:03:49] INFO root fetch - processPackages [inmanta-dev-dependencies]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-05 19:03:49] INFO root fetch - processPackages [digitalguide-reader]: Start processing: AutoGenerateMKD
+[2023-05-05 19:03:49] INFO root fetch - main [MainThread]: End processing [digitalguide-reader]: success
+[2023-05-05 19:03:49] WARNING root fetch - processPackages [AutoGenerateMKD]: Skipping, unable to determine old version
+[2023-05-05 19:03:49] INFO root fetch - processPackages [AutoGenerateMKD]: Start processing: python-roborock
+[2023-05-05 19:03:49] INFO root fetch - main [MainThread]: End processing [AutoGenerateMKD] error
+[2023-05-05 19:03:49] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/d0/0b/a47f9189ae419bf322166f9b994f00c0269ace8d21a311158304bef7711a/polars_u64_idx-0.17.8.tar.gz
+[2023-05-05 19:03:49] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-05 19:03:49] INFO root fetch - processPackages [inmanta-dev-dependencies]: Downloading https://files.pythonhosted.org/packages/a7/46/214378646a99a91221dc71abb67439f6a0c0215cd3c41aaada2a93fe0511/inmanta-dev-dependencies-2.8.0.tar.gz
+[2023-05-05 19:03:49] INFO root fetch - processPackages [neosekai-api]: Start processing: rpa-cooperativa
+[2023-05-05 19:03:49] INFO root fetch - main [MainThread]: End processing [neosekai-api]: success
+[2023-05-05 19:03:49] INFO root fetch - processPackages [rpa-cooperativa]: New version: [1.0.52] Old Version: [1.0.51]
+[2023-05-05 19:03:50] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-05 19:03:50] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230505/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-05 19:03:50] INFO root fetch - processPackages [dokuwikidumper]: Start processing: FORD
+[2023-05-05 19:03:50] INFO root fetch - main [MainThread]: End processing [dokuwikidumper]: success
+[2023-05-05 19:03:50] INFO root fetch - processPackages [FORD]: New version: [6.2.5] Old Version: [6.2.4]
+[2023-05-05 19:03:50] INFO root fetch - processPackages [pretix-mpesa-mz]: Start processing: AutoGenerateMKD
+[2023-05-05 19:03:50] INFO root fetch - main [MainThread]: End processing [pretix-mpesa-mz]: success
+[2023-05-05 19:03:50] WARNING root fetch - processPackages [AutoGenerateMKD]: Skipping, unable to determine old version
+[2023-05-05 19:03:50] INFO root fetch - processPackages [AutoGenerateMKD]: Start processing: pyfcst
+[2023-05-05 19:03:50] INFO root fetch - main [MainThread]: End processing [AutoGenerateMKD] error
+[2023-05-05 19:03:50] INFO root fetch - processPackages [agave-pyclient]: Start processing: alphaz
+[2023-05-05 19:03:50] INFO root fetch - main [MainThread]: End processing [agave-pyclient]: success
+[2023-05-05 19:03:50] WARNING root fetch - processPackages [pyfcst]: Skipping, unable to determine old version
+[2023-05-05 19:03:50] INFO root fetch - main [MainThread]: End processing [pyfcst] error
+[2023-05-05 19:03:50] INFO root fetch - processPackages [alphaz]: New version: [0.7.7.9] Old Version: [0.7.7.8]
+[2023-05-05 19:03:50] INFO root fetch - main [MainThread]: End processing [awscurl]: success
+[2023-05-05 19:03:50] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/2a/db/51e70c073dbb3feb0de2b01b1d7a76f653312a32b9e00e3a739864701c6b/polars_u64_idx-0.17.9.tar.gz
+[2023-05-05 19:03:50] INFO root fetch - processPackages [rpa-cooperativa]: Downloading https://files.pythonhosted.org/packages/d2/a2/a3ff3ef1f9b7f1eb78937b2d93ac906980e90b9c799638fb4967d5b29f28/rpa_cooperativa-1.0.52.tar.gz
+[2023-05-05 19:03:50] INFO root fetch - processPackages [FORD]: Downloading https://files.pythonhosted.org/packages/13/79/27370ac87ff984684d5b51747aeb62583a4ad9fbd90c7d93867961655aa5/FORD-6.2.4.tar.gz
+[2023-05-05 19:03:50] INFO root fetch - processPackages [rpa-cooperativa]: executing diffoscope
+[2023-05-05 19:03:50] INFO root fetch - processPackages [rpa-cooperativa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpa_cooperativa-1.0.51.tar.gz tmp/rpa_cooperativa-1.0.52.tar.gz --markdown 20230505/r/rpa-cooperativa/1.0.51-1.0.52/diff.md --exclude *.pyd
+[2023-05-05 19:03:50] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/4e/24/03767be3af24610488a2097b4454b6f91689c54df656a8fc7d8a3ec533b5/alphaz-0.7.7.9.tar.gz
+[2023-05-05 19:03:50] INFO root fetch - processPackages [polars-u64-idx]: executing diffoscope
+[2023-05-05 19:03:50] INFO root fetch - processPackages [polars-u64-idx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_u64_idx-0.17.8.tar.gz tmp/polars_u64_idx-0.17.9.tar.gz --markdown 20230505/p/polars-u64-idx/0.17.8-0.17.9/diff.md --exclude *.pyd
+[2023-05-05 19:03:50] INFO root fetch - main [MainThread]: End processing [customtkinter]: success
+[2023-05-05 19:03:50] INFO root fetch - processPackages [inmanta-dev-dependencies]: Downloading https://files.pythonhosted.org/packages/6e/d6/4b81b4f539003cb2b65af1a32f5a66e6362d70ee9e7920c96cd4a868671f/inmanta-dev-dependencies-2.9.0.tar.gz
+[2023-05-05 19:03:50] INFO root fetch - processPackages [FORD]: Downloading https://files.pythonhosted.org/packages/7f/19/60e91b8fb3fba9ab3a3fc21d69e90e328349492eecaefa15e589e3aed843/FORD-6.2.5.tar.gz
+[2023-05-05 19:03:50] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-05-05 19:03:50] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.7.8.tar.gz tmp/alphaz-0.7.7.9.tar.gz --markdown 20230505/a/alphaz/0.7.7.8-0.7.7.9/diff.md --exclude *.pyd
+[2023-05-05 19:03:50] INFO root fetch - processPackages [inmanta-dev-dependencies]: executing diffoscope
+[2023-05-05 19:03:50] INFO root fetch - processPackages [inmanta-dev-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta-dev-dependencies-2.8.0.tar.gz tmp/inmanta-dev-dependencies-2.9.0.tar.gz --markdown 20230505/i/inmanta-dev-dependencies/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-05 19:03:50] INFO root fetch - processPackages [FORD]: executing diffoscope
+[2023-05-05 19:03:50] INFO root fetch - processPackages [FORD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FORD-6.2.4.tar.gz tmp/FORD-6.2.5.tar.gz --markdown 20230505/F/FORD/6.2.4-6.2.5/diff.md --exclude *.pyd
+[2023-05-05 19:03:51] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-05 19:03:51] INFO root fetch - main [MainThread]: End processing [rpa-cooperativa]: success
+[2023-05-05 19:03:51] INFO root fetch - main [MainThread]: End processing [inmanta-dev-dependencies]: success
+[2023-05-05 19:03:53] INFO root fetch - main [MainThread]: End processing [FORD]: success
+[2023-05-05 19:03:54] INFO root fetch - main [MainThread]: End processing [aimodelshare]: success
+[2023-05-05 19:03:54] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-05-05 19:04:08] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
+[2023-05-05 19:04:08] INFO root fetch - main [MainThread]: Store serial: [17990282]
