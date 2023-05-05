@@ -6468,3 +6468,73 @@
 [2023-05-05 07:36:07] INFO root fetch - main [MainThread]: End processing [code_genie]: success
 [2023-05-05 07:36:26] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-05 07:36:26] INFO root fetch - main [MainThread]: Store serial: [17982256]
+[2023-05-05 07:41:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982256]
+[2023-05-05 07:41:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 07:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Augmentum
+[2023-05-05 07:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Flask-Apx
+[2023-05-05 07:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VikyvMedNLP
+[2023-05-05 07:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: authanor
+[2023-05-05 07:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: browsr
+[2023-05-05 07:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylance
+[2023-05-05 07:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: textbook_nvim
+[2023-05-05 07:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tmp-folder
+[2023-05-05 07:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robodyno
+[2023-05-05 07:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nyckel
+[2023-05-05 07:41:37] INFO root fetch - processPackages [authanor]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-05 07:41:37] INFO root fetch - processPackages [browsr]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-05 07:41:37] WARNING root fetch - processPackages [Augmentum]: Skipping, unable to determine old version
+[2023-05-05 07:41:37] WARNING root fetch - processPackages [Flask-Apx]: Skipping, unable to determine old version
+[2023-05-05 07:41:37] INFO root fetch - processPackages [Augmentum]: Start processing: bmcs-cross-section
+[2023-05-05 07:41:37] INFO root fetch - main [MainThread]: End processing [Augmentum] error
+[2023-05-05 07:41:37] INFO root fetch - processPackages [Flask-Apx]: Start processing: textbook_nvim
+[2023-05-05 07:41:37] INFO root fetch - main [MainThread]: End processing [Flask-Apx] error
+[2023-05-05 07:41:37] INFO root fetch - processPackages [robodyno]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-05-05 07:41:37] INFO root fetch - processPackages [VikyvMedNLP]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-05 07:41:37] WARNING root fetch - processPackages [tmp-folder]: Skipping, unable to determine old version
+[2023-05-05 07:41:37] INFO root fetch - processPackages [textbook_nvim]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-05 07:41:37] INFO root fetch - main [MainThread]: End processing [tmp-folder] error
+[2023-05-05 07:41:37] INFO root fetch - processPackages [pylance]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-05 07:41:37] INFO root fetch - processPackages [bmcs-cross-section]: New version: [0.0.56a0] Old Version: [0.0.55a0]
+[2023-05-05 07:41:37] INFO root fetch - processPackages [nyckel]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 07:41:37] INFO root fetch - processPackages [textbook_nvim]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-05 07:41:37] INFO root fetch - processPackages [browsr]: Downloading https://files.pythonhosted.org/packages/98/5a/5d1dcbdfd6265dfe8a6c184b4b08e0753cbf0e1b7dfb1108cede56f02fa7/browsr-1.2.0.tar.gz
+[2023-05-05 07:41:37] INFO root fetch - processPackages [textbook_nvim]: Downloading https://files.pythonhosted.org/packages/0e/1e/f93900a07dd569cddc40ba74ea0b8c091608b514a0189775352496ecbeda/textbook_nvim-0.2.0.tar.gz
+[2023-05-05 07:41:37] INFO root fetch - processPackages [textbook_nvim]: Downloading https://files.pythonhosted.org/packages/0e/1e/f93900a07dd569cddc40ba74ea0b8c091608b514a0189775352496ecbeda/textbook_nvim-0.2.0.tar.gz
+[2023-05-05 07:41:37] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/2a/ad/bdeac967d5ac7416c882c693630f1f15605ec4bf63f16aed29ca6f67c709/pylance-0.4.5-cp38-abi3-win_amd64.whl
+[2023-05-05 07:41:37] INFO root fetch - processPackages [authanor]: Downloading https://files.pythonhosted.org/packages/dc/cb/7f1399cf718582135bc681dadfdf38d51d205a9fd9703073490e7cdf705c/authanor-0.2.3.tar.gz
+[2023-05-05 07:41:37] INFO root fetch - processPackages [robodyno]: Downloading https://files.pythonhosted.org/packages/02/9a/9af90ae5ebf04ba58173b455516be6cf15a27d70e1bb9b7b857850d73f7a/robodyno-1.5.2.tar.gz
+[2023-05-05 07:41:37] INFO root fetch - processPackages [bmcs-cross-section]: Downloading https://files.pythonhosted.org/packages/30/5e/ebf49b32acfd29049113d869bf8d52bc3b833908c01299ef25807f079c3a/bmcs_cross_section-0.0.55a0.tar.gz
+[2023-05-05 07:41:37] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 20827122>=10485760
+[2023-05-05 07:41:37] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2023-05-05 07:41:37] INFO root fetch - processPackages [authanor]: executing diffoscope
+[2023-05-05 07:41:37] INFO root fetch - processPackages [authanor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authanor-0.2.2.tar.gz tmp/authanor-0.2.3.tar.gz --markdown 20230505/a/authanor/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-05 07:41:37] INFO root fetch - processPackages [VikyvMedNLP]: Downloading https://files.pythonhosted.org/packages/e8/f2/3fe8f33a79929e7681fba53147dbeb4029ad002e392d59da4d13c3fccdac/VikyvMedNLP-2.0.4-py38-none-any.whl
+[2023-05-05 07:41:37] INFO root fetch - processPackages [VikyvMedNLP]: executing diffoscope
+[2023-05-05 07:41:37] INFO root fetch - processPackages [VikyvMedNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VikyvMedNLP-2.0.3-py38-none-any.whl.zip tmp/VikyvMedNLP-2.0.4-py38-none-any.whl.zip --markdown 20230505/V/VikyvMedNLP/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-05 07:41:37] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/78/90/5daa6c649c25eb1ab2621374e2f796cb134daf3b74424bd562bcce3aab77/nyckel-0.0.5.tar.gz
+[2023-05-05 07:41:37] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-05-05 07:41:37] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.4.tar.gz tmp/nyckel-0.0.5.tar.gz --markdown 20230505/n/nyckel/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 07:41:37] INFO root fetch - processPackages [browsr]: Downloading https://files.pythonhosted.org/packages/09/18/6131f1f998d4e60df0d359c58d0ba78545a45a2efe8ff855acf60aaf4f19/browsr-1.2.1.tar.gz
+[2023-05-05 07:41:37] INFO root fetch - processPackages [textbook_nvim]: Downloading https://files.pythonhosted.org/packages/f1/bd/d2e67352f4542bcf3a83d124174e5d261d1462f47ce42f0a854b03e35f7e/textbook_nvim-0.3.0.tar.gz
+[2023-05-05 07:41:37] INFO root fetch - processPackages [textbook_nvim]: Downloading https://files.pythonhosted.org/packages/f1/bd/d2e67352f4542bcf3a83d124174e5d261d1462f47ce42f0a854b03e35f7e/textbook_nvim-0.3.0.tar.gz
+[2023-05-05 07:41:37] INFO root fetch - processPackages [browsr]: executing diffoscope
+[2023-05-05 07:41:37] INFO root fetch - processPackages [browsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browsr-1.2.0.tar.gz tmp/browsr-1.2.1.tar.gz --markdown 20230505/b/browsr/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-05 07:41:37] INFO root fetch - processPackages [textbook_nvim]: executing diffoscope
+[2023-05-05 07:41:37] INFO root fetch - processPackages [textbook_nvim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbook_nvim-0.2.0.tar.gz tmp/textbook_nvim-0.3.0.tar.gz --markdown 20230505/t/textbook_nvim/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 07:41:37] INFO root fetch - processPackages [textbook_nvim]: executing diffoscope
+[2023-05-05 07:41:37] INFO root fetch - processPackages [textbook_nvim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbook_nvim-0.2.0.tar.gz tmp/textbook_nvim-0.3.0.tar.gz --markdown 20230505/t/textbook_nvim/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 07:41:37] INFO root fetch - processPackages [robodyno]: Downloading https://files.pythonhosted.org/packages/56/8e/b3f7bbcd45e66b6a16a1a3c6813d79bd6c66c011f3284fb470c94d293401/robodyno-1.6.0.tar.gz
+[2023-05-05 07:41:37] INFO root fetch - processPackages [robodyno]: executing diffoscope
+[2023-05-05 07:41:37] INFO root fetch - processPackages [robodyno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robodyno-1.5.2.tar.gz tmp/robodyno-1.6.0.tar.gz --markdown 20230505/r/robodyno/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-05-05 07:41:37] INFO root fetch - processPackages [bmcs-cross-section]: Downloading https://files.pythonhosted.org/packages/38/33/a240486328f234e61e2b364c651733b9b86f1a5ffebcf53986c17f32fedf/bmcs_cross_section-0.0.56a0.tar.gz
+[2023-05-05 07:41:38] INFO root fetch - processPackages [bmcs-cross-section]: executing diffoscope
+[2023-05-05 07:41:38] INFO root fetch - processPackages [bmcs-cross-section]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmcs_cross_section-0.0.55a0.tar.gz tmp/bmcs_cross_section-0.0.56a0.tar.gz --markdown 20230505/b/bmcs-cross-section/0.0.55a0-0.0.56a0/diff.md --exclude *.pyd
+[2023-05-05 07:41:38] INFO root fetch - main [MainThread]: End processing [authanor]: success
+[2023-05-05 07:41:38] INFO root fetch - main [MainThread]: End processing [VikyvMedNLP]: success
+[2023-05-05 07:41:38] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-05-05 07:41:39] INFO root fetch - main [MainThread]: End processing [bmcs-cross-section]: success
+[2023-05-05 07:41:40] INFO root fetch - main [MainThread]: End processing [browsr]: success
+[2023-05-05 07:41:40] INFO root fetch - main [MainThread]: End processing [textbook_nvim]: success
+[2023-05-05 07:41:40] INFO root fetch - main [MainThread]: End processing [textbook_nvim]: success
+[2023-05-05 07:41:41] INFO root fetch - main [MainThread]: End processing [robodyno]: success
+[2023-05-05 07:41:41] INFO root fetch - main [MainThread]: Store serial: [17982298]
