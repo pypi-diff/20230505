@@ -2239,3 +2239,108 @@
 [2023-05-05 02:39:01] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
 [2023-05-05 02:39:04] INFO root fetch - main [MainThread]: End processing [slapstack]: success
 [2023-05-05 02:39:04] INFO root fetch - main [MainThread]: Store serial: [17979816]
+[2023-05-05 02:44:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17979816]
+[2023-05-05 02:44:12] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-05 02:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fvgp
+[2023-05-05 02:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thonny-autosave
+[2023-05-05 02:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jiggybase
+[2023-05-05 02:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scikit-base
+[2023-05-05 02:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brease-sdk
+[2023-05-05 02:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slapstack-controls
+[2023-05-05 02:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linkml
+[2023-05-05 02:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: telebox
+[2023-05-05 02:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-comprehend-s3olap
+[2023-05-05 02:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prism-ds
+[2023-05-05 02:44:12] INFO root fetch - processPackages [brease-sdk]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-05 02:44:12] INFO root fetch - processPackages [linkml]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-05 02:44:12] INFO root fetch - processPackages [prism-ds]: New version: [0.1.8rc3] Old Version: [0.1.8rc2]
+[2023-05-05 02:44:12] WARNING root fetch - processPackages [slapstack-controls]: Skipping, unable to determine old version
+[2023-05-05 02:44:12] INFO root fetch - processPackages [thonny-autosave]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-05-05 02:44:12] INFO root fetch - processPackages [jiggybase]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-05-05 02:44:12] INFO root fetch - processPackages [slapstack-controls]: Start processing: pyaml
+[2023-05-05 02:44:12] INFO root fetch - main [MainThread]: End processing [slapstack-controls] error
+[2023-05-05 02:44:12] INFO root fetch - processPackages [fvgp]: New version: [7.4.9] Old Version: [7.4.8]
+[2023-05-05 02:44:12] INFO root fetch - processPackages [scikit-base]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-05 02:44:12] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-05 02:44:12] INFO root fetch - processPackages [telebox]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-05 02:44:12] INFO root fetch - processPackages [pyaml]: New version: [23.5.5] Old Version: [21.8.3]
+[2023-05-05 02:44:12] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-05-05 02:44:12] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-05-05 02:44:12] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Start processing: airbyte
+[2023-05-05 02:44:12] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-05-05 02:44:12] INFO root fetch - processPackages [jiggybase]: Downloading https://files.pythonhosted.org/packages/12/b6/8305ca5befdf41bf816ec57362a7b0a6e7c8bbdab160a9a04a3ce2b641c5/jiggybase-0.0.22.tar.gz
+[2023-05-05 02:44:12] INFO root fetch - processPackages [brease-sdk]: Downloading https://files.pythonhosted.org/packages/15/67/535b60ff16ba76e79b0ad2f4c55596620f74395e5501325649cedc6a69d7/brease-sdk-1.1.1.tar.gz
+[2023-05-05 02:44:12] INFO root fetch - processPackages [linkml]: Downloading https://files.pythonhosted.org/packages/53/6c/62a61e92aa3392d0c3ee214dc43b65b1196164458d32800488f399267b48/linkml-1.5.1.tar.gz
+[2023-05-05 02:44:12] INFO root fetch - processPackages [airbyte]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-05 02:44:12] INFO root fetch - processPackages [prism-ds]: Downloading https://files.pythonhosted.org/packages/ec/da/f87ce503289aafe622f9fef6bec91eb3c7cdff551912ec317902418d7da2/prism-ds-0.1.8rc2.tar.gz
+[2023-05-05 02:44:12] INFO root fetch - processPackages [pyaml]: Downloading https://files.pythonhosted.org/packages/cc/c8/70d6b275de6ab108d9e210d73463e4523b633917e9223a56f8442ce44110/pyaml-21.8.3.tar.gz
+[2023-05-05 02:44:12] INFO root fetch - processPackages [fvgp]: Downloading https://files.pythonhosted.org/packages/39/c0/554add3ca10aae6cab61e747c470aeccd4a9701260fbb59da15e78d86619/fvgp-7.4.8.tar.gz
+[2023-05-05 02:44:13] INFO root fetch - processPackages [telebox]: Downloading https://files.pythonhosted.org/packages/3a/57/d3201d8277bcbf0d43343aa67bc2e73962a28d0ea16d79a40e7ce937f2d3/telebox-0.9.1.tar.gz
+[2023-05-05 02:44:13] INFO root fetch - processPackages [scikit-base]: Downloading https://files.pythonhosted.org/packages/bd/30/3e2bfb1df7a0cb192c214fb0644a2ad746344b0ae076c2f0986edf86c4bb/scikit-base-0.4.3.tar.gz
+[2023-05-05 02:44:13] INFO root fetch - processPackages [thonny-autosave]: executing diffoscope
+[2023-05-05 02:44:13] INFO root fetch - processPackages [thonny-autosave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thonny-autosave-0.0.6.tar.gz tmp/thonny-autosave-0.0.9.tar.gz --markdown 20230505/t/thonny-autosave/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 02:44:13] INFO root fetch - processPackages [brease-sdk]: Downloading https://files.pythonhosted.org/packages/88/79/11e3c8ce5cfc90878c85fd136488a83d5783d20ace5ee42dfabdb8ce0915/brease-sdk-1.2.0.tar.gz
+[2023-05-05 02:44:13] INFO root fetch - processPackages [scikit-base]: executing diffoscope
+[2023-05-05 02:44:13] INFO root fetch - processPackages [jiggybase]: Downloading https://files.pythonhosted.org/packages/3a/26/2dd7b6f87a868fb8cb0dcea8228319bd55c614d123d8d9a2ce12b288d97a/jiggybase-0.0.23.tar.gz
+[2023-05-05 02:44:13] INFO root fetch - processPackages [scikit-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-base-0.4.2.tar.gz tmp/scikit-base-0.4.3.tar.gz --markdown 20230505/s/scikit-base/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-05 02:44:13] INFO root fetch - processPackages [brease-sdk]: executing diffoscope
+[2023-05-05 02:44:13] INFO root fetch - processPackages [brease-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brease-sdk-1.1.1.tar.gz tmp/brease-sdk-1.2.0.tar.gz --markdown 20230505/b/brease-sdk/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-05 02:44:13] INFO root fetch - processPackages [jiggybase]: executing diffoscope
+[2023-05-05 02:44:13] INFO root fetch - processPackages [jiggybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiggybase-0.0.22.tar.gz tmp/jiggybase-0.0.23.tar.gz --markdown 20230505/j/jiggybase/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-05-05 02:44:13] INFO root fetch - processPackages [linkml]: Downloading https://files.pythonhosted.org/packages/70/95/9db1b628452a5fc2e4fddb599cfa1b7014588f8cdc17cfa6710782bf1ea0/linkml-1.5.2.tar.gz
+[2023-05-05 02:44:13] INFO root fetch - processPackages [prism-ds]: Downloading https://files.pythonhosted.org/packages/9b/f4/5583003c3a847f1813bd5948ad7b114abadf04842265c7475c13cfaad6c0/prism-ds-0.1.8rc3.tar.gz
+[2023-05-05 02:44:13] INFO root fetch - processPackages [pyaml]: Downloading https://files.pythonhosted.org/packages/b9/7a/4bb92c01827b373a98b51e68950286ed8675b3ccd01ccbd7e355b4174bd7/pyaml-23.5.5.tar.gz
+[2023-05-05 02:44:13] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/86/c9/81428b78b18f569010c4fc8f2babe79dd8f69bc7d1ab7c2028f96939c61f/airbyte-1.9.0.tar.gz
+[2023-05-05 02:44:13] INFO root fetch - processPackages [linkml]: executing diffoscope
+[2023-05-05 02:44:13] INFO root fetch - processPackages [linkml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkml-1.5.1.tar.gz tmp/linkml-1.5.2.tar.gz --markdown 20230505/l/linkml/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-05 02:44:13] INFO root fetch - processPackages [pyaml]: executing diffoscope
+[2023-05-05 02:44:13] INFO root fetch - processPackages [pyaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaml-21.8.3.tar.gz tmp/pyaml-23.5.5.tar.gz --markdown 20230505/p/pyaml/21.8.3-23.5.5/diff.md --exclude *.pyd
+[2023-05-05 02:44:13] INFO root fetch - processPackages [telebox]: Downloading https://files.pythonhosted.org/packages/ce/b1/bc9310582916b190b0a95175460f125ef00dd9625f0d83526b35a8bff851/telebox-0.9.2.tar.gz
+[2023-05-05 02:44:13] INFO root fetch - processPackages [prism-ds]: executing diffoscope
+[2023-05-05 02:44:13] INFO root fetch - processPackages [prism-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prism-ds-0.1.8rc2.tar.gz tmp/prism-ds-0.1.8rc3.tar.gz --markdown 20230505/p/prism-ds/0.1.8rc2-0.1.8rc3/diff.md --exclude *.pyd
+[2023-05-05 02:44:13] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-05-05 02:44:13] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.8.0.tar.gz tmp/airbyte-1.9.0.tar.gz --markdown 20230505/a/airbyte/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-05 02:44:13] INFO root fetch - processPackages [telebox]: executing diffoscope
+[2023-05-05 02:44:13] INFO root fetch - processPackages [telebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telebox-0.9.1.tar.gz tmp/telebox-0.9.2.tar.gz --markdown 20230505/t/telebox/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-05 02:44:13] INFO root fetch - processPackages [fvgp]: Downloading https://files.pythonhosted.org/packages/2b/de/4b60834956798413d1b330a52dd1a3db38d41d64da62669f9e8825473d9b/fvgp-7.4.9.tar.gz
+[2023-05-05 02:44:13] INFO root fetch - processPackages [fvgp]: executing diffoscope
+[2023-05-05 02:44:13] INFO root fetch - processPackages [fvgp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fvgp-7.4.8.tar.gz tmp/fvgp-7.4.9.tar.gz --markdown 20230505/f/fvgp/7.4.8-7.4.9/diff.md --exclude *.pyd
+[2023-05-05 02:44:14] INFO root fetch - processPackages [thonny-autosave]: Start processing: ml-infer
+[2023-05-05 02:44:14] INFO root fetch - main [MainThread]: End processing [thonny-autosave]: success
+[2023-05-05 02:44:14] INFO root fetch - processPackages [ml-infer]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-05-05 02:44:14] INFO root fetch - processPackages [jiggybase]: Start processing: lognflow
+[2023-05-05 02:44:14] INFO root fetch - main [MainThread]: End processing [jiggybase]: success
+[2023-05-05 02:44:14] INFO root fetch - processPackages [brease-sdk]: Start processing: Bigsansar
+[2023-05-05 02:44:14] INFO root fetch - main [MainThread]: End processing [brease-sdk]: success
+[2023-05-05 02:44:14] INFO root fetch - processPackages [lognflow]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-05-05 02:44:14] INFO root fetch - processPackages [ml-infer]: Downloading https://files.pythonhosted.org/packages/a9/f8/7763459e90ae4337e2f75582e3ce657b6b0891f69d3518dffeb286732469/ml-infer-0.0.1.tar.gz
+[2023-05-05 02:44:14] INFO root fetch - processPackages [Bigsansar]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-05 02:44:15] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/15/ee/5eee0756f67df63c406470f42072ee6eff40f76a406196e0ce15e023acfa/lognflow-0.6.7.tar.gz
+[2023-05-05 02:44:15] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/14/b2/604fffa2ecd10e19e4f2bc691c68bcd2a6a4190969a8f2cf4e4951e3f269/Bigsansar-1.3.1.tar.gz
+[2023-05-05 02:44:15] INFO root fetch - processPackages [pyaml]: Start processing: hyfi
+[2023-05-05 02:44:15] INFO root fetch - main [MainThread]: End processing [pyaml]: success
+[2023-05-05 02:44:15] INFO root fetch - processPackages [ml-infer]: Downloading https://files.pythonhosted.org/packages/36/7c/b5988d87ee36316a7ec59dcd644760704d4de38134f59c7ae119de76cf9a/ml-infer-0.0.3.tar.gz
+[2023-05-05 02:44:15] INFO root fetch - main [MainThread]: End processing [fvgp]: success
+[2023-05-05 02:44:15] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/81/c5/6ed9163e5bba949f055f32527156226f4c35dab176c0ee558e4b510e0709/lognflow-0.6.8.tar.gz
+[2023-05-05 02:44:15] INFO root fetch - processPackages [hyfi]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-05 02:44:15] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/45/e2/e096ace59da8582294d840eb62ab2e0c4cbd7f9ceda50335765469f5ef5f/Bigsansar-1.3.2.tar.gz
+[2023-05-05 02:44:15] INFO root fetch - processPackages [ml-infer]: executing diffoscope
+[2023-05-05 02:44:15] INFO root fetch - processPackages [ml-infer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-infer-0.0.1.tar.gz tmp/ml-infer-0.0.3.tar.gz --markdown 20230505/m/ml-infer/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 02:44:15] INFO root fetch - processPackages [lognflow]: executing diffoscope
+[2023-05-05 02:44:15] INFO root fetch - processPackages [lognflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lognflow-0.6.7.tar.gz tmp/lognflow-0.6.8.tar.gz --markdown 20230505/l/lognflow/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-05-05 02:44:15] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/99/da/65d31ca82de96d3f37841b89a45048f8f429164cb5b1716b587eb7711b18/hyfi-0.2.9.tar.gz
+[2023-05-05 02:44:15] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-05-05 02:44:15] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.3.1.tar.gz tmp/Bigsansar-1.3.2.tar.gz --markdown 20230505/B/Bigsansar/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-05 02:44:15] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/af/8a/e5132b184707f8557fdad64f39e4cd2c2a5e3964ddaa5a0488c1cfc04daf/hyfi-0.3.0.tar.gz
+[2023-05-05 02:44:16] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-05-05 02:44:16] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.2.9.tar.gz tmp/hyfi-0.3.0.tar.gz --markdown 20230505/h/hyfi/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 02:44:16] INFO root fetch - main [MainThread]: End processing [telebox]: success
+[2023-05-05 02:44:16] INFO root fetch - main [MainThread]: End processing [scikit-base]: success
+[2023-05-05 02:44:16] INFO root fetch - main [MainThread]: End processing [lognflow]: success
+[2023-05-05 02:44:16] INFO root fetch - main [MainThread]: End processing [prism-ds]: success
+[2023-05-05 02:44:16] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-05-05 02:44:17] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-05-05 02:44:17] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-05-05 02:44:17] INFO root fetch - main [MainThread]: End processing [linkml]: success
+[2023-05-05 02:44:21] INFO root fetch - main [MainThread]: End processing [ml-infer]: success
+[2023-05-05 02:44:21] INFO root fetch - main [MainThread]: Store serial: [17979873]
