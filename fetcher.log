@@ -18741,3 +18741,123 @@
 [2023-05-05 18:34:00] INFO root fetch - main [MainThread]: End processing [pulp-rpm-client]: success
 [2023-05-05 18:34:00] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-05-05 18:34:00] INFO root fetch - main [MainThread]: Store serial: [17989907]
+[2023-05-05 18:39:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17989907]
+[2023-05-05 18:39:09] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-05 18:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: h2o-pysparkling-2.4
+[2023-05-05 18:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h2o-pysparkling-scoring-2.4
+[2023-05-05 18:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openmodule-test
+[2023-05-05 18:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openmodule
+[2023-05-05 18:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openmodule-commands
+[2023-05-05 18:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AutoGenerateMKD
+[2023-05-05 18:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nycu-tdx-py
+[2023-05-05 18:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deepchem
+[2023-05-05 18:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PennyLane-SF
+[2023-05-05 18:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kyndryl-common-test
+[2023-05-05 18:39:09] INFO root fetch - processPackages [h2o-pysparkling-2.4]: New version: [3.40.0.4.post1] Old Version: [3.40.0.3.post1]
+[2023-05-05 18:39:09] INFO root fetch - processPackages [openmodule-test]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-05-05 18:39:09] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 18:39:09] INFO root fetch - processPackages [openmodule]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-05-05 18:39:09] INFO root fetch - processPackages [AutoGenerateMKD]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 18:39:09] WARNING root fetch - processPackages [kyndryl-common-test]: Skipping, unable to determine old version
+[2023-05-05 18:39:09] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.4]: New version: [3.40.0.4.post1] Old Version: [3.40.0.3.post1]
+[2023-05-05 18:39:09] INFO root fetch - processPackages [kyndryl-common-test]: Start processing: cagen
+[2023-05-05 18:39:09] INFO root fetch - main [MainThread]: End processing [kyndryl-common-test] error
+[2023-05-05 18:39:09] INFO root fetch - processPackages [openmodule-commands]: New version: [11.0.3] Old Version: [11.0.2]
+[2023-05-05 18:39:09] INFO root fetch - processPackages [PennyLane-SF]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-05 18:39:09] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230505163452] Old Version: [2.7.2.dev20230504173825]
+[2023-05-05 18:39:09] INFO root fetch - processPackages [cagen]: New version: [0.2.0b5] Old Version: [0.2.0b3]
+[2023-05-05 18:39:10] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/98/2f/98fb439a0bb34c0be8268557d0c25ccf1102d6a23607c74e2376f8471efd/openmodule_test-9.0.0rc9.tar.gz
+[2023-05-05 18:39:10] INFO root fetch - processPackages [AutoGenerateMKD]: Downloading https://files.pythonhosted.org/packages/28/f9/c94a0b9137d0a546981266db8f90449d8f6611f04afa3a7ea82ae2053cbd/AutoGenerateMKD-0.0.6.tar.gz
+[2023-05-05 18:39:10] INFO root fetch - processPackages [h2o-pysparkling-2.4]: Downloading https://files.pythonhosted.org/packages/bf/41/f32fe9cd419ea9e3b536aca88faada75cac238e8b4d51c6203baea94a89b/h2o_pysparkling_2.4-3.40.0.3-1.tar.gz
+[2023-05-05 18:39:10] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.4]: Downloading https://files.pythonhosted.org/packages/9c/48/2db4c9895d1261e9e7d0b8b3bae5758d4c1d7ee39e8e569b8f29495e0f65/h2o_pysparkling_scoring_2.4-3.40.0.3-1.tar.gz
+[2023-05-05 18:39:10] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/72/2e/f6dd45e890f4294f3512a9a4a35dcd436019756b3032da32febf803136cb/openmodule_commands-11.0.2.tar.gz
+[2023-05-05 18:39:10] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/48/28/4a2d8228e73401b96f3e3a9af045f3e487465e9daf63eb486add92f0aea4/cagen-0.2.0b5.tar.gz
+[2023-05-05 18:39:10] INFO root fetch - processPackages [PennyLane-SF]: Downloading https://files.pythonhosted.org/packages/88/75/70080b6c4130d8ef8e50ae91632a71be944b204499d32859666c11863c0b/PennyLane-SF-0.8.0.tar.gz
+[2023-05-05 18:39:10] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/99/65/ed297a00e43ac575ef5dfd975981ccabffa60815df0b9d7dc1105d3d6967/deepchem-2.7.2.dev20230505163452.tar.gz
+[2023-05-05 18:39:10] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-05-05 18:39:10] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230505/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 18:39:10] WARNING root fetch - processPackages [h2o-pysparkling-2.4]: Skipping package: exceeds size limit 163497871>=10485760
+[2023-05-05 18:39:10] INFO root fetch - processPackages [h2o-pysparkling-2.4]: Start processing: dynamic-qrcode-image
+[2023-05-05 18:39:10] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-2.4] error
+[2023-05-05 18:39:10] INFO root fetch - processPackages [AutoGenerateMKD]: executing diffoscope
+[2023-05-05 18:39:10] INFO root fetch - processPackages [AutoGenerateMKD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoGenerateMKD-0.0.5.tar.gz tmp/AutoGenerateMKD-0.0.6.tar.gz --markdown 20230505/A/AutoGenerateMKD/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 18:39:10] INFO root fetch - processPackages [dynamic-qrcode-image]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 18:39:10] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-05-05 18:39:10] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230504173825.tar.gz tmp/deepchem-2.7.2.dev20230505163452.tar.gz --markdown 20230505/d/deepchem/2.7.2.dev20230504173825-2.7.2.dev20230505163452/diff.md --exclude *.pyd
+[2023-05-05 18:39:10] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/e3/bb/f041c5d77c5d10fd7137b23ff92757f6931cf24143d6794c63caaa775755/openmodule-9.0.0rc9.tar.gz
+[2023-05-05 18:39:10] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-05-05 18:39:10] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0b3.tar.gz tmp/cagen-0.2.0b5.tar.gz --markdown 20230505/c/cagen/0.2.0b3-0.2.0b5/diff.md --exclude *.pyd
+[2023-05-05 18:39:10] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/f6/8a/5d772a2b9a4eacddd4ccc0057968ae63e661725f085a3e69d5b665efc764/openmodule_commands-11.0.3.tar.gz
+[2023-05-05 18:39:10] INFO root fetch - processPackages [openmodule-commands]: executing diffoscope
+[2023-05-05 18:39:10] INFO root fetch - processPackages [openmodule-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_commands-11.0.2.tar.gz tmp/openmodule_commands-11.0.3.tar.gz --markdown 20230505/o/openmodule-commands/11.0.2-11.0.3/diff.md --exclude *.pyd
+[2023-05-05 18:39:10] INFO root fetch - processPackages [dynamic-qrcode-image]: Downloading https://files.pythonhosted.org/packages/b4/01/c55d4e621bca87ab80a60916d0bb5a2b46c5a174cebe32fddb24c8e56fe2/dynamic_qrcode_image-0.0.6.tar.gz
+[2023-05-05 18:39:10] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.4]: Downloading https://files.pythonhosted.org/packages/d7/b8/713d70864d5efa5c45733bed05fc4ec9584e94ae53ba9e0a72b7e127c961/h2o_pysparkling_scoring_2.4-3.40.0.4-1.tar.gz
+[2023-05-05 18:39:10] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/39/cc/7362aa9f98216bb93757efcda7a44a06d4f86bc1d828b0f6775240dae0d3/openmodule_test-9.1.0.tar.gz
+[2023-05-05 18:39:10] INFO root fetch - processPackages [PennyLane-SF]: Downloading https://files.pythonhosted.org/packages/e9/3e/a72045a1b271cf52e176f04164577ec557c11e1134a12b49796adbbe46c0/PennyLane-SF-0.9.0.tar.gz
+[2023-05-05 18:39:10] INFO root fetch - processPackages [dynamic-qrcode-image]: executing diffoscope
+[2023-05-05 18:39:10] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.4]: executing diffoscope
+[2023-05-05 18:39:10] INFO root fetch - processPackages [dynamic-qrcode-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic_qrcode_image-0.0.5.tar.gz tmp/dynamic_qrcode_image-0.0.6.tar.gz --markdown 20230505/d/dynamic-qrcode-image/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 18:39:10] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_pysparkling_scoring_2.4-3.40.0.3-1.tar.gz tmp/h2o_pysparkling_scoring_2.4-3.40.0.4-1.tar.gz --markdown 20230505/h/h2o-pysparkling-scoring-2.4/3.40.0.3.post1-3.40.0.4.post1/diff.md --exclude *.pyd
+[2023-05-05 18:39:10] INFO root fetch - processPackages [openmodule-test]: executing diffoscope
+[2023-05-05 18:39:10] INFO root fetch - processPackages [openmodule-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_test-9.0.0rc9.tar.gz tmp/openmodule_test-9.1.0.tar.gz --markdown 20230505/o/openmodule-test/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-05-05 18:39:10] INFO root fetch - processPackages [PennyLane-SF]: executing diffoscope
+[2023-05-05 18:39:10] INFO root fetch - processPackages [PennyLane-SF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PennyLane-SF-0.8.0.tar.gz tmp/PennyLane-SF-0.9.0.tar.gz --markdown 20230505/P/PennyLane-SF/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 18:39:11] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/a6/3c/48ccf044ba1edc8806c136901666ecc29542b5bf8b40ee6194dbc2abd0fe/openmodule-9.1.0.tar.gz
+[2023-05-05 18:39:11] INFO root fetch - processPackages [openmodule]: executing diffoscope
+[2023-05-05 18:39:11] INFO root fetch - processPackages [openmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule-9.0.0rc9.tar.gz tmp/openmodule-9.1.0.tar.gz --markdown 20230505/o/openmodule/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-05-05 18:39:11] INFO root fetch - processPackages [nycu-tdx-py]: Start processing: netmiko
+[2023-05-05 18:39:11] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-05-05 18:39:11] INFO root fetch - processPackages [netmiko]: New version: [4.2.0] Old Version: [4.1.2]
+[2023-05-05 18:39:11] INFO root fetch - processPackages [AutoGenerateMKD]: Start processing: uniTbrow
+[2023-05-05 18:39:11] INFO root fetch - main [MainThread]: End processing [AutoGenerateMKD]: success
+[2023-05-05 18:39:11] INFO root fetch - processPackages [uniTbrow]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-05 18:39:11] INFO root fetch - processPackages [netmiko]: Downloading https://files.pythonhosted.org/packages/0b/83/030a32a4d728e8cda107243385989af2376e92b6845b4484abf2737ed46c/netmiko-4.1.2.tar.gz
+[2023-05-05 18:39:11] INFO root fetch - processPackages [uniTbrow]: Downloading https://files.pythonhosted.org/packages/f6/5d/37cdbfbc3d161dbff212c2eb43c230ded21d07d505c4e0eae52e08c384ef/unitbrow-0.2.2.tar.gz
+[2023-05-05 18:39:11] INFO root fetch - processPackages [openmodule-commands]: Start processing: editanything
+[2023-05-05 18:39:11] INFO root fetch - main [MainThread]: End processing [openmodule-commands]: success
+[2023-05-05 18:39:11] INFO root fetch - processPackages [netmiko]: Downloading https://files.pythonhosted.org/packages/c9/26/74cb42b86b38069bcc4974fc5fccf670ca9b151cf6cfc5ecd97005cc01ae/netmiko-4.2.0.tar.gz
+[2023-05-05 18:39:12] INFO root fetch - processPackages [editanything]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 18:39:12] INFO root fetch - processPackages [cagen]: Start processing: gsf
+[2023-05-05 18:39:12] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-05-05 18:39:12] INFO root fetch - processPackages [gsf]: New version: [2.0.0.dev20] Old Version: [2.0.0.dev19]
+[2023-05-05 18:39:12] INFO root fetch - processPackages [netmiko]: executing diffoscope
+[2023-05-05 18:39:12] INFO root fetch - processPackages [netmiko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netmiko-4.1.2.tar.gz tmp/netmiko-4.2.0.tar.gz --markdown 20230505/n/netmiko/4.1.2-4.2.0/diff.md --exclude *.pyd
+[2023-05-05 18:39:12] INFO root fetch - processPackages [editanything]: executing diffoscope
+[2023-05-05 18:39:12] INFO root fetch - processPackages [editanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/editanything-0.0.7.tar.gz tmp/editanything-0.0.8.tar.gz --markdown 20230505/e/editanything/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 18:39:12] INFO root fetch - processPackages [uniTbrow]: executing diffoscope
+[2023-05-05 18:39:12] INFO root fetch - processPackages [uniTbrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitbrow-0.2.1.tar.gz tmp/unitbrow-0.2.2.tar.gz --markdown 20230505/u/uniTbrow/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-05 18:39:12] INFO root fetch - processPackages [dynamic-qrcode-image]: Start processing: scikit-hep-testdata
+[2023-05-05 18:39:12] INFO root fetch - main [MainThread]: End processing [dynamic-qrcode-image]: success
+[2023-05-05 18:39:12] INFO root fetch - processPackages [scikit-hep-testdata]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-05 18:39:12] INFO root fetch - processPackages [gsf]: Downloading https://files.pythonhosted.org/packages/ff/bd/aa180b544e14b676f93980152ce42c12a7fe3f886bbc49b38451ff937c5c/gsf-2.0.0.dev19-py3-none-any.whl
+[2023-05-05 18:39:12] INFO root fetch - processPackages [openmodule-test]: Start processing: practice-turkish
+[2023-05-05 18:39:12] INFO root fetch - main [MainThread]: End processing [openmodule-test]: success
+[2023-05-05 18:39:12] INFO root fetch - processPackages [practice-turkish]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-05 18:39:12] INFO root fetch - processPackages [PennyLane-SF]: Start processing: h2o-pysparkling-2.3
+[2023-05-05 18:39:12] INFO root fetch - main [MainThread]: End processing [PennyLane-SF]: success
+[2023-05-05 18:39:12] INFO root fetch - processPackages [h2o-pysparkling-2.3]: New version: [3.40.0.4.post1] Old Version: [3.40.0.3.post1]
+[2023-05-05 18:39:12] INFO root fetch - processPackages [gsf]: Downloading https://files.pythonhosted.org/packages/0b/b1/05d92697e6c922a8985eb196b423c1d4fe38841264ae3e8550a37d6a1478/gsf-2.0.0.dev20-py3-none-any.whl
+[2023-05-05 18:39:12] INFO root fetch - processPackages [practice-turkish]: Downloading https://files.pythonhosted.org/packages/a6/98/19af5fc151f9762d524cf9f730ebbae4cee05f8c9602bbfadd2ef958edf5/practice_turkish-1.4.0.tar.gz
+[2023-05-05 18:39:12] INFO root fetch - processPackages [gsf]: executing diffoscope
+[2023-05-05 18:39:12] INFO root fetch - processPackages [gsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsf-2.0.0.dev19-py3-none-any.whl.zip tmp/gsf-2.0.0.dev20-py3-none-any.whl.zip --markdown 20230505/g/gsf/2.0.0.dev19-2.0.0.dev20/diff.md --exclude *.pyd
+[2023-05-05 18:39:12] INFO root fetch - processPackages [scikit-hep-testdata]: Downloading https://files.pythonhosted.org/packages/46/92/42962f4e28eb602716aa16f43dcfa80db4f3622309e2f3cf4c2950703dd7/scikit_hep_testdata-0.4.8.tar.gz
+[2023-05-05 18:39:12] INFO root fetch - processPackages [h2o-pysparkling-2.3]: Downloading https://files.pythonhosted.org/packages/82/f2/9d20d05571c1569cc38e5fcc8bc4bf4d4786e6f0060813c744115ed8c2f7/h2o_pysparkling_2.3-3.40.0.3-1.tar.gz
+[2023-05-05 18:39:12] WARNING root fetch - processPackages [h2o-pysparkling-2.3]: Skipping package: exceeds size limit 163495893>=10485760
+[2023-05-05 18:39:12] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-2.3] error
+[2023-05-05 18:39:12] INFO root fetch - processPackages [practice-turkish]: Downloading https://files.pythonhosted.org/packages/a3/58/0399ca8457d7c66eade8ecd07fd5e7e4c3797ac73bccdf17f8c2a651fdc7/practice_turkish-1.4.1.tar.gz
+[2023-05-05 18:39:12] INFO root fetch - processPackages [scikit-hep-testdata]: Downloading https://files.pythonhosted.org/packages/8c/84/567507054c3e89a623cf5c13a515d3899a19446964909bdbae9fae4cfa5c/scikit_hep_testdata-0.4.9.tar.gz
+[2023-05-05 18:39:12] INFO root fetch - processPackages [practice-turkish]: executing diffoscope
+[2023-05-05 18:39:12] INFO root fetch - processPackages [practice-turkish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/practice_turkish-1.4.0.tar.gz tmp/practice_turkish-1.4.1.tar.gz --markdown 20230505/p/practice-turkish/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-05 18:39:13] INFO root fetch - processPackages [scikit-hep-testdata]: executing diffoscope
+[2023-05-05 18:39:13] INFO root fetch - processPackages [scikit-hep-testdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_hep_testdata-0.4.8.tar.gz tmp/scikit_hep_testdata-0.4.9.tar.gz --markdown 20230505/s/scikit-hep-testdata/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-05 18:39:13] INFO root fetch - main [MainThread]: End processing [openmodule]: success
+[2023-05-05 18:39:13] INFO root fetch - main [MainThread]: End processing [editanything]: success
+[2023-05-05 18:39:13] INFO root fetch - main [MainThread]: End processing [uniTbrow]: success
+[2023-05-05 18:39:13] INFO root fetch - main [MainThread]: End processing [gsf]: success
+[2023-05-05 18:39:14] INFO root fetch - main [MainThread]: End processing [practice-turkish]: success
+[2023-05-05 18:39:15] INFO root fetch - main [MainThread]: End processing [netmiko]: success
+[2023-05-05 18:39:15] INFO root fetch - main [MainThread]: End processing [scikit-hep-testdata]: success
+[2023-05-05 18:39:15] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-05-05 18:42:10] ERROR root fetch - processPackages [h2o-pysparkling-scoring-2.4]: Timeout during execution of pkgdiff
+[2023-05-05 18:42:10] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-2.4] error
+[2023-05-05 18:42:10] INFO root fetch - main [MainThread]: Store serial: [17989971]
