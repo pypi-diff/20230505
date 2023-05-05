@@ -9273,3 +9273,136 @@
 [2023-05-05 10:31:29] INFO root fetch - main [MainThread]: End processing [juju]: success
 [2023-05-05 10:31:54] INFO root fetch - main [MainThread]: End processing [autoretouch]: success
 [2023-05-05 10:31:54] INFO root fetch - main [MainThread]: Store serial: [17983998]
+[2023-05-05 10:37:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17983998]
+[2023-05-05 10:37:09] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-05 10:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyGuardPoint
+[2023-05-05 10:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unitranscode
+[2023-05-05 10:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paddypy
+[2023-05-05 10:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-recommendation
+[2023-05-05 10:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xrmocap
+[2023-05-05 10:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: minitrade
+[2023-05-05 10:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: regtest
+[2023-05-05 10:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sdmbc
+[2023-05-05 10:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-analysis-bilibili
+[2023-05-05 10:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dustpylib
+[2023-05-05 10:37:09] INFO root fetch - processPackages [unitranscode]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-05 10:37:09] INFO root fetch - processPackages [minitrade]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 10:37:09] INFO root fetch - processPackages [paddypy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-05 10:37:09] INFO root fetch - processPackages [xrmocap]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-05 10:37:09] INFO root fetch - processPackages [pyGuardPoint]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-05-05 10:37:09] INFO root fetch - processPackages [aws-recommendation]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-05 10:37:09] INFO root fetch - processPackages [regtest]: New version: [0.3.1] Old Version: [0.3]
+[2023-05-05 10:37:09] INFO root fetch - processPackages [sdmbc]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-05 10:37:09] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: New version: [2.5.0] Old Version: [2.4.9]
+[2023-05-05 10:37:09] INFO root fetch - processPackages [dustpylib]: New version: [0.3.0rc0] Old Version: [0.2.0rc0]
+[2023-05-05 10:37:09] INFO root fetch - processPackages [unitranscode]: Downloading https://files.pythonhosted.org/packages/31/91/6030282505d3b9b65f14774903e4326ddc7f9393d86d82ba721d0ee09b30/unitranscode-0.3.2.tar.gz
+[2023-05-05 10:37:09] INFO root fetch - processPackages [sdmbc]: Downloading https://files.pythonhosted.org/packages/47/51/bd560166037e860029b00bf6b7d59ac1bb6aa0a08b67778814b1a30b8226/sdmbc-0.1.tar.gz
+[2023-05-05 10:37:09] INFO root fetch - processPackages [aws-recommendation]: Downloading https://files.pythonhosted.org/packages/7c/04/ae23f9e1bdc5bda0bc4d6b77ffe4752bdcc59145bd6d171b2611639059f3/aws_recommendation-0.2.3.tar.gz
+[2023-05-05 10:37:09] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Downloading https://files.pythonhosted.org/packages/89/22/b4cc43aff670e532652ae8a42b6895588f08b25c4aa4ffe9e664eaa3070d/nonebot_plugin_analysis_bilibili-2.4.9.tar.gz
+[2023-05-05 10:37:09] INFO root fetch - processPackages [xrmocap]: Downloading https://files.pythonhosted.org/packages/4b/9b/77f4e14b935a1986de34ad70e3b318739139bcfd3be432cb5db06a5103eb/xrmocap-0.7.0.tar.gz
+[2023-05-05 10:37:09] INFO root fetch - processPackages [regtest]: Downloading https://files.pythonhosted.org/packages/e2/c3/dd582938c82b28f34f8698ca859be8a493d5a52aa7beb86346ed4e9607bf/regtest-0.3.zip
+[2023-05-05 10:37:09] INFO root fetch - processPackages [minitrade]: Downloading https://files.pythonhosted.org/packages/5f/b2/f641ba28684c7fa8b23f530366cc52dff178045351134c33142d49317684/minitrade-0.1.8.tar.gz
+[2023-05-05 10:37:09] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/c7/8d/40da1f2b30c449e0602e44800d9d1d44fb630df27f3d0bf273ead8dc679b/pyGuardPoint-0.8.9.tar.gz
+[2023-05-05 10:37:10] INFO root fetch - processPackages [paddypy]: Downloading https://files.pythonhosted.org/packages/75/2a/6d498e3dfc066699021797f1a2f2f4cef634b8f5935854ab043f6bc69a49/paddypy-0.1.6.tar.gz
+[2023-05-05 10:37:10] INFO root fetch - processPackages [paddypy]: executing diffoscope
+[2023-05-05 10:37:10] INFO root fetch - processPackages [paddypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddypy-0.1.5.tar.gz tmp/paddypy-0.1.6.tar.gz --markdown 20230505/p/paddypy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-05 10:37:10] INFO root fetch - processPackages [dustpylib]: Downloading https://files.pythonhosted.org/packages/a0/78/69f8e6a025287a915ad2e9e02451462b9270d4af35bbf6fa7940a17ac5b3/dustpylib-0.3.0rc0.tar.gz
+[2023-05-05 10:37:10] INFO root fetch - processPackages [unitranscode]: Downloading https://files.pythonhosted.org/packages/be/69/a170d7d2fc790fadf0b99eb17fe04b562b37dff6ef860e9837ef139e2cbe/unitranscode-0.3.3.tar.gz
+[2023-05-05 10:37:10] INFO root fetch - processPackages [sdmbc]: Downloading https://files.pythonhosted.org/packages/cf/2a/cb0b722b235ca7865e98c8592589ce391b1433f420661547e28e7598a4b6/sdmbc-0.1.1.tar.gz
+[2023-05-05 10:37:10] INFO root fetch - processPackages [unitranscode]: executing diffoscope
+[2023-05-05 10:37:10] INFO root fetch - processPackages [unitranscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitranscode-0.3.2.tar.gz tmp/unitranscode-0.3.3.tar.gz --markdown 20230505/u/unitranscode/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-05 10:37:10] INFO root fetch - processPackages [sdmbc]: executing diffoscope
+[2023-05-05 10:37:10] INFO root fetch - processPackages [aws-recommendation]: Downloading https://files.pythonhosted.org/packages/41/d6/9c17dcaf2265bb95c1005991d4544fb24ff2eb9fb0e8444d11a0345526ad/aws_recommendation-0.2.4.tar.gz
+[2023-05-05 10:37:10] INFO root fetch - processPackages [sdmbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdmbc-0.1.tar.gz tmp/sdmbc-0.1.1.tar.gz --markdown 20230505/s/sdmbc/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 10:37:10] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Downloading https://files.pythonhosted.org/packages/3b/68/82341b6fdbfcf3a30c8ed125c0c555ec3f1c990df46c7fdb3e2cba903c30/nonebot_plugin_analysis_bilibili-2.5.0.tar.gz
+[2023-05-05 10:37:10] INFO root fetch - processPackages [regtest]: Downloading https://files.pythonhosted.org/packages/d1/76/4021754986e87dbb2280c049047c58a28bd2523f36299e65cd72fee26cf9/regtest-0.3.1.zip
+[2023-05-05 10:37:10] INFO root fetch - processPackages [aws-recommendation]: executing diffoscope
+[2023-05-05 10:37:10] INFO root fetch - processPackages [xrmocap]: Downloading https://files.pythonhosted.org/packages/59/db/b27f003a9fed7d2db23f175650ba0e466bfa55c8eb8047d4f47bfd9a1a11/xrmocap-0.8.0.tar.gz
+[2023-05-05 10:37:10] INFO root fetch - processPackages [aws-recommendation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_recommendation-0.2.3.tar.gz tmp/aws_recommendation-0.2.4.tar.gz --markdown 20230505/a/aws-recommendation/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-05 10:37:10] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/69/0d/65da1f2c0039baf70c2524adf307a05dcae80216efbbf49c09f7f516f847/pyGuardPoint-0.9.0.tar.gz
+[2023-05-05 10:37:10] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: executing diffoscope
+[2023-05-05 10:37:10] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_analysis_bilibili-2.4.9.tar.gz tmp/nonebot_plugin_analysis_bilibili-2.5.0.tar.gz --markdown 20230505/n/nonebot-plugin-analysis-bilibili/2.4.9-2.5.0/diff.md --exclude *.pyd
+[2023-05-05 10:37:10] INFO root fetch - processPackages [pyGuardPoint]: executing diffoscope
+[2023-05-05 10:37:10] INFO root fetch - processPackages [pyGuardPoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyGuardPoint-0.8.9.tar.gz tmp/pyGuardPoint-0.9.0.tar.gz --markdown 20230505/p/pyGuardPoint/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 10:37:10] INFO root fetch - processPackages [regtest]: executing diffoscope
+[2023-05-05 10:37:10] INFO root fetch - processPackages [regtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regtest-0.3.zip tmp/regtest-0.3.1.zip --markdown 20230505/r/regtest/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-05-05 10:37:10] INFO root fetch - processPackages [xrmocap]: executing diffoscope
+[2023-05-05 10:37:10] INFO root fetch - processPackages [xrmocap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrmocap-0.7.0.tar.gz tmp/xrmocap-0.8.0.tar.gz --markdown 20230505/x/xrmocap/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-05 10:37:10] INFO root fetch - processPackages [dustpylib]: executing diffoscope
+[2023-05-05 10:37:10] INFO root fetch - processPackages [dustpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dustpylib-0.2.0rc0.tar.gz tmp/dustpylib-0.3.0rc0.tar.gz --markdown 20230505/d/dustpylib/0.2.0rc0-0.3.0rc0/diff.md --exclude *.pyd
+[2023-05-05 10:37:10] INFO root fetch - processPackages [minitrade]: Downloading https://files.pythonhosted.org/packages/8f/eb/d50633b35cb7154918ad47a8651b5cce6dbf62eaf0e1eabd97085addeae1/minitrade-0.1.9.tar.gz
+[2023-05-05 10:37:10] INFO root fetch - processPackages [minitrade]: executing diffoscope
+[2023-05-05 10:37:10] INFO root fetch - processPackages [minitrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minitrade-0.1.8.tar.gz tmp/minitrade-0.1.9.tar.gz --markdown 20230505/m/minitrade/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 10:37:11] INFO root fetch - processPackages [paddypy]: Start processing: semisup-segmentation
+[2023-05-05 10:37:11] INFO root fetch - main [MainThread]: End processing [paddypy]: success
+[2023-05-05 10:37:11] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 10:37:11] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-05 10:37:11] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230505/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 10:37:11] INFO root fetch - processPackages [unitranscode]: Start processing: orange-widget-base
+[2023-05-05 10:37:11] INFO root fetch - main [MainThread]: End processing [unitranscode]: success
+[2023-05-05 10:37:11] INFO root fetch - processPackages [orange-widget-base]: New version: [4.9.0] Old Version: [4.8.1]
+[2023-05-05 10:37:11] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Start processing: azurify
+[2023-05-05 10:37:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-analysis-bilibili]: success
+[2023-05-05 10:37:11] WARNING root fetch - processPackages [azurify]: Skipping, unable to determine old version
+[2023-05-05 10:37:11] INFO root fetch - processPackages [azurify]: Start processing: dataframe-ai
+[2023-05-05 10:37:11] INFO root fetch - main [MainThread]: End processing [azurify] error
+[2023-05-05 10:37:11] INFO root fetch - processPackages [regtest]: Start processing: nicegui
+[2023-05-05 10:37:11] INFO root fetch - main [MainThread]: End processing [regtest]: success
+[2023-05-05 10:37:12] INFO root fetch - processPackages [pyGuardPoint]: Start processing: streamlit-kpi
+[2023-05-05 10:37:12] INFO root fetch - main [MainThread]: End processing [pyGuardPoint]: success
+[2023-05-05 10:37:12] WARNING root fetch - processPackages [dataframe-ai]: Skipping, unable to determine old version
+[2023-05-05 10:37:12] INFO root fetch - processPackages [dataframe-ai]: Start processing: toolium
+[2023-05-05 10:37:12] INFO root fetch - main [MainThread]: End processing [dataframe-ai] error
+[2023-05-05 10:37:12] INFO root fetch - processPackages [nicegui]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-05 10:37:12] INFO root fetch - processPackages [streamlit-kpi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 10:37:12] INFO root fetch - processPackages [toolium]: New version: [3.0.1.dev1] Old Version: [3.0.1.dev0]
+[2023-05-05 10:37:12] INFO root fetch - processPackages [orange-widget-base]: Downloading https://files.pythonhosted.org/packages/0e/e9/dffd261442cb817b7bfc49610da95a1d91dfe4ec432f3c9d095ae051c159/orange-widget-base-4.8.1.tar.gz
+[2023-05-05 10:37:12] INFO root fetch - processPackages [streamlit-kpi]: executing diffoscope
+[2023-05-05 10:37:12] INFO root fetch - processPackages [streamlit-kpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-kpi-0.0.8.tar.gz tmp/streamlit-kpi-0.0.9.tar.gz --markdown 20230505/s/streamlit-kpi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 10:37:12] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/35/d9/3755a0174dff3fabe8197ca66d234865c535e6def44c59a79263aa707215/nicegui-1.2.8.tar.gz
+[2023-05-05 10:37:12] INFO root fetch - processPackages [toolium]: Downloading https://files.pythonhosted.org/packages/c3/2a/75a399e9abe8e36d0658035f4f9c78215a0556b824b7bd6bb1db0ffecd49/toolium-3.0.1.dev1.tar.gz
+[2023-05-05 10:37:12] INFO root fetch - processPackages [minitrade]: Start processing: artemis-utils
+[2023-05-05 10:37:12] INFO root fetch - main [MainThread]: End processing [minitrade]: success
+[2023-05-05 10:37:12] INFO root fetch - processPackages [artemis-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 10:37:12] INFO root fetch - processPackages [toolium]: executing diffoscope
+[2023-05-05 10:37:12] INFO root fetch - processPackages [toolium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolium-3.0.1.dev0.tar.gz tmp/toolium-3.0.1.dev1.tar.gz --markdown 20230505/t/toolium/3.0.1.dev0-3.0.1.dev1/diff.md --exclude *.pyd
+[2023-05-05 10:37:12] INFO root fetch - processPackages [orange-widget-base]: Downloading https://files.pythonhosted.org/packages/50/a6/84d466f884beaa1ff59a75ae616aed418f8150745071ba6ad6b58a7b9613/orange-widget-base-4.9.0.tar.gz
+[2023-05-05 10:37:12] INFO root fetch - processPackages [aws-recommendation]: Start processing: digitalguide-reader
+[2023-05-05 10:37:12] INFO root fetch - main [MainThread]: End processing [aws-recommendation]: success
+[2023-05-05 10:37:12] INFO root fetch - processPackages [digitalguide-reader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 10:37:12] INFO root fetch - processPackages [dustpylib]: Start processing: userfs
+[2023-05-05 10:37:12] INFO root fetch - main [MainThread]: End processing [dustpylib]: success
+[2023-05-05 10:37:12] INFO root fetch - processPackages [artemis-utils]: Downloading https://files.pythonhosted.org/packages/c1/c0/0bba79c85d5c9ce0cf0c16758962e646ef90aa56f85b2001aff3b790fbd0/artemis_utils-1.0.8.tar.gz
+[2023-05-05 10:37:12] INFO root fetch - processPackages [userfs]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-05 10:37:12] INFO root fetch - processPackages [sdmbc]: Start processing: scrapetron
+[2023-05-05 10:37:12] INFO root fetch - main [MainThread]: End processing [sdmbc]: success
+[2023-05-05 10:37:12] INFO root fetch - processPackages [orange-widget-base]: executing diffoscope
+[2023-05-05 10:37:12] INFO root fetch - processPackages [orange-widget-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orange-widget-base-4.8.1.tar.gz tmp/orange-widget-base-4.9.0.tar.gz --markdown 20230505/o/orange-widget-base/4.8.1-4.9.0/diff.md --exclude *.pyd
+[2023-05-05 10:37:12] INFO root fetch - processPackages [scrapetron]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-05 10:37:12] INFO root fetch - processPackages [userfs]: Downloading https://files.pythonhosted.org/packages/8b/ae/0c20b6fcea7bde2eb1fc919511274673c6312d085094602eb698a2b96085/userfs-0.1.0.tar.gz
+[2023-05-05 10:37:12] INFO root fetch - processPackages [scrapetron]: Downloading https://files.pythonhosted.org/packages/16/05/c9f102214b3aaf8250c14d526dce7186fbad24dd9d3b23c63a7583bd658f/scrapetron-1.0.0.tar.gz
+[2023-05-05 10:37:12] INFO root fetch - processPackages [digitalguide-reader]: executing diffoscope
+[2023-05-05 10:37:12] INFO root fetch - processPackages [digitalguide-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide_reader-0.0.8.tar.gz tmp/digitalguide_reader-0.0.9.tar.gz --markdown 20230505/d/digitalguide-reader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 10:37:12] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-05 10:37:13] INFO root fetch - processPackages [userfs]: Downloading https://files.pythonhosted.org/packages/20/aa/1e33c104a5545b8561a37c769df64501a8ea01caa862f7e73539417218fc/userfs-0.2.0.tar.gz
+[2023-05-05 10:37:13] INFO root fetch - processPackages [scrapetron]: Downloading https://files.pythonhosted.org/packages/e8/bb/4fb2cbcff09a7d04d1641f73935e0e16c0daf2225c7108e1eff7f9117373/scrapetron-1.0.1.tar.gz
+[2023-05-05 10:37:13] INFO root fetch - processPackages [userfs]: executing diffoscope
+[2023-05-05 10:37:13] INFO root fetch - processPackages [userfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/userfs-0.1.0.tar.gz tmp/userfs-0.2.0.tar.gz --markdown 20230505/u/userfs/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 10:37:13] INFO root fetch - processPackages [scrapetron]: executing diffoscope
+[2023-05-05 10:37:13] INFO root fetch - processPackages [scrapetron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapetron-1.0.0.tar.gz tmp/scrapetron-1.0.1.tar.gz --markdown 20230505/s/scrapetron/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-05 10:37:13] INFO root fetch - processPackages [artemis-utils]: Downloading https://files.pythonhosted.org/packages/5a/78/f8161b5a3fb004f68538d90b2ce99206e28384af3b72c6f65b62bac9420e/artemis_utils-1.0.9.tar.gz
+[2023-05-05 10:37:13] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/a8/5b/4700da14dca835cafbca381f4f627a906a0eb4deacdecde0e9d5c319bec5/nicegui-1.2.9.tar.gz
+[2023-05-05 10:37:13] INFO root fetch - main [MainThread]: End processing [streamlit-kpi]: success
+[2023-05-05 10:37:13] INFO root fetch - processPackages [artemis-utils]: executing diffoscope
+[2023-05-05 10:37:13] INFO root fetch - processPackages [artemis-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artemis_utils-1.0.8.tar.gz tmp/artemis_utils-1.0.9.tar.gz --markdown 20230505/a/artemis-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 10:37:14] INFO root fetch - main [MainThread]: End processing [digitalguide-reader]: success
+[2023-05-05 10:37:14] INFO root fetch - processPackages [nicegui]: executing diffoscope
+[2023-05-05 10:37:14] INFO root fetch - processPackages [nicegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicegui-1.2.8.tar.gz tmp/nicegui-1.2.9.tar.gz --markdown 20230505/n/nicegui/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-05 10:37:14] INFO root fetch - main [MainThread]: End processing [userfs]: success
+[2023-05-05 10:37:14] INFO root fetch - main [MainThread]: End processing [xrmocap]: success
+[2023-05-05 10:37:14] INFO root fetch - main [MainThread]: End processing [scrapetron]: success
+[2023-05-05 10:37:14] INFO root fetch - main [MainThread]: End processing [orange-widget-base]: success
+[2023-05-05 10:37:14] INFO root fetch - main [MainThread]: End processing [toolium]: success
+[2023-05-05 10:37:14] INFO root fetch - main [MainThread]: End processing [artemis-utils]: success
+[2023-05-05 10:37:18] INFO root fetch - main [MainThread]: End processing [nicegui]: success
+[2023-05-05 10:37:18] INFO root fetch - main [MainThread]: Store serial: [17984066]
