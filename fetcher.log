@@ -5503,3 +5503,39 @@
 [2023-05-05 05:40:38] INFO root fetch - main [MainThread]: End processing [simauth]: success
 [2023-05-05 05:40:38] INFO root fetch - main [MainThread]: End processing [transcribe-anything]: success
 [2023-05-05 05:40:38] INFO root fetch - main [MainThread]: Store serial: [17981725]
+[2023-05-05 05:45:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981725]
+[2023-05-05 05:45:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-05 05:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transcribe-anything
+[2023-05-05 05:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cosmic-variance
+[2023-05-05 05:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rellm
+[2023-05-05 05:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: consolecmdtools
+[2023-05-05 05:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rellm
+[2023-05-05 05:45:46] INFO root fetch - processPackages [cosmic-variance]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 05:45:46] INFO root fetch - processPackages [transcribe-anything]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-05-05 05:45:46] INFO root fetch - processPackages [rellm]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 05:45:46] INFO root fetch - processPackages [rellm]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 05:45:46] INFO root fetch - processPackages [consolecmdtools]: New version: [3.5.1] Old Version: [3.4.1]
+[2023-05-05 05:45:47] INFO root fetch - processPackages [rellm]: Downloading https://files.pythonhosted.org/packages/71/4d/8b1af023558bec7fbe06daf5d43a02058931abf2e32dbfa9baef4f2e3a2a/rellm-0.0.1.tar.gz
+[2023-05-05 05:45:47] INFO root fetch - processPackages [rellm]: Downloading https://files.pythonhosted.org/packages/71/4d/8b1af023558bec7fbe06daf5d43a02058931abf2e32dbfa9baef4f2e3a2a/rellm-0.0.1.tar.gz
+[2023-05-05 05:45:47] INFO root fetch - processPackages [cosmic-variance]: Downloading https://files.pythonhosted.org/packages/c9/b3/926c38149b73de24a7ae10130c181394f4fc5b4cc04385fe536c65614355/cosmic_variance-0.1.5.tar.gz
+[2023-05-05 05:45:47] INFO root fetch - processPackages [consolecmdtools]: Downloading https://files.pythonhosted.org/packages/2a/e6/5d66d67d2f22a7b498c52ce6ba9e0132d9c5ad7a2d0f89237f24181b29ff/consolecmdtools-3.4.1.tar.gz
+[2023-05-05 05:45:47] INFO root fetch - processPackages [cosmic-variance]: executing diffoscope
+[2023-05-05 05:45:47] INFO root fetch - processPackages [cosmic-variance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmic_variance-0.1.4.tar.gz tmp/cosmic_variance-0.1.5.tar.gz --markdown 20230505/c/cosmic-variance/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 05:45:47] INFO root fetch - processPackages [transcribe-anything]: Downloading https://files.pythonhosted.org/packages/2b/67/c7573122286635a3c3d4e25603b35b43976e935fd44fcdd7601487da3167/transcribe-anything-2.2.0.tar.gz
+[2023-05-05 05:45:47] INFO root fetch - processPackages [rellm]: Downloading https://files.pythonhosted.org/packages/e9/b9/0b9cc798ab677db689e7d5b635bb01d4390c61c1f619e1e79b2e869ac480/rellm-0.0.2.tar.gz
+[2023-05-05 05:45:47] INFO root fetch - processPackages [rellm]: Downloading https://files.pythonhosted.org/packages/e9/b9/0b9cc798ab677db689e7d5b635bb01d4390c61c1f619e1e79b2e869ac480/rellm-0.0.2.tar.gz
+[2023-05-05 05:45:47] INFO root fetch - processPackages [transcribe-anything]: executing diffoscope
+[2023-05-05 05:45:47] INFO root fetch - processPackages [transcribe-anything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcribe-anything-2.1.2.tar.gz tmp/transcribe-anything-2.2.0.tar.gz --markdown 20230505/t/transcribe-anything/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-05-05 05:45:47] INFO root fetch - processPackages [rellm]: executing diffoscope
+[2023-05-05 05:45:47] INFO root fetch - processPackages [rellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rellm-0.0.1.tar.gz tmp/rellm-0.0.2.tar.gz --markdown 20230505/r/rellm/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 05:45:47] INFO root fetch - processPackages [rellm]: executing diffoscope
+[2023-05-05 05:45:47] INFO root fetch - processPackages [rellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rellm-0.0.1.tar.gz tmp/rellm-0.0.2.tar.gz --markdown 20230505/r/rellm/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 05:45:47] INFO root fetch - processPackages [consolecmdtools]: Downloading https://files.pythonhosted.org/packages/64/20/f892d5e907b8e5a86a3fe470f6aaf73aacc67c5b3b93d40f57f84099f97b/consolecmdtools-3.5.1.tar.gz
+[2023-05-05 05:45:47] INFO root fetch - processPackages [consolecmdtools]: executing diffoscope
+[2023-05-05 05:45:47] INFO root fetch - processPackages [consolecmdtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consolecmdtools-3.4.1.tar.gz tmp/consolecmdtools-3.5.1.tar.gz --markdown 20230505/c/consolecmdtools/3.4.1-3.5.1/diff.md --exclude *.pyd
+[2023-05-05 05:45:48] INFO root fetch - main [MainThread]: End processing [cosmic-variance]: success
+[2023-05-05 05:45:48] INFO root fetch - main [MainThread]: End processing [transcribe-anything]: success
+[2023-05-05 05:45:48] INFO root fetch - main [MainThread]: End processing [rellm]: success
+[2023-05-05 05:45:48] INFO root fetch - main [MainThread]: End processing [rellm]: success
+[2023-05-05 05:45:48] INFO root fetch - main [MainThread]: End processing [consolecmdtools]: success
+[2023-05-05 05:45:48] INFO root fetch - main [MainThread]: Store serial: [17981742]
