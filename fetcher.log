@@ -11767,3 +11767,72 @@
 [2023-05-05 12:25:53] INFO root fetch - main [MainThread]: End processing [pydflow]: success
 [2023-05-05 12:25:54] INFO root fetch - main [MainThread]: End processing [camerahub]: success
 [2023-05-05 12:25:54] INFO root fetch - main [MainThread]: Store serial: [17985421]
+[2023-05-05 12:30:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17985421]
+[2023-05-05 12:31:04] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-05 12:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: editanything
+[2023-05-05 12:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperfast-python-template
+[2023-05-05 12:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omero-user-token
+[2023-05-05 12:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scipion-em-kiharalab
+[2023-05-05 12:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: twity
+[2023-05-05 12:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cwsearch-utils
+[2023-05-05 12:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lzy-desktop
+[2023-05-05 12:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kodexa-cli
+[2023-05-05 12:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fusionsc
+[2023-05-05 12:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lms-synergy-library
+[2023-05-05 12:31:04] ERROR root fetch - processPackages [scipion-em-kiharalab]: Unable to get metadata: No such project 'scipion-em-kiharalab'
+[2023-05-05 12:31:04] INFO root fetch - processPackages [scipion-em-kiharalab]: Start processing: ogc-na
+[2023-05-05 12:31:04] INFO root fetch - main [MainThread]: End processing [scipion-em-kiharalab] error
+[2023-05-05 12:31:04] WARNING root fetch - processPackages [omero-user-token]: Skipping, unable to determine old version
+[2023-05-05 12:31:04] INFO root fetch - processPackages [editanything]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 12:31:04] INFO root fetch - processPackages [omero-user-token]: Start processing: sry
+[2023-05-05 12:31:04] INFO root fetch - main [MainThread]: End processing [omero-user-token] error
+[2023-05-05 12:31:04] WARNING root fetch - processPackages [lzy-desktop]: Skipping, unable to determine old version
+[2023-05-05 12:31:04] INFO root fetch - processPackages [lms-synergy-library]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-05 12:31:04] INFO root fetch - processPackages [lzy-desktop]: Start processing: spine-aws-common
+[2023-05-05 12:31:04] INFO root fetch - processPackages [twity]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 12:31:04] INFO root fetch - main [MainThread]: End processing [lzy-desktop] error
+[2023-05-05 12:31:04] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-05 12:31:04] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 12:31:04] INFO root fetch - processPackages [kodexa-cli]: New version: [6.0.5a4617368474] Old Version: [6.0.4892421729]
+[2023-05-05 12:31:04] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-05 12:31:04] WARNING root fetch - processPackages [sry]: Skipping, unable to determine old version
+[2023-05-05 12:31:04] INFO root fetch - main [MainThread]: End processing [sry] error
+[2023-05-05 12:31:04] INFO root fetch - processPackages [ogc-na]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 12:31:04] INFO root fetch - processPackages [spine-aws-common]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 12:31:04] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-05-05 12:31:04] INFO root fetch - processPackages [editanything]: Downloading https://files.pythonhosted.org/packages/36/87/4ec76bff9c36c8842c0e3c71ecce53861ac23e845808e51d8265a1e08758/editanything-0.0.1.tar.gz
+[2023-05-05 12:31:04] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-05-05 12:31:04] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230505/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 12:31:04] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-05-05 12:31:04] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-05-05 12:31:04] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/ba/49/57a23bb03b5dd982b5744568b2ae1f5f3a00641feddee666e3f0815712a5/kodexa_cli-6.0.4892421729.tar.gz
+[2023-05-05 12:31:04] INFO root fetch - processPackages [spine-aws-common]: executing diffoscope
+[2023-05-05 12:31:04] INFO root fetch - processPackages [spine-aws-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_aws_common-0.2.8.tar.gz tmp/spine_aws_common-0.2.9.tar.gz --markdown 20230505/s/spine-aws-common/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 12:31:04] INFO root fetch - processPackages [twity]: Downloading https://files.pythonhosted.org/packages/d1/9e/98cc7e21b1a676ebc774dca3c5abd91ab167d1e3341aaf40dd0ef8ebc2da/twity-0.0.2.tar.gz
+[2023-05-05 12:31:04] INFO root fetch - processPackages [lms-synergy-library]: Downloading https://files.pythonhosted.org/packages/e5/1d/a19bc8332247f7492353612ebfc3523230003ecc1d9fbedfe7d164aa664a/lms_synergy_library-0.1.2.tar.gz
+[2023-05-05 12:31:05] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/42/79/4e5acce8c089c5367040bfacc1b22f696d8f7ea2491588f9abf852e57fa7/ogc_na-0.1.4.tar.gz
+[2023-05-05 12:31:05] INFO root fetch - processPackages [editanything]: Downloading https://files.pythonhosted.org/packages/0e/f9/3b6976f39dc097aa273d2a94839b7b7197333afea64a12e85ddd3959c1f0/editanything-0.0.2.tar.gz
+[2023-05-05 12:31:05] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-05-05 12:31:05] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.4.8.tar.gz tmp/hyperfast_python_template-0.4.9.tar.gz --markdown 20230505/h/hyperfast-python-template/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-05 12:31:05] INFO root fetch - processPackages [twity]: Downloading https://files.pythonhosted.org/packages/bf/6f/0bb35e28e14b2c0206d693bde94b7a58e87a78e55169a5ed250d7780257c/twity-0.0.3.tar.gz
+[2023-05-05 12:31:05] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/39/3a/b047e79cfd9dee8886f9e18540e1d7def1c203702da326cda964133ad9db/kodexa_cli-6.0.5a4617368474.tar.gz
+[2023-05-05 12:31:05] INFO root fetch - processPackages [editanything]: executing diffoscope
+[2023-05-05 12:31:05] INFO root fetch - processPackages [editanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/editanything-0.0.1.tar.gz tmp/editanything-0.0.2.tar.gz --markdown 20230505/e/editanything/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 12:31:05] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-05-05 12:31:05] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.1.3.tar.gz tmp/ogc_na-0.1.4.tar.gz --markdown 20230505/o/ogc-na/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 12:31:05] INFO root fetch - processPackages [twity]: executing diffoscope
+[2023-05-05 12:31:05] INFO root fetch - processPackages [twity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twity-0.0.2.tar.gz tmp/twity-0.0.3.tar.gz --markdown 20230505/t/twity/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 12:31:05] INFO root fetch - processPackages [lms-synergy-library]: Downloading https://files.pythonhosted.org/packages/54/36/c1c6e4204151fb5c68d9edcba812b57f5fe91f68e139bfb5eb5bdcaaf96d/lms_synergy_library-0.2.0.tar.gz
+[2023-05-05 12:31:05] INFO root fetch - processPackages [lms-synergy-library]: executing diffoscope
+[2023-05-05 12:31:05] INFO root fetch - processPackages [lms-synergy-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lms_synergy_library-0.1.2.tar.gz tmp/lms_synergy_library-0.2.0.tar.gz --markdown 20230505/l/lms-synergy-library/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 12:31:05] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-05-05 12:31:05] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.0.4892421729.tar.gz tmp/kodexa_cli-6.0.5a4617368474.tar.gz --markdown 20230505/k/kodexa-cli/6.0.4892421729-6.0.5a4617368474/diff.md --exclude *.pyd
+[2023-05-05 12:31:06] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-05-05 12:31:06] INFO root fetch - main [MainThread]: End processing [editanything]: success
+[2023-05-05 12:31:06] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-05-05 12:31:06] INFO root fetch - main [MainThread]: End processing [twity]: success
+[2023-05-05 12:31:06] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-05-05 12:31:06] INFO root fetch - main [MainThread]: End processing [lms-synergy-library]: success
+[2023-05-05 12:31:07] INFO root fetch - main [MainThread]: End processing [spine-aws-common]: success
+[2023-05-05 12:31:07] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-05-05 12:31:07] INFO root fetch - main [MainThread]: Store serial: [17985481]
