@@ -20646,3 +20646,59 @@
 [2023-05-05 20:10:02] INFO root fetch - main [MainThread]: End processing [awscli]: success
 [2023-05-05 20:10:12] INFO root fetch - main [MainThread]: End processing [botocore]: success
 [2023-05-05 20:10:12] INFO root fetch - main [MainThread]: Store serial: [17991183]
+[2023-05-05 20:15:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17991183]
+[2023-05-05 20:15:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-05 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalk-harness
+[2023-05-05 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oracle-ads
+[2023-05-05 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botocore-stubs
+[2023-05-05 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TPHATE
+[2023-05-05 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awsiotsdk
+[2023-05-05 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meter-gear
+[2023-05-05 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djaodjin-survey
+[2023-05-05 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skyagi
+[2023-05-05 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spotlight-dev
+[2023-05-05 20:15:21] INFO root fetch - processPackages [oracle-ads]: New version: [2.8.4] Old Version: [2.8.3]
+[2023-05-05 20:15:21] INFO root fetch - processPackages [TPHATE]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-05 20:15:21] INFO root fetch - processPackages [djaodjin-survey]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-05 20:15:21] INFO root fetch - processPackages [awsiotsdk]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-05 20:15:21] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-05 20:15:21] INFO root fetch - processPackages [botocore-stubs]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-05-05 20:15:21] INFO root fetch - processPackages [meter-gear]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-05 20:15:21] INFO root fetch - processPackages [botocore-stubs]: executing diffoscope
+[2023-05-05 20:15:21] INFO root fetch - processPackages [botocore-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_stubs-1.29.98.tar.gz tmp/botocore_stubs-1.29.99.tar.gz --markdown 20230505/b/botocore-stubs/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-05-05 20:15:21] INFO root fetch - processPackages [meter-gear]: executing diffoscope
+[2023-05-05 20:15:21] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-05-05 20:15:21] INFO root fetch - processPackages [meter-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-gear-1.2.8.tar.gz tmp/meter-gear-1.2.9.tar.gz --markdown 20230505/m/meter-gear/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-05 20:15:21] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230505/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 20:15:21] INFO root fetch - processPackages [skyagi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 20:15:22] INFO root fetch - processPackages [spotlight-dev]: New version: [0.0.1b4] Old Version: [0.0.1b3]
+[2023-05-05 20:15:22] INFO root fetch - processPackages [djaodjin-survey]: Downloading https://files.pythonhosted.org/packages/9a/a6/b1ef0236f4445b9a1aa5c4f00f5d274ae31fd66c60dcd795021c086ab6c7/djaodjin-survey-0.9.6.tar.gz
+[2023-05-05 20:15:22] INFO root fetch - processPackages [oracle-ads]: Downloading https://files.pythonhosted.org/packages/e0/fa/dff3b9bd1be75650ab2a91a9094339fbe1b865021a058bb097fa48005a94/oracle_ads-2.8.3.tar.gz
+[2023-05-05 20:15:22] INFO root fetch - processPackages [TPHATE]: Downloading https://files.pythonhosted.org/packages/65/8e/bf8904660fca30d8630627c7e57087ed6512e7a3723d08e6c69738a91cff/TPHATE-0.0.5.tar.gz
+[2023-05-05 20:15:22] INFO root fetch - processPackages [djaodjin-survey]: Downloading https://files.pythonhosted.org/packages/4a/34/0d1b7534480cab9801be25626ace6011597282405f255420a9648f2a18c9/djaodjin-survey-0.9.7.tar.gz
+[2023-05-05 20:15:22] INFO root fetch - processPackages [TPHATE]: executing diffoscope
+[2023-05-05 20:15:22] INFO root fetch - processPackages [TPHATE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPHATE-0.0.4.tar.gz tmp/TPHATE-0.0.5.tar.gz --markdown 20230505/T/TPHATE/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 20:15:22] INFO root fetch - processPackages [skyagi]: Downloading https://files.pythonhosted.org/packages/2c/8a/1db7ac914c786f69dbbb17002028d389e8163581738de53e62af89312a32/skyagi-0.0.8.tar.gz
+[2023-05-05 20:15:22] INFO root fetch - processPackages [djaodjin-survey]: executing diffoscope
+[2023-05-05 20:15:22] INFO root fetch - processPackages [djaodjin-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-survey-0.9.6.tar.gz tmp/djaodjin-survey-0.9.7.tar.gz --markdown 20230505/d/djaodjin-survey/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-05 20:15:22] INFO root fetch - processPackages [awsiotsdk]: executing diffoscope
+[2023-05-05 20:15:22] INFO root fetch - processPackages [awsiotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsiotsdk-1.9.2.tar.gz tmp/awsiotsdk-1.9.3.tar.gz --markdown 20230505/a/awsiotsdk/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-05 20:15:22] INFO root fetch - processPackages [spotlight-dev]: Downloading https://files.pythonhosted.org/packages/f0/7a/b4ad20ee2e7ff005e1827bbe62b08c89d304eac82c51d7c87732eebb85db/spotlight-dev-0.0.1b4.tar.gz
+[2023-05-05 20:15:22] INFO root fetch - processPackages [oracle-ads]: Downloading https://files.pythonhosted.org/packages/43/bf/1baaf10de9b6706d30f9df9dec9f813346d1e40ddbaff6f6c9136023199a/oracle_ads-2.8.4.tar.gz
+[2023-05-05 20:15:22] INFO root fetch - processPackages [spotlight-dev]: executing diffoscope
+[2023-05-05 20:15:22] INFO root fetch - processPackages [spotlight-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotlight-dev-0.0.1b3.tar.gz tmp/spotlight-dev-0.0.1b4.tar.gz --markdown 20230505/s/spotlight-dev/0.0.1b3-0.0.1b4/diff.md --exclude *.pyd
+[2023-05-05 20:15:22] INFO root fetch - processPackages [skyagi]: Downloading https://files.pythonhosted.org/packages/e7/6d/94b74c81494bc6abb7880d08e81a3f5fc789368c288d1234f9d367f4c2aa/skyagi-0.0.9.tar.gz
+[2023-05-05 20:15:22] INFO root fetch - processPackages [oracle-ads]: executing diffoscope
+[2023-05-05 20:15:22] INFO root fetch - processPackages [oracle-ads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oracle_ads-2.8.3.tar.gz tmp/oracle_ads-2.8.4.tar.gz --markdown 20230505/o/oracle-ads/2.8.3-2.8.4/diff.md --exclude *.pyd
+[2023-05-05 20:15:22] INFO root fetch - processPackages [skyagi]: executing diffoscope
+[2023-05-05 20:15:22] INFO root fetch - processPackages [skyagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyagi-0.0.8.tar.gz tmp/skyagi-0.0.9.tar.gz --markdown 20230505/s/skyagi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 20:15:23] INFO root fetch - main [MainThread]: End processing [meter-gear]: success
+[2023-05-05 20:15:23] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-05-05 20:15:23] INFO root fetch - main [MainThread]: End processing [awsiotsdk]: success
+[2023-05-05 20:15:24] INFO root fetch - main [MainThread]: End processing [djaodjin-survey]: success
+[2023-05-05 20:15:24] INFO root fetch - main [MainThread]: End processing [TPHATE]: success
+[2023-05-05 20:15:24] INFO root fetch - main [MainThread]: End processing [skyagi]: success
+[2023-05-05 20:15:24] INFO root fetch - main [MainThread]: End processing [botocore-stubs]: success
+[2023-05-05 20:15:24] INFO root fetch - main [MainThread]: End processing [spotlight-dev]: success
+[2023-05-05 20:15:28] INFO root fetch - main [MainThread]: End processing [oracle-ads]: success
+[2023-05-05 20:15:28] INFO root fetch - main [MainThread]: Store serial: [17991247]
