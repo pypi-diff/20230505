@@ -21638,3 +21638,76 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-05 21:20:56] INFO root fetch - main [MainThread]: End processing [RobloxPyApi3]: success
 [2023-05-05 21:20:57] INFO root fetch - main [MainThread]: End processing [pypaq]: success
 [2023-05-05 21:20:57] INFO root fetch - main [MainThread]: Store serial: [17991904]
+[2023-05-05 21:26:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17991904]
+[2023-05-05 21:26:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 21:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-ai-generativelanguage
+[2023-05-05 21:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: splight-lib
+[2023-05-05 21:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JsToPy
+[2023-05-05 21:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emergefs
+[2023-05-05 21:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rpa-cooperativa
+[2023-05-05 21:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mango-cli
+[2023-05-05 21:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Omar-Style-sel
+[2023-05-05 21:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gep3
+[2023-05-05 21:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iracingdataapi
+[2023-05-05 21:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-payment-return-import-iso20022
+[2023-05-05 21:26:08] WARNING root fetch - processPackages [JsToPy]: Skipping, unable to determine old version
+[2023-05-05 21:26:08] INFO root fetch - processPackages [JsToPy]: Start processing: aicsimageio
+[2023-05-05 21:26:08] INFO root fetch - main [MainThread]: End processing [JsToPy] error
+[2023-05-05 21:26:08] INFO root fetch - processPackages [emergefs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-05 21:26:08] INFO root fetch - processPackages [Omar-Style-sel]: New version: [0.4] Old Version: [0.3]
+[2023-05-05 21:26:08] INFO root fetch - processPackages [mango-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 21:26:08] INFO root fetch - processPackages [splight-lib]: New version: [2.3.8] Old Version: [2.3.7]
+[2023-05-05 21:26:08] INFO root fetch - processPackages [rpa-cooperativa]: New version: [1.0.52] Old Version: [1.0.51]
+[2023-05-05 21:26:08] INFO root fetch - processPackages [emergefs]: executing diffoscope
+[2023-05-05 21:26:08] INFO root fetch - processPackages [emergefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emergefs-0.0.3.tar.gz tmp/emergefs-0.0.4.tar.gz --markdown 20230505/e/emergefs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-05 21:26:08] INFO root fetch - processPackages [mango-cli]: executing diffoscope
+[2023-05-05 21:26:08] INFO root fetch - processPackages [mango-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-cli-0.0.8.tar.gz tmp/mango-cli-0.0.9.tar.gz --markdown 20230505/m/mango-cli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 21:26:08] INFO root fetch - processPackages [google-ai-generativelanguage]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-05 21:26:08] INFO root fetch - processPackages [gep3]: New version: [0.1] Old Version: [0.0.9]
+[2023-05-05 21:26:08] INFO root fetch - processPackages [iracingdataapi]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-05 21:26:08] INFO root fetch - processPackages [odoo-addon-account-payment-return-import-iso20022]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.2]
+[2023-05-05 21:26:08] INFO root fetch - processPackages [aicsimageio]: New version: [4.9.4] Old Version: [4.9.3]
+[2023-05-05 21:26:08] INFO root fetch - processPackages [Omar-Style-sel]: executing diffoscope
+[2023-05-05 21:26:08] INFO root fetch - processPackages [Omar-Style-sel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Omar_Style_sel-0.3.tar.gz tmp/Omar_Style_sel-0.4.tar.gz --markdown 20230505/O/Omar-Style-sel/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-05 21:26:08] INFO root fetch - processPackages [rpa-cooperativa]: executing diffoscope
+[2023-05-05 21:26:08] INFO root fetch - processPackages [rpa-cooperativa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpa_cooperativa-1.0.51.tar.gz tmp/rpa_cooperativa-1.0.52.tar.gz --markdown 20230505/r/rpa-cooperativa/1.0.51-1.0.52/diff.md --exclude *.pyd
+[2023-05-05 21:26:08] INFO root fetch - processPackages [google-ai-generativelanguage]: Downloading https://files.pythonhosted.org/packages/d6/cd/f57682f99b891a3585454df1807a401a5bf36f4d616118adebdbe655595b/google_ai_generativelanguage-0.1.0-py3-none-any.whl
+[2023-05-05 21:26:08] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-05 21:26:08] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.7.tar.gz tmp/splight-lib-2.3.8.tar.gz --markdown 20230505/s/splight-lib/2.3.7-2.3.8/diff.md --exclude *.pyd
+[2023-05-05 21:26:08] INFO root fetch - processPackages [gep3]: Downloading https://files.pythonhosted.org/packages/48/51/9d1948a5cc66ad39e1cb97420511dc5fce22c6fa58844d1307d2431e6ca3/gep3-0.0.9.tar.gz
+[2023-05-05 21:26:08] INFO root fetch - processPackages [iracingdataapi]: Downloading https://files.pythonhosted.org/packages/c3/98/79f76cf9a614e5bdad380d85a95fd2eed7c85892094f6c407c641792a3ce/iracingdataapi-1.1.0.tar.gz
+[2023-05-05 21:26:08] INFO root fetch - processPackages [odoo-addon-account-payment-return-import-iso20022]: Downloading https://files.pythonhosted.org/packages/3a/20/5e9cdf4f1d2eb10a7b9bba23ab707a76ed33eccc7d3c5e33f884d4b00c4d/odoo_addon_account_payment_return_import_iso20022-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-05 21:26:08] INFO root fetch - processPackages [aicsimageio]: Downloading https://files.pythonhosted.org/packages/d1/c8/fe585279cd7f0b18a8b1df64ee34ba6fb35ef3fc87bb4459d4cff05f32a5/aicsimageio-4.9.3.tar.gz
+[2023-05-05 21:26:08] INFO root fetch - processPackages [google-ai-generativelanguage]: Downloading https://files.pythonhosted.org/packages/f9/bb/2283ff15f05de219551e54b3a7ca384d58d4d8cb2684d139ce98bc18ecb8/google-ai-generativelanguage-0.2.0.tar.gz
+[2023-05-05 21:26:08] INFO root fetch - processPackages [iracingdataapi]: Downloading https://files.pythonhosted.org/packages/34/47/c66f4d5467233269fb1bf927635324a591cfa5ca2caa260e7b70d4493e8b/iracingdataapi-1.1.1.tar.gz
+[2023-05-05 21:26:08] INFO root fetch - processPackages [gep3]: Downloading https://files.pythonhosted.org/packages/1d/1f/600de7ca3a4e90cb41a49fb2e0db5e58cfc155ded1b232f0b01b2f574d62/gep3-0.1.tar.gz
+[2023-05-05 21:26:08] INFO root fetch - processPackages [odoo-addon-account-payment-return-import-iso20022]: Downloading https://files.pythonhosted.org/packages/0a/ec/93daff076cfc81a9362de9cbce8846c9686391a326b951864096d7147f49/odoo_addon_account_payment_return_import_iso20022-15.0.1.0.1-py3-none-any.whl
+[2023-05-05 21:26:09] INFO root fetch - processPackages [iracingdataapi]: executing diffoscope
+[2023-05-05 21:26:09] INFO root fetch - processPackages [iracingdataapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iracingdataapi-1.1.0.tar.gz tmp/iracingdataapi-1.1.1.tar.gz --markdown 20230505/i/iracingdataapi/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-05 21:26:09] INFO root fetch - processPackages [google-ai-generativelanguage]: executing diffoscope
+[2023-05-05 21:26:09] INFO root fetch - processPackages [google-ai-generativelanguage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_ai_generativelanguage-0.1.0-py3-none-any.whl.zip tmp/google-ai-generativelanguage-0.2.0.tar.gz --markdown 20230505/g/google-ai-generativelanguage/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 21:26:09] INFO root fetch - processPackages [aicsimageio]: Downloading https://files.pythonhosted.org/packages/b7/36/6723247759516099a8fb27e01c26f95788dff7244be3ac770416855135cb/aicsimageio-4.9.4.tar.gz
+[2023-05-05 21:26:09] INFO root fetch - processPackages [gep3]: executing diffoscope
+[2023-05-05 21:26:09] INFO root fetch - processPackages [gep3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gep3-0.0.9.tar.gz tmp/gep3-0.1.tar.gz --markdown 20230505/g/gep3/0.0.9-0.1/diff.md --exclude *.pyd
+[2023-05-05 21:26:09] INFO root fetch - processPackages [odoo-addon-account-payment-return-import-iso20022]: executing diffoscope
+[2023-05-05 21:26:09] INFO root fetch - processPackages [odoo-addon-account-payment-return-import-iso20022]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_return_import_iso20022-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_payment_return_import_iso20022-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230505/o/odoo-addon-account-payment-return-import-iso20022/15.0.1.0.0.2-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-05 21:26:09] INFO root fetch - processPackages [aicsimageio]: executing diffoscope
+[2023-05-05 21:26:09] INFO root fetch - processPackages [aicsimageio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicsimageio-4.9.3.tar.gz tmp/aicsimageio-4.9.4.tar.gz --markdown 20230505/a/aicsimageio/4.9.3-4.9.4/diff.md --exclude *.pyd
+[2023-05-05 21:26:09] INFO root fetch - processPackages [mango-cli]: Start processing: lithic
+[2023-05-05 21:26:09] INFO root fetch - main [MainThread]: End processing [mango-cli]: success
+[2023-05-05 21:26:09] INFO root fetch - main [MainThread]: End processing [Omar-Style-sel]: success
+[2023-05-05 21:26:09] INFO root fetch - processPackages [lithic]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-05 21:26:10] INFO root fetch - processPackages [lithic]: Downloading https://files.pythonhosted.org/packages/59/d1/4b77bd3d15afec27243035efe9cb7ec52264a7cdbb21b887c3336449dcc2/lithic-0.8.0.tar.gz
+[2023-05-05 21:26:10] INFO root fetch - main [MainThread]: End processing [emergefs]: success
+[2023-05-05 21:26:10] INFO root fetch - main [MainThread]: End processing [rpa-cooperativa]: success
+[2023-05-05 21:26:10] INFO root fetch - processPackages [lithic]: Downloading https://files.pythonhosted.org/packages/11/8d/f3dce2caf53a5809b580f08cdad352d9a928b2cf614da9fac7cff2249f1c/lithic-0.9.0.tar.gz
+[2023-05-05 21:26:10] INFO root fetch - main [MainThread]: End processing [google-ai-generativelanguage]: success
+[2023-05-05 21:26:10] INFO root fetch - main [MainThread]: End processing [iracingdataapi]: success
+[2023-05-05 21:26:10] INFO root fetch - main [MainThread]: End processing [gep3]: success
+[2023-05-05 21:26:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-return-import-iso20022]: success
+[2023-05-05 21:26:10] INFO root fetch - main [MainThread]: End processing [aicsimageio]: success
+[2023-05-05 21:26:10] INFO root fetch - processPackages [lithic]: executing diffoscope
+[2023-05-05 21:26:10] INFO root fetch - processPackages [lithic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lithic-0.8.0.tar.gz tmp/lithic-0.9.0.tar.gz --markdown 20230505/l/lithic/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 21:26:11] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-05 21:26:12] INFO root fetch - main [MainThread]: End processing [lithic]: success
+[2023-05-05 21:26:12] INFO root fetch - main [MainThread]: Store serial: [17991954]
