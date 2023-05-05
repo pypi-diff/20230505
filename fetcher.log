@@ -6538,3 +6538,89 @@
 [2023-05-05 07:41:40] INFO root fetch - main [MainThread]: End processing [textbook_nvim]: success
 [2023-05-05 07:41:41] INFO root fetch - main [MainThread]: End processing [robodyno]: success
 [2023-05-05 07:41:41] INFO root fetch - main [MainThread]: Store serial: [17982298]
+[2023-05-05 07:46:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982298]
+[2023-05-05 07:46:49] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-05 07:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsaBGC
+[2023-05-05 07:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperfast-python-template
+[2023-05-05 07:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-utilities
+[2023-05-05 07:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dune-harmonizer
+[2023-05-05 07:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymrt-client
+[2023-05-05 07:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onnx2tf
+[2023-05-05 07:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-hero-core
+[2023-05-05 07:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: myUniquePythonPackageName
+[2023-05-05 07:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tom-nonlocalizedevents
+[2023-05-05 07:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyagrum-nightly
+[2023-05-05 07:46:50] INFO root fetch - processPackages [tf-utilities]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 07:46:50] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-05 07:46:50] INFO root fetch - processPackages [lsaBGC]: New version: [1.36] Old Version: [1.35]
+[2023-05-05 07:46:50] INFO root fetch - processPackages [tom-nonlocalizedevents]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-05 07:46:50] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-05 07:46:50] INFO root fetch - processPackages [pymrt-client]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-05 07:46:50] INFO root fetch - processPackages [gpt-hero-core]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 07:46:50] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [5.5.106]
+[2023-05-05 07:46:50] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-05 07:46:50] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-05-05 07:46:50] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.4.8.tar.gz tmp/hyperfast_python_template-0.4.9.tar.gz --markdown 20230505/h/hyperfast-python-template/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-05 07:46:50] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-05 07:46:50] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230505/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-05 07:46:50] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-05-05 07:46:50] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230505/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 07:46:50] INFO root fetch - processPackages [gpt-hero-core]: Downloading https://files.pythonhosted.org/packages/3c/d3/3ca4c2091f61a5f56ec7c6eacbc0f187be64271b85827aa23c3b72d6bffa/gpt_hero_core-0.0.2.tar.gz
+[2023-05-05 07:46:50] INFO root fetch - processPackages [pymrt-client]: Downloading https://files.pythonhosted.org/packages/92/7c/2666cbf9f99de81815bc8a5a253c46c3abc3707e9fbf6662e6750a2df4a3/pymrt_client-1.0.3.tar.gz
+[2023-05-05 07:46:50] INFO root fetch - processPackages [lsaBGC]: Downloading https://files.pythonhosted.org/packages/dd/9d/9e1c994583ddd51bf1dced8d463ff281dc59ad09911f11d74b64db5cf659/lsaBGC-1.35.tar.gz
+[2023-05-05 07:46:50] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-05-05 07:46:50] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-5.5.106.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230505/m/myUniquePythonPackageName/5.5.106-7.10.7/diff.md --exclude *.pyd
+[2023-05-05 07:46:50] INFO root fetch - processPackages [tom-nonlocalizedevents]: Downloading https://files.pythonhosted.org/packages/4c/f2/e7ce52b73472647a90235fcf1698075f9b49201ec9f69f373e1c4259572e/tom_nonlocalizedevents-0.7.2.tar.gz
+[2023-05-05 07:46:50] INFO root fetch - processPackages [tf-utilities]: Downloading https://files.pythonhosted.org/packages/3a/44/b51d222ad11f1536e74516f84736945ed6519fa72a0574d034436191fffc/tf-utilities-0.1.8.tar.gz
+[2023-05-05 07:46:50] INFO root fetch - processPackages [gpt-hero-core]: Downloading https://files.pythonhosted.org/packages/8b/f2/5003895e08dc60934e1dca76c002ec51103d83da2915edd85113ff63f434/gpt_hero_core-0.0.3.tar.gz
+[2023-05-05 07:46:50] INFO root fetch - processPackages [tom-nonlocalizedevents]: Downloading https://files.pythonhosted.org/packages/52/b5/4aba5318887c4bdccff3c84e73364e55701a3d3aec1684a0658700f371e6/tom_nonlocalizedevents-0.7.3.tar.gz
+[2023-05-05 07:46:50] INFO root fetch - processPackages [gpt-hero-core]: executing diffoscope
+[2023-05-05 07:46:50] INFO root fetch - processPackages [gpt-hero-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_hero_core-0.0.2.tar.gz tmp/gpt_hero_core-0.0.3.tar.gz --markdown 20230505/g/gpt-hero-core/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 07:46:50] INFO root fetch - processPackages [tom-nonlocalizedevents]: executing diffoscope
+[2023-05-05 07:46:50] INFO root fetch - processPackages [tom-nonlocalizedevents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tom_nonlocalizedevents-0.7.2.tar.gz tmp/tom_nonlocalizedevents-0.7.3.tar.gz --markdown 20230505/t/tom-nonlocalizedevents/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-05 07:46:50] INFO root fetch - processPackages [pymrt-client]: Downloading https://files.pythonhosted.org/packages/ea/a2/d621185f252ad3fc79a52237a6ee35c855beeb07a6c9ad7b59a1bbecbdef/pymrt_client-1.0.4.tar.gz
+[2023-05-05 07:46:50] INFO root fetch - processPackages [tf-utilities]: Downloading https://files.pythonhosted.org/packages/d1/8a/0017aea4edc6872e97e0a0f8269c2b2d1fc1ae030fe56820b5f2d5d6df39/tf-utilities-0.1.9.tar.gz
+[2023-05-05 07:46:50] INFO root fetch - processPackages [lsaBGC]: Downloading https://files.pythonhosted.org/packages/03/42/fd18eb693869f648a6236e297d12b6d6aa0bbf728a1a658b41a261d1e901/lsaBGC-1.36.tar.gz
+[2023-05-05 07:46:50] INFO root fetch - processPackages [pymrt-client]: executing diffoscope
+[2023-05-05 07:46:50] INFO root fetch - processPackages [pymrt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymrt_client-1.0.3.tar.gz tmp/pymrt_client-1.0.4.tar.gz --markdown 20230505/p/pymrt-client/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-05 07:46:50] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.7.1.9.dev202305051682913970] Old Version: [1.7.1.9.dev202305041682913970]
+[2023-05-05 07:46:50] INFO root fetch - processPackages [tf-utilities]: executing diffoscope
+[2023-05-05 07:46:50] INFO root fetch - processPackages [tf-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf-utilities-0.1.8.tar.gz tmp/tf-utilities-0.1.9.tar.gz --markdown 20230505/t/tf-utilities/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 07:46:50] INFO root fetch - processPackages [lsaBGC]: executing diffoscope
+[2023-05-05 07:46:50] INFO root fetch - processPackages [lsaBGC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsaBGC-1.35.tar.gz tmp/lsaBGC-1.36.tar.gz --markdown 20230505/l/lsaBGC/1.35-1.36/diff.md --exclude *.pyd
+[2023-05-05 07:46:51] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/2a/a4/249efc440c6b652e3524a25e21400e72403fc8d57b4485debcf64b223248/pyAgrum_nightly-1.7.1.9.dev202305051682913970-cp39-cp39-win_amd64.whl
+[2023-05-05 07:46:51] INFO root fetch - processPackages [hyperfast-python-template]: Start processing: preetam-publish-pypi-medium
+[2023-05-05 07:46:51] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-05-05 07:46:51] WARNING root fetch - processPackages [preetam-publish-pypi-medium]: Skipping, unable to determine old version
+[2023-05-05 07:46:51] INFO root fetch - processPackages [preetam-publish-pypi-medium]: Start processing: spyder-modelx
+[2023-05-05 07:46:51] INFO root fetch - main [MainThread]: End processing [preetam-publish-pypi-medium] error
+[2023-05-05 07:46:51] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-05-05 07:46:51] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.7.1.9.dev202305041682913970-cp311-cp311-manylinux2014_x86_64.whl.zip tmp/pyAgrum_nightly-1.7.1.9.dev202305051682913970-cp39-cp39-win_amd64.whl.zip --markdown 20230505/p/pyagrum-nightly/1.7.1.9.dev202305041682913970-1.7.1.9.dev202305051682913970/diff.md --exclude *.pyd
+[2023-05-05 07:46:51] INFO root fetch - processPackages [spyder-modelx]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-05 07:46:51] INFO root fetch - processPackages [dune-harmonizer]: Start processing: pulumi-civo
+[2023-05-05 07:46:51] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-05-05 07:46:51] INFO root fetch - processPackages [spyder-modelx]: Downloading https://files.pythonhosted.org/packages/31/15/7d7a804b99bc14bf01aa2637d2b30479db7395e36780b6c90ceaf0348f18/spyder-modelx-0.8.0.tar.gz
+[2023-05-05 07:46:51] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1683264170] Old Version: [2.4.0a1682377387]
+[2023-05-05 07:46:51] INFO root fetch - processPackages [gpt-hero-core]: Start processing: jarvis-ironman
+[2023-05-05 07:46:51] INFO root fetch - main [MainThread]: End processing [gpt-hero-core]: success
+[2023-05-05 07:46:51] INFO root fetch - processPackages [jarvis-ironman]: New version: [2.7a0] Old Version: [2.5]
+[2023-05-05 07:46:51] INFO root fetch - processPackages [jarvis-ironman]: executing diffoscope
+[2023-05-05 07:46:51] INFO root fetch - processPackages [jarvis-ironman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_ironman-2.5-py3-none-any.whl.zip tmp/jarvis_ironman-2.7a0-py3-none-any.whl.zip --markdown 20230505/j/jarvis-ironman/2.5-2.7a0/diff.md --exclude *.pyd
+[2023-05-05 07:46:52] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/52/eb/71ee755641e7cfa2b6e0c17dfc0a62bec0b9188a3cc180d41da24ee4f03f/pulumi_civo-2.4.0a1682377387.tar.gz
+[2023-05-05 07:46:52] INFO root fetch - main [MainThread]: End processing [pymrt-client]: success
+[2023-05-05 07:46:52] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-05-05 07:46:52] INFO root fetch - processPackages [spyder-modelx]: Downloading https://files.pythonhosted.org/packages/30/f5/9d19dd9e8ad907f2722ae17d2cd2ab399c5cfd645829d867e7eb9f69d40f/spyder-modelx-0.9.0.tar.gz
+[2023-05-05 07:46:52] INFO root fetch - main [MainThread]: End processing [tf-utilities]: success
+[2023-05-05 07:46:52] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/81/f2/b4b6bfdbfdb41c418a206180e8f05d0c2dd0ca00b8a11c79f08bd1c2246e/pulumi_civo-2.4.0a1683264170.tar.gz
+[2023-05-05 07:46:52] INFO root fetch - processPackages [spyder-modelx]: executing diffoscope
+[2023-05-05 07:46:52] INFO root fetch - processPackages [spyder-modelx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyder-modelx-0.8.0.tar.gz tmp/spyder-modelx-0.9.0.tar.gz --markdown 20230505/s/spyder-modelx/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 07:46:52] INFO root fetch - main [MainThread]: End processing [lsaBGC]: success
+[2023-05-05 07:46:52] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2023-05-05 07:46:52] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1682377387.tar.gz tmp/pulumi_civo-2.4.0a1683264170.tar.gz --markdown 20230505/p/pulumi-civo/2.4.0a1682377387-2.4.0a1683264170/diff.md --exclude *.pyd
+[2023-05-05 07:46:53] INFO root fetch - main [MainThread]: End processing [spyder-modelx]: success
+[2023-05-05 07:46:54] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-05-05 07:46:54] INFO root fetch - main [MainThread]: End processing [jarvis-ironman]: success
+[2023-05-05 07:46:55] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2023-05-05 07:46:55] INFO root fetch - main [MainThread]: End processing [tom-nonlocalizedevents]: success
+[2023-05-05 07:46:55] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-05 07:46:55] INFO root fetch - main [MainThread]: Store serial: [17982417]
