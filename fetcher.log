@@ -18258,3 +18258,118 @@
 [2023-05-05 18:07:41] INFO root fetch - main [MainThread]: End processing [static-frame]: success
 [2023-05-05 18:07:41] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
 [2023-05-05 18:07:41] INFO root fetch - main [MainThread]: Store serial: [17989644]
+[2023-05-05 18:12:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17989644]
+[2023-05-05 18:12:51] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-05 18:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-admin-ordering
+[2023-05-05 18:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-utility-widgets
+[2023-05-05 18:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyVLMP
+[2023-05-05 18:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-vpc
+[2023-05-05 18:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pandas-chat
+[2023-05-05 18:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bridgeobjects
+[2023-05-05 18:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pcleaner
+[2023-05-05 18:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dxsp
+[2023-05-05 18:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tl2cgen
+[2023-05-05 18:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ccxt
+[2023-05-05 18:12:51] INFO root fetch - processPackages [django-admin-ordering]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-05 18:12:51] INFO root fetch - processPackages [jupyter-utility-widgets]: New version: [0.0.0a2] Old Version: [0.0.0a1]
+[2023-05-05 18:12:51] WARNING root fetch - processPackages [pyVLMP]: Skipping, unable to determine old version
+[2023-05-05 18:12:51] INFO root fetch - processPackages [pyVLMP]: Start processing: ansible-butler
+[2023-05-05 18:12:51] INFO root fetch - main [MainThread]: End processing [pyVLMP] error
+[2023-05-05 18:12:51] INFO root fetch - processPackages [bridgeobjects]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 18:12:51] INFO root fetch - processPackages [tl2cgen]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-05-05 18:12:51] INFO root fetch - processPackages [pcleaner]: New version: [1.6.9] Old Version: [1.6.2]
+[2023-05-05 18:12:51] INFO root fetch - processPackages [ansible-butler]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-05 18:12:51] INFO root fetch - processPackages [dxsp]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-05 18:12:51] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 18:12:51] INFO root fetch - processPackages [ccxt]: New version: [3.0.94] Old Version: [3.0.93]
+[2023-05-05 18:12:51] WARNING root fetch - processPackages [pandas-chat]: Skipping, unable to determine old version
+[2023-05-05 18:12:51] INFO root fetch - processPackages [pandas-chat]: Start processing: nebari
+[2023-05-05 18:12:51] INFO root fetch - main [MainThread]: End processing [pandas-chat] error
+[2023-05-05 18:12:51] INFO root fetch - processPackages [nebari]: New version: [2023.5.1rc1] Old Version: [2023.4.1a5]
+[2023-05-05 18:12:51] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-05-05 18:12:51] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230505/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 18:12:51] INFO root fetch - processPackages [django-admin-ordering]: Downloading https://files.pythonhosted.org/packages/5f/bd/1ab7730de151e2a8d387cff5bc1f7fdca7789f6522a3ece5efdb776481bb/django-admin-ordering-0.8.1.tar.gz
+[2023-05-05 18:12:51] INFO root fetch - processPackages [jupyter-utility-widgets]: Downloading https://files.pythonhosted.org/packages/bf/f2/a7069d977a96abbef1e5eeed2c781df0431ed7f939062d9fe608b7958e57/jupyter-utility-widgets-0.0.0a1.tar.gz
+[2023-05-05 18:12:51] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/5a/60/e17d64627e99a59b43871d89cf115a6dbeb022f90e0b48301776cf2193ef/dxsp-1.9.0.tar.gz
+[2023-05-05 18:12:51] INFO root fetch - processPackages [ansible-butler]: Downloading https://files.pythonhosted.org/packages/32/ae/a454ba4af7ad97f0360f6b46acea085b3c04640f881b8e52216d8e8dd6b7/ansible-butler-1.0.6.tar.gz
+[2023-05-05 18:12:51] INFO root fetch - processPackages [pcleaner]: Downloading https://files.pythonhosted.org/packages/57/d0/68e7ef5087b4170e0576057ef7f7d875e623b5bfc2467dd2930eb8d0e389/pcleaner-1.6.2.tar.gz
+[2023-05-05 18:12:51] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/90/96/97f49310ba0fb8eb84deaf19714a9abcfee1d2796a2f47c0f47aab552ab5/ccxt-3.0.94.tar.gz
+[2023-05-05 18:12:51] INFO root fetch - processPackages [bridgeobjects]: Downloading https://files.pythonhosted.org/packages/fd/6a/0c207f0ded01e7a40f725f054939cf230697a9698c97059317f2a46db05c/bridgeobjects-0.1.8.tar.gz
+[2023-05-05 18:12:51] INFO root fetch - processPackages [nebari]: Downloading https://files.pythonhosted.org/packages/22/16/58cfc9e61ece29529b4400558bbf069afae30ef2b8b974df15127b42b2b4/nebari-2023.4.1a5.tar.gz
+[2023-05-05 18:12:52] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-05 18:12:52] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-1.8.0.tar.gz tmp/dxsp-1.9.0.tar.gz --markdown 20230505/d/dxsp/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-05 18:12:52] INFO root fetch - processPackages [tl2cgen]: Downloading https://files.pythonhosted.org/packages/50/db/0286b6bff82b3c7388f37b6a746a244fd848f01ddf181fa8d9a92b75fa42/tl2cgen-0.2.2.tar.gz
+[2023-05-05 18:12:52] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-05 18:12:52] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.93.tar.gz tmp/ccxt-3.0.94.tar.gz --markdown 20230505/c/ccxt/3.0.93-3.0.94/diff.md --exclude *.pyd
+[2023-05-05 18:12:52] INFO root fetch - processPackages [jupyter-utility-widgets]: Downloading https://files.pythonhosted.org/packages/99/2f/29b8685607ba66d4630082b47466f96e8eee0217ff49da86c03a8a00db6d/jupyter-utility-widgets-0.0.0a2.tar.gz
+[2023-05-05 18:12:52] INFO root fetch - processPackages [ansible-butler]: Downloading https://files.pythonhosted.org/packages/aa/f9/ae6538e7c57497f367c254d7a89281af46b794d47fa920f2d6f7893ffc4b/ansible-butler-1.0.7.tar.gz
+[2023-05-05 18:12:52] INFO root fetch - processPackages [tl2cgen]: executing diffoscope
+[2023-05-05 18:12:52] INFO root fetch - processPackages [tl2cgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tl2cgen-0.2.0.tar.gz tmp/tl2cgen-0.2.2.tar.gz --markdown 20230505/t/tl2cgen/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-05 18:12:52] INFO root fetch - processPackages [jupyter-utility-widgets]: executing diffoscope
+[2023-05-05 18:12:52] INFO root fetch - processPackages [jupyter-utility-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-utility-widgets-0.0.0a1.tar.gz tmp/jupyter-utility-widgets-0.0.0a2.tar.gz --markdown 20230505/j/jupyter-utility-widgets/0.0.0a1-0.0.0a2/diff.md --exclude *.pyd
+[2023-05-05 18:12:52] INFO root fetch - processPackages [django-admin-ordering]: Downloading https://files.pythonhosted.org/packages/e9/2c/3de989b4d68f6ddb242172643662334530fe18cc833382f347697a83238d/django-admin-ordering-0.9.0.tar.gz
+[2023-05-05 18:12:52] INFO root fetch - processPackages [pcleaner]: Downloading https://files.pythonhosted.org/packages/d6/0f/de638080d850d417dfa56904cb9a9eab3a46b8b3654b954e2732faf5785b/pcleaner-1.6.9.tar.gz
+[2023-05-05 18:12:52] INFO root fetch - processPackages [ansible-butler]: executing diffoscope
+[2023-05-05 18:12:52] INFO root fetch - processPackages [ansible-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-butler-1.0.6.tar.gz tmp/ansible-butler-1.0.7.tar.gz --markdown 20230505/a/ansible-butler/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-05 18:12:52] INFO root fetch - processPackages [bridgeobjects]: Downloading https://files.pythonhosted.org/packages/38/2f/5b27e39a9ed23770138c49305229e8819df09644dc9ad82aebc0cceeb86c/bridgeobjects-0.1.9.tar.gz
+[2023-05-05 18:12:52] INFO root fetch - processPackages [pcleaner]: executing diffoscope
+[2023-05-05 18:12:52] INFO root fetch - processPackages [pcleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcleaner-1.6.2.tar.gz tmp/pcleaner-1.6.9.tar.gz --markdown 20230505/p/pcleaner/1.6.2-1.6.9/diff.md --exclude *.pyd
+[2023-05-05 18:12:52] INFO root fetch - processPackages [django-admin-ordering]: executing diffoscope
+[2023-05-05 18:12:52] INFO root fetch - processPackages [django-admin-ordering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-ordering-0.8.1.tar.gz tmp/django-admin-ordering-0.9.0.tar.gz --markdown 20230505/d/django-admin-ordering/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 18:12:52] INFO root fetch - processPackages [bridgeobjects]: executing diffoscope
+[2023-05-05 18:12:52] INFO root fetch - processPackages [bridgeobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgeobjects-0.1.8.tar.gz tmp/bridgeobjects-0.1.9.tar.gz --markdown 20230505/b/bridgeobjects/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 18:12:53] INFO root fetch - processPackages [pepperize.cdk-vpc]: Start processing: azureml-dataprep-rslex
+[2023-05-05 18:12:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-05-05 18:12:53] INFO root fetch - processPackages [azureml-dataprep-rslex]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-05 18:12:53] INFO root fetch - processPackages [azureml-dataprep-rslex]: Downloading https://files.pythonhosted.org/packages/a3/d5/7a9b0965a3954085cb0614195ffdb7507030614aff2fa0c8d65551f20d62/azureml_dataprep_rslex-2.9.0-cp39-cp39-win_amd64.whl
+[2023-05-05 18:12:53] INFO root fetch - processPackages [dxsp]: Start processing: celerity
+[2023-05-05 18:12:53] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-05 18:12:53] INFO root fetch - processPackages [nebari]: Downloading https://files.pythonhosted.org/packages/87/93/d010de896db23a48ec7980a249773e5d7b74fe2ef16db2ea833c01228ce5/nebari-2023.5.1rc1.tar.gz
+[2023-05-05 18:12:53] INFO root fetch - processPackages [celerity]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-05 18:12:53] INFO root fetch - processPackages [nebari]: executing diffoscope
+[2023-05-05 18:12:53] INFO root fetch - processPackages [nebari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebari-2023.4.1a5.tar.gz tmp/nebari-2023.5.1rc1.tar.gz --markdown 20230505/n/nebari/2023.4.1a5-2023.5.1rc1/diff.md --exclude *.pyd
+[2023-05-05 18:12:53] INFO root fetch - processPackages [jupyter-utility-widgets]: Start processing: bfgbidding
+[2023-05-05 18:12:53] INFO root fetch - main [MainThread]: End processing [jupyter-utility-widgets]: success
+[2023-05-05 18:12:53] INFO root fetch - processPackages [celerity]: Downloading https://files.pythonhosted.org/packages/c3/5f/073eb50671ea670e0235ed687eaaff5f59ebedd2fce3e26843f6481bed95/celerity-0.5.0.tar.gz
+[2023-05-05 18:12:53] INFO root fetch - processPackages [bfgbidding]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 18:12:53] INFO root fetch - processPackages [celerity]: executing diffoscope
+[2023-05-05 18:12:53] INFO root fetch - processPackages [celerity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celerity-0.4.0.tar.gz tmp/celerity-0.5.0.tar.gz --markdown 20230505/c/celerity/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-05 18:12:53] INFO root fetch - processPackages [ansible-butler]: Start processing: ovos-tts-server
+[2023-05-05 18:12:53] INFO root fetch - main [MainThread]: End processing [ansible-butler]: success
+[2023-05-05 18:12:53] INFO root fetch - processPackages [ovos-tts-server]: New version: [0.0.2a3] Old Version: [0.0.2]
+[2023-05-05 18:12:53] WARNING root fetch - processPackages [azureml-dataprep-rslex]: Skipping package: exceeds size limit 13348921>=10485760
+[2023-05-05 18:12:53] INFO root fetch - processPackages [azureml-dataprep-rslex]: Start processing: snakebids
+[2023-05-05 18:12:53] INFO root fetch - main [MainThread]: End processing [azureml-dataprep-rslex] error
+[2023-05-05 18:12:53] INFO root fetch - processPackages [ovos-tts-server]: executing diffoscope
+[2023-05-05 18:12:53] INFO root fetch - processPackages [ovos-tts-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-tts-server-0.0.2.tar.gz tmp/ovos-tts-server-0.0.2a3.tar.gz --markdown 20230505/o/ovos-tts-server/0.0.2-0.0.2a3/diff.md --exclude *.pyd
+[2023-05-05 18:12:53] INFO root fetch - processPackages [bfgbidding]: Downloading https://files.pythonhosted.org/packages/4b/e1/3f788d94544a2d3f9719450dbdce555999e80a45eaabc860b144c92c7193/bfgbidding-0.0.8.tar.gz
+[2023-05-05 18:12:54] INFO root fetch - processPackages [snakebids]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-05 18:12:54] INFO root fetch - processPackages [snakebids]: Downloading https://files.pythonhosted.org/packages/b0/68/32b0d436101e3488e072ca846136731c087fcd402c48193f1ef4498692e7/snakebids-0.8.0.tar.gz
+[2023-05-05 18:12:54] INFO root fetch - processPackages [bfgbidding]: Downloading https://files.pythonhosted.org/packages/e6/22/bbf47a6073b57de0e140f4642debe2039c751ecc75f7e98ce065c9fed972/bfgbidding-0.0.9.tar.gz
+[2023-05-05 18:12:54] INFO root fetch - processPackages [django-admin-ordering]: Start processing: binary-refinery
+[2023-05-05 18:12:54] INFO root fetch - main [MainThread]: End processing [django-admin-ordering]: success
+[2023-05-05 18:12:54] INFO root fetch - processPackages [snakebids]: Downloading https://files.pythonhosted.org/packages/f5/98/4eca90cd252d91ef4ec1f5a8cdf48353e1c1768b20cb0fbc068913cf54e6/snakebids-0.8.1.tar.gz
+[2023-05-05 18:12:54] INFO root fetch - processPackages [binary-refinery]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-05 18:12:54] INFO root fetch - processPackages [bfgbidding]: executing diffoscope
+[2023-05-05 18:12:54] INFO root fetch - processPackages [bfgbidding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgbidding-0.0.8.tar.gz tmp/bfgbidding-0.0.9.tar.gz --markdown 20230505/b/bfgbidding/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 18:12:54] INFO root fetch - processPackages [snakebids]: executing diffoscope
+[2023-05-05 18:12:54] INFO root fetch - processPackages [snakebids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakebids-0.8.0.tar.gz tmp/snakebids-0.8.1.tar.gz --markdown 20230505/s/snakebids/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-05 18:12:54] INFO root fetch - processPackages [binary-refinery]: Downloading https://files.pythonhosted.org/packages/59/99/fadb11365b41f59cd020513e277a34be84e202f29bbd893e69a80a895d86/binary-refinery-0.6.5.tar.gz
+[2023-05-05 18:12:54] INFO root fetch - processPackages [bridgeobjects]: Start processing: prettynumbers
+[2023-05-05 18:12:54] INFO root fetch - main [MainThread]: End processing [bridgeobjects]: success
+[2023-05-05 18:12:55] INFO root fetch - processPackages [prettynumbers]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 18:12:55] INFO root fetch - main [MainThread]: End processing [celerity]: success
+[2023-05-05 18:12:55] INFO root fetch - processPackages [prettynumbers]: executing diffoscope
+[2023-05-05 18:12:55] INFO root fetch - processPackages [prettynumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettynumbers-0.1.0.tar.gz tmp/prettynumbers-0.1.1.tar.gz --markdown 20230505/p/prettynumbers/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 18:12:55] INFO root fetch - main [MainThread]: End processing [ovos-tts-server]: success
+[2023-05-05 18:12:55] INFO root fetch - processPackages [binary-refinery]: executing diffoscope
+[2023-05-05 18:12:55] INFO root fetch - processPackages [binary-refinery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binary-refinery-0.6.4.tar.gz tmp/binary-refinery-0.6.5.tar.gz --markdown 20230505/b/binary-refinery/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-05 18:12:55] INFO root fetch - main [MainThread]: End processing [pcleaner]: success
+[2023-05-05 18:12:55] INFO root fetch - main [MainThread]: End processing [tl2cgen]: success
+[2023-05-05 18:12:56] INFO root fetch - main [MainThread]: End processing [bfgbidding]: success
+[2023-05-05 18:12:56] INFO root fetch - main [MainThread]: End processing [snakebids]: success
+[2023-05-05 18:12:56] INFO root fetch - main [MainThread]: End processing [prettynumbers]: success
+[2023-05-05 18:12:58] INFO root fetch - main [MainThread]: End processing [binary-refinery]: success
+[2023-05-05 18:12:59] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-05 18:13:02] INFO root fetch - main [MainThread]: End processing [nebari]: success
+[2023-05-05 18:13:02] INFO root fetch - main [MainThread]: Store serial: [17989716]
