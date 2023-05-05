@@ -12231,3 +12231,60 @@
 [2023-05-05 12:57:19] INFO root fetch - main [MainThread]: End processing [ImageMagic]: success
 [2023-05-05 12:57:20] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2023-05-05 12:57:20] INFO root fetch - main [MainThread]: Store serial: [17985777]
+[2023-05-05 13:02:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17985777]
+[2023-05-05 13:02:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-05 13:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webcam
+[2023-05-05 13:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aib-logging
+[2023-05-05 13:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scipion-em-kiharalab
+[2023-05-05 13:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DTCO
+[2023-05-05 13:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simple-onnx-processing-tools
+[2023-05-05 13:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ftdz-from-fyh
+[2023-05-05 13:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dabbas
+[2023-05-05 13:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-alex-yuvalbd-merge-3661-hash-families-cherry-pick
+[2023-05-05 13:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-webperformers-humans
+[2023-05-05 13:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: editanything
+[2023-05-05 13:02:30] INFO root fetch - processPackages [DTCO]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-05 13:02:30] INFO root fetch - processPackages [aib-logging]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-05 13:02:30] INFO root fetch - processPackages [ftdz-from-fyh]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-05 13:02:30] WARNING root fetch - processPackages [django-webperformers-humans]: Skipping, unable to determine old version
+[2023-05-05 13:02:30] INFO root fetch - main [MainThread]: End processing [django-webperformers-humans] error
+[2023-05-05 13:02:30] INFO root fetch - processPackages [webcam]: New version: [0.3] Old Version: [0.2]
+[2023-05-05 13:02:30] WARNING root fetch - processPackages [scipion-em-kiharalab]: Skipping, unable to determine old version
+[2023-05-05 13:02:30] INFO root fetch - processPackages [dabbas]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-05 13:02:30] INFO root fetch - main [MainThread]: End processing [scipion-em-kiharalab] error
+[2023-05-05 13:02:30] INFO root fetch - processPackages [editanything]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-05 13:02:30] INFO root fetch - processPackages [certora-cli-alpha-alex-yuvalbd-merge-3661-hash-families-cherry-pick]: New version: [20230505.11.0.395012] Old Version: [20230502.16.49.52880]
+[2023-05-05 13:02:30] INFO root fetch - processPackages [simple-onnx-processing-tools]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-05 13:02:30] INFO root fetch - processPackages [editanything]: executing diffoscope
+[2023-05-05 13:02:30] INFO root fetch - processPackages [editanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/editanything-0.0.6.tar.gz tmp/editanything-0.0.7.tar.gz --markdown 20230505/e/editanything/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-05 13:02:30] INFO root fetch - processPackages [certora-cli-alpha-alex-yuvalbd-merge-3661-hash-families-cherry-pick]: Downloading https://files.pythonhosted.org/packages/63/dc/7c57f97594fd3458e91511191b15708e0f42635884f7a61a986240c5de55/certora-cli-alpha-alex-yuvalbd-merge_3661-hash-families-cherry-pick-20230502.16.49.52880.tar.gz
+[2023-05-05 13:02:30] INFO root fetch - processPackages [ftdz-from-fyh]: Downloading https://files.pythonhosted.org/packages/ff/38/d2abb15269eb05ee5a7e60f36fa308cd7f3eb57233ed0c580e7cd408e40b/ftdz_from_fyh-1.0.2.tar.gz
+[2023-05-05 13:02:30] WARNING root fetch - processPackages [certora-cli-alpha-alex-yuvalbd-merge-3661-hash-families-cherry-pick]: Skipping package: exceeds size limit 38366517>=10485760
+[2023-05-05 13:02:30] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-yuvalbd-merge-3661-hash-families-cherry-pick] error
+[2023-05-05 13:02:30] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/fb/76/81150d332a4a06715f58c790a2476a6d2b0fcaeb7c4b495813e25a87db31/webcam-0.3.tar.gz
+[2023-05-05 13:02:30] INFO root fetch - processPackages [aib-logging]: Downloading https://files.pythonhosted.org/packages/ba/91/ca2d95398789de15fdbbb3bf57d2cd5b821e1666d3581ca96813571a82d7/aib_logging-1.0.4.tar.gz
+[2023-05-05 13:02:30] INFO root fetch - processPackages [simple-onnx-processing-tools]: Downloading https://files.pythonhosted.org/packages/3f/f4/92df8a57b9bcea54014b43b0770d7180cc4a8a391ae2633a195977439cac/simple_onnx_processing_tools-1.1.8.tar.gz
+[2023-05-05 13:02:30] INFO root fetch - processPackages [DTCO]: Downloading https://files.pythonhosted.org/packages/e0/5f/f1e450e5603612b8f7c27e400bdcbb525a06578ae8bd25a9c85f0c1b47b0/DTCO-0.1.1.tar.gz
+[2023-05-05 13:02:30] INFO root fetch - processPackages [ftdz-from-fyh]: executing diffoscope
+[2023-05-05 13:02:30] INFO root fetch - processPackages [ftdz-from-fyh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftdz_from_fyh-1.0.1.tar.gz tmp/ftdz_from_fyh-1.0.2.tar.gz --markdown 20230505/f/ftdz-from-fyh/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-05 13:02:30] INFO root fetch - processPackages [webcam]: executing diffoscope
+[2023-05-05 13:02:30] INFO root fetch - processPackages [aib-logging]: executing diffoscope
+[2023-05-05 13:02:30] INFO root fetch - processPackages [webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webcam-0.2.tar.gz tmp/webcam-0.3.tar.gz --markdown 20230505/w/webcam/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-05 13:02:30] INFO root fetch - processPackages [aib-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aib_logging-1.0.3.tar.gz tmp/aib_logging-1.0.4.tar.gz --markdown 20230505/a/aib-logging/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-05 13:02:30] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/bd/5b/3488de90c09d207cef7417911224ecb7f5986c933bc2288cd58e6c77f2f7/dabbas-0.1.6.tar.gz
+[2023-05-05 13:02:30] INFO root fetch - processPackages [dabbas]: executing diffoscope
+[2023-05-05 13:02:30] INFO root fetch - processPackages [dabbas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dabbas-0.1.5.tar.gz tmp/dabbas-0.1.6.tar.gz --markdown 20230505/d/dabbas/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-05 13:02:30] INFO root fetch - processPackages [DTCO]: Downloading https://files.pythonhosted.org/packages/0a/24/1f33a97722226b93df9a08a3bb01b42edc1ca2ff33fc84555a0616f9467d/DTCO-0.1.2.tar.gz
+[2023-05-05 13:02:31] INFO root fetch - processPackages [DTCO]: executing diffoscope
+[2023-05-05 13:02:31] INFO root fetch - processPackages [DTCO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DTCO-0.1.1.tar.gz tmp/DTCO-0.1.2.tar.gz --markdown 20230505/D/DTCO/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-05 13:02:31] INFO root fetch - processPackages [simple-onnx-processing-tools]: Downloading https://files.pythonhosted.org/packages/bf/72/77720ef0c0527d0fe245204514e2d72ac6fa100c69e63a5b7516ba21ad1c/simple_onnx_processing_tools-1.1.9.tar.gz
+[2023-05-05 13:02:31] INFO root fetch - processPackages [simple-onnx-processing-tools]: executing diffoscope
+[2023-05-05 13:02:31] INFO root fetch - processPackages [simple-onnx-processing-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_onnx_processing_tools-1.1.8.tar.gz tmp/simple_onnx_processing_tools-1.1.9.tar.gz --markdown 20230505/s/simple-onnx-processing-tools/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-05 13:02:31] INFO root fetch - main [MainThread]: End processing [editanything]: success
+[2023-05-05 13:02:31] INFO root fetch - main [MainThread]: End processing [ftdz-from-fyh]: success
+[2023-05-05 13:02:32] INFO root fetch - main [MainThread]: End processing [webcam]: success
+[2023-05-05 13:02:32] INFO root fetch - main [MainThread]: End processing [dabbas]: success
+[2023-05-05 13:02:32] INFO root fetch - main [MainThread]: End processing [aib-logging]: success
+[2023-05-05 13:02:32] INFO root fetch - main [MainThread]: End processing [DTCO]: success
+[2023-05-05 13:02:32] INFO root fetch - main [MainThread]: End processing [simple-onnx-processing-tools]: success
+[2023-05-05 13:02:32] INFO root fetch - main [MainThread]: Store serial: [17985812]
