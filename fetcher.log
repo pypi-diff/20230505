@@ -7155,3 +7155,124 @@
 [2023-05-05 08:18:53] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2023-05-05 08:18:54] INFO root fetch - main [MainThread]: End processing [llama-index]: success
 [2023-05-05 08:18:54] INFO root fetch - main [MainThread]: Store serial: [17982737]
+[2023-05-05 08:23:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982737]
+[2023-05-05 08:24:04] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-05 08:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petisco
+[2023-05-05 08:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seven-cloudapp-frame
+[2023-05-05 08:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VikyTest
+[2023-05-05 08:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: instld
+[2023-05-05 08:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qgate-graph
+[2023-05-05 08:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-jtoman-cert-1920
+[2023-05-05 08:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irails
+[2023-05-05 08:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: suitesparse-graphblas
+[2023-05-05 08:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-docker
+[2023-05-05 08:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpyt
+[2023-05-05 08:24:04] INFO root fetch - processPackages [instld]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 08:24:04] INFO root fetch - processPackages [certora-cli-alpha-jtoman-cert-1920]: New version: [20230505.6.20.438554] Old Version: [20230502.7.52.237977]
+[2023-05-05 08:24:04] INFO root fetch - processPackages [irails]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-05 08:24:04] INFO root fetch - processPackages [qgate-graph]: New version: [1.3rc2] Old Version: [1.3rc1]
+[2023-05-05 08:24:04] INFO root fetch - processPackages [petisco]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-05 08:24:04] INFO root fetch - processPackages [gpyt]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-05 08:24:04] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-05 08:24:04] INFO root fetch - processPackages [suitesparse-graphblas]: New version: [7.4.4.1a1] Old Version: [7.4.4.1a0]
+[2023-05-05 08:24:04] INFO root fetch - processPackages [VikyTest]: New version: [3.0] Old Version: [2.0]
+[2023-05-05 08:24:04] INFO root fetch - processPackages [pulumi-docker]: New version: [4.3.0a1683265193] Old Version: [4.3.0a1683145388]
+[2023-05-05 08:24:04] INFO root fetch - processPackages [qgate-graph]: executing diffoscope
+[2023-05-05 08:24:04] INFO root fetch - processPackages [qgate-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_graph-1.3rc1.tar.gz tmp/qgate_graph-1.3rc2.tar.gz --markdown 20230505/q/qgate-graph/1.3rc1-1.3rc2/diff.md --exclude *.pyd
+[2023-05-05 08:24:04] INFO root fetch - processPackages [certora-cli-alpha-jtoman-cert-1920]: Downloading https://files.pythonhosted.org/packages/6b/e1/e7e94f146f472650425b82e8e1d0ff2690a93dab919123586a4b9c0df3b3/certora-cli-alpha-jtoman-cert-1920-20230502.7.52.237977.tar.gz
+[2023-05-05 08:24:04] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-05 08:24:04] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230505/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-05 08:24:04] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/bb/2f/37f2d35d9f897499aabbfa46d7146105f765265b74e461f9ce0516596551/petisco-1.9.8.tar.gz
+[2023-05-05 08:24:04] INFO root fetch - processPackages [VikyTest]: Downloading https://files.pythonhosted.org/packages/a4/65/a604465f2bbc31e417da48981887e183be5a4f6d9243425d90f1fcb459a3/VikyTest-3.0-py38-none-any.whl
+[2023-05-05 08:24:04] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/10/aa/a8d3adc278028e1e109b856997df62f89ca68897f47960e8a1edfbe837de/gpyt-0.2.7.tar.gz
+[2023-05-05 08:24:05] INFO root fetch - processPackages [instld]: executing diffoscope
+[2023-05-05 08:24:05] INFO root fetch - processPackages [instld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instld-0.0.8.tar.gz tmp/instld-0.0.9.tar.gz --markdown 20230505/i/instld/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 08:24:05] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-cert-1920]: Skipping package: exceeds size limit 38324273>=10485760
+[2023-05-05 08:24:05] INFO root fetch - processPackages [certora-cli-alpha-jtoman-cert-1920]: Start processing: pulumi-mysql
+[2023-05-05 08:24:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-cert-1920] error
+[2023-05-05 08:24:05] INFO root fetch - processPackages [suitesparse-graphblas]: Downloading https://files.pythonhosted.org/packages/80/41/f2881334f11212cfd30732754e31935b2cf6785a8976e51a2aaf0cd44f3f/suitesparse-graphblas-7.4.4.1a1.tar.gz
+[2023-05-05 08:24:05] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/a6/9f/708dfc554552c58128ef60f228bc66af4e441c13fe4c547886d0038b67f6/irails-1.1.4.tar.gz
+[2023-05-05 08:24:05] INFO root fetch - processPackages [VikyTest]: executing diffoscope
+[2023-05-05 08:24:05] INFO root fetch - processPackages [VikyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VikyTest-2.0.tar.gz tmp/VikyTest-3.0-py38-none-any.whl.zip --markdown 20230505/V/VikyTest/2.0-3.0/diff.md --exclude *.pyd
+[2023-05-05 08:24:05] INFO root fetch - processPackages [gpyt]: executing diffoscope
+[2023-05-05 08:24:05] INFO root fetch - processPackages [gpyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpyt-0.2.6.tar.gz tmp/gpyt-0.2.7.tar.gz --markdown 20230505/g/gpyt/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-05 08:24:05] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.2.0a1683266055] Old Version: [3.2.0a1681934361]
+[2023-05-05 08:24:05] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/3f/9d/1f58370fa95ac77a4e73364fb5cfcef2a0ec6591fe4c897e0aee3e6a208b/pulumi_docker-4.3.0a1683265193.tar.gz
+[2023-05-05 08:24:05] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-05-05 08:24:05] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.1.3.tar.gz tmp/irails-1.1.4.tar.gz --markdown 20230505/i/irails/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-05 08:24:05] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2023-05-05 08:24:05] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.3.0a1683145388.tar.gz tmp/pulumi_docker-4.3.0a1683265193.tar.gz --markdown 20230505/p/pulumi-docker/4.3.0a1683145388-4.3.0a1683265193/diff.md --exclude *.pyd
+[2023-05-05 08:24:05] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/5f/3e/3c604918e45a89326d2bda623fba80507ca4774692bbb669267220fd5725/pulumi_mysql-3.2.0a1681934361.tar.gz
+[2023-05-05 08:24:05] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/89/5e/d19d08dde3196f9307b06251e80c9a77180aab7de5dc95dd95f174c26645/petisco-1.9.9.tar.gz
+[2023-05-05 08:24:05] INFO root fetch - processPackages [suitesparse-graphblas]: executing diffoscope
+[2023-05-05 08:24:05] INFO root fetch - processPackages [suitesparse-graphblas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suitesparse-graphblas-7.4.4.1a0.tar.gz tmp/suitesparse-graphblas-7.4.4.1a1.tar.gz --markdown 20230505/s/suitesparse-graphblas/7.4.4.1a0-7.4.4.1a1/diff.md --exclude *.pyd
+[2023-05-05 08:24:05] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-05-05 08:24:05] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-1.9.8.tar.gz tmp/petisco-1.9.9.tar.gz --markdown 20230505/p/petisco/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-05 08:24:05] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/61/db/7f61135a4c11a320b181cc47a5ccee2fb50752e891add05d15d41043e27a/pulumi_mysql-3.2.0a1683266055.tar.gz
+[2023-05-05 08:24:05] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2023-05-05 08:24:05] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.2.0a1681934361.tar.gz tmp/pulumi_mysql-3.2.0a1683266055.tar.gz --markdown 20230505/p/pulumi-mysql/3.2.0a1681934361-3.2.0a1683266055/diff.md --exclude *.pyd
+[2023-05-05 08:24:06] INFO root fetch - processPackages [instld]: Start processing: streamlit-deckgl
+[2023-05-05 08:24:06] INFO root fetch - main [MainThread]: End processing [instld]: success
+[2023-05-05 08:24:06] INFO root fetch - processPackages [VikyTest]: Start processing: pulumi-f5bigip
+[2023-05-05 08:24:06] INFO root fetch - main [MainThread]: End processing [VikyTest]: success
+[2023-05-05 08:24:06] INFO root fetch - processPackages [streamlit-deckgl]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-05 08:24:06] INFO root fetch - processPackages [pulumi-f5bigip]: New version: [3.9.0a1661535806] Old Version: [3.9.0a1654086391]
+[2023-05-05 08:24:06] INFO root fetch - processPackages [gpyt]: Start processing: pulumi-mongodbatlas
+[2023-05-05 08:24:06] INFO root fetch - main [MainThread]: End processing [gpyt]: success
+[2023-05-05 08:24:06] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.8.0a1683232326] Old Version: [3.8.0a1683051899]
+[2023-05-05 08:24:06] INFO root fetch - processPackages [qgate-graph]: Start processing: BioSAK
+[2023-05-05 08:24:06] INFO root fetch - main [MainThread]: End processing [qgate-graph]: success
+[2023-05-05 08:24:06] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/80/30/a8f0c17436ad6bc5580473fb6cbaf5a135b8828a6bdaacc76510bfd52499/pulumi_f5bigip-3.9.0a1654086391.tar.gz
+[2023-05-05 08:24:06] INFO root fetch - processPackages [BioSAK]: New version: [1.63.9] Old Version: [1.63.8]
+[2023-05-05 08:24:06] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-05-05 08:24:06] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.8.0a1683051899.tar.gz tmp/pulumi_mongodbatlas-3.8.0a1683232326.tar.gz --markdown 20230505/p/pulumi-mongodbatlas/3.8.0a1683051899-3.8.0a1683232326/diff.md --exclude *.pyd
+[2023-05-05 08:24:06] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/52/05/ae78b44113d46a959da99f31bce33a00d0621294ecda564ad475c6e911dd/BioSAK-1.63.8.tar.gz
+[2023-05-05 08:24:06] INFO root fetch - processPackages [streamlit-deckgl]: Downloading https://files.pythonhosted.org/packages/ed/18/733ba399938f353a13ccefcc1ed932795f48d82181e6b221ebfef3c314f3/streamlit-deckgl-0.2.0.tar.gz
+[2023-05-05 08:24:06] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 16294122>=10485760
+[2023-05-05 08:24:06] INFO root fetch - processPackages [BioSAK]: Start processing: pulumi-ns1
+[2023-05-05 08:24:06] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-05-05 08:24:06] INFO root fetch - processPackages [streamlit-deckgl]: executing diffoscope
+[2023-05-05 08:24:06] INFO root fetch - processPackages [streamlit-deckgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-deckgl-0.1.1.tar.gz tmp/streamlit-deckgl-0.2.0.tar.gz --markdown 20230505/s/streamlit-deckgl/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 08:24:06] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.1.0a1683266364] Old Version: [3.1.0a1681940488]
+[2023-05-05 08:24:07] INFO root fetch - processPackages [suitesparse-graphblas]: Start processing: mojolang
+[2023-05-05 08:24:07] INFO root fetch - main [MainThread]: End processing [suitesparse-graphblas]: success
+[2023-05-05 08:24:07] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/d9/48/9b104ca1340b985069c84fa75b1acc149cc375561d0e98bee7b09b74cb7f/pulumi_f5bigip-3.9.0a1661535806.tar.gz
+[2023-05-05 08:24:07] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/a9/20/455e704962ab27ff12059a335bf7e4865403cc162c13a87319c9122a3dd1/pulumi_ns1-3.1.0a1681940488.tar.gz
+[2023-05-05 08:24:07] INFO root fetch - processPackages [pulumi-mysql]: Start processing: pulumi-nomad
+[2023-05-05 08:24:07] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2023-05-05 08:24:07] WARNING root fetch - processPackages [mojolang]: Skipping, unable to determine old version
+[2023-05-05 08:24:07] INFO root fetch - processPackages [mojolang]: Start processing: fake-bpy-module-latest
+[2023-05-05 08:24:07] INFO root fetch - main [MainThread]: End processing [mojolang] error
+[2023-05-05 08:24:07] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230504] Old Version: [20230503]
+[2023-05-05 08:24:07] INFO root fetch - processPackages [irails]: Start processing: aiomodelz
+[2023-05-05 08:24:07] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-05-05 08:24:07] INFO root fetch - processPackages [aiomodelz]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-05 08:24:07] INFO root fetch - processPackages [pulumi-nomad]: New version: [0.4.2a1683266175] Old Version: [0.4.1a1682461165]
+[2023-05-05 08:24:07] INFO root fetch - processPackages [aiomodelz]: executing diffoscope
+[2023-05-05 08:24:07] INFO root fetch - processPackages [aiomodelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomodelz-0.4.6.tar.gz tmp/aiomodelz-0.4.7.tar.gz --markdown 20230505/a/aiomodelz/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-05-05 08:24:07] INFO root fetch - processPackages [pulumi-f5bigip]: executing diffoscope
+[2023-05-05 08:24:07] INFO root fetch - processPackages [pulumi-f5bigip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz --markdown 20230505/p/pulumi-f5bigip/3.9.0a1654086391-3.9.0a1661535806/diff.md --exclude *.pyd
+[2023-05-05 08:24:07] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/af/0f/d61fb9321424550bbb13abaf5019369be114debbc8d2c6a9b2fb4a7c4b48/pulumi_ns1-3.1.0a1683266364.tar.gz
+[2023-05-05 08:24:07] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/84/24/0cb2d7c445ccdc06c5e290a992fa3246199b15a503ea0a57908bc10d9cd5/fake-bpy-module-latest-20230504.tar.gz
+[2023-05-05 08:24:07] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/42/56/899b7a85e4506816c5ec757eaf34394372868a664e23b5386e55c8d6a0b0/pulumi_nomad-0.4.1a1682461165.tar.gz
+[2023-05-05 08:24:07] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2023-05-05 08:24:07] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.1.0a1681940488.tar.gz tmp/pulumi_ns1-3.1.0a1683266364.tar.gz --markdown 20230505/p/pulumi-ns1/3.1.0a1681940488-3.1.0a1683266364/diff.md --exclude *.pyd
+[2023-05-05 08:24:07] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-05-05 08:24:07] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230503.tar.gz tmp/fake-bpy-module-latest-20230504.tar.gz --markdown 20230505/f/fake-bpy-module-latest/20230503-20230504/diff.md --exclude *.pyd
+[2023-05-05 08:24:07] INFO root fetch - processPackages [petisco]: Start processing: unique-char-counter-cli-kir-boh
+[2023-05-05 08:24:07] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-05-05 08:24:07] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/46/cb/a994224eac40201cd13d7b65c7b8c430e0e95e8c97499d6470b40b95971e/pulumi_nomad-0.4.2a1683266175.tar.gz
+[2023-05-05 08:24:07] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2023-05-05 08:24:07] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-0.4.1a1682461165.tar.gz tmp/pulumi_nomad-0.4.2a1683266175.tar.gz --markdown 20230505/p/pulumi-nomad/0.4.1a1682461165-0.4.2a1683266175/diff.md --exclude *.pyd
+[2023-05-05 08:24:07] WARNING root fetch - processPackages [unique-char-counter-cli-kir-boh]: Skipping, unable to determine old version
+[2023-05-05 08:24:07] INFO root fetch - main [MainThread]: End processing [unique-char-counter-cli-kir-boh] error
+[2023-05-05 08:24:08] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2023-05-05 08:24:08] INFO root fetch - main [MainThread]: End processing [streamlit-deckgl]: success
+[2023-05-05 08:24:08] INFO root fetch - main [MainThread]: End processing [aiomodelz]: success
+[2023-05-05 08:24:09] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-05 08:24:09] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2023-05-05 08:24:09] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-05-05 08:24:10] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2023-05-05 08:24:11] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
+[2023-05-05 08:24:14] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-05-05 08:24:14] INFO root fetch - main [MainThread]: Store serial: [17982823]
