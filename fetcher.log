@@ -18373,3 +18373,85 @@
 [2023-05-05 18:12:59] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-05-05 18:13:02] INFO root fetch - main [MainThread]: End processing [nebari]: success
 [2023-05-05 18:13:02] INFO root fetch - main [MainThread]: Store serial: [17989716]
+[2023-05-05 18:18:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17989716]
+[2023-05-05 18:18:11] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-05 18:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datadog-checks-base
+[2023-05-05 18:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-vpc
+[2023-05-05 18:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-travelmanager
+[2023-05-05 18:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spine-aws-common
+[2023-05-05 18:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: git-backupper
+[2023-05-05 18:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ib-insync
+[2023-05-05 18:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geomulticorr
+[2023-05-05 18:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bfgdealer
+[2023-05-05 18:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jeeves-yeti-pyproject
+[2023-05-05 18:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alethiometer
+[2023-05-05 18:18:11] INFO root fetch - processPackages [datadog-checks-base]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-05-05 18:18:11] INFO root fetch - processPackages [spine-aws-common]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 18:18:11] INFO root fetch - processPackages [bfgdealer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-05 18:18:11] WARNING root fetch - processPackages [python-travelmanager]: Skipping, unable to determine old version
+[2023-05-05 18:18:11] INFO root fetch - processPackages [python-travelmanager]: Start processing: seealgo
+[2023-05-05 18:18:11] INFO root fetch - main [MainThread]: End processing [python-travelmanager] error
+[2023-05-05 18:18:11] INFO root fetch - processPackages [alethiometer]: New version: [1.1.1] Old Version: [1.0.9]
+[2023-05-05 18:18:11] INFO root fetch - processPackages [geomulticorr]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-05 18:18:11] WARNING root fetch - processPackages [git-backupper]: Skipping, unable to determine old version
+[2023-05-05 18:18:11] INFO root fetch - processPackages [git-backupper]: Start processing: cdk8s-plus-26
+[2023-05-05 18:18:11] INFO root fetch - main [MainThread]: End processing [git-backupper] error
+[2023-05-05 18:18:11] INFO root fetch - processPackages [ib-insync]: New version: [0.9.9] Old Version: [0.9.85]
+[2023-05-05 18:18:11] INFO root fetch - processPackages [jeeves-yeti-pyproject]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 18:18:11] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 18:18:11] INFO root fetch - processPackages [seealgo]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-05 18:18:11] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-05 18:18:11] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-05-05 18:18:11] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230505/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 18:18:11] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-05 18:18:11] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230505/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-05 18:18:11] INFO root fetch - processPackages [bfgdealer]: Downloading https://files.pythonhosted.org/packages/35/4f/d2e3d80b4c623d7f38597ae40cd24fe183f15b1366c978e415c42d17eb1c/bfgdealer-0.0.3.tar.gz
+[2023-05-05 18:18:11] INFO root fetch - processPackages [geomulticorr]: Downloading https://files.pythonhosted.org/packages/c9/52/1ccc19b8d0b4acf1ce0263797d1bcd41acf5e14e6bc370fde7c9238f8bf1/geomulticorr-0.0.7.tar.gz
+[2023-05-05 18:18:11] INFO root fetch - processPackages [datadog-checks-base]: Downloading https://files.pythonhosted.org/packages/43/33/0058df29cd2f889d75fd3b628c22d38554e17b2fe2867f0de729b045318d/datadog_checks_base-9.5.0-py2.py3-none-any.whl
+[2023-05-05 18:18:11] INFO root fetch - processPackages [alethiometer]: Downloading https://files.pythonhosted.org/packages/a2/24/a62216cc22cc7f8b1744e0d7232d54d2d04c4306571e211eccdb221b6cb1/alethiometer-1.0.9.tar.gz
+[2023-05-05 18:18:11] INFO root fetch - processPackages [seealgo]: Downloading https://files.pythonhosted.org/packages/6d/25/79165b47c47f53398d7be750e523c3dd5699af62a83641acd74c87c24d9e/seealgo-0.1.1.tar.gz
+[2023-05-05 18:18:11] INFO root fetch - processPackages [jeeves-yeti-pyproject]: Downloading https://files.pythonhosted.org/packages/c1/41/37bfa2e83697124c6662341b5c8a7f47bcd29d0090aef6b389224c2e251d/jeeves_yeti_pyproject-0.2.8.tar.gz
+[2023-05-05 18:18:11] INFO root fetch - processPackages [ib-insync]: Downloading https://files.pythonhosted.org/packages/08/81/7977f4e4f4228f5d5d232e9d7f1fd89383e26ea2f30e8a1a20bd6f47383a/ib_insync-0.9.85.tar.gz
+[2023-05-05 18:18:11] INFO root fetch - processPackages [spine-aws-common]: executing diffoscope
+[2023-05-05 18:18:11] INFO root fetch - processPackages [spine-aws-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_aws_common-0.2.8.tar.gz tmp/spine_aws_common-0.2.9.tar.gz --markdown 20230505/s/spine-aws-common/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 18:18:11] INFO root fetch - processPackages [alethiometer]: Downloading https://files.pythonhosted.org/packages/64/e2/49fccbf5de6d23f757258fa6da9b012065a17d371efa60367b7f76cfcaed/alethiometer-1.1.1.tar.gz
+[2023-05-05 18:18:11] INFO root fetch - processPackages [ib-insync]: executing diffoscope
+[2023-05-05 18:18:11] INFO root fetch - processPackages [ib-insync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ib_insync-0.9.85.tar.gz tmp/ib_insync-0.9.9-py3-none-any.whl.zip --markdown 20230505/i/ib-insync/0.9.85-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 18:18:11] INFO root fetch - processPackages [seealgo]: Downloading https://files.pythonhosted.org/packages/78/73/669ad28307326b879495d47ae2f3cc8c2a65d64269b1d231fa23949c2301/seealgo-0.2.0.tar.gz
+[2023-05-05 18:18:11] INFO root fetch - processPackages [bfgdealer]: Downloading https://files.pythonhosted.org/packages/21/bc/34703cfad819a1e6d39c1fe46b5a66f97791114012a5f995ea7489990977/bfgdealer-0.0.4.tar.gz
+[2023-05-05 18:18:11] INFO root fetch - processPackages [bfgdealer]: executing diffoscope
+[2023-05-05 18:18:11] INFO root fetch - processPackages [bfgdealer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgdealer-0.0.3.tar.gz tmp/bfgdealer-0.0.4.tar.gz --markdown 20230505/b/bfgdealer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-05 18:18:11] INFO root fetch - processPackages [alethiometer]: executing diffoscope
+[2023-05-05 18:18:11] INFO root fetch - processPackages [alethiometer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alethiometer-1.0.9.tar.gz tmp/alethiometer-1.1.1.tar.gz --markdown 20230505/a/alethiometer/1.0.9-1.1.1/diff.md --exclude *.pyd
+[2023-05-05 18:18:11] INFO root fetch - processPackages [jeeves-yeti-pyproject]: Downloading https://files.pythonhosted.org/packages/ae/0e/cc0e1cc23cbec7ce27f62a718ecd7d090ca1f621a4ca3b72621b204489a3/jeeves_yeti_pyproject-0.2.9.tar.gz
+[2023-05-05 18:18:12] INFO root fetch - processPackages [jeeves-yeti-pyproject]: executing diffoscope
+[2023-05-05 18:18:12] INFO root fetch - processPackages [jeeves-yeti-pyproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeeves_yeti_pyproject-0.2.8.tar.gz tmp/jeeves_yeti_pyproject-0.2.9.tar.gz --markdown 20230505/j/jeeves-yeti-pyproject/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 18:18:12] INFO root fetch - processPackages [geomulticorr]: executing diffoscope
+[2023-05-05 18:18:12] INFO root fetch - processPackages [geomulticorr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomulticorr-0.0.6.tar.gz tmp/geomulticorr-0.0.7.tar.gz --markdown 20230505/g/geomulticorr/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-05 18:18:12] INFO root fetch - processPackages [datadog-checks-base]: Downloading https://files.pythonhosted.org/packages/85/a5/da8ded74bcfc838d21b13ba266ea5256690703a778c52ecefea6536ae83e/datadog_checks_base-9.6.0-py2.py3-none-any.whl
+[2023-05-05 18:18:12] INFO root fetch - processPackages [seealgo]: executing diffoscope
+[2023-05-05 18:18:12] INFO root fetch - processPackages [seealgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seealgo-0.1.1.tar.gz tmp/seealgo-0.2.0.tar.gz --markdown 20230505/s/seealgo/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 18:18:12] INFO root fetch - processPackages [datadog-checks-base]: executing diffoscope
+[2023-05-05 18:18:12] INFO root fetch - processPackages [datadog-checks-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_checks_base-9.5.0-py2.py3-none-any.whl.zip tmp/datadog_checks_base-9.6.0-py2.py3-none-any.whl.zip --markdown 20230505/d/datadog-checks-base/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-05-05 18:18:12] INFO root fetch - processPackages [pepperize.cdk-vpc]: Start processing: jsonschema-gentypes
+[2023-05-05 18:18:12] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-05-05 18:18:12] INFO root fetch - processPackages [jsonschema-gentypes]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-05 18:18:12] INFO root fetch - processPackages [jsonschema-gentypes]: executing diffoscope
+[2023-05-05 18:18:12] INFO root fetch - processPackages [jsonschema-gentypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema_gentypes-2.1.0.tar.gz tmp/jsonschema_gentypes-2.2.0.tar.gz --markdown 20230505/j/jsonschema-gentypes/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-05 18:18:12] INFO root fetch - processPackages [ib-insync]: Start processing: xcpcio-board-spider
+[2023-05-05 18:18:12] INFO root fetch - main [MainThread]: End processing [ib-insync]: success
+[2023-05-05 18:18:13] INFO root fetch - processPackages [xcpcio-board-spider]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 18:18:13] INFO root fetch - main [MainThread]: End processing [spine-aws-common]: success
+[2023-05-05 18:18:13] INFO root fetch - main [MainThread]: End processing [jeeves-yeti-pyproject]: success
+[2023-05-05 18:18:13] INFO root fetch - main [MainThread]: End processing [bfgdealer]: success
+[2023-05-05 18:18:13] INFO root fetch - processPackages [xcpcio-board-spider]: Downloading https://files.pythonhosted.org/packages/d5/e8/93eb07becf872b6db723095bb3f0908214a3d2b21dc599973ab1af8f8e97/xcpcio_board_spider-0.0.8.tar.gz
+[2023-05-05 18:18:13] INFO root fetch - main [MainThread]: End processing [alethiometer]: success
+[2023-05-05 18:18:13] INFO root fetch - processPackages [xcpcio-board-spider]: executing diffoscope
+[2023-05-05 18:18:13] INFO root fetch - processPackages [xcpcio-board-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcpcio_board_spider-0.0.7.tar.gz tmp/xcpcio_board_spider-0.0.8.tar.gz --markdown 20230505/x/xcpcio-board-spider/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 18:18:14] INFO root fetch - main [MainThread]: End processing [jsonschema-gentypes]: success
+[2023-05-05 18:18:14] INFO root fetch - main [MainThread]: End processing [datadog-checks-base]: success
+[2023-05-05 18:18:14] INFO root fetch - main [MainThread]: End processing [seealgo]: success
+[2023-05-05 18:18:14] INFO root fetch - main [MainThread]: End processing [xcpcio-board-spider]: success
+[2023-05-05 18:18:15] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-05 18:18:16] INFO root fetch - main [MainThread]: End processing [geomulticorr]: success
+[2023-05-05 18:18:16] INFO root fetch - main [MainThread]: Store serial: [17989760]
