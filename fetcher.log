@@ -18655,3 +18655,89 @@
 [2023-05-05 18:28:45] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2023-05-05 18:28:45] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2023-05-05 18:28:45] INFO root fetch - main [MainThread]: Store serial: [17989864]
+[2023-05-05 18:33:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17989864]
+[2023-05-05 18:33:54] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-05 18:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulp-rpm
+[2023-05-05 18:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulp-rpm-client
+[2023-05-05 18:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commandsgpt
+[2023-05-05 18:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansible-butler
+[2023-05-05 18:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FacetClumps
+[2023-05-05 18:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nycu-tdx-py
+[2023-05-05 18:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: solders
+[2023-05-05 18:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: glean-parser
+[2023-05-05 18:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: feathub-nightly
+[2023-05-05 18:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: o7cli
+[2023-05-05 18:33:54] INFO root fetch - processPackages [commandsgpt]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-05 18:33:54] INFO root fetch - processPackages [pulp-rpm]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-05 18:33:54] INFO root fetch - processPackages [ansible-butler]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-05 18:33:54] INFO root fetch - processPackages [FacetClumps]: New version: [0.2] Old Version: [0.1]
+[2023-05-05 18:33:54] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 18:33:54] INFO root fetch - processPackages [o7cli]: New version: [0.1.95] Old Version: [0.1.85]
+[2023-05-05 18:33:54] INFO root fetch - processPackages [glean-parser]: New version: [7.2.0] Old Version: [7.1.0]
+[2023-05-05 18:33:54] INFO root fetch - processPackages [solders]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-05 18:33:54] INFO root fetch - processPackages [pulp-rpm-client]: New version: [3.9.1] Old Version: [3.9.0.dev1611548779]
+[2023-05-05 18:33:54] INFO root fetch - processPackages [o7cli]: executing diffoscope
+[2023-05-05 18:33:54] INFO root fetch - processPackages [o7cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/o7cli-0.1.85-py3-none-any.whl.zip tmp/o7cli-0.1.95-py3-none-any.whl.zip --markdown 20230505/o/o7cli/0.1.85-0.1.95/diff.md --exclude *.pyd
+[2023-05-05 18:33:54] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230505] Old Version: [0.1.dev20230502]
+[2023-05-05 18:33:54] INFO root fetch - processPackages [ansible-butler]: Downloading https://files.pythonhosted.org/packages/9d/98/79e87d81ff5db4f4b18ecdfbbc0b4cddd8cf5425a55aa63e3d819215ea9a/ansible-butler-1.0.8.tar.gz
+[2023-05-05 18:33:54] INFO root fetch - processPackages [commandsgpt]: Downloading https://files.pythonhosted.org/packages/30/f3/a2b6eec5ce50d15dddcf3faf7902e3de390b42e3c58e90ed218acfb2e89a/commandsgpt-1.1.1.tar.gz
+[2023-05-05 18:33:54] INFO root fetch - processPackages [FacetClumps]: Downloading https://files.pythonhosted.org/packages/88/c7/1c4b81be1899c1557049dd3b68be7088bfec729cf318eb838787dd5d5250/FacetClumps-0.1.tar.gz
+[2023-05-05 18:33:54] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/d2/fe/b39c70c5333095c9585730313d87366f3867c175aa83f15547d8480b8bb6/feathub_nightly-0.1.dev20230502-py3-none-any.whl
+[2023-05-05 18:33:54] INFO root fetch - processPackages [glean-parser]: Downloading https://files.pythonhosted.org/packages/35/91/7a0e479237dfb56d224ab81911be002852debbb9969ffdf53d4c661f6fd8/glean_parser-7.1.0.tar.gz
+[2023-05-05 18:33:54] INFO root fetch - processPackages [ansible-butler]: executing diffoscope
+[2023-05-05 18:33:54] INFO root fetch - processPackages [ansible-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-butler-1.0.7.tar.gz tmp/ansible-butler-1.0.8.tar.gz --markdown 20230505/a/ansible-butler/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-05 18:33:54] INFO root fetch - processPackages [commandsgpt]: executing diffoscope
+[2023-05-05 18:33:54] INFO root fetch - processPackages [commandsgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commandsgpt-1.1.0.tar.gz tmp/commandsgpt-1.1.1.tar.gz --markdown 20230505/c/commandsgpt/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-05 18:33:54] INFO root fetch - processPackages [pulp-rpm]: executing diffoscope
+[2023-05-05 18:33:54] INFO root fetch - processPackages [pulp-rpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-rpm-3.9.0.tar.gz tmp/pulp-rpm-3.9.1.tar.gz --markdown 20230505/p/pulp-rpm/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-05 18:33:54] INFO root fetch - processPackages [glean-parser]: Downloading https://files.pythonhosted.org/packages/f8/cb/1fef431ddac4bff251f69d713608451d1e88e2bd8287a589ab842ac8d3b1/glean_parser-7.2.0.tar.gz
+[2023-05-05 18:33:54] INFO root fetch - processPackages [FacetClumps]: Downloading https://files.pythonhosted.org/packages/81/71/a3f8356a008f350b02e657d160bfbbbe5bffc936bbe5d7f1a2f14f97899e/FacetClumps-0.2.tar.gz
+[2023-05-05 18:33:54] INFO root fetch - processPackages [solders]: executing diffoscope
+[2023-05-05 18:33:54] INFO root fetch - processPackages [solders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solders-0.9.2.tar.gz tmp/solders-0.9.3.tar.gz --markdown 20230505/s/solders/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-05 18:33:54] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-05-05 18:33:54] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230505/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 18:33:54] INFO root fetch - processPackages [pulp-rpm-client]: executing diffoscope
+[2023-05-05 18:33:54] INFO root fetch - processPackages [pulp-rpm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_rpm-client-3.9.0.dev1611548779.tar.gz tmp/pulp_rpm-client-3.9.1.tar.gz --markdown 20230505/p/pulp-rpm-client/3.9.0.dev1611548779-3.9.1/diff.md --exclude *.pyd
+[2023-05-05 18:33:54] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/93/65/4e0b4b062fc399472adedcfccdb3a599f59c70dee106244b19a1ceced591/feathub_nightly-0.1.dev20230505-py3-none-any.whl
+[2023-05-05 18:33:54] INFO root fetch - processPackages [glean-parser]: executing diffoscope
+[2023-05-05 18:33:54] INFO root fetch - processPackages [glean-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glean_parser-7.1.0.tar.gz tmp/glean_parser-7.2.0.tar.gz --markdown 20230505/g/glean-parser/7.1.0-7.2.0/diff.md --exclude *.pyd
+[2023-05-05 18:33:55] INFO root fetch - processPackages [FacetClumps]: executing diffoscope
+[2023-05-05 18:33:55] INFO root fetch - processPackages [FacetClumps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FacetClumps-0.1.tar.gz tmp/FacetClumps-0.2.tar.gz --markdown 20230505/F/FacetClumps/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-05 18:33:55] INFO root fetch - processPackages [feathub-nightly]: executing diffoscope
+[2023-05-05 18:33:55] INFO root fetch - processPackages [feathub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feathub_nightly-0.1.dev20230502-py3-none-any.whl.zip tmp/feathub_nightly-0.1.dev20230505-py3-none-any.whl.zip --markdown 20230505/f/feathub-nightly/0.1.dev20230502-0.1.dev20230505/diff.md --exclude *.pyd
+[2023-05-05 18:33:56] INFO root fetch - processPackages [o7cli]: Start processing: flatgeobuf-pyrust
+[2023-05-05 18:33:56] INFO root fetch - main [MainThread]: End processing [o7cli]: success
+[2023-05-05 18:33:56] WARNING root fetch - processPackages [flatgeobuf-pyrust]: Skipping, unable to determine old version
+[2023-05-05 18:33:56] INFO root fetch - processPackages [flatgeobuf-pyrust]: Start processing: langchain
+[2023-05-05 18:33:56] INFO root fetch - main [MainThread]: End processing [flatgeobuf-pyrust] error
+[2023-05-05 18:33:56] INFO root fetch - processPackages [nycu-tdx-py]: Start processing: nycu-tdx-py
+[2023-05-05 18:33:56] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-05-05 18:33:56] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-05-05 18:33:56] INFO root fetch - processPackages [commandsgpt]: Start processing: robotframework-debug
+[2023-05-05 18:33:56] INFO root fetch - main [MainThread]: End processing [commandsgpt]: success
+[2023-05-05 18:33:56] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 18:33:56] INFO root fetch - processPackages [robotframework-debug]: New version: [4.3.3] Old Version: [4.3.2]
+[2023-05-05 18:33:56] INFO root fetch - processPackages [FacetClumps]: Start processing: luminesce-sdk-preview
+[2023-05-05 18:33:56] INFO root fetch - main [MainThread]: End processing [FacetClumps]: success
+[2023-05-05 18:33:56] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-05-05 18:33:56] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230505/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 18:33:56] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-05 18:33:56] INFO root fetch - processPackages [robotframework-debug]: Downloading https://files.pythonhosted.org/packages/62/4f/d1e38f8a1287e4522e9dbf6c75ea24e41d542676f01ef72f6c5e11915d85/robotframework-debug-4.3.2.tar.gz
+[2023-05-05 18:33:56] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-05 18:33:56] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230505/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-05 18:33:56] INFO root fetch - main [MainThread]: End processing [ansible-butler]: success
+[2023-05-05 18:33:56] INFO root fetch - main [MainThread]: End processing [solders]: success
+[2023-05-05 18:33:56] INFO root fetch - processPackages [robotframework-debug]: Downloading https://files.pythonhosted.org/packages/9a/01/3cdf0b1082cb2cf0abd24045689e03c065b708dd27ea63937ce0ed73c94f/robotframework-debug-4.3.3.tar.gz
+[2023-05-05 18:33:57] INFO root fetch - processPackages [robotframework-debug]: executing diffoscope
+[2023-05-05 18:33:57] INFO root fetch - processPackages [robotframework-debug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-debug-4.3.2.tar.gz tmp/robotframework-debug-4.3.3.tar.gz --markdown 20230505/r/robotframework-debug/4.3.2-4.3.3/diff.md --exclude *.pyd
+[2023-05-05 18:33:57] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-05-05 18:33:57] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230505/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-05-05 18:33:57] INFO root fetch - main [MainThread]: End processing [glean-parser]: success
+[2023-05-05 18:33:57] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-05-05 18:33:58] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
+[2023-05-05 18:33:58] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-05 18:33:58] INFO root fetch - main [MainThread]: End processing [pulp-rpm]: success
+[2023-05-05 18:33:58] INFO root fetch - main [MainThread]: End processing [robotframework-debug]: success
+[2023-05-05 18:34:00] INFO root fetch - main [MainThread]: End processing [pulp-rpm-client]: success
+[2023-05-05 18:34:00] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-05-05 18:34:00] INFO root fetch - main [MainThread]: Store serial: [17989907]
