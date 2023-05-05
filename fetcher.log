@@ -12776,3 +12776,112 @@
 [2023-05-05 13:26:46] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2023-05-05 13:26:46] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-05-05 13:26:46] INFO root fetch - main [MainThread]: Store serial: [17986081]
+[2023-05-05 13:31:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17986081]
+[2023-05-05 13:31:55] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-05 13:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: venv-modulefile
+[2023-05-05 13:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asimov
+[2023-05-05 13:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: encord-active
+[2023-05-05 13:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchrec-nightly
+[2023-05-05 13:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hello-robot-stretch-factory
+[2023-05-05 13:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: litspy
+[2023-05-05 13:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchserve-nightly
+[2023-05-05 13:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-model-archiver-nightly
+[2023-05-05 13:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: semisup-segmentation
+[2023-05-05 13:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torch-workflow-archiver-nightly
+[2023-05-05 13:31:55] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 13:31:55] INFO root fetch - processPackages [asimov]: New version: [0.6.0a2] Old Version: [0.6.0a1]
+[2023-05-05 13:31:55] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 13:31:55] INFO root fetch - processPackages [encord-active]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 13:31:55] INFO root fetch - processPackages [litspy]: New version: [0.0.6.1] Old Version: [0.0.6]
+[2023-05-05 13:31:55] INFO root fetch - processPackages [hello-robot-stretch-factory]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-05 13:31:55] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.5.4] Old Version: [2023.5.3]
+[2023-05-05 13:31:55] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.5.4] Old Version: [2023.5.3]
+[2023-05-05 13:31:55] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.5.4] Old Version: [2023.5.3]
+[2023-05-05 13:31:55] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-05 13:31:55] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230505/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 13:31:55] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.5.5] Old Version: [2023.5.3]
+[2023-05-05 13:31:55] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/14/53/4cb3529f62b21b97e90761ad702d4e864b643e4772935fb9c464f8ab6758/encord-active-0.1.8.tar.gz
+[2023-05-05 13:31:55] INFO root fetch - processPackages [asimov]: Downloading https://files.pythonhosted.org/packages/1b/b6/26d30a3188eb0491c3047effc799a5a38ca6ceae2f1189713b89fd1da2f3/asimov-0.6.0a1-py2.py3-none-any.whl
+[2023-05-05 13:31:55] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d4/26/fbb7807c1bb84276efc2631aecf182568441faf6aa0156fd955a4eccda1b/torchserve_nightly-2023.5.3-py3-none-any.whl
+[2023-05-05 13:31:56] INFO root fetch - processPackages [hello-robot-stretch-factory]: Downloading https://files.pythonhosted.org/packages/c8/75/d09ddc620dd9bd3ace6a66f1b2e8f53a293241162d2e3bcf05e3a9541eef/hello_robot_stretch_factory-0.4.2.tar.gz
+[2023-05-05 13:31:56] INFO root fetch - processPackages [litspy]: Downloading https://files.pythonhosted.org/packages/3d/b7/afce103c5819238cc7ab8af29a190137c522ca28d3362860ca57caf5a972/litspy-0.0.6-py3-none-any.whl
+[2023-05-05 13:31:56] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/3d/b7/3b7a21fbead2d85fdbed6c3cc7e73832255ac80f1d4defd49a3829d815e4/torch_workflow_archiver_nightly-2023.5.4-py3-none-any.whl
+[2023-05-05 13:31:56] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23716870>=10485760
+[2023-05-05 13:31:56] INFO root fetch - processPackages [torchserve-nightly]: Start processing: mouse2
+[2023-05-05 13:31:56] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-05-05 13:31:56] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/eb/b5/2cdb3ef78d3471e48c43a76544e610029246b8df39fefc18d1b3f65dd016/torch_model_archiver_nightly-2023.5.4-py3-none-any.whl
+[2023-05-05 13:31:56] INFO root fetch - processPackages [mouse2]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 13:31:56] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-05 13:31:56] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.8.tar.gz tmp/venv-modulefile-0.0.9.tar.gz --markdown 20230505/v/venv-modulefile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 13:31:56] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-05-05 13:31:56] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.5.3-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.5.4-py3-none-any.whl.zip --markdown 20230505/t/torch-workflow-archiver-nightly/2023.5.3-2023.5.4/diff.md --exclude *.pyd
+[2023-05-05 13:31:56] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-05-05 13:31:56] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.5.3-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.5.4-py3-none-any.whl.zip --markdown 20230505/t/torch-model-archiver-nightly/2023.5.3-2023.5.4/diff.md --exclude *.pyd
+[2023-05-05 13:31:56] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/5d/84/b099a30da71821dcf01401e88b6cbd2646206a639b68cd6f71bebbd969e1/torchrec_nightly-2023.5.5-py39-none-any.whl
+[2023-05-05 13:31:56] INFO root fetch - processPackages [mouse2]: Downloading https://files.pythonhosted.org/packages/71/af/4471c4bdb401c2eb1af021c6ca28e08d5d508db68923ca092b4bd35171e5/mouse2-0.2.8.tar.gz
+[2023-05-05 13:31:56] INFO root fetch - processPackages [asimov]: Downloading https://files.pythonhosted.org/packages/2e/4f/1c4963f6a5a9d64455f78e44531e7d9f68eb89124065020bed355d420855/asimov-0.6.0a2-py2.py3-none-any.whl
+[2023-05-05 13:31:56] INFO root fetch - processPackages [hello-robot-stretch-factory]: Downloading https://files.pythonhosted.org/packages/c4/e2/5587c87212b5ce42e6547b9d3007d2fff939c95b48674f698c5a7274d38f/hello_robot_stretch_factory-0.4.3.tar.gz
+[2023-05-05 13:31:56] INFO root fetch - processPackages [litspy]: Downloading https://files.pythonhosted.org/packages/f9/2f/b286a1409b8e41a2de61726a1a47e0b3ed75ed3490e0b4c2cbcc90f398e9/litspy-0.0.6.1-py3-none-any.whl
+[2023-05-05 13:31:56] INFO root fetch - processPackages [asimov]: executing diffoscope
+[2023-05-05 13:31:56] INFO root fetch - processPackages [asimov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-0.6.0a1-py2.py3-none-any.whl.zip tmp/asimov-0.6.0a2-py2.py3-none-any.whl.zip --markdown 20230505/a/asimov/0.6.0a1-0.6.0a2/diff.md --exclude *.pyd
+[2023-05-05 13:31:56] INFO root fetch - processPackages [litspy]: executing diffoscope
+[2023-05-05 13:31:56] INFO root fetch - processPackages [litspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litspy-0.0.6-py3-none-any.whl.zip tmp/litspy-0.0.6.1-py3-none-any.whl.zip --markdown 20230505/l/litspy/0.0.6-0.0.6.1/diff.md --exclude *.pyd
+[2023-05-05 13:31:56] INFO root fetch - processPackages [hello-robot-stretch-factory]: executing diffoscope
+[2023-05-05 13:31:56] INFO root fetch - processPackages [hello-robot-stretch-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello_robot_stretch_factory-0.4.2.tar.gz tmp/hello_robot_stretch_factory-0.4.3.tar.gz --markdown 20230505/h/hello-robot-stretch-factory/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-05 13:31:56] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-05-05 13:31:56] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.5.3-py39-none-any.whl.zip tmp/torchrec_nightly-2023.5.5-py39-none-any.whl.zip --markdown 20230505/t/torchrec-nightly/2023.5.3-2023.5.5/diff.md --exclude *.pyd
+[2023-05-05 13:31:56] INFO root fetch - processPackages [mouse2]: Downloading https://files.pythonhosted.org/packages/38/4f/0f78a073a4cba3f2a488e767e2ad7e4de4de2f9a4993165d4e4cbecbc753/mouse2-0.2.9.tar.gz
+[2023-05-05 13:31:56] INFO root fetch - processPackages [mouse2]: executing diffoscope
+[2023-05-05 13:31:56] INFO root fetch - processPackages [mouse2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mouse2-0.2.8.tar.gz tmp/mouse2-0.2.9.tar.gz --markdown 20230505/m/mouse2/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 13:31:56] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/c3/14/4bad612dc1f21c818799f76b076d38fbaeeaedf2288d7c41c915b0cdce4d/encord-active-0.1.9.tar.gz
+[2023-05-05 13:31:56] INFO root fetch - processPackages [encord-active]: executing diffoscope
+[2023-05-05 13:31:56] INFO root fetch - processPackages [encord-active]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-active-0.1.8.tar.gz tmp/encord-active-0.1.9.tar.gz --markdown 20230505/e/encord-active/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 13:31:57] INFO root fetch - processPackages [semisup-segmentation]: Start processing: magicsoup
+[2023-05-05 13:31:57] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-05 13:31:57] INFO root fetch - processPackages [magicsoup]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-05 13:31:57] INFO root fetch - processPackages [magicsoup]: executing diffoscope
+[2023-05-05 13:31:57] INFO root fetch - processPackages [magicsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicsoup-0.3.8.tar.gz tmp/magicsoup-0.3.9.tar.gz --markdown 20230505/m/magicsoup/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-05 13:31:57] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: fusionsc
+[2023-05-05 13:31:57] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-05-05 13:31:57] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: querynator
+[2023-05-05 13:31:57] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-05-05 13:31:57] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-05 13:31:57] INFO root fetch - processPackages [querynator]: New version: [0.3.2] Old Version: [0.3.0]
+[2023-05-05 13:31:57] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-05-05 13:31:57] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-05-05 13:31:57] INFO root fetch - processPackages [fusionsc]: Start processing: ansys-tools-path
+[2023-05-05 13:31:57] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-05-05 13:31:57] INFO root fetch - processPackages [ansys-tools-path]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-05 13:31:57] INFO root fetch - processPackages [venv-modulefile]: Start processing: vdk-dag
+[2023-05-05 13:31:57] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-05 13:31:57] INFO root fetch - processPackages [vdk-dag]: New version: [0.1.858308711] Old Version: [0.1.856044770]
+[2023-05-05 13:31:57] INFO root fetch - processPackages [querynator]: Downloading https://files.pythonhosted.org/packages/db/3f/c50faa96f6fa7688760cc83cccf80ec13ff22b93f415674d5f0c7c961bc4/querynator-0.3.2.tar.gz
+[2023-05-05 13:31:57] INFO root fetch - processPackages [ansys-tools-path]: Downloading https://files.pythonhosted.org/packages/11/1d/7230c8b538a4b3cc9d7e8af70534b956c641c328be8fe715fb14346e7ff1/ansys-tools-path-0.1.2.tar.gz
+[2023-05-05 13:31:58] INFO root fetch - processPackages [vdk-dag]: Downloading https://files.pythonhosted.org/packages/35/e9/963609ef42076cf5acee164a131df4357b1ab1957c9fe34dcae837d0fdd6/vdk-dag-0.1.856044770.tar.gz
+[2023-05-05 13:31:58] INFO root fetch - processPackages [litspy]: Start processing: domino-py
+[2023-05-05 13:31:58] INFO root fetch - main [MainThread]: End processing [litspy]: success
+[2023-05-05 13:31:58] INFO root fetch - processPackages [querynator]: executing diffoscope
+[2023-05-05 13:31:58] INFO root fetch - processPackages [querynator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querynator-0.3.0.tar.gz tmp/querynator-0.3.2.tar.gz --markdown 20230505/q/querynator/0.3.0-0.3.2/diff.md --exclude *.pyd
+[2023-05-05 13:31:58] INFO root fetch - processPackages [domino-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 13:31:58] INFO root fetch - processPackages [domino-py]: executing diffoscope
+[2023-05-05 13:31:58] INFO root fetch - processPackages [domino-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domino-py-0.1.8.tar.gz tmp/domino-py-0.1.9.tar.gz --markdown 20230505/d/domino-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 13:31:58] INFO root fetch - processPackages [ansys-tools-path]: Downloading https://files.pythonhosted.org/packages/46/dd/d9fe66e8c8f7d7ba30825ecbeca7c53449a2f6bba946475c706e726a5176/ansys-tools-path-0.2.0.tar.gz
+[2023-05-05 13:31:58] INFO root fetch - processPackages [asimov]: Start processing: ApiamticPackage5
+[2023-05-05 13:31:58] INFO root fetch - main [MainThread]: End processing [asimov]: success
+[2023-05-05 13:31:58] INFO root fetch - processPackages [vdk-dag]: Downloading https://files.pythonhosted.org/packages/aa/eb/281309a12969b599b7dfc9d42d9d530c5f6e293f6e0dbedac206718111df/vdk-dag-0.1.858308711.tar.gz
+[2023-05-05 13:31:58] INFO root fetch - processPackages [ansys-tools-path]: executing diffoscope
+[2023-05-05 13:31:58] INFO root fetch - processPackages [ansys-tools-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-tools-path-0.1.2.tar.gz tmp/ansys-tools-path-0.2.0.tar.gz --markdown 20230505/a/ansys-tools-path/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 13:31:58] INFO root fetch - processPackages [vdk-dag]: executing diffoscope
+[2023-05-05 13:31:58] INFO root fetch - processPackages [vdk-dag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-dag-0.1.856044770.tar.gz tmp/vdk-dag-0.1.858308711.tar.gz --markdown 20230505/v/vdk-dag/0.1.856044770-0.1.858308711/diff.md --exclude *.pyd
+[2023-05-05 13:31:58] WARNING root fetch - processPackages [ApiamticPackage5]: Skipping, unable to determine old version
+[2023-05-05 13:31:58] INFO root fetch - main [MainThread]: End processing [ApiamticPackage5] error
+[2023-05-05 13:31:58] INFO root fetch - main [MainThread]: End processing [mouse2]: success
+[2023-05-05 13:31:58] INFO root fetch - main [MainThread]: End processing [magicsoup]: success
+[2023-05-05 13:31:59] INFO root fetch - main [MainThread]: End processing [hello-robot-stretch-factory]: success
+[2023-05-05 13:31:59] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-05-05 13:31:59] INFO root fetch - main [MainThread]: End processing [ansys-tools-path]: success
+[2023-05-05 13:31:59] INFO root fetch - main [MainThread]: End processing [domino-py]: success
+[2023-05-05 13:32:00] INFO root fetch - main [MainThread]: End processing [encord-active]: success
+[2023-05-05 13:32:00] INFO root fetch - main [MainThread]: End processing [vdk-dag]: success
+[2023-05-05 13:32:00] INFO root fetch - main [MainThread]: End processing [querynator]: success
+[2023-05-05 13:32:00] INFO root fetch - main [MainThread]: Store serial: [17986141]
