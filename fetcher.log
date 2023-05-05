@@ -4471,3 +4471,68 @@
 [2023-05-05 03:35:50] INFO root fetch - main [MainThread]: End processing [pyutplugins]: success
 [2023-05-05 03:35:52] INFO root fetch - main [MainThread]: End processing [Palos]: success
 [2023-05-05 03:35:52] INFO root fetch - main [MainThread]: Store serial: [17981123]
+[2023-05-05 03:40:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981123]
+[2023-05-05 03:41:02] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Bigsansar
+[2023-05-05 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pytorch
+[2023-05-05 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnimorph
+[2023-05-05 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-scipy
+[2023-05-05 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llnl-ibis
+[2023-05-05 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flex-text-table
+[2023-05-05 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gcn-kafka
+[2023-05-05 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-sphinx
+[2023-05-05 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: indiek-gui
+[2023-05-05 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: protoletariat
+[2023-05-05 03:41:02] WARNING root fetch - processPackages [omnimorph]: Skipping, unable to determine old version
+[2023-05-05 03:41:02] INFO root fetch - processPackages [omnimorph]: Start processing: nbdev-django
+[2023-05-05 03:41:02] INFO root fetch - main [MainThread]: End processing [omnimorph] error
+[2023-05-05 03:41:02] INFO root fetch - processPackages [Bigsansar]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-05 03:41:02] WARNING root fetch - processPackages [llnl-ibis]: Skipping, unable to determine old version
+[2023-05-05 03:41:02] INFO root fetch - processPackages [llnl-ibis]: Start processing: homeassistant-stubs
+[2023-05-05 03:41:02] INFO root fetch - processPackages [gcn-kafka]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-05 03:41:02] INFO root fetch - main [MainThread]: End processing [llnl-ibis] error
+[2023-05-05 03:41:02] INFO root fetch - processPackages [flex-text-table]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-05-05 03:41:02] WARNING root fetch - processPackages [indiek-gui]: Skipping, unable to determine old version
+[2023-05-05 03:41:02] INFO root fetch - processPackages [protoletariat]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-05-05 03:41:02] INFO root fetch - main [MainThread]: End processing [indiek-gui] error
+[2023-05-05 03:41:02] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 03:41:02] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 03:41:02] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 03:41:02] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.5.1] Old Version: [2023.5.0b8]
+[2023-05-05 03:41:02] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-05 03:41:02] INFO root fetch - processPackages [protoletariat]: Downloading https://files.pythonhosted.org/packages/c0/ef/d372310bad5fa04e09ca86c30fa3f4a83aee3b36c630629489ee3e2362a8/protoletariat-3.2.3.tar.gz
+[2023-05-05 03:41:02] INFO root fetch - processPackages [gcn-kafka]: Downloading https://files.pythonhosted.org/packages/ef/96/e3e873b4a10df482014bb48214d3d17bb69345c4bb116688eb28d2b0d243/gcn-kafka-0.3.1.tar.gz
+[2023-05-05 03:41:02] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-05 03:41:02] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230505/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 03:41:02] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-05 03:41:02] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230505/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 03:41:02] INFO root fetch - processPackages [flex-text-table]: Downloading https://files.pythonhosted.org/packages/82/0c/f77d532677116e3e8d8b722707848c611e93bee2f0cdae3d8ed59de943b4/flex-text-table-2.5.0.tar.gz
+[2023-05-05 03:41:03] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-05 03:41:03] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230505/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 03:41:03] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-05 03:41:03] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230505/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-05 03:41:03] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/d1/b7/fc85095a37bc217e34cf317be5a7a4365552bd20761121681f69d5368e56/Bigsansar-1.3.3.tar.gz
+[2023-05-05 03:41:03] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/c7/88/6e35d6dfff43072e2ebb8184b6fce68494a97ccee2892f55bfc22a465d69/homeassistant_stubs-2023.5.1.tar.gz
+[2023-05-05 03:41:03] INFO root fetch - processPackages [protoletariat]: Downloading https://files.pythonhosted.org/packages/a3/e9/9345ab15a0e74cff7289ca80aa80155baca52079a9ecd174396a00538610/protoletariat-3.2.4.tar.gz
+[2023-05-05 03:41:03] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-05-05 03:41:03] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.3.2.tar.gz tmp/Bigsansar-1.3.3.tar.gz --markdown 20230505/B/Bigsansar/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-05 03:41:03] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-05-05 03:41:03] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.5.0b8.tar.gz tmp/homeassistant_stubs-2023.5.1.tar.gz --markdown 20230505/h/homeassistant-stubs/2023.5.0b8-2023.5.1/diff.md --exclude *.pyd
+[2023-05-05 03:41:03] INFO root fetch - processPackages [gcn-kafka]: Downloading https://files.pythonhosted.org/packages/da/78/3725d295860dd8f29c8b02a3cb0b1c33b0b58b5a5884d74fb7c716b908c4/gcn-kafka-0.3.2.tar.gz
+[2023-05-05 03:41:03] INFO root fetch - processPackages [flex-text-table]: Downloading https://files.pythonhosted.org/packages/ef/ad/974742ad1d0a3465cf5700ac355069912235317ba5d8a71d635c18d5ad32/flex-text-table-2.6.0.tar.gz
+[2023-05-05 03:41:03] INFO root fetch - processPackages [protoletariat]: executing diffoscope
+[2023-05-05 03:41:03] INFO root fetch - processPackages [protoletariat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoletariat-3.2.3.tar.gz tmp/protoletariat-3.2.4.tar.gz --markdown 20230505/p/protoletariat/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-05-05 03:41:03] INFO root fetch - processPackages [gcn-kafka]: executing diffoscope
+[2023-05-05 03:41:03] INFO root fetch - processPackages [gcn-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcn-kafka-0.3.1.tar.gz tmp/gcn-kafka-0.3.2.tar.gz --markdown 20230505/g/gcn-kafka/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-05 03:41:03] INFO root fetch - processPackages [flex-text-table]: executing diffoscope
+[2023-05-05 03:41:03] INFO root fetch - processPackages [flex-text-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flex-text-table-2.5.0.tar.gz tmp/flex-text-table-2.6.0.tar.gz --markdown 20230505/f/flex-text-table/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-05-05 03:41:04] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-05 03:41:04] INFO root fetch - main [MainThread]: End processing [flex-text-table]: success
+[2023-05-05 03:41:04] INFO root fetch - main [MainThread]: End processing [gcn-kafka]: success
+[2023-05-05 03:41:04] INFO root fetch - main [MainThread]: End processing [protoletariat]: success
+[2023-05-05 03:41:04] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-05-05 03:41:04] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-05 03:41:05] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-05 03:41:05] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-05 03:41:50] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-05-05 03:41:50] INFO root fetch - main [MainThread]: Store serial: [17981165]
