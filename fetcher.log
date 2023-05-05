@@ -6325,3 +6325,22 @@
 [2023-05-05 07:15:20] INFO root fetch - main [MainThread]: End processing [rope]: success
 [2023-05-05 07:15:20] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-05-05 07:15:20] INFO root fetch - main [MainThread]: Store serial: [17982175]
+[2023-05-05 07:20:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982175]
+[2023-05-05 07:20:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-05 07:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awsimple
+[2023-05-05 07:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DXR
+[2023-05-05 07:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-hero-core
+[2023-05-05 07:20:29] WARNING root fetch - processPackages [gpt-hero-core]: Skipping, unable to determine old version
+[2023-05-05 07:20:29] INFO root fetch - main [MainThread]: End processing [gpt-hero-core] error
+[2023-05-05 07:20:29] INFO root fetch - processPackages [awsimple]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-05-05 07:20:29] INFO root fetch - processPackages [DXR]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-05 07:20:30] INFO root fetch - processPackages [awsimple]: Downloading https://files.pythonhosted.org/packages/23/0f/423b6b43ad37dfd19664ce88e6f464db1bf543b29856a96aa01f32d34ca8/awsimple-2.4.3-py3-none-any.whl
+[2023-05-05 07:20:30] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/12/6f/8c8c1ff520e13099d20665989a92c268ca80ee6862e95dc454bac9c91f33/DXR-1.8.2.tar.gz
+[2023-05-05 07:20:30] INFO root fetch - processPackages [DXR]: executing diffoscope
+[2023-05-05 07:20:30] INFO root fetch - processPackages [DXR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR-1.8.1.tar.gz tmp/DXR-1.8.2.tar.gz --markdown 20230505/D/DXR/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-05 07:20:30] INFO root fetch - processPackages [awsimple]: Downloading https://files.pythonhosted.org/packages/04/13/45ac19c59055d4e5cbb7cd6b0b602e624dfb7125b197e96b32c1c5466ba9/awsimple-2.4.4-py3-none-any.whl
+[2023-05-05 07:20:30] INFO root fetch - processPackages [awsimple]: executing diffoscope
+[2023-05-05 07:20:30] INFO root fetch - processPackages [awsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsimple-2.4.3-py3-none-any.whl.zip tmp/awsimple-2.4.4-py3-none-any.whl.zip --markdown 20230505/a/awsimple/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-05-05 07:20:31] INFO root fetch - main [MainThread]: End processing [awsimple]: success
+[2023-05-05 07:20:31] INFO root fetch - main [MainThread]: End processing [DXR]: success
+[2023-05-05 07:20:31] INFO root fetch - main [MainThread]: Store serial: [17982182]
