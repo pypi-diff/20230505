@@ -6344,3 +6344,23 @@
 [2023-05-05 07:20:31] INFO root fetch - main [MainThread]: End processing [awsimple]: success
 [2023-05-05 07:20:31] INFO root fetch - main [MainThread]: End processing [DXR]: success
 [2023-05-05 07:20:31] INFO root fetch - main [MainThread]: Store serial: [17982182]
+[2023-05-05 07:25:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17982182]
+[2023-05-05 07:25:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-05 07:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2023-05-05 07:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-watch
+[2023-05-05 07:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muffin-rest
+[2023-05-05 07:25:40] INFO root fetch - processPackages [muffin-rest]: New version: [4.8.1] Old Version: [4.8.0]
+[2023-05-05 07:25:40] INFO root fetch - processPackages [django-watch]: New version: [0.5.1] Old Version: [0.5]
+[2023-05-05 07:25:40] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.2.2.dev20230505] Old Version: [0.2.2.dev20230504]
+[2023-05-05 07:25:40] INFO root fetch - processPackages [django-watch]: Downloading https://files.pythonhosted.org/packages/7a/5d/4a1b3f714669ee9d2d416d266c5fdf6f7953d44d076cfa5390423ae9b17f/django_watch-0.5.1-py3-none-any.whl
+[2023-05-05 07:25:40] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-05-05 07:25:40] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-4.8.0.tar.gz tmp/muffin_rest-4.8.1.tar.gz --markdown 20230505/m/muffin-rest/4.8.0-4.8.1/diff.md --exclude *.pyd
+[2023-05-05 07:25:40] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/f0/af/4fd86484f062600bbe0b6f9e85a5e6106a9190a9275cfcaa80498a64e5a8/rapidpe_rift_pipe-0.2.2.dev20230505.tar.gz
+[2023-05-05 07:25:40] INFO root fetch - processPackages [django-watch]: executing diffoscope
+[2023-05-05 07:25:40] INFO root fetch - processPackages [django-watch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_watch-0.5-py3-none-any.whl.zip tmp/django_watch-0.5.1-py3-none-any.whl.zip --markdown 20230505/d/django-watch/0.5-0.5.1/diff.md --exclude *.pyd
+[2023-05-05 07:25:40] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-05-05 07:25:40] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.2.2.dev20230504.tar.gz tmp/rapidpe_rift_pipe-0.2.2.dev20230505.tar.gz --markdown 20230505/r/rapidpe-rift-pipe/0.2.2.dev20230504-0.2.2.dev20230505/diff.md --exclude *.pyd
+[2023-05-05 07:25:41] INFO root fetch - main [MainThread]: End processing [django-watch]: success
+[2023-05-05 07:25:41] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-05-05 07:25:41] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-05-05 07:25:41] INFO root fetch - main [MainThread]: Store serial: [17982190]
