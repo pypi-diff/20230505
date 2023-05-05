@@ -4698,3 +4698,30 @@
 [2023-05-05 04:02:39] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
 [2023-05-05 04:02:39] INFO root fetch - main [MainThread]: End processing [tensorflowjs]: success
 [2023-05-05 04:02:39] INFO root fetch - main [MainThread]: Store serial: [17981255]
+[2023-05-05 04:07:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17981255]
+[2023-05-05 04:07:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-05 04:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BioSAK
+[2023-05-05 04:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jiggybase
+[2023-05-05 04:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsutils
+[2023-05-05 04:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abi3info
+[2023-05-05 04:07:48] INFO root fetch - processPackages [abi3info]: New version: [2023.5.4] Old Version: [2023.3.20a1]
+[2023-05-05 04:07:48] INFO root fetch - processPackages [jiggybase]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-05-05 04:07:48] INFO root fetch - processPackages [BioSAK]: New version: [1.63.9] Old Version: [1.63.8]
+[2023-05-05 04:07:48] INFO root fetch - processPackages [tsutils]: New version: [8.0.4] Old Version: [8.0.3]
+[2023-05-05 04:07:48] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/52/05/ae78b44113d46a959da99f31bce33a00d0621294ecda564ad475c6e911dd/BioSAK-1.63.8.tar.gz
+[2023-05-05 04:07:48] INFO root fetch - processPackages [abi3info]: Downloading https://files.pythonhosted.org/packages/cb/2f/76a56c4923356442b7cfc4bb4c3ca92f6c567dfed3db75d6ca2d1f46e570/abi3info-2023.3.20a1.tar.gz
+[2023-05-05 04:07:48] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 16294122>=10485760
+[2023-05-05 04:07:48] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-05-05 04:07:48] INFO root fetch - processPackages [jiggybase]: Downloading https://files.pythonhosted.org/packages/b2/e9/342b06ec6443ac5a6d7bd9d69e13d0aa7e1ab8c54348aa8d32c6bac2d625/jiggybase-0.0.25.tar.gz
+[2023-05-05 04:07:48] INFO root fetch - processPackages [tsutils]: Downloading https://files.pythonhosted.org/packages/ac/c1/6712c0d70b44f6bf77df868720fc8cd827d29795f295767e298a909638f2/tsutils-8.0.4.tar.gz
+[2023-05-05 04:07:48] INFO root fetch - processPackages [jiggybase]: executing diffoscope
+[2023-05-05 04:07:48] INFO root fetch - processPackages [jiggybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiggybase-0.0.24.tar.gz tmp/jiggybase-0.0.25.tar.gz --markdown 20230505/j/jiggybase/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-05-05 04:07:48] INFO root fetch - processPackages [tsutils]: executing diffoscope
+[2023-05-05 04:07:48] INFO root fetch - processPackages [tsutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsutils-8.0.3.tar.gz tmp/tsutils-8.0.4.tar.gz --markdown 20230505/t/tsutils/8.0.3-8.0.4/diff.md --exclude *.pyd
+[2023-05-05 04:07:48] INFO root fetch - processPackages [abi3info]: Downloading https://files.pythonhosted.org/packages/c1/13/959a47bdb37e11b501b7dc2f656b9839ed8d65569e88c2e63dc4db9c67a2/abi3info-2023.5.4.tar.gz
+[2023-05-05 04:07:48] INFO root fetch - processPackages [abi3info]: executing diffoscope
+[2023-05-05 04:07:48] INFO root fetch - processPackages [abi3info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abi3info-2023.3.20a1.tar.gz tmp/abi3info-2023.5.4.tar.gz --markdown 20230505/a/abi3info/2023.3.20a1-2023.5.4/diff.md --exclude *.pyd
+[2023-05-05 04:07:49] INFO root fetch - main [MainThread]: End processing [jiggybase]: success
+[2023-05-05 04:07:49] INFO root fetch - main [MainThread]: End processing [tsutils]: success
+[2023-05-05 04:08:17] INFO root fetch - main [MainThread]: End processing [abi3info]: success
+[2023-05-05 04:08:17] INFO root fetch - main [MainThread]: Store serial: [17981267]
