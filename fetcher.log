@@ -23503,3 +23503,47 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-05 22:58:26] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-core]: success
 [2023-05-05 22:58:34] INFO root fetch - main [MainThread]: End processing [botocore]: success
 [2023-05-05 22:58:34] INFO root fetch - main [MainThread]: Store serial: [17992907]
+[2023-05-05 23:03:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17992907]
+[2023-05-05 23:03:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-05 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: determined-cli
+[2023-05-05 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: determined-deploy
+[2023-05-05 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: determined
+[2023-05-05 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: model-hub
+[2023-05-05 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: determined-common
+[2023-05-05 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pong-loading-bar
+[2023-05-05 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tyro
+[2023-05-05 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gradelab50
+[2023-05-05 23:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sentry-kafka-schemas
+[2023-05-05 23:03:46] INFO root fetch - processPackages [determined-cli]: New version: [0.22.0rc2] Old Version: [0.22.0rc1]
+[2023-05-05 23:03:46] INFO root fetch - processPackages [determined]: New version: [0.22.0rc2] Old Version: [0.22.0rc1]
+[2023-05-05 23:03:46] INFO root fetch - processPackages [determined-deploy]: New version: [0.22.0rc2] Old Version: [0.22.0rc1]
+[2023-05-05 23:03:46] INFO root fetch - processPackages [tyro]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-05 23:03:46] INFO root fetch - processPackages [sentry-kafka-schemas]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 23:03:46] INFO root fetch - processPackages [determined-common]: New version: [0.22.0rc2] Old Version: [0.22.0rc1]
+[2023-05-05 23:03:46] INFO root fetch - processPackages [model-hub]: New version: [0.22.0rc2] Old Version: [0.22.0rc1]
+[2023-05-05 23:03:47] WARNING root fetch - processPackages [gradelab50]: Skipping, unable to determine old version
+[2023-05-05 23:03:47] INFO root fetch - main [MainThread]: End processing [gradelab50] error
+[2023-05-05 23:03:47] WARNING root fetch - processPackages [pong-loading-bar]: Skipping, unable to determine old version
+[2023-05-05 23:03:47] INFO root fetch - main [MainThread]: End processing [pong-loading-bar] error
+[2023-05-05 23:03:47] INFO root fetch - processPackages [determined-common]: executing diffoscope
+[2023-05-05 23:03:47] INFO root fetch - processPackages [determined-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_common-0.22.0rc1-py3-none-any.whl.zip tmp/determined_common-0.22.0rc2-py3-none-any.whl.zip --markdown 20230505/d/determined-common/0.22.0rc1-0.22.0rc2/diff.md --exclude *.pyd
+[2023-05-05 23:03:47] INFO root fetch - processPackages [sentry-kafka-schemas]: executing diffoscope
+[2023-05-05 23:03:47] INFO root fetch - processPackages [sentry-kafka-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-kafka-schemas-0.1.4.tar.gz tmp/sentry-kafka-schemas-0.1.5.tar.gz --markdown 20230505/s/sentry-kafka-schemas/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 23:03:47] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-05-05 23:03:47] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.22.0rc1-py3-none-any.whl.zip tmp/determined-0.22.0rc2-py3-none-any.whl.zip --markdown 20230505/d/determined/0.22.0rc1-0.22.0rc2/diff.md --exclude *.pyd
+[2023-05-05 23:03:47] INFO root fetch - processPackages [determined-cli]: executing diffoscope
+[2023-05-05 23:03:47] INFO root fetch - processPackages [tyro]: executing diffoscope
+[2023-05-05 23:03:47] INFO root fetch - processPackages [determined-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_cli-0.22.0rc1-py3-none-any.whl.zip tmp/determined_cli-0.22.0rc2-py3-none-any.whl.zip --markdown 20230505/d/determined-cli/0.22.0rc1-0.22.0rc2/diff.md --exclude *.pyd
+[2023-05-05 23:03:47] INFO root fetch - processPackages [tyro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tyro-0.4.2.tar.gz tmp/tyro-0.5.0.tar.gz --markdown 20230505/t/tyro/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-05 23:03:47] INFO root fetch - processPackages [determined-deploy]: executing diffoscope
+[2023-05-05 23:03:47] INFO root fetch - processPackages [determined-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_deploy-0.22.0rc1-py3-none-any.whl.zip tmp/determined_deploy-0.22.0rc2-py3-none-any.whl.zip --markdown 20230505/d/determined-deploy/0.22.0rc1-0.22.0rc2/diff.md --exclude *.pyd
+[2023-05-05 23:03:47] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-05-05 23:03:47] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.22.0rc1-py3-none-any.whl.zip tmp/model_hub-0.22.0rc2-py3-none-any.whl.zip --markdown 20230505/m/model-hub/0.22.0rc1-0.22.0rc2/diff.md --exclude *.pyd
+[2023-05-05 23:03:48] INFO root fetch - main [MainThread]: End processing [determined-common]: success
+[2023-05-05 23:03:48] INFO root fetch - main [MainThread]: End processing [determined-cli]: success
+[2023-05-05 23:03:48] INFO root fetch - main [MainThread]: End processing [determined-deploy]: success
+[2023-05-05 23:03:48] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-05-05 23:03:48] INFO root fetch - main [MainThread]: End processing [tyro]: success
+[2023-05-05 23:03:48] INFO root fetch - main [MainThread]: End processing [sentry-kafka-schemas]: success
+[2023-05-05 23:03:50] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-05-05 23:03:50] INFO root fetch - main [MainThread]: Store serial: [17992933]
