@@ -18861,3 +18861,173 @@
 [2023-05-05 18:42:10] ERROR root fetch - processPackages [h2o-pysparkling-scoring-2.4]: Timeout during execution of pkgdiff
 [2023-05-05 18:42:10] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-2.4] error
 [2023-05-05 18:42:10] INFO root fetch - main [MainThread]: Store serial: [17989971]
+[2023-05-05 18:47:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17989971]
+[2023-05-05 18:47:20] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-05-05 18:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: h2o-pysparkling-scoring-2.3
+[2023-05-05 18:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h2o-pysparkling-3.3
+[2023-05-05 18:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyresidfp
+[2023-05-05 18:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cagen
+[2023-05-05 18:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2023-05-05 18:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fixieai
+[2023-05-05 18:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-alex-int-to-skey
+[2023-05-05 18:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: evina
+[2023-05-05 18:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: editanything
+[2023-05-05 18:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AutoGenerateMKD
+[2023-05-05 18:47:20] INFO root fetch - processPackages [pyresidfp]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-05 18:47:20] INFO root fetch - processPackages [h2o-pysparkling-3.3]: New version: [3.40.0.4.post1] Old Version: [3.40.0.3.post1]
+[2023-05-05 18:47:20] INFO root fetch - processPackages [cagen]: New version: [0.2.0b6] Old Version: [0.2.0b5]
+[2023-05-05 18:47:20] INFO root fetch - processPackages [fixieai]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 18:47:20] INFO root fetch - processPackages [editanything]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 18:47:20] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.3]: New version: [3.40.0.4.post1] Old Version: [3.40.0.3.post1]
+[2023-05-05 18:47:20] INFO root fetch - processPackages [evina]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-05 18:47:20] INFO root fetch - processPackages [AutoGenerateMKD]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-05 18:47:20] INFO root fetch - processPackages [cg]: New version: [29.7.1] Old Version: [29.7.0]
+[2023-05-05 18:47:20] INFO root fetch - processPackages [certora-cli-alpha-alex-int-to-skey]: New version: [20230505.16.40.431119] Old Version: [20230502.13.46.791912]
+[2023-05-05 18:47:20] INFO root fetch - processPackages [evina]: Downloading https://files.pythonhosted.org/packages/5b/85/08237788a52c0c0ab7343ad9f04b9d6d7131312f3293901888445028b092/evina-1.0.1.tar.gz
+[2023-05-05 18:47:20] INFO root fetch - processPackages [h2o-pysparkling-3.3]: Downloading https://files.pythonhosted.org/packages/53/e5/ec299296de18c58b6a5301e5ca9cf7b5d5f61e872171cd54d2745002e113/h2o_pysparkling_3.3-3.40.0.3-1.tar.gz
+[2023-05-05 18:47:20] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.3]: Downloading https://files.pythonhosted.org/packages/db/e3/827f41434cd28f262edce1a81687a769cb06412bee743f592ea44445f010/h2o_pysparkling_scoring_2.3-3.40.0.3-1.tar.gz
+[2023-05-05 18:47:20] INFO root fetch - processPackages [editanything]: executing diffoscope
+[2023-05-05 18:47:20] INFO root fetch - processPackages [editanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/editanything-0.0.7.tar.gz tmp/editanything-0.0.8.tar.gz --markdown 20230505/e/editanything/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 18:47:20] INFO root fetch - processPackages [certora-cli-alpha-alex-int-to-skey]: Downloading https://files.pythonhosted.org/packages/6c/58/fec38a37650067ffbbd2ce88e1f31e18f22ccd7ad31a404e488f907323d6/certora-cli-alpha-alex-int-to-skey-20230502.13.46.791912.tar.gz
+[2023-05-05 18:47:20] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/e0/62/294dee43e2681db8497ace345902b6e850b9b23329c292db54049182620e/cagen-0.2.0b6.tar.gz
+[2023-05-05 18:47:20] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/64/0f/61904f810c5afe786231be5d1b1370ea90d268dbe28766a15cb8775a8e2f/cg-29.7.1.tar.gz
+[2023-05-05 18:47:20] INFO root fetch - processPackages [AutoGenerateMKD]: Downloading https://files.pythonhosted.org/packages/f4/6f/7125e8af366b879c0415f8801925e671db663c1003a6db84d558ac070114/AutoGenerateMKD-0.0.7.tar.gz
+[2023-05-05 18:47:20] INFO root fetch - processPackages [pyresidfp]: Downloading https://files.pythonhosted.org/packages/42/4b/f7f5f0fd1c0d57a0ae21104ebbea7b1d140f53330a9358e732b9497d4a6f/pyresidfp-0.6.2.tar.gz
+[2023-05-05 18:47:20] WARNING root fetch - processPackages [h2o-pysparkling-3.3]: Skipping package: exceeds size limit 161711600>=10485760
+[2023-05-05 18:47:20] INFO root fetch - processPackages [h2o-pysparkling-3.3]: Start processing: aiokeydb
+[2023-05-05 18:47:20] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-3.3] error
+[2023-05-05 18:47:20] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-05-05 18:47:20] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0b5.tar.gz tmp/cagen-0.2.0b6.tar.gz --markdown 20230505/c/cagen/0.2.0b5-0.2.0b6/diff.md --exclude *.pyd
+[2023-05-05 18:47:20] WARNING root fetch - processPackages [certora-cli-alpha-alex-int-to-skey]: Skipping package: exceeds size limit 38365899>=10485760
+[2023-05-05 18:47:20] INFO root fetch - processPackages [certora-cli-alpha-alex-int-to-skey]: Start processing: healdata-utils
+[2023-05-05 18:47:20] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-int-to-skey] error
+[2023-05-05 18:47:20] INFO root fetch - processPackages [aiokeydb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 18:47:20] INFO root fetch - processPackages [AutoGenerateMKD]: executing diffoscope
+[2023-05-05 18:47:20] INFO root fetch - processPackages [evina]: Downloading https://files.pythonhosted.org/packages/69/3c/1be1c5e10cb39cf1d5f502b69f82398b2bdcf4c9aa92f1c729aab02683ea/evina-1.0.2.tar.gz
+[2023-05-05 18:47:20] INFO root fetch - processPackages [AutoGenerateMKD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoGenerateMKD-0.0.6.tar.gz tmp/AutoGenerateMKD-0.0.7.tar.gz --markdown 20230505/A/AutoGenerateMKD/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-05 18:47:20] INFO root fetch - processPackages [healdata-utils]: New version: [0.0.5a0] Old Version: [0.0.4a0]
+[2023-05-05 18:47:20] INFO root fetch - processPackages [fixieai]: executing diffoscope
+[2023-05-05 18:47:20] INFO root fetch - processPackages [fixieai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixieai-0.2.8.tar.gz tmp/fixieai-0.2.9.tar.gz --markdown 20230505/f/fixieai/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 18:47:21] INFO root fetch - processPackages [pyresidfp]: executing diffoscope
+[2023-05-05 18:47:21] INFO root fetch - processPackages [pyresidfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyresidfp-0.6.1.tar.gz tmp/pyresidfp-0.6.2.tar.gz --markdown 20230505/p/pyresidfp/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-05 18:47:21] INFO root fetch - processPackages [evina]: executing diffoscope
+[2023-05-05 18:47:21] INFO root fetch - processPackages [evina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evina-1.0.1.tar.gz tmp/evina-1.0.2.tar.gz --markdown 20230505/e/evina/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-05 18:47:21] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.3]: Downloading https://files.pythonhosted.org/packages/84/ca/03350106d9230d666455369b7798fcf82f6a59f3bcce77897e4898379eca/h2o_pysparkling_scoring_2.3-3.40.0.4-1.tar.gz
+[2023-05-05 18:47:21] INFO root fetch - processPackages [healdata-utils]: Downloading https://files.pythonhosted.org/packages/49/b6/5f391f8cf66e62c761d8bcefde9ce2ab98cffe06bea29a2ed8b7b8e739e2/healdata_utils-0.0.4a0.tar.gz
+[2023-05-05 18:47:21] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-05 18:47:21] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.7.0.tar.gz tmp/cg-29.7.1.tar.gz --markdown 20230505/c/cg/29.7.0-29.7.1/diff.md --exclude *.pyd
+[2023-05-05 18:47:21] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.3]: executing diffoscope
+[2023-05-05 18:47:21] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_pysparkling_scoring_2.3-3.40.0.3-1.tar.gz tmp/h2o_pysparkling_scoring_2.3-3.40.0.4-1.tar.gz --markdown 20230505/h/h2o-pysparkling-scoring-2.3/3.40.0.3.post1-3.40.0.4.post1/diff.md --exclude *.pyd
+[2023-05-05 18:47:21] INFO root fetch - processPackages [aiokeydb]: executing diffoscope
+[2023-05-05 18:47:21] INFO root fetch - processPackages [aiokeydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokeydb-0.1.8.tar.gz tmp/aiokeydb-0.1.9.tar.gz --markdown 20230505/a/aiokeydb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 18:47:21] INFO root fetch - processPackages [healdata-utils]: Downloading https://files.pythonhosted.org/packages/15/5e/1c58ca8b734c5c85f07f017d0db53be1f16d524058019d710da5d67f8dd6/healdata_utils-0.0.5a0.tar.gz
+[2023-05-05 18:47:21] INFO root fetch - processPackages [healdata-utils]: executing diffoscope
+[2023-05-05 18:47:21] INFO root fetch - processPackages [healdata-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/healdata_utils-0.0.4a0.tar.gz tmp/healdata_utils-0.0.5a0.tar.gz --markdown 20230505/h/healdata-utils/0.0.4a0-0.0.5a0/diff.md --exclude *.pyd
+[2023-05-05 18:47:22] INFO root fetch - processPackages [cagen]: Start processing: connpy
+[2023-05-05 18:47:22] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-05-05 18:47:22] INFO root fetch - processPackages [connpy]: New version: [3.2.0] Old Version: [3.0.7]
+[2023-05-05 18:47:22] INFO root fetch - processPackages [AutoGenerateMKD]: Start processing: canals
+[2023-05-05 18:47:22] INFO root fetch - main [MainThread]: End processing [AutoGenerateMKD]: success
+[2023-05-05 18:47:22] INFO root fetch - processPackages [canals]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-05 18:47:22] INFO root fetch - processPackages [editanything]: Start processing: ctadata
+[2023-05-05 18:47:22] INFO root fetch - main [MainThread]: End processing [editanything]: success
+[2023-05-05 18:47:22] INFO root fetch - processPackages [connpy]: Downloading https://files.pythonhosted.org/packages/66/a1/ed5cac1e36d1a16e21879d3cf5f1167eaade6bbc76ca285b126efaaf110b/connpy-3.0.7.tar.gz
+[2023-05-05 18:47:22] INFO root fetch - processPackages [ctadata]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-05 18:47:22] INFO root fetch - processPackages [canals]: Downloading https://files.pythonhosted.org/packages/61/7c/b37a7f0d323c61b9c51bc8136276704a8081772136d8f6a33201989b9ef0/canals-0.1.1.tar.gz
+[2023-05-05 18:47:22] INFO root fetch - processPackages [ctadata]: Downloading https://files.pythonhosted.org/packages/1f/f0/c4597cb369a1ee95e407882a0093fc269d9d268e90bdc48bd88920bff39f/ctadata-0.2.4.tar.gz
+[2023-05-05 18:47:22] INFO root fetch - processPackages [evina]: Start processing: digitalguide-reader
+[2023-05-05 18:47:22] INFO root fetch - main [MainThread]: End processing [evina]: success
+[2023-05-05 18:47:22] INFO root fetch - processPackages [digitalguide-reader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 18:47:22] INFO root fetch - processPackages [canals]: executing diffoscope
+[2023-05-05 18:47:22] INFO root fetch - processPackages [canals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canals-0.1.0.tar.gz tmp/canals-0.1.1.tar.gz --markdown 20230505/c/canals/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-05 18:47:22] INFO root fetch - processPackages [connpy]: Downloading https://files.pythonhosted.org/packages/04/78/bf062391bd5703d12f8a1b51a2f92b29694f3f4e40402dbf388102d289ac/connpy-3.2.0.tar.gz
+[2023-05-05 18:47:22] INFO root fetch - processPackages [digitalguide-reader]: executing diffoscope
+[2023-05-05 18:47:22] INFO root fetch - processPackages [digitalguide-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide_reader-0.0.8.tar.gz tmp/digitalguide_reader-0.0.9.tar.gz --markdown 20230505/d/digitalguide-reader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 18:47:22] INFO root fetch - processPackages [connpy]: executing diffoscope
+[2023-05-05 18:47:22] INFO root fetch - processPackages [connpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connpy-3.0.7.tar.gz tmp/connpy-3.2.0.tar.gz --markdown 20230505/c/connpy/3.0.7-3.2.0/diff.md --exclude *.pyd
+[2023-05-05 18:47:22] INFO root fetch - processPackages [ctadata]: Downloading https://files.pythonhosted.org/packages/5e/bf/248bbf99652eaec2bda1daa5e5ef557a18113a072a08333eaaa26028a417/ctadata-0.2.5.tar.gz
+[2023-05-05 18:47:23] INFO root fetch - processPackages [fixieai]: Start processing: ferveo
+[2023-05-05 18:47:23] INFO root fetch - main [MainThread]: End processing [fixieai]: success
+[2023-05-05 18:47:23] INFO root fetch - processPackages [ferveo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 18:47:23] INFO root fetch - processPackages [ctadata]: executing diffoscope
+[2023-05-05 18:47:23] INFO root fetch - processPackages [ctadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctadata-0.2.4.tar.gz tmp/ctadata-0.2.5.tar.gz --markdown 20230505/c/ctadata/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-05 18:47:23] INFO root fetch - processPackages [ferveo]: Downloading https://files.pythonhosted.org/packages/72/a9/4bc84b13d3f08772f15f2d8a1c1e8fc3f5d9fcb33738cca146288dd3990a/ferveo-0.1.9.tar.gz
+[2023-05-05 18:47:23] INFO root fetch - processPackages [ferveo]: executing diffoscope
+[2023-05-05 18:47:23] INFO root fetch - processPackages [ferveo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferveo-0.1.8.tar.gz tmp/ferveo-0.1.9.tar.gz --markdown 20230505/f/ferveo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 18:47:23] INFO root fetch - processPackages [pyresidfp]: Start processing: ethyca-fides
+[2023-05-05 18:47:23] INFO root fetch - main [MainThread]: End processing [pyresidfp]: success
+[2023-05-05 18:47:23] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-05 18:47:23] INFO root fetch - processPackages [aiokeydb]: Start processing: ably
+[2023-05-05 18:47:23] INFO root fetch - main [MainThread]: End processing [aiokeydb]: success
+[2023-05-05 18:47:23] INFO root fetch - processPackages [ably]: New version: [2.0.0b6] Old Version: [2.0.0b5]
+[2023-05-05 18:47:23] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-05-05 18:47:23] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230505/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-05 18:47:23] INFO root fetch - processPackages [ably]: Downloading https://files.pythonhosted.org/packages/99/ba/eda387dadd8e5ab7555bf21781aa92ae7610beba6da9b1b60a65ad78e5e3/ably-2.0.0b5.tar.gz
+[2023-05-05 18:47:23] INFO root fetch - processPackages [healdata-utils]: Start processing: gwdatafind-server
+[2023-05-05 18:47:23] INFO root fetch - main [MainThread]: End processing [healdata-utils]: success
+[2023-05-05 18:47:23] INFO root fetch - processPackages [gwdatafind-server]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-05 18:47:24] INFO root fetch - processPackages [ably]: Downloading https://files.pythonhosted.org/packages/5e/1a/d443c257350496b0818696de41ac6e8557b691066df66832b5a396308fd7/ably-2.0.0b6.tar.gz
+[2023-05-05 18:47:24] INFO root fetch - processPackages [gwdatafind-server]: Downloading https://files.pythonhosted.org/packages/25/15/344d51874ee5163ef4dee45f4712a6ec35aca07be8c0587a6f5a18ecae00/gwdatafind-server-1.2.1.tar.gz
+[2023-05-05 18:47:24] INFO root fetch - processPackages [ably]: executing diffoscope
+[2023-05-05 18:47:24] INFO root fetch - processPackages [ably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ably-2.0.0b5.tar.gz tmp/ably-2.0.0b6.tar.gz --markdown 20230505/a/ably/2.0.0b5-2.0.0b6/diff.md --exclude *.pyd
+[2023-05-05 18:47:24] INFO root fetch - processPackages [gwdatafind-server]: Downloading https://files.pythonhosted.org/packages/33/ad/438f99e5d666a9a7ed04f52443e364a5811e08904582b070136c226077e4/gwdatafind-server-1.2.2.tar.gz
+[2023-05-05 18:47:24] INFO root fetch - processPackages [canals]: Start processing: editanything
+[2023-05-05 18:47:24] INFO root fetch - main [MainThread]: End processing [canals]: success
+[2023-05-05 18:47:24] INFO root fetch - processPackages [editanything]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 18:47:24] INFO root fetch - processPackages [gwdatafind-server]: executing diffoscope
+[2023-05-05 18:47:24] INFO root fetch - processPackages [gwdatafind-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwdatafind-server-1.2.1.tar.gz tmp/gwdatafind-server-1.2.2.tar.gz --markdown 20230505/g/gwdatafind-server/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-05 18:47:24] INFO root fetch - processPackages [editanything]: executing diffoscope
+[2023-05-05 18:47:24] INFO root fetch - processPackages [editanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/editanything-0.0.7.tar.gz tmp/editanything-0.0.8.tar.gz --markdown 20230505/e/editanything/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 18:47:24] INFO root fetch - processPackages [connpy]: Start processing: gpt4all
+[2023-05-05 18:47:24] INFO root fetch - main [MainThread]: End processing [connpy]: success
+[2023-05-05 18:47:24] INFO root fetch - processPackages [gpt4all]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 18:47:24] INFO root fetch - processPackages [digitalguide-reader]: Start processing: quantify-scheduler
+[2023-05-05 18:47:24] INFO root fetch - main [MainThread]: End processing [digitalguide-reader]: success
+[2023-05-05 18:47:24] INFO root fetch - processPackages [quantify-scheduler]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-05 18:47:24] INFO root fetch - processPackages [ctadata]: Start processing: lti-consumer-xblock
+[2023-05-05 18:47:24] INFO root fetch - main [MainThread]: End processing [ctadata]: success
+[2023-05-05 18:47:24] INFO root fetch - processPackages [lti-consumer-xblock]: New version: [9.3.0] Old Version: [9.2.1]
+[2023-05-05 18:47:24] INFO root fetch - processPackages [gpt4all]: Downloading https://files.pythonhosted.org/packages/0d/a6/7c6aa26ca4a8d21047bd9cce9048a0d888ec8a1a793a8a804b137c4123f8/gpt4all-0.1.5.tar.gz
+[2023-05-05 18:47:24] INFO root fetch - processPackages [lti-consumer-xblock]: Downloading https://files.pythonhosted.org/packages/52/29/2b0cffa014d6d2d0f3738ace182616ec0722635fd6088c284f698797d6c2/lti-consumer-xblock-9.2.1.tar.gz
+[2023-05-05 18:47:25] INFO root fetch - processPackages [gpt4all]: executing diffoscope
+[2023-05-05 18:47:25] INFO root fetch - processPackages [gpt4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-0.1.4.tar.gz tmp/gpt4all-0.1.5.tar.gz --markdown 20230505/g/gpt4all/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 18:47:25] INFO root fetch - processPackages [quantify-scheduler]: Downloading https://files.pythonhosted.org/packages/56/20/a3ba4135c97788622395f86e8687e4fca33b6b484f38aabf084073fc908e/quantify-scheduler-0.8.0.tar.gz
+[2023-05-05 18:47:25] INFO root fetch - processPackages [lti-consumer-xblock]: Downloading https://files.pythonhosted.org/packages/97/4f/0aceffe84dc8367538edcbf1c59bff9c5ed4d6e1bf73920abed16bb6f4a6/lti-consumer-xblock-9.3.0.tar.gz
+[2023-05-05 18:47:25] INFO root fetch - processPackages [lti-consumer-xblock]: executing diffoscope
+[2023-05-05 18:47:25] INFO root fetch - processPackages [lti-consumer-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lti-consumer-xblock-9.2.1.tar.gz tmp/lti-consumer-xblock-9.3.0.tar.gz --markdown 20230505/l/lti-consumer-xblock/9.2.1-9.3.0/diff.md --exclude *.pyd
+[2023-05-05 18:47:25] INFO root fetch - processPackages [ably]: Start processing: discord-qalib
+[2023-05-05 18:47:25] INFO root fetch - main [MainThread]: End processing [ably]: success
+[2023-05-05 18:47:25] INFO root fetch - processPackages [discord-qalib]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-05 18:47:25] INFO root fetch - processPackages [discord-qalib]: Downloading https://files.pythonhosted.org/packages/33/70/bfb53f5e9fbffa083b378778084a470dfc6d1ef65c71a87b692411bb46cc/discord-qalib-2.2.1.tar.gz
+[2023-05-05 18:47:25] INFO root fetch - processPackages [editanything]: Start processing: h2o-pysparkling-scoring-3.3
+[2023-05-05 18:47:25] INFO root fetch - main [MainThread]: End processing [editanything]: success
+[2023-05-05 18:47:25] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.3]: New version: [3.40.0.4.post1] Old Version: [3.40.0.3.post1]
+[2023-05-05 18:47:25] INFO root fetch - processPackages [quantify-scheduler]: Downloading https://files.pythonhosted.org/packages/37/08/00904f4786b5204088a808ec4fbb00aa8265e49453e58e2a7c9ed2a537ee/quantify-scheduler-0.9.0.tar.gz
+[2023-05-05 18:47:25] INFO root fetch - processPackages [gwdatafind-server]: Start processing: sipiiiii
+[2023-05-05 18:47:25] INFO root fetch - main [MainThread]: End processing [gwdatafind-server]: success
+[2023-05-05 18:47:26] INFO root fetch - processPackages [sipiiiii]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-05 18:47:26] INFO root fetch - processPackages [discord-qalib]: Downloading https://files.pythonhosted.org/packages/ef/29/3c0e95cfc9107d83d4d665c34df930b00922225124ef75dfc501de768531/discord-qalib-2.2.2.tar.gz
+[2023-05-05 18:47:26] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.3]: Downloading https://files.pythonhosted.org/packages/88/1c/5e3cc50fa4e116a591ae713a970fbbdc7edd849345e08ad86cbd1737d51e/h2o_pysparkling_scoring_3.3-3.40.0.3-1.tar.gz
+[2023-05-05 18:47:26] INFO root fetch - processPackages [discord-qalib]: executing diffoscope
+[2023-05-05 18:47:26] INFO root fetch - processPackages [discord-qalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-qalib-2.2.1.tar.gz tmp/discord-qalib-2.2.2.tar.gz --markdown 20230505/d/discord-qalib/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-05 18:47:26] INFO root fetch - processPackages [sipiiiii]: Downloading https://files.pythonhosted.org/packages/68/89/a10db6a6b55eda968e37adc649a20b7c6de903f4138b0bbc4daef795d665/sipiiiii-1.0.2.tar.gz
+[2023-05-05 18:47:26] INFO root fetch - processPackages [quantify-scheduler]: executing diffoscope
+[2023-05-05 18:47:26] INFO root fetch - processPackages [quantify-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantify-scheduler-0.8.0.tar.gz tmp/quantify-scheduler-0.9.0.tar.gz --markdown 20230505/q/quantify-scheduler/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 18:47:26] INFO root fetch - main [MainThread]: End processing [ferveo]: success
+[2023-05-05 18:47:26] INFO root fetch - processPackages [sipiiiii]: executing diffoscope
+[2023-05-05 18:47:26] INFO root fetch - processPackages [sipiiiii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sipiiiii-1.0.1.tar.gz tmp/sipiiiii-1.0.2.tar.gz --markdown 20230505/s/sipiiiii/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-05 18:47:26] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.3]: Downloading https://files.pythonhosted.org/packages/ba/ce/88cf98a8a625f66b49b041b13aa1c1524a36a9e77b9a3b296c32a62e341c/h2o_pysparkling_scoring_3.3-3.40.0.4-1.tar.gz
+[2023-05-05 18:47:26] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.3]: executing diffoscope
+[2023-05-05 18:47:26] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_pysparkling_scoring_3.3-3.40.0.3-1.tar.gz tmp/h2o_pysparkling_scoring_3.3-3.40.0.4-1.tar.gz --markdown 20230505/h/h2o-pysparkling-scoring-3.3/3.40.0.3.post1-3.40.0.4.post1/diff.md --exclude *.pyd
+[2023-05-05 18:47:27] INFO root fetch - main [MainThread]: End processing [gpt4all]: success
+[2023-05-05 18:47:27] INFO root fetch - main [MainThread]: End processing [discord-qalib]: success
+[2023-05-05 18:47:27] INFO root fetch - main [MainThread]: End processing [lti-consumer-xblock]: success
+[2023-05-05 18:47:27] INFO root fetch - main [MainThread]: End processing [sipiiiii]: success
+[2023-05-05 18:47:29] INFO root fetch - main [MainThread]: End processing [quantify-scheduler]: success
+[2023-05-05 18:47:34] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-05 18:47:35] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-05-05 18:50:21] ERROR root fetch - processPackages [h2o-pysparkling-scoring-2.3]: Timeout during execution of pkgdiff
+[2023-05-05 18:50:21] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-2.3] error
+[2023-05-05 18:50:26] ERROR root fetch - processPackages [h2o-pysparkling-scoring-3.3]: Timeout during execution of pkgdiff
+[2023-05-05 18:50:26] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-3.3] error
+[2023-05-05 18:50:26] INFO root fetch - main [MainThread]: Store serial: [17990104]
