@@ -9105,3 +9105,87 @@
 [2023-05-05 10:21:00] INFO root fetch - main [MainThread]: End processing [hsuanwu]: success
 [2023-05-05 10:21:01] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
 [2023-05-05 10:21:01] INFO root fetch - main [MainThread]: Store serial: [17983921]
+[2023-05-05 10:26:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17983921]
+[2023-05-05 10:26:11] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-05 10:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: web-poet
+[2023-05-05 10:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maus
+[2023-05-05 10:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: semisup-segmentation
+[2023-05-05 10:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: attune-project-api
+[2023-05-05 10:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fcm-django
+[2023-05-05 10:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paddypy
+[2023-05-05 10:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fusionsc
+[2023-05-05 10:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Superlive
+[2023-05-05 10:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RSTAB
+[2023-05-05 10:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: docs-ranking-metrics
+[2023-05-05 10:26:11] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 10:26:11] INFO root fetch - processPackages [web-poet]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-05 10:26:11] INFO root fetch - processPackages [attune-project-api]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-05 10:26:11] INFO root fetch - processPackages [fcm-django]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 10:26:11] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-05 10:26:11] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-05 10:26:11] INFO root fetch - processPackages [RSTAB]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-05 10:26:11] INFO root fetch - processPackages [paddypy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-05 10:26:11] WARNING root fetch - processPackages [Superlive]: Skipping, unable to determine old version
+[2023-05-05 10:26:11] INFO root fetch - processPackages [Superlive]: Start processing: napari-nifti
+[2023-05-05 10:26:11] INFO root fetch - main [MainThread]: End processing [Superlive] error
+[2023-05-05 10:26:11] INFO root fetch - processPackages [docs-ranking-metrics]: New version: [0.0.2.dev1] Old Version: [0.0.2.dev0]
+[2023-05-05 10:26:11] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-05-05 10:26:11] INFO root fetch - processPackages [napari-nifti]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-05-05 10:26:11] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/d7/f8/ced67fc9acf12de675f2d634457c7373e34106fd88baa6288503685dd4d6/attune-project-api-0.9.8.tar.gz
+[2023-05-05 10:26:11] INFO root fetch - processPackages [paddypy]: Downloading https://files.pythonhosted.org/packages/2d/74/5ad18f22d7beabe6dec55390dce41f9e8ced5dda23ee8a808c561f08edcd/paddypy-0.1.5.tar.gz
+[2023-05-05 10:26:11] INFO root fetch - processPackages [docs-ranking-metrics]: Downloading https://files.pythonhosted.org/packages/d2/2a/06f4e126db627138361ac9b5bb941e81262ad1bb311e1bed4bd54388b9ad/docs-ranking-metrics-0.0.2.dev1.tar.gz
+[2023-05-05 10:26:11] INFO root fetch - processPackages [web-poet]: Downloading https://files.pythonhosted.org/packages/2d/32/0675884fa5cdf787f67e2a19ab228abc728f16139ab9f087f04d18a828be/web-poet-0.8.1.tar.gz
+[2023-05-05 10:26:11] INFO root fetch - processPackages [napari-nifti]: Downloading https://files.pythonhosted.org/packages/aa/9b/edcdb2e7e6eb49ec8e8bd80014f90d627f632c191bdb3dee30242d795015/napari-nifti-0.0.3.tar.gz
+[2023-05-05 10:26:12] INFO root fetch - processPackages [RSTAB]: Downloading https://files.pythonhosted.org/packages/c3/ec/c3d6aa551eba1e47adea231240ec9c351fbb5687160da93935293674315d/RSTAB-1.5.0.tar.gz
+[2023-05-05 10:26:12] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-05 10:26:12] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230505/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-05 10:26:12] INFO root fetch - processPackages [paddypy]: executing diffoscope
+[2023-05-05 10:26:12] INFO root fetch - processPackages [paddypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddypy-0.1.4.tar.gz tmp/paddypy-0.1.5.tar.gz --markdown 20230505/p/paddypy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-05 10:26:12] INFO root fetch - processPackages [docs-ranking-metrics]: executing diffoscope
+[2023-05-05 10:26:12] INFO root fetch - processPackages [docs-ranking-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs-ranking-metrics-0.0.2.dev0.tar.gz tmp/docs-ranking-metrics-0.0.2.dev1.tar.gz --markdown 20230505/d/docs-ranking-metrics/0.0.2.dev0-0.0.2.dev1/diff.md --exclude *.pyd
+[2023-05-05 10:26:12] INFO root fetch - processPackages [fcm-django]: executing diffoscope
+[2023-05-05 10:26:12] INFO root fetch - processPackages [fcm-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcm-django-1.0.8.tar.gz tmp/fcm-django-1.0.9.tar.gz --markdown 20230505/f/fcm-django/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 10:26:12] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-05 10:26:12] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230505/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 10:26:12] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-05-05 10:26:12] INFO root fetch - processPackages [fusionsc]: Start processing: myNeuropsydia
+[2023-05-05 10:26:12] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-05-05 10:26:12] INFO root fetch - processPackages [myNeuropsydia]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-05 10:26:12] INFO root fetch - processPackages [napari-nifti]: Downloading https://files.pythonhosted.org/packages/8c/0d/e178221d472040d0a86c8e92155121a534e479057afdb8529f4d5bcbba5f/napari-nifti-0.0.5.tar.gz
+[2023-05-05 10:26:12] INFO root fetch - processPackages [RSTAB]: Downloading https://files.pythonhosted.org/packages/a7/0a/fc8809d1e1c6e7623b0ac7c85b0f1138d9855f65b646bee873769a556786/RSTAB-1.6.0.tar.gz
+[2023-05-05 10:26:12] INFO root fetch - processPackages [web-poet]: Downloading https://files.pythonhosted.org/packages/38/5f/56ac62f4665c5f437ba35ae603d73c10d70863562af8e6fc44acd21395f0/web-poet-0.9.0.tar.gz
+[2023-05-05 10:26:12] INFO root fetch - processPackages [napari-nifti]: executing diffoscope
+[2023-05-05 10:26:12] INFO root fetch - processPackages [napari-nifti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-nifti-0.0.3.tar.gz tmp/napari-nifti-0.0.5.tar.gz --markdown 20230505/n/napari-nifti/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 10:26:12] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/c7/16/d44eb9ceaa1f24e93d7e0ef5a7cc8f16ca2354efe09e1f3d05025fa94147/attune-project-api-0.9.9.tar.gz
+[2023-05-05 10:26:12] INFO root fetch - processPackages [RSTAB]: executing diffoscope
+[2023-05-05 10:26:12] INFO root fetch - processPackages [RSTAB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RSTAB-1.5.0.tar.gz tmp/RSTAB-1.6.0.tar.gz --markdown 20230505/R/RSTAB/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-05 10:26:12] INFO root fetch - processPackages [myNeuropsydia]: Downloading https://files.pythonhosted.org/packages/84/f0/20aba6765b9863c01e267c09c9dd057d74ca316aaf43b1bc47fe8b09bb0a/myNeuropsydia-0.1.8.tar.gz
+[2023-05-05 10:26:12] INFO root fetch - processPackages [attune-project-api]: executing diffoscope
+[2023-05-05 10:26:12] INFO root fetch - processPackages [attune-project-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attune-project-api-0.9.8.tar.gz tmp/attune-project-api-0.9.9.tar.gz --markdown 20230505/a/attune-project-api/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-05 10:26:12] INFO root fetch - processPackages [web-poet]: executing diffoscope
+[2023-05-05 10:26:12] INFO root fetch - processPackages [web-poet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-poet-0.8.1.tar.gz tmp/web-poet-0.9.0.tar.gz --markdown 20230505/w/web-poet/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 10:26:13] INFO root fetch - processPackages [paddypy]: Start processing: odoo-addon-ddmrp
+[2023-05-05 10:26:13] INFO root fetch - main [MainThread]: End processing [paddypy]: success
+[2023-05-05 10:26:13] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [15.0.1.4.1] Old Version: [15.0.1.3.3]
+[2023-05-05 10:26:13] INFO root fetch - processPackages [docs-ranking-metrics]: Start processing: kivy-widgets
+[2023-05-05 10:26:13] INFO root fetch - main [MainThread]: End processing [docs-ranking-metrics]: success
+[2023-05-05 10:26:13] INFO root fetch - processPackages [myNeuropsydia]: executing diffoscope
+[2023-05-05 10:26:13] INFO root fetch - processPackages [myNeuropsydia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myNeuropsydia-0.1.7.tar.gz tmp/myNeuropsydia-0.1.8.tar.gz --markdown 20230505/m/myNeuropsydia/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-05 10:26:13] INFO root fetch - processPackages [kivy-widgets]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 10:26:13] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-05 10:26:13] INFO root fetch - processPackages [kivy-widgets]: executing diffoscope
+[2023-05-05 10:26:13] INFO root fetch - processPackages [kivy-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivy_widgets-0.1.8.tar.gz tmp/kivy_widgets-0.1.9.tar.gz --markdown 20230505/k/kivy-widgets/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 10:26:13] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/43/e5/882d908723b5baf2edd0a888c193b811bb1ee33638907aa0ea30149ae7f0/odoo_addon_ddmrp-15.0.1.3.3-py3-none-any.whl
+[2023-05-05 10:26:13] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-05 10:26:13] INFO root fetch - main [MainThread]: End processing [napari-nifti]: success
+[2023-05-05 10:26:14] INFO root fetch - main [MainThread]: End processing [fcm-django]: success
+[2023-05-05 10:26:14] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/0b/95/73edb6002b976c098dbcfaae4de04c8023e738f0060bb170514ae8c88249/odoo_addon_ddmrp-15.0.1.4.1-py3-none-any.whl
+[2023-05-05 10:26:14] INFO root fetch - main [MainThread]: End processing [web-poet]: success
+[2023-05-05 10:26:14] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2023-05-05 10:26:14] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-15.0.1.3.3-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-15.0.1.4.1-py3-none-any.whl.zip --markdown 20230505/o/odoo-addon-ddmrp/15.0.1.3.3-15.0.1.4.1/diff.md --exclude *.pyd
+[2023-05-05 10:26:14] INFO root fetch - main [MainThread]: End processing [RSTAB]: success
+[2023-05-05 10:26:15] INFO root fetch - main [MainThread]: End processing [kivy-widgets]: success
+[2023-05-05 10:26:15] INFO root fetch - main [MainThread]: End processing [attune-project-api]: success
+[2023-05-05 10:26:15] INFO root fetch - main [MainThread]: End processing [myNeuropsydia]: success
+[2023-05-05 10:26:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2023-05-05 10:26:15] INFO root fetch - main [MainThread]: Store serial: [17983960]
