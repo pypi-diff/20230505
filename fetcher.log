@@ -18455,3 +18455,112 @@
 [2023-05-05 18:18:15] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-05-05 18:18:16] INFO root fetch - main [MainThread]: End processing [geomulticorr]: success
 [2023-05-05 18:18:16] INFO root fetch - main [MainThread]: Store serial: [17989760]
+[2023-05-05 18:23:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17989760]
+[2023-05-05 18:23:25] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-05 18:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xcpcio-board-spider
+[2023-05-05 18:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syncqb
+[2023-05-05 18:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alertlogic-sdk-definitions
+[2023-05-05 18:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tradchat
+[2023-05-05 18:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cognitive-service-vision-model-customization-python-samples
+[2023-05-05 18:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prettynumbers
+[2023-05-05 18:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pix-framework
+[2023-05-05 18:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rad-tools
+[2023-05-05 18:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyFCST
+[2023-05-05 18:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-travelmanager
+[2023-05-05 18:23:25] INFO root fetch - processPackages [xcpcio-board-spider]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-05 18:23:25] WARNING root fetch - processPackages [tradchat]: Skipping, unable to determine old version
+[2023-05-05 18:23:25] INFO root fetch - processPackages [tradchat]: Start processing: pulp-rpm
+[2023-05-05 18:23:25] INFO root fetch - main [MainThread]: End processing [tradchat] error
+[2023-05-05 18:23:25] INFO root fetch - processPackages [prettynumbers]: New version: [0.1.3b0] Old Version: [0.1.3]
+[2023-05-05 18:23:25] INFO root fetch - processPackages [pix-framework]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-05 18:23:25] INFO root fetch - processPackages [pyFCST]: New version: [0.0.9] Old Version: [0.0.10]
+[2023-05-05 18:23:25] INFO root fetch - processPackages [cognitive-service-vision-model-customization-python-samples]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-05 18:23:25] INFO root fetch - processPackages [syncqb]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-05 18:23:25] INFO root fetch - processPackages [rad-tools]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-05 18:23:25] INFO root fetch - processPackages [python-travelmanager]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-05 18:23:25] INFO root fetch - processPackages [alertlogic-sdk-definitions]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-05 18:23:25] INFO root fetch - processPackages [pulp-rpm]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-05 18:23:25] INFO root fetch - processPackages [rad-tools]: executing diffoscope
+[2023-05-05 18:23:25] INFO root fetch - processPackages [rad-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rad-tools-0.5.8.tar.gz tmp/rad-tools-0.5.9.tar.gz --markdown 20230505/r/rad-tools/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-05 18:23:25] INFO root fetch - processPackages [prettynumbers]: Downloading https://files.pythonhosted.org/packages/2e/3b/02bd0beed57a0b71a3ce8ff6379fdb40c35ee93e552826d2958d7a38b075/prettynumbers-0.1.3.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [pyFCST]: Downloading https://files.pythonhosted.org/packages/ed/8a/510dcbc4b4e7bd8250b9a0baf68909e030d7b3c89053812d58cdbec5fc40/pyFCST-0.0.10.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [python-travelmanager]: Downloading https://files.pythonhosted.org/packages/7a/e1/a6680f52aff08d0a5517abddda2324e33ffd80f38abe17effb670166c43e/python_travelmanager-0.1.0.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [syncqb]: Downloading https://files.pythonhosted.org/packages/3e/55/4652e157f8c8730a3f0ff84d3ffcdb14f7d2551e801ee9c08b2c984dae7a/syncqb-1.0.6.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [cognitive-service-vision-model-customization-python-samples]: Downloading https://files.pythonhosted.org/packages/b0/33/27f087ed2b4f899af296059140b0598b9bdbc8ab06402c54a8031adc79c0/cognitive-service-vision-model-customization-python-samples-0.0.2.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Downloading https://files.pythonhosted.org/packages/37/2d/d04022db2c2c7242403a185b45a95837c0bbf7ef694d779bce552a2e6a39/alertlogic-sdk-definitions-0.1.98.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [pulp-rpm]: Downloading https://files.pythonhosted.org/packages/ff/1e/5233d641810949aa6421b42d883f21e226633dae7b51692d36e9ba32248c/pulp-rpm-3.9.0.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [pix-framework]: Downloading https://files.pythonhosted.org/packages/16/10/832e952d3e81476b7502828a7a0e9f5967cbeaa319add254ef48866472f4/pix_framework-0.7.0.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [xcpcio-board-spider]: executing diffoscope
+[2023-05-05 18:23:25] INFO root fetch - processPackages [prettynumbers]: Downloading https://files.pythonhosted.org/packages/8d/ff/537521538649dea9788fe9e336e4780fd6ea4e0f872302b45bdf7d666e8d/prettynumbers-0.1.3b0.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [xcpcio-board-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcpcio_board_spider-0.0.7.tar.gz tmp/xcpcio_board_spider-0.0.8.tar.gz --markdown 20230505/x/xcpcio-board-spider/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-05 18:23:25] INFO root fetch - processPackages [syncqb]: Downloading https://files.pythonhosted.org/packages/e6/40/71df253f1c5dc378ec692c0d7f4681b3c117e25a4460aa47597349e33500/syncqb-1.0.7.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [python-travelmanager]: Downloading https://files.pythonhosted.org/packages/17/d3/86adaae9581986bc575e38e9cd7465e3c15b0eb06e2c8fd11eb532313d8d/python_travelmanager-0.2.0.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [pix-framework]: Downloading https://files.pythonhosted.org/packages/04/d5/189a6f1d96c6319f6a0a467ca4ffbaa47740a08585a0bbb714be3844fbde/pix_framework-0.7.1.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [prettynumbers]: executing diffoscope
+[2023-05-05 18:23:25] INFO root fetch - processPackages [prettynumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettynumbers-0.1.3.tar.gz tmp/prettynumbers-0.1.3b0.tar.gz --markdown 20230505/p/prettynumbers/0.1.3-0.1.3b0/diff.md --exclude *.pyd
+[2023-05-05 18:23:25] INFO root fetch - processPackages [pulp-rpm]: Downloading https://files.pythonhosted.org/packages/f6/c3/7630f1a0387b49cdb9c675bda36988b5f74f95750b8884864db4d8ece3ae/pulp-rpm-3.9.1.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [syncqb]: executing diffoscope
+[2023-05-05 18:23:25] INFO root fetch - processPackages [syncqb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncqb-1.0.6.tar.gz tmp/syncqb-1.0.7.tar.gz --markdown 20230505/s/syncqb/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-05 18:23:25] INFO root fetch - processPackages [cognitive-service-vision-model-customization-python-samples]: Downloading https://files.pythonhosted.org/packages/92/72/5174271d81ba10f988075a9c033a20d3bb033d136329e02af307f7368def/cognitive-service-vision-model-customization-python-samples-0.0.3.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [pix-framework]: executing diffoscope
+[2023-05-05 18:23:25] INFO root fetch - processPackages [pix-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix_framework-0.7.0.tar.gz tmp/pix_framework-0.7.1.tar.gz --markdown 20230505/p/pix-framework/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-05 18:23:25] INFO root fetch - processPackages [pyFCST]: executing diffoscope
+[2023-05-05 18:23:25] INFO root fetch - processPackages [pyFCST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyFCST-0.0.10.tar.gz tmp/pyFCST-0.0.9.tar.gz --markdown 20230505/p/pyFCST/0.0.10-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 18:23:25] INFO root fetch - processPackages [python-travelmanager]: executing diffoscope
+[2023-05-05 18:23:25] INFO root fetch - processPackages [python-travelmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_travelmanager-0.1.0.tar.gz tmp/python_travelmanager-0.2.0.tar.gz --markdown 20230505/p/python-travelmanager/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-05 18:23:25] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Downloading https://files.pythonhosted.org/packages/ca/40/d491b53e878475fc259c3994f3d4c75b8f55fa82e36e0cef73f6e58c5418/alertlogic-sdk-definitions-0.1.99.tar.gz
+[2023-05-05 18:23:25] INFO root fetch - processPackages [cognitive-service-vision-model-customization-python-samples]: executing diffoscope
+[2023-05-05 18:23:25] INFO root fetch - processPackages [cognitive-service-vision-model-customization-python-samples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognitive-service-vision-model-customization-python-samples-0.0.2.tar.gz tmp/cognitive-service-vision-model-customization-python-samples-0.0.3.tar.gz --markdown 20230505/c/cognitive-service-vision-model-customization-python-samples/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-05 18:23:25] INFO root fetch - processPackages [pulp-rpm]: executing diffoscope
+[2023-05-05 18:23:25] INFO root fetch - processPackages [pulp-rpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-rpm-3.9.0.tar.gz tmp/pulp-rpm-3.9.1.tar.gz --markdown 20230505/p/pulp-rpm/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-05 18:23:25] INFO root fetch - processPackages [alertlogic-sdk-definitions]: executing diffoscope
+[2023-05-05 18:23:25] INFO root fetch - processPackages [alertlogic-sdk-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alertlogic-sdk-definitions-0.1.98.tar.gz tmp/alertlogic-sdk-definitions-0.1.99.tar.gz --markdown 20230505/a/alertlogic-sdk-definitions/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-05 18:23:26] INFO root fetch - processPackages [rad-tools]: Start processing: CoLT5-attention
+[2023-05-05 18:23:26] INFO root fetch - main [MainThread]: End processing [rad-tools]: success
+[2023-05-05 18:23:26] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-05-05 18:23:27] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/7f/0f/75dbedcbdce9e02e2e92acc866c579af016cd3dcc9a33810b9c62deb9368/CoLT5-attention-0.6.0.tar.gz
+[2023-05-05 18:23:27] INFO root fetch - processPackages [xcpcio-board-spider]: Start processing: pulp-rpm-client
+[2023-05-05 18:23:27] INFO root fetch - main [MainThread]: End processing [xcpcio-board-spider]: success
+[2023-05-05 18:23:27] INFO root fetch - processPackages [pulp-rpm-client]: New version: [3.9.1] Old Version: [3.9.0.dev1611548779]
+[2023-05-05 18:23:27] INFO root fetch - processPackages [prettynumbers]: Start processing: jeeves-yeti-pyproject
+[2023-05-05 18:23:27] INFO root fetch - main [MainThread]: End processing [prettynumbers]: success
+[2023-05-05 18:23:27] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-05 18:23:27] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.5.5.tar.gz tmp/CoLT5-attention-0.6.0.tar.gz --markdown 20230505/C/CoLT5-attention/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-05-05 18:23:27] INFO root fetch - processPackages [jeeves-yeti-pyproject]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 18:23:27] INFO root fetch - processPackages [jeeves-yeti-pyproject]: executing diffoscope
+[2023-05-05 18:23:27] INFO root fetch - processPackages [jeeves-yeti-pyproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeeves_yeti_pyproject-0.2.8.tar.gz tmp/jeeves_yeti_pyproject-0.2.9.tar.gz --markdown 20230505/j/jeeves-yeti-pyproject/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 18:23:27] INFO root fetch - processPackages [pyFCST]: Start processing: samna
+[2023-05-05 18:23:27] INFO root fetch - main [MainThread]: End processing [pyFCST]: success
+[2023-05-05 18:23:27] INFO root fetch - processPackages [pulp-rpm-client]: Downloading https://files.pythonhosted.org/packages/72/a3/5316809e90453285ef5027a3a4ffb05b274e8efaefb38482da408beab20c/pulp_rpm-client-3.9.0.dev1611548779.tar.gz
+[2023-05-05 18:23:27] INFO root fetch - processPackages [python-travelmanager]: Start processing: cdk8s-plus-24
+[2023-05-05 18:23:27] INFO root fetch - main [MainThread]: End processing [python-travelmanager]: success
+[2023-05-05 18:23:27] INFO root fetch - processPackages [pix-framework]: Start processing: delia
+[2023-05-05 18:23:27] INFO root fetch - main [MainThread]: End processing [pix-framework]: success
+[2023-05-05 18:23:27] INFO root fetch - processPackages [delia]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 18:23:27] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-05 18:23:27] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-05-05 18:23:27] INFO root fetch - processPackages [delia]: executing diffoscope
+[2023-05-05 18:23:27] INFO root fetch - processPackages [delia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delia-1.0.8.tar.gz tmp/delia-1.0.9.tar.gz --markdown 20230505/d/delia/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 18:23:27] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-05 18:23:27] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230505/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-05 18:23:27] INFO root fetch - processPackages [syncqb]: Start processing: contextualized-ml
+[2023-05-05 18:23:27] INFO root fetch - main [MainThread]: End processing [syncqb]: success
+[2023-05-05 18:23:27] INFO root fetch - main [MainThread]: End processing [cognitive-service-vision-model-customization-python-samples]: success
+[2023-05-05 18:23:27] INFO root fetch - processPackages [pulp-rpm-client]: Downloading https://files.pythonhosted.org/packages/b6/be/f25fba38fea038de92e8763ae19522b9fb288b2f1a73da9ddb9aa5cbe5c9/pulp_rpm-client-3.9.1.tar.gz
+[2023-05-05 18:23:27] INFO root fetch - processPackages [contextualized-ml]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-05 18:23:27] INFO root fetch - processPackages [pulp-rpm-client]: executing diffoscope
+[2023-05-05 18:23:27] INFO root fetch - processPackages [pulp-rpm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_rpm-client-3.9.0.dev1611548779.tar.gz tmp/pulp_rpm-client-3.9.1.tar.gz --markdown 20230505/p/pulp-rpm-client/3.9.0.dev1611548779-3.9.1/diff.md --exclude *.pyd
+[2023-05-05 18:23:27] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-05-05 18:23:27] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230505/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-05-05 18:23:27] INFO root fetch - processPackages [contextualized-ml]: Downloading https://files.pythonhosted.org/packages/d6/38/14af0810e9cbda936e439233bc00556a166c9e5925ad031d1233c6cb12b6/contextualized_ml-0.2.4.tar.gz
+[2023-05-05 18:23:28] INFO root fetch - main [MainThread]: End processing [pulp-rpm]: success
+[2023-05-05 18:23:28] WARNING root fetch - processPackages [contextualized-ml]: Skipping package: exceeds size limit 18288181>=10485760
+[2023-05-05 18:23:28] INFO root fetch - main [MainThread]: End processing [contextualized-ml] error
+[2023-05-05 18:23:28] INFO root fetch - main [MainThread]: End processing [jeeves-yeti-pyproject]: success
+[2023-05-05 18:23:28] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-05 18:23:28] INFO root fetch - main [MainThread]: End processing [delia]: success
+[2023-05-05 18:23:28] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-05-05 18:23:29] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-05 18:23:30] INFO root fetch - main [MainThread]: End processing [pulp-rpm-client]: success
+[2023-05-05 18:23:31] INFO root fetch - main [MainThread]: End processing [alertlogic-sdk-definitions]: success
+[2023-05-05 18:23:31] INFO root fetch - main [MainThread]: Store serial: [17989813]
