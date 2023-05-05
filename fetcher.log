@@ -13082,3 +13082,123 @@
 [2023-05-05 13:42:59] INFO root fetch - main [MainThread]: End processing [django-cards]: success
 [2023-05-05 13:42:59] INFO root fetch - main [MainThread]: End processing [empaia-app-test-suite]: success
 [2023-05-05 13:42:59] INFO root fetch - main [MainThread]: Store serial: [17986244]
+[2023-05-05 13:48:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17986244]
+[2023-05-05 13:48:08] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-05 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: extremitypathfinder
+[2023-05-05 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swh.journal
+[2023-05-05 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kivy-widgets
+[2023-05-05 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swedish-market-insights
+[2023-05-05 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: barbell2-bodycomp
+[2023-05-05 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-humanitarian-icons
+[2023-05-05 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nautilus-trader
+[2023-05-05 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: schoolware-api
+[2023-05-05 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kosmorrolib
+[2023-05-05 13:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seppmail-converter
+[2023-05-05 13:48:08] INFO root fetch - processPackages [barbell2-bodycomp]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-05 13:48:08] INFO root fetch - processPackages [extremitypathfinder]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-05-05 13:48:08] INFO root fetch - processPackages [kosmorrolib]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-05 13:48:08] INFO root fetch - processPackages [swh.journal]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-05 13:48:08] INFO root fetch - processPackages [kivy-widgets]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-05 13:48:08] WARNING root fetch - processPackages [wagtail-humanitarian-icons]: Skipping, unable to determine old version
+[2023-05-05 13:48:08] INFO root fetch - processPackages [wagtail-humanitarian-icons]: Start processing: semisup-segmentation
+[2023-05-05 13:48:08] INFO root fetch - processPackages [schoolware-api]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-05 13:48:08] INFO root fetch - processPackages [swedish-market-insights]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-05-05 13:48:08] INFO root fetch - main [MainThread]: End processing [wagtail-humanitarian-icons] error
+[2023-05-05 13:48:08] INFO root fetch - processPackages [seppmail-converter]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-05 13:48:08] INFO root fetch - processPackages [nautilus-trader]: New version: [1.173.0] Old Version: [1.172.0]
+[2023-05-05 13:48:08] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-05 13:48:08] INFO root fetch - processPackages [barbell2-bodycomp]: executing diffoscope
+[2023-05-05 13:48:08] INFO root fetch - processPackages [barbell2-bodycomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barbell2_bodycomp-0.8.0.tar.gz tmp/barbell2_bodycomp-0.9.0.tar.gz --markdown 20230505/b/barbell2-bodycomp/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 13:48:08] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-05 13:48:08] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230505/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-05 13:48:09] INFO root fetch - processPackages [extremitypathfinder]: Downloading https://files.pythonhosted.org/packages/5e/2f/6d7f4cf3142bd366ed64170df830327bb2cae3ff40550dd5d496f5d142bb/extremitypathfinder-2.4.1.tar.gz
+[2023-05-05 13:48:09] INFO root fetch - processPackages [kosmorrolib]: Downloading https://files.pythonhosted.org/packages/f2/fa/86aeedf305628e8ca85301c267b02cd0f70aa2b1cd744b63cf2f0d2de15d/kosmorrolib-1.0.7.tar.gz
+[2023-05-05 13:48:09] INFO root fetch - processPackages [seppmail-converter]: Downloading https://files.pythonhosted.org/packages/e4/c7/d066d0a2916f77f2d20c8f95d3df59d07979d9b44bd3a2c9349fe50732b4/seppmail_converter-0.1.7.tar.gz
+[2023-05-05 13:48:09] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/6c/8d/94a1361f6b626fc543392d08fa4971ff67d82243fdbc58110189884ebf67/schoolware_api-1.1.6.tar.gz
+[2023-05-05 13:48:09] INFO root fetch - processPackages [swedish-market-insights]: Downloading https://files.pythonhosted.org/packages/d2/b2/95415dec112ae2761470638ed42c7706b3c62a83184041a29db293402448/swedish_market_insights-0.2.3.tar.gz
+[2023-05-05 13:48:09] INFO root fetch - processPackages [nautilus-trader]: Downloading https://files.pythonhosted.org/packages/a8/81/5917b57990c2995c46fceec1c3d8d4a5fa251268c4ca403bc30c7111627e/nautilus_trader-1.172.0.tar.gz
+[2023-05-05 13:48:09] INFO root fetch - processPackages [kivy-widgets]: executing diffoscope
+[2023-05-05 13:48:09] INFO root fetch - processPackages [kivy-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivy_widgets-0.1.8.tar.gz tmp/kivy_widgets-0.1.9.tar.gz --markdown 20230505/k/kivy-widgets/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-05 13:48:09] INFO root fetch - processPackages [swh.journal]: Downloading https://files.pythonhosted.org/packages/93/2f/b9866278bef672731d6e9857909859b5469dddea114f24311772ac6a9269/swh.journal-1.3.3.tar.gz
+[2023-05-05 13:48:09] INFO root fetch - processPackages [swh.journal]: executing diffoscope
+[2023-05-05 13:48:09] INFO root fetch - processPackages [swh.journal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.journal-1.3.2.tar.gz tmp/swh.journal-1.3.3.tar.gz --markdown 20230505/s/swh.journal/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-05 13:48:09] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/a1/29/43bb537bac0ef3478f7cdfe8a0bc8f118e9dc2539c76914776f02dd54b6f/schoolware_api-1.1.7.tar.gz
+[2023-05-05 13:48:09] INFO root fetch - processPackages [swedish-market-insights]: Downloading https://files.pythonhosted.org/packages/50/3f/d092619c0f07ccb616906f0154c61edb784dd7dc666d00e2022bb18d234b/swedish_market_insights-0.3.0.tar.gz
+[2023-05-05 13:48:09] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-05 13:48:09] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.1.6.tar.gz tmp/schoolware_api-1.1.7.tar.gz --markdown 20230505/s/schoolware-api/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-05 13:48:09] INFO root fetch - processPackages [kosmorrolib]: Downloading https://files.pythonhosted.org/packages/ae/35/e1ef7a37064a3a9c085116b3737510343904ed2dbcb9f1c09d9c2a931257/kosmorrolib-1.0.8.tar.gz
+[2023-05-05 13:48:09] INFO root fetch - processPackages [swedish-market-insights]: executing diffoscope
+[2023-05-05 13:48:09] INFO root fetch - processPackages [extremitypathfinder]: Downloading https://files.pythonhosted.org/packages/51/d4/0ba99e0251eeefb808644d710a2b66e434703a49b09b0753e76dd4e2d987/extremitypathfinder-2.5.0.tar.gz
+[2023-05-05 13:48:09] INFO root fetch - processPackages [swedish-market-insights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swedish_market_insights-0.2.3.tar.gz tmp/swedish_market_insights-0.3.0.tar.gz --markdown 20230505/s/swedish-market-insights/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-05-05 13:48:09] INFO root fetch - processPackages [nautilus-trader]: Downloading https://files.pythonhosted.org/packages/9e/53/fa1267b1c839a94ece540920c55abab0290147639dd074a068d0828dba1c/nautilus_trader-1.173.0-cp39-cp39-macosx_13_0_x86_64.whl
+[2023-05-05 13:48:09] WARNING root fetch - processPackages [nautilus-trader]: Skipping package: exceeds size limit 60781775>=10485760
+[2023-05-05 13:48:09] INFO root fetch - processPackages [nautilus-trader]: Start processing: cdascorer
+[2023-05-05 13:48:09] INFO root fetch - main [MainThread]: End processing [nautilus-trader] error
+[2023-05-05 13:48:09] INFO root fetch - processPackages [seppmail-converter]: Downloading https://files.pythonhosted.org/packages/2a/4f/71278097904521f27200b144aabef3ed6969b0f72f89cf69de6f3247ed31/seppmail_converter-0.1.8.tar.gz
+[2023-05-05 13:48:09] INFO root fetch - processPackages [extremitypathfinder]: executing diffoscope
+[2023-05-05 13:48:09] INFO root fetch - processPackages [extremitypathfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extremitypathfinder-2.4.1.tar.gz tmp/extremitypathfinder-2.5.0.tar.gz --markdown 20230505/e/extremitypathfinder/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-05-05 13:48:09] INFO root fetch - processPackages [kosmorrolib]: executing diffoscope
+[2023-05-05 13:48:09] INFO root fetch - processPackages [kosmorrolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kosmorrolib-1.0.7.tar.gz tmp/kosmorrolib-1.0.8.tar.gz --markdown 20230505/k/kosmorrolib/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-05 13:48:09] INFO root fetch - processPackages [cdascorer]: New version: [0.0.0.dev9] Old Version: [0.0.0.dev8]
+[2023-05-05 13:48:09] INFO root fetch - processPackages [seppmail-converter]: executing diffoscope
+[2023-05-05 13:48:09] INFO root fetch - processPackages [seppmail-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seppmail_converter-0.1.7.tar.gz tmp/seppmail_converter-0.1.8.tar.gz --markdown 20230505/s/seppmail-converter/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-05 13:48:09] INFO root fetch - processPackages [cdascorer]: executing diffoscope
+[2023-05-05 13:48:09] INFO root fetch - processPackages [cdascorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdascorer-0.0.0.dev8.tar.gz tmp/cdascorer-0.0.0.dev9.tar.gz --markdown 20230505/c/cdascorer/0.0.0.dev8-0.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-05 13:48:10] INFO root fetch - processPackages [barbell2-bodycomp]: Start processing: bigdl-dllib
+[2023-05-05 13:48:10] INFO root fetch - main [MainThread]: End processing [barbell2-bodycomp]: success
+[2023-05-05 13:48:10] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230505] Old Version: [2.4.0b20230504]
+[2023-05-05 13:48:10] INFO root fetch - processPackages [semisup-segmentation]: Start processing: bigdl-orca
+[2023-05-05 13:48:10] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-05 13:48:10] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230505] Old Version: [2.4.0b20230504]
+[2023-05-05 13:48:10] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/25/70/351927d7f47d566591ca7f3d059b95598e458937046274cf3eef0daa5a2c/bigdl-dllib-2.4.0b20230504.tar.gz
+[2023-05-05 13:48:10] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/ff/61/01dd4fb61d94b06af4e8e79e4efc852ae4b86a18760163371d309f407c7a/bigdl_orca-2.4.0b20230504-py3-none-manylinux1_x86_64.whl
+[2023-05-05 13:48:10] INFO root fetch - processPackages [schoolware-api]: Start processing: pandasflow
+[2023-05-05 13:48:10] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-05 13:48:10] INFO root fetch - processPackages [swedish-market-insights]: Start processing: bigdl-friesian
+[2023-05-05 13:48:10] INFO root fetch - main [MainThread]: End processing [swedish-market-insights]: success
+[2023-05-05 13:48:10] INFO root fetch - processPackages [pandasflow]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-05 13:48:10] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53559890>=10485760
+[2023-05-05 13:48:10] INFO root fetch - processPackages [bigdl-dllib]: Start processing: bigdl
+[2023-05-05 13:48:10] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-05-05 13:48:10] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230505] Old Version: [2.4.0b20230504]
+[2023-05-05 13:48:10] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230505] Old Version: [2.4.0b20230504]
+[2023-05-05 13:48:10] INFO root fetch - processPackages [seppmail-converter]: Start processing: bigdl-dllib-spark2
+[2023-05-05 13:48:10] INFO root fetch - main [MainThread]: End processing [seppmail-converter]: success
+[2023-05-05 13:48:10] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230505] Old Version: [2.4.0b20230504]
+[2023-05-05 13:48:10] INFO root fetch - processPackages [extremitypathfinder]: Start processing: Geode-Implicit
+[2023-05-05 13:48:10] INFO root fetch - main [MainThread]: End processing [extremitypathfinder]: success
+[2023-05-05 13:48:11] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/00/59/4848282b90c9a0f5bb5d38a1b607e48e52feacdbd84c494f1dd80db23a39/bigdl-2.4.0b20230504-py3-none-manylinux1_x86_64.whl
+[2023-05-05 13:48:11] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/12/23/8839208e873684f038e9d9ade4ed8938c5f26124655b31512f84ea5feb2d/bigdl_friesian-2.4.0b20230504-py3-none-manylinux1_x86_64.whl
+[2023-05-05 13:48:11] INFO root fetch - processPackages [swh.journal]: Start processing: bigdl-orca-spark2
+[2023-05-05 13:48:11] INFO root fetch - main [MainThread]: End processing [swh.journal]: success
+[2023-05-05 13:48:11] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230504] Old Version: [2.4.0b20230503]
+[2023-05-05 13:48:11] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369199>=10485760
+[2023-05-05 13:48:11] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-05-05 13:48:11] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/0e/f7/af7696969f73fe6e6836c0eb8c068cb40ff85c3a7f33b6b1e480abb28d1d/bigdl-dllib-spark2-2.4.0b20230504.tar.gz
+[2023-05-05 13:48:11] INFO root fetch - processPackages [Geode-Implicit]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-05 13:48:11] INFO root fetch - processPackages [pandasflow]: Downloading https://files.pythonhosted.org/packages/de/ce/c9102b6fbbbd648b37d6485258faaa3fff15b9ae837ba5a615f3cc8f5371/pandasflow-0.4.5.tar.gz
+[2023-05-05 13:48:11] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53560001>=10485760
+[2023-05-05 13:48:11] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-05-05 13:48:11] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/2a/52/ce0a94af9a5d8ab90f6e7586f724430ef06e25acb06e3631292ee258de40/bigdl-2.4.0b20230505-py3-none-manylinux1_x86_64.whl
+[2023-05-05 13:48:11] INFO root fetch - processPackages [pandasflow]: executing diffoscope
+[2023-05-05 13:48:11] INFO root fetch - processPackages [pandasflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasflow-0.4.4.tar.gz tmp/pandasflow-0.4.5.tar.gz --markdown 20230505/p/pandasflow/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-05 13:48:11] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/55/18/8ea9c404311cb2f3e3ca586b5330fcb11889b22c45469ad51feb93bd0ccf/bigdl_friesian-2.4.0b20230505-py3-none-manylinux1_x86_64.whl
+[2023-05-05 13:48:11] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/29/6c/2b87af1916cde1df8fca6659bcde7dfffdd7c71d47eca46c98eeaa669a8b/bigdl_orca_spark2-2.4.0b20230503-py3-none-manylinux1_x86_64.whl
+[2023-05-05 13:48:11] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/6f/68/5a8db8d21a61b6cc588a029089d268bd3ea8f9a197743bc5b867ba3dcd98/Geode_Implicit-2.0.1-cp39-cp39-win_amd64.whl
+[2023-05-05 13:48:11] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-05-05 13:48:11] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230504-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230505-py3-none-manylinux1_x86_64.whl.zip --markdown 20230505/b/bigdl/2.4.0b20230504-2.4.0b20230505/diff.md --exclude *.pyd
+[2023-05-05 13:48:11] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369328>=10485760
+[2023-05-05 13:48:11] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-05-05 13:48:11] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-05-05 13:48:11] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230504-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230505-py3-none-manylinux1_x86_64.whl.zip --markdown 20230505/b/bigdl-friesian/2.4.0b20230504-2.4.0b20230505/diff.md --exclude *.pyd
+[2023-05-05 13:48:12] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/66/e6/d1cffe748236114641508b7c80b05b9fec1fdb14588208095027bdb1f2ce/Geode_Implicit-2.0.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-05 13:48:12] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-05-05 13:48:12] INFO root fetch - processPackages [Geode-Implicit]: executing diffoscope
+[2023-05-05 13:48:12] INFO root fetch - processPackages [Geode-Implicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Implicit-2.0.1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Implicit-2.0.2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230505/G/Geode-Implicit/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-05 13:48:12] INFO root fetch - main [MainThread]: End processing [pandasflow]: success
+[2023-05-05 13:48:12] INFO root fetch - main [MainThread]: End processing [kivy-widgets]: success
+[2023-05-05 13:48:13] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-05-05 13:48:13] INFO root fetch - main [MainThread]: End processing [cdascorer]: success
+[2023-05-05 13:48:13] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
+[2023-05-05 13:48:36] INFO root fetch - main [MainThread]: End processing [kosmorrolib]: success
+[2023-05-05 13:48:36] INFO root fetch - main [MainThread]: Store serial: [17986313]
