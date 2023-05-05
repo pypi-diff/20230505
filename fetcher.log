@@ -15316,3 +15316,72 @@
 [2023-05-05 15:31:34] INFO root fetch - main [MainThread]: End processing [pop-create-idem]: success
 [2023-05-05 15:31:34] INFO root fetch - main [MainThread]: End processing [django-advanced-pdf]: success
 [2023-05-05 15:31:34] INFO root fetch - main [MainThread]: Store serial: [17987642]
+[2023-05-05 15:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17987642]
+[2023-05-05 15:36:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-05 15:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: covalent-slurm-plugin
+[2023-05-05 15:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Jvav
+[2023-05-05 15:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tpucare
+[2023-05-05 15:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyracf
+[2023-05-05 15:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sbioapputils
+[2023-05-05 15:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autora-workflow
+[2023-05-05 15:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kcli
+[2023-05-05 15:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ltbfiles
+[2023-05-05 15:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GenBioX
+[2023-05-05 15:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sbioapputils
+[2023-05-05 15:36:43] INFO root fetch - processPackages [sbioapputils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 15:36:43] INFO root fetch - processPackages [tpucare]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-05 15:36:43] INFO root fetch - processPackages [covalent-slurm-plugin]: New version: [0.8.0rc0] Old Version: [0.8.0]
+[2023-05-05 15:36:43] INFO root fetch - processPackages [sbioapputils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 15:36:43] INFO root fetch - processPackages [Jvav]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-05 15:36:43] INFO root fetch - processPackages [GenBioX]: New version: [0.3.1] Old Version: [0.3]
+[2023-05-05 15:36:43] INFO root fetch - processPackages [autora-workflow]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-05 15:36:43] INFO root fetch - processPackages [pyracf]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-05-05 15:36:43] INFO root fetch - processPackages [ltbfiles]: New version: [2.3.1rc82] Old Version: [2.3.1]
+[2023-05-05 15:36:43] INFO root fetch - processPackages [kcli]: New version: [99.0.202305051334] Old Version: [99.0.202305051235]
+[2023-05-05 15:36:43] INFO root fetch - processPackages [sbioapputils]: executing diffoscope
+[2023-05-05 15:36:43] INFO root fetch - processPackages [sbioapputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbioapputils-1.0.8.tar.gz tmp/sbioapputils-1.0.9.tar.gz --markdown 20230505/s/sbioapputils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 15:36:43] INFO root fetch - processPackages [sbioapputils]: executing diffoscope
+[2023-05-05 15:36:43] INFO root fetch - processPackages [sbioapputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbioapputils-1.0.8.tar.gz tmp/sbioapputils-1.0.9.tar.gz --markdown 20230505/s/sbioapputils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 15:36:43] INFO root fetch - processPackages [Jvav]: executing diffoscope
+[2023-05-05 15:36:43] INFO root fetch - processPackages [Jvav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jvav-1.2.8.tar.gz tmp/Jvav-1.2.9.tar.gz --markdown 20230505/J/Jvav/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-05 15:36:43] INFO root fetch - processPackages [ltbfiles]: Downloading https://files.pythonhosted.org/packages/81/bf/d7377f3df785a4187413fd32f9103c7e9be5d7a1736a4a378b39e351875d/ltbfiles-2.3.1.tar.gz
+[2023-05-05 15:36:43] INFO root fetch - processPackages [covalent-slurm-plugin]: Downloading https://files.pythonhosted.org/packages/d0/5c/b15b91fad0c24f91c343f940a68770bfe730803b2721407d8692bf013764/covalent-slurm-plugin-0.8.0.tar.gz
+[2023-05-05 15:36:43] INFO root fetch - processPackages [pyracf]: Downloading https://files.pythonhosted.org/packages/fb/62/c8a15496b00813f9a2631bf6a533eb57409d9007496c04cde8b44c33926d/pyracf-0.5.9.tar.gz
+[2023-05-05 15:36:43] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/8a/6a/4dde52d3308861d03419d97ba0ff30d2d427af683a2e14a33f144fe161a1/kcli-99.0.202305051334-py3-none-any.whl
+[2023-05-05 15:36:43] INFO root fetch - processPackages [autora-workflow]: Downloading https://files.pythonhosted.org/packages/a1/87/fe765a247badb386ad3b60df2b56df448684a32b21ce8072c3f7c98da764/autora-workflow-0.3.1.tar.gz
+[2023-05-05 15:36:43] INFO root fetch - processPackages [ltbfiles]: executing diffoscope
+[2023-05-05 15:36:43] INFO root fetch - processPackages [tpucare]: Downloading https://files.pythonhosted.org/packages/8f/cb/a9b08f74771486d612c1bb109c31a8fd71499c30b779bf796df4f37438b5/tpucare-0.4.4.tar.gz
+[2023-05-05 15:36:43] INFO root fetch - processPackages [ltbfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltbfiles-2.3.1.tar.gz tmp/ltbfiles-2.3.1rc82.tar.gz --markdown 20230505/l/ltbfiles/2.3.1-2.3.1rc82/diff.md --exclude *.pyd
+[2023-05-05 15:36:44] INFO root fetch - processPackages [tpucare]: executing diffoscope
+[2023-05-05 15:36:44] INFO root fetch - processPackages [tpucare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpucare-0.4.3.tar.gz tmp/tpucare-0.4.4.tar.gz --markdown 20230505/t/tpucare/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-05 15:36:44] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-05 15:36:44] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305051235-py3-none-any.whl.zip tmp/kcli-99.0.202305051334-py3-none-any.whl.zip --markdown 20230505/k/kcli/99.0.202305051235-99.0.202305051334/diff.md --exclude *.pyd
+[2023-05-05 15:36:44] INFO root fetch - processPackages [autora-workflow]: executing diffoscope
+[2023-05-05 15:36:44] INFO root fetch - processPackages [autora-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-workflow-0.3.0.tar.gz tmp/autora-workflow-0.3.1.tar.gz --markdown 20230505/a/autora-workflow/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-05 15:36:44] INFO root fetch - processPackages [GenBioX]: Downloading https://files.pythonhosted.org/packages/0d/5f/e6c250d01f1cf0f310a4860fbd26fe74119c98e65713c81fede715e26be7/GenBioX-0.3.1.tar.gz
+[2023-05-05 15:36:44] INFO root fetch - processPackages [covalent-slurm-plugin]: Downloading https://files.pythonhosted.org/packages/93/32/ec7683579c180a6f8a878ed6b819582ef40e2393adecc21e95677f293794/covalent-slurm-plugin-0.8.0rc0.tar.gz
+[2023-05-05 15:36:44] INFO root fetch - processPackages [GenBioX]: executing diffoscope
+[2023-05-05 15:36:44] INFO root fetch - processPackages [GenBioX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenBioX-0.3.tar.gz tmp/GenBioX-0.3.1.tar.gz --markdown 20230505/G/GenBioX/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-05-05 15:36:44] INFO root fetch - processPackages [pyracf]: Downloading https://files.pythonhosted.org/packages/bf/9c/b4b1c0a91efb2baece2a48d9974e35601c6b4c5b0c82a7e52f49c316554b/pyracf-0.6.0.tar.gz
+[2023-05-05 15:36:44] INFO root fetch - processPackages [covalent-slurm-plugin]: executing diffoscope
+[2023-05-05 15:36:44] INFO root fetch - processPackages [covalent-slurm-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-slurm-plugin-0.8.0.tar.gz tmp/covalent-slurm-plugin-0.8.0rc0.tar.gz --markdown 20230505/c/covalent-slurm-plugin/0.8.0-0.8.0rc0/diff.md --exclude *.pyd
+[2023-05-05 15:36:44] INFO root fetch - processPackages [pyracf]: executing diffoscope
+[2023-05-05 15:36:44] INFO root fetch - processPackages [pyracf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyracf-0.5.9.tar.gz tmp/pyracf-0.6.0.tar.gz --markdown 20230505/p/pyracf/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-05-05 15:36:45] INFO root fetch - processPackages [sbioapputils]: Start processing: smartwatts
+[2023-05-05 15:36:45] INFO root fetch - main [MainThread]: End processing [sbioapputils]: success
+[2023-05-05 15:36:45] INFO root fetch - processPackages [smartwatts]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-05-05 15:36:45] INFO root fetch - main [MainThread]: End processing [ltbfiles]: success
+[2023-05-05 15:36:45] INFO root fetch - processPackages [smartwatts]: Downloading https://files.pythonhosted.org/packages/93/8a/4b4373870d6ce126d500c1da8d0a09ab355031f4b4d514a9387665c72f29/smartwatts-2.0.1.tar.gz
+[2023-05-05 15:36:45] INFO root fetch - main [MainThread]: End processing [tpucare]: success
+[2023-05-05 15:36:45] INFO root fetch - main [MainThread]: End processing [sbioapputils]: success
+[2023-05-05 15:36:45] INFO root fetch - main [MainThread]: End processing [Jvav]: success
+[2023-05-05 15:36:45] INFO root fetch - processPackages [smartwatts]: Downloading https://files.pythonhosted.org/packages/54/89/e0ff67320bba91085f892838c60371d2feed043ca322e2187898519dfb64/smartwatts-2.1.0.tar.gz
+[2023-05-05 15:36:45] INFO root fetch - main [MainThread]: End processing [covalent-slurm-plugin]: success
+[2023-05-05 15:36:45] INFO root fetch - processPackages [smartwatts]: executing diffoscope
+[2023-05-05 15:36:45] INFO root fetch - processPackages [smartwatts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartwatts-2.0.1.tar.gz tmp/smartwatts-2.1.0.tar.gz --markdown 20230505/s/smartwatts/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-05-05 15:36:46] INFO root fetch - main [MainThread]: End processing [GenBioX]: success
+[2023-05-05 15:36:46] INFO root fetch - main [MainThread]: End processing [pyracf]: success
+[2023-05-05 15:36:46] INFO root fetch - main [MainThread]: End processing [smartwatts]: success
+[2023-05-05 15:36:47] INFO root fetch - main [MainThread]: End processing [autora-workflow]: success
+[2023-05-05 15:36:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-05 15:36:52] INFO root fetch - main [MainThread]: Store serial: [17987670]
