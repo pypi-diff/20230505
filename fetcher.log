@@ -21249,3 +21249,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-05 20:53:11] INFO root fetch - main [MainThread]: End processing [noteable-origami]: success
 [2023-05-05 20:53:12] INFO root fetch - main [MainThread]: End processing [Digikam-DB]: success
 [2023-05-05 20:53:12] INFO root fetch - main [MainThread]: Store serial: [17991565]
+[2023-05-05 20:58:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17991565]
+[2023-05-05 20:58:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-05 20:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-Ayra
+[2023-05-05 20:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyresidfp
+[2023-05-05 20:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: braincube-aws-core-alpha
+[2023-05-05 20:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RobloxPyApi3
+[2023-05-05 20:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: property-lister
+[2023-05-05 20:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotframework
+[2023-05-05 20:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: echofish-aws-indexing-lambda
+[2023-05-05 20:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: log-mgr
+[2023-05-05 20:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fabricauthenticator
+[2023-05-05 20:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: diffcp
+[2023-05-05 20:58:21] INFO root fetch - processPackages [braincube-aws-core-alpha]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-05-05 20:58:21] INFO root fetch - processPackages [fabricauthenticator]: New version: [1.2rc0] Old Version: [1.1rc9]
+[2023-05-05 20:58:21] INFO root fetch - processPackages [py-Ayra]: New version: [8.7.0] Old Version: [8.6.9]
+[2023-05-05 20:58:21] INFO root fetch - processPackages [RobloxPyApi3]: New version: [2.0.631] Old Version: [2.0.6]
+[2023-05-05 20:58:21] INFO root fetch - processPackages [fabricauthenticator]: executing diffoscope
+[2023-05-05 20:58:21] INFO root fetch - processPackages [braincube-aws-core-alpha]: executing diffoscope
+[2023-05-05 20:58:21] INFO root fetch - processPackages [fabricauthenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabricauthenticator-1.1rc9.tar.gz tmp/fabricauthenticator-1.2rc0.tar.gz --markdown 20230505/f/fabricauthenticator/1.1rc9-1.2rc0/diff.md --exclude *.pyd
+[2023-05-05 20:58:21] INFO root fetch - processPackages [braincube-aws-core-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-alpha-0.0.16.tar.gz tmp/braincube-aws-core-alpha-0.0.17.tar.gz --markdown 20230505/b/braincube-aws-core-alpha/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-05-05 20:58:21] WARNING root fetch - processPackages [property-lister]: Skipping, unable to determine old version
+[2023-05-05 20:58:21] WARNING root fetch - processPackages [echofish-aws-indexing-lambda]: Skipping, unable to determine old version
+[2023-05-05 20:58:21] INFO root fetch - processPackages [log-mgr]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 20:58:21] INFO root fetch - processPackages [property-lister]: Start processing: gremlinpython
+[2023-05-05 20:58:21] INFO root fetch - processPackages [pyresidfp]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-05 20:58:21] INFO root fetch - main [MainThread]: End processing [property-lister] error
+[2023-05-05 20:58:21] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Start processing: ELEP
+[2023-05-05 20:58:21] INFO root fetch - processPackages [robotframework]: New version: [6.1b1] Old Version: [6.1a1]
+[2023-05-05 20:58:21] INFO root fetch - processPackages [diffcp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-05 20:58:21] INFO root fetch - main [MainThread]: End processing [echofish-aws-indexing-lambda] error
+[2023-05-05 20:58:22] INFO root fetch - processPackages [gremlinpython]: New version: [3.6.3rc1] Old Version: [3.6.2]
+[2023-05-05 20:58:22] INFO root fetch - processPackages [log-mgr]: Downloading https://files.pythonhosted.org/packages/80/80/64061013cf11fa3a4697f665cc7ad817d03783169043e453a9908b1f5218/log_mgr-0.0.1.tar.gz
+[2023-05-05 20:58:22] INFO root fetch - processPackages [RobloxPyApi3]: Downloading https://files.pythonhosted.org/packages/fc/b0/3e3ad819469ba1fd93ce635a0f5ecd7da7679ff18a0028d7b0b95abe909a/RobloxPyApi3-2.0.6.tar.gz
+[2023-05-05 20:58:22] WARNING root fetch - processPackages [ELEP]: Skipping, unable to determine old version
+[2023-05-05 20:58:22] INFO root fetch - main [MainThread]: End processing [ELEP] error
+[2023-05-05 20:58:22] INFO root fetch - processPackages [robotframework]: Downloading https://files.pythonhosted.org/packages/c2/87/fec1acef7f3a46a52912c3cd2bd5aa0e0e43ca44c3689976a9524050e38f/robotframework-6.1a1.zip
+[2023-05-05 20:58:22] INFO root fetch - processPackages [diffcp]: Downloading https://files.pythonhosted.org/packages/32/fe/50def080a3809f9e5915b717ac89ff3fec7b9ac39f53e12ba7207f940424/diffcp-1.0.8.tar.gz
+[2023-05-05 20:58:22] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/b4/d0/732682cc0a1183c74669aedbe077c54891bac7c2aa4fc1232da0f68ab359/py-Ayra-8.7.0.tar.gz
+[2023-05-05 20:58:22] INFO root fetch - processPackages [gremlinpython]: Downloading https://files.pythonhosted.org/packages/7d/27/5600d8b37ee66b88742586a92b66a6b25a4a7ef769b4a4f034d46b84e36f/gremlinpython-3.6.2.tar.gz
+[2023-05-05 20:58:22] INFO root fetch - processPackages [pyresidfp]: Downloading https://files.pythonhosted.org/packages/3e/57/7329fd6c1070f2b4a85378f48374e26905ddab8cf8e55a105dc921b850ef/pyresidfp-0.6.3.tar.gz
+[2023-05-05 20:58:22] INFO root fetch - processPackages [py-Ayra]: executing diffoscope
+[2023-05-05 20:58:22] INFO root fetch - processPackages [py-Ayra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayra-8.6.9.tar.gz tmp/py-Ayra-8.7.0.tar.gz --markdown 20230505/p/py-Ayra/8.6.9-8.7.0/diff.md --exclude *.pyd
+[2023-05-05 20:58:22] INFO root fetch - processPackages [RobloxPyApi3]: Downloading https://files.pythonhosted.org/packages/9f/b3/d5aabfacbd7cd787030d1a83866c7288d9968ff64f4eae32ff6dce493922/RobloxPyApi3-2.0.631.tar.gz
+[2023-05-05 20:58:22] INFO root fetch - processPackages [robotframework]: Downloading https://files.pythonhosted.org/packages/5e/49/d63696a266438f140acb3055c029eb7b1e4d45d281f832ac3d641e2e6158/robotframework-6.1b1.zip
+[2023-05-05 20:58:22] INFO root fetch - processPackages [log-mgr]: Downloading https://files.pythonhosted.org/packages/9f/5b/ce397e9214ff129c69673c419554721878ca5de21c7036f8e6d5439093dd/log_mgr-0.0.2.tar.gz
+[2023-05-05 20:58:22] INFO root fetch - processPackages [pyresidfp]: executing diffoscope
+[2023-05-05 20:58:22] INFO root fetch - processPackages [gremlinpython]: Downloading https://files.pythonhosted.org/packages/fe/8b/4d5ecdb342e9c778851b854b3504b65cf6489dda1fe693d62767d189205e/gremlinpython-3.6.3rc1.tar.gz
+[2023-05-05 20:58:22] INFO root fetch - processPackages [pyresidfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyresidfp-0.6.2.tar.gz tmp/pyresidfp-0.6.3.tar.gz --markdown 20230505/p/pyresidfp/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-05 20:58:22] INFO root fetch - processPackages [RobloxPyApi3]: executing diffoscope
+[2023-05-05 20:58:22] INFO root fetch - processPackages [RobloxPyApi3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobloxPyApi3-2.0.6.tar.gz tmp/RobloxPyApi3-2.0.631.tar.gz --markdown 20230505/R/RobloxPyApi3/2.0.6-2.0.631/diff.md --exclude *.pyd
+[2023-05-05 20:58:22] INFO root fetch - processPackages [log-mgr]: executing diffoscope
+[2023-05-05 20:58:22] INFO root fetch - processPackages [log-mgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log_mgr-0.0.1.tar.gz tmp/log_mgr-0.0.2.tar.gz --markdown 20230505/l/log-mgr/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 20:58:22] INFO root fetch - processPackages [robotframework]: executing diffoscope
+[2023-05-05 20:58:22] INFO root fetch - processPackages [robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-6.1a1.zip tmp/robotframework-6.1b1.zip --markdown 20230505/r/robotframework/6.1a1-6.1b1/diff.md --exclude *.pyd
+[2023-05-05 20:58:22] INFO root fetch - processPackages [gremlinpython]: executing diffoscope
+[2023-05-05 20:58:22] INFO root fetch - processPackages [gremlinpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gremlinpython-3.6.2.tar.gz tmp/gremlinpython-3.6.3rc1.tar.gz --markdown 20230505/g/gremlinpython/3.6.2-3.6.3rc1/diff.md --exclude *.pyd
+[2023-05-05 20:58:22] INFO root fetch - main [MainThread]: End processing [fabricauthenticator]: success
+[2023-05-05 20:58:23] INFO root fetch - main [MainThread]: End processing [braincube-aws-core-alpha]: success
+[2023-05-05 20:58:23] INFO root fetch - processPackages [diffcp]: Downloading https://files.pythonhosted.org/packages/7b/a7/bcfb652c3f335057fd0ca57d86278590d1ff7f912b477efe8bac5a4669f0/diffcp-1.0.9.tar.gz
+[2023-05-05 20:58:23] INFO root fetch - main [MainThread]: End processing [log-mgr]: success
+[2023-05-05 20:58:23] INFO root fetch - main [MainThread]: End processing [py-Ayra]: success
+[2023-05-05 20:58:24] INFO root fetch - main [MainThread]: End processing [pyresidfp]: success
+[2023-05-05 20:58:24] INFO root fetch - main [MainThread]: End processing [gremlinpython]: success
+[2023-05-05 20:58:24] INFO root fetch - main [MainThread]: End processing [RobloxPyApi3]: success
+[2023-05-05 20:58:25] INFO root fetch - processPackages [diffcp]: executing diffoscope
+[2023-05-05 20:58:25] INFO root fetch - processPackages [diffcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffcp-1.0.8.tar.gz tmp/diffcp-1.0.9.tar.gz --markdown 20230505/d/diffcp/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-05 20:58:27] INFO root fetch - main [MainThread]: End processing [robotframework]: success
+[2023-05-05 20:59:55] INFO root fetch - main [MainThread]: End processing [diffcp]: success
+[2023-05-05 20:59:55] INFO root fetch - main [MainThread]: Store serial: [17991650]
