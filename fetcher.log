@@ -10940,3 +10940,181 @@
 [2023-05-05 11:47:30] INFO root fetch - processPackages [resolwe-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-bio-9.0.0a3.tar.gz tmp/resolwe-bio-9.0.0a4.tar.gz --markdown 20230505/r/resolwe-bio/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
 [2023-05-05 11:47:40] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
 [2023-05-05 11:47:40] INFO root fetch - main [MainThread]: Store serial: [17984901]
+[2023-05-05 11:52:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17984901]
+[2023-05-05 11:52:50] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-05-05 11:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GentryPointSystem
+[2023-05-05 11:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-rdma-qe
+[2023-05-05 11:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Bigsansar
+[2023-05-05 11:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Ea-MT5-Free-Download
+[2023-05-05 11:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chaostoolkit-reliably
+[2023-05-05 11:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyuiauto
+[2023-05-05 11:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BaseDT
+[2023-05-05 11:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oscar-python
+[2023-05-05 11:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ural
+[2023-05-05 11:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyperfast-python-template
+[2023-05-05 11:52:50] INFO root fetch - processPackages [python-rdma-qe]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-05 11:52:50] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-05 11:52:50] INFO root fetch - processPackages [BaseDT]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-05-05 11:52:50] INFO root fetch - processPackages [pyuiauto]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-05 11:52:50] WARNING root fetch - processPackages [Ea-MT5-Free-Download]: Skipping, unable to determine old version
+[2023-05-05 11:52:50] WARNING root fetch - processPackages [GentryPointSystem]: Skipping, unable to determine old version
+[2023-05-05 11:52:50] INFO root fetch - processPackages [Ea-MT5-Free-Download]: Start processing: PyBerries
+[2023-05-05 11:52:50] INFO root fetch - processPackages [GentryPointSystem]: Start processing: factro-client
+[2023-05-05 11:52:50] INFO root fetch - main [MainThread]: End processing [Ea-MT5-Free-Download] error
+[2023-05-05 11:52:50] INFO root fetch - main [MainThread]: End processing [GentryPointSystem] error
+[2023-05-05 11:52:50] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-05 11:52:50] INFO root fetch - processPackages [oscar-python]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-05 11:52:50] INFO root fetch - processPackages [ural]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-05 11:52:50] INFO root fetch - processPackages [Bigsansar]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-05 11:52:50] INFO root fetch - processPackages [factro-client]: New version: [0.9.1a1] Old Version: [0.9.0a1]
+[2023-05-05 11:52:50] INFO root fetch - processPackages [PyBerries]: New version: [0.2.6.post1] Old Version: [0.2.6]
+[2023-05-05 11:52:50] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-05-05 11:52:50] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.4.8.tar.gz tmp/hyperfast_python_template-0.4.9.tar.gz --markdown 20230505/h/hyperfast-python-template/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-05 11:52:50] INFO root fetch - processPackages [pyuiauto]: Downloading https://files.pythonhosted.org/packages/f2/83/8ff31c6d23df6a06ffe3d682f2f87789099f2fe2d94f057e3720a30d3acd/pyUIauto-0.1.4.tar.gz
+[2023-05-05 11:52:50] INFO root fetch - processPackages [BaseDT]: Downloading https://files.pythonhosted.org/packages/34/74/976706d4dcb8a3f3e7e77e69ae3a07272fe40eb6727dc607e5140ede4da2/BaseDT-0.0.5.tar.gz
+[2023-05-05 11:52:50] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/32/df/58422a4f470f2c9c9d486c7b83bf6c238d72841a2ae64f0b7c88350a6b01/chaostoolkit-reliably-0.9.3.tar.gz
+[2023-05-05 11:52:50] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/eb/18/e034c444767819cab9e2b73c9b151226e93e8ec34274b594a7b59ea760b7/PyBerries-0.2.6.tar.gz
+[2023-05-05 11:52:50] INFO root fetch - processPackages [oscar-python]: Downloading https://files.pythonhosted.org/packages/1d/26/b7bfbd368aef92dde11e9dfe231728539c7f0d8a23b1c484d8e8cc07fe84/oscar_python-1.0.3.tar.gz
+[2023-05-05 11:52:50] INFO root fetch - processPackages [factro-client]: Downloading https://files.pythonhosted.org/packages/ed/c3/0f1e45162b5a24c388f98621b522c4e597b541b4896c89662e5fa0ab0717/factro_client-0.9.0a1.tar.gz
+[2023-05-05 11:52:50] INFO root fetch - processPackages [python-rdma-qe]: Downloading https://files.pythonhosted.org/packages/f0/61/d5b3b473a7af15bf4734aeeaf99bcfc46b8cc94b04b63c057a25cb179898/python_rdma_qe-0.0.7.tar.gz
+[2023-05-05 11:52:50] INFO root fetch - processPackages [ural]: Downloading https://files.pythonhosted.org/packages/f4/e5/a271a9f3c09f5ab118bade0be5451084882b62d366453410b5b99716dc20/ural-0.8.0.tar.gz
+[2023-05-05 11:52:51] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/a3/bb/32fe6059e3cb563bafd710763eb86b7cc8eba003920ee0c7e99b09c79cbb/Bigsansar-1.3.4.tar.gz
+[2023-05-05 11:52:51] INFO root fetch - processPackages [BaseDT]: executing diffoscope
+[2023-05-05 11:52:51] INFO root fetch - processPackages [BaseDT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BaseDT-0.0.3.tar.gz tmp/BaseDT-0.0.5.tar.gz --markdown 20230505/B/BaseDT/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-05-05 11:52:51] INFO root fetch - processPackages [pyuiauto]: executing diffoscope
+[2023-05-05 11:52:51] INFO root fetch - processPackages [pyuiauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyUIauto-0.1.3.tar.gz tmp/pyUIauto-0.1.4.tar.gz --markdown 20230505/p/pyuiauto/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-05 11:52:51] INFO root fetch - processPackages [python-rdma-qe]: executing diffoscope
+[2023-05-05 11:52:51] INFO root fetch - processPackages [python-rdma-qe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_rdma_qe-0.0.6.tar.gz tmp/python_rdma_qe-0.0.7.tar.gz --markdown 20230505/p/python-rdma-qe/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-05 11:52:51] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-05-05 11:52:51] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.3.3.tar.gz tmp/Bigsansar-1.3.4.tar.gz --markdown 20230505/B/Bigsansar/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-05 11:52:51] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/9d/f4/aba243b00916b1aad44429ff962f04552e3cb9f5faf9c1e669234cd00021/PyBerries-0.2.6.post1.tar.gz
+[2023-05-05 11:52:51] INFO root fetch - processPackages [PyBerries]: executing diffoscope
+[2023-05-05 11:52:51] INFO root fetch - processPackages [PyBerries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBerries-0.2.6.tar.gz tmp/PyBerries-0.2.6.post1.tar.gz --markdown 20230505/P/PyBerries/0.2.6-0.2.6.post1/diff.md --exclude *.pyd
+[2023-05-05 11:52:51] INFO root fetch - processPackages [oscar-python]: Downloading https://files.pythonhosted.org/packages/e9/dd/63487877092486fa934550e0b217eaa0c70f538c4dca2e22c5958b5b490c/oscar_python-1.0.4.tar.gz
+[2023-05-05 11:52:51] INFO root fetch - processPackages [factro-client]: Downloading https://files.pythonhosted.org/packages/59/ac/e71d494ebdff48c2c8baccfce4138b172f5122acdcd00a74bf1e342cf39b/factro_client-0.9.1a1.tar.gz
+[2023-05-05 11:52:51] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/b8/c5/810c74691ec477bb4963d5199f379e4a81d6cce5b71db42bc848f3477e16/chaostoolkit-reliably-0.9.4.tar.gz
+[2023-05-05 11:52:51] INFO root fetch - processPackages [ural]: Downloading https://files.pythonhosted.org/packages/8d/1a/a55321eefe2a11952939c061467755bbb0efafe278341985aebf3333527c/ural-0.9.0.tar.gz
+[2023-05-05 11:52:51] INFO root fetch - processPackages [oscar-python]: executing diffoscope
+[2023-05-05 11:52:51] INFO root fetch - processPackages [oscar-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oscar_python-1.0.3.tar.gz tmp/oscar_python-1.0.4.tar.gz --markdown 20230505/o/oscar-python/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-05 11:52:51] INFO root fetch - processPackages [factro-client]: executing diffoscope
+[2023-05-05 11:52:51] INFO root fetch - processPackages [factro-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factro_client-0.9.0a1.tar.gz tmp/factro_client-0.9.1a1.tar.gz --markdown 20230505/f/factro-client/0.9.0a1-0.9.1a1/diff.md --exclude *.pyd
+[2023-05-05 11:52:51] INFO root fetch - processPackages [ural]: executing diffoscope
+[2023-05-05 11:52:51] INFO root fetch - processPackages [ural]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ural-0.8.0.tar.gz tmp/ural-0.9.0.tar.gz --markdown 20230505/u/ural/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-05 11:52:51] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-05-05 11:52:51] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230505/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-05 11:52:52] INFO root fetch - processPackages [hyperfast-python-template]: Start processing: napari-correct-drift
+[2023-05-05 11:52:52] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-05-05 11:52:52] INFO root fetch - processPackages [napari-correct-drift]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-05 11:52:52] INFO root fetch - processPackages [BaseDT]: Start processing: pyresidfp
+[2023-05-05 11:52:52] INFO root fetch - main [MainThread]: End processing [BaseDT]: success
+[2023-05-05 11:52:52] INFO root fetch - processPackages [pyresidfp]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-05 11:52:52] INFO root fetch - processPackages [napari-correct-drift]: Downloading https://files.pythonhosted.org/packages/03/3b/33f9dae6b86cf23651c4fdf4c8c04136b970869133e2ce6981474fbdf4fe/napari-correct-drift-0.0.1.tar.gz
+[2023-05-05 11:52:52] INFO root fetch - processPackages [pyuiauto]: Start processing: wc-django-envoyer
+[2023-05-05 11:52:52] INFO root fetch - main [MainThread]: End processing [pyuiauto]: success
+[2023-05-05 11:52:52] WARNING root fetch - processPackages [wc-django-envoyer]: Skipping, unable to determine old version
+[2023-05-05 11:52:52] INFO root fetch - processPackages [wc-django-envoyer]: Start processing: aioca
+[2023-05-05 11:52:52] INFO root fetch - main [MainThread]: End processing [wc-django-envoyer] error
+[2023-05-05 11:52:52] INFO root fetch - processPackages [pyresidfp]: Downloading https://files.pythonhosted.org/packages/54/d6/0962e2dc35e830142eea4bca2cf6651d604d35589ce7a81f8ff261f9374c/pyresidfp-0.6.0.tar.gz
+[2023-05-05 11:52:52] INFO root fetch - processPackages [aioca]: New version: [1.7] Old Version: [1.6]
+[2023-05-05 11:52:52] INFO root fetch - processPackages [napari-correct-drift]: Downloading https://files.pythonhosted.org/packages/70/a2/ee3df6b52cae9b8a385dfa335f31884d8e1ce59e0b137a68fb54022e2572/napari-correct-drift-0.0.2.tar.gz
+[2023-05-05 11:52:52] INFO root fetch - processPackages [aioca]: Downloading https://files.pythonhosted.org/packages/41/ec/97146f856b2dd56f768303be265ee0168e0ee53b2f003627dfdfeb6d8813/aioca-1.6.tar.gz
+[2023-05-05 11:52:52] INFO root fetch - processPackages [napari-correct-drift]: executing diffoscope
+[2023-05-05 11:52:52] INFO root fetch - processPackages [napari-correct-drift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-correct-drift-0.0.1.tar.gz tmp/napari-correct-drift-0.0.2.tar.gz --markdown 20230505/n/napari-correct-drift/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-05 11:52:52] INFO root fetch - processPackages [oscar-python]: Start processing: packagebinbin
+[2023-05-05 11:52:52] INFO root fetch - main [MainThread]: End processing [oscar-python]: success
+[2023-05-05 11:52:52] INFO root fetch - processPackages [packagebinbin]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-05-05 11:52:52] INFO root fetch - processPackages [pyresidfp]: Downloading https://files.pythonhosted.org/packages/e5/ee/3eb215517cfcfdd92baa1b70357a3a60c68f9013c6e29b82c8501741fca4/pyresidfp-0.6.1.tar.gz
+[2023-05-05 11:52:52] INFO root fetch - processPackages [factro-client]: Start processing: pyroporn
+[2023-05-05 11:52:52] INFO root fetch - main [MainThread]: End processing [factro-client]: success
+[2023-05-05 11:52:53] INFO root fetch - processPackages [pyroporn]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-05 11:52:53] INFO root fetch - processPackages [aioca]: Downloading https://files.pythonhosted.org/packages/9a/66/7794ed9825d1076b38253095ac7d44e6055865992547daefa4e7b58c8f7c/aioca-1.7.tar.gz
+[2023-05-05 11:52:53] INFO root fetch - processPackages [pyresidfp]: executing diffoscope
+[2023-05-05 11:52:53] INFO root fetch - processPackages [pyresidfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyresidfp-0.6.0.tar.gz tmp/pyresidfp-0.6.1.tar.gz --markdown 20230505/p/pyresidfp/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-05 11:52:53] INFO root fetch - processPackages [packagebinbin]: Downloading https://files.pythonhosted.org/packages/6e/90/770511b3a8ba0f2907b7bee519f6e89fc1022444304ec871958cb54bf7e2/packagebinbin-1.0.0.tar.gz
+[2023-05-05 11:52:53] INFO root fetch - processPackages [aioca]: executing diffoscope
+[2023-05-05 11:52:53] INFO root fetch - processPackages [aioca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioca-1.6.tar.gz tmp/aioca-1.7.tar.gz --markdown 20230505/a/aioca/1.6-1.7/diff.md --exclude *.pyd
+[2023-05-05 11:52:53] INFO root fetch - processPackages [packagebinbin]: executing diffoscope
+[2023-05-05 11:52:53] INFO root fetch - processPackages [packagebinbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packagebinbin-0.0.9.tar.gz tmp/packagebinbin-1.0.0.tar.gz --markdown 20230505/p/packagebinbin/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-05 11:52:53] INFO root fetch - processPackages [Bigsansar]: Start processing: qudi-hira-analysis
+[2023-05-05 11:52:53] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-05-05 11:52:53] INFO root fetch - processPackages [qudi-hira-analysis]: New version: [1.4.7] Old Version: [1.4.5]
+[2023-05-05 11:52:53] INFO root fetch - processPackages [PyBerries]: Start processing: Spire.XLS-for-Python
+[2023-05-05 11:52:53] INFO root fetch - main [MainThread]: End processing [PyBerries]: success
+[2023-05-05 11:52:53] INFO root fetch - processPackages [pyroporn]: Downloading https://files.pythonhosted.org/packages/bc/75/5d6caa06bef4cd48414df79c5aa911de3a2c0c704017570d18ff4999560c/pyroporn-0.0.6.tar.gz
+[2023-05-05 11:52:53] WARNING root fetch - processPackages [Spire.XLS-for-Python]: Skipping, unable to determine old version
+[2023-05-05 11:52:53] INFO root fetch - processPackages [Spire.XLS-for-Python]: Start processing: fusionsc
+[2023-05-05 11:52:53] INFO root fetch - main [MainThread]: End processing [Spire.XLS-for-Python] error
+[2023-05-05 11:52:53] INFO root fetch - processPackages [python-rdma-qe]: Start processing: rns
+[2023-05-05 11:52:53] INFO root fetch - main [MainThread]: End processing [python-rdma-qe]: success
+[2023-05-05 11:52:53] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-05 11:52:53] INFO root fetch - processPackages [rns]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-05 11:52:53] INFO root fetch - processPackages [pyroporn]: executing diffoscope
+[2023-05-05 11:52:53] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-05-05 11:52:53] INFO root fetch - processPackages [pyroporn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroporn-0.0.5.tar.gz tmp/pyroporn-0.0.6.tar.gz --markdown 20230505/p/pyroporn/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-05 11:52:53] INFO root fetch - processPackages [qudi-hira-analysis]: Downloading https://files.pythonhosted.org/packages/fd/f0/f1f0ee6f70a47865e3d94656c9bc1103f3a58cb41670e59fe2e5924fd999/qudi_hira_analysis-1.4.5.tar.gz
+[2023-05-05 11:52:53] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-05-05 11:52:53] INFO root fetch - processPackages [fusionsc]: Start processing: rnspure
+[2023-05-05 11:52:53] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-05-05 11:52:53] INFO root fetch - processPackages [rnspure]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-05 11:52:53] INFO root fetch - processPackages [ural]: Start processing: cloudnetpy-qc
+[2023-05-05 11:52:53] INFO root fetch - main [MainThread]: End processing [ural]: success
+[2023-05-05 11:52:53] INFO root fetch - processPackages [rns]: Downloading https://files.pythonhosted.org/packages/54/a8/d9ae2bb5b75b4593c1534949009d49b9cd08e9f08c29008313a1ed0d921b/rns-0.5.0.tar.gz
+[2023-05-05 11:52:53] INFO root fetch - processPackages [cloudnetpy-qc]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-05 11:52:53] INFO root fetch - processPackages [qudi-hira-analysis]: Downloading https://files.pythonhosted.org/packages/2c/fe/bb0ab4bc72740a6492a18e57fd18a90ce124bddb683a58e4bb395ae2e9dd/qudi_hira_analysis-1.4.7.tar.gz
+[2023-05-05 11:52:53] INFO root fetch - processPackages [rnspure]: Downloading https://files.pythonhosted.org/packages/c6/17/407f456fc426d02530b94876f35613da3b45b639c9f1d6d4a79852d9cea8/rnspure-0.5.0.tar.gz
+[2023-05-05 11:52:53] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/40/8b/150f4f526629057bc145077c730f7ac88e0e6167383e4d338dd0878e85e9/cloudnetpy_qc-1.9.3.tar.gz
+[2023-05-05 11:52:53] INFO root fetch - processPackages [qudi-hira-analysis]: executing diffoscope
+[2023-05-05 11:52:53] INFO root fetch - processPackages [qudi-hira-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qudi_hira_analysis-1.4.5.tar.gz tmp/qudi_hira_analysis-1.4.7.tar.gz --markdown 20230505/q/qudi-hira-analysis/1.4.5-1.4.7/diff.md --exclude *.pyd
+[2023-05-05 11:52:53] INFO root fetch - processPackages [rns]: Downloading https://files.pythonhosted.org/packages/b4/4b/31c0e50e1d85cc4d9ea9116a83a91cdfb77ceb2ec92f6e5bd961876e6e40/rns-0.5.1.tar.gz
+[2023-05-05 11:52:53] INFO root fetch - processPackages [cloudnetpy-qc]: executing diffoscope
+[2023-05-05 11:52:53] INFO root fetch - processPackages [cloudnetpy-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudnetpy_qc-1.9.2.tar.gz tmp/cloudnetpy_qc-1.9.3.tar.gz --markdown 20230505/c/cloudnetpy-qc/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-05 11:52:53] INFO root fetch - processPackages [rnspure]: Downloading https://files.pythonhosted.org/packages/fc/49/37d3b8b8dd520880341e1d1239ec9de16de03cbe46ef3591cceaec9c967e/rnspure-0.5.1.tar.gz
+[2023-05-05 11:52:53] INFO root fetch - processPackages [rns]: executing diffoscope
+[2023-05-05 11:52:53] INFO root fetch - processPackages [rns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rns-0.5.0.tar.gz tmp/rns-0.5.1.tar.gz --markdown 20230505/r/rns/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-05 11:52:54] INFO root fetch - processPackages [rnspure]: executing diffoscope
+[2023-05-05 11:52:54] INFO root fetch - processPackages [rnspure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rnspure-0.5.0.tar.gz tmp/rnspure-0.5.1.tar.gz --markdown 20230505/r/rnspure/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-05 11:52:54] INFO root fetch - processPackages [chaostoolkit-reliably]: Start processing: proteus-preprocessing
+[2023-05-05 11:52:54] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-05-05 11:52:54] INFO root fetch - processPackages [proteus-preprocessing]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-05 11:52:54] INFO root fetch - processPackages [napari-correct-drift]: Start processing: myUniquePythonPackageName
+[2023-05-05 11:52:54] INFO root fetch - main [MainThread]: End processing [napari-correct-drift]: success
+[2023-05-05 11:52:54] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [5.5.106]
+[2023-05-05 11:52:54] INFO root fetch - processPackages [proteus-preprocessing]: executing diffoscope
+[2023-05-05 11:52:54] INFO root fetch - processPackages [proteus-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_preprocessing-0.2.8.tar.gz tmp/proteus_preprocessing-0.2.9.tar.gz --markdown 20230505/p/proteus-preprocessing/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-05 11:52:54] INFO root fetch - processPackages [aioca]: Start processing: QuantumIntelligence
+[2023-05-05 11:52:54] INFO root fetch - main [MainThread]: End processing [aioca]: success
+[2023-05-05 11:52:54] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-05-05 11:52:54] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-5.5.106.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230505/m/myUniquePythonPackageName/5.5.106-7.10.7/diff.md --exclude *.pyd
+[2023-05-05 11:52:54] INFO root fetch - processPackages [packagebinbin]: Start processing: mlcvzoo-yolox
+[2023-05-05 11:52:54] INFO root fetch - main [MainThread]: End processing [packagebinbin]: success
+[2023-05-05 11:52:54] INFO root fetch - processPackages [QuantumIntelligence]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-05 11:52:54] INFO root fetch - processPackages [mlcvzoo-yolox]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-05-05 11:52:54] INFO root fetch - processPackages [QuantumIntelligence]: Downloading https://files.pythonhosted.org/packages/ee/38/d4154e541f94b23ffb2a9830ca3e152056bf02b21572056c0cb14c19f375/QuantumIntelligence-0.0.6.tar.gz
+[2023-05-05 11:52:54] INFO root fetch - processPackages [mlcvzoo-yolox]: Downloading https://files.pythonhosted.org/packages/55/80/09dcaebeef2c604159328775a06fb0319b9e40113a142e3a9190325ea714/mlcvzoo_yolox-6.0.0.tar.gz
+[2023-05-05 11:52:55] INFO root fetch - processPackages [pyresidfp]: Start processing: kogito
+[2023-05-05 11:52:55] INFO root fetch - main [MainThread]: End processing [pyresidfp]: success
+[2023-05-05 11:52:55] INFO root fetch - processPackages [kogito]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-05-05 11:52:55] INFO root fetch - processPackages [QuantumIntelligence]: Downloading https://files.pythonhosted.org/packages/7b/13/387a5e5e5708cf126bfed3e7f3ab012c3d5650c3a18fb60623010fe01efb/QuantumIntelligence-0.0.7.tar.gz
+[2023-05-05 11:52:55] INFO root fetch - processPackages [QuantumIntelligence]: executing diffoscope
+[2023-05-05 11:52:55] INFO root fetch - processPackages [QuantumIntelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantumIntelligence-0.0.6.tar.gz tmp/QuantumIntelligence-0.0.7.tar.gz --markdown 20230505/Q/QuantumIntelligence/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-05 11:52:55] INFO root fetch - processPackages [pyroporn]: Start processing: sicli-cli
+[2023-05-05 11:52:55] INFO root fetch - main [MainThread]: End processing [pyroporn]: success
+[2023-05-05 11:52:55] INFO root fetch - processPackages [kogito]: Downloading https://files.pythonhosted.org/packages/ce/ba/9ca1efe163c5781b55f37135d0c7e11aed4f5ce450d946a49c54f62d2b4f/kogito-0.5.2.tar.gz
+[2023-05-05 11:52:55] WARNING root fetch - processPackages [sicli-cli]: Skipping, unable to determine old version
+[2023-05-05 11:52:55] INFO root fetch - main [MainThread]: End processing [sicli-cli] error
+[2023-05-05 11:52:55] INFO root fetch - processPackages [mlcvzoo-yolox]: Downloading https://files.pythonhosted.org/packages/4a/3c/8e4396a991c9a78ad5768e3fd3a456e64947eec8f27a5339ffa5e1d6e569/mlcvzoo_yolox-6.0.1.tar.gz
+[2023-05-05 11:52:55] INFO root fetch - processPackages [mlcvzoo-yolox]: executing diffoscope
+[2023-05-05 11:52:55] INFO root fetch - processPackages [mlcvzoo-yolox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcvzoo_yolox-6.0.0.tar.gz tmp/mlcvzoo_yolox-6.0.1.tar.gz --markdown 20230505/m/mlcvzoo-yolox/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-05-05 11:52:55] INFO root fetch - main [MainThread]: End processing [proteus-preprocessing]: success
+[2023-05-05 11:52:56] INFO root fetch - main [MainThread]: End processing [rns]: success
+[2023-05-05 11:52:56] INFO root fetch - processPackages [kogito]: Downloading https://files.pythonhosted.org/packages/8b/86/3ffc8d869fb9ac3f3575fbcbe291fa74d2384f3910a730e85999c077b613/kogito-0.6.0-py3-none-any.whl
+[2023-05-05 11:52:56] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-05-05 11:52:56] INFO root fetch - main [MainThread]: End processing [rnspure]: success
+[2023-05-05 11:52:56] INFO root fetch - main [MainThread]: End processing [QuantumIntelligence]: success
+[2023-05-05 11:52:56] INFO root fetch - main [MainThread]: End processing [qudi-hira-analysis]: success
+[2023-05-05 11:52:56] INFO root fetch - main [MainThread]: End processing [mlcvzoo-yolox]: success
+[2023-05-05 11:52:56] INFO root fetch - processPackages [kogito]: executing diffoscope
+[2023-05-05 11:52:56] INFO root fetch - processPackages [kogito]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230505:/home/abi/fetcher/20230505:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kogito-0.5.2.tar.gz tmp/kogito-0.6.0-py3-none-any.whl.zip --markdown 20230505/k/kogito/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-05-05 11:52:58] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
+[2023-05-05 11:53:04] INFO root fetch - main [MainThread]: End processing [kogito]: success
+[2023-05-05 11:53:04] INFO root fetch - main [MainThread]: Store serial: [17985038]
